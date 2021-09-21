@@ -771,7 +771,7 @@
 # text = mh.
 # timestamp = 1631022654839
 1	mh	mh	INTJ	_	_	0	root	_	AttachTo=13@Rhap_D0006-19|Rel=discourse|SpaceAfter=No
-2	,	,	PUNCT	_	_	3	punct	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
 
 # macrosyntax = "enfin" vraiment { cet ar~ | avec cet argent-là } <+ $- je me ( $L2 "mh" // ) -$ paye maintenant quasiment { tout | ( $L2 "mh mh" // ) ^à ^part { la nourriture | ^et le logement } } //
 # sent_id = Rhap_D0006-19quater
@@ -2703,22 +2703,10 @@
 # macrosyntax = "euh" -$ alors < un changement < ( $L2 "mh" // ) "euh" les crottes de chien //
 # sent_id = Rhap_D0006-105bis
 # speaker = L2
-# text = euh, alors, un changement, euh, les crottes de chien.
+# text = mh.
 # timestamp = 1631022654839
 1	mh	mh	INTJ	_	_	0	root	_	AttachTo=6@Rhap_D0006-105|Rel=discourse|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
-
-# macrosyntax = c'est vrai que depuis "euh" ESPERLUETTE //
-# sent_id = Rhap_D0006-106
-# speaker = L1
-# text = c'est vrai que depuis, euh…
-# timestamp = 1631022654839
-1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	_
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	vrai	vrai	ADJ	_	Gender=Masc|Number=Sing	2	comp:pred	_	_
-4	que	que	SCONJ	_	_	3	comp:obj@agent	_	_
-5	depuis	depuis	ADP	_	_	4	comp:obj@scrap	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	7	punct	_	_
 
 # macrosyntax = c'est vrai que depuis "euh" ESPERLUETTE //
 # sent_id = Rhap_D0006-106
@@ -2828,7 +2816,7 @@
 # macrosyntax = $L1 ^mais "euh" de plus en plus < je vois des gens { qui sont respectueux | ^et $- $L1 qui ramassent | ( $L2 XXX // -$ $L2 "mh mh" // ) $L1 { qui | qui | qui } prennent leur chien | qui les font faire leur besoin { { dans | dans } le trottoir |} } // $L2 {| dans le -$ $L2 caniveau } //
 # sent_id = Rhap_D0006-108ter
 # speaker = L2
-# text = mais, euh, de plus en plus, je vois des gens qui sont respectueux et qui ramassent, qui, qui prennent leur chien, qui les font faire leur besoin dans, dans le trottoir, dans le caniveau.
+# text = mh, mh.
 # timestamp = 1631022654839
 1	mh	mh	INTJ	_	_	0	root	_	AttachTo=19@Rhap_D0006-108|Rel=discourse|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
@@ -2853,76 +2841,6 @@
 1	oui	oui	INTJ	_	_	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	oui	oui	INTJ	_	_	1	conj:coord	_	SpaceAfter=No
-4	.	.	PUNCT	_	_	1	punct	_	_
-
-# macrosyntax = $L1 ^et "euh" moi < personnellement < j'aime beaucoup les animaux //
-# sent_id = Rhap_D0006-110
-# speaker = L1
-# text = et, euh, moi, personnellement, j'aime beaucoup les animaux.
-# timestamp = 1631022654839
-1	et	et	CCONJ	_	_	10	cc	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	_
-3	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	_
-5	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	10	dislocated	_	SpaceAfter=No
-
-# macrosyntax = $L1 ^mais "euh" de plus en plus < je vois des gens { qui sont respectueux | ^et $- $L1 qui ramassent | ( $L2 XXX // -$ $L2 "mh mh" // ) $L1 { qui | qui | qui } prennent leur chien | qui les font faire leur besoin { { dans | dans } le trottoir |} } // $L2 {| dans le -$ $L2 caniveau } //
-# sent_id = Rhap_D0006-108ter
-# speaker = L2
-# text = mais, euh, de plus en plus, je vois des gens qui sont respectueux et qui ramassent, qui, qui prennent leur chien, qui les font faire leur besoin dans, dans le trottoir, dans le caniveau.
-# timestamp = 1631022654839
-1	mh	mh	INTJ	_	_	0	root	_	AttachTo=19@Rhap_D0006-108|Rel=discourse|SpaceAfter=No
-2	,	,	PUNCT	_	_	3	punct	_	_
-3	mh	mh	INTJ	_	_	1	conj:dicto	_	SpaceAfter=No
-4	.	.	PUNCT	_	_	1	punct	_	_
-
-# macrosyntax = $L2 {| dans le -$ $L2 caniveau } //
-# sent_id = Rhap_D0006-108quater
-# speaker = L2
-# text = dans le caniveau.
-# timestamp = 1631022654839
-1	dans	dans	ADP	_	_	0	root	_	AttachTo=41@Rhap_D0006-108|Overlap=Rhap_D0006-108|Rel=conj:dicto
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Overlap=Rhap_D0006-108
-3	caniveau	caniveau	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	SpaceAfter=No
-4	.	.	PUNCT	_	_	1	punct	_	_
-
-# macrosyntax = { oui | oui } //
-# sent_id = Rhap_D0006-109
-# speaker = $L2
-# text = oui, oui.
-# timestamp = 1631022654839
-1	oui	oui	INTJ	_	_	0	root	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	3	punct	_	_
-3	oui	oui	INTJ	_	_	1	conj:coord	_	SpaceAfter=No
-4	.	.	PUNCT	_	_	1	punct	_	_
-
-# macrosyntax = $L1 ^et "euh" moi < personnellement < j'aime beaucoup les animaux //
-# sent_id = Rhap_D0006-110
-# speaker = L1
-# text = et, euh, moi, personnellement, j'aime beaucoup les animaux.
-# timestamp = 1631022654839
-1	et	et	CCONJ	_	_	10	cc	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	1	punct	_	_
-3	euh	euh	INTJ	_	_	10	discourse	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	3	punct	_	_
-5	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	10	dislocated	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	5	punct	_	_
-7	personnellement	personnellement	ADV	_	_	10	mod	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	7	punct	_	_
-9	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	10	subj	_	_
-10	aime	aimer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-11	beaucoup	beaucoup	ADV	_	_	10	mod	_	_
-12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
-13	animaux	animal	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	SpaceAfter=No
-
-# macrosyntax = $L2 {| dans le -$ $L2 caniveau } //
-# sent_id = Rhap_D0006-108quater
-# speaker = L2
-# text = dans le caniveau.
-# timestamp = 1631022654839
-1	dans	dans	ADP	_	_	0	root	_	AttachTo=41@Rhap_D0006-108|Overlap=Rhap_D0006-108|Rel=conj:dicto
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Overlap=Rhap_D0006-108
-3	caniveau	caniveau	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # macrosyntax = { oui | oui } //
