@@ -134,7 +134,7 @@
 18	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	21	subj	_	_
 19	ne	ne	ADV	_	Polarity=Neg	21	mod	_	_
 20	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	23	comp:obj	_	_
-21	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	parataxis:obj	_	Reported=Yes
+21	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	comp:obj	_	Reported=Yes
 22	pas	pas	ADV	_	Polarity=Neg	21	mod	_	_
 23	inventés	inventer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	comp:aux	_	_
 24	plus	plus	ADV	_	_	25	mod	_	_
@@ -2505,11 +2505,11 @@
 5	euh	euh	INTJ	_	_	3	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	12	punct	_	_
 7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	subj	_	_
-8	n~	n~	ADV	_	_	7	conj:dicto	_	SpaceAfter=No
+8	n~	n~	ADV	_	_	7	unk@scrap	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	conj:dicto	_	_
 11	ne	ne	ADV	_	Polarity=Neg	12	mod	_	_
-12	comprend	comprendre	VERB	CCOMP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis:obj	_	Reported=Yes
+12	comprend	comprendre	VERB	CCOMP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj		_	Reported=Yes
 13	pas	pas	ADV	_	Polarity=Neg	12	mod	_	_
 14	qu'	que	SCONJ	_	_	12	comp:obj	_	_
 15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -2616,8 +2616,8 @@
 # text = et ils vous…
 # timestamp = 1631022667030
 1	et	et	CCONJ	_	_	0	root@scrap	_	_
-2	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	conj:dicto	_	_
-3	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	conj:dicto	_	SpaceAfter=No
+2	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	unk@scrap	_	_
+3	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	unk@scrap	_	SpaceAfter=No
 4	…	…	PUNCT	_	_	1	punct	_	_
 
 # macrosyntax = et c'est ESPERLUETTE //
@@ -2982,7 +2982,7 @@
 9	mais	mais	CCONJ	_	_	12	cc	_	_
 10	pourquoi	pourquoi	ADV	_	_	12	mod	_	_
 11	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	comp:obl	_	_
-12	donnerait	donner	VERB	CCOMP	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis:obj	_	Reported=Yes
+12	donnerait	donner	VERB	CCOMP	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj		_	Reported=Yes
 13	-on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	subj	_	_
 14	pas	pas	ADV	_	Polarity=Neg	12	mod	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -4842,7 +4842,7 @@
 # text = je n~ me demande d'ailleurs si, euh, l'arrivée du berger dans Le Roi Roger, ce berger qui, euh, amène d'autres, d'autres valeurs, si vous voulez, dans un monde qui est figé, euh, ne rappelle pas un peu l'arrivée de Lohengrin.
 # timestamp = 1631022667031
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
-2	n~	n~	ADV	_	_	4	comp:obl	_	_
+2	n~	n~	ADV	_	_	4	comp:obl@scrap	_	_
 3	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	2	conj:dicto	_	_
 4	demande	demander	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	d'	de	ADP	_	_	4	mod	_	_
@@ -5345,7 +5345,7 @@
 40	,	,	PUNCT	_	_	41	punct	_	_
 41	si	si	SCONJ	_	_	39	conj:dicto	_	_
 42	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	43	subj	_	_
-43	dois	devoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	41	comp:obj	_	Reported=Yes
+43	dois	devoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	41	comp:obj	_	_
 44	aller	aller	VERB	ETRE	VerbForm=Inf	43	comp:obj@x	_	_
 45	dans	dans	ADP	_	_	44	comp:obl	_	_
 46	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
@@ -5379,7 +5379,7 @@
 74	,	,	PUNCT	_	_	73	punct	_	_
 75	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	77	subj	_	_
 76	ne	ne	ADV	_	Polarity=Neg	77	mod	_	_
-77	vaut	valoir	VERB	CCOMP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	parataxis:obj	_	_
+77	vaut	valoir	VERB	CCOMP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	comp:obj	_	Reported=Yes
 78	plus	plus	ADV	_	_	77	mod	_	_
 79	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	80	det	_	_
 80	peine	peine	NOUN	_	Gender=Fem|Number=Sing	77	comp:obj	_	SpaceAfter=No
@@ -5961,7 +5961,7 @@
 3	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	subj	_	_
 5	ne	ne	ADV	_	Polarity=Neg	6	mod	_	_
-6	pouvait	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	parataxis:obj	_	Reported=Yes
+6	pouvait	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	comp:obj		_	Reported=Yes
 7	pas	pas	ADV	_	Polarity=Neg	6	mod	_	_
 8	s'	se	PRON	_	Person=3|PronType=Prs	9	comp	_	InIdiom=Yes
 9	empêcher	empêcher	VERB	CCOMP	VerbForm=Inf	6	comp:obj@x	_	ExtPos=VERB|Idiom=Yes
@@ -6676,7 +6676,7 @@
 12	en	en	ADP	_	_	3	mod	_	_
 13	disant	dire	VERB	_	Tense=Pres|VerbForm=Part	12	comp:obj	_	_
 14	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	subj	_	_
-15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	parataxis:obj	_	Reported=Yes
+15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	comp:obj		_	Reported=Yes
 16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	scénario	scénario	NOUN	_	Gender=Masc|Number=Sing	15	comp:pred	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	3	punct	_	_
@@ -7496,8 +7496,9 @@
 # timestamp = 1631022667031
 1	mais	mais	CCONJ	_	_	0	root	_	_
 2	enfin	enfin	ADV	_	_	1	cc	_	_
-3	de~	de~	X	_	_	2	conj:dicto	_	_
-4	XXX	XXX	X	_	_	1	unk@scrap	_	SpaceAfter=No
+3	de~	de~	X	_	_	2	unk@scrap	_	_
+4	XXX	XXX	X	_	_	3	unk@scrap	_	SpaceAfter=No
+5	…	…	PUNCT	_	_	1	punct	_	_
 
 # macrosyntax = "pardonnez-moi" si [ ça < c'était "on va dire" une des estimations à "euh" potentiel raisonnable ] < { le | le | l' } estimation inquiétante < c'est quoi //
 # sent_id = Rhap_D2008-63
@@ -8035,7 +8036,7 @@
 12	mal	mal	ADV	_	_	11	mod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	9	punct	_	_
 14	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	subj	_	_
-15	est	être	AUX	CCOMP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis:obj	_	Reported=Yes|SpaceAfter=No
+15	est	être	AUX	CCOMP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj		_	Reported=Yes|SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
@@ -8201,7 +8202,7 @@
 8	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	subj	_	_
-11	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis:obj	_	Reported=Yes
+11	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj		_	Reported=Yes
 12-13	aux	_	_	_	_	_	_	_	_
 12	à	à	ADP	_	_	11	comp:obl	_	_
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
@@ -8220,7 +8221,7 @@
 5	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
 7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	subj	_	_
-8	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis:obj	_	Reported=Yes
+8	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj		_	Reported=Yes
 9-10	aux	_	_	_	_	_	_	_	_
 9	à	à	ADP	_	_	8	comp:obl	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
@@ -8346,7 +8347,7 @@
 4	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	6	comp:obl	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux	_	_
-7	faut	falloir	VERB	CCOMP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis:obj	_	Reported=Yes
+7	faut	falloir	VERB	CCOMP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj		_	Reported=Yes
 8	se	se	PRON	_	Person=3|PronType=Prs	9	comp	_	InIdiom=Yes
 9	méfier	méfier	VERB	_	VerbForm=Inf	7	comp:obj@x	_	ExtPos=VERB|Idiom=Yes
 10-11	du	_	_	_	_	_	_	_	_
@@ -9155,7 +9156,7 @@
 10	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	11	comp:obl	_	_
 11	disant	dire	VERB	_	Tense=Pres|VerbForm=Part	9	comp:obj	_	_
 12	qu'	que	PRON	_	Person=3|PronType=Int	13	comp:pred	_	_
-13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis:obj	_	Reported=Yes
+13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	comp:obj		_	Reported=Yes
 14	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	subj@expl	_	_
 15	qu'	que	PRON	_	PronType=Rel	17	comp:obj	_	_
 16	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	subj	_	_
@@ -9186,11 +9187,11 @@
 12	bulletin	bulletin	NOUN	_	Gender=Masc|Number=Sing	6	conj:dicto	_	_
 13	trimestriel	trimestriel	ADJ	_	Gender=Masc|Number=Sing	12	mod	_	_
 14	de	de	ADP	_	_	12	udep	_	_
-15	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	19	det	_	SpaceAfter=No
+15	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	14	unk@scrap	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
-17	de	de	ADP	_	_	15	conj:dicto	_	_
-18	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	17	conj:dicto	_	_
-19	fille	fille	NOUN	_	Gender=Fem|Number=Sing	14	comp:obj	_	SpaceAfter=No
+17	de	de	ADP	_	_	14	conj:dicto	_	_
+18	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	19	det	_	_
+19	fille	fille	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	2	punct	_	_
 21	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	24	subj	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	_
@@ -10476,8 +10477,8 @@
 # sent_id = Rhap_M2003-37
 # text = que de nuits de souffrance dans notre humanité.
 # timestamp = 1631022667031
-1	que	que	ADV	_	_	0	root	_	_
-2	de	de	ADP	_	_	1	comp:obl	_	Reported=Yes
+1	que	que	ADV	_	_	0	root	_	Reported=Yes
+2	de	de	ADP	_	_	1	comp:obl	_	_
 3	nuits	nuit	NOUN	_	Gender=Fem|Number=Plur	2	comp:obj	_	_
 4	de	de	ADP	_	_	3	udep	_	_
 5	souffrance	souffrance	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
@@ -11102,7 +11103,7 @@
 3	euh	euh	INTJ	_	_	18	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	si	si	SCONJ	_	_	18	mod	_	_
-6	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	conj:dicto	_	SpaceAfter=No
+6	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	unk@scrap	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	si	si	SCONJ	_	_	6	conj:dicto	_	_
 9	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	10	subj	_	_
@@ -12702,12 +12703,12 @@
 # speaker = L2
 # text = je ne s~, n'aurais certainement pas débuté à ce moment-là comme, euh, une jeune journaliste.
 # timestamp = 1631022667032
-1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	_
-2	ne	ne	ADV	_	Polarity=Neg	1	conj:dicto	_	_
-3	s~	s~	X	_	_	2	conj:dicto	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	1	punct	_	_
+1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
+2	ne	ne	ADV	_	Polarity=Neg	3	mod	_	_
+3	s~	s~	AUX	_	_	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	6	punct	_	_
 5	n'	ne	ADV	_	Polarity=Neg	6	mod	_	_
-6	aurais	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	aurais	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj:dicto	_	_
 7	certainement	certainement	ADV	_	_	6	mod	_	_
 8	pas	pas	ADV	_	Polarity=Neg	6	mod	_	_
 9	débuté	débuter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux	_	_
@@ -12722,7 +12723,7 @@
 18	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 19	jeune	jeune	ADJ	_	Gender=Fem|Number=Sing	20	mod	_	_
 20	journaliste	journaliste	NOUN	_	Gender=Fem|Number=Sing	14	comp:obj	_	SpaceAfter=No
-21	.	.	PUNCT	_	_	6	punct	_	_
+21	.	.	PUNCT	_	_	3	punct	_	_
 
 # macrosyntax = pourquoi //
 # sent_id = Rhap_D2001-60bis
@@ -13145,7 +13146,7 @@
 11	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	14	subj	_	_
 12	n'	ne	ADV	_	Polarity=Neg	14	mod	_	_
 13	en	en	PRON	_	Person=3|PronType=Prs	14	comp:obj	_	_
-14	sortirai	sortir	VERB	ETRE	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	10	parataxis:obj	_	Reported=Yes
+14	sortirai	sortir	VERB	ETRE	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	10	comp:obj		_	Reported=Yes
 15	jamais	jamais	ADV	_	_	14	mod	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -13416,7 +13417,7 @@
 3	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	ExtPos=VERB|Idiom=Yes
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	_
-6	vais	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis:obj	_	Reported=Yes
+6	vais	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	comp:obj		_	Reported=Yes
 7	apprendre	apprendre	VERB	CCOMP	VerbForm=Inf	6	comp:obj@x	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	sténodactylo	sténodactylo	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	SpaceAfter=No
@@ -13682,8 +13683,8 @@
 # timestamp = 1631022667032
 1	donc	donc	ADV	_	_	0	root@scrap	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	conj:dicto	_	_
-4	ne	ne	ADV	_	Polarity=Neg	3	conj:dicto	_	SpaceAfter=No
+3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	unk@scrap	_	_
+4	ne	ne	ADV	_	Polarity=Neg	3	unk@scrap	_	SpaceAfter=No
 5	…	…	PUNCT	_	_	1	punct	_	_
 
 # macrosyntax = ce qui quand même n'était pas très sérieux //
@@ -13780,7 +13781,7 @@
 4	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
 5	mais	mais	CCONJ	_	_	7	cc	_	_
 6	qu'	que	PRON	_	Person=3|PronType=Int	7	comp:pred	_	_
-7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis:obj	_	Reported=Yes
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj		_	Reported=Yes
 8	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	subj@expl	_	_
 9	que	que	PRON	_	PronType=Rel	11	comp:obj	_	_
 10	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	11	subj	_	_
@@ -13806,7 +13807,7 @@
 9	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	discourse	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	12	subj	_	_
-12	vends	vendre	VERB	CCOMP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis:obj	_	Reported=Yes
+12	vends	vendre	VERB	CCOMP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	comp:obj		_	Reported=Yes
 13	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
 14	livres	livre	NOUN	_	Gender=Masc|Number=Plur	12	comp:obl	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	3	punct	_	_
@@ -13821,7 +13822,7 @@
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
 5	qu'	que	PRON	_	Person=3|PronType=Int	6	comp:pred	_	_
-6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis:obj	_	Reported=Yes
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj		_	Reported=Yes
 7	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj@expl	_	_
 8	que	que	PRON	_	PronType=Rel	10	comp:obj	_	_
 9	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	10	subj	_	_
@@ -13838,7 +13839,7 @@
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	_
-6	gagne	gagner	VERB	CCOMP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis:obj	_	Reported=Yes
+6	gagne	gagner	VERB	CCOMP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	comp:obj		_	Reported=Yes
 7	trois	trois	NUM	_	Number=Plur	9	det	_	_
 8	cents	cents	NUM	_	Number=Plur	7	flat	_	_
 9	francs	franc	NOUN	_	Gender=Masc|Number=Plur	6	comp:obj	_	_
@@ -13858,7 +13859,7 @@
 5	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	_
 6	mais	mais	CCONJ	_	_	8	cc	_	_
 7	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	8	subj	_	_
-8	perds	perdre	VERB	CCOMP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	parataxis:obj	_	Reported=Yes
+8	perds	perdre	VERB	CCOMP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	comp:obj		_	Reported=Yes
 9	ton	son	DET	_	Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=2|PronType=Prs	10	det	_	_
 10	temps	temps	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	4	punct	_	_
@@ -13881,7 +13882,7 @@
 11	attendant	attendre	VERB	_	Tense=Pres|VerbForm=Part	10	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 12	,	,	PUNCT	_	_	10	punct	_	_
 13	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	14	subj	_	_
-14	paie	payer	VERB	CCOMP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis:obj	_	Reported=Yes
+14	paie	payer	VERB	CCOMP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	comp:obj		_	Reported=Yes
 15	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	16	det	_	_
 16	loyer	loyer	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
@@ -13937,7 +13938,7 @@
 9	tout	tout	ADJ	_	Gender=Masc|Number=Sing	10	mod	_	_
 10	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	subj	_	_
 11	n'	ne	ADV	_	Polarity=Neg	12	mod	_	_
-12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis:obj	_	Reported=Yes
+12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj		_	Reported=Yes
 13	pas	pas	ADV	_	Polarity=Neg	12	mod	_	_
 14	sérieux	sérieux	ADJ	_	Gender=Masc|Number=Sing	12	comp:pred	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	4	punct	_	_
@@ -14249,16 +14250,16 @@
 # speaker = L2
 # text = je ne r~, serais pas devenue une vedette.
 # timestamp = 1631022667032
-1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj@pass	_	_
-2	ne	ne	ADV	_	Polarity=Neg	5	mod	_	_
-3	r~	r~	VERB	_	_	2	conj:dicto	_	SpaceAfter=No
+1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj@pass	_	_
+2	ne	ne	ADV	_	Polarity=Neg	3	mod	_	_
+3	r~	r~	VERB	_	_	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
-5	serais	être	AUX	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	serais	être	AUX	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj:dicto	_	_
 6	pas	pas	ADV	_	Polarity=Neg	5	mod	_	_
 7	devenue	devenir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@pass	_	_
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	vedette	vedette	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	5	punct	_	_
+10	.	.	PUNCT	_	_	3	punct	_	_
 
 # macrosyntax = je crois véritablement que je n'étais { pas |} douée pour ça //+ {| pas du tout } //
 # sent_id = Rhap_D2001-131
@@ -16952,11 +16953,11 @@
 83	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	77	mod@relcl	_	_
 84	trait	trait	NOUN	_	Gender=Masc|Number=Sing	83	comp:obj	_	_
 85	à	à	ADP	_	_	84	udep	_	_
-86	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	90	det	_	SpaceAfter=No
+86	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	85	unk@scrap	_	SpaceAfter=No
 87	,	,	PUNCT	_	_	88	punct	_	_
-88	à	à	ADP	_	_	86	conj:dicto	_	_
-89	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	88	conj:dicto	_	_
-90	vie	vie	NOUN	_	Gender=Fem|Number=Sing	85	comp:obj	_	_
+88	à	à	ADP	_	_	85	conj:dicto	_	_
+89	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	90	det	_	_
+90	vie	vie	NOUN	_	Gender=Fem|Number=Sing	88	comp:obj	_	_
 91	chrétienne	chrétien	ADJ	_	Gender=Fem|Number=Sing	90	mod	_	SpaceAfter=No
 92	.	.	PUNCT	_	_	10	punct	_	_
 
