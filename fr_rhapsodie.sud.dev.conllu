@@ -1942,7 +1942,7 @@
 # speaker = L1
 # text = n'importe qui pourrait pas être chirurgien.
 1	n'	ne	ADV	_	Polarity=Neg	2	mod	_	SpaceAfter=No
-2	importe	importer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	subj	_	ExtPos=VERB|Idiom=Yes
+2	importe	importer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	subj	_	ExtPos=PRON|Idiom=Yes
 3	qui	qui	PRON	_	PronType=Rel	2	unk	_	InIdiom=Yes
 4	pourrait	pouvoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
@@ -2096,7 +2096,7 @@
 # sent_id = Rhap_D0006-81
 # speaker = L1
 # text = n'importe quand.
-1	n'	ne	ADV	_	Polarity=Neg	0	root	_	ExtPos=PRON|Idiom=YesIdiom=Yes|SpaceAfter=No
+1	n'	ne	ADV	_	Polarity=Neg	0	root	_	ExtPos=PRON|Idiom=Yes|SpaceAfter=No
 2	importe	importer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	unk	_	InIdiom=Yes
 3	quand	quand	ADV	_	_	2	unk	_	AttachTo=4@Rhap_D0006-80|InIdiom=Yes|Rel=parataxis:conj|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
@@ -9311,7 +9311,7 @@
 # sent_id = Rhap_D2007-7bis
 # speaker = L1
 # text = c'est-à-dire.
-1	c'est-à-dire	c'est-à-dire	CCONJ	_	_	0	root	_	AttachTo=5@Rhap_D2007-7|ExtPos=CCONJ|Idiom=Yes|Overlap=Rhap_D2007-7ter|Rel=parataxis:conj|SpaceAfter=No
+1	c'est-à-dire	c'est-à-dire	CCONJ	_	_	0	root	_	AttachTo=5@Rhap_D2007-7|Overlap=Rhap_D2007-7ter|Rel=parataxis:conj|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D2007-7ter
 
 # macrosyntax = $L3 ouais // -$
@@ -13796,9 +13796,9 @@
 # text = et nous nous sommes installés dans ce petit appartement.
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	4	subj	_	_
-3	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	5	comp	_	InIdiom=Yes
+3	nous	se	PRON	_	Number=Plur|Person=1|PronType=Prs	5	comp	_	_
 4	sommes	être	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	installés	installer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	comp:aux	_	ExtPos=VERB|Idiom=Yes
+5	installés	installer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	comp:aux	_	_
 6	dans	dans	ADP	_	_	5	comp:obl	_	_
 7	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
 8	petit	petit	ADJ	_	Gender=Masc|Number=Sing	9	mod	_	_
