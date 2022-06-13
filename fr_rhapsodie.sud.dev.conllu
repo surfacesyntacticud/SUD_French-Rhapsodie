@@ -10030,7 +10030,7 @@
 5	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	subj	_	_
 6	ne	ne	ADV	_	Polarity=Neg	7	mod	_	_
 7	baise	baiser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
-8	que	que	ADV	_	_	7	mod	_	_
+8	que	que	ADV	_	Polarity=Neg	7	mod	_	_
 9	dans	dans	ADP	_	_	7	mod	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	voitures	voiture	NOUN	_	Gender=Fem|Number=Plur	9	comp:obj	_	SpaceAfter=No
@@ -10435,7 +10435,7 @@
 # text = tu peux jamais avoir de la peine pour eux, quoi.
 1	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	2	subj	_	_
 2	peux	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	jamais	jamais	ADV	_	_	2	mod	_	_
+3	jamais	jamais	ADV	_	PronType=Neg	2	mod	_	_
 4	avoir	avoir	VERB	_	VerbForm=Inf	2	comp:obj@x	_	_
 5	de	de	ADP	_	_	7	det	_	ExtPos=DET|Idiom=Yes
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	unk	_	InIdiom=Yes
@@ -10709,17 +10709,17 @@
 # text = j'ai jamais m~, j'ai jamais, je me suis jamais mariée.
 1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No
 2	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	jamais	jamais	ADV	_	_	2	mod	_	_
+3	jamais	jamais	ADV	_	PronType=Neg	2	mod	_	_
 4	m~	m~	X	_	_	3	conj:dicto	_	ExtPos=X|SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	SpaceAfter=No
 7	ai	avoir	VERB	conj:reform	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj:dicto	_	_
-8	jamais	jamais	ADV	_	_	7	mod	_	SpaceAfter=No
+8	jamais	jamais	ADV	_	PronType=Neg	7	mod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	12	subj	_	_
 11	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	14	comp@expl	_	_
 12	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	conj:dicto	_	_
-13	jamais	jamais	ADV	_	_	12	mod	_	_
+13	jamais	jamais	ADV	_	PronType=Neg	12	mod	_	_
 14	mariée	marier	VERB	conj:reform	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -10794,7 +10794,7 @@
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
 2	n'	ne	ADV	_	Polarity=Neg	3	mod	_	SpaceAfter=No
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	jamais	jamais	ADV	_	_	3	mod	_	_
+4	jamais	jamais	ADV	_	PronType=Neg	3	mod	_	_
 5	trompé	tromper	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
 6	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	7	det	_	_
 7	mari	mari	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	SpaceAfter=No
@@ -12203,7 +12203,7 @@
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
 2	n'	ne	ADV	_	Polarity=Neg	3	mod	_	SpaceAfter=No
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	jamais	jamais	ADV	_	_	3	mod	_	_
+4	jamais	jamais	ADV	_	PronType=Neg	3	mod	_	_
 5	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	environnement	environnement	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
@@ -12752,7 +12752,7 @@
 # text = je serais jamais ingénieur.
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	serais	être	AUX	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	jamais	jamais	ADV	_	_	2	mod	_	_
+3	jamais	jamais	ADV	_	PronType=Neg	2	mod	_	_
 4	ingénieur	ingénieur	NOUN	_	Gender=Masc|Number=Sing	2	comp:pred	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -12931,7 +12931,7 @@
 # text = j'ai jamais eu envie d'aller faire une carrière politique.
 1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	jamais	jamais	ADV	_	_	2	mod	_	_
+3	jamais	jamais	ADV	_	PronType=Neg	2	mod	_	_
 4	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux	_	_
 5	envie	envie	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
 6	d'	de	ADP	_	_	5	udep	_	SpaceAfter=No
@@ -13813,7 +13813,7 @@
 2	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	3	subj@pass	_	_
 3	sommes	être	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	plus	plus	ADV	_	_	5	mod	_	_
-5	jamais	jamais	ADV	_	_	3	mod	_	_
+5	jamais	jamais	ADV	_	PronType=Neg	3	mod	_	_
 6	repartis	repartir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	comp:aux@pass	_	_
 7	de	de	ADP	_	_	6	comp:obl	_	_
 8	Paris	Paris	PROPN	_	_	7	comp:obj	_	SpaceAfter=No
@@ -14141,7 +14141,7 @@
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	SpaceAfter=No
 6	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj:dicto	_	_
-7	jamais	jamais	ADV	_	_	6	mod	_	_
+7	jamais	jamais	ADV	_	PronType=Neg	6	mod	_	_
 8	très	très	ADV	_	_	9	mod	_	_
 9	bien	bien	ADV	_	_	6	mod	_	_
 10	compris	comprendre	VERB	conj:reform	Gender=Masc|Tense=Past|VerbForm=Part	6	comp:aux	_	_
@@ -14986,7 +14986,7 @@
 1	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	subj	_	_
 2	ne	ne	ADV	_	Polarity=Neg	3	mod	_	_
 3	parlent	parler	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AttachTo=8@Rhap_D0002-41|Rel=parataxis:conj
-4	jamais	jamais	ADV	_	_	3	mod	_	_
+4	jamais	jamais	ADV	_	PronType=Neg	3	mod	_	_
 5	français	français	ADJ	_	Gender=Masc	3	comp:obj	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -15085,7 +15085,7 @@
 32	qui	qui	PRON	_	PronType=Rel	34	subj	_	_
 33	n'	ne	ADV	_	Polarity=Neg	39	mod	_	SpaceAfter=No
 34	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	conj:coord	_	_
-35	jamais	jamais	ADV	_	_	39	mod	_	_
+35	jamais	jamais	ADV	_	PronType=Neg	39	mod	_	_
 36	été	être	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	comp:aux	_	_
 37	à	à	ADP	_	_	36	comp:obl	_	_
 38	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	39	det	_	SpaceAfter=No
@@ -15147,7 +15147,7 @@
 17	ans	an	NOUN	_	Gender=Masc|Number=Plur	14	comp:obj	_	Overlap=Rhap_D0002-48bis
 18	qui	qui	PRON	_	PronType=Rel	19	subj	_	Overlap=Rhap_D0002-48bis
 19	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	mod@relcl	_	Overlap=Rhap_D0002-48bis
-20	jamais	jamais	ADV	_	_	19	mod	_	_
+20	jamais	jamais	ADV	_	PronType=Neg	19	mod	_	_
 21	tenu	tenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	comp:aux	_	_
 22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	Overlap=Rhap_D0002-48ter
 23	crayon	crayon	NOUN	_	Gender=Masc|Number=Sing	21	comp:obj	_	Overlap=Rhap_D0002-48ter|SpaceAfter=No
