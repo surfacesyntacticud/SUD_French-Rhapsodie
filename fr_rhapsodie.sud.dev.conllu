@@ -1224,7 +1224,7 @@
 26	,	,	PUNCT	_	_	22	punct	_	_
 27	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	subj@expl	_	_
 28	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	comp:obj	_	_
-29	être	être	AUX	_	VerbForm=Inf	28	subj@expl	_	_
+29	être	être	AUX	_	VerbForm=Inf	28	comp:obj@x	_	_
 30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	spécialiste	spécialiste	NOUN	_	Gender=Masc|Number=Sing	29	comp:pred	_	_
 32-33	du	_	_	_	_	_	_	_	_
@@ -2807,7 +2807,7 @@
 13	Pointe-à-Pitre	Pointe-à-Pitre	PROPN	_	_	12	comp:obj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	Jacques	Jacques	PROPN	_	_	11	conj:appos	_	_
-16	Bangou	Bangou	PROPN	_	_	15	flat	_	SpaceAfter=No
+16	Bangou	Bangou	PROPN	_	_	15	flat@name	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	_
 18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	cri	cri	NOUN	_	Gender=Masc|Number=Sing	11	orphan	_	_
@@ -2833,7 +2833,7 @@
 13	spécial	spécial	ADJ	_	Gender=Masc|Number=Sing	12	mod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	Sébastien	Sébastien	PROPN	_	_	12	mod@appos	_	_
-16	Paour	Paour	PROPN	_	_	15	flat	_	SpaceAfter=No
+16	Paour	Paour	PROPN	_	_	15	flat@name	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	dans	dans	ADP	_	_	2	mod	_	_
 19	quelques	quelque	DET	_	Number=Plur|PronType=Ind	20	mod	_	_
@@ -2881,7 +2881,7 @@
 6	attendu	attendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	mod	_	_
 7	entre	entre	ADP	_	_	2	udep	_	_
 8	Nicolas	Nicolas	PROPN	_	_	7	comp:obj	_	_
-9	Sarkozy	Sarkozy	PROPN	_	_	8	flat	_	SpaceAfter=No
+9	Sarkozy	Sarkozy	PROPN	_	_	8	flat@name	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	syndicats	syndicat	NOUN	_	Gender=Masc|Number=Plur	8	conj:coord	_	_
@@ -2895,12 +2895,12 @@
 # text = pour Bernard Van Craeynest de la CFE CGC, la priorité, c'est bien de sauver les emplois.
 1	pour	pour	ADP	_	_	14	mod	_	_
 2	Bernard	Bernard	PROPN	_	_	1	comp:obj	_	_
-3	Van	Van	PROPN	_	_	2	flat	_	_
-4	Craeynest	Craeynest	PROPN	_	_	3	flat	_	_
+3	Van	Van	PROPN	_	_	2	flat@name	_	_
+4	Craeynest	Craeynest	PROPN	_	_	3	flat@name	_	_
 5	de	de	ADP	_	_	2	mod	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	CFE	CFE	PROPN	_	_	5	comp:obj	_	_
-8	CGC	CGC	PROPN	_	Gender=Fem|Number=Sing	7	flat	_	SpaceAfter=No
+8	CGC	CGC	PROPN	_	Gender=Fem|Number=Sing	7	flat@name	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	1	punct	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	priorité	priorité	NOUN	_	Gender=Fem|Number=Sing	14	dislocated	_	SpaceAfter=No
@@ -3052,7 +3052,7 @@
 3	suivre	suivre	VERB	_	VerbForm=Inf	2	comp:obj	_	_
 4	avec	avec	ADP	_	_	3	mod	_	_
 5	Hélène	Hélène	PROPN	_	_	4	comp:obj	_	_
-6	Chevalier	Chevalier	PROPN	_	_	5	flat	_	_
+6	Chevalier	Chevalier	PROPN	_	_	5	flat@name	_	_
 7-8	au	_	_	_	_	_	_	_	_
 7	à	à	ADP	_	_	3	mod	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -3151,7 +3151,7 @@
 27	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	26	comp:obj	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	_
 29	Jean-François	Jean-François	PROPN	_	_	27	conj:appos	_	_
-30	Achilli	Achilli	PROPN	_	_	29	flat	_	SpaceAfter=No
+30	Achilli	Achilli	PROPN	_	_	29	flat@name	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	14	punct	_	_
 
 # macrosyntax = alors < passons maintenant { au détail des mesures discutées | ^et aux attentes { des syndicats | ^et du patronat } } //
@@ -3218,7 +3218,7 @@
 # text = mais Sara Ghibaudo, il ne pourra pas contenter tout le monde.
 1	mais	mais	CCONJ	_	_	7	cc	_	_
 2	Sara	Sara	PROPN	_	_	7	vocative	_	_
-3	Ghibaudo	Ghibaudo	PROPN	_	_	2	flat	_	SpaceAfter=No
+3	Ghibaudo	Ghibaudo	PROPN	_	_	2	flat@name	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj	_	_
 6	ne	ne	ADV	_	Polarity=Neg	7	mod	_	_
@@ -3312,7 +3312,7 @@
 6	Échos	Échos	PROPN	_	_	3	conj:coord	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	France	France	PROPN	_	_	6	conj:coord	_	_
-9	Info	Info	PROPN	_	_	8	flat	_	_
+9	Info	Info	PROPN	_	_	8	flat@name	_	_
 10	réalisé	réaliser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	mod	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	treize	treize	NUM	_	Number=Plur	10	mod	_	_
@@ -3362,7 +3362,7 @@
 # text = bonjour Sébastien Paour.
 1	bonjour	bonjour	NOUN	_	_	0	root	_	ExtPos=INTJ
 2	Sébastien	Sébastien	PROPN	_	_	1	vocative	_	_
-3	Paour	Paour	PROPN	_	_	2	flat	_	SpaceAfter=No
+3	Paour	Paour	PROPN	_	_	2	flat@name	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # macrosyntax = vous vous trouvez au Gosier //
@@ -3392,7 +3392,7 @@
 # text = merci Sébastien Paour.
 1	merci	merci	INTJ	_	_	0	root	_	_
 2	Sébastien	Sébastien	PROPN	_	_	1	vocative	_	_
-3	Paour	Paour	PROPN	_	_	2	flat	_	SpaceAfter=No
+3	Paour	Paour	PROPN	_	_	2	flat@name	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # macrosyntax = on vous retrouve pour un nouveau point dans le journal de huit heures //
@@ -3452,7 +3452,7 @@
 13	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	comp:obj	_	_
 14	que	que	PRON	_	PronType=Rel	17	comp:obj	_	_
 15	Nicolas	Nicolas	PROPN	_	_	17	subj	_	_
-16	Sarkozy	Sarkozy	PROPN	_	_	15	flat	_	_
+16	Sarkozy	Sarkozy	PROPN	_	_	15	flat@name	_	_
 17	annoncera	annoncer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	mod@relcl	_	_
 18	demain	demain	ADV	_	_	17	mod	_	_
 19	lors	lors	ADV	_	_	17	mod	_	_
@@ -3582,7 +3582,7 @@
 5	Unef	Unef	PROPN	_	_	3	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	Jean-Baptiste	Jean-Baptiste	PROPN	_	_	2	flat	_	_
-8	Prévot	Prévot	PROPN	_	_	7	flat	_	SpaceAfter=No
+8	Prévot	Prévot	PROPN	_	_	7	flat@name	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10-11	au	_	_	_	_	_	_	_	_
 10	à	à	ADP	_	_	7	mod	_	_
@@ -3590,7 +3590,7 @@
 12	micro	micro	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
 13	de	de	ADP	_	_	12	udep	_	_
 14	Sonia	Sonia	PROPN	_	_	13	comp:obj	_	_
-15	Bourane	Bourane	PROPN	_	_	14	flat	_	SpaceAfter=No
+15	Bourane	Bourane	PROPN	_	_	14	flat@name	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = aux États-Unis <+ Barack Obama a promulgué son plan de relance adopté ce week-end par le congrès //
@@ -3602,7 +3602,7 @@
 3	États-Unis	États-Unis	PROPN	_	_	1	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	Barack	Barack	PROPN	_	_	7	subj	_	_
-6	Obama	Obama	PROPN	_	_	5	flat	_	_
+6	Obama	Obama	PROPN	_	_	5	flat@name	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	promulgué	promulguer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux	_	_
 9	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	10	det	_	_
@@ -3709,7 +3709,7 @@
 # sent_id = Rhap_M2006-51
 # text = General Motors et Chrysler ont présenté hier leur plan de restructuration à l'administration Obama.
 1	General	General	PROPN	_	_	5	subj	_	_
-2	Motors	Motors	PROPN	_	_	1	flat	_	_
+2	Motors	Motors	PROPN	_	_	1	flat@name	_	_
 3	et	et	CCONJ	_	_	4	cc	_	_
 4	Chrysler	Chrysler	PROPN	_	_	1	conj:coord	_	_
 5	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3759,7 +3759,7 @@
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	avec	avec	ADP	_	_	2	mod	_	_
 10	Bertrand	Bertrand	PROPN	_	_	9	comp:obj	_	_
-11	Vanier	Vanier	PROPN	_	_	10	flat	_	SpaceAfter=No
+11	Vanier	Vanier	PROPN	_	_	10	flat@name	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = l'affaire des évadés de la prison de Moulins arrêtés hier matin "vous le savez" après trente-six heures de cavale //
@@ -3864,7 +3864,7 @@
 2	procès	procès	NOUN	_	Gender=Masc	6	subj	_	_
 3	d'	de	ADP	_	_	2	udep	_	SpaceAfter=No
 4	Yvan	Yvan	PROPN	_	_	3	comp:obj	_	_
-5	Colonna	Colonna	PROPN	_	_	4	flat	_	_
+5	Colonna	Colonna	PROPN	_	_	4	flat@name	_	_
 6	tourne	tourner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	à	à	ADP	_	_	6	comp:obl	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
@@ -3983,7 +3983,7 @@
 7	micro	micro	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
 8	de	de	ADP	_	_	7	udep	_	_
 9	Christian	Christian	PROPN	_	_	8	comp:obj	_	_
-10	Binner	Binner	PROPN	_	_	9	flat	_	SpaceAfter=No
+10	Binner	Binner	PROPN	_	_	9	flat@name	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = ( il est { l'avocat | l'un des avocats } d'Yvan Colonna // )
@@ -4002,7 +4002,7 @@
 10	avocats	avocat	NOUN	_	Gender=Masc|Number=Plur	8	comp:obj	_	_
 11	d'	de	ADP	_	_	10	udep	_	SpaceAfter=No
 12	Yvan	Yvan	PROPN	_	_	11	comp:obj	_	_
-13	Colonna	Colonna	PROPN	_	_	12	flat	_	SpaceAfter=No
+13	Colonna	Colonna	PROPN	_	_	12	flat@name	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = pour { Philippe Lemaire | (+ l'avocat des parties civiles ) } <+ { c'est d~ | ce sont des } procédés terroristes //
@@ -4010,7 +4010,7 @@
 # text = pour Philippe Lemaire, l'avocat des parties civiles, c'est d~, ce sont des procédés terroristes.
 1	pour	pour	ADP	_	_	13	mod	_	_
 2	Philippe	Philippe	PROPN	_	_	1	comp:obj	_	_
-3	Lemaire	Lemaire	PROPN	_	_	2	flat	_	SpaceAfter=No
+3	Lemaire	Lemaire	PROPN	_	_	2	flat@name	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
 6	avocat	avocat	NOUN	_	Gender=Masc|Number=Sing	2	conj:appos	_	_
@@ -4039,7 +4039,7 @@
 3	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	à	à	ADP	_	_	3	comp:obl	_	_
 5	Laurent	Laurent	PROPN	_	_	4	comp:obj	_	_
-6	Doulsant	Doulsant	PROPN	_	_	5	flat	_	SpaceAfter=No
+6	Doulsant	Doulsant	PROPN	_	_	5	flat@name	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	_
 
 # macrosyntax = direction maintenant Barcelone pour un congrès consacré au téléphone mobile >+ en crise lui aussi //
@@ -4110,7 +4110,7 @@
 17	façon	façon	NOUN	_	Gender=Fem|Number=Sing	14	comp:obj	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	Hélène	Hélène	PROPN	_	_	11	vocative	_	_
-20	Chevalier	Chevalier	PROPN	_	_	19	flat	_	SpaceAfter=No
+20	Chevalier	Chevalier	PROPN	_	_	19	flat@name	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	11	punct	_	_
 
 # macrosyntax = un mot de foot //
@@ -5352,7 +5352,7 @@
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	place	place	NOUN	_	Gender=Fem|Number=Sing	2	comp:pred	_	_
 5	Victor	Victor	PROPN	_	_	4	mod@appos	_	_
-6	Hugo	Hugo	PROPN	_	_	5	flat	_	SpaceAfter=No
+6	Hugo	Hugo	PROPN	_	_	5	flat@name	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = ^et "euh" donc < "euh" vous rencontrez à ce moment-là { le | le } tram { que vous pouvez longer | que vous pouvez suivre } "euh" en prenant à gauche //
@@ -5627,7 +5627,7 @@
 5	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	_
 6	de	de	ADP	_	_	5	comp:obl	_	_
 7	Saint-Sauveur	Saint-Sauveur	PROPN	_	_	6	comp:obj	_	_
-8	Lorzac	Lorzac	PROPN	_	_	7	flat	_	_
+8	Lorzac	Lorzac	PROPN	_	_	7	flat@name	_	_
 9	qui	qui	PRON	_	PronType=Rel	10	subj	_	_
 10	passe	passer	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
@@ -8819,7 +8819,7 @@
 15	y	y	PRON	_	Person=3|PronType=Prs	16	comp:obl	_	_
 16	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	mod@relcl	_	_
 17	Nef	Nef	PROPN	_	Gender=Fem|Number=Sing	16	comp:obj	_	_
-18	Chavant	Chavant	PROPN	_	_	17	flat	_	SpaceAfter=No
+18	Chavant	Chavant	PROPN	_	_	17	flat@name	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	3	punct	_	_
 
 # macrosyntax = ^et vous continuez tout droit jusqu'au deuxième arrêt //
@@ -9051,7 +9051,7 @@
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	place	place	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
 10	Victor	Victor	PROPN	_	_	9	mod@appos	_	_
-11	Hugo	Hugo	PROPN	_	_	10	flat	_	SpaceAfter=No
+11	Hugo	Hugo	PROPN	_	_	10	flat@name	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	6	punct	_	_
 
 # macrosyntax = ^et traversez les rues piétonnes //
@@ -9423,7 +9423,7 @@
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	avec	avec	ADP	_	_	5	mod	_	_
 15	Jean-François	Jean-François	PROPN	_	_	14	comp:obj	_	_
-16	Alain	Alain	PROPN	_	_	15	flat	_	SpaceAfter=No
+16	Alain	Alain	PROPN	_	_	15	flat@name	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	Alexandre	Alexandre	PROPN	_	_	15	conj:coord	_	Overlap=Rhap_D2007-14
 19	XXX	XXX	X	_	_	18	flat	_	ExtPos=PROPN|Overlap=Rhap_D2007-14|SpaceAfter=No
@@ -9719,7 +9719,7 @@
 6	carrière	carrière	NOUN	_	Gender=Fem|Number=Sing	2	comp:pred	_	_
 7	d'	de	ADP	_	_	6	udep	_	SpaceAfter=No
 8	Orson	Orson	PROPN	_	_	7	comp:obj	_	_
-9	Welles	Welles	PROPN	_	_	8	flat	_	_
+9	Welles	Welles	PROPN	_	_	8	flat@name	_	_
 10	à	à	ADP	_	_	6	udep	_	_
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
 12	envers	envers	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
@@ -9752,7 +9752,7 @@
 # speaker = L1
 # text = Orson Welles.
 1	Orson	Orson	PROPN	_	_	0	root	_	_
-2	Welles	Welles	PROPN	_	_	1	flat	_	SpaceAfter=No
+2	Welles	Welles	PROPN	_	_	1	flat@name	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # macrosyntax = XXX je retiendrai Orson Welles //
@@ -9763,7 +9763,7 @@
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
 3	retiendrai	retenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
 4	Orson	Orson	PROPN	_	_	3	comp:obj	_	_
-5	Welles	Welles	PROPN	_	_	4	flat	_	SpaceAfter=No
+5	Welles	Welles	PROPN	_	_	4	flat@name	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # macrosyntax = oui //=
@@ -11388,7 +11388,7 @@
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	président	président	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
 8	François	François	PROPN	_	_	7	mod@appos	_	_
-9	Mitterrand	Mitterrand	PROPN	_	_	8	flat	_	SpaceAfter=No
+9	Mitterrand	Mitterrand	PROPN	_	_	8	flat@name	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	banquier	banquier	NOUN	_	Gender=Masc|Number=Sing	1	conj:appos	_	_
 12-13	du	_	_	_	_	_	_	_	_
@@ -11397,7 +11397,7 @@
 14	monde	monde	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	1	punct	_	_
 16	Jacques	Jacques	PROPN	_	_	18	subj	_	_
-17	Attali	Attali	PROPN	_	_	16	flat	_	_
+17	Attali	Attali	PROPN	_	_	16	flat@name	_	_
 18	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 19	usé	user	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	comp:aux	_	_
 20	de	de	ADP	_	_	19	comp:obl	_	_
@@ -12695,7 +12695,7 @@
 7	de	de	ADP	_	_	6	mod	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	Math	Math	PROPN	_	_	7	comp:obj	_	_
-10	Elem	Elem	PROPN	_	_	9	flat	_	SpaceAfter=No
+10	Elem	Elem	PROPN	_	_	9	flat@name	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	5	punct	_	_
 12	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	14	subj	_	_
 13	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	15	comp	_	_
@@ -12790,7 +12790,7 @@
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
 9	esprit	esprit	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 10	Lewis	Lewis	PROPN	_	_	4	comp:obj	_	_
-11	Carroll	Carroll	PROPN	_	_	10	flat	_	SpaceAfter=No
+11	Carroll	Carroll	PROPN	_	_	10	flat@name	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	mathématicien-écrivain	mathématicien-écrivain	NOUN	_	Gender=Masc|Number=Sing	10	mod@appos	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	4	punct	_	_
@@ -13888,7 +13888,7 @@
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
 23	cinéma	cinéma	NOUN	_	Gender=Masc|Number=Sing	21	comp:obj	_	_
 24	Nef	Nef	PROPN	_	Gender=Fem|Number=Sing	23	mod@appos	_	_
-25	Chavant	Chavant	PROPN	_	_	24	flat	_	SpaceAfter=No
+25	Chavant	Chavant	PROPN	_	_	24	flat@name	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	6	punct	_	_
 
 # macrosyntax = ensuite <+ je continuerais jusqu'à la Préfecture //
@@ -13943,7 +13943,7 @@
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	cours	cours	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 8	Jean	Jean	PROPN	_	_	7	mod@appos	_	_
-9	Jaurès	Jaurès	PROPN	_	_	8	flat	_	SpaceAfter=No
+9	Jaurès	Jaurès	PROPN	_	_	8	flat@name	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = ^et j'arrive "euh" à Alsace-Lorraine //
@@ -16104,7 +16104,7 @@
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	dans	dans	ADP	_	_	3	comp:obl	_	_
 8	Charlie	Charlie	PROPN	_	_	7	comp:obj	_	_
-9	Chaplin	Chaplin	PROPN	_	_	8	flat	_	SpaceAfter=No
+9	Chaplin	Chaplin	PROPN	_	_	8	flat@name	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = ils sont tombés tous les deux //
@@ -16199,7 +16199,7 @@
 18	euh	euh	INTJ	_	_	16	discourse	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	23	punct	_	_
 20	Charlie	Charlie	PROPN	_	_	23	subj	_	_
-21	Chaplin	Chaplin	PROPN	_	_	20	flat	_	_
+21	Chaplin	Chaplin	PROPN	_	_	20	flat@name	_	_
 22	s'	se	PRON	_	Person=3|PronType=Prs	23	comp:obj	_	SpaceAfter=No
 23	accuse	accuser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	comp:obj	_	_
 24	à	à	ADP	_	_	23	mod	_	_
@@ -16305,7 +16305,7 @@
 24	cinéma	cinéma	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
 25	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	Nef	Nef	PROPN	_	Gender=Fem|Number=Sing	24	mod@appos	_	_
-27	Chavant	Chavant	PROPN	_	_	26	flat	_	SpaceAfter=No
+27	Chavant	Chavant	PROPN	_	_	26	flat@name	_	SpaceAfter=No
 28	.	.	PUNCT	_	_	4	punct	_	_
 
 # macrosyntax = ^et quand [ vous serez ( donc ) à La Nef Chavant ] <+ alors <+ là "euh" <+ { il ESPERLUETTE | { vous | vous } passez } à droite du cinéma //
@@ -16321,7 +16321,7 @@
 8	à	à	ADP	_	_	4	comp:obl	_	_
 9	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Nef	Nef	PROPN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
-11	Chavant	Chavant	PROPN	_	_	10	flat	_	SpaceAfter=No
+11	Chavant	Chavant	PROPN	_	_	10	flat@name	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	alors	alors	ADV	_	_	11	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
@@ -17877,7 +17877,7 @@
 5	part	part	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	comportement	comportement	NOUN	_	Gender=Masc|Number=Sing	12	subj@expl	_	_
+8	comportement	comportement	NOUN	_	Gender=Masc|Number=Sing	12	subj	_	_
 9-10	des	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	8	udep	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
@@ -18114,7 +18114,7 @@
 15	part	partir	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
 16	de	de	ADP	_	_	15	comp:obl	_	_
 17	Nef	Nef	PROPN	_	Gender=Fem|Number=Sing	16	comp:obj	_	_
-18	Chavant	Chavant	PROPN	_	_	17	flat	_	SpaceAfter=No
+18	Chavant	Chavant	PROPN	_	_	17	flat@name	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	là	là	INTJ	_	_	18	discourse	_	_
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
@@ -18147,7 +18147,7 @@
 8	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	Victor	Victor	PROPN	_	_	6	mod@appos	_	_
-11	Hugo	Hugo	PROPN	_	_	10	flat	_	SpaceAfter=No
+11	Hugo	Hugo	PROPN	_	_	10	flat@name	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = "euh" la place Victor Hugo < à la banque "euh" qui fait l'angle <+ tu prends à droite //
@@ -18158,7 +18158,7 @@
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	place	place	NOUN	_	Gender=Fem|Number=Sing	20	dislocated	_	_
 5	Victor	Victor	PROPN	_	_	4	mod@appos	_	_
-6	Hugo	Hugo	PROPN	_	_	5	flat	_	SpaceAfter=No
+6	Hugo	Hugo	PROPN	_	_	5	flat@name	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	4	punct	_	_
 8	à	à	ADP	_	_	20	mod	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
