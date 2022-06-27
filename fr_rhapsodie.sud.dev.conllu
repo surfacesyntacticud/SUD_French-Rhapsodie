@@ -861,7 +861,7 @@
 3	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	et	et	CCONJ	_	_	0	root	_	_
-6	j~	j~	X	_	_	5	conj:dicto	_	ExtPos=PRON|SpaceAfter=No
+6	j~	j~	X	_	_	5	unk@scrap	_	ExtPos=PRON|SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	_
 
 # macrosyntax = $- { ^et "euh" | ( $L2 XXX // ) -$ ^et } j~ //
@@ -5404,8 +5404,8 @@
 5	-là	là	ADV	_	_	4	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	2	punct	_	_
 7	si	si	SCONJ	_	_	20	mod	_	_
-8	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	7	conj:dicto	_	_
-9	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	conj:dicto	_	SpaceAfter=No
+8	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	7	comp:obj@scrap	_	_
+9	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	unk@scrap	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
@@ -7379,7 +7379,7 @@
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	conj	_	_
 12	que	que	PRON	_	PronType=Rel	11	udep	_	_
-13	j~	j~	X	_	_	12	conj:dicto	_	ExtPos=PRON|SpaceAfter=No
+13	j~	j~	X	_	_	12	unk@scrap	_	ExtPos=PRON|SpaceAfter=No
 14	…	…	PUNCT	_	_	9	punct	_	_
 
 # macrosyntax = si c'est pour mettre dans la pièce ici ESPERLUETTE //
@@ -9199,7 +9199,7 @@
 11	hein	hein	INTJ	_	_	8	discourse	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	non	non	ADV	_	Polarity=Neg	8	discourse	_	_
-14	mais	mais	CCONJ	_	_	13	conj:dicto	_	SpaceAfter=No
+14	mais	mais	CCONJ	_	_	8	discourse	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	4	punct	_	_
 
 # macrosyntax = $- $L2 je pensais à son procès > en fait //
@@ -10132,7 +10132,7 @@
 # speaker = L2
 # text = si on, si on n'est pas heureux, on s'en va.
 1	si	si	SCONJ	_	_	14	mod	_	_
-2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	1	conj:dicto	_	SpaceAfter=No
+2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	1	comp:obj@scrap	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	si	si	SCONJ	_	_	2	conj:dicto	_	_
 5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	subj	_	_
@@ -10168,7 +10168,7 @@
 1	mais	mais	CCONJ	_	_	3	cc	_	Overlap=Rhap_D2007-56ter
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	très	très	ADV	_	_	3	conj:dicto	_	SpaceAfter=No
+4	très	très	ADV	_	_	3	unk@scrap	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	subj	_	SpaceAfter=No
 7	est	être	AUX	conj:reform	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj:dicto	_	SpaceAfter=No
@@ -10209,7 +10209,7 @@
 # speaker = L2
 # text = ça me…
 1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	root	_	_
-2	me	le	PRON	_	Number=Sing|Person=1|PronType=Prs	1	conj:dicto	_	SpaceAfter=No
+2	me	le	PRON	_	Number=Sing|Person=1|PronType=Prs	1	unk@scrap	_	SpaceAfter=No
 3	…	…	PUNCT	_	_	1	punct	_	_
 
 # macrosyntax = $L3 vous avez des fidélités successives > en fait //
@@ -10710,7 +10710,7 @@
 1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No
 2	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	jamais	jamais	ADV	_	PronType=Neg	2	mod	_	_
-4	m~	m~	X	_	_	3	conj:dicto	_	ExtPos=X|SpaceAfter=No
+4	m~	m~	X	_	_	3	unk@scrap	_	ExtPos=X|SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	SpaceAfter=No
 7	ai	avoir	VERB	conj:reform	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj:dicto	_	_
@@ -11372,7 +11372,7 @@
 # text = c'est très…
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	très	très	ADV	_	_	2	conj:dicto	_	SpaceAfter=No
+3	très	très	ADV	_	_	2	comp:pred@scrap	_	SpaceAfter=No
 4	…	…	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = $L1 { écrivain | conseiller spécial du président François Mitterrand | banquier du monde } < Jacques Attali a usé de tous les pouvoirs dans les coulisses de l'histoire //
@@ -12839,7 +12839,7 @@
 2	mathématiques	mathématique	NOUN	_	Gender=Fem|Number=Plur	9	dislocated	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	9	subj	_	_
-5	l~	l~	X	_	_	4	conj:dicto	_	ExtPos=X|SpaceAfter=No
+5	l~	l~	X	_	_	4	comp:obj@scrap	_	ExtPos=X|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	conj:dicto	_	_
 8	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	10	comp:obj	_	_
@@ -12869,7 +12869,7 @@
 9	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
 10	moment	moment	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	SpaceAfter=No
 11	-là	là	ADV	_	_	10	mod	_	_
-12	s~	s~	X	_	_	10	conj:dicto	_	ExtPos=X
+12	s~	s~	X	_	_	10	unk@scrap	_	ExtPos=X
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	projet	projet	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 15	de	de	ADP	_	_	14	udep	_	SpaceAfter=No
@@ -13560,7 +13560,7 @@
 8	bombardement	bombardement	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
 9	anglais	anglais	ADJ	_	Gender=Masc	8	mod	_	_
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-11	de~	de~	X	_	_	10	conj:dicto	_	ExtPos=X|SpaceAfter=No
+11	de~	de~	X	_	_	10	unk@scrap	_	ExtPos=X|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	conj:dicto	_	_
 14	dernier	dernier	ADJ	_	Gender=Masc|Number=Sing	15	mod	_	Overlap=Rhap_D0003-32bis
