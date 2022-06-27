@@ -130,7 +130,7 @@
 20	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	23	comp:obj	_	_
 21	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	comp:obj	_	Reported=Yes
 22	pas	pas	ADV	_	Polarity=Neg	21	mod	_	_
-23	inventés	inventer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	comp:aux	_	_
+23	inventés	inventer	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	comp:aux@tense	_	_
 24	plus	plus	ADV	_	_	25	mod	_	_
 25	tôt	tôt	ADV	_	_	21	mod	_	_
 26	?	?	PUNCT	_	_	3	punct	_	_
@@ -346,7 +346,7 @@
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
 2	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	SpaceAfter=No
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	mise	mettre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
+4	mise	mettre	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 5	à	à	ADP	_	_	4	comp:obl	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
 7	épreuve	épreuve	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
@@ -662,7 +662,7 @@
 # text = c'est parti.
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	parti	partir	VERB	ETRE	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux	_	SpaceAfter=No
+3	parti	partir	VERB	ETRE	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = {| les scellés ( effectivement ) { sur le hublot | ^et également sur le tiroir } } //
@@ -708,7 +708,7 @@
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	parti	partir	VERB	ETRE	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	SpaceAfter=No
+4	parti	partir	VERB	ETRE	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	donc	donc	ADV	_	_	4	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
@@ -1980,7 +1980,7 @@
 2	beaucoup	beaucoup	ADV	_	_	1	mod	_	Overlap=Rhap_D2011-99bis
 3	d'	de	ADP	_	_	1	udep	_	Overlap=Rhap_D2011-99bis|SpaceAfter=No
 4	être	être	AUX	_	VerbForm=Inf	3	comp:obj	_	Overlap=Rhap_D2011-99bis
-5	venue	venir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	Overlap=Rhap_D2011-99bis
+5	venue	venir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	Overlap=Rhap_D2011-99bis
 6	sur	sur	ADP	_	_	5	comp:obl	_	Overlap=Rhap_D2011-100
 7	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1|PronType=Prs	8	det	_	Overlap=Rhap_D2011-100
 8	plateau	plateau	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	SpaceAfter=No
@@ -2046,7 +2046,7 @@
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	11	conj:dicto	_	_
 18	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	10	comp:obj	_	_
-19	obtenu	obtenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	comp:aux	_	_
+19	obtenu	obtenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	comp:aux@tense	_	_
 20	d'	de	ADP	_	_	19	comp:obj	_	SpaceAfter=No
 21	autres	autre	ADJ	_	Gender=Masc|Number=Plur	22	mod	_	_
 22	succès	succès	NOUN	_	Gender=Masc|Number=Plur	20	comp:obj	_	SpaceAfter=No
@@ -2059,7 +2059,7 @@
 1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	SpaceAfter=No
 2	en	en	PRON	_	Person=3|PronType=Prs	4	comp:obj	_	_
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	énuméré	énumérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	SpaceAfter=No
+4	énuméré	énumérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	d'	de	ADP	_	_	3	mod	_	SpaceAfter=No
 7	ailleurs	ailleurs	ADV	_	_	6	comp:obj	_	SpaceAfter=No
@@ -2109,7 +2109,7 @@
 13	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	comp:obj	_	_
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	InIdiom=Yes
 15	peu	peu	NOUN	_	_	16	mod	_	ExtPos=ADV|Idiom=Yes
-16	pressenti	pressentir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux	_	_
+16	pressenti	pressentir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux@tense	_	_
 17	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
 18	succès	succès	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
 19	?	?	PUNCT	_	_	1	punct	_	_
@@ -2247,7 +2247,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	Overlap=Rhap_D2010-10
 3	quelqu'un	quelqu'un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	Overlap=Rhap_D2010-10
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	_
+5	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 6	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	mal	mal	NOUN	_	Gender=Masc|Number=Sing	5	comp:obl	_	_
 8	quand	quand	SCONJ	_	_	5	mod	_	ExtPos=ADV|Idiom=Yes
@@ -2321,7 +2321,7 @@
 6	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	9	comp:obl	_	_
 7	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	9	comp:obj	_	SpaceAfter=No
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:cleft	_	_
-9	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux	_	SpaceAfter=No
+9	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux@tense	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = $- $L2 c'est mon éditeur ( $L1 mais ESPERLUETTE // ) -$ $L2 qui me l'a dit //
@@ -2348,7 +2348,7 @@
 # text = quelqu'un a dit, euh, on n~, on ne comprend pas qu'un éditeur laisse passer des fautes de grammaire pareilles.
 1	quelqu'un	quelqu'un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux	_	SpaceAfter=No
+3	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	euh	euh	INTJ	_	_	3	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	12	punct	_	_
@@ -2423,7 +2423,7 @@
 5	qui	qui	PRON	_	PronType=Rel	7	subj	_	_
 6	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	8	comp:obj	_	_
 7	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	mod@relcl	_	_
-8	boudée	bouder	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux	_	SpaceAfter=No
+8	boudée	bouder	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	d'	de	ADP	_	_	7	mod	_	SpaceAfter=No
 11	ailleurs	ailleurs	ADV	_	_	10	comp:obj	_	SpaceAfter=No
@@ -2498,7 +2498,7 @@
 3	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	_
 4	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	6	comp:obl	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux	_	_
+6	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
 7	plaisir	plaisir	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
 8	?	?	PUNCT	_	_	5	punct	_	_
 
@@ -2558,7 +2558,7 @@
 # text = ça a duré dix ans le silence autour de moi.
 1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	duré	durer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux	_	_
+3	duré	durer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	dix	dix	NUM	_	Number=Plur	5	det	_	_
 5	ans	an	NOUN	_	Gender=Masc|Number=Plur	3	comp:obj	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -2795,7 +2795,7 @@
 5	Académie	Académie	PROPN	_	_	3	comp:obj	_	_
 6	Goncourt	Goncourt	PROPN	_	_	5	flat@name	_	_
 7	auraient	avoir	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux	_	_
+8	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
 9	mais	mais	CCONJ	_	_	12	cc	_	_
 10	pourquoi	pourquoi	ADV	_	_	12	mod	_	_
 11	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	comp:obl	_	_
@@ -2815,7 +2815,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	SpaceAfter=No
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	regardé	regarder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	_
+5	regardé	regarder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	InIdiom=Yes
 7	petit	petit	ADJ	_	Gender=Masc|Number=Sing	8	mod	_	InIdiom=Yes
 8	peu	peu	NOUN	_	_	5	mod	_	ExtPos=ADV|Idiom=Yes
@@ -2837,7 +2837,7 @@
 7	quand	quand	SCONJ	_	_	2	conj:appos	_	_
 8	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	9	subj@caus	_	_
 9	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	comp:obj	_	_
-10	fait	faire	AUX	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux	_	_
+10	fait	faire	AUX	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@tense	_	_
 11	paraître	paraître	VERB	CAUSATIVE	VerbForm=Inf	10	comp:aux@caus	_	_
 12	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
@@ -2868,7 +2868,7 @@
 38	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	40	subj	_	_
 39	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	41	comp:obj	_	SpaceAfter=No
 40	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-41	raté	rater	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	40	comp:aux	_	_
+41	raté	rater	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	40	comp:aux@tense	_	_
 42	de	de	ADP	_	_	40	mod	_	_
 43	peu	peu	ADV	_	_	42	comp:obj	_	SpaceAfter=No
 44	.	.	PUNCT	_	_	40	punct	_	_
@@ -3002,7 +3002,7 @@
 10	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	subj	_	_
 11	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	13	comp:obj	_	SpaceAfter=No
 12	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-13	laissé	laisser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux	_	_
+13	laissé	laisser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux@tense	_	_
 14	tomber	tomber	VERB	ETRE	VerbForm=Inf	13	comp:obj@x	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	12	punct	_	_
 
@@ -3116,7 +3116,7 @@
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	subj	_	_
 9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
-10	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux	_	_
+10	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@tense	_	_
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	expérience	expérience	NOUN	_	Gender=Fem|Number=Sing	10	comp:pred	_	_
 13	épouvantable	épouvantable	ADJ	_	Gender=Fem|Number=Sing	12	mod	_	_
@@ -3133,7 +3133,7 @@
 24	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	26	subj@pass	_	SpaceAfter=No
 25	en	en	PRON	_	Person=3|PronType=Prs	28	comp:obj	_	_
 26	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	comp:obj	_	_
-27	été	être	AUX	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	comp:aux	_	_
+27	été	être	AUX	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	comp:aux@tense	_	_
 28	punie	punir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	27	comp:aux@pass	_	_
 29	par	par	ADP	_	_	28	mod	_	ExtPos=ADV|Idiom=Yes
 30	ailleurs	ailleurs	ADV	_	_	29	unk	_	InIdiom=Yes
@@ -3141,7 +3141,7 @@
 32	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	34	subj	_	SpaceAfter=No
 33	en	en	PRON	_	Person=3|PronType=Prs	35	comp:obj	_	_
 34	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	31	comp:obj	_	_
-35	parlé	parler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	comp:aux	_	SpaceAfter=No
+35	parlé	parler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	comp:aux@tense	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	37	punct	_	_
 37	quand	quand	SCONJ	_	_	31	conj:dicto	_	_
 38	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	40	subj	_	SpaceAfter=No
@@ -3367,7 +3367,7 @@
 # text = j'ai eu ce chapeau-là.
 1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux	_	_
+3	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
 5	chapeau	chapeau	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	SpaceAfter=No
 6	-là	là	ADV	_	_	5	mod	_	SpaceAfter=No
@@ -3382,7 +3382,7 @@
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	_
 4	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	SpaceAfter=No
 5	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux	_	SpaceAfter=No
+6	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	_
 
 # macrosyntax = | aux pieds } <+ j'ai { { des | des } lamés or | { des | des | des } souliers { de | pour } { danser | //+
@@ -3553,7 +3553,7 @@
 5	quelqu'un	quelqu'un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	subj	_	_
 6	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	8	comp:obj	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	remarquée	remarquer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux	_	_
+8	remarquée	remarquer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
 9	qui	qui	PRON	_	PronType=Rel	10	subj	_	_
 10	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	_
 11	dans	dans	ADP	_	_	10	comp:obl	_	_
@@ -3642,7 +3642,7 @@
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@pass	_	_
 2	m'	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	5	comp:obj	_	SpaceAfter=No
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	été	être	AUX	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
+4	été	être	AUX	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 5	commandé	commander	VERB	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@pass	_	_
 6	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
 7	livre	livre	NOUN	_	Gender=Masc|Number=Sing	3	dislocated	_	SpaceAfter=No
@@ -3663,7 +3663,7 @@
 5	n'	ne	ADV	_	Polarity=Neg	6	mod	_	SpaceAfter=No
 6	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 7	pas	pas	ADV	_	Polarity=Neg	6	mod	_	_
-8	été	être	AUX	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux	_	_
+8	été	être	AUX	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	_
 9	prise	prendre	VERB	DoubleAux	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux@pass	_	_
 10	si	si	SCONJ	_	_	6	discourse	_	_
 11	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	12	subj	_	_
@@ -3697,7 +3697,7 @@
 2	n'	ne	ADV	_	Polarity=Neg	3	mod	_	SpaceAfter=No
 3	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	5	comp:obj	_	_
-5	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
+5	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 6	qu'	que	ADV	_	_	8	mod	_	SpaceAfter=No
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	homme	homme	NOUN	_	Gender=Masc|Number=Sing	4	conj:coord	_	SpaceAfter=No
@@ -3730,7 +3730,7 @@
 6	que	que	SCONJ	_	_	3	comp:cleft	_	_
 7	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	subj	_	_
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
-9	parti	partir	VERB	ETRE	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux	_	SpaceAfter=No
+9	parti	partir	VERB	ETRE	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux@tense	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	14	punct	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	fleuve	fleuve	NOUN	_	Gender=Masc|Number=Sing	15	subj	_	_
@@ -3869,7 +3869,7 @@
 14	,	,	PUNCT	_	_	4	punct	_	_
 15	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	16	subj	_	_
 16	aurait	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
-17	été	être	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	comp:aux	_	_
+17	été	être	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	comp:aux@tense	_	_
 18	à	à	ADP	_	_	17	comp:obl	_	_
 19	c~	c~	X	_	_	18	comp:obj	_	ExtPos=X|SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
@@ -4081,14 +4081,14 @@
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	SpaceAfter=No
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	su	savoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	_
+5	su	savoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 6	après	après	ADV	_	_	5	mod	_	_
 7	qu'	que	SCONJ	_	_	5	comp:obj	_	SpaceAfter=No
 8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	subj	_	_
 9	m'	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	12	comp:obl	_	SpaceAfter=No
 10	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	comp:obj	_	_
 11	pas	pas	ADV	_	Polarity=Neg	10	mod	_	_
-12	déplu	déplaire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux	_	SpaceAfter=No
+12	déplu	déplaire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux@tense	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	sur	sur	ADP	_	_	12	mod	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
@@ -4201,7 +4201,7 @@
 2	n'	ne	ADV	_	Polarity=Neg	3	mod	_	SpaceAfter=No
 3	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
-5	choisi	choisir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
+5	choisi	choisir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 6	Yudina	Yudina	PROPN	_	_	5	comp:obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
@@ -4227,7 +4227,7 @@
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
 2	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	SpaceAfter=No
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	choisie	choisir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
+4	choisie	choisir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 5	parce	parce	SCONJ	_	_	3	mod	_	ExtPos=SCONJ|Idiom=Yes
 6	que	que	SCONJ	_	_	5	unk	_	InIdiom=Yes
 7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	subj	_	SpaceAfter=No
@@ -4406,7 +4406,7 @@
 5	qu'	que	PRON	_	PronType=Rel	8	comp:obj	_	SpaceAfter=No
 6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	subj	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	_
-8	entendu	entendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux	_	_
+8	entendu	entendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	très	très	ADV	_	_	11	mod	_	_
 11	tristanien	tristanien	ADJ	_	Gender=Masc|Number=Sing	9	comp:pred	_	SpaceAfter=No
@@ -4471,7 +4471,7 @@
 14	Szymanoski	Szymanoski	PROPN	_	_	13	comp:obj	_	_
 15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	_
 16	peut-être	peut-être	ADV	_	_	15	mod	_	_
-17	déterminé	déterminer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	comp:aux	_	_
+17	déterminé	déterminer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	comp:aux@tense	_	_
 18	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	19	det	_	_
 19	vocation	vocation	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
 20	musicale	musical	ADJ	_	Gender=Fem|Number=Sing	19	mod	_	SpaceAfter=No
@@ -4517,7 +4517,7 @@
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
 3	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	SpaceAfter=No
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	SpaceAfter=No
+5	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
@@ -4533,7 +4533,7 @@
 # text = ça a été vraiment pour lui une, une révélation.
 1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux	_	_
+3	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	vraiment	vraiment	ADV	_	_	2	mod	_	_
 5	pour	pour	ADP	_	_	2	mod	_	_
 6	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	_
@@ -4797,7 +4797,7 @@
 14	cent	cent	NUM	_	Number=Plur	13	flat	_	_
 15	six	six	NUM	_	Number=Plur	14	flat	_	_
 16	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-17	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	comp:aux	_	_
+17	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	comp:aux@tense	_	_
 18	place	place	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj@lvc	_	_
 19	à	à	ADP	_	_	17	comp:obl	_	_
 20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
@@ -5742,7 +5742,7 @@
 9	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	11	subj	_	_
 10	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	12	comp:obj	_	SpaceAfter=No
 11	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	16	parataxis:parenth	_	_
-12	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux	_	SpaceAfter=No
+12	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux@tense	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	11	punct	_	_
 14-15	du	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	6	comp:obl	_	_
@@ -5842,7 +5842,7 @@
 # text = nous avons intitulé cette émission Grippe A, Les Chiffres Alarmistes.
 1	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	2	subj	_	_
 2	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	intitulé	intituler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux	_	_
+3	intitulé	intituler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
 5	émission	émission	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 6	Grippe	grippe	NOUN	_	Gender=Fem|Number=Sing	3	comp:pred	_	Title=Yes
@@ -5863,7 +5863,7 @@
 4	invités	invité	NOUN	_	Gender=Masc|Number=Plur	2	comp:obj	_	_
 5	qui	qui	PRON	_	PronType=Rel	6	subj	_	_
 6	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	_
-7	accepté	accepter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux	_	_
+7	accepté	accepter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	_
 8	d'	de	ADP	_	_	7	comp:obl@x	_	SpaceAfter=No
 9	y	y	PRON	_	Person=3|PronType=Prs	10	comp:obj	_	_
 10	participer	participer	VERB	_	VerbForm=Inf	8	comp:obj	_	_
@@ -5918,7 +5918,7 @@
 1	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	2	subj	_	_
 2	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	tous	tout	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	2	mod	_	_
-4	entendu	entendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux	_	_
+4	entendu	entendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 5	parler	parler	VERB	_	VerbForm=Inf	4	comp:obj@x	_	_
 6	de	de	ADP	_	_	5	comp:obl	_	_
 7	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=2|PronType=Prs	8	det	_	_
@@ -6303,7 +6303,7 @@
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	4	punct	_	_
-11	explicité	expliciter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
+11	explicité	expliciter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 12	en	en	ADP	_	_	3	mod	_	_
 13	disant	dire	VERB	_	Tense=Pres|VerbForm=Part	12	comp:obj	_	_
 14	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	subj	_	SpaceAfter=No
@@ -6393,7 +6393,7 @@
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	jamais	jamais	ADV	_	PronType=Neg	3	mod	_	_
 5	vraiment	vraiment	ADV	_	_	3	mod	_	_
-6	su	savoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
+6	su	savoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 7	jusqu'	jusque	ADP	_	_	3	mod	_	SpaceAfter=No
 8	à	à	ADP	_	_	7	comp:obj	_	_
 9	présent	présent	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
@@ -6452,7 +6452,7 @@
 5	pays	pays	NOUN	_	Gender=Masc	3	comp:obj	_	_
 6	n'	ne	ADV	_	Polarity=Neg	7	mod	_	SpaceAfter=No
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	su	savoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux	_	_
+8	su	savoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
 9	pour	pour	ADP	_	_	7	mod	_	_
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
 11	instant	instant	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
@@ -6610,7 +6610,7 @@
 36	qu'	que	PRON	_	PronType=Rel	40	comp:obj	_	SpaceAfter=No
 37	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	38	subj	_	_
 38	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	mod@relcl	_	_
-39	pu	pouvoir	VERB	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	38	comp:aux	_	_
+39	pu	pouvoir	VERB	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	38	comp:aux@tense	_	_
 40	faire	faire	VERB	DoubleAux	VerbForm=Inf	39	comp:obj@x	_	_
 41	ou	ou	CCONJ	_	_	43	cc	_	_
 42	surtout	surtout	ADV	_	_	43	mod	_	_
@@ -6621,7 +6621,7 @@
 47	n'	ne	ADV	_	Polarity=Neg	48	mod	_	SpaceAfter=No
 48	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	mod@relcl	_	_
 49	pas	pas	ADV	_	Polarity=Neg	48	mod	_	_
-50	pu	pouvoir	VERB	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	48	comp:aux	_	_
+50	pu	pouvoir	VERB	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	48	comp:aux@tense	_	_
 51	faire	faire	VERB	DoubleAux	VerbForm=Inf	50	comp:obj@x	_	SpaceAfter=No
 52	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -6633,7 +6633,7 @@
 2	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	5	comp:obj	_	_
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	bien	bien	ADV	_	_	3	mod	_	_
-5	compris	comprendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	3	comp:aux	_	_
+5	compris	comprendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 6	?	?	PUNCT	_	_	3	punct	_	_
 
 # macrosyntax = $L2 oui //
@@ -7214,7 +7214,7 @@
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
 2	y	y	PRON	_	Person=3|PronType=Prs	4	comp:obl	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
+4	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 5	en	en	ADP	_	_	4	mod	_	_
 6	mille	mille	NUM	_	Number=Plur	5	comp:obj	_	_
 7	neuf	neuf	NUM	_	Number=Plur	6	flat	_	_
@@ -7477,7 +7477,7 @@
 11	qu'	que	PRON	_	PronType=Rel	15	comp:obj	_	SpaceAfter=No
 12	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	subj	_	_
 13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	_
-14	pu	pouvoir	VERB	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux	_	_
+14	pu	pouvoir	VERB	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux@tense	_	_
 15	voir	voir	VERB	DoubleAux	VerbForm=Inf	14	comp:obj@x	_	_
 16	éclore	éclore	VERB	_	VerbForm=Inf	15	comp:obj@x	_	_
 17	de	de	ADP	_	_	16	mod	_	Overlap=Rhap_D2008-80bis
@@ -7696,7 +7696,7 @@
 6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	subj	_	Overlap=Rhap_D2008-87
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	Overlap=Rhap_D2008-87
 8	tous	tout	ADJ	_	Gender=Masc|Number=Plur	7	mod	_	Overlap=Rhap_D2008-87
-9	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux	_	Overlap=Rhap_D2008-87
+9	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	Overlap=Rhap_D2008-87
 10	frai~	frai~	X	_	_	9	comp:pred	_	ExtPos=ADJ|Overlap=Rhap_D2008-87|SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	_
 12	très	très	ADV	_	_	13	mod	_	_
@@ -7723,7 +7723,7 @@
 14	,	,	PUNCT	_	_	7	punct	_	_
 15	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	subj	_	_
 16	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-17	géré	gérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	comp:aux	_	_
+17	géré	gérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	comp:aux@tense	_	_
 18	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	19	det	_	_
 19	crise	crise	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	_
@@ -7753,7 +7753,7 @@
 # text = elle a commencé par nous dire, euh, on est aux affaires.
 1	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	commencé	commencer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux	_	_
+3	commencé	commencer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	par	par	ADP	_	_	3	comp:obl@x	_	_
 5	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	6	comp:obl	_	_
 6	dire	dire	VERB	_	VerbForm=Inf	4	comp:obj	_	SpaceAfter=No
@@ -7776,7 +7776,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	SpaceAfter=No
+5	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
 7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	subj	_	_
 8	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	Reported=Yes
@@ -7804,11 +7804,11 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	SpaceAfter=No
+5	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
 7	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	SpaceAfter=No
 8	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	comp:obj@x	_	Reported=Yes
-9	mis	mettre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	8	comp:aux	_	_
+9	mis	mettre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	8	comp:aux@tense	_	_
 10	tout	tout	ADJ	_	Gender=Masc|Number=Sing	12	mod	_	_
 11	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	12	det	_	_
 12	Tamiflu	Tamiflu	PROPN	_	_	9	comp:obj	_	_
@@ -7865,7 +7865,7 @@
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	conj:dicto	_	_
 7	y	y	PRON	_	Person=3|PronType=Prs	8	comp:obl	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux	_	_
+9	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux@tense	_	_
 10	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
 11	gradations	gradation	NOUN	_	Gender=Fem|Number=Plur	9	comp:obl	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	8	punct	_	_
@@ -7895,7 +7895,7 @@
 3	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
 4	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	6	comp:obl	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux	_	_
+6	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
 7	faut	falloir	VERB	CCOMP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	Reported=Yes
 8	se	se	PRON	_	Person=3|PronType=Prs	9	comp@expl	_	_
 9	méfier	méfier	VERB	_	VerbForm=Inf	7	comp:obj@x	_	_
@@ -8040,7 +8040,7 @@
 8	virus	virus	NOUN	_	Gender=Masc	6	comp:pred	_	_
 9	qui	qui	PRON	_	PronType=Rel	10	subj	_	_
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:cleft	_	_
-11	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux	_	_
+11	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux@tense	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	tour	tour	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	_
 14-15	du	_	_	_	_	_	_	_	_
@@ -8758,7 +8758,7 @@
 8	souche	souche	NOUN	_	Gender=Fem|Number=Sing	15	subj	_	_
 9	qui	qui	PRON	_	PronType=Rel	10	subj	_	_
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	_
-11	émergé	émerger	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux	_	_
+11	émergé	émerger	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux@tense	_	_
 12-13	au	_	_	_	_	_	_	_	_
 12	à	à	ADP	_	_	10	mod	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
@@ -8776,7 +8776,7 @@
 25	,	,	PUNCT	_	_	27	punct	_	_
 26	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	27	subj	_	_
 27	aurait	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	comp:obj	_	_
-28	pu	pouvoir	VERB	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	comp:aux	_	_
+28	pu	pouvoir	VERB	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	comp:aux@tense	_	_
 29	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	30	comp:obj	_	SpaceAfter=No
 30	espérer	espérer	VERB	DoubleAux	VerbForm=Inf	28	comp:obj@x	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	4	punct	_	_
@@ -8907,7 +8907,7 @@
 20	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	subj@expl	_	_
 21	y	y	PRON	_	Person=3|PronType=Prs	23	comp:obl	_	_
 22	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	comp:obj	_	_
-23	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	comp:aux	_	_
+23	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	comp:aux@tense	_	_
 24	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	27	det	_	_
 25	très	très	ADV	_	_	26	mod	_	_
 26	fortes	fort	ADJ	_	Gender=Fem|Number=Plur	27	mod	_	_
@@ -9024,7 +9024,7 @@
 # text = on sera monté jusqu'au niveau cinq, euh, d'une échelle qui en compte six en ce qui concerne bien entendu les niveaux d'alerte, euh.
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
 2	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
-3	monté	monter	VERB	ETRE	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux	_	_
+3	monté	monter	VERB	ETRE	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	jusqu'	jusque	ADP	_	_	3	comp:obl	_	SpaceAfter=No
 5-6	au	_	_	_	_	_	_	_	_
 5	à	à	ADP	_	_	4	comp:obj	_	_
@@ -9069,7 +9069,7 @@
 8	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	subj	_	_
 9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	_
 10	même	même	ADV	_	_	9	mod	_	_
-11	évoqué	évoquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux	_	_
+11	évoqué	évoquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@tense	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	possibilité	possibilité	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
 14	d'	de	ADP	_	_	13	udep	_	SpaceAfter=No
@@ -9152,7 +9152,7 @@
 2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	4	subj	_	_
 3	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	SpaceAfter=No
 4	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	remarqué	remarquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	_
+5	remarqué	remarquer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 6	en	en	ADP	_	_	4	mod	_	_
 7	écoutant	écouter	VERB	_	Tense=Pres|VerbForm=Part	6	comp:obj	_	_
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
@@ -9843,7 +9843,7 @@
 7	que	que	PRON	_	PronType=Rel	10	comp:obj	_	_
 8	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	9	subj	_	_
 9	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	_
-10	entendu	entendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux	_	_
+10	entendu	entendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@tense	_	_
 11	dans	dans	ADP	_	_	9	mod	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 13	première	premier	ADJ	_	Gender=Fem|Number=Sing	14	mod	_	_
@@ -9918,7 +9918,7 @@
 27	y	y	PRON	_	Person=3|PronType=Prs	30	comp:obl	_	_
 28	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Reported=Yes
 29	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	30	comp:obj	_	_
-30	gagné	gagner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	comp:aux	_	SpaceAfter=No
+30	gagné	gagner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	comp:aux@tense	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	35	punct	_	_
 32	sinon	sinon	CCONJ	_	_	35	cc	_	_
 33	que	que	ADV	_	_	35	mod	_	_
@@ -10144,7 +10144,7 @@
 # text = j'ai eu l'obtention de mon bac, euh, donc, l'année dernière.
 1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux	_	_
+3	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
 5	obtention	obtention	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 6	de	de	ADP	_	_	5	udep	_	_
@@ -10260,7 +10260,7 @@
 8	,	,	PUNCT	_	_	2	punct	_	_
 9	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	10	subj	_	SpaceAfter=No
 10	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-11	choisi	choisir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux	_	_
+11	choisi	choisir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux@tense	_	_
 12	italien	italien	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	_
 13	en	en	ADP	_	_	10	mod	_	_
 14	deuxième	deuxième	ADJ	_	Number=Sing	15	mod	_	_
@@ -10296,7 +10296,7 @@
 7	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj@pass	_	SpaceAfter=No
 8	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	pas	pas	ADV	_	Polarity=Neg	8	mod	_	_
-10	été	être	AUX	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux	_	_
+10	été	être	AUX	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux@tense	_	_
 11	acceptée	accepter	VERB	DoubleAux	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux@pass	_	_
 12	parce	parce	SCONJ	_	_	8	mod	_	ExtPos=SCONJ|Idiom=Yes
 13	qu'	que	SCONJ	_	_	12	unk	_	InIdiom=Yes|SpaceAfter=No
@@ -10357,7 +10357,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	SpaceAfter=No
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	4	comp:aux	_	_
+5	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 6	italien	italien	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
 7	en	en	ADP	_	_	4	mod	_	_
 8	deuxième	deuxième	ADJ	_	Number=Sing	9	mod	_	_
@@ -10621,7 +10621,7 @@
 18	,	,	PUNCT	_	_	20	punct	_	_
 19	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	20	subj	_	SpaceAfter=No
 20	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	conj:dicto	_	_
-21	appris	apprendre	VERB	conj:reform	Gender=Masc|Tense=Past|VerbForm=Part	20	comp:aux	_	_
+21	appris	apprendre	VERB	conj:reform	Gender=Masc|Tense=Past|VerbForm=Part	20	comp:aux@tense	_	_
 22	beaucoup	beaucoup	ADV	_	_	21	comp:obj	_	_
 23	de	de	ADP	_	_	22	comp:obl	_	_
 24	choses	chose	NOUN	_	Gender=Fem|Number=Plur	23	comp:obj	_	SpaceAfter=No
@@ -10871,7 +10871,7 @@
 22	que	que	SCONJ	_	_	21	comp:obj	_	_
 23	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	24	subj	_	_
 24	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	22	comp:obj	_	_
-25	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	comp:aux	_	_
+25	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	comp:aux@tense	_	_
 26	quelque	quelque	DET	_	Number=Sing|Person=3|PronType=Ind	27	det	_	_
 27	chose	chose	NOUN	_	Gender=Fem|Number=Sing	25	comp:obj	_	_
 28	de	de	ADP	_	_	27	udep	_	_
@@ -10942,7 +10942,7 @@
 12	ou	ou	CCONJ	_	_	14	cc	_	_
 13	qui	qui	PRON	_	PronType=Rel	14	subj	_	_
 14	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	conj:coord	_	_
-15	travaillé	travailler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux	_	_
+15	travaillé	travailler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux@tense	_	_
 16	avec	avec	ADP	_	_	14	mod	_	_
 17	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	16	comp:obj	_	_
 18	qui	qui	PRON	_	PronType=Rel	19	subj	_	_
@@ -10966,7 +10966,7 @@
 9	que	que	PRON	_	PronType=Rel	12	comp:obj	_	_
 10	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	11	subj	_	_
 11	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	_
-12	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux	_	SpaceAfter=No
+12	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux@tense	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = vous avez dit que "euh" [ disons ma carrière pour simplifier // ] témoigne de ma bonne conduite //
@@ -10975,7 +10975,7 @@
 # text = vous avez dit que, euh, disons ma carrière pour simplifier, témoigne de ma bonne conduite.
 1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux	_	_
+3	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	que	que	SCONJ	_	_	3	comp:obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	14	punct	_	_
 6	euh	euh	INTJ	_	_	14	discourse	_	SpaceAfter=No
@@ -11223,7 +11223,7 @@
 6	qu'	que	SCONJ	_	_	5	comp:obj	_	SpaceAfter=No
 7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	subj	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
-9	regardé	regarder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux	_	_
+9	regardé	regarder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux@tense	_	_
 10	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|PronType=Prs	11	det	_	_
 11	yeux	œil	NOUN	_	Gender=Masc|Number=Plur	9	comp:obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
@@ -11284,7 +11284,7 @@
 12	que	que	SCONJ	_	_	8	comp:cleft	_	_
 13	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	14	subj	_	_
 14	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	12	comp:obj	_	_
-15	dessiné	dessiner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux	_	_
+15	dessiné	dessiner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux@tense	_	_
 16	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=2|PronType=Prs	17	det	_	_
 17	route	route	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
 18	Françoise	Françoise	PROPN	_	_	3	vocative	_	_
@@ -11300,7 +11300,7 @@
 3	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	5	subj	_	_
 4	m'	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	6	comp:obl	_	SpaceAfter=No
 5	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	demandé	demander	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux	_	_
+6	demandé	demander	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
 7	si	si	SCONJ	_	_	6	comp:obj	_	_
 8	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	9	subj	_	_
 9	suis	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	comp:obj	_	_
@@ -11359,7 +11359,7 @@
 5	pourquoi	pourquoi	ADV	_	_	7	mod	_	_
 6	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	SpaceAfter=No
 7	aurais	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	comp:obj@x	_	_
-8	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux	_	_
+8	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
 9	exception	exception	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
 10	à	à	ADP	_	_	9	udep	_	_
 11	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
@@ -11416,7 +11416,7 @@
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	oui	oui	INTJ	_	_	7	discourse	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
-11	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux	_	SpaceAfter=No
+11	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	eu	avoir	VERB	conj:reform	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	conj:dicto	_	_
 14	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	21	det	_	SpaceAfter=No
@@ -11438,7 +11438,7 @@
 3	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	6	comp:obl	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	mod@relcl	_	_
 5	toujours	toujours	ADV	_	_	6	comp:obj	_	_
-6	intéressée	intéresser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	SpaceAfter=No
+6	intéressée	intéresser	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	1	punct	_	_
 8	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	subj	_	SpaceAfter=No
 9	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -11510,7 +11510,7 @@
 4	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	SpaceAfter=No
 5	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	toujours	toujours	ADV	_	_	5	mod	_	_
-7	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux	_	SpaceAfter=No
+7	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	10	subj	_	_
 10	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	discourse	_	SpaceAfter=No
@@ -11525,7 +11525,7 @@
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	SpaceAfter=No
 5	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux	_	_
+6	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
 7	envie	envie	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj@lvc	_	_
 8	de	de	ADP	_	_	7	comp:obl@x	_	_
 9	savoir	savoir	VERB	_	VerbForm=Inf	8	comp:obj	_	_
@@ -11568,7 +11568,7 @@
 8	Marcel	Marcel	PROPN	_	_	10	subj	_	_
 9	Achard	Achard	PROPN	_	_	8	flat@name	_	_
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	mod	_	_
-11	écrit	écrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux	_	_
+11	écrit	écrire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux@tense	_	_
 12	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
 13	texte	texte	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	10	punct	_	_
@@ -11593,7 +11593,7 @@
 6	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	SpaceAfter=No
 7	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	toujours	toujours	ADV	_	_	7	mod	_	_
-9	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux	_	_
+9	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
 10	étonnée	étonner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	comp:pred	_	_
 11	de	de	ADP	_	_	7	mod	_	_
 12	voir	voir	VERB	_	VerbForm=Inf	11	comp:obj	_	_
@@ -11675,7 +11675,7 @@
 3	que	que	SCONJ	_	_	1	comp:pred	_	_
 4	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	5	subj	_	_
 5	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
-6	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux	_	_
+6	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	desc~	desc~	X	_	_	6	comp:obj	_	ExtPos=NOUN|SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
@@ -11707,7 +11707,7 @@
 2	s'	se	PRON	_	Person=3|PronType=Prs	5	comp@expl	_	SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
-5	passé	passer	VERB	ETRE	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
+5	passé	passer	VERB	ETRE	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 6	tout	tout	ADV	_	_	10	mod	_	ExtPos=ADV|Idiom=Yes
 7	à	à	ADP	_	_	6	unk	_	InIdiom=Yes
 8	fait	fait	NOUN	_	Gender=Masc|Number=Sing	7	unk	_	InIdiom=Yes
@@ -11728,7 +11728,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	SpaceAfter=No
 6	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux	_	_
+7	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	destin	destin	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	6	punct	_	_
@@ -11755,7 +11755,7 @@
 2	que	que	SCONJ	_	_	1	comp:obj	_	_
 3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	SpaceAfter=No
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
-5	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	_
+5	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	destin	destin	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	InIdiom=Yes
@@ -11773,7 +11773,7 @@
 20	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	21	det	_	_
 21	vie	vie	NOUN	_	Gender=Fem|Number=Sing	19	comp:obj	_	_
 22	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	comp:obj	_	_
-23	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	comp:aux	_	_
+23	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	comp:aux@tense	_	_
 24	en	en	ADP	_	_	22	mod	_	_
 25	effet	effet	NOUN	_	Gender=Masc|Number=Sing	24	comp:obj	_	_
 26	différentes	différent	ADJ	_	Gender=Fem|Number=Plur	23	comp:pred	_	SpaceAfter=No
@@ -11790,12 +11790,12 @@
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	SpaceAfter=No
 5	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux	_	_
+6	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
 7	s~	s~	X	_	_	6	mod	_	ExtPos=X|SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	10	subj@pass	_	SpaceAfter=No
 10	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj:dicto	_	_
-11	été	être	AUX	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux	_	_
+11	été	être	AUX	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux@tense	_	_
 12	obligée	obliger	VERB	DoubleAux	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux@pass	_	_
 13	de	de	ADP	_	_	12	comp:obl@x	_	_
 14	travailler	travailler	VERB	_	VerbForm=Inf	13	comp:obj	_	_
@@ -11864,7 +11864,7 @@
 18	qui	qui	PRON	_	PronType=Rel	20	subj	_	_
 19	m'	le	PRON	_	Number=Sing|Person=1|PronType=Prs	21	comp:obl	_	SpaceAfter=No
 20	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	mod@relcl	_	_
-21	conduit	conduire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	comp:aux	_	_
+21	conduit	conduire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	comp:aux@tense	_	_
 22	à	à	ADP	_	_	21	comp:obl@x	_	_
 23	être	être	AUX	_	VerbForm=Inf	22	comp:obj	_	_
 24	obligée	obliger	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	23	comp:aux@pass	_	_
@@ -11909,14 +11909,14 @@
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	_
 4	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	6	comp@expl	_	_
 5	serais	être	AUX	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
-6	mariée	marier	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux	_	_
+6	mariée	marier	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
 7	et	et	CCONJ	_	_	10	cc	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	et	et	CCONJ	conj:reform	_	7	conj:dicto	_	_
 10	que	que	SCONJ	_	_	2	conj:coord	_	_
 11	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	12	subj	_	SpaceAfter=No
 12	aurais	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	comp:obj	_	_
-13	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux	_	_
+13	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux@tense	_	_
 14	plus	plus	ADV	_	_	15	mod	_	_
 15	commode	commode	ADJ	_	Gender=Masc|Number=Sing	13	comp:pred	_	_
 16	d'	de	ADP	_	_	13	comp:obl	_	SpaceAfter=No
@@ -11961,7 +11961,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	SpaceAfter=No
 5	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	choisi	choisir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux	_	_
+6	choisi	choisir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
 7	de	de	ADP	_	_	6	comp:obl@x	_	_
 8	travailler	travailler	VERB	_	VerbForm=Inf	7	comp:obj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	5	punct	_	_
@@ -11992,7 +11992,7 @@
 3	pourquoi	pourquoi	ADV	_	_	5	mod	_	_
 4	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	SpaceAfter=No
 5	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux	_	_
+6	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
 7-8	du	_	_	_	_	_	_	_	_
 7	de	de	ADP	_	_	6	comp:obl	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -12074,7 +12074,7 @@
 6	aurais	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj:dicto	_	_
 7	certainement	certainement	ADV	_	_	6	mod	_	_
 8	pas	pas	ADV	_	Polarity=Neg	6	mod	_	_
-9	débuté	débuter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux	_	_
+9	débuté	débuter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	_
 10	à	à	ADP	_	_	6	mod	_	_
 11	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
 12	moment	moment	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	SpaceAfter=No
@@ -12106,7 +12106,7 @@
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj@expl	_	_
 6	y	y	PRON	_	Person=3|PronType=Prs	8	comp:obl	_	_
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
-8	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux	_	_
+8	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	guerre	guerre	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
@@ -12121,7 +12121,7 @@
 4	que	que	SCONJ	_	_	3	comp:obj	_	_
 5	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	subj@pass	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
-7	été	être	AUX	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux	_	_
+7	été	être	AUX	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	_
 8	bouleversé	bouleverser	VERB	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@pass	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	qu'	que	SCONJ	_	_	4	conj:coord	_	SpaceAfter=No
@@ -12144,7 +12144,7 @@
 27	plus	plus	ADV	_	_	30	mod	_	_
 28	ou	ou	CCONJ	_	_	29	cc	_	_
 29	moins	moins	ADV	_	_	27	conj:coord	_	_
-30	collaboré	collaborer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	comp:aux	_	_
+30	collaboré	collaborer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	comp:aux@tense	_	_
 31	et	et	CCONJ	_	_	32	cc	_	_
 32	que	que	SCONJ	_	_	10	conj:coord	_	_
 33-34	au	_	_	_	_	_	_	_	_
@@ -12159,7 +12159,7 @@
 41	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	43	subj	_	_
 42	m'	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	44	comp:obl	_	SpaceAfter=No
 43	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	comp:obj	_	_
-44	proposé	proposer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	43	comp:aux	_	_
+44	proposé	proposer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	43	comp:aux@tense	_	_
 45	d'	de	ADP	_	_	44	comp:obl@x	_	SpaceAfter=No
 46	y	y	PRON	_	Person=3|PronType=Prs	47	comp:obl	_	_
 47	entrer	entrer	VERB	ETRE	VerbForm=Inf	45	comp:obj	_	_
@@ -12217,7 +12217,7 @@
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
 2	y	y	PRON	_	Person=3|PronType=Prs	4	comp:obl	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
+4	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 5	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=2|PronType=Prs	6	det	_	_
 6	père	père	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	_
@@ -12292,7 +12292,7 @@
 11	,	,	PUNCT	_	_	1	punct	_	_
 12	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	13	subj@pass	_	_
 13	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-14	été	être	AUX	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux	_	_
+14	été	être	AUX	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux@tense	_	_
 15	ruinée	ruiner	VERB	DoubleAux	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux@pass	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	13	punct	_	_
 
@@ -12302,7 +12302,7 @@
 # text = il a fallu travailler.
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	fallu	falloir	VERB	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux	_	_
+3	fallu	falloir	VERB	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	travailler	travailler	VERB	DoubleAux	VerbForm=Inf	3	comp:obj@x	_	Overlap=Rhap_D2001-70bis|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	Overlap=Rhap_D2001-70bis
 
@@ -12409,7 +12409,7 @@
 10	n'	ne	ADV	_	Polarity=Neg	11	mod	_	SpaceAfter=No
 11	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	_
 12	jamais	jamais	ADV	_	PronType=Neg	11	mod	_	_
-13	oubliée	oublier	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux	_	SpaceAfter=No
+13	oubliée	oublier	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	comp:aux@tense	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = $- $L1 XXX //
@@ -12502,7 +12502,7 @@
 4	que	que	SCONJ	_	_	2	comp:pred	_	_
 5	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	6	subj	_	_
 6	aviez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Imp|VerbForm=Fin	4	comp:obj	_	_
-7	prévu	prévoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux	_	_
+7	prévu	prévoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	_
 8	tout	tout	ADJ	_	Gender=Masc|Number=Sing	9	mod	_	_
 9	cela	cela	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	comp:obj	_	_
 10	?	?	PUNCT	_	_	2	punct	_	_
@@ -12514,7 +12514,7 @@
 1	car	car	CCONJ	_	_	3	cc	_	_
 2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
 3	aviez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Imp|VerbForm=Fin	0	root	_	_
-4	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	3	comp:aux	_	_
+4	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
 6	cours	cours	NOUN	_	Gender=Masc|Number=Plur	4	comp:obl	_	_
 7	de	de	ADP	_	_	6	udep	_	_
@@ -12560,7 +12560,7 @@
 2	n'	ne	ADV	_	Polarity=Neg	3	mod	_	SpaceAfter=No
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
-5	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	3	comp:aux	_	_
+5	pris	prendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 6-7	des	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	5	comp:obl	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
@@ -12587,7 +12587,7 @@
 11	où	où	PRON	_	PronType=Rel	13	mod	_	_
 12	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	subj	_	_
 13	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	mod@relcl	_	_
-14	fallu	falloir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux	_	_
+14	fallu	falloir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux@tense	_	_
 15	vraiment	vraiment	ADV	_	_	13	mod	_	_
 16	que	que	SCONJ	_	_	14	comp:obj	_	_
 17	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	18	subj	_	_
@@ -12641,7 +12641,7 @@
 62	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	64	subj	_	_
 63	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	65	comp:obl	_	_
 64	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
-65	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	64	comp:aux	_	SpaceAfter=No
+65	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	64	comp:aux@tense	_	SpaceAfter=No
 66	,	,	PUNCT	_	_	73	punct	_	_
 67	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	73	dislocated	_	_
 68	qu'	que	PRON	_	PronType=Rel	70	comp:obj	_	SpaceAfter=No
@@ -12744,7 +12744,7 @@
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
 2	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	4	comp:obl	_	_
 3	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
+4	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	_
 6	vais	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	comp:obj	_	Reported=Yes
 7	apprendre	apprendre	VERB	CCOMP	VerbForm=Inf	6	comp:obj@x	_	_
@@ -12778,7 +12778,7 @@
 2	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	SpaceAfter=No
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	donc	donc	ADV	_	_	3	mod	_	_
-5	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
+5	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 6	à	à	ADP	_	_	3	mod	_	_
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
 8	école	école	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
@@ -12821,7 +12821,7 @@
 7	que	que	SCONJ	_	_	4	comp:cleft	_	_
 8	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	9	subj	_	SpaceAfter=No
 9	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	comp:obj	_	_
-10	commencé	commencer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux	_	_
+10	commencé	commencer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@tense	_	_
 11	à	à	ADP	_	_	10	comp:obl@x	_	_
 12	gagner	gagner	VERB	_	VerbForm=Inf	11	comp:obj	_	_
 13	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	14	det	_	_
@@ -12837,7 +12837,7 @@
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	_
 4	y	y	PRON	_	Person=3|PronType=Prs	6	comp:obl	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux	_	_
+6	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
 7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	librairie	librairie	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	5	punct	_	_
@@ -12858,7 +12858,7 @@
 10	Allégret	Allégret	PROPN	_	_	12	subj	_	_
 11	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	13	comp:obj	_	_
 12	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	comp:obj	_	_
-13	trouvée	trouver	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux	_	SpaceAfter=No
+13	trouvée	trouver	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux@tense	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = $L2 " euh " c'est-à-dire que je connaissais Allégret très bien //
@@ -12953,7 +12953,7 @@
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
 2	m'	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	4	comp:obl	_	SpaceAfter=No
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	laissé	laisser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
+4	laissé	laisser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 5	toute	tout	ADJ	_	Gender=Fem|Number=Sing	7	mod	_	_
 6	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	7	det	_	_
 7	librairie	librairie	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	SpaceAfter=No
@@ -13070,7 +13070,7 @@
 # text = il est entré un jour dans cette librairie.
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	entré	entrer	VERB	ETRE	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux	_	_
+3	entré	entrer	VERB	ETRE	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	jour	jour	NOUN	_	Gender=Masc|Number=Sing	2	mod	_	_
 6	dans	dans	ADP	_	_	3	comp:obl	_	_
@@ -13085,7 +13085,7 @@
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
 2	m'	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	4	comp:obl	_	SpaceAfter=No
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
+4	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 5	mais	mais	CCONJ	_	_	7	cc	_	_
 6	qu'	que	PRON	_	Person=3|PronType=Int	7	comp:pred	_	SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	Reported=Yes|SpaceAfter=No
@@ -13106,7 +13106,7 @@
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
 2	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	comp:obl	_	_
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	SpaceAfter=No
+4	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	12	punct	_	_
 6	ben	ben	INTJ	_	_	12	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
@@ -13126,7 +13126,7 @@
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
 2	m'	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	4	comp:obl	_	SpaceAfter=No
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
+4	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 5	qu'	que	PRON	_	Person=3|PronType=Int	6	comp:pred	_	SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	Reported=Yes|SpaceAfter=No
 7	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj@expl	_	_
@@ -13142,7 +13142,7 @@
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	SpaceAfter=No
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
+4	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	_
 6	gagne	gagner	VERB	CCOMP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	comp:obj	_	Reported=Yes
 7	trois	trois	NUM	_	Number=Plur	9	det	_	_
@@ -13160,7 +13160,7 @@
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
 3	m'	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	5	comp:obl	_	SpaceAfter=No
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	_
+5	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 6	mais	mais	CCONJ	_	_	8	cc	_	_
 7	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	8	subj	_	_
 8	perds	perdre	VERB	CCOMP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	comp:obj	_	Reported=Yes
@@ -13174,7 +13174,7 @@
 # text = j'ai dit, ben, oui, mais en attendant, je paie mon loyer, enfin, pas mon loyer.
 1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	SpaceAfter=No
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux	_	SpaceAfter=No
+3	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	ben	ben	INTJ	_	_	14	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
@@ -13231,7 +13231,7 @@
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
 3	m'	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	5	comp:obl	_	SpaceAfter=No
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	SpaceAfter=No
+5	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	12	punct	_	_
 7	écoute	écouter	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
@@ -13321,7 +13321,7 @@
 13	n'	ne	ADV	_	Polarity=Neg	14	mod	_	SpaceAfter=No
 14	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	11	comp:obj	_	_
 15	jamais	jamais	ADV	_	PronType=Neg	14	mod	_	_
-16	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux	_	_
+16	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux@tense	_	_
 17	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
 18	métier	métier	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
 19	sauf	sauf	CCONJ	_	_	20	cc	_	_
@@ -13398,7 +13398,7 @@
 8	que	que	SCONJ	_	_	2	comp:cleft	_	_
 9	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	10	subj	_	_
 10	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	8	comp:obj	_	_
-11	raté	rater	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux	_	_
+11	raté	rater	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux@tense	_	_
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 13	autre	autre	ADJ	_	Gender=Fem|Number=Sing	14	mod	_	_
 14	carrière	carrière	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	SpaceAfter=No
@@ -13415,7 +13415,7 @@
 5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	subj	_	_
 6	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	8	comp:obl	_	_
 7	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-8	proposé	proposer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux	_	_
+8	proposé	proposer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
 9	de	de	ADP	_	_	8	comp:obl@x	_	_
 10	tourner	tourner	VERB	_	VerbForm=Inf	9	comp:obj	_	_
 11	dans	dans	ADP	_	_	10	mod	_	_
@@ -13440,7 +13440,7 @@
 4	que	que	SCONJ	_	_	2	comp:obj	_	_
 5	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	SpaceAfter=No
 6	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
-7	raté	rater	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux	_	_
+7	raté	rater	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	_
 8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	carrière	carrière	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	_	_
@@ -13481,7 +13481,7 @@
 3	que	que	SCONJ	_	_	2	comp:obj	_	_
 4	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	5	subj	_	_
 5	ayez	avoir	AUX	_	Mood=Sub|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
-6	tourné	tourner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux	_	_
+6	tourné	tourner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
 7	dans	dans	ADP	_	_	6	comp:obl	_	_
 8	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
 9	film	film	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	SpaceAfter=No
@@ -13490,14 +13490,14 @@
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	film	film	NOUN	_	Gender=Masc|Number=Sing	14	subj	_	_
 14	ait	avoir	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	comp:obj	_	_
-15	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux	_	_
+15	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux@tense	_	_
 16	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	succès	succès	NOUN	_	Gender=Masc|Number=Sing	15	comp:obl	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	que	que	SCONJ	_	_	11	conj:dicto	_	_
 20	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	21	subj	_	_
 21	soyez	être	AUX	_	Mood=Sub|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	19	comp:obj	_	_
-22	devenue	devenir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	21	comp:aux	_	_
+22	devenue	devenir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	21	comp:aux@tense	_	_
 23	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
 24	vedette	vedette	NOUN	_	Gender=Fem|Number=Sing	22	comp:obj	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	2	punct	_	_
@@ -13664,7 +13664,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	6	subj	_	_
 6	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	tourné	tourner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux	_	_
+7	tourné	tourner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	_
 8	avec	avec	ADP	_	_	6	mod	_	_
 9	Jean	Jean	PROPN	_	_	8	comp:obj	_	_
 10	Renoir	Renoir	PROPN	_	_	9	flat@name	_	SpaceAfter=No
@@ -13680,7 +13680,7 @@
 4	que	que	SCONJ	_	_	3	comp:obj	_	_
 5	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	6	subj	_	Overlap=Rhap_D2001-137bis
 6	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	comp:obj	_	Overlap=Rhap_D2001-137bis
-7	travaillé	travailler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux	_	Overlap=Rhap_D2001-137bis
+7	travaillé	travailler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	Overlap=Rhap_D2001-137bis
 8	avec	avec	ADP	_	_	6	mod	_	Overlap=Rhap_D2001-137bis
 9	Jean	Jean	PROPN	_	_	8	comp:obj	_	Overlap=Rhap_D2001-137bis
 10	Renoir	Renoir	PROPN	_	_	9	flat@name	_	SpaceAfter=No
@@ -13739,7 +13739,7 @@
 1	car	car	CCONJ	_	_	3	cc	_	_
 2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
 3	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	travaillé	travailler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	SpaceAfter=No
+4	travaillé	travailler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	travaillé	travailler	VERB	conj:reform	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj:dicto	_	_
 7	directement	directement	ADV	_	_	6	mod	_	_
@@ -13761,7 +13761,7 @@
 1	c'est-à-dire	c'est-à-dire	CCONJ	_	_	3	cc	_	_
 2	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	3	subj	_	_
 3	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
+4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 5	tous	tout	ADJ	_	Gender=Masc|Number=Plur	7	mod	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	deux	deux	NUM	_	Number=Plur	4	mod	_	SpaceAfter=No
@@ -13773,7 +13773,7 @@
 13	tous	tout	ADJ	_	Gender=Masc|Number=Plur	15	mod	_	_
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
 15	deux	deux	NUM	_	Number=Plur	16	mod	_	_
-16	collaboré	collaborer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux	_	_
+16	collaboré	collaborer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux@tense	_	_
 17	avec	avec	ADP	_	_	12	mod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	21	punct	_	_
 19	euh	euh	INTJ	_	_	22	discourse	_	SpaceAfter=No
@@ -13793,7 +13793,7 @@
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	nous	il	PRON	conj:reform	Number=Plur|Person=1|PronType=Prs	4	conj:dicto	_	_
 7	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux	_	_
+8	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
 9	beaucoup	beaucoup	ADV	_	_	8	comp:obj	_	_
 10	d'	de	ADP	_	_	9	comp:obl	_	SpaceAfter=No
 11	amitié	amitié	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
@@ -13818,7 +13818,7 @@
 30	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	27	conj:dicto	_	SpaceAfter=No
 31	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	25	mod@relcl	_	_
 32	déjà	déjà	ADV	_	_	31	mod	_	_
-33	dites	dire	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	31	comp:aux	_	_
+33	dites	dire	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	31	comp:aux@tense	_	_
 34	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	fois	fois	NOUN	_	Gender=Fem|Number=Sing	33	mod	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	7	punct	_	_
@@ -14210,7 +14210,7 @@
 20	que	que	PRON	_	PronType=Rel	23	comp:obj	_	_
 21	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	22	subj	_	SpaceAfter=No
 22	aurai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	15	comp:cleft	_	_
-23	passée	passer	VERB	ETRE	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	22	comp:aux	_	_
+23	passée	passer	VERB	ETRE	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	22	comp:aux@tense	_	_
 24	avec	avec	ADP	_	_	22	mod	_	_
 25	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=1|PronType=Prs	26	det	_	_
 26	forces	force	NOUN	_	Gender=Fem|Number=Plur	24	comp:obj	_	_
@@ -14351,7 +14351,7 @@
 23	ceux	celui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	22	comp:obj	_	_
 24	qui	qui	PRON	_	PronType=Rel	25	subj	_	_
 25	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	mod@relcl	_	_
-26	choisi	choisir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	comp:aux	_	_
+26	choisi	choisir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	comp:aux@tense	_	_
 27	de	de	ADP	_	_	26	comp:obl@x	_	_
 28	servir	servir	VERB	_	VerbForm=Inf	27	comp:obj	_	_
 29	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	30	det	_	_
@@ -14405,7 +14405,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	SpaceAfter=No
 5	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	tenu	tenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux	_	_
+6	tenu	tenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
 7	à	à	ADP	_	_	6	mod	_	_
 8	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	comp:obj	_	_
 9	que	que	SCONJ	_	_	8	mod	_	_
@@ -15045,7 +15045,7 @@
 2	quand	quand	SCONJ	_	_	14	mod	_	_
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
-5	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	_
+5	donné	donner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 6	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	9	det	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	sa	son	DET	conj:reform	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs	6	conj:dicto	_	_
@@ -15237,7 +15237,7 @@
 13	après	après	ADP	_	_	9	mod	_	_
 14	avoir	avoir	AUX	_	VerbForm=Inf	13	comp:obj	_	_
 15	bien	bien	ADV	_	_	14	mod	_	_
-16	connu	connaître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux	_	SpaceAfter=No
+16	connu	connaître	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux@tense	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	3	punct	_	_
 
 # macrosyntax = $L2 "mh" //
@@ -15252,7 +15252,7 @@
 # speaker = L1
 # text = il faut avoir fait ses preuves soi-même d'attachement au pays.
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
-2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:aux	_	_
+2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:aux@tense	_	_
 3	avoir	avoir	AUX	DoubleAux	VerbForm=Inf	0	root	_	_
 4	fait	faire	VERB	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:obj@x	_	_
 5	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|PronType=Prs	6	det	_	_
@@ -16381,7 +16381,7 @@
 17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
 19	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj@x	_	_
-20	été	être	AUX	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	comp:aux	_	_
+20	été	être	AUX	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	comp:aux@tense	_	_
 21	travaillé	travailler	VERB	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	comp:aux@pass	_	_
 22	par	par	ADP	_	_	21	comp:obl	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
