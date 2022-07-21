@@ -226,7 +226,7 @@
 # speaker = L2
 # text = il se trouve que dans les adresses qu'on m'avait données, j'ai, euh, il y a deux rendez-vous que j'ai dû remettre parce que les gens vendaient, euh, euh, des biens de famille.
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
-2	se	se	PRON	_	Person=3|PronType=Prs	3	comp	_	_
+2	se	se	PRON	_	Person=3|PronType=Prs	3	comp@expl	_	_
 3	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	que	que	SCONJ	_	_	3	comp:obj	_	_
 5	dans	dans	ADP	_	_	15	mod	_	_
@@ -550,7 +550,7 @@
 28	qui	qui	PRON	_	PronType=Rel	48	subj	_	_
 29	pour	pour	ADP	_	_	48	mod	_	_
 30	pouvoir	pouvoir	VERB	_	VerbForm=Inf	29	comp:obj	_	_
-31	se	se	PRON	_	Person=3|PronType=Prs	32	comp	_	_
+31	se	se	PRON	_	Person=3|PronType=Prs	32	comp:obl	_	_
 32	payer	payer	VERB	_	VerbForm=Inf	30	comp:obj@x	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	34	punct	_	_
 34	euh	euh	INTJ	_	_	32	discourse	_	SpaceAfter=No
@@ -3834,7 +3834,7 @@
 # sent_id = Rhap_M2006-57
 # text = elle se trouvait dans le parloir de la prison au moment où les deux détenus se sont fait la belle.
 1	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
-2	se	se	PRON	_	Person=3|PronType=Prs	3	comp	_	_
+2	se	se	PRON	_	Person=3|PronType=Prs	3	comp@expl	_	_
 3	trouvait	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	dans	dans	ADP	_	_	3	comp:obl	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -3850,7 +3850,7 @@
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
 15	deux	deux	NUM	_	Number=Plur	16	mod	_	_
 16	détenus	détenu	NOUN	_	Gender=Masc|Number=Plur	18	subj@pass	_	_
-17	se	se	PRON	_	Person=3|PronType=Prs	19	comp	_	_
+17	se	se	PRON	_	Person=3|PronType=Prs	19	comp@expl	_	_
 18	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	mod@relcl	_	_
 19	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	comp:aux@pass	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
@@ -5091,7 +5091,7 @@
 # speaker = L1
 # text = je me suis vraiment ouverte sur le monde.
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
-2	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	5	comp	_	_
+2	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	5	comp:obj	_	_
 3	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	vraiment	vraiment	ADV	_	_	3	mod	_	_
 5	ouverte	ouvrir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
@@ -6098,7 +6098,7 @@
 4	parfois	parfois	ADV	_	_	8	mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	_
-7	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	9	comp	_	_
+7	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	9	comp:obl	_	_
 8	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	demandé	demander	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux@tense	_	_
 10	si	si	SCONJ	_	_	9	comp:obj	_	_
@@ -12598,7 +12598,7 @@
 3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
 5	pourquoi	pourquoi	ADV	_	_	7	mod	_	_
-6	se	se	PRON	_	Person=3|PronType=Prs	7	comp	_	_
+6	se	se	PRON	_	Person=3|PronType=Prs	7	comp:obj	_	_
 7	diriger	diriger	VERB	_	VerbForm=Inf	0	root	_	_
 8	vers	vers	ADP	_	_	7	comp:obl	_	_
 9	ces	ce	DET	_	Number=Plur|Person=3|PronType=Dem	11	det	_	_
@@ -12687,7 +12687,7 @@
 # speaker = L2
 # text = il se trouve qu'à partir de la Math Elem, je me suis trouvé très bon en maths.
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
-2	se	se	PRON	_	Person=3|PronType=Prs	3	comp	_	_
+2	se	se	PRON	_	Person=3|PronType=Prs	3	comp@expl	_	_
 3	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	qu'	que	SCONJ	_	_	3	comp:obj	_	SpaceAfter=No
 5	à	à	ADP	_	_	14	mod	_	_
@@ -12698,7 +12698,7 @@
 10	Elem	Elem	PROPN	_	_	9	flat@name	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	5	punct	_	_
 12	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	14	subj	_	_
-13	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	15	comp	_	_
+13	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	15	comp@expl	_	_
 14	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
 15	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux@tense	_	_
 16	très	très	ADV	_	_	17	mod	_	_
@@ -13031,8 +13031,8 @@
 1	et	et	CCONJ	_	_	8	cc	_	ExtPos=CCONJ|Idiom=Yes
 2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
 3	en	en	ADP	_	_	8	mod	_	_
-4	se	se	PRON	_	Person=3|PronType=Prs	5	comp	_	_
-5	mariant	[a-z]+	VERB	_	Tense=Pres|VerbForm=Part	3	comp:obj	_	SpaceAfter=No
+4	se	se	PRON	_	Person=3|PronType=Prs	5	comp:obj	_	_
+5	mariant	marier	VERB	_	Tense=Pres|VerbForm=Part	3	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	subj	_	_
 8	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -14728,7 +14728,7 @@
 8	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	subj	_	_
 9	commençait	commencer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	comp:obj	_	_
 10	à	à	ADP	_	_	9	comp:obl@x	_	_
-11	se	se	PRON	_	Person=3|PronType=Prs	12	comp	_	_
+11	se	se	PRON	_	Person=3|PronType=Prs	12	comp@expl	_	_
 12	faire	faire	VERB	_	VerbForm=Inf	10	comp:obj	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -14920,7 +14920,7 @@
 62	ça	ça	PRON	conj:reform	Gender=Masc|Number=Sing|Person=3|PronType=Dem	60	conj:dicto	_	SpaceAfter=No
 63	,	,	PUNCT	_	_	64	punct	_	_
 64	ça	ça	PRON	conj:reform	Gender=Masc|Number=Sing|Person=3|PronType=Dem	62	conj:dicto	_	_
-65	se	se	PRON	_	Person=3|PronType=Prs	66	comp	_	_
+65	se	se	PRON	_	Person=3|PronType=Prs	66	comp@pass	_	_
 66	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	74	parataxis:parenth	_	_
 67	assez	assez	ADV	_	_	68	mod	_	_
 68	facilement	facilement	ADV	_	_	66	mod	_	SpaceAfter=No
@@ -15153,7 +15153,7 @@
 23	crayon	crayon	NOUN	_	Gender=Masc|Number=Sing	21	comp:obj	_	Overlap=Rhap_D0002-48ter|SpaceAfter=No
 24	,	,	PUNCT	_	_	6	punct	_	Overlap=Rhap_D0002-48ter
 25	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	27	subj	_	_
-26	se	se	PRON	_	Person=3|PronType=Prs	27	comp	_	_
+26	se	se	PRON	_	Person=3|PronType=Prs	27	comp@pass	_	_
 27	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
 28	pas	pas	ADV	_	Polarity=Neg	27	mod	_	_
 29	en	en	ADP	_	_	27	mod	_	_
@@ -17891,7 +17891,7 @@
 16	de	de	ADP	_	_	15	udep	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
 18	années	année	NOUN	_	Gender=Fem|Number=Plur	16	comp:obj	_	_
-19	se	se	PRON	_	Person=3|PronType=Prs	20	comp	_	_
+19	se	se	PRON	_	Person=3|PronType=Prs	20	comp@expl	_	_
 20	dégrader	dégrader	VERB	_	VerbForm=Inf	12	comp:obj@x	_	_
 21	également	également	ADV	_	_	12	mod	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	12	punct	_	_
