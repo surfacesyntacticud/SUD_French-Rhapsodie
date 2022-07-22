@@ -1651,7 +1651,7 @@
 26	,	,	PUNCT	_	_	27	punct	_	_
 27	sans	sans	ADP	_	_	25	conj:dicto	_	_
 28	me	le	PRON	_	Number=Sing|Person=1|PronType=Prs	29	comp:obj	_	_
-29	connaître	connaître	VERB	_	VerbForm=Inf	27	comp:obj	_	SpaceAfter=No
+29	connaître	connaître	VERB	_	VerbForm=Inf	27	comp:obj	_	SpaceAfter=No|Subject=NoRaising
 30	,	,	PUNCT	_	_	32	punct	_	_
 31	ni	ni	CCONJ	_	_	32	cc	_	_
 32	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	29	conj:coord	_	_
@@ -2570,7 +2570,7 @@
 4	demandé	demander	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 5	de	de	ADP	_	_	4	comp:obl@x	_	_
 6	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	_
-7	faire	faire	VERB	_	VerbForm=Inf	5	comp:obj	_	SpaceAfter=No
+7	faire	faire	VERB	_	VerbForm=Inf	5	comp:obj	_	SpaceAfter=No|Subject=OblRaising
 8	.	.	PUNCT	_	_	3	punct	_	_
 
 # macrosyntax = ^mais vous étiez auprès des femmes >+ $- ( $L2 alors ESPERLUETTE // ) là-bas // -$
@@ -3220,7 +3220,7 @@
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
 2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Reported=Yes
 3	s'	se	PRON	_	Person=3|PronType=Prs	4	comp@expl	_	SpaceAfter=No
-4	appeler	appeler	VERB	_	VerbForm=Inf	2	comp:obj@x	_	_
+4	appeler	appeler	VERB	_	VerbForm=Inf	2	comp:obj@x	_	Subject=NoRaising
 5	Rachida	Rachida	PROPN	_	_	4	comp:obj	_	_
 6	Dati	Dati	PROPN	_	_	5	flat@name	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
@@ -3231,7 +3231,7 @@
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	pour	pour	ADP	_	_	2	mod	_	_
 14	oser	oser	VERB	_	VerbForm=Inf	13	comp:obj	_	Subject=NoRaising
-15	affirmer	affirmer	VERB	_	VerbForm=Inf	14	comp:obj@x	_	_
+15	affirmer	affirmer	VERB	_	VerbForm=Inf	14	comp:obj@x	_	Subject=NoRaising
 16	qu'	que	SCONJ	_	_	15	comp:obj	_	SpaceAfter=No
 17	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	subj@expl	_	_
 18	ne	ne	ADV	_	Polarity=Neg	20	mod	_	_
@@ -3560,7 +3560,7 @@
 16	,	,	PUNCT	_	_	13	punct	_	_
 17	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	subj@expl	_	_
 18	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Reported=Yes
-19	accélérer	accélérer	VERB	_	VerbForm=Inf	18	comp:obj@x	_	_
+19	accélérer	accélérer	VERB	_	VerbForm=Inf	18	comp:obj@x	_	Subject=NoRaising
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	rythme	rythme	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
 22-23	du	_	_	_	_	_	_	_	_
@@ -3655,7 +3655,7 @@
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
 2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	y	y	PRON	_	Person=3|PronType=Prs	4	comp:obj	_	_
-4	aller	aller	VERB	ETRE	VerbForm=Inf	2	comp:obj@x	_	_
+4	aller	aller	VERB	ETRE	VerbForm=Inf	2	comp:obj@x	_	Subject=NoRaising
 5	plus	plus	ADV	_	_	6	mod	_	_
 6	vite	vite	ADV	_	_	4	mod	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	_
@@ -9131,7 +9131,7 @@
 2	que	que	ADV	_	_	1	unk	_	InIdiom=Yes
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 4	fallu	falloir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
-5	former	former	VERB	_	VerbForm=Inf	4	comp:obj	_	_
+5	former	former	VERB	_	VerbForm=Inf	4	comp:obj	_	Subject=SubjRaising
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	gens	gens	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	_
 8	aussi	aussi	ADV	_	_	5	mod	_	_
@@ -10175,7 +10175,7 @@
 11	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	12	subj	_	_
 12	commences	commencer	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	comp:obj	_	_
 13	à	à	ADP	_	_	12	comp:obl	_	_
-14	être	être	VERB	_	VerbForm=Inf	13	comp:obj	_	_
+14	être	être	VERB	_	VerbForm=Inf	13	comp:obj	_	Subject=SubjRaising
 15-16	au	_	_	_	_	_	_	_	_
 15	à	à	ADP	_	_	14	comp:obl	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
@@ -11769,7 +11769,7 @@
 2	voit	voir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	dame	dame	NOUN	_	Gender=Fem|Number=Sing	5	subj	_	_
-5	expliquer	expliquer	VERB	_	VerbForm=Inf	2	comp:obj	_	_
+5	expliquer	expliquer	VERB	_	VerbForm=Inf	2	comp:obj	_	Subject=SubjRaising
 6	qu'	que	SCONJ	_	_	5	comp:obj	_	SpaceAfter=No
 7	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	subj	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
@@ -17345,7 +17345,7 @@
 # text = il peut avoir des…
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 2	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	avoir	avoir	VERB	CCOMP	VerbForm=Inf	2	comp:obj	_	_
+3	avoir	avoir	VERB	CCOMP	VerbForm=Inf	2	comp:obj	_	Subject=SubjRaising
 4	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	3	comp:obj@scrap	_	SpaceAfter=No
 5	…	…	PUNCT	_	_	2	punct	_	_
 
@@ -20764,7 +20764,7 @@
 45	se	se	PRON	_	Person=3|PronType=Prs	46	comp@expl	_	_
 46	précipite	précipiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	mod@relcl	_	_
 47	pour	pour	ADP	_	_	46	mod	_	_
-48	rétablir	rétablir	VERB	_	VerbForm=Inf	46	comp:obj	_	_
+48	rétablir	rétablir	VERB	_	VerbForm=Inf	46	comp:obj	_	Subject=SubjRaising
 49	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	50	det	_	SpaceAfter=No
 50	ordre	ordre	NOUN	_	Gender=Masc|Number=Sing	48	comp:obj	_	SpaceAfter=No
 51	.	.	PUNCT	_	_	15	punct	_	_
