@@ -237,7 +237,7 @@
 18	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	19	subj	_	_
 19	vais	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	conj:dicto	_	_
 20	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	21	comp:obj	_	_
-21	longer	longer	VERB	_	VerbForm=Inf	19	comp:obj@x	_	SpaceAfter=No
+21	longer	longer	VERB	_	VerbForm=Inf	19	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 22	.	.	PUNCT	_	_	16	punct	_	_
 
 # macrosyntax = je vais traverser "euh" le boulevard Gambetta //
@@ -245,7 +245,7 @@
 # text = je vais traverser, euh, le boulevard Gambetta.
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	vais	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	traverser	traverser	VERB	_	VerbForm=Inf	2	comp:obj@x	_	SpaceAfter=No
+3	traverser	traverser	VERB	_	VerbForm=Inf	2	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	euh	euh	INTJ	_	_	3	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
@@ -281,7 +281,7 @@
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
-10	prendre	prendre	VERB	_	VerbForm=Inf	6	comp:obj@x	_	_
+10	prendre	prendre	VERB	_	VerbForm=Inf	6	comp:obj@x	_	Subject=SubjRaising
 11	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	12	subj	_	_
 12	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	comp:obj	_	_
 13	que	que	SCONJ	_	_	12	comp:obj	_	_
@@ -294,7 +294,7 @@
 20	que	que	PRON	_	PronType=Rel	23	comp:obj	_	_
 21	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	22	subj	_	_
 22	vais	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	mod@relcl	_	_
-23	remonter	remonter	VERB	_	VerbForm=Inf	22	comp:obj@x	_	SpaceAfter=No
+23	remonter	remonter	VERB	_	VerbForm=Inf	22	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 24	,	,	PUNCT	_	_	25	punct	_	_
 25	remonter	remonter	VERB	_	VerbForm=Inf	23	conj:coord	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	6	punct	_	_
@@ -304,7 +304,7 @@
 # text = je vais traverser le cours Jean Jaurès, si je me souviens bien.
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	vais	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	traverser	traverser	VERB	_	VerbForm=Inf	2	comp:obj@x	_	_
+3	traverser	traverser	VERB	_	VerbForm=Inf	2	comp:obj@x	_	Subject=SubjRaising
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	cours	cours	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 6	Jean	Jean	PROPN	_	_	5	mod@appos	_	_
@@ -333,7 +333,7 @@
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	vais	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	toujours	toujours	ADV	_	_	2	mod	_	_
-4	continuer	continuer	VERB	_	VerbForm=Inf	2	comp:obj@x	_	_
+4	continuer	continuer	VERB	_	VerbForm=Inf	2	comp:obj@x	_	Subject=SubjRaising
 5	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
 6	avenue	avenue	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
 7	Alsace-Lorraine	Alsace-Lorraine	PROPN	_	_	6	mod@appos	_	SpaceAfter=No
@@ -1134,7 +1134,7 @@
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	voulez	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	-vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	4	subj	_	_
-6	continuer	continuer	VERB	_	VerbForm=Inf	4	comp:obj@x	_	_
+6	continuer	continuer	VERB	_	VerbForm=Inf	4	comp:obj@x	_	Subject=SubjRaising
 7	?	?	PUNCT	_	_	4	punct	_	_
 
 # macrosyntax = $L1 ^mais monsieur le président < il est naturel que la majorité se montre telle qu'elle est //
@@ -1256,7 +1256,7 @@
 7	,	,	PUNCT	_	_	9	punct	_	_
 8	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	subj	_	_
 9	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	discourse	_	_
-10	dire	dire	VERB	_	VerbForm=Inf	9	comp:obj@x	_	SpaceAfter=No
+10	dire	dire	VERB	_	VerbForm=Inf	9	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	là	là	ADV	_	_	2	mod	_	_
 13	où	où	PRON	_	PronType=Rel	16	mod	_	_
@@ -1509,7 +1509,7 @@
 # text = je voulais travailler, d'abord, pour le gouvernement.
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	voulais	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
-3	travailler	travailler	VERB	_	VerbForm=Inf	2	comp:obj@x	_	SpaceAfter=No
+3	travailler	travailler	VERB	_	VerbForm=Inf	2	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	d'	de	ADP	_	_	3	mod	_	SpaceAfter=No
 6	abord	abord	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	SpaceAfter=No
@@ -1673,7 +1673,7 @@
 6	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
 7	pas	pas	ADV	_	Polarity=Neg	6	mod	_	_
 8	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux@tense	_	_
-9	aller	aller	VERB	ETRE	VerbForm=Inf	8	comp:obj@x	_	_
+9	aller	aller	VERB	ETRE	VerbForm=Inf	8	comp:obj@x	_	Subject=SubjRaising
 10	là	là	ADV	_	_	9	comp:obj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -1735,7 +1735,7 @@
 1	alors	alors	ADV	_	_	3	mod	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
 3	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	faire	faire	VERB	_	VerbForm=Inf	3	comp:obj@x	_	_
+4	faire	faire	VERB	_	VerbForm=Inf	3	comp:obj@x	_	Subject=SubjRaising
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	petit	petit	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
 7	retour	retour	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
@@ -2190,7 +2190,7 @@
 # text = je voulais retourner à, à Strasbourg.
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	voulais	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
-3	retourner	retourner	VERB	ETRE	VerbForm=Inf	2	comp:obj@x	_	_
+3	retourner	retourner	VERB	ETRE	VerbForm=Inf	2	comp:obj@x	_	Subject=SubjRaising
 4	à	à	ADP	_	_	3	comp:obl	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	à	à	ADP	_	_	4	conj:dicto	_	_
@@ -2234,7 +2234,7 @@
 9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	subj	_	_
 10	veut	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	plus	plus	ADV	_	_	10	mod	_	_
-12	aller	aller	VERB	ETRE	VerbForm=Inf	10	comp:obj@x	_	_
+12	aller	aller	VERB	ETRE	VerbForm=Inf	10	comp:obj@x	_	Subject=SubjRaising
 13	à	à	ADP	_	_	12	comp:obl	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	province	province	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
@@ -2459,7 +2459,7 @@
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 4	voulais	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	y	y	PRON	_	Person=3|PronType=Prs	6	comp:obj	_	_
-6	aller	aller	VERB	ETRE	VerbForm=Inf	4	comp:obj@x	_	SpaceAfter=No
+6	aller	aller	VERB	ETRE	VerbForm=Inf	4	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 7	.	.	PUNCT	_	_	4	punct	_	_
 
 # macrosyntax = ^et à Cavalaire Pardigon où nous allions en été <+ il y avait { une famille { amie à nous "euh" | # } |}  {| (+ les Besse ) } //  ## ^et qui avait un empire commercial "je veux dire" surtout { à | à } Aden //
@@ -2499,7 +2499,7 @@
 31	,	,	PUNCT	_	_	33	punct	_	_
 32	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	33	subj	_	_
 33	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	30	discourse	_	_
-34	dire	dire	VERB	_	VerbForm=Inf	33	comp:obj@x	_	SpaceAfter=No
+34	dire	dire	VERB	_	VerbForm=Inf	33	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 35	,	,	PUNCT	_	_	37	punct	_	_
 36	surtout	surtout	ADV	_	_	37	mod	_	_
 37	à	à	ADP	_	_	27	mod	_	SpaceAfter=No
@@ -2826,7 +2826,7 @@
 23	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	24	subj	_	_
 24	voulez	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	22	comp:obj	_	_
 25	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	26	comp:obj	_	_
-26	installer	installer	VERB	_	VerbForm=Inf	24	comp:obj@x	_	_
+26	installer	installer	VERB	_	VerbForm=Inf	24	comp:obj@x	_	Subject=SubjRaising
 27	à	à	ADP	_	_	24	mod	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	_
 29	à	à	ADP	_	_	27	conj:dicto	_	_
@@ -2891,7 +2891,7 @@
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
 3	voulais	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
-5	aller	aller	VERB	ETRE	VerbForm=Inf	3	comp:obj@x	_	_
+5	aller	aller	VERB	ETRE	VerbForm=Inf	3	comp:obj@x	_	Subject=SubjRaising
 6	à	à	ADP	_	_	5	comp:obl	_	_
 7	Addis	Addis	PROPN	_	_	6	comp:obj	_	_
 8	Abeba	Abeba	PROPN	_	_	7	flat@name	_	SpaceAfter=No
@@ -2947,7 +2947,7 @@
 14	,	,	PUNCT	_	_	16	punct	_	_
 15	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	16	subj	_	_
 16	vais	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	comp:obj	_	Reported=Yes
-17	voir	voir	VERB	_	VerbForm=Inf	16	comp:obj@x	_	SpaceAfter=No
+17	voir	voir	VERB	_	VerbForm=Inf	16	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 18	.	.	PUNCT	_	_	1	punct	_	_
 
 # macrosyntax = ^et à ESPERLUETTE < par hasard < je suis allée en quarante-neuf { { à ( ayant fini mon tour à Aden ) | à } ESPERLUETTE | ici | au Kenya } //
@@ -3377,7 +3377,7 @@
 1	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	UMP	UMP	PROPN	_	_	3	subj	_	_
 3	voulait	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-4	croire	croire	VERB	_	VerbForm=Inf	3	comp:obj@x	_	_
+4	croire	croire	VERB	_	VerbForm=Inf	3	comp:obj@x	_	Subject=SubjRaising
 5	à	à	ADP	_	_	4	comp:obl	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	bourrasque	bourrasque	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	SpaceAfter=No
@@ -3534,7 +3534,7 @@
 3	auraient	avoir	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 5	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	_
-6	penser	penser	VERB	_	VerbForm=Inf	4	comp:obj@x	_	SpaceAfter=No
+6	penser	penser	VERB	_	VerbForm=Inf	4	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 7	.	.	PUNCT	_	_	3	punct	_	_
 
 # macrosyntax = [ "eh bien" non // # ] (+ répond Étienne Mougeotte dans Le Figaro ) ## au contraire < il faut accélérer le rythme du changement // //
@@ -3956,7 +3956,7 @@
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	gouvernement	gouvernement	NOUN	_	Gender=Masc|Number=Sing	6	conj:coord	_	_
 10	peuvent	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-11	dire	dire	VERB	_	VerbForm=Inf	10	comp:obj@x	_	_
+11	dire	dire	VERB	_	VerbForm=Inf	10	comp:obj@x	_	Subject=SubjRaising
 12	merci	merci	INTJ	_	_	11	comp:obj	_	Reported=Yes
 13	Marseille	Marseille	PROPN	_	_	12	vocative	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	10	punct	_	_
@@ -3969,7 +3969,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	que	que	PRON	_	PronType=Rel	5	comp:obj	_	_
 4	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Reported=Yes
-5	faire	faire	VERB	_	VerbForm=Inf	4	comp:obj@x	_	_
+5	faire	faire	VERB	_	VerbForm=Inf	4	comp:obj@x	_	Subject=SubjRaising
 6	maintenant	maintenant	ADV	_	_	5	mod	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	président	président	NOUN	_	Gender=Masc|Number=Sing	5	subj	_	_
@@ -3990,7 +3990,7 @@
 2	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	sans	sans	ADP	_	_	2	mod	_	_
 4	doute	doute	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
-5	faire	faire	VERB	_	VerbForm=Inf	2	comp:obj@x	_	_
+5	faire	faire	VERB	_	VerbForm=Inf	2	comp:obj@x	_	Subject=SubjRaising
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 7	même	même	ADJ	_	Number=Sing	8	mod	_	_
 8	chose	chose	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
@@ -4086,13 +4086,13 @@
 4	Messi	Messi	PROPN	_	_	3	comp:obj	_	Overlap=Rhap_D2003-3bis
 5	qui	qui	PRON	_	PronType=Rel	6	subj	_	Overlap=Rhap_D2003-3bis
 6	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	Overlap=Rhap_D2003-3bis
-7	chercher	chercher	VERB	_	VerbForm=Inf	6	comp:obj@x	_	Overlap=Rhap_D2003-3bis
+7	chercher	chercher	VERB	_	VerbForm=Inf	6	comp:obj@x	_	Overlap=Rhap_D2003-3bis|Subject=SubjRaising
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	corner	corner	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 10	et	et	CCONJ	_	_	12	cc	_	_
 11	qui	qui	PRON	_	PronType=Rel	12	subj	_	_
 12	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj:coord	_	_
-13	trouver	trouver	VERB	_	VerbForm=Inf	12	comp:obj@x	_	_
+13	trouver	trouver	VERB	_	VerbForm=Inf	12	comp:obj@x	_	Subject=SubjRaising
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	corner	corner	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	19	punct	_	_
@@ -4458,7 +4458,7 @@
 6	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	comp:pred	_	_
 7	qui	qui	PRON	_	PronType=Rel	8	subj	_	_
 8	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:cleft	_	_
-9	tirer	tirer	VERB	_	VerbForm=Inf	8	comp:obj@x	_	SpaceAfter=No
+9	tirer	tirer	VERB	_	VerbForm=Inf	8	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 10	.	.	PUNCT	_	_	3	punct	_	_
 
 # macrosyntax = ils sont deux Argentins "hein" et ESPERLUETTE //
@@ -4664,7 +4664,7 @@
 13	droit	droit	ADJ	_	Gender=Masc|Number=Sing	12	mod	_	_
 14	qui	qui	PRON	_	PronType=Rel	15	subj	_	_
 15	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:cleft	_	_
-16	tirer	tirer	VERB	_	VerbForm=Inf	15	comp:obj@x	_	_
+16	tirer	tirer	VERB	_	VerbForm=Inf	15	comp:obj@x	_	Subject=SubjRaising
 17	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
 18	corner	corner	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	3	punct	_	_
@@ -4739,7 +4739,7 @@
 7	Papa	Papa	PROPN	_	_	0	root	_	_
 8	qui	qui	PRON	_	PronType=Rel	9	subj	_	_
 9	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	_
-10	mettre	mettre	VERB	_	VerbForm=Inf	9	comp:obj@x	_	_
+10	mettre	mettre	VERB	_	VerbForm=Inf	9	comp:obj@x	_	Subject=SubjRaising
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	ballon	ballon	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
 13	dans	dans	ADP	_	_	10	comp:obl	_	_
@@ -4886,7 +4886,7 @@
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	_
-5	capter	capter	VERB	_	VerbForm=Inf	3	comp:obj@x	_	_
+5	capter	capter	VERB	_	VerbForm=Inf	3	comp:obj@x	_	Subject=SubjRaising
 6	tout	tout	ADV	_	_	12	mod	_	ExtPos=ADV|Idiom=Yes
 7	à	à	ADP	_	_	6	unk	_	InIdiom=Yes
 8	fait	fait	NOUN	_	Gender=Masc|Number=Sing	7	unk	_	InIdiom=Yes|SpaceAfter=No
@@ -4928,7 +4928,7 @@
 3	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
 5	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	_
-6	contrer	contrer	VERB	_	VerbForm=Inf	3	comp:obj@x	_	SpaceAfter=No
+6	contrer	contrer	VERB	_	VerbForm=Inf	3	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
@@ -4977,7 +4977,7 @@
 5	Rodriguez	Rodriguez	PROPN	_	_	4	flat@name	_	Overlap=Rhap_D2003-55bis
 6	qui	qui	PRON	_	PronType=Rel	7	subj	_	Overlap=Rhap_D2003-55bis
 7	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	Overlap=Rhap_D2003-55bis
-8	tirer	tirer	VERB	_	VerbForm=Inf	7	comp:obj@x	_	Overlap=Rhap_D2003-55bis|SpaceAfter=No
+8	tirer	tirer	VERB	_	VerbForm=Inf	7	comp:obj@x	_	Overlap=Rhap_D2003-55bis|SpaceAfter=No|Subject=SubjRaising
 9	.	.	PUNCT	_	_	4	punct	_	Overlap=Rhap_D2003-55bis
 
 # macrosyntax = $- { le but | le but } { de Maxi ( $L2 XXX // ) -$ Rodriguez |} { du pied | du pied } ESPERLUETTE //+ "non" {| de $- Gutiérrez |} "pardon" //
@@ -5094,7 +5094,7 @@
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	Overlap=Rhap_D2003-60bis
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Overlap=Rhap_D2003-60bis
 3	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
-4	armer	armer	VERB	_	VerbForm=Inf	3	comp:obj@x	_	_
+4	armer	armer	VERB	_	VerbForm=Inf	3	comp:obj@x	_	Subject=SubjRaising
 5	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	6	det	_	_
 6	tir	tir	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	_
@@ -5227,7 +5227,7 @@
 12	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	10	conj:dicto	_	SpaceAfter=No
 13	allais	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 14	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	13	comp:obl	_	_
-15	dire	dire	VERB	_	VerbForm=Inf	13	comp:obj@x	_	_
+15	dire	dire	VERB	_	VerbForm=Inf	13	comp:obj@x	_	Subject=SubjRaising
 16	pas	pas	ADV	_	Polarity=Neg	20	mod	_	_
 17	tout	tout	ADV	_	_	16	mod	_	ExtPos=ADV|Idiom=Yes
 18	à	à	ADP	_	_	17	unk	_	InIdiom=Yes
@@ -5718,7 +5718,7 @@
 3	Anelka	Anelka	PROPN	_	_	1	conj:dicto	_	_
 4	qui	qui	PRON	_	PronType=Rel	5	subj	_	_
 5	veut	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	_
-6	donner	donner	VERB	_	VerbForm=Inf	5	comp:obj@x	_	_
+6	donner	donner	VERB	_	VerbForm=Inf	5	comp:obj@x	_	Subject=SubjRaising
 7	sur	sur	ADP	_	_	6	mod	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	côté	côté	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
@@ -6077,7 +6077,7 @@
 12	Zanetti	Zanetti	PROPN	_	_	8	comp:obj	_	_
 13	qui	qui	PRON	_	PronType=Rel	14	subj	_	_
 14	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	mod@relcl	_	_
-15	faire	faire	VERB	_	VerbForm=Inf	14	comp:obj@x	_	_
+15	faire	faire	VERB	_	VerbForm=Inf	14	comp:obj@x	_	Subject=SubjRaising
 16	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
 17	touche	touche	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
 18	là-bas	là-bas	ADV	_	_	15	mod	_	SpaceAfter=No
@@ -6212,7 +6212,7 @@
 6	pas	pas	ADV	_	Polarity=Neg	5	mod	_	_
 7	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
 8	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	comp:obj	_	_
-9	passer	passer	VERB	ETRE	VerbForm=Inf	7	comp:obj@x	_	_
+9	passer	passer	VERB	ETRE	VerbForm=Inf	7	comp:obj@x	_	Subject=SubjRaising
 10	à	à	ADP	_	_	9	comp:obl	_	_
 11	droite	droite	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	5	punct	_	_
@@ -6223,7 +6223,7 @@
 # text = on va essayer à gauche avec Papa maintenant très offensif.
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
 2	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	essayer	essayer	VERB	_	VerbForm=Inf	2	comp:obj@x	_	_
+3	essayer	essayer	VERB	_	VerbForm=Inf	2	comp:obj@x	_	Subject=SubjRaising
 4	à	à	ADP	_	_	3	mod	_	_
 5	gauche	gauche	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
 6	avec	avec	ADP	_	_	3	mod	_	_
@@ -6355,7 +6355,7 @@
 16	,	,	PUNCT	_	_	18	punct	_	_
 17	qui	qui	PRON	_	PronType=Rel	18	subj	_	_
 18	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj:coord	_	_
-19	trouver	trouver	VERB	_	VerbForm=Inf	18	comp:obj@x	_	_
+19	trouver	trouver	VERB	_	VerbForm=Inf	18	comp:obj@x	_	Subject=SubjRaising
 20	Agüero	Agüero	PROPN	_	_	19	comp:obj	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -6489,7 +6489,7 @@
 # text = il peut donner derrière où, euh, Heinze a récupéré ce ballon et l'écarte là-bas, côté droit, pour Zanetti.
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 2	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	donner	donner	VERB	_	VerbForm=Inf	2	comp:obj@x	_	_
+3	donner	donner	VERB	_	VerbForm=Inf	2	comp:obj@x	_	Subject=SubjRaising
 4	derrière	derrière	ADV	_	_	3	comp:obl	_	_
 5	où	où	PRON	_	PronType=Rel	10	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
@@ -6683,7 +6683,7 @@
 6	voudrais	vouloir	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	d'	de	ADP	_	_	6	mod	_	SpaceAfter=No
 8	abord	abord	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
-9	exprimer	exprimer	VERB	_	VerbForm=Inf	6	comp:obj@x	_	_
+9	exprimer	exprimer	VERB	_	VerbForm=Inf	6	comp:obj@x	_	Subject=SubjRaising
 10	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	11	det	_	_
 11	sympathie	sympathie	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
 12	à	à	ADP	_	_	9	comp:obl	_	_
@@ -6874,7 +6874,7 @@
 3	combien	combien	ADV	_	_	2	comp:obj	_	_
 4	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	subj@pass	_	_
 5	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	_
-6	être	être	AUX	_	VerbForm=Inf	5	comp:obj@x	_	_
+6	être	être	AUX	_	VerbForm=Inf	5	comp:obj@x	_	Subject=SubjRaising
 7	parfois	parfois	ADV	_	_	5	mod	_	_
 8	remis	remettre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	6	comp:aux@pass	_	_
 9	en	en	ADP	_	_	8	comp:obl	_	_
@@ -7065,7 +7065,7 @@
 3	blessée	blessé	ADJ	_	Gender=Fem|Number=Sing	2	mod	_	_
 4	veut	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	se	se	PRON	_	Person=3|PronType=Prs	6	comp@pass	_	_
-6	retrouver	retrouver	VERB	_	VerbForm=Inf	4	comp:obj@x	_	_
+6	retrouver	retrouver	VERB	_	VerbForm=Inf	4	comp:obj@x	_	Subject=SubjRaising
 7	rassemblée	rassembler	ADJ	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
 8	et	et	CCONJ	_	_	9	cc	_	_
 9	fraternelle	fraternel	ADJ	_	Gender=Fem|Number=Sing	7	conj:coord	_	SpaceAfter=No
@@ -7091,7 +7091,7 @@
 15	,	,	PUNCT	_	_	1	punct	_	_
 16	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	17	subj	_	_
 17	voudrais	vouloir	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-18	dire	dire	VERB	_	VerbForm=Inf	17	comp:obj@x	_	_
+18	dire	dire	VERB	_	VerbForm=Inf	17	comp:obj@x	_	Subject=SubjRaising
 19	merci	merci	INTJ	_	_	18	comp:obj	_	Reported=Yes|SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	à	à	ADP	_	_	18	comp:obl	_	_
@@ -7156,7 +7156,7 @@
 7	entre	entre	ADP	_	_	6	comp:obj	_	_
 8	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	7	comp:obj	_	_
 9	vont	aller	VERB	ETRE	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
-10	vivre	vivre	VERB	_	VerbForm=Inf	9	comp:obj@x	_	_
+10	vivre	vivre	VERB	_	VerbForm=Inf	9	comp:obj@x	_	Subject=SubjRaising
 11	ces	ce	DET	_	Number=Plur|Person=3|PronType=Dem	12	det	_	_
 12	instants	instant	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	_
 13	avec	avec	ADP	_	_	10	mod	_	_
@@ -7375,7 +7375,7 @@
 2	progrès	progrès	NOUN	_	Gender=Masc	3	subj	_	_
 3	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	se	se	PRON	_	Person=3|PronType=Prs	5	comp@pass	_	_
-5	poursuivre	poursuivre	VERB	_	VerbForm=Inf	3	comp:obj@x	_	_
+5	poursuivre	poursuivre	VERB	_	VerbForm=Inf	3	comp:obj@x	_	Subject=SubjRaising
 6	avec	avec	ADP	_	_	5	mod	_	_
 7	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|PronType=Prs	8	det	_	_
 8	hésitations	hésitation	NOUN	_	Gender=Fem|Number=Plur	6	comp:obj	_	SpaceAfter=No
@@ -7444,7 +7444,7 @@
 6	enfants	enfant	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	_
 7	qui	qui	PRON	_	PronType=Rel	8	subj	_	_
 8	vont	aller	VERB	ETRE	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	_
-9	naître	naître	VERB	ETRE	VerbForm=Inf	8	comp:obj@x	_	_
+9	naître	naître	VERB	ETRE	VerbForm=Inf	8	comp:obj@x	_	Subject=SubjRaising
 10	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
 11	année	année	NOUN	_	Gender=Fem|Number=Sing	9	mod	_	_
 12	verront	voir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -9586,7 +9586,7 @@
 5	que	que	SCONJ	_	_	4	mod	_	_
 6	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	subj	_	_
 7	allait	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	comp:obj	_	_
-8	casser	casser	VERB	_	VerbForm=Inf	7	comp:obj@x	_	_
+8	casser	casser	VERB	_	VerbForm=Inf	7	comp:obj@x	_	Subject=SubjRaising
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	machine	machine	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
@@ -10547,7 +10547,7 @@
 # text = vous allez tomber sur, euh, sur, euh, une église, euh, sur une place.
 1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	allez	aller	VERB	ETRE	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	tomber	tomber	VERB	ETRE	VerbForm=Inf	2	comp:obj@x	_	_
+3	tomber	tomber	VERB	ETRE	VerbForm=Inf	2	comp:obj@x	_	Subject=SubjRaising
 4	sur	sur	ADP	_	_	3	comp:obl	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
 6	euh	euh	INTJ	_	_	13	discourse	_	SpaceAfter=No
@@ -11120,7 +11120,7 @@
 7	qu'	que	PRON	_	PronType=Rel	10	comp:obj	_	SpaceAfter=No
 8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	subj	_	_
 9	veut	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:cleft	_	_
-10	dire	dire	VERB	_	VerbForm=Inf	9	comp:obj@x	_	_
+10	dire	dire	VERB	_	VerbForm=Inf	9	comp:obj@x	_	Subject=SubjRaising
 11	Yves	Yves	PROPN	_	_	2	dislocated	_	_
 12	Klein	Klein	PROPN	_	_	11	flat@name	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	_
@@ -11133,7 +11133,7 @@
 2	qu'	que	PRON	_	PronType=Rel	5	comp:obj	_	SpaceAfter=No
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
 4	veut	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	mod@relcl	_	_
-5	dire	dire	VERB	_	VerbForm=Inf	4	comp:obj@x	_	SpaceAfter=No
+5	dire	dire	VERB	_	VerbForm=Inf	4	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 6	,	,	PUNCT	_	_	1	punct	_	_
 7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	subj	_	SpaceAfter=No
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -11210,7 +11210,7 @@
 44	ou	ou	CCONJ	_	_	46	cc	_	_
 45	qui	qui	PRON	_	PronType=Rel	46	subj	_	_
 46	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	conj:coord	_	_
-47	mourir	mourir	VERB	ETRE	VerbForm=Inf	46	comp:obj@x	_	SpaceAfter=No
+47	mourir	mourir	VERB	ETRE	VerbForm=Inf	46	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 48	,	,	PUNCT	_	_	16	punct	_	_
 49	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	50	subj	_	SpaceAfter=No
 50	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	comp:obj	_	_
@@ -11329,11 +11329,11 @@
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	subj	_	_
 10	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-11	comprendre	comprendre	VERB	_	VerbForm=Inf	10	comp:obj@x	_	SpaceAfter=No
+11	comprendre	comprendre	VERB	_	VerbForm=Inf	10	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	subj	_	_
 14	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj:dicto	_	_
-15	comprendre	comprendre	VERB	_	VerbForm=Inf	14	comp:obj@x	_	_
+15	comprendre	comprendre	VERB	_	VerbForm=Inf	14	comp:obj@x	_	Subject=SubjRaising
 16	Nietzsche	Nietzsche	PROPN	_	_	15	comp:obj	_	_
 17	et	et	CCONJ	_	_	21	cc	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
@@ -11443,7 +11443,7 @@
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	subj	_	_
 15	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	discourse	_	_
-16	dire	dire	VERB	_	VerbForm=Inf	15	comp:obj@x	_	SpaceAfter=No
+16	dire	dire	VERB	_	VerbForm=Inf	15	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 17	.	.	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = ^et { j'arri~ | je passe } devant la grande poste //
@@ -11817,7 +11817,7 @@
 3	que	que	SCONJ	_	_	1	comp:pred	_	_
 4	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	5	subj	_	_
 5	pourriez	pouvoir	VERB	_	Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
-6	décrire	décrire	VERB	_	VerbForm=Inf	5	comp:obj@x	_	SpaceAfter=No
+6	décrire	décrire	VERB	_	VerbForm=Inf	5	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
@@ -12046,7 +12046,7 @@
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	_
 7	peux	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-8	faire	faire	VERB	_	VerbForm=Inf	7	comp:obj@x	_	_
+8	faire	faire	VERB	_	VerbForm=Inf	7	comp:obj@x	_	Subject=SubjRaising
 9	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
 10	courses	course	NOUN	_	Gender=Fem|Number=Plur	8	comp:obl	_	_
 11	dans	dans	ADP	_	_	7	mod	_	_
@@ -12572,7 +12572,7 @@
 9	,	,	PUNCT	_	_	6	punct	_	_
 10	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	11	subj	_	_
 11	vais	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-12	travailler	travailler	VERB	_	VerbForm=Inf	11	comp:obj@x	_	SpaceAfter=No
+12	travailler	travailler	VERB	_	VerbForm=Inf	11	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 13	.	.	PUNCT	_	_	11	punct	_	_
 
 # macrosyntax = "eh bien" ^alors moi < je vais à pied "hein" // ^puisque j'utilise pas les transports en commun //
@@ -12673,7 +12673,7 @@
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
 3	vais	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	5	comp@expl	_	_
-5	promener	promener	VERB	_	VerbForm=Inf	3	comp:obj@x	_	SpaceAfter=No
+5	promener	promener	VERB	_	VerbForm=Inf	3	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # macrosyntax = je vais au marché d'Aligre //=
@@ -12991,7 +12991,7 @@
 15	allez	aller	VERB	ETRE	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	16	comp:obj@x	_	_
 16	pouvoir	pouvoir	VERB	_	VerbForm=Inf	11	conj:dicto	_	_
 17	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	18	comp:obj	_	_
-18	répondre	répondre	VERB	_	VerbForm=Inf	15	comp:obj@x	_	_
+18	répondre	répondre	VERB	_	VerbForm=Inf	15	comp:obj@x	_	Subject=SubjRaising
 19	sur	sur	ADP	_	_	18	mod	_	_
 20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	_
 21	écoles	école	NOUN	_	Gender=Fem|Number=Plur	19	comp:obj	_	_
@@ -13203,7 +13203,7 @@
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	pu	pouvoir	VERB	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	se	se	PRON	_	Person=3|PronType=Prs	5	comp:obj	_	_
-5	croiser	croiser	VERB	DoubleAux	VerbForm=Inf	3	comp:obj@x	_	SpaceAfter=No
+5	croiser	croiser	VERB	DoubleAux	VerbForm=Inf	3	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	peut-être	peut-être	ADV	_	_	2	mod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
@@ -13509,7 +13509,7 @@
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	11	subj	_	Overlap=Rhap_D0001-83bis
 11	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	discourse	_	Overlap=Rhap_D0001-83bis
-12	dire	dire	VERB	_	VerbForm=Inf	11	comp:obj@x	_	Overlap=Rhap_D0001-83bis|SpaceAfter=No
+12	dire	dire	VERB	_	VerbForm=Inf	11	comp:obj@x	_	Overlap=Rhap_D0001-83bis|SpaceAfter=No|Subject=SubjRaising
 13	,	,	PUNCT	_	_	14	punct	_	Overlap=Rhap_D0001-83bis
 14	euh	euh	INTJ	_	_	12	discourse	_	Overlap=Rhap_D0001-83bis|SpaceAfter=No
 15	.	.	PUNCT	_	_	3	punct	_	Overlap=Rhap_D0001-83bis
@@ -13855,7 +13855,7 @@
 # text = je veux dire, ça me laisse assez rêveur.
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	Overlap=Rhap_D0001-102ter
 2	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	discourse	_	Overlap=Rhap_D0001-102ter
-3	dire	dire	VERB	_	VerbForm=Inf	2	comp:obj@x	_	Overlap=Rhap_D0001-102ter|SpaceAfter=No
+3	dire	dire	VERB	_	VerbForm=Inf	2	comp:obj@x	_	Overlap=Rhap_D0001-102ter|SpaceAfter=No|Subject=SubjRaising
 4	,	,	PUNCT	_	_	2	punct	_	Overlap=Rhap_D0001-102ter
 5	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	subj	_	Overlap=Rhap_D0001-102ter
 6	me	le	PRON	_	Number=Sing|Person=1|PronType=Prs	7	comp:obl	_	Overlap=Rhap_D0001-102ter
@@ -13910,7 +13910,7 @@
 # text = je veux dire, là, ça me laisse rêveur.
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	discourse	_	_
-3	dire	dire	VERB	_	VerbForm=Inf	2	comp:obj@x	_	SpaceAfter=No
+3	dire	dire	VERB	_	VerbForm=Inf	2	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	là	là	ADV	_	_	3	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	2	punct	_	_
@@ -13947,7 +13947,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
 4	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	dire	dire	VERB	_	VerbForm=Inf	4	comp:obj@x	_	_
+5	dire	dire	VERB	_	VerbForm=Inf	4	comp:obj@x	_	Subject=SubjRaising
 6	de	de	ADP	_	_	5	comp:obl	_	_
 7	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	8	det	_	_
 8	temps	temps	NOUN	_	Gender=Masc	6	comp:obj	_	SpaceAfter=No
@@ -14049,7 +14049,7 @@
 # text = je veux dire, euh, là, euh…
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	Overlap=Rhap_D0001-111
 2	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Overlap=Rhap_D0001-111
-3	dire	dire	VERB	_	VerbForm=Inf	2	comp:obj@x	_	Overlap=Rhap_D0001-111|SpaceAfter=No
+3	dire	dire	VERB	_	VerbForm=Inf	2	comp:obj@x	_	Overlap=Rhap_D0001-111|SpaceAfter=No|Subject=SubjRaising
 4	,	,	PUNCT	_	_	5	punct	_	Overlap=Rhap_D0001-111
 5	euh	euh	INTJ	_	_	2	discourse	_	Overlap=Rhap_D0001-111|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	Overlap=Rhap_D0001-111
@@ -14256,7 +14256,7 @@
 7	,	,	PUNCT	_	_	1	punct	_	_
 8	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	9	subj	_	_
 9	peux	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	rejoindre	rejoindre	VERB	_	VerbForm=Inf	9	comp:obj@x	_	_
+10	rejoindre	rejoindre	VERB	_	VerbForm=Inf	9	comp:obj@x	_	Subject=SubjRaising
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	place	place	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
 13	de	de	ADP	_	_	12	udep	_	_
@@ -14480,7 +14480,7 @@
 # text = on peut citer, par exemple, le site A Small World.
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
 2	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	citer	citer	VERB	_	VerbForm=Inf	2	comp:obj@x	_	SpaceAfter=No
+3	citer	citer	VERB	_	VerbForm=Inf	2	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	par	par	ADP	_	_	3	mod	_	_
 6	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	SpaceAfter=No
@@ -14566,7 +14566,7 @@
 8	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	pouvoir	pouvoir	VERB	_	VerbForm=Inf	6	comp:obj	_	Subject=NoRaising
-11	tchater	tchater	VERB	_	VerbForm=Inf	10	comp:obj@x	_	_
+11	tchater	tchater	VERB	_	VerbForm=Inf	10	comp:obj@x	_	Subject=SubjRaising
 12	ou	ou	CCONJ	_	_	13	cc	_	_
 13	échanger	échanger	VERB	_	VerbForm=Inf	11	conj:coord	_	_
 14	vos	son	DET	_	Number=Plur|Number[psor]=Plur|Person=3|Person[psor]=2|PronType=Prs	15	det	_	_
@@ -14641,7 +14641,7 @@
 15	,	,	PUNCT	_	_	5	punct	_	_
 16	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	17	subj	_	_
 17	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-18	citer	citer	VERB	_	VerbForm=Inf	17	comp:obj@x	_	_
+18	citer	citer	VERB	_	VerbForm=Inf	17	comp:obj@x	_	Subject=SubjRaising
 19	ziki	ziki	PROPN	_	_	18	comp:obj	_	_
 20	point	point	NOUN	_	Gender=Masc|Number=Sing	19	flat	_	_
 21	com	com	NOUN	_	_	20	flat	_	SpaceAfter=No
@@ -15053,11 +15053,11 @@
 11	,	,	PUNCT	_	_	13	punct	_	_
 12	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	subj	_	_
 13	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	Reported=Yes
-14	récupérer	récupérer	VERB	CCOMP	VerbForm=Inf	13	comp:obj@x	_	SpaceAfter=No
+14	récupérer	récupérer	VERB	CCOMP	VerbForm=Inf	13	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 15	,	,	PUNCT	_	_	17	punct	_	_
 16	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	subj	_	_
 17	pourra	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	conj:dicto	_	_
-18	récupérer	récupérer	VERB	conj:reform	VerbForm=Inf	17	comp:obj@x	_	_
+18	récupérer	récupérer	VERB	conj:reform	VerbForm=Inf	17	comp:obj@x	_	Subject=SubjRaising
 19	quelque	quelque	DET	_	Number=Sing|Person=3|PronType=Ind	20	det	_	_
 20	chose	chose	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	6	punct	_	_
@@ -15069,7 +15069,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
 4	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	voler	voler	VERB	_	VerbForm=Inf	4	comp:obj@x	_	SpaceAfter=No
+5	voler	voler	VERB	_	VerbForm=Inf	4	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	en	en	ADP	_	_	5	discourse	_	ExtPos=ADV|Idiom=Yes
 8	fait	fait	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	InIdiom=Yes|SpaceAfter=No
@@ -15088,7 +15088,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
 5	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	courir	courir	VERB	_	VerbForm=Inf	5	comp:obj@x	_	SpaceAfter=No
+6	courir	courir	VERB	_	VerbForm=Inf	5	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	5	punct	_	_
@@ -15098,7 +15098,7 @@
 # text = elle va courir.
 1	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 2	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AttachTo=5@Rhap_M0023-11|Rel=parataxis:conj
-3	courir	courir	VERB	_	VerbForm=Inf	2	comp:obj@x	_	SpaceAfter=No
+3	courir	courir	VERB	_	VerbForm=Inf	2	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = ^et "euh" en fait < il y a { Ch~ | il y a Charlot } qui arrive à ce moment-là //
@@ -15365,7 +15365,7 @@
 6	,	,	PUNCT	_	_	2	punct	_	_
 7	Charlot	Charlot	PROPN	_	_	8	subj	_	_
 8	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	dire	dire	VERB	_	VerbForm=Inf	8	comp:obj@x	_	SpaceAfter=No
+9	dire	dire	VERB	_	VerbForm=Inf	8	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	en	en	ADP	_	_	9	discourse	_	_
 12	fait	fait	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	SpaceAfter=No
@@ -15402,7 +15402,7 @@
 5	policiers	policier	NOUN	_	Gender=Masc|Number=Plur	6	subj	_	_
 6	vont	aller	VERB	ETRE	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	SpaceAfter=No
-8	arrêter	arrêter	VERB	_	VerbForm=Inf	6	comp:obj@x	_	SpaceAfter=No
+8	arrêter	arrêter	VERB	_	VerbForm=Inf	6	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 9	.	.	PUNCT	_	_	6	punct	_	_
 
 # macrosyntax = "ouais" "ben" pour aller à La Nef Chavant <+ c'est très simple //
@@ -15712,7 +15712,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 4	vais	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	traiter	traiter	VERB	_	VerbForm=Inf	4	comp:obj@x	_	_
+5	traiter	traiter	VERB	_	VerbForm=Inf	4	comp:obj@x	_	Subject=SubjRaising
 6	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	7	det	_	_
 7	sujet	sujet	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	_
@@ -15724,7 +15724,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 4	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	discourse	_	_
-5	dire	dire	VERB	_	VerbForm=Inf	4	comp:obj@x	_	SpaceAfter=No
+5	dire	dire	VERB	_	VerbForm=Inf	4	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 6	,	,	PUNCT	_	_	4	punct	_	_
 7	comme	comme	SCONJ	_	_	17	mod	_	_
 8	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	9	subj	_	_
@@ -15737,7 +15737,7 @@
 15	,	,	PUNCT	_	_	7	punct	_	_
 16	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	17	subj	_	_
 17	vais	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AttachTo=4@Rhap_M2002-3|Rel=parataxis:conj
-18	traiter	traiter	VERB	_	VerbForm=Inf	17	comp:obj@x	_	SpaceAfter=No
+18	traiter	traiter	VERB	_	VerbForm=Inf	17	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	euh	euh	INTJ	_	_	18	discourse	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	_
@@ -15770,7 +15770,7 @@
 11	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	12	subj	_	_
 12	allez	aller	VERB	ETRE	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	discourse	_	_
 13	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	comp:obj	_	_
-14	voir	voir	VERB	_	VerbForm=Inf	12	comp:obj@x	_	_
+14	voir	voir	VERB	_	VerbForm=Inf	12	comp:obj@x	_	Subject=SubjRaising
 15	tout	tout	ADV	_	_	16	mod	_	_
 16	de	de	ADP	_	_	14	mod	_	_
 17	suite	suite	NOUN	_	Gender=Fem|Number=Sing	16	comp:obj	_	SpaceAfter=No
@@ -15982,7 +15982,7 @@
 4	de	de	ADP	_	_	3	mod	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	tout	tout	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
-7	dire	dire	VERB	_	VerbForm=Inf	2	comp:obj@x	_	_
+7	dire	dire	VERB	_	VerbForm=Inf	2	comp:obj@x	_	Subject=SubjRaising
 8	que	que	SCONJ	_	_	7	comp:obj	_	_
 9	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	subj	_	_
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	_
@@ -15994,7 +15994,7 @@
 16	que	que	SCONJ	_	_	8	conj:coord	_	_
 17	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	18	subj	_	_
 18	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	comp:obj	_	_
-19	dire	dire	VERB	_	VerbForm=Inf	18	comp:obj@x	_	_
+19	dire	dire	VERB	_	VerbForm=Inf	18	comp:obj@x	_	Subject=SubjRaising
 20	n'	ne	ADV	_	Polarity=Neg	21	mod	_	SpaceAfter=No
 21	importe	importer	VERB	CCOMP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	comp:obj	_	_
 22	quoi	quoi	PRON	_	Person=3|PronType=Ind	21	comp:obj	_	SpaceAfter=No
@@ -16477,7 +16477,7 @@
 5	que	que	SCONJ	_	_	3	comp:obj	_	_
 6	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	subj	_	_
 7	puisse	pouvoir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
-8	paraître	paraître	VERB	_	VerbForm=Inf	7	comp:obj@x	_	SpaceAfter=No
+8	paraître	paraître	VERB	_	VerbForm=Inf	7	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 9	.	.	PUNCT	_	_	4	punct	_	_
 
 # macrosyntax = ^et ^puis il y a un autre aspect qui consiste à { { exp~ | éprouver } l'art | le ressentir | "euh" en faire l'expérience | avoir une sorte { de | de } vécu de l'expérience artistique } //
@@ -16546,7 +16546,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj	_	_
 6	veut	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	dire	dire	VERB	_	VerbForm=Inf	6	comp:obj@x	_	_
+7	dire	dire	VERB	_	VerbForm=Inf	6	comp:obj@x	_	Subject=SubjRaising
 8	sensation	sensation	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
@@ -17024,7 +17024,7 @@
 11	,	,	PUNCT	_	_	21	punct	_	_
 12	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	13	subj	_	_
 13	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	discourse	_	_
-14	dire	dire	VERB	DISCOURSE	VerbForm=Inf	13	comp:obj@x	_	SpaceAfter=No
+14	dire	dire	VERB	DISCOURSE	VerbForm=Inf	13	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 15	,	,	PUNCT	_	_	13	punct	_	_
 16	selon	selon	ADP	_	_	21	mod	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
@@ -17256,7 +17256,7 @@
 2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
 4	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	avoir	avoir	VERB	_	VerbForm=Inf	4	comp:obj@x	_	_
+5	avoir	avoir	VERB	_	VerbForm=Inf	4	comp:obj@x	_	Subject=SubjRaising
 6	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
 7	fonctions	fonction	NOUN	_	Gender=Fem|Number=Plur	5	comp:obl	_	_
 8	politiques	politique	ADJ	_	Number=Plur	7	mod	_	_
@@ -17269,7 +17269,7 @@
 1	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	art	art	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
 3	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	avoir	avoir	VERB	_	VerbForm=Inf	3	comp:obj@x	_	_
+4	avoir	avoir	VERB	_	VerbForm=Inf	3	comp:obj@x	_	Subject=SubjRaising
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
 6	fonctions	fonction	NOUN	_	Gender=Fem|Number=Plur	4	comp:obj	_	_
 7	politiques	politique	ADJ	_	Number=Plur	6	mod	_	_
@@ -17277,7 +17277,7 @@
 9	peut	pouvoir	VERB	conj:reform	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj:dicto	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	peut	pouvoir	VERB	conj:reform	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj:dicto	_	_
-12	avoir	avoir	VERB	_	VerbForm=Inf	9	comp:obj@x	_	_
+12	avoir	avoir	VERB	_	VerbForm=Inf	9	comp:obj@x	_	Subject=SubjRaising
 13	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
 14	fonctions	fonction	NOUN	_	Gender=Fem|Number=Plur	12	comp:obj	_	_
 15	décoratives	décoratif	ADJ	_	Gender=Fem|Number=Plur	14	mod	_	_
@@ -17355,7 +17355,7 @@
 1	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
 2	art	art	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
 3	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	avoir	avoir	VERB	_	VerbForm=Inf	3	comp:obj@x	_	_
+4	avoir	avoir	VERB	_	VerbForm=Inf	3	comp:obj@x	_	Subject=SubjRaising
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
 6	fonctions	fonction	NOUN	_	Gender=Fem|Number=Plur	4	comp:obl	_	_
 7	de	de	ADP	_	_	6	udep	_	_
@@ -17575,7 +17575,7 @@
 2	,	,	PUNCT	_	_	4	punct	_	_
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 4	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	discourse	_	_
-5	dire	dire	VERB	_	VerbForm=Inf	4	comp:obj@x	_	SpaceAfter=No
+5	dire	dire	VERB	_	VerbForm=Inf	4	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 6	,	,	PUNCT	_	_	1	punct	_	_
 7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	subj	_	SpaceAfter=No
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -17597,7 +17597,7 @@
 # text = on va regarder ça de près, euh.
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
 2	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	regarder	regarder	VERB	_	VerbForm=Inf	2	comp:obj@x	_	_
+3	regarder	regarder	VERB	_	VerbForm=Inf	2	comp:obj@x	_	Subject=SubjRaising
 4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	comp:obj	_	_
 5	de	de	ADP	_	_	3	mod	_	_
 6	près	près	ADV	_	_	5	comp:obj	_	SpaceAfter=No
@@ -17754,7 +17754,7 @@
 9	philosophes	philosophe	NOUN	_	Gender=Masc|Number=Plur	8	comp:obj	_	_
 10	qui	qui	PRON	_	PronType=Rel	11	subj	_	_
 11	peuvent	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
-12	intervenir	intervenir	VERB	_	VerbForm=Inf	11	comp:obj@x	_	_
+12	intervenir	intervenir	VERB	_	VerbForm=Inf	11	comp:obj@x	_	Subject=SubjRaising
 13	y	y	PRON	_	Person=3|PronType=Prs	14	comp	_	InIdiom=Yes
 14	compris	comprendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	mod	_	ExtPos=ADP|Idiom=Yes
 15	sur	sur	ADP	_	_	12	mod	_	_
@@ -18482,7 +18482,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
 4	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	avoir	avoir	VERB	_	VerbForm=Inf	4	comp:obj@x	_	_
+5	avoir	avoir	VERB	_	VerbForm=Inf	4	comp:obj@x	_	Subject=SubjRaising
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	aperçu	aperçu	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
 8	de	de	ADP	_	_	7	udep	_	SpaceAfter=No
@@ -18527,7 +18527,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	Overlap=Rhap_D2002-44bis
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	Overlap=Rhap_D2002-44bis
 4	voudrais	vouloir	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	entendre	entendre	VERB	_	VerbForm=Inf	4	comp:obj@x	_	_
+5	entendre	entendre	VERB	_	VerbForm=Inf	4	comp:obj@x	_	Subject=SubjRaising
 6	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	comp:obj	_	_
 7	que	que	PRON	_	PronType=Rel	9	comp:obj	_	_
 8	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	9	subj	_	_
@@ -18642,7 +18642,7 @@
 6	vouloir	vouloir	VERB	_	VerbForm=Inf	5	comp:obj	_	_
 7	tellement	tellement	ADV	_	_	6	mod	_	_
 8	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	9	comp:obl	_	_
-9	lire	lire	VERB	_	VerbForm=Inf	6	comp:obj@x	_	_
+9	lire	lire	VERB	_	VerbForm=Inf	6	comp:obj@x	_	Subject=SubjRaising
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 11	truc	truc	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 12	comme	comme	ADP	_	_	11	udep	_	_
@@ -19214,7 +19214,7 @@
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
 3	allez	aller	VERB	ETRE	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	tomber	tomber	VERB	ETRE	VerbForm=Inf	3	comp:obj@x	_	_
+4	tomber	tomber	VERB	ETRE	VerbForm=Inf	3	comp:obj@x	_	Subject=SubjRaising
 5	sur	sur	ADP	_	_	4	comp:obl	_	_
 6	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	Nef	Nef	PROPN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
@@ -19238,7 +19238,7 @@
 2	pouvez	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	pas	pas	ADV	_	Polarity=Neg	2	mod	_	_
 4	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	_
-5	louper	louper	VERB	_	VerbForm=Inf	2	comp:obj@x	_	SpaceAfter=No
+5	louper	louper	VERB	_	VerbForm=Inf	2	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 6	.	.	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = ^et en fait < faut toujours suivre "euh" { la | la } ligne de tram //
@@ -19272,7 +19272,7 @@
 5	pouvez	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	pas	pas	ADV	_	Polarity=Neg	5	mod	_	_
 7	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	8	comp:obj	_	_
-8	perdre	perdre	VERB	_	VerbForm=Inf	5	comp:obj@x	_	SpaceAfter=No
+8	perdre	perdre	VERB	_	VerbForm=Inf	5	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 9	.	.	PUNCT	_	_	5	punct	_	_
 
 # macrosyntax = donc < "euh" voilà //
@@ -19304,12 +19304,12 @@
 6	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	conj:dicto	_	SpaceAfter=No
 7	aurais	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	voulu	vouloir	VERB	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
-9	savoir	savoir	VERB	DoubleAux	VerbForm=Inf	8	comp:obj@x	_	_
+9	savoir	savoir	VERB	DoubleAux	VerbForm=Inf	8	comp:obj@x	_	Subject=SubjRaising
 10	comment	comment	ADV	_	_	12	mod	_	_
 11	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	12	subj	_	_
 12	pouvais	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	9	comp:obj	_	_
 13	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	14	comp:obl	_	_
-14	rendre	rendre	VERB	CCOMP	VerbForm=Inf	12	comp:obj@x	_	_
+14	rendre	rendre	VERB	CCOMP	VerbForm=Inf	12	comp:obj@x	_	Subject=SubjRaising
 15	à	à	ADP	_	_	14	mod	_	_
 16	pied	pied	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
 17-18	au	_	_	_	_	_	_	_	_
@@ -19401,7 +19401,7 @@
 6	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	7	subj	_	_
 7	allez	aller	VERB	ETRE	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	toujours	toujours	ADV	_	_	7	mod	_	_
-9	aller	aller	VERB	ETRE	VerbForm=Inf	7	comp:obj@x	_	_
+9	aller	aller	VERB	ETRE	VerbForm=Inf	7	comp:obj@x	_	Subject=SubjRaising
 10	tout	tout	ADV	_	_	11	mod	_	_
 11	droit	droit	ADJ	_	Gender=Masc|Number=Sing	9	comp:obj	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	7	punct	_	_
@@ -19412,7 +19412,7 @@
 # text = vous allez passer devant la poste qui sera à votre droite, et un peu plus loin, euh, je sais pas à quel niveau c'est exactement, Habitat et, euh, la Chambre de, de Commerce à votre gauche.
 1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	allez	aller	VERB	ETRE	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	passer	passer	VERB	ETRE	VerbForm=Inf	2	comp:obj@x	_	_
+3	passer	passer	VERB	ETRE	VerbForm=Inf	2	comp:obj@x	_	Subject=SubjRaising
 4	devant	devant	ADV	_	_	3	comp:obl	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	poste	poste	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
@@ -19557,7 +19557,7 @@
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	10	subj	_	_
 10	allez	aller	VERB	ETRE	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-11	passer	passer	VERB	ETRE	VerbForm=Inf	10	comp:obj@x	_	SpaceAfter=No
+11	passer	passer	VERB	ETRE	VerbForm=Inf	10	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	euh	euh	INTJ	_	_	11	discourse	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
@@ -19627,7 +19627,7 @@
 9	,	,	PUNCT	_	_	3	punct	_	_
 10	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	11	subj	_	_
 11	allez	aller	VERB	ETRE	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-12	arriver	arriver	VERB	ETRE	VerbForm=Inf	11	comp:obj@x	_	SpaceAfter=No
+12	arriver	arriver	VERB	ETRE	VerbForm=Inf	11	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	euh	euh	INTJ	_	_	12	discourse	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	_
@@ -19647,7 +19647,7 @@
 # text = vous allez rejoindre le tram, la ligne, euh, A ou B.
 1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	allez	aller	VERB	ETRE	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	rejoindre	rejoindre	VERB	_	VerbForm=Inf	2	comp:obj@x	_	_
+3	rejoindre	rejoindre	VERB	_	VerbForm=Inf	2	comp:obj@x	_	Subject=SubjRaising
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	tram	tram	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
@@ -19686,7 +19686,7 @@
 6	,	,	PUNCT	_	_	2	punct	_	_
 7	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	8	subj	_	_
 8	allez	aller	VERB	ETRE	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	tourner	tourner	VERB	_	VerbForm=Inf	8	comp:obj@x	_	SpaceAfter=No
+9	tourner	tourner	VERB	_	VerbForm=Inf	8	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
@@ -19701,7 +19701,7 @@
 # text = vous allez longer les quais.
 1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	allez	aller	VERB	ETRE	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	longer	longer	VERB	_	VerbForm=Inf	2	comp:obj@x	_	_
+3	longer	longer	VERB	_	VerbForm=Inf	2	comp:obj@x	_	Subject=SubjRaising
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	quais	quai	NOUN	_	Gender=Masc|Number=Plur	3	comp:obj	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
@@ -19712,7 +19712,7 @@
 # text = vous allez passer devant u~, une banque.
 1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	allez	aller	VERB	ETRE	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	passer	passer	VERB	ETRE	VerbForm=Inf	2	comp:obj@x	_	_
+3	passer	passer	VERB	ETRE	VerbForm=Inf	2	comp:obj@x	_	Subject=SubjRaising
 4	devant	devant	ADP	_	_	3	comp:obl	_	_
 5	u~	u~	X	_	_	8	det	_	ExtPos=DET|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
@@ -19763,7 +19763,7 @@
 # text = vous allez longer, euh, les, donc les rails du tram.
 1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	allez	aller	VERB	ETRE	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	longer	longer	VERB	_	VerbForm=Inf	2	comp:obj@x	_	SpaceAfter=No
+3	longer	longer	VERB	_	VerbForm=Inf	2	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	euh	euh	INTJ	_	_	3	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	11	punct	_	_
@@ -19809,7 +19809,7 @@
 # text = vous pouvez traverser, euh, les rails à ce ni~, à ce moment-là parce que, euh, vous serez du bon côté pour, euh, plus tard.
 1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	pouvez	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	traverser	traverser	VERB	_	VerbForm=Inf	2	comp:obj@x	_	SpaceAfter=No
+3	traverser	traverser	VERB	_	VerbForm=Inf	2	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	euh	euh	INTJ	_	_	3	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
@@ -19894,7 +19894,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	4	subj	_	_
 4	allez	aller	VERB	ETRE	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	arriver	arriver	VERB	ETRE	VerbForm=Inf	4	comp:obj@x	_	_
+5	arriver	arriver	VERB	ETRE	VerbForm=Inf	4	comp:obj@x	_	Subject=SubjRaising
 6	à	à	ADP	_	_	5	comp:obl	_	_
 7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	place	place	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	SpaceAfter=No
@@ -19921,7 +19921,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	4	subj	_	_
 4	allez	aller	VERB	ETRE	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	longer	longer	VERB	_	VerbForm=Inf	4	comp:obj@x	_	SpaceAfter=No
+5	longer	longer	VERB	_	VerbForm=Inf	4	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
@@ -19944,7 +19944,7 @@
 # text = vous allez passer aussi, pour vous repérer, euh, une boutique, euh, Häagen Dazs.
 1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	allez	aller	VERB	ETRE	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	passer	passer	VERB	ETRE	VerbForm=Inf	2	comp:obj@x	_	_
+3	passer	passer	VERB	ETRE	VerbForm=Inf	2	comp:obj@x	_	Subject=SubjRaising
 4	aussi	aussi	ADV	_	_	3	mod	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	pour	pour	ADP	_	_	3	mod	_	_
@@ -19981,11 +19981,11 @@
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	5	subj	_	_
 5	allez	aller	VERB	ETRE	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	voir	voir	VERB	_	VerbForm=Inf	5	comp:obj@x	_	SpaceAfter=No
+6	voir	voir	VERB	_	VerbForm=Inf	5	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 7	,	,	PUNCT	_	_	9	punct	_	_
 8	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	9	subj	_	_
 9	allez	aller	VERB	ETRE	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	conj:dicto	_	_
-10	arriver	arriver	VERB	ETRE	VerbForm=Inf	9	comp:obj@x	_	_
+10	arriver	arriver	VERB	ETRE	VerbForm=Inf	9	comp:obj@x	_	Subject=SubjRaising
 11	à	à	ADP	_	_	10	comp:obl	_	_
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 13	autre	autre	ADJ	_	Gender=Fem|Number=Sing	14	mod	_	_
@@ -20002,7 +20002,7 @@
 24	pouvez	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	21	parataxis:parenth	_	_
 25	pas	pas	ADV	_	Polarity=Neg	24	mod	_	_
 26	la	le	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	27	comp:obj	_	_
-27	louper	louper	VERB	_	VerbForm=Inf	24	comp:obj@x	_	SpaceAfter=No
+27	louper	louper	VERB	_	VerbForm=Inf	24	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 28	,	,	PUNCT	_	_	34	punct	_	_
 29	et	et	CCONJ	_	_	34	cc	_	SpaceAfter=No
 30	,	,	PUNCT	_	_	29	punct	_	_
@@ -20065,7 +20065,7 @@
 1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	allez	aller	VERB	ETRE	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	la	le	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	_
-4	traverser	traverser	VERB	_	VerbForm=Inf	2	comp:obj@x	_	SpaceAfter=No
+4	traverser	traverser	VERB	_	VerbForm=Inf	2	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 5	.	.	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = vous allez passer sous un petit porche //
@@ -20074,7 +20074,7 @@
 # text = vous allez passer sous un petit porche.
 1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	allez	aller	VERB	ETRE	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	passer	passer	VERB	ETRE	VerbForm=Inf	2	comp:obj@x	_	_
+3	passer	passer	VERB	ETRE	VerbForm=Inf	2	comp:obj@x	_	Subject=SubjRaising
 4	sous	sous	ADP	_	_	3	comp:obl	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	petit	petit	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
@@ -20114,7 +20114,7 @@
 7	pouvez	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	pas	pas	ADV	_	Polarity=Neg	7	mod	_	_
 9	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	comp:obj	_	_
-10	louper	louper	VERB	_	VerbForm=Inf	7	comp:obj@x	_	SpaceAfter=No
+10	louper	louper	VERB	_	VerbForm=Inf	7	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 11	.	.	PUNCT	_	_	7	punct	_	_
 
 # macrosyntax = il est juste en face // )
@@ -20164,7 +20164,7 @@
 6	,	,	PUNCT	_	_	2	punct	_	_
 7	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	8	subj	_	_
 8	allez	aller	VERB	ETRE	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	arriver	arriver	VERB	ETRE	VerbForm=Inf	8	comp:obj@x	_	SpaceAfter=No
+9	arriver	arriver	VERB	ETRE	VerbForm=Inf	8	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	euh	euh	INTJ	_	_	9	discourse	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
@@ -20236,7 +20236,7 @@
 1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	allez	aller	VERB	ETRE	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	2	comp:obl	_	_
-4	diriger	diriger	VERB	_	VerbForm=Inf	2	comp:obj@x	_	_
+4	diriger	diriger	VERB	_	VerbForm=Inf	2	comp:obj@x	_	Subject=SubjRaising
 5	vers	vers	ADP	_	_	4	comp:obl	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	fond	fond	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
@@ -20305,7 +20305,7 @@
 10	,	,	PUNCT	_	_	2	punct	_	_
 11	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	12	subj	_	_
 12	allez	aller	VERB	ETRE	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-13	passer	passer	VERB	ETRE	VerbForm=Inf	12	comp:obj@x	_	_
+13	passer	passer	VERB	ETRE	VerbForm=Inf	12	comp:obj@x	_	Subject=SubjRaising
 14	aussi	aussi	ADV	_	_	13	mod	_	_
 15	devant	devant	ADV	_	_	13	mod@scrap	_	SpaceAfter=No
 16	…	…	PUNCT	_	_	12	punct	_	_
@@ -20397,7 +20397,7 @@
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	10	subj	_	_
 10	allez	aller	VERB	ETRE	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	discourse	_	_
-11	voir	voir	VERB	_	VerbForm=Inf	10	comp:obj@x	_	SpaceAfter=No
+11	voir	voir	VERB	_	VerbForm=Inf	10	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 12	,	,	PUNCT	_	_	2	punct	_	_
 13	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	subj@expl	_	_
 14	y	y	PRON	_	Person=3|PronType=Prs	15	comp:obl	_	_
@@ -20432,7 +20432,7 @@
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	7	subj	_	_
 7	allez	aller	VERB	ETRE	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	discourse	_	_
-8	voir	voir	VERB	_	VerbForm=Inf	7	comp:obj@x	_	SpaceAfter=No
+8	voir	voir	VERB	_	VerbForm=Inf	7	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 9	,	,	PUNCT	_	_	4	punct	_	_
 10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	subj@expl	_	_
 11	y	y	PRON	_	Person=3|PronType=Prs	12	comp:obl	_	_
@@ -20514,7 +20514,7 @@
 5	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	6	subj	_	Overlap=Rhap_D0008-63ter
 6	pouvez	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	conj:dicto	_	Overlap=Rhap_D0008-63ter
 7	pas	pas	ADV	_	Polarity=Neg	6	mod	_	Overlap=Rhap_D0008-63ter
-8	louper	louper	VERB	conj:reform	VerbForm=Inf	6	comp:obj@x	_	Overlap=Rhap_D0008-63ter|SpaceAfter=No
+8	louper	louper	VERB	conj:reform	VerbForm=Inf	6	comp:obj@x	_	Overlap=Rhap_D0008-63ter|SpaceAfter=No|Subject=SubjRaising
 9	,	,	PUNCT	_	_	10	punct	_	Overlap=Rhap_D0008-63ter
 10	euh	euh	INTJ	_	_	8	discourse	_	Overlap=Rhap_D0008-63ter|SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	Overlap=Rhap_D0008-63ter
@@ -20888,7 +20888,7 @@
 7	d'	de	ADP	_	_	6	udep	_	SpaceAfter=No
 8	écrire	écrire	VERB	_	VerbForm=Inf	7	comp:obj	_	Subject=NoRaising
 9	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	prendre	prendre	VERB	_	VerbForm=Inf	9	comp:obj@x	_	_
+10	prendre	prendre	VERB	_	VerbForm=Inf	9	comp:obj@x	_	Subject=SubjRaising
 11	différents	différent	ADJ	_	Gender=Masc|Number=Plur	12	mod	_	_
 12	masques	masque	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
@@ -20972,7 +20972,7 @@
 23	si	si	SCONJ	_	_	21	discourse	_	_
 24	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	25	subj	_	_
 25	puis	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	comp:obj	_	_
-26	dire	dire	VERB	_	VerbForm=Inf	25	comp:obj@x	_	SpaceAfter=No
+26	dire	dire	VERB	_	VerbForm=Inf	25	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 27	.	.	PUNCT	_	_	8	punct	_	_
 
 # macrosyntax = c'est que on écrit { parce que au fond "euh" on aime cela | ^et parce que ça fait plaisir // }
@@ -21035,7 +21035,7 @@
 3	ne	ne	ADV	_	Polarity=Neg	4	mod	_	_
 4	veut	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	mod@relcl	_	_
 5	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
-6	dire	dire	VERB	_	VerbForm=Inf	4	comp:obj@x	_	_
+6	dire	dire	VERB	_	VerbForm=Inf	4	comp:obj@x	_	Subject=SubjRaising
 7	que	que	SCONJ	_	_	6	comp:obj	_	_
 8	dans	dans	ADP	_	_	16	mod	_	_
 9	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
@@ -21266,7 +21266,7 @@
 27	si	si	SCONJ	_	_	25	discourse	_	_
 28	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	29	subj	_	_
 29	puis	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	27	comp:obj	_	_
-30	dire	dire	VERB	_	VerbForm=Inf	29	comp:obj@x	_	SpaceAfter=No
+30	dire	dire	VERB	_	VerbForm=Inf	29	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 31	,	,	PUNCT	_	_	32	punct	_	_
 32	je	il	PRON	conj:reform	Number=Sing|Person=1|PronType=Prs	25	conj:dicto	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	34	punct	_	_
@@ -21760,7 +21760,7 @@
 1	alors	alors	ADV	_	_	3	mod	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
 3	pourrait	pouvoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	poser	poser	VERB	_	VerbForm=Inf	3	comp:obj@x	_	_
+4	poser	poser	VERB	_	VerbForm=Inf	3	comp:obj@x	_	Subject=SubjRaising
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	question	question	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
@@ -21993,7 +21993,7 @@
 18	train	train	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	_
 19	sinon	sinon	ADV	_	_	20	mod	_	_
 20	de	de	ADP	_	_	18	comp:obl	_	_
-21	disparaître	disparaître	VERB	_	VerbForm=Inf	20	comp:obj	_	SpaceAfter=No
+21	disparaître	disparaître	VERB	_	VerbForm=Inf	20	comp:obj	_	SpaceAfter=No|Subject=ObjRaising
 22	,	,	PUNCT	_	_	27	punct	_	_
 23	tout	tout	ADV	_	_	24	mod	_	_
 24-25	au	_	_	_	_	_	_	_	_
@@ -22002,7 +22002,7 @@
 26	moins	moins	ADV	_	_	24	comp:obj	_	_
 27	de	de	ADP	_	_	20	conj:dicto	_	_
 28	se	se	PRON	_	Person=3|PronType=Prs	29	comp@pass	_	_
-29	modifier	modifier	VERB	_	VerbForm=Inf	27	comp:obj	_	_
+29	modifier	modifier	VERB	_	VerbForm=Inf	27	comp:obj	_	Subject=ObjRaising
 30	profondément	profondément	ADV	_	_	29	mod	_	SpaceAfter=No
 31	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -23264,7 +23264,7 @@
 9	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	10	subj	_	_
 10	pouvez	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	pas	pas	ADV	_	Polarity=Neg	10	mod	_	_
-12	travailler	travailler	VERB	_	VerbForm=Inf	10	comp:obj@x	_	SpaceAfter=No
+12	travailler	travailler	VERB	_	VerbForm=Inf	10	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 13	,	,	PUNCT	_	_	17	punct	_	_
 14	par	par	ADP	_	_	17	mod	_	_
 15	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	SpaceAfter=No
@@ -23612,7 +23612,7 @@
 23	,	,	PUNCT	_	_	25	punct	_	Overlap=Rhap_D0004-43
 24	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	25	subj	_	Overlap=Rhap_D0004-44bis
 25	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	discourse	_	Overlap=Rhap_D0004-44bis
-26	dire	dire	VERB	_	VerbForm=Inf	25	comp:obj@x	_	Overlap=Rhap_D0004-44bis|SpaceAfter=No
+26	dire	dire	VERB	_	VerbForm=Inf	25	comp:obj@x	_	Overlap=Rhap_D0004-44bis|SpaceAfter=No|Subject=SubjRaising
 27	,	,	PUNCT	_	_	28	punct	_	Overlap=Rhap_D0004-44bis
 28-29	du	_	_	_	_	_	_	_	_
 28	de	de	ADP	de	_	19	conj:dicto	_	Overlap=Rhap_D0004-44bis
@@ -24483,7 +24483,7 @@
 27	,	,	PUNCT	_	_	28	punct	_	_
 28	pour	pour	ADP	_	_	5	mod	_	_
 29	aller	aller	VERB	ETRE	VerbForm=Inf	28	comp:obj	_	Subject=NoRaising
-30	travailler	travailler	VERB	_	VerbForm=Inf	29	comp:obj@x	_	SpaceAfter=No
+30	travailler	travailler	VERB	_	VerbForm=Inf	29	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 31	.	.	PUNCT	_	_	5	punct	_	_
 
 # macrosyntax = $- $L1 donc < "euh" ESPERLUETTE //
@@ -24502,7 +24502,7 @@
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	Overlap=Rhap_D0004-76
 2	aurait	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Overlap=Rhap_D0004-76
 3	pu	pouvoir	VERB	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	Overlap=Rhap_D0004-76
-4	penser	penser	VERB	_	VerbForm=Inf	3	comp:obj@x	_	Overlap=Rhap_D0004-76
+4	penser	penser	VERB	_	VerbForm=Inf	3	comp:obj@x	_	Overlap=Rhap_D0004-76|Subject=SubjRaising
 5	que	que	SCONJ	_	_	4	comp:obj	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	gens	gens	NOUN	_	Gender=Masc|Number=Plur	11	subj@pass	_	_
@@ -24720,7 +24720,7 @@
 # text = ça veut dire que en général, et je les vois pas avant vingt heures quinze, hein, c'est à peu près l~, l~, leurs heures de…
 1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
 2	veut	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	dire	dire	VERB	_	VerbForm=Inf	2	comp:obj@x	_	_
+3	dire	dire	VERB	_	VerbForm=Inf	2	comp:obj@x	_	Subject=SubjRaising
 4	que	que	SCONJ	_	_	3	comp:obj	_	_
 5	en	en	ADP	_	_	11	mod	_	_
 6	général	général	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	SpaceAfter=No
@@ -24843,7 +24843,7 @@
 29	,	,	PUNCT	_	_	31	punct	_	_
 30	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	31	subj	_	_
 31	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	discourse	_	_
-32	dire	dire	VERB	_	VerbForm=Inf	31	comp:obj@x	_	SpaceAfter=No
+32	dire	dire	VERB	_	VerbForm=Inf	31	comp:obj@x	_	SpaceAfter=No|Subject=SubjRaising
 33	,	,	PUNCT	_	_	34	punct	_	_
 34	pour	pour	ADP	_	_	21	mod	_	_
 35	piquer	piquer	VERB	_	VerbForm=Inf	34	comp:obj	_	Subject=NoRaising
