@@ -375,14 +375,14 @@
 30	,	,	PUNCT	_	_	33	punct	_	_
 31	tous	tout	ADJ	_	Gender=Masc|Number=Plur	33	mod	_	_
 32	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	33	det	_	_
-33	bus	bus	NOUN	_	Gender=Masc	29	conj:dicto	_	SpaceAfter=No
+33	bus	bus	NOUN	_	Gender=Masc|Number=Plur	29	conj:dicto	_	SpaceAfter=No
 34	,	,	PUNCT	_	_	35	punct	_	_
 35	non	non	ADV	_	Polarity=Neg	33	discourse	_	SpaceAfter=No
 36	,	,	PUNCT	_	_	40	punct	_	_
 37	pas	pas	ADV	_	Polarity=Neg	40	mod	_	_
 38	tous	tout	ADJ	_	Gender=Masc|Number=Plur	40	mod	_	_
 39	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	40	det	_	_
-40	bus	bus	NOUN	_	Gender=Masc	33	conj:dicto	_	SpaceAfter=No
+40	bus	bus	NOUN	_	Gender=Masc|Number=Plur	33	conj:dicto	_	SpaceAfter=No
 41	.	.	PUNCT	_	_	12	punct	_	_
 
 # macrosyntax = ils sont pas de ce côté-là //
@@ -1658,7 +1658,7 @@
 33-34	du	_	_	_	_	_	_	_	_
 33	de	de	ADP	_	_	32	mod	_	_
 34	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
-35	tout	tout	NOUN	_	_	33	comp:obj	_	SpaceAfter=No
+35	tout	tout	NOUN	_	Number=Sing	33	comp:obj	_	SpaceAfter=No
 36	.	.	PUNCT	_	_	1	punct	_	_
 
 # macrosyntax = $- $L2 ^de ^sorte ^que je n'ai pas pu aller là //
@@ -1846,7 +1846,7 @@
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj	_	SpaceAfter=No
 6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	comp:obj	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	pays	pays	NOUN	_	Gender=Masc	6	comp:pred	_	_
+8	pays	pays	NOUN	_	Gender=Masc|Number=Sing	6	comp:pred	_	_
 9	formidable	formidable	ADJ	_	Number=Sing	8	mod	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -2135,7 +2135,7 @@
 10	bien	bien	ADV	_	_	9	mod	_	_
 11	appris	apprendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	9	comp:aux@tense	_	_
 12	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
-13	anglais	anglais	NOUN	_	Gender=Masc	11	comp:obj	_	SpaceAfter=No
+13	anglais	anglais	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = ce qui m'a beaucoup aidée > naturellement //
@@ -2924,7 +2924,7 @@
 21-22	du	_	_	_	_	_	_	_	_
 21	de	de	ADP	_	_	20	mod	_	_
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	tout	tout	NOUN	_	_	21	comp:obj	_	SpaceAfter=No
+23	tout	tout	NOUN	_	Number=Sing	21	comp:obj	_	SpaceAfter=No
 24	.	.	PUNCT	_	_	1	punct	_	_
 
 # macrosyntax = ^de ^sorte ^que { je | je } me suis dit [ "bon" "ben" je vais voir // ] //
@@ -3355,7 +3355,7 @@
 17	évidence	évidence	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
 18	dans	dans	ADP	_	_	15	mod	_	_
 19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
-20	accès	accès	NOUN	_	Gender=Masc	18	comp:obj	_	_
+20	accès	accès	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
 21	de	de	ADP	_	_	20	udep	_	_
 22	mauvaise	mauvais	ADJ	_	Gender=Fem|Number=Sing	23	mod	_	_
 23	foi	foi	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	_
@@ -3873,7 +3873,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	reste	rester	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	cas	cas	NOUN	_	Gender=Masc	3	subj	_	_
+5	cas	cas	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
 6	Marseille	Marseille	PROPN	_	_	5	mod@appos	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -5534,7 +5534,7 @@
 18	erreur	erreur	NOUN	_	Gender=Fem|Number=Sing	10	conj:appos	_	_
 19	pour	pour	ADP	_	_	18	udep	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	moins	moins	NOUN	_	Gender=Masc	19	comp:obj	_	_
+21	moins	moins	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
 22	de	de	ADP	_	_	21	udep	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	_
 24	de	de	ADP	_	_	22	conj:dicto	_	_
@@ -6243,7 +6243,7 @@
 4-5	du	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	3	mod	_	ExtPos=ADV|Idiom=Yes
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	InIdiom=Yes
-6	tout	tout	NOUN	_	_	4	comp:obj	_	InIdiom=Yes|SpaceAfter=No
+6	tout	tout	NOUN	_	Number=Sing	4	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	_
 
 # macrosyntax = ce petit //
@@ -6964,9 +6964,9 @@
 54	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	55	det	_	_
 55	moyens	moyen	NOUN	_	Gender=Masc|Number=Plur	53	comp:obj	_	_
 56-57	du	_	_	_	_	_	_	_	_
-56	de	de	ADP	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	55	udep	_	_
-57	le	le	DET	_	_	58	det	_	_
-58	pays	pays	NOUN	_	_	56	comp:obj	_	SpaceAfter=No
+56	de	de	ADP	_	_	55	udep	_	_
+57	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	58	det	_	_
+58	pays	pays	NOUN	_	Gender=Masc|Number=Sing	56	comp:obj	_	SpaceAfter=No
 59	.	.	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = nous mesurons surtout le prix { de l'aide fraternelle | du soutien spontané | de la main tendue } qui sont le ciment même de la nation //
@@ -7372,7 +7372,7 @@
 # sent_id = Rhap_M2004-20
 # text = le progrès va se poursuivre avec ses hésitations, avec ses limites que nous mesurons bien face aux évènements récents qui nous invitent à l'humilité.
 1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	progrès	progrès	NOUN	_	Gender=Masc	3	subj	_	_
+2	progrès	progrès	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
 3	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	se	se	PRON	_	Person=3|PronType=Prs	5	comp@pass	_	_
 5	poursuivre	poursuivre	VERB	_	VerbForm=Inf	3	comp:obj	_	Subject=SubjRaising
@@ -7459,12 +7459,12 @@
 # sent_id = Rhap_M2004-25
 # text = ces progrès ne prendront tout leur sens que s'ils bénéficient à l'Homme, à tous les hommes.
 1	ces	ce	DET	_	Number=Plur|Person=3|PronType=Dem	2	det	_	_
-2	progrès	progrès	NOUN	_	Gender=Masc	4	subj	_	_
+2	progrès	progrès	NOUN	_	Gender=Masc|Number=Plur	4	subj	_	_
 3	ne	ne	ADV	_	Polarity=Neg	4	mod	_	_
 4	prendront	prendre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 5	tout	tout	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
 6	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|PronType=Prs	7	det	_	_
-7	sens	sens	NOUN	_	Gender=Masc	4	comp:obj	_	_
+7	sens	sens	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
 8	que	que	ADV	_	_	9	mod	_	_
 9	s'	si	SCONJ	_	_	4	mod	_	SpaceAfter=No
 10	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	subj	_	_
@@ -7825,7 +7825,7 @@
 17	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	18	comp:obl	_	_
 18	garantit	garantir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	mod@relcl	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
-20	paix	paix	NOUN	_	Gender=Fem	18	comp:obj	_	SpaceAfter=No
+20	paix	paix	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	_
 22	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	Europe	Europe	PROPN	_	_	12	conj:appos	_	_
@@ -7904,7 +7904,7 @@
 2	sera	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 3	tout	tout	ADJ	_	Gender=Masc|Number=Sing	5	mod	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	sens	sens	NOUN	_	Gender=Masc	2	comp:pred	_	_
+5	sens	sens	NOUN	_	Gender=Masc|Number=Sing	2	comp:pred	_	_
 6-7	du	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	5	udep	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -8039,7 +8039,7 @@
 113	républicain	républicain	ADJ	_	Gender=Masc|Number=Sing	112	mod	_	_
 114	et	et	CCONJ	_	_	116	cc	_	_
 115	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	116	det	_	_
-116	sens	sens	NOUN	_	Gender=Masc	112	conj:coord	_	_
+116	sens	sens	NOUN	_	Gender=Masc|Number=Sing	112	conj:coord	_	_
 117	de	de	ADP	_	_	116	udep	_	_
 118	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	119	det	_	SpaceAfter=No
 119	intérêt	intérêt	NOUN	_	Gender=Masc|Number=Sing	117	comp:obj	_	_
@@ -8099,7 +8099,7 @@
 10	pour	pour	ADP	_	_	7	mod	_	_
 11	aborder	aborder	VERB	_	VerbForm=Inf	10	comp:obj	_	Subject=NoRaising
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
-13	temps	temps	NOUN	_	Gender=Masc	11	comp:obj	_	_
+13	temps	temps	NOUN	_	Gender=Masc|Number=Plur	11	comp:obj	_	_
 14	qui	qui	PRON	_	PronType=Rel	15	subj	_	_
 15	viennent	venir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	mod@relcl	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	7	punct	_	_
@@ -9854,7 +9854,7 @@
 3-4	du	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	2	comp:obl	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	temps	temps	NOUN	_	Gender=Masc	3	comp:obj	_	SpaceAfter=No
+5	temps	temps	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	2	punct	_	_
 7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	subj@expl	_	SpaceAfter=No
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -12197,7 +12197,7 @@
 19	qui	qui	PRON	_	PronType=Rel	20	subj	_	Overlap=Rhap_D0001-20ter
 20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj:dicto	_	Overlap=Rhap_D0001-20ter
 21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	Overlap=Rhap_D0001-20ter
-22	bus	bus	NOUN	_	Gender=Masc	20	comp:pred	_	Overlap=Rhap_D0001-20ter
+22	bus	bus	NOUN	_	Gender=Masc|Number=Sing	20	comp:pred	_	Overlap=Rhap_D0001-20ter
 23	formidable	formidable	ADJ	_	Number=Sing	22	mod	_	Overlap=Rhap_D0001-20ter|SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	_
 25	formidable	formidable	ADJ	_	Number=Sing	23	conj:dicto	_	SpaceAfter=No
@@ -12386,7 +12386,7 @@
 10	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj:dicto	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	Overlap=Rhap_D0001-27quater
 12	même	même	ADJ	_	Number=Sing	13	mod	_	Overlap=Rhap_D0001-27quater
-13	discours	discours	NOUN	_	Gender=Masc	10	comp:obj	_	SpaceAfter=No
+13	discours	discours	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	euh	euh	INTJ	_	_	13	discourse	_	Overlap=Rhap_D0001-27quinquies|SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	Overlap=Rhap_D0001-27quinquies
@@ -12744,7 +12744,7 @@
 11	pied	pied	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	_
 12	tout	tout	ADJ	_	_	14	mod	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
-14	temps	temps	NOUN	_	Gender=Masc	9	mod	_	SpaceAfter=No
+14	temps	temps	NOUN	_	Gender=Masc|Number=Sing	9	mod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	6	punct	_	_
 
 # macrosyntax = votre marché < c'est { Aligre | $- ^plus ^que Nation } //
@@ -13388,7 +13388,7 @@
 2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	1	mod	_	Overlap=Rhap_D0001-74bis
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	Overlap=Rhap_D0001-74bis
-4	tout	tout	NOUN	_	_	2	comp:obj	_	Overlap=Rhap_D0001-74bis|SpaceAfter=No
+4	tout	tout	NOUN	_	Number=Sing	2	comp:obj	_	Overlap=Rhap_D0001-74bis|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0001-74bis
 
 # macrosyntax = "ah" non //
@@ -13503,7 +13503,7 @@
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Overlap=Rhap_D0001-83
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	Overlap=Rhap_D0001-83
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	Overlap=Rhap_D0001-83
-6	cas	cas	NOUN	_	Gender=Masc	3	comp:pred	_	Overlap=Rhap_D0001-83|SpaceAfter=No
+6	cas	cas	NOUN	_	Gender=Masc|Number=Sing	3	comp:pred	_	Overlap=Rhap_D0001-83|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	Overlap=Rhap_D0001-83
 8	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
@@ -13950,7 +13950,7 @@
 5	dire	dire	VERB	_	VerbForm=Inf	4	comp:obj	_	Subject=SubjRaising
 6	de	de	ADP	_	_	5	comp:obl	_	_
 7	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	8	det	_	_
-8	temps	temps	NOUN	_	Gender=Masc	6	comp:obj	_	SpaceAfter=No
+8	temps	temps	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	4	punct	_	_
@@ -14395,7 +14395,7 @@
 # sent_id = Rhap_M2005-1
 # text = le succès des réseaux sociaux sur internet n'est plus à démontrer.
 1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	succès	succès	NOUN	_	Gender=Masc	10	subj	_	_
+2	succès	succès	NOUN	_	Gender=Masc|Number=Sing	10	subj	_	_
 3-4	des	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	2	udep	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
@@ -15800,7 +15800,7 @@
 14	pas	pas	ADV	_	Polarity=Neg	17	mod	_	_
 15	tout	tout	ADJ	_	_	17	mod	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	17	det	_	_
-17	temps	temps	NOUN	_	Gender=Masc	3	mod	_	_
+17	temps	temps	NOUN	_	Gender=Masc|Number=Sing	3	mod	_	_
 18	et	et	CCONJ	_	_	25	cc	_	_
 19	pas	pas	ADV	_	Polarity=Neg	18	mod	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	23	punct	_	_
@@ -15846,7 +15846,7 @@
 5	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
 6	tout	tout	ADJ	_	_	8	mod	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	temps	temps	NOUN	_	Gender=Masc	4	mod	_	SpaceAfter=No
+8	temps	temps	NOUN	_	Gender=Masc|Number=Sing	4	mod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	_
 
 # macrosyntax = il y a XXX ESPERLUETTE //
@@ -17073,7 +17073,7 @@
 15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj:coord	_	_
 16	en	en	ADP	_	_	15	mod	_	_
 17	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
-18	sens	sens	NOUN	_	Gender=Masc	16	comp:obj	_	_
+18	sens	sens	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
 19	que	que	SCONJ	_	_	15	comp:cleft	_	_
 20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	SpaceAfter=No
 21	art	art	NOUN	_	Gender=Masc|Number=Sing	22	subj	_	_
@@ -17749,7 +17749,7 @@
 5-6	au	_	_	_	_	_	_	_	_
 5	à	à	ADP	_	_	4	mod	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	sens	sens	NOUN	_	Gender=Masc	5	comp:obj	_	_
+7	sens	sens	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
 8	de	de	ADP	_	_	7	udep	_	_
 9	philosophes	philosophe	NOUN	_	Gender=Masc|Number=Plur	8	comp:obj	_	_
 10	qui	qui	PRON	_	PronType=Rel	11	subj	_	_
@@ -17936,7 +17936,7 @@
 27	moment	moment	NOUN	_	Gender=Masc|Number=Sing	25	comp:obj	_	SpaceAfter=No
 28	,	,	PUNCT	_	_	12	punct	_	_
 29	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
-30	univers	univers	NOUN	_	Gender=Masc	34	subj	_	_
+30	univers	univers	NOUN	_	Gender=Masc|Number=Sing	34	subj	_	_
 31	de	de	ADP	_	_	30	udep	_	_
 32	Murakami	Murakami	PROPN	_	_	31	comp:obj	_	_
 33	m'	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	36	comp:obl	_	SpaceAfter=No
@@ -20926,7 +20926,7 @@
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@tense	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	cas	cas	NOUN	_	Gender=Masc	3	comp:pred	_	SpaceAfter=No
+5	cas	cas	NOUN	_	Gender=Masc|Number=Sing	3	comp:pred	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	disons	dire	VERB	_	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
@@ -21243,7 +21243,7 @@
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	dans	dans	ADP	_	_	20	mod	_	_
 6	certains	certain	DET	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	7	det	_	_
-7	cas	cas	NOUN	_	Gender=Masc	5	comp:obj	_	_
+7	cas	cas	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	_
 8	comme	comme	ADP	_	_	7	udep	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	mien	sien	PRON	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=1|PronType=Prs	8	comp:obj	_	SpaceAfter=No
@@ -21841,7 +21841,7 @@
 5	toujours	toujours	ADV	_	_	3	mod	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 7	même	même	ADJ	_	Number=Sing	8	mod	_	_
-8	sens	sens	NOUN	_	Gender=Masc	3	comp:obj	_	SpaceAfter=No
+8	sens	sens	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
 
 # macrosyntax = ^et c'est comme ça que l'histoire marche > en quelque sorte //
@@ -22300,7 +22300,7 @@
 # text = en un sens, oui.
 1	en	en	ADP	_	_	5	mod	_	Overlap=Rhap_D2009-63
 2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Overlap=Rhap_D2009-63
-3	sens	sens	NOUN	_	Gender=Masc	1	comp:obj	_	Overlap=Rhap_D2009-63|SpaceAfter=No
+3	sens	sens	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	Overlap=Rhap_D2009-63|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	Overlap=Rhap_D2009-63
 5	oui	oui	INTJ	_	_	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
@@ -24155,7 +24155,7 @@
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	Overlap=Rhap_D0004-62septies|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	Overlap=Rhap_D0004-62septies
 9	le	le	DET	conj:reform	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	conj:dicto	_	Overlap=Rhap_D0004-62septies
-10	temps	temps	NOUN	_	Gender=Masc	0	root	_	Overlap=Rhap_D0004-62septies
+10	temps	temps	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Overlap=Rhap_D0004-62septies
 11	que	que	PRON	_	PronType=Rel	14	comp:obj	_	Overlap=Rhap_D0004-62septies
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	Overlap=Rhap_D0004-62septies
 13	gens	gens	NOUN	_	Gender=Masc|Number=Plur	14	subj	_	Overlap=Rhap_D0004-62septies
@@ -25392,7 +25392,7 @@
 51	terre	terre	NOUN	_	Gender=Fem|Number=Sing	50	comp:obj	_	_
 52	dans	dans	ADP	_	_	49	mod	_	_
 53	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	54	det	_	_
-54	bras	bras	NOUN	_	Gender=Masc	52	comp:obj	_	_
+54	bras	bras	NOUN	_	Gender=Masc|Number=Plur	52	comp:obj	_	_
 55	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	56	det	_	SpaceAfter=No
 56	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	59	mod	_	_
 57	de	de	ADP	_	_	54	udep	_	_
