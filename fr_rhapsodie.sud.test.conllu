@@ -124,7 +124,7 @@
 14	se	se	PRON	_	Person=3|PronType=Prs	15	comp:obl	_	_
 15	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	comp:obj	_	_
 16	mais	mais	CCONJ	_	_	21	cc	_	_
-17	pourquoi	pourquoi	ADV	_	_	21	mod	_	_
+17	pourquoi	pourquoi	ADV	_	PronType=Int	21	mod	_	_
 18	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	21	subj	_	_
 19	ne	ne	ADV	_	Polarity=Neg	21	mod	_	_
 20	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	23	comp:obj	_	_
@@ -1087,7 +1087,7 @@
 # text = alors, comment ça marche ?
 1	alors	alors	ADV	_	_	5	mod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	comment	comment	ADV	_	_	5	mod	_	_
+3	comment	comment	ADV	_	PronType=Int	5	mod	_	_
 4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	_
 5	marche	marcher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	?	?	PUNCT	_	_	5	punct	_	_
@@ -1207,7 +1207,7 @@
 19	spécialiste	spécialiste	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
 20	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	21	comp:obl	_	_
 21	expliquer	expliquer	VERB	_	VerbForm=Inf	13	comp:obj	_	Subject=ObjRaising
-22	comment	comment	ADV	_	_	24	mod	_	_
+22	comment	comment	ADV	_	PronType=Int	24	mod	_	_
 23	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	24	subj	_	_
 24	marche	marcher	VERB	CCOMP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	comp:obj	_	_
 25	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1|PronType=Prs	26	det	_	_
@@ -1466,7 +1466,7 @@
 1	Magalie	Magalie	PROPN	_	_	2	subj	_	_
 2	utilise	utiliser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	depuis	depuis	ADP	_	_	2	mod	_	_
-4	combien	combien	ADV	_	_	3	comp:obj	_	_
+4	combien	combien	ADV	_	PronType=Int	3	comp:obj	_	_
 5	de	de	ADP	_	_	4	comp:obl	_	_
 6	temps	temps	NOUN	_	Gender=Masc	5	comp:obj	_	_
 7	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1|PronType=Prs	8	det	_	_
@@ -1491,7 +1491,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	dites	dire	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	-nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	3	comp:obl	_	_
-5	comment	comment	ADV	_	_	6	comp:pred	_	_
+5	comment	comment	ADV	_	PronType=Int	6	comp:pred	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
 7	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=2|PronType=Prs	8	det	_	_
 8	linge	linge	NOUN	_	Gender=Masc|Number=Sing	6	subj	_	_
@@ -2797,7 +2797,7 @@
 7	auraient	avoir	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
 9	mais	mais	CCONJ	_	_	12	cc	_	_
-10	pourquoi	pourquoi	ADV	_	_	12	mod	_	_
+10	pourquoi	pourquoi	ADV	_	PronType=Int	12	mod	_	_
 11	lui	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	comp:obl	_	_
 12	donnerait	donner	VERB	CCOMP	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	Reported=Yes|SpaceAfter=No
 13	-on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	subj	_	_
@@ -3267,7 +3267,7 @@
 1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj@pass	_	_
 2	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	attifée	attifer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@pass	_	_
-4	comment	comment	ADV	_	_	2	mod	_	_
+4	comment	comment	ADV	_	PronType=Int	2	mod	_	_
 5	?	?	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = racontez-nous //
@@ -4339,7 +4339,7 @@
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	euh	euh	INTJ	_	_	7	discourse	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
-11	comment	comment	ADV	_	_	12	mod	_	_
+11	comment	comment	ADV	_	PronType=Int	12	mod	_	_
 12	dire	dire	VERB	_	VerbForm=Inf	9	discourse	_	SpaceAfter=No|Subject=NoRaising
 13	…	…	PUNCT	_	_	4	punct	_	_
 
@@ -7151,7 +7151,7 @@
 3	aller	aller	VERB	ETRE	VerbForm=Inf	2	comp:obj	_	Overlap=Rhap_D2008-64|Subject=SubjRaising
 4	jusqu'	jusque	ADP	_	_	3	comp:obl	_	Overlap=Rhap_D2008-64|SpaceAfter=No
 5	à	à	ADP	_	_	4	comp:obj	_	Overlap=Rhap_D2008-64
-6	combien	combien	ADV	_	_	5	comp:obj	_	_
+6	combien	combien	ADV	_	PronType=Int	5	comp:obj	_	_
 7	concernant	concerner	VERB	_	Tense=Pres|VerbForm=Part	2	mod	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	13	det	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
@@ -8118,7 +8118,7 @@
 6	pas	pas	ADV	_	Polarity=Neg	5	mod	_	_
 7	très	très	ADV	_	_	8	mod	_	_
 8	bien	bien	ADV	_	_	5	mod	_	_
-9	comment	comment	ADV	_	_	5	comp:obj	_	SpaceAfter=No
+9	comment	comment	ADV	_	PronType=Int	5	comp:obj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = ^car c'est pas très surveillé dans la zone intertropicale //
@@ -8384,7 +8384,7 @@
 48	hiver	hiver	NOUN	_	Gender=Masc|Number=Sing	43	comp:obj	_	_
 49	qui	qui	PRON	_	PronType=Rel	52	subj	_	SpaceAfter=No
 50	,	,	PUNCT	_	_	51	punct	_	_
-51	qui	qui	PRON	conj:reform	_	49	conj:dicto	_	_
+51	qui	qui	PRON	conj:reform	PronType=Rel	49	conj:dicto	_	_
 52	arrive	arriver	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	mod@relcl	_	SpaceAfter=No
 53	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -8437,7 +8437,7 @@
 16	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	18	subj	_	_
 17	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	comp:obj	_	_
 18	sait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-19	quand	quand	ADV	_	_	18	mod	_	_
+19	quand	quand	ADV	_	PronType=Int	18	mod	_	_
 20	?	?	PUNCT	_	_	18	punct	_	_
 
 # macrosyntax = on le sait le premier octobre //=
@@ -11356,7 +11356,7 @@
 2	ne	ne	ADV	_	Polarity=Neg	3	mod	_	_
 3	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
-5	pourquoi	pourquoi	ADV	_	_	7	mod	_	_
+5	pourquoi	pourquoi	ADV	_	PronType=Int	7	mod	_	_
 6	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	SpaceAfter=No
 7	aurais	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
 8	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
@@ -11481,7 +11481,7 @@
 2	aime	aimer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	bien	bien	ADV	_	_	2	mod	_	_
 4	comprendre	comprendre	VERB	_	VerbForm=Inf	2	comp:obj	_	Subject=SubjRaising
-5	comment	comment	ADV	_	_	7	mod	_	_
+5	comment	comment	ADV	_	PronType=Int	7	mod	_	_
 6	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	subj	_	_
 7	marche	marcher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
@@ -11533,7 +11533,7 @@
 11	petit	petit	ADJ	_	Gender=Masc|Number=Sing	12	mod	_	InIdiom=Yes
 12	peu	peu	NOUN	_	_	13	mod	_	ExtPos=ADV|Idiom=Yes
 13	mieux	mieux	ADV	_	_	9	mod	_	_
-14	comment	comment	ADV	_	_	16	mod	_	_
+14	comment	comment	ADV	_	PronType=Int	16	mod	_	_
 15	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	subj	_	_
 16	marchait	marcher	VERB	CCOMP	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	comp:obj	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	5	punct	_	_
@@ -11989,7 +11989,7 @@
 # text = euh, pourquoi j'ai fait du journalisme, parce que, euh, ça se passait tout de suite après la guerre.
 1	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	pourquoi	pourquoi	ADV	_	_	5	mod	_	_
+3	pourquoi	pourquoi	ADV	_	PronType=Int	5	mod	_	_
 4	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	SpaceAfter=No
 5	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@tense	_	_
@@ -12092,7 +12092,7 @@
 # sent_id = Rhap_D2001-60bis
 # speaker = L2
 # text = pourquoi ?
-1	pourquoi	pourquoi	ADV	_	_	0	root	_	_
+1	pourquoi	pourquoi	ADV	_	PronType=Int	0	root	_	_
 2	?	?	PUNCT	_	_	1	punct	_	_
 
 # macrosyntax = il se trouve qu'il y a eu la guerre //
@@ -16315,7 +16315,7 @@
 11	pouvoir	pouvoir	VERB	_	VerbForm=Inf	10	comp:obj	_	Subject=SubjRaising
 12	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	13	comp:obl	_	_
 13	exposer	exposer	VERB	_	VerbForm=Inf	11	comp:obj	_	Subject=SubjRaising
-14	quelles	quel	ADJ	_	Gender=Fem|Number=Plur	15	comp:pred	_	_
+14	quelles	quel	ADJ	_	Gender=Fem|Number=Plur|PronType=Int	15	comp:pred	_	_
 15	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	comp:obj	_	_
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 17	difficultés	difficulté	NOUN	_	Gender=Fem|Number=Plur	15	subj	_	_
@@ -16370,7 +16370,7 @@
 7	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj	_	_
 8	pas	pas	ADV	_	Polarity=Neg	6	mod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	19	punct	_	_
-10	comment	comment	ADV	_	_	19	mod	_	_
+10	comment	comment	ADV	_	PronType=Exc	19	mod	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	monde	monde	NOUN	_	Gender=Masc|Number=Sing	19	subj@pass	_	_
 13-14	des	_	_	_	_	_	_	_	_
@@ -16405,7 +16405,7 @@
 4	très	très	ADV	_	_	5	mod	_	_
 5	bien	bien	ADV	_	_	3	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	quelle	quel	ADJ	_	Gender=Fem|Number=Sing	3	mod	_	_
+7	quelle	quel	ADJ	_	Gender=Fem|Number=Sing|PronType=Rel	3	mod	_	_
 8	que	que	SCONJ	_	_	9	comp:pred	_	_
 9	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	_
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
