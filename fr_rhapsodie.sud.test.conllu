@@ -233,9 +233,9 @@
 21	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	22	det	_	_
 22	linge	linge	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
 23	sans	sans	ADP	_	_	16	mod	_	_
-24	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	23	comp:obj	_	_
+24	rien	rien	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	23	comp:obj	_	_
 25	d'	de	ADP	_	_	24	comp:obl	_	SpaceAfter=No
-26	autre	autre	PRON	_	Number=Sing|PronType=Ind	25	comp:obj	_	_
+26	autre	autre	PRON	_	Number=Sing|Person=3|PronType=Ind	25	comp:obj	_	_
 27	avant	avant	NOUN	_	Gender=Masc|Number=Sing	16	mod	_	_
 28	de	de	ADP	_	_	27	udep	_	_
 29	mettre	mettre	VERB	_	VerbForm=Inf	28	comp:obj	_	Subject=NoRaising
@@ -837,7 +837,7 @@
 2	y	y	PRON	_	Person=3|PronType=Prs	3	comp@expl	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	plus	plus	ADV	_	_	5	mod	_	_
-5	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	3	comp:obj	_	_
+5	rien	rien	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	3	comp:obj	_	_
 6	là	là	ADV	_	_	3	mod	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	hein	hein	INTJ	_	_	6	discourse	_	SpaceAfter=No
@@ -917,7 +917,7 @@
 4	y	y	PRON	_	Person=3|PronType=Prs	5	comp@expl	_	_
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	plus	plus	ADV	_	_	7	mod	_	_
-7	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	5	comp:obj	_	SpaceAfter=No
+7	rien	rien	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	5	comp:obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	18	punct	_	_
 9	et	et	CCONJ	_	_	18	cc	_	_
 10	également	également	ADV	_	_	18	mod	_	SpaceAfter=No
@@ -1013,7 +1013,7 @@
 # text = alors, qu'est-ce qu'on peut dire en conclusion ?
 1	alors	alors	ADV	_	_	3	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	qu'	que	PRON	_	Person=3|PronType=Int	4	comp:pred	_	SpaceAfter=No
+3	qu'	que	PRON	_	PronType=Int	4	comp:pred	_	SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj@expl	_	_
 6	qu'	que	PRON	_	PronType=Rel	9	comp:obj	_	SpaceAfter=No
@@ -1035,7 +1035,7 @@
 5	sans	sans	ADP	_	_	17	mod	_	_
 6	savon	savon	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	_
-8	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	10	mod	_	ExtPos=ADV|Idiom=Yes
+8	rien	rien	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	10	mod	_	ExtPos=ADV|Idiom=Yes
 9	qu'	que	SCONJ	_	_	8	unk	_	InIdiom=Yes|SpaceAfter=No
 10	avec	avec	ADP	_	_	5	conj:dicto	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
@@ -1127,7 +1127,7 @@
 # sent_id = Rhap_D2011-58
 # speaker = L2
 # text = qu'est-ce que c'est, Pierre ?
-1	qu'	que	PRON	_	Person=3|PronType=Int	2	comp:pred	_	Overlap=Rhap_D2011-59|SpaceAfter=No
+1	qu'	que	PRON	_	PronType=Int	2	comp:pred	_	Overlap=Rhap_D2011-59|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Overlap=Rhap_D2011-59|SpaceAfter=No
 3	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	Overlap=Rhap_D2011-59
 4	que	que	PRON	_	PronType=Rel	6	comp:pred	_	Overlap=Rhap_D2011-59
@@ -1358,13 +1358,13 @@
 # text = ne contenant aucun détergent, elle ne laisse aucun résidu de substance allergène sur les vêtements.
 1	ne	ne	ADV	_	Polarity=Neg	2	mod	_	_
 2	contenant	contenir	VERB	_	Tense=Pres|VerbForm=Part	8	mod	_	_
-3	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	4	det	_	_
+3	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	4	det	_	_
 4	détergent	détergent	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	subj	_	_
 7	ne	ne	ADV	_	Polarity=Neg	8	mod	_	_
 8	laisse	laisser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	10	det	_	_
+9	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	10	det	_	_
 10	résidu	résidu	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 11	de	de	ADP	_	_	10	udep	_	_
 12	substance	substance	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
@@ -1501,7 +1501,7 @@
 # sent_id = Rhap_D2011-76
 # speaker = L1
 # text = qu'est-ce que vous en pensez de la boule magique ?
-1	qu'	que	PRON	_	Person=3|PronType=Int	2	comp:pred	_	SpaceAfter=No
+1	qu'	que	PRON	_	PronType=Int	2	comp:pred	_	SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 3	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	_
 4	que	que	PRON	_	PronType=Rel	7	comp:obj	_	_
@@ -1800,7 +1800,7 @@
 # sent_id = Rhap_D2011-92
 # speaker = L1
 # text = aucun problème ?
-1	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	2	det	_	_
+1	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	2	det	_	_
 2	problème	problème	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	?	?	PUNCT	_	_	2	punct	_	_
 
@@ -2944,7 +2944,7 @@
 4	y	y	PRON	_	Person=3|PronType=Prs	6	comp@expl	_	_
 5	en	en	ADV	_	_	7	mod	_	_
 6	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-7	aucun	aucun	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	6	comp:obj	_	_
+7	aucun	aucun	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	6	comp:obj	_	_
 8	de	de	ADP	_	_	6	dislocated	_	_
 9	ceux	celui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	8	comp:obj	_	Overlap=Rhap_D2010-52bis
 10	d'	de	ADP	_	_	9	comp:obl	_	Overlap=Rhap_D2010-52bis|SpaceAfter=No
@@ -3696,7 +3696,7 @@
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
 2	n'	ne	ADV	_	Polarity=Neg	3	mod	_	SpaceAfter=No
 3	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-4	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	5	comp:obj	_	_
+4	rien	rien	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	5	comp:obj	_	_
 5	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 6	qu'	que	ADV	_	_	8	mod	_	SpaceAfter=No
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -3865,7 +3865,7 @@
 10	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	mod	_	_
 11	devant	devant	ADP	_	_	7	mod	_	_
 12	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
-13	autre	autre	PRON	_	Number=Sing|PronType=Ind	11	comp:obj	_	SpaceAfter=No
+13	autre	autre	PRON	_	Number=Sing|Person=3|PronType=Ind	11	comp:obj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	4	punct	_	_
 15	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	16	subj	_	_
 16	aurait	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
@@ -6445,7 +6445,7 @@
 # speaker = L2
 # text = et aucun des pays n'a su pour l'instant arrêter la vague pandémique dans son pays.
 1	et	et	CCONJ	_	_	7	cc	_	_
-2	aucun	aucun	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	7	subj	_	_
+2	aucun	aucun	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	7	subj	_	_
 3-4	des	_	_	_	_	_	_	_	_
 3	de	de	ADP	_	_	2	comp:obl	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
@@ -7919,7 +7919,7 @@
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
 7	été	été	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	4	punct	_	_
-9	qu'	que	PRON	_	Person=3|PronType=Int	10	comp:pred	_	SpaceAfter=No
+9	qu'	que	PRON	_	PronType=Int	10	comp:pred	_	SpaceAfter=No
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 11	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	subj@expl	_	_
 12	qu'	que	PRON	_	PronType=Rel	14	comp:obj	_	SpaceAfter=No
@@ -8497,7 +8497,7 @@
 # speaker = L1
 # text = à quel moment, euh, XXX, pas à la journée près.
 1	à	à	ADP	_	_	0	root	_	_
-2	quel	quel	DET	_	Gender=Masc|Number=Sing|Person=3|PronType=Int	3	det	_	_
+2	quel	quel	DET	_	Gender=Masc|Number=Sing|PronType=Int	3	det	_	_
 3	moment	moment	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	euh	euh	INTJ	_	_	3	discourse	_	SpaceAfter=No
@@ -8555,7 +8555,7 @@
 2	qu~	qu~	X	_	_	1	comp:obj	_	ExtPos=ADJ|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	à	à	ADP	_	_	1	conj:dicto	_	_
-5	quel	quel	DET	_	Gender=Masc|Number=Sing|Person=3|PronType=Int	6	det	_	_
+5	quel	quel	DET	_	Gender=Masc|Number=Sing|PronType=Int	6	det	_	_
 6	moment	moment	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
 7	dans	dans	ADP	_	_	6	udep	_	_
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
@@ -8673,7 +8673,7 @@
 9	en	en	ADP	_	_	2	mod	_	_
 10	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	11	comp:obl	_	_
 11	disant	dire	VERB	_	Tense=Pres|VerbForm=Part	9	comp:obj	_	_
-12	qu'	que	PRON	_	Person=3|PronType=Int	13	comp:pred	_	SpaceAfter=No
+12	qu'	que	PRON	_	PronType=Int	13	comp:pred	_	SpaceAfter=No
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	comp:obj	_	Reported=Yes|SpaceAfter=No
 14	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	subj@expl	_	_
 15	qu'	que	PRON	_	PronType=Rel	17	comp:obj	_	SpaceAfter=No
@@ -9165,7 +9165,7 @@
 1	Jésus	Jésus	PROPN	_	_	3	subj	_	_
 2	ne	ne	ADV	_	Polarity=Neg	3	mod	_	_
 3	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	3	comp:obj	_	_
+4	rien	rien	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	3	comp:obj	_	_
 5	avant	avant	ADP	_	_	3	mod	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	fin	fin	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
@@ -9917,7 +9917,7 @@
 26	n'	ne	ADV	_	Polarity=Neg	28	mod	_	SpaceAfter=No
 27	y	y	PRON	_	Person=3|PronType=Prs	30	comp:obl	_	_
 28	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Reported=Yes
-29	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	30	comp:obj	_	_
+29	rien	rien	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	30	comp:obj	_	_
 30	gagné	gagner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	comp:aux@tense	_	SpaceAfter=No
 31	,	,	PUNCT	_	_	35	punct	_	_
 32	sinon	sinon	CCONJ	_	_	35	cc	_	_
@@ -10191,7 +10191,7 @@
 1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	_
 2	n'	ne	ADV	_	Polarity=Neg	3	mod	_	SpaceAfter=No
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	3	comp:obj	_	_
+4	rien	rien	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	3	comp:obj	_	_
 5	à	à	ADP	_	_	4	comp:obl	_	_
 6	voir	voir	VERB	_	VerbForm=Inf	5	comp:obj	_	Subject=SubjRaising
 7	avec	avec	ADP	_	_	6	mod	_	SpaceAfter=No
@@ -12699,7 +12699,7 @@
 6	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	_
 7	ne	ne	ADV	_	Polarity=Neg	8	mod	_	_
 8	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	rien	rien	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	10	comp:obj	_	_
+9	rien	rien	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	10	comp:obj	_	_
 10	faire	faire	VERB	_	VerbForm=Inf	8	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
 11	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -12728,7 +12728,7 @@
 # text = donc, qu'est-ce que je peux apprendre ?
 1	donc	donc	ADV	_	_	4	mod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	qu'	que	PRON	_	Person=3|PronType=Int	4	comp:pred	_	SpaceAfter=No
+3	qu'	que	PRON	_	PronType=Int	4	comp:pred	_	SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj@expl	_	_
 6	que	que	SCONJ	_	_	9	comp:obj	_	_
@@ -13087,7 +13087,7 @@
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 5	mais	mais	CCONJ	_	_	7	cc	_	_
-6	qu'	que	PRON	_	Person=3|PronType=Int	7	comp:pred	_	SpaceAfter=No
+6	qu'	que	PRON	_	PronType=Int	7	comp:pred	_	SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	Reported=Yes|SpaceAfter=No
 8	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	subj@expl	_	_
 9	que	que	PRON	_	PronType=Rel	11	comp:obj	_	_
@@ -13127,7 +13127,7 @@
 2	m'	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	4	comp:obl	_	SpaceAfter=No
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	dit	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
-5	qu'	que	PRON	_	Person=3|PronType=Int	6	comp:pred	_	SpaceAfter=No
+5	qu'	que	PRON	_	PronType=Int	6	comp:pred	_	SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	Reported=Yes|SpaceAfter=No
 7	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj@expl	_	_
 8	que	que	PRON	_	PronType=Rel	10	comp:obj	_	_
@@ -13313,7 +13313,7 @@
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	euh	euh	INTJ	_	_	4	discourse	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	2	punct	_	_
-8	personne	personne	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	10	subj	_	_
+8	personne	personne	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	10	subj	_	_
 9	ne	ne	ADV	_	Polarity=Neg	10	mod	_	_
 10	savait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 11	que	que	SCONJ	_	_	10	comp:obj	_	_
@@ -13616,7 +13616,7 @@
 7	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	9	subj	_	_
 8	n'	ne	ADV	_	Polarity=Neg	9	mod	_	SpaceAfter=No
 9	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	comp:obj	_	_
-10	aucune	aucun	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Neg	9	comp:obj	_	_
+10	aucune	aucun	PRON	_	Gender=Fem|Number=Sing|PronType=Neg	9	comp:obj	_	_
 11-12	des	_	_	_	_	_	_	_	_
 11	de	de	ADP	_	_	10	comp:obl	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
@@ -13801,7 +13801,7 @@
 13	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	16	mod	_	_
 14	pour	pour	ADP	_	_	7	mod	_	_
 15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
-16	autre	autre	PRON	_	Number=Sing|PronType=Ind	14	comp:obj	_	_
+16	autre	autre	PRON	_	Number=Sing|Person=3|PronType=Ind	14	comp:obj	_	_
 17	à	à	ADP	_	_	7	mod	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	pendant	pendant	ADP	_	_	17	conj:dicto	_	_
@@ -14691,7 +14691,7 @@
 10	savez	savoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	parataxis:parenth	_	_
 11	mieux	mieux	ADV	_	_	10	mod	_	_
 12	que	que	SCONJ	_	_	11	mod	_	_
-13	personne	personne	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	12	comp:obj	_	SpaceAfter=No
+13	personne	personne	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	12	comp:obj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	1	punct	_	_
 15	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	subj@expl	_	SpaceAfter=No
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
