@@ -1861,7 +1861,7 @@
 5	y	y	PRON	_	Person=3|PronType=Prs	6	comp:obl	_	_
 6	installer	installer	VERB	_	VerbForm=Inf	3	comp:obj	_	Subject=SubjRaising
 7	fin	fin	NOUN	_	Gender=Fem|Number=Sing	6	mod	_	_
-8	cinquante	cinquante	NUM	_	Number=Plur	7	det	_	SpaceAfter=No
+8	cinquante	cinquante	NUM	_	Number=Plur	7	mod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = $L1 alors < en fait < vous êtes "euh" liée à la France // ^puisque vous êtes française //=
@@ -3938,8 +3938,8 @@
 2	occupe	occuper	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	place	place	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
-5	à	à	ADP	_	_	4	udep	_	_
-6	part	part	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	SpaceAfter=No
+5	à	à	ADP	_	ExtPos=ADJ	4	mod	_	Idiom=Yes
+6	part	part	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = ^et ce matin <+ { le président | ^et le gouvernement } peuvent dire [ merci > Marseille // ] //
@@ -5952,7 +5952,7 @@
 # sent_id = Rhap_D2003-102bis
 # speaker = L3
 # text = à nouveau.
-1	à	à	ADP	_	ExtPos=ADP	0	root	_	AttachTo=5@Rhap_D2003-102bis|Idiom=Yes|Overlap=Rhap_D2003-103|Rel=mod
+1	à	à	ADP	_	ExtPos=ADV	0	root	_	AttachTo=5@Rhap_D2003-102bis|Idiom=Yes|Overlap=Rhap_D2003-103|Rel=mod
 2	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	1	comp:obj	_	InIdiom=Yes|Overlap=Rhap_D2003-103|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D2003-103
 
@@ -6120,8 +6120,8 @@
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	ouh	ouh	INTJ	_	_	10	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	16	punct	_	_
-14	à	à	ADP	_	_	16	mod	_	_
-15	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
+14	à	à	ADP	_	ExtPos=ADV	16	mod	_	Idiom=Yes
+15	nouveau	nouveau	ADJ	_	Gender=Masc|Number=Sing	14	comp:obj	_	InIdiom=Yes
 16	dans	dans	ADP	_	_	8	conj:dicto	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
 18	pieds	pied	NOUN	_	Gender=Masc|Number=Plur	16	comp:obj	_	_
@@ -21459,9 +21459,9 @@
 # text = pourquoi, à ce point, avoir voulu réhabiliter le lecteur ?
 1	pourquoi	pourquoi	ADV	_	PronType=Int	7	mod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	à	à	ADP	_	_	7	mod	_	_
-4	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
-5	point	point	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	SpaceAfter=No
+3	à	à	ADP	_	ExtPos=ADV	7	mod	_	Idiom=Yes
+4	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	InIdiom=Yes
+5	point	point	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	_
 7	avoir	avoir	AUX	_	VerbForm=Inf	0	root	_	Subject=NoRaising
 8	voulu	vouloir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	_
@@ -23273,7 +23273,7 @@
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
 19	lycées	lycée	NOUN	_	Gender=Masc|Number=Plur	17	comp:obj	_	_
 20	et	et	CCONJ	_	ExtPos=CCONJ	21	cc	_	Overlap=Rhap_D0004-33
-21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	Overlap=Rhap_D0004-33|SpaceAfter=No
+21	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	conj:coord@scrap	_	Overlap=Rhap_D0004-33|SpaceAfter=No
 22	…	…	PUNCT	_	_	10	punct	_	Overlap=Rhap_D0004-33
 23	?	?	PUNCT	_	_	10	punct	_	Overlap=Rhap_D0004-33
 
@@ -24733,7 +24733,7 @@
 13	avant	avant	ADP	_	_	11	mod	_	_
 14	vingt	vingt	NUM	_	Number=Plur	15	mod	_	_
 15	heures	heure	NOUN	_	Gender=Fem|Number=Plur	13	comp:obj	_	_
-16	quinze	quinze	NUM	_	Number=Plur	15	det	_	SpaceAfter=No
+16	quinze	quinze	NUM	_	Number=Plur	15	mod	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	hein	hein	INTJ	_	_	16	discourse	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	11	punct	_	_
