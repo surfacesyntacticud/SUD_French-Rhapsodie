@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # macrosyntax = "euh" il y a une petite bifurcation "euh" juste avant la place du Tribunal //
 # sent_id = Rhap_M0001-9
 # text = euh, il y a une petite bifurcation, euh, juste avant la place du Tribunal.
@@ -4658,7 +4657,7 @@
 19	semble	sembler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	discourse	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	dans	dans	ADP	_	_	2	mod	_	_
-22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	comp:obj	_	SpaceAfter=No
+22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	comp:obj@scrap	_	SpaceAfter=No
 23	…	…	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = ça pourrait être $- { Lohengrin | ( $L1 "oui" // ) -$ ^et Parsifal } > effectivement //
@@ -7300,7 +7299,7 @@
 8	y	y	PRON	_	Person=3|PronType=Prs	9	comp@expl	_	_
 9	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 10	pas	pas	ADV	_	Polarity=Neg	9	mod	_	_
-11	de	un	DET	_	Definite=Ind|PronType=Art	9	comp:obj	_	SpaceAfter=No
+11	de	un	DET	_	Definite=Ind|PronType=Art	9	comp:obj@scrap	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	de	un	DET	_	Definite=Ind|PronType=Art	11	conj:dicto	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	_
@@ -7542,7 +7541,7 @@
 3	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	conj:dicto	_	_
 4	y	y	PRON	_	Person=3|PronType=Prs	5	comp@expl	_	_
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	comp:obj	_	SpaceAfter=No
+6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	comp:obj@scrap	_	SpaceAfter=No
 7	…	…	PUNCT	_	_	5	punct	_	_
 
 # macrosyntax = "enfin" dans cette projection "euh" < est-ce qu'il y a une limite de date "si je puis dire" //
@@ -7676,7 +7675,7 @@
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	subj	_	Overlap=Rhap_D2008-88|SpaceAfter=No
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj:dicto	_	Overlap=Rhap_D2008-88
-12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	comp:pred	_	Overlap=Rhap_D2008-88|SpaceAfter=No
+12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	comp:pred@scrap	_	Overlap=Rhap_D2008-88|SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	Overlap=Rhap_D2008-88
 14	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	subj	_	Overlap=Rhap_D2008-88|SpaceAfter=No
 15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj:dicto	_	Overlap=Rhap_D2008-88
@@ -8518,7 +8517,7 @@
 1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@caus	_	_
 2	fait	faire	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	rire	rire	VERB	_	VerbForm=Inf	2	comp:aux@caus	_	Subject=ObjRaising
-4	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	comp:obj	_	SpaceAfter=No
+4	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	comp:obj@scrap	_	SpaceAfter=No
 5	…	…	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = bon //
@@ -14894,7 +14893,7 @@
 19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	18	comp:obj@scrap	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	de	de	ADP	_	_	18	conj:dicto	_	_
-22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	unk	_	SpaceAfter=No
+22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
 23	église	église	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	_
 25	vis-à-vis	vis-à-vis	ADV	_	_	17	conj:coord	_	_
@@ -16415,4 +16414,36 @@
 14	nous	nous	PRON	_	Number=Plur|Person=1|PronType=Prs	15	subj	_	_
 15	appartenons	appartenir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	mod@relcl	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	3	punct	_	_
+
+# macrosyntax = { il y a | il y a } toujours "euh" des problèmes "bon" { plus | ^ou moins } liés { à l' | à l' } utilisateur //
+# sent_id = Rhap_D0005-70
+# speaker = L1
+# text = il y a, il y a toujours, euh, des problèmes, bon, plus ou moins liés à l', à l'utilisateur.
+1	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	comp@expl	_	_
+3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	_
+5	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj@expl	_	_
+6	y	y	PRON	_	Person=3|PronType=Prs	7	comp@expl	_	_
+7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj:dicto	_	_
+8	toujours	toujours	ADV	_	_	7	mod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	euh	euh	INTJ	_	_	8	discourse	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	13	punct	_	_
+12	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
+13	problèmes	problème	NOUN	_	Gender=Masc|Number=Plur	7	comp:obj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	bon	bon	INTJ	_	_	13	discourse	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	20	punct	_	_
+17	plus	plus	ADV	_	_	20	mod	_	_
+18	ou	ou	CCONJ	_	_	19	cc	_	_
+19	moins	moins	ADV	_	_	17	conj:coord	_	_
+20	liés	lier	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	mod	_	_
+21	à	à	ADP	_	_	20	comp:obl	_	_
+22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	comp:obj@scrap	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	_
+24	à	à	ADP	_	_	21	conj:dicto	_	_
+25	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	utilisateur	utilisateur	NOUN	_	Gender=Masc|Number=Sing	24	comp:obj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	3	punct	_	_
 
