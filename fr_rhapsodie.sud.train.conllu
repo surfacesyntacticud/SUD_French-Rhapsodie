@@ -4419,10 +4419,10 @@
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	coup	coup	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 5	franc	franc	ADJ	_	Gender=Masc|Number=Sing	4	mod	_	_
-6	qui	qui	PRON	_	PronType=Rel	8	subj@pass	_	_
-7	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	comp:aux@pass	_	_
-8	être	être	AUX	_	VerbForm=Inf	4	mod@relcl	_	Subject=SubjRaising
-9	joué	jouer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:obj	_	_
+6	qui	qui	PRON	_	PronType=Rel	7	subj@pass	_	_
+7	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	_
+8	être	être	AUX	_	VerbForm=Inf	7	conj:obj	_	Subject=SubjRaising
+9	joué	jouer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux@pass	_	_
 10	non	non	ADV	_	Polarity=Neg	12	mod	_	_
 11	pas	pas	ADV	_	Polarity=Neg	16	mod	_	_
 12	par	par	ADP	_	_	9	comp:obl	_	SpaceAfter=No
@@ -5485,7 +5485,7 @@
 1	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
 2	s'	soi	PRON	_	Person=3|PronType=Prs	4	comp	_	SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@caus	_	_
+4	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@pass	_	_
 5	mal	mal	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj@lvc	_	_
 6	d'	de	ADP	_	_	3	mod	_	SpaceAfter=No
 7	ailleurs	ailleurs	ADV	_	_	6	comp:obj	_	SpaceAfter=No
@@ -8983,7 +8983,7 @@
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root@scrap	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	subj	_	SpaceAfter=No
-7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj:dicto	_	SpaceAfter=No
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj:dicto@scrap	_	SpaceAfter=No
 8	…	…	PUNCT	_	_	4	punct	_	_
 
 # macrosyntax = à un moment donné <+ ça devenait ESPERLUETTE //
@@ -9841,7 +9841,7 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root@scrap	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	SpaceAfter=No
-5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj:dicto	_	SpaceAfter=No
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj:dicto@scrap	_	SpaceAfter=No
 6	…	…	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = la plupart du temps <+ c'est l'utilisateur qui a fait une fausse manœuvre //
@@ -10701,7 +10701,7 @@
 3	pas	pas	ADV	_	Polarity=Neg	2	mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj	_	SpaceAfter=No
-6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj:dicto	_	_
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj:dicto@scrap	_	_
 7	pas	pas	ADV	_	Polarity=Neg	6	mod	_	SpaceAfter=No
 8	…	…	PUNCT	_	_	2	punct	_	_
 
@@ -13461,7 +13461,7 @@
 3	,	,	PUNCT	_	_	5	punct	_	_
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	SpaceAfter=No
 5	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj:dicto	_	_
-6	vraiment	vraiment	ADV	_	_	5	mod	_	SpaceAfter=No
+6	vraiment	vraiment	ADV	_	_	5	comp:pred@scrap	_	SpaceAfter=No
 7	…	…	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = $- l'école ( $L2 c'était ESPERLUETTE // ) -$ est conçue $- maintenant comme un ( $L2 voilà // ) -$ pensum //
@@ -13483,7 +13483,7 @@
 # speaker = L2
 # text = c'était…
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	Overlap=Rhap_D0001-81|SpaceAfter=No
-2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AttachTo=5@Rhap_D0001-80|Overlap=Rhap_D0001-81|Rel=conj:dicto|SpaceAfter=No
+2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root@scrap	_	AttachTo=5@Rhap_D0001-80|Overlap=Rhap_D0001-81|Rel=conj:dicto|SpaceAfter=No
 3	…	…	PUNCT	_	_	2	punct	_	Overlap=Rhap_D0001-81
 
 # macrosyntax = $- l'école ( $L2 c'était ESPERLUETTE // ) -$ est conçue $- maintenant comme un ( $L2 voilà // ) -$ pensum //
@@ -13700,7 +13700,7 @@
 # text = on était trente-neuf, quarante, nous, hein, euh, trente-neuf, quarante.
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	Overlap=Rhap_D0001-93
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Overlap=Rhap_D0001-93
-3	trente-neuf	trente-neuf	NUM	_	Number=Plur	2	mod	_	Overlap=Rhap_D0001-93|SpaceAfter=No
+3	trente-neuf	trente-neuf	NUM	_	Number=Plur	2	comp:pred	_	Overlap=Rhap_D0001-93|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	Overlap=Rhap_D0001-93
 5	quarante	quarante	NUM	_	Number=Plur	3	conj:dicto	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
@@ -13961,7 +13961,7 @@
 1	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 2	venait	venir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	d'	de	ADP	_	_	2	comp:obl	_	SpaceAfter=No
-4	être	être	AUX	_	VerbForm=Inf	3	comp:obj	_	SpaceAfter=No|Subject=SubjRaising
+4	être	être	AUX	_	VerbForm=Inf	3	comp:obj@scrap	_	SpaceAfter=No|Subject=SubjRaising
 5	,	,	PUNCT	_	_	7	punct	_	_
 6	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj	_	_
 7	venait	venir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	conj:dicto	_	_
@@ -17665,7 +17665,7 @@
 2	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	dislocated	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	SpaceAfter=No
-5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root@scrap	_	SpaceAfter=No
 6	…	…	PUNCT	_	_	5	punct	_	_
 
 # macrosyntax = vous me parlez même pas de livres politiques > là //
@@ -18424,7 +18424,7 @@
 # speaker = L1
 # text = je suis, euh…
 1	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
-2	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root@scrap	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	euh	euh	INTJ	_	_	2	discourse	_	SpaceAfter=No
 5	…	…	PUNCT	_	_	2	punct	_	_
@@ -21286,7 +21286,7 @@
 # speaker = L1
 # text = c'est, euh…
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root@scrap	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	euh	euh	INTJ	_	_	2	discourse	_	SpaceAfter=No
 5	…	…	PUNCT	_	_	2	punct	_	_

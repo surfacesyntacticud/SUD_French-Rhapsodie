@@ -1811,7 +1811,7 @@
 2	si	si	SCONJ	_	_	1	comp:obj	_	_
 3	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
 4	y	y	PRON	_	Person=3|PronType=Prs	5	mod	_	_
-5	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	comp:obj	_	_
+5	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	comp:obj	_	_
 6	pas	pas	ADV	_	Polarity=Neg	5	mod	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -2294,7 +2294,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	Overlap=Rhap_D2010-12quater
 3	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	Overlap=Rhap_D2010-12quater
 4	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Overlap=Rhap_D2010-12quater
-5	être	être	AUX	_	VerbForm=Inf	4	comp:obj	_	Overlap=Rhap_D2010-12quater|SpaceAfter=No|Subject=SubjRaising
+5	être	être	AUX	_	VerbForm=Inf	4	comp:obj@scrap	_	Overlap=Rhap_D2010-12quater|SpaceAfter=No|Subject=SubjRaising
 6	…	…	PUNCT	_	_	4	punct	_	Overlap=Rhap_D2010-12quater
 
 # macrosyntax = $L1 il en faut bien un //
@@ -2958,7 +2958,7 @@
 2	qu'	que	SCONJ	_	_	1	unk	_	InIdiom=Yes|Overlap=Rhap_D2010-53|SpaceAfter=No
 3	ils	eux	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	subj	_	Overlap=Rhap_D2010-53
 4	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	Overlap=Rhap_D2010-53
-5	couronné	couronner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@pass	_	_
+5	couronné	couronner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@tense	_	_
 6	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	InTitle=Yes
 7	jeux	jeu	NOUN	_	ExtPos=PROPN|Gender=Masc|Number=Plur	5	comp:obj	_	Title=Yes
 8	sauvages	sauvage	ADJ	_	Number=Plur	7	mod	_	InTitle=Yes
@@ -2982,7 +2982,7 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Overlap=Rhap_D2010-52|SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	Overlap=Rhap_D2010-52
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj@pass	_	Overlap=Rhap_D2010-52|SpaceAfter=No
-5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj:dicto	_	Overlap=Rhap_D2010-52|SpaceAfter=No
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj:dicto@scrap	_	Overlap=Rhap_D2010-52|SpaceAfter=No
 6	…	…	PUNCT	_	_	2	punct	_	Overlap=Rhap_D2010-52
 
 # macrosyntax = { ^et | ^et } [ le Barrage contre le Pacifique ] < ils l'ont laissé tomber //
@@ -3845,7 +3845,7 @@
 # speaker = L2
 # text = c'était…
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	Overlap=Rhap_D2010-96|SpaceAfter=No
-2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Overlap=Rhap_D2010-96|SpaceAfter=No
+2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root@scrap	_	Overlap=Rhap_D2010-96|SpaceAfter=No
 3	…	…	PUNCT	_	_	2	punct	_	Overlap=Rhap_D2010-96
 
 # macrosyntax = je pense que [ si on s'était assis l'un devant l'autre < on aurait été { à c~ | à cette } distance-là $- { dans cette auto |} ] //+
@@ -4331,7 +4331,7 @@
 1	alors	alors	ADV	_	_	4	mod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	SpaceAfter=No
-4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root@scrap	_	_
 5	à	à	ADP	_	_	4	mod	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	fois	fois	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	SpaceAfter=No
@@ -6200,7 +6200,7 @@
 # speaker = L1
 # text = c'est…
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root@scrap	_	SpaceAfter=No
 3	…	…	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = "voilà" est-ce que vous maintenez vos prévisions "si je puis dire" //
@@ -6285,7 +6285,7 @@
 # speaker = L2
 # text = c'est…
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root@scrap	_	SpaceAfter=No
 3	…	…	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = vous l'avez { m~ | peut-être mieux } "euh" explicité en disant [ c'est un scénario // ] //
@@ -7578,7 +7578,7 @@
 # speaker = L1
 # text = c'est…
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root@scrap	_	SpaceAfter=No
 3	…	…	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = est-ce que vous nous dites [ voilà // si ça tourne mal < c'est "euh" dans l'année à venir // "euh" voilà // ] //
@@ -7599,7 +7599,7 @@
 12	mal	mal	ADV	_	_	11	mod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	9	punct	_	_
 14	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	subj	_	SpaceAfter=No
-15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	Reported=Yes|SpaceAfter=No
+15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj@scrap	_	Reported=Yes|SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
@@ -8409,7 +8409,7 @@
 # speaker = L1
 # text = c'est, euh…
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	SpaceAfter=No
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root@scrap	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	euh	euh	INTJ	_	_	2	discourse	_	SpaceAfter=No
 5	…	…	PUNCT	_	_	2	punct	_	_
@@ -8802,7 +8802,7 @@
 # speaker = L2
 # text = elle s'est ren~, répandue assez rapidement quand même aux États-Unis, au Canada, en, en Grande-Bretagne, au, au Royaume-Uni.
 1	elle	lui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
-2	s'	soi	PRON	_	Person=3|PronType=Prs	6	comp@pass	_	SpaceAfter=No
+2	s'	soi	PRON	_	Person=3|PronType=Prs	3	comp@pass	_	SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	ren~	ren~	X	_	ExtPos=VERB	3	comp:aux@tense	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
@@ -12431,22 +12431,22 @@
 7	n'	ne	ADV	_	Polarity=Neg	8	mod	_	SpaceAfter=No
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	pas	pas	ADV	_	Polarity=Neg	8	mod	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	23	punct	_	_
+10	,	,	PUNCT	_	_	20	punct	_	_
 11	surtout	surtout	ADV	_	_	12	mod	_	_
-12	quand	quand	SCONJ	_	_	23	mod	_	_
+12	quand	quand	SCONJ	_	_	20	mod	_	_
 13	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	14	subj	_	_
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	comp:obj	_	_
 15	très	très	ADV	_	_	16	mod	_	_
 16	jeune	jeune	ADJ	_	Number=Sing	14	comp:pred	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	12	punct	_	_
-18	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem|Shared=No	24	subj	_	_
-19	n'	ne	ADV	_	Polarity=Neg	24	mod	_	SpaceAfter=No
-20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	comp:aux@tense	_	_
+18	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem|Shared=No	20	subj	_	_
+19	n'	ne	ADV	_	Polarity=Neg	20	mod	_	SpaceAfter=No
+20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj:dicto	_	_
 21	vraiment	vraiment	ADV	_	_	22	mod	_	_
-22	pas	pas	NOUN	_	Gender=Masc	24	mod	_	_
-23	d'	de	ADP	_	_	8	conj:dicto	_	SpaceAfter=No
+22	pas	pas	NOUN	_	Gender=Masc	20	mod	_	_
+23	d'	de	ADP	_	_	20	comp:pred	_	SpaceAfter=No
 24	être	être	AUX	_	VerbForm=Inf	23	comp:obj	_	Subject=NoRaising
-25	pauvre	pauvre	ADJ	_	Gender=Fem|Number=Sing	20	comp:pred	_	_
+25	pauvre	pauvre	ADJ	_	Gender=Fem|Number=Sing	24	comp:pred	_	_
 26	ou	ou	CCONJ	_	_	27	cc	_	_
 27	de	de	ADP	_	_	25	conj:coord@scrap	_	SpaceAfter=No
 28	…	…	PUNCT	_	_	8	punct	_	_
@@ -12649,7 +12649,7 @@
 71	,	,	PUNCT	_	_	67	punct	_	_
 72	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	73	subj@expl	_	SpaceAfter=No
 73	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	65	comp:obj	_	Reported=Yes
-74	avoir	avoir	VERB	_	VerbForm=Inf	73	comp:obj@agent	_	Subject=NoRaising
+74	avoir	avoir	VERB	_	VerbForm=Inf	73	comp:pred	_	Subject=NoRaising
 75	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	76	det	_	_
 76	métier	métier	NOUN	_	Gender=Masc|Number=Sing	74	comp:obj	_	SpaceAfter=No
 77	.	.	PUNCT	_	_	3	punct	_	_
@@ -15250,10 +15250,10 @@
 # sent_id = Rhap_D1001-17
 # speaker = L1
 # text = il faut avoir fait ses preuves soi-même d'attachement au pays.
-1	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
-2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:aux@tense	_	_
-3	avoir	avoir	AUX	_	VerbForm=Inf	0	root	_	Subject=NoRaising
-4	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:obj	_	_
+1	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
+2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	avoir	avoir	AUX	_	VerbForm=Inf	2	comp:obj	_	Subject=NoRaising
+4	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@tense	_	_
 5	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	6	det	_	_
 6	preuves	preuve	NOUN	_	Gender=Fem|Number=Plur	4	comp:obj@lvc	_	_
 7	soi-même	soi-même	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	mod	_	_
@@ -15263,7 +15263,7 @@
 10	à	à	ADP	_	_	9	udep	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	pays	pays	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	3	punct	_	_
+13	.	.	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = le Beauceron sait observer longtemps //
 # sent_id = Rhap_D1001-18
