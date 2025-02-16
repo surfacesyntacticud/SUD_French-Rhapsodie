@@ -698,7 +698,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	vraiment	vraiment	ADV	_	_	14	mod	_	_
 4	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
-5	ar~	ar~	X	_	ExtPos=NOUN	14	dislocated	_	SpaceAfter=No
+5	ar~	ar~	X	_	ExtPos=NOUN	14	dislocated:unk	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	avec	avec	ADP	_	_	14	mod	_	_
 8	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
@@ -1793,7 +1793,7 @@
 1	vraiment	vraiment	ADV	_	_	7	mod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	psychiatrie	psychiatrie	NOUN	_	Gender=Fem|Number=Sing	7	dislocated	_	SpaceAfter=No
+4	psychiatrie	psychiatrie	NOUN	_	Gender=Fem|Number=Sing	7	dislocated:unk	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj@expl	_	_
 7	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2543,7 +2543,7 @@
 3	alors	alors	ADV	_	_	11	mod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	changement	changement	NOUN	_	Gender=Masc|Number=Sing	11	dislocated	_	SpaceAfter=No
+6	changement	changement	NOUN	_	Gender=Masc|Number=Sing	11	dislocated:unk	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	euh	euh	INTJ	_	_	6	discourse	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	6	punct	_	_
@@ -3649,7 +3649,7 @@
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	destiné	destiner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	mod	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	celui	celui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	dislocated	_	SpaceAfter=No
+7	celui	celui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	dislocated:subj	_	SpaceAfter=No
 8	-là	là	ADV	_	_	7	mod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	à	à	ADP	_	_	5	comp:obl	_	_
@@ -4126,7 +4126,7 @@
 # text = on jouait trois matchs en retard dans la vingtième journée de ligue un hier.
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
 2	jouait	jouer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-3	trois	trois	NUM	_	Number=Plur	4	det	_	_
+3	trois	trois	NUM	_	ExtPos=DET|Number=Plur	4	det	_	_
 4	matchs	match	NOUN	_	Gender=Masc|Number=Plur	2	comp:obj	_	_
 5	en	en	ADP	_	_	4	udep	_	_
 6	retard	retard	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
@@ -4136,7 +4136,7 @@
 10	journée	journée	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
 11	de	de	ADP	_	_	10	udep	_	_
 12	ligue	ligue	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
-13	un	un	NUM	_	Number=Sing	12	mod@appos	_	_
+13	un	un	NUM	_	ExtPos=PROPN|Number=Sing	12	mod@appos	_	_
 14	hier	hier	ADV	_	_	2	mod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -5555,7 +5555,7 @@
 1	ben	ben	INTJ	_	_	7	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
-4	chaises	chaise	NOUN	_	Gender=Fem|Number=Plur	7	dislocated	_	SpaceAfter=No
+4	chaises	chaise	NOUN	_	Gender=Fem|Number=Plur	7	dislocated:obj	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj@expl	_	_
 7	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6618,7 +6618,7 @@
 # text = et les pieds, crois-tu, crois-tu que c'est… ?
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
-3	pieds	pied	NOUN	_	Gender=Masc|Number=Plur	5	dislocated	_	SpaceAfter=No
+3	pieds	pied	NOUN	_	Gender=Masc|Number=Plur	5	dislocated:unk	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	-tu	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	5	subj	_	SpaceAfter=No
@@ -7237,7 +7237,7 @@
 7	déjà	déjà	ADV	_	_	5	conj:dicto	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
-10	teintes	teinte	NOUN	_	Gender=Fem|Number=Plur	14	dislocated	_	SpaceAfter=No
+10	teintes	teinte	NOUN	_	Gender=Fem|Number=Plur	14	dislocated:unk	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	bon	bon	INTJ	_	_	10	discourse	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	10	punct	_	_
@@ -8843,7 +8843,7 @@
 # speaker = L1
 # text = et avant d'arriver au troisième, vous prenez à droite là où il y a les intersions, les intersections.
 1	et	et	CCONJ	_	_	10	cc	_	_
-2	avant	avant	NOUN	_	Gender=Masc|Number=Sing	10	dislocated	_	_
+2	avant	avant	NOUN	_	Gender=Masc|Number=Sing	10	dislocated:unk	_	_
 3	d'	de	ADP	_	_	2	udep	_	SpaceAfter=No
 4	arriver	arriver	VERB	_	VerbForm=Inf	3	comp:obj	_	Subject=NoRaising
 5-6	au	_	_	_	_	_	_	_	_
@@ -8942,7 +8942,7 @@
 # speaker = L1
 # text = et avant d'arriver au troisième, il y aura une intersection des voies.
 1	et	et	CCONJ	_	_	11	cc	_	_
-2	avant	avant	NOUN	_	Gender=Masc|Number=Sing	11	dislocated	_	_
+2	avant	avant	NOUN	_	Gender=Masc|Number=Sing	11	dislocated:unk	_	_
 3	d'	de	ADP	_	_	2	udep	_	SpaceAfter=No
 4	arriver	arriver	VERB	_	VerbForm=Inf	3	comp:obj	_	Subject=NoRaising
 5-6	au	_	_	_	_	_	_	_	_
@@ -14333,7 +14333,7 @@
 # sent_id = Rhap_D0002-17
 # speaker = L1
 # text = moi, je vois, euh, dans le vingtième j'ai des, il y a des enfants qui, qui visiblement…
-1	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	6	dislocated	_	SpaceAfter=No
+1	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	6	dislocated:unk	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 4	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	discourse	_	SpaceAfter=No
@@ -14512,13 +14512,13 @@
 # speaker = L1
 # text = et moi, je vois, les mamans que je fais travailler dans le vingtième, il faudrait…
 1	et	et	CCONJ	_	_	18	cc	_	_
-2	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	18	dislocated	_	SpaceAfter=No
+2	moi	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	18	dislocated:unk	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	_
 5	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
-8	mamans	maman	NOUN	_	Gender=Fem|Number=Plur	18	dislocated	_	_
+8	mamans	maman	NOUN	_	Gender=Fem|Number=Plur	18	dislocated:unk	_	_
 9	que	que	PRON	_	PronType=Rel	12	comp:obj	_	_
 10	je	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	11	subj@caus	_	_
 11	fais	faire	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	_
@@ -14819,7 +14819,7 @@
 12	arrondissement	arrondissement	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	9	punct	_	_
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
-15	maternelles	maternelle	NOUN	_	Gender=Fem|Number=Plur	21	dislocated	_	SpaceAfter=No
+15	maternelles	maternelle	NOUN	_	Gender=Fem|Number=Plur	21	dislocated:unk	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	euh	euh	INTJ	_	_	15	discourse	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	15	punct	_	_
@@ -16816,7 +16816,7 @@
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	tout	tout	ADJ	_	Gender=Masc|Number=Sing	8	mod	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
-8	long	long	NOUN	_	Gender=Masc|Number=Sing	11	dislocated	_	SpaceAfter=No
+8	long	long	NOUN	_	Gender=Masc|Number=Sing	11	dislocated:unk	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
 10	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	11	subj	_	_
 11	suivez	suivre	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -17149,7 +17149,7 @@
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	euh	euh	INTJ	_	_	1	discourse	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	_
-5	par	par	ADP	_	ExtPos=ADV	12	dislocated	_	Idiom=Yes
+5	par	par	ADP	_	ExtPos=ADV	12	dislocated:unk	_	Idiom=Yes
 6	ailleurs	ailleurs	ADV	_	_	5	comp:obj	_	InIdiom=Yes|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
@@ -18150,7 +18150,7 @@
 1	euh	euh	INTJ	_	_	20	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	place	place	NOUN	_	Gender=Fem|Number=Sing	20	dislocated	_	_
+4	place	place	NOUN	_	Gender=Fem|Number=Sing	20	dislocated:unk	_	_
 5	Victor	Victor	PROPN	_	_	4	mod@appos	_	_
 6	Hugo	Hugo	PROPN	_	_	5	flat@name	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	4	punct	_	_
