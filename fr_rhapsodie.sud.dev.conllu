@@ -2096,9 +2096,9 @@
 # sent_id = Rhap_D0006-81
 # speaker = L1
 # text = n'importe quand.
-1	n'	ne	ADV	_	ExtPos=PRON|Polarity=Neg	0	root	_	Idiom=Yes|SpaceAfter=No
+1	n'	ne	ADV	_	ExtPos=PRON|Polarity=Neg	0	root	_	AttachTo=4@Rhap_D0006-80|Idiom=Yes|Rel=parataxis:conj|SpaceAfter=No
 2	importe	importer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	unk	_	InIdiom=Yes
-3	quand	quand	ADV	_	PronType=Int	2	unk	_	AttachTo=4@Rhap_D0006-80|InIdiom=Yes|Rel=parataxis:conj|SpaceAfter=No
+3	quand	quand	ADV	_	PronType=Int	2	unk	_	InIdiom=Yes|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # macrosyntax = n'importe quelle heure //
@@ -2218,7 +2218,7 @@
 # sent_id = Rhap_D0006-89bis
 # speaker = L2
 # text = oui.
-1	oui	oui	INTJ	_	_	0	root	_	AttachTo=Rhap_D0006-89|Rel=comp:pred|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AttachTo=2@Rhap_D0006-89|Rel=comp:pred|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # macrosyntax = je comprends //
@@ -6531,8 +6531,8 @@
 # sent_id = Rhap_D0009-57bis
 # speaker = L2
 # text = très bas.
-1	très	très	ADV	_	_	2	mod	_	AttachTo=7@Rhap_D0009-57|Overlap=Rhap_D0009-57|Rel=parataxis:conj
-2	bas	bas	ADJ	_	Gender=Masc	0	root	_	Number[ctxt]=Sing|Overlap=Rhap_D0009-57|SpaceAfter=No
+1	très	très	ADV	_	_	2	mod	_	Overlap=Rhap_D0009-57
+2	bas	bas	ADJ	_	Gender=Masc	0	root	_	AttachTo=7@Rhap_D0009-57|Number[ctxt]=Sing|Overlap=Rhap_D0009-57|Rel=parataxis:conj|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	Overlap=Rhap_D0009-57
 
 # macrosyntax = $L1 {| très bas } //
@@ -10357,7 +10357,7 @@
 # sent_id = Rhap_D2007-69bis
 # speaker = L4
 # text = oui.
-1	oui	oui	INTJ	_	_	0	root	_	AttachTo=14@Overlap=Rhap_D2007-69|Overlap=Rhap_D2007-69|Rel=discourse|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AttachTo=14@Rhap_D2007-69|Overlap=Rhap_D2007-69|Rel=discourse|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D2007-69
 
 # macrosyntax = c'est { là | -$ $- $L4 entre XXX } //
@@ -13264,7 +13264,7 @@
 # sent_id = Rhap_D0003-15bis
 # speaker = L1
 # text = mh.
-1	mh	mh	INTJ	_	_	0	root	_	AttachTo=2@Overlap=Rhap_D0003-14|Overlap=Rhap_D0003-15|Rel=discourse|SpaceAfter=No
+1	mh	mh	INTJ	_	_	0	root	_	AttachTo=2@Rhap_D0003-14|Overlap=Rhap_D0003-15|Rel=discourse|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0003-15
 
 # macrosyntax = après } le bombardement anglais // ) { mon | mon } père a dit [ "bon" { il f~ | il faut partir | il faut ESPERLUETTE } // ] //
@@ -13857,7 +13857,7 @@
 # sent_id = Rhap_D0003-47ter
 # speaker = L1
 # text = oui.
-1	oui	oui	INTJ	_	_	0	root	_	AttachTo=19@Rhap_D0003-46|Rel=discourse|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	SKIP_AttachTo=19@Rhap_D0003-46|SKIP_Rel=discourse|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # macrosyntax = donc < "euh" j'irais à pied "euh" en longeant { là | donc "euh" jusqu'au cinéma Nef Chavant } //
@@ -14496,14 +14496,14 @@
 # sent_id = Rhap_D0002-23bis
 # speaker = L2
 # text = mh.
-1	mh	mh	INTJ	_	_	0	root	_	AttachTo=58@Overlap=Rhap_D0002-23|Overlap=Rhap_D0002-23|Rel=discourse|SpaceAfter=No
+1	mh	mh	INTJ	_	_	0	root	_	AttachTo=58@Rhap_D0002-23|Overlap=Rhap_D0002-23|Rel=discourse|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-23
 
 # macrosyntax = ( $L2 mh mh // )
 # sent_id = Rhap_D0002-24
 # speaker = L2
 # text = mh, mh.
-1	mh	mh	INTJ	_	_	0	root	_	AttachTo=74@Rhap_D0002-23|Rel=discourse|SpaceAfter=No
+1	mh	mh	INTJ	_	_	0	root	_	AttachTo=1@Rhap_D0002-23bis|Rel=discourse|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	mh	mh	INTJ	_	_	1	discourse	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	_
@@ -15434,7 +15434,7 @@
 # text = euh, quand on prend des enfants d'immigrés et qu'on les mélange avec, euh, soixante pour cent de gamins qui parlent français, ça s'installe très très vite.
 1	euh	euh	INTJ	_	_	5	discourse	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	quand	quand	SCONJ	_	Shared=No	30	mod	_	AttachTo=6@Rhap_D0002-63bis|Rel=mod
+3	quand	quand	SCONJ	_	Shared=No	30	mod	_	SKIP_AttachTo=6@Rhap_D0002-63bis|SKIP_Rel=mod
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind|Shared=Yes	5	subj	_	_
 5	prend	prendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
 6	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
