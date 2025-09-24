@@ -1,0 +1,133 @@
+strat main {
+	Seq(
+    Onf (empty),
+    Onf (features),
+  )
+}
+
+rule empty { % remove empty nodes
+  pattern { N [wordform=__EMPTY__, textform=_] }
+  commands { del_node N }
+}
+
+package features {
+  rule AlignBegin { pattern { X [AlignBegin] } commands {del_feat X.AlignBegin} }
+  rule AlignEnd { pattern { X [AlignEnd] } commands {del_feat X.AlignEnd} }
+
+  rule AssociatedNucleus { pattern { X [AssociatedNucleus] } commands {del_feat X.AssociatedNucleus} }
+  rule Foot { pattern { X [Foot] } commands {del_feat X.Foot} }
+  rule FootTone { pattern { X [FootTone] } commands {del_feat X.FootTone} }
+  rule Layer { pattern { X [Layer] } commands {del_feat X.Layer} }
+  rule FootType { pattern { X [FootType] } commands {del_feat X.FootType} }
+  rule Period { pattern { X [Period] } commands {del_feat X.Period} }
+  rule PackageTone { pattern { X [PackageTone] } commands {del_feat X.PackageTone} }
+  rule Period_tone { pattern { X [Period_tone] } commands {del_feat X.Period_tone} }
+  rule ProminenceFinal { pattern { X [ProminenceFinal] } commands {del_feat X.ProminenceFinal} }
+  rule RhythmGroup { pattern { X [RhythmGroup] } commands {del_feat X.RhythmGroup} }
+  rule Nucleus { pattern { X [Nucleus] } commands {del_feat X.Nucleus} }
+  rule Prenucleus { pattern { X [Prenucleus] } commands {del_feat X.Prenucleus} }
+  rule Postnucleus { pattern { X [Postnucleus] } commands {del_feat X.Postnucleus} }
+  rule Group { pattern { X [Group] } commands {del_feat X.Group} }
+  rule GroupTone { pattern { X [GroupTone] } commands {del_feat X.GroupTone} }
+  rule Package { pattern { X [Package] } commands {del_feat X.Package} }
+  rule Hesitation { pattern { X [Hesitation] } commands {del_feat X.Hesitation} }
+  rule IU { pattern { X [IU] } commands {del_feat X.IU} }
+  rule Package_type { pattern { X [Package_type] } commands {del_feat X.Package_type} }
+  rule ProminenceInitial { pattern { X [ProminenceInitial] } commands {del_feat X.ProminenceInitial} }
+  rule UtteranceMeanF0 { pattern { X [UtteranceMeanF0] } commands {del_feat X.UtteranceMeanF0} }
+  rule Innucleus { pattern { X [Innucleus] } commands {del_feat X.Innucleus} }
+  rule TypeInherited { pattern { X [TypeInherited] } commands {del_feat X.TypeInherited} }
+  rule NextBreakLength { pattern { X [NextBreakLength] } commands {del_feat X.NextBreakLength} }
+  rule TypePara { pattern { X [TypePara] } commands {del_feat X.TypePara} }
+  rule GovNucleus { pattern { X [GovNucleus] } commands {del_feat X.GovNucleus} }
+  rule GovPostnucleus { pattern { X [GovPostnucleus] } commands {del_feat X.GovPostnucleus} }
+  rule IU_parenthesis { pattern { X [IU_parenthesis] } commands {del_feat X.IU_parenthesis} }
+  rule Intro_IU { pattern { X [Intro_IU] } commands {del_feat X.Intro_IU} }
+  rule IU_embedded { pattern { X [IU_embedded] } commands {del_feat X.IU_embedded} }
+  rule IU_graft { pattern { X [IU_graft] } commands {del_feat X.IU_graft} }
+  rule Truncated { pattern { X [Truncated] } commands {del_feat X.Truncated} }
+  rule NumberlexToken2 { pattern { X [NumberlexToken2] } commands {del_feat X.NumberlexToken2} }
+  rule NumberlexToken3 { pattern { X [NumberlexToken3] } commands {del_feat X.NumberlexToken3} }
+
+  rule AssociatedNucleusToken2 { pattern { X [AssociatedNucleusToken2]} commands {del_feat X.AssociatedNucleusToken2} }
+  rule AssociatedNucleusToken3 { pattern { X [AssociatedNucleusToken3]} commands {del_feat X.AssociatedNucleusToken3} }
+  rule AssociatedNucleusToken4 { pattern { X [AssociatedNucleusToken4]} commands {del_feat X.AssociatedNucleusToken4} }
+  rule FootToken2 { pattern { X [FootToken2]} commands {del_feat X.FootToken2} }
+  rule FootToken3 { pattern { X [FootToken3]} commands {del_feat X.FootToken3} }
+  rule FootToken4 { pattern { X [FootToken4]} commands {del_feat X.FootToken4} }
+  rule FootToneToken2 { pattern { X [FootToneToken2]} commands {del_feat X.FootToneToken2} }
+  rule FootToneToken3 { pattern { X [FootToneToken3]} commands {del_feat X.FootToneToken3} }
+  rule FootToneToken4 { pattern { X [FootToneToken4]} commands {del_feat X.FootToneToken4} }
+  rule FootTypeToken2 { pattern { X [FootTypeToken2]} commands {del_feat X.FootTypeToken2} }
+  rule FootTypeToken3 { pattern { X [FootTypeToken3]} commands {del_feat X.FootTypeToken3} }
+  rule FootTypeToken4 { pattern { X [FootTypeToken4]} commands {del_feat X.FootTypeToken4} }
+  rule GovInnucleus { pattern { X [GovInnucleus]} commands {del_feat X.GovInnucleus} }
+  rule GovInnucleusToken2 { pattern { X [GovInnucleusToken2]} commands {del_feat X.GovInnucleusToken2} }
+  rule GovNucleusToken2 { pattern { X [GovNucleusToken2]} commands {del_feat X.GovNucleusToken2} }
+  rule GovNucleusToken3 { pattern { X [GovNucleusToken3]} commands {del_feat X.GovNucleusToken3} }
+  rule GovPostnucleusToken2 { pattern { X [GovPostnucleusToken2]} commands {del_feat X.GovPostnucleusToken2} }
+  rule GroupToken2 { pattern { X [GroupToken2]} commands {del_feat X.GroupToken2} }
+  rule GroupToken3 { pattern { X [GroupToken3]} commands {del_feat X.GroupToken3} }
+  rule GroupToken4 { pattern { X [GroupToken4]} commands {del_feat X.GroupToken4} }
+  rule GroupToneToken2 { pattern { X [GroupToneToken2]} commands {del_feat X.GroupToneToken2} }
+  rule GroupToneToken3 { pattern { X [GroupToneToken3]} commands {del_feat X.GroupToneToken3} }
+  rule GroupToneToken4 { pattern { X [GroupToneToken4]} commands {del_feat X.GroupToneToken4} }
+  rule HesitationToken2 { pattern { X [HesitationToken2]} commands {del_feat X.HesitationToken2} }
+  rule HesitationToken3 { pattern { X [HesitationToken3]} commands {del_feat X.HesitationToken3} }
+  rule HesitationToken4 { pattern { X [HesitationToken4]} commands {del_feat X.HesitationToken4} }
+  rule InnucleusToken2 { pattern { X [InnucleusToken2]} commands {del_feat X.InnucleusToken2} }
+  rule Intro_IUToken2 { pattern { X [Intro_IUToken2]} commands {del_feat X.Intro_IUToken2} }
+  rule Intro_IUToken3 { pattern { X [Intro_IUToken3]} commands {del_feat X.Intro_IUToken3} }
+  rule Intro_IUToken4 { pattern { X [Intro_IUToken4]} commands {del_feat X.Intro_IUToken4} }
+  rule IU_embeddedToken2 { pattern { X [IU_embeddedToken2]} commands {del_feat X.IU_embeddedToken2} }
+  rule IU_embeddedToken3 { pattern { X [IU_embeddedToken3]} commands {del_feat X.IU_embeddedToken3} }
+  rule IU_embeddedToken4 { pattern { X [IU_embeddedToken4]} commands {del_feat X.IU_embeddedToken4} }
+  rule IU_graftToken2 { pattern { X [IU_graftToken2]} commands {del_feat X.IU_graftToken2} }
+  rule IU_parenthesisToken2 { pattern { X [IU_parenthesisToken2]} commands {del_feat X.IU_parenthesisToken2} }
+  rule IU_parenthesisToken3 { pattern { X [IU_parenthesisToken3]} commands {del_feat X.IU_parenthesisToken3} }
+  rule IU_parenthesisToken4 { pattern { X [IU_parenthesisToken4]} commands {del_feat X.IU_parenthesisToken4} }
+  rule IUToken2 { pattern { X [IUToken2]} commands {del_feat X.IUToken2} }
+  rule IUToken3 { pattern { X [IUToken3]} commands {del_feat X.IUToken3} }
+  rule IUToken4 { pattern { X [IUToken4]} commands {del_feat X.IUToken4} }
+  rule LayerToken2 { pattern { X [LayerToken2]} commands {del_feat X.LayerToken2} }
+  rule LayerToken3 { pattern { X [LayerToken3]} commands {del_feat X.LayerToken3} }
+  rule LayerToken4 { pattern { X [LayerToken4]} commands {del_feat X.LayerToken4} }
+  rule NextBreakLengthToken2 { pattern { X [NextBreakLengthToken2]} commands {del_feat X.NextBreakLengthToken2} }
+  rule NextBreakLengthToken3 { pattern { X [NextBreakLengthToken3]} commands {del_feat X.NextBreakLengthToken3} }
+  rule NextBreakLengthToken4 { pattern { X [NextBreakLengthToken4]} commands {del_feat X.NextBreakLengthToken4} }
+  rule NucleusToken2 { pattern { X [NucleusToken2]} commands {del_feat X.NucleusToken2} }
+  rule NucleusToken3 { pattern { X [NucleusToken3]} commands {del_feat X.NucleusToken3} }
+  rule NucleusToken4 { pattern { X [NucleusToken4]} commands {del_feat X.NucleusToken4} }
+  rule Package_typeToken2 { pattern { X [Package_typeToken2]} commands {del_feat X.Package_typeToken2} }
+  rule Package_typeToken3 { pattern { X [Package_typeToken3]} commands {del_feat X.Package_typeToken3} }
+  rule Package_typeToken4 { pattern { X [Package_typeToken4]} commands {del_feat X.Package_typeToken4} }
+  rule PackageToken2 { pattern { X [PackageToken2]} commands {del_feat X.PackageToken2} }
+  rule PackageToken3 { pattern { X [PackageToken3]} commands {del_feat X.PackageToken3} }
+  rule PackageToken4 { pattern { X [PackageToken4]} commands {del_feat X.PackageToken4} }
+  rule PackageToneToken2 { pattern { X [PackageToneToken2]} commands {del_feat X.PackageToneToken2} }
+  rule PackageToneToken3 { pattern { X [PackageToneToken3]} commands {del_feat X.PackageToneToken3} }
+  rule PackageToneToken4 { pattern { X [PackageToneToken4]} commands {del_feat X.PackageToneToken4} }
+  rule Perioad { pattern { X [Perioad]} commands {del_feat X.Perioad} }
+  rule Period_toneToken2 { pattern { X [Period_toneToken2]} commands {del_feat X.Period_toneToken2} }
+  rule Period_toneToken3 { pattern { X [Period_toneToken3]} commands {del_feat X.Period_toneToken3} }
+  rule Period_toneToken4 { pattern { X [Period_toneToken4]} commands {del_feat X.Period_toneToken4} }
+  rule PeriodToken2 { pattern { X [PeriodToken2]} commands {del_feat X.PeriodToken2} }
+  rule PeriodToken3 { pattern { X [PeriodToken3]} commands {del_feat X.PeriodToken3} }
+  rule PeriodToken4 { pattern { X [PeriodToken4]} commands {del_feat X.PeriodToken4} }
+  rule PostnucleusToken2 { pattern { X [PostnucleusToken2]} commands {del_feat X.PostnucleusToken2} }
+  rule PostnucleusToken3 { pattern { X [PostnucleusToken3]} commands {del_feat X.PostnucleusToken3} }
+  rule PrenucleusToken2 { pattern { X [PrenucleusToken2]} commands {del_feat X.PrenucleusToken2} }
+  rule PrenucleusToken3 { pattern { X [PrenucleusToken3]} commands {del_feat X.PrenucleusToken3} }
+  rule ProminenceFinalToken2 { pattern { X [ProminenceFinalToken2]} commands {del_feat X.ProminenceFinalToken2} }
+  rule ProminenceFinalToken3 { pattern { X [ProminenceFinalToken3]} commands {del_feat X.ProminenceFinalToken3} }
+  rule ProminenceFinalToken4 { pattern { X [ProminenceFinalToken4]} commands {del_feat X.ProminenceFinalToken4} }
+  rule ProminenceInitialToken2 { pattern { X [ProminenceInitialToken2]} commands {del_feat X.ProminenceInitialToken2} }
+  rule ProminenceInitialToken3 { pattern { X [ProminenceInitialToken3]} commands {del_feat X.ProminenceInitialToken3} }
+  rule ProminenceInitialToken4 { pattern { X [ProminenceInitialToken4]} commands {del_feat X.ProminenceInitialToken4} }
+  rule RelToken2 { pattern { X [RelToken2]} commands {del_feat X.RelToken2} }
+  rule RelToken3 { pattern { X [RelToken3]} commands {del_feat X.RelToken3} }
+  rule RelToken4 { pattern { X [RelToken4]} commands {del_feat X.RelToken4} }
+  rule RhythmGroupToken2 { pattern { X [RhythmGroupToken2]} commands {del_feat X.RhythmGroupToken2} }
+  rule RhythmGroupToken3 { pattern { X [RhythmGroupToken3]} commands {del_feat X.RhythmGroupToken3} }
+  rule RhythmGroupToken4 { pattern { X [RhythmGroupToken4]} commands {del_feat X.RhythmGroupToken4} }
+}

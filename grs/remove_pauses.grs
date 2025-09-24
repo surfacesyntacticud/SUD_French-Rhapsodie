@@ -1,0 +1,8 @@
+strat main {
+	Onf (remove_pause)
+}
+
+rule remove_pause {
+	pattern { X[form="#"] }
+	commands { del_node X }
+}

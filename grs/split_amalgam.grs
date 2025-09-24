@@ -1,0 +1,145 @@
+strat main { 
+	Seq (
+		Onf (spaceafter_on_amalgam_1),
+		Onf (regular),
+		Onf (scrap),
+		Onf (misc),
+		Onf (spaceafter_on_amalgam_2),
+	)
+}
+
+rule spaceafter_on_amalgam_1 {
+	pattern { X [form="Aux"|"Au"|"au"|"du"|"des", upos=ADP, !spaceafter_on_amalgam]; Y[form=","|"…"]; X < Y; }
+	commands { X.spaceafter_on_amalgam = Yes }
+}
+
+
+package regular {
+	rule du_regular {
+		pattern { 
+			X [form=lex.old, upos=ADP];
+			X -[comp:obj|comp:obj@scrap]-> N 
+		}
+		commands {
+			X.form=lex.form1;
+			X.wordform=lex.form1;
+			X.lemma=lex.lemma1;
+
+			add_node D :> X;
+			D.upos=DET;
+			D.form=lex.form2;
+			D.wordform=lex.form2;
+			D.lemma=lex.lemma2;
+			D.Definite=Def;
+			D.Number=lex.number2;
+			D.PronType=Art;
+
+			X.textform=lex.old;
+			D.textform="_";
+
+			add_edge N -[det]-> D;
+			append_feats X =[re"Overlap\|InTitle"]=> D;
+		}
+	}
+#BEGIN lex
+old	form1	lemma1	form2	lemma2	number2
+%-----------------------------
+Au	À	à	le	le	Sing
+au	à	à	le	le	Sing
+aux	à	à	les	le	Plur
+du	de	de	le	le	Sing
+des	de	de	les	le	Plur
+#END
+
+	rule auquel {
+		pattern { 
+			X [form=auquel, upos=PRON];
+		}
+		commands {
+			X.form="à"; X.wordform="à";
+			X.lemma="à";
+			X.upos=ADP;
+			X.textform="auquel";
+			del_feat X.Gender;
+			del_feat X.Number;
+			del_feat X.PronType;
+
+			add_node P :> X;
+
+			P.upos=PRON;
+			P.form="lequel"; P.wordform="lequel";
+			P.lemma="lequel";
+			P.Gender=Masc;
+			P.Number=Sing;
+			P.PronType=Rel;
+			P.textform="_";
+
+			add_edge X -[comp:obj]-> P;
+			append_feats X =[re"Overlap\|InTitle"]=> P;
+		}
+	}
+
+}
+
+
+package scrap {
+	rule du_regular {
+		pattern { 
+			X [form=lex.old, upos=ADP];
+		}
+		without {
+			X -[comp:obj|comp:obj@scrap]-> N 
+		}
+		commands {
+			X.form=lex.form1;
+			X.wordform=lex.form1;
+			X.lemma=lex.lemma1;
+
+			add_node D :> X;
+			D.upos=DET;
+			D.form=lex.form2;
+			D.wordform=lex.form2;
+			D.lemma=lex.lemma2;
+			D.Definite=Def;
+			D.Number=lex.number2;
+			D.PronType=Art;
+
+			X.textform=lex.old;
+			D.textform="_";
+
+			add_edge X -[comp:obj@scrap]-> D;
+			append_feats X =[re"Overlap\|InTitle"]=> D;
+		}
+	}
+#BEGIN lex
+old	form1	lemma1	form2	lemma2	number2
+%-----------------------------
+Au	À	à	le	le	Sing
+au	à	à	le	le	Sing
+aux	à	à	les	le	Plur
+du	de	de	le	le	Sing
+des	de	de	les	le	Plur
+#END
+}
+
+package misc {
+	rule lquote {
+		pattern { X1 [upos=DET, form="l'"|"son"|"mon"|"ton", !Gender__ctxt]; X2 [upos=NOUN, Gender__lex]; X2 -[det]-> X1 }
+		commands {
+			X1.Gender__ctxt = X2.Gender__lex;
+		}
+	}
+
+	rule le {
+		pattern { X [form=le, upos=DET, !Gender]}
+		commands { X.Gender=Masc }
+	}
+}
+
+rule spaceafter_on_amalgam_2 {
+	pattern { X [spaceafter_on_amalgam = Yes] }
+	commands { 
+		X.textform = X.textform + "##SAN##";
+		del_feat X.spaceafter_on_amalgam
+	}
+}
