@@ -115,3 +115,12 @@ split_dtt:
 	python3 ${SUD_TOOLS}/conll_filter.py utils/sent_ids_test.txt _full.conllu fr_rhapsodie.sud.test.conllu
 	python3 ${SUD_TOOLS}/conll_filter.py utils/sent_ids_train.txt _full.conllu fr_rhapsodie.sud.train.conllu
 	rm -f _full.conllu
+
+GMQ=/Users/guillaum/github/grew-nlp/grew_match_quick
+gmq_prosody:
+	python3 ${GMQ}/grew_match_quick.py prosody_pauses
+gmq_sud:
+	python3 ${GMQ}/grew_match_quick.py ../SUD_French-Rhapsodie
+gmq_ud:
+	python3 ${GMQ}/grew_match_quick.py ${UD_FOLDER}
+

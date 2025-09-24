@@ -9,7 +9,7 @@ strat main {
 }
 
 rule spaceafter_on_amalgam_1 {
-	pattern { X [form="Aux"|"Au"|"au"|"du"|"des", upos=ADP, !spaceafter_on_amalgam]; Y[form=","|"…"]; X < Y; }
+	pattern { X [form="Aux"|"Au"|"au"|"du"|"des", upos=ADP, !spaceafter_on_amalgam]; Y[form=","|"…"|"-dessus"]; X < Y; }
 	commands { X.spaceafter_on_amalgam = Yes }
 }
 
@@ -134,6 +134,7 @@ package misc {
 		pattern { X [form=le, upos=DET, !Gender]}
 		commands { X.Gender=Masc }
 	}
+
 }
 
 rule spaceafter_on_amalgam_2 {

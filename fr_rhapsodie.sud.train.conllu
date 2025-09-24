@@ -31683,9 +31683,9 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-M2005.mp3
 # macrosyntax = A Small World compte parmi ses membres des gens comme { Quentin Tarantino | ^ou l'incontournable Paris Hilton | ^ou encore l'indéboulonnable Massimo Gargia } //
 # text = A Small World compte parmi ses membres des gens comme Quentin Tarantino ou l'incontournable Paris Hilton, ou encore l'indéboulonnable Massimo Gargia.
-1	A	A	DET	_	Foreign=Yes	3	det	_	InTitle=Yes|Lang=en
-2	Small	Small	ADJ	_	Foreign=Yes	3	mod	_	InTitle=Yes|Lang=en
-3	World	World	NOUN	_	Foreign=Yes	4	subj	_	Lang=en|Title=Yes
+1	A	A	X	_	Foreign=Yes	4	subj	_	InTitle=Yes|Lang=en
+2	Small	Small	X	_	Foreign=Yes	1	flat@foreign	_	InTitle=Yes|Lang=en
+3	World	World	X	_	Foreign=Yes	2	flat@foreign	_	Lang=en|Title=Yes
 4	compte	compter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	parmi	parmi	ADP	_	_	4	mod	_	_
 6	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	7	det	_	_
@@ -31828,9 +31828,9 @@
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	monde	monde	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	3	punct	_	_
-9	A	A	DET	_	Foreign=Yes	11	det	_	InTitle=Yes|Lang=en
-10	Small	Small	ADJ	_	Foreign=Yes	11	mod	_	InTitle=Yes|Lang=en
-11	World	World	NOUN	_	Foreign=Yes	12	subj	_	Lang=en|Title=Yes
+9	A	A	X	_	Foreign=Yes	12	subj	_	InTitle=Yes|Lang=en
+10	Small	Small	X	_	Foreign=Yes	9	flat@foreign	_	InTitle=Yes|Lang=en
+11	World	World	X	_	Foreign=Yes	10	flat@foreign	_	Lang=en|Title=Yes
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	accessible	accessible	ADJ	_	_	12	comp:pred	_	Gender[ctxt]=Masc|Number[ctxt]=Sing
 14	uniquement	uniquement	ADV	_	_	12	mod	_	_
@@ -32534,9 +32534,9 @@
 2	en	en	ADP	_	ExtPos=ADV	11	discourse	_	Idiom=Yes
 3	fait	fait	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
-5	euh	euh	INTJ	_	_	2	comp:obj	_	SpaceAfter=No
+5	euh	euh	INTJ	_	_	2	discourse	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	ouais	ouais	INTJ	_	_	2	comp:obj	_	SpaceAfter=No
+7	ouais	ouais	INTJ	_	_	2	discourse	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	2	punct	_	_
 9	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	subj@expl	_	_
 10	y	y	PRON	_	Person=3|PronType=Prs	11	comp@expl	_	_
@@ -38607,7 +38607,7 @@
 74	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	77	det	_	SpaceAfter=No
 75	,	,	PUNCT	_	_	76	punct	_	_
 76	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	74	conj:dicto	_	_
-77	livre	livre	NOUN	_	_	73	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing
+77	livre	livre	NOUN	_	_	73	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing
 78	absolument	absolument	ADV	_	_	82	mod	_	SpaceAfter=No
 79	,	,	PUNCT	_	_	80	punct	_	_
 80	euh	euh	INTJ	_	_	78	discourse	_	SpaceAfter=No
@@ -45901,9 +45901,9 @@
 23	euh	euh	INTJ	_	_	31	discourse	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	23	punct	_	_
 25-26	au	_	_	_	_	_	_	_	_
-25	à	à	ADP	_	ExtPos=ADV	28	mod	_	Idiom=Yes
-26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	comp:obj@scrap	_	_
-27	moins	moins	ADV	_	_	25	unk	_	InIdiom=Yes
+25	à	à	ADP	_	ExtPos=ADV	28	mod	_	_
+26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	moins	moins	ADV	_	_	25	comp:obj	_	_
 28	cent	cent	NUM	_	ExtPos=DET|Shared=No	31	det	_	Number[lex]=Plur|SpaceAfter=No
 29	,	,	PUNCT	_	_	30	punct	_	_
 30	cent	cent	NUM	_	ExtPos=DET	28	conj:dicto	_	Number[lex]=Plur
@@ -48763,9 +48763,9 @@
 26	deux	deux	NUM	_	ExtPos=PRON	23	conj:coord	_	Number[lex]=Plur|SpaceAfter=No
 27	,	,	PUNCT	_	_	31	punct	_	_
 28-29	au	_	_	_	_	_	_	_	_
-28	à	à	ADP	_	ExtPos=ADV	31	mod	_	Idiom=Yes
-29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	comp:obj@scrap	_	_
-30	moins	moins	ADV	_	_	28	unk	_	InIdiom=Yes
+28	à	à	ADP	_	ExtPos=ADV	31	mod	_	_
+29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	moins	moins	ADV	_	_	28	comp:obj	_	_
 31	deux	deux	NUM	_	ExtPos=PRON	26	conj:dicto	_	Number[lex]=Plur|SpaceAfter=No
 32	,	,	PUNCT	_	_	34	punct	_	_
 33	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	_
@@ -49895,9 +49895,9 @@
 38	,	,	PUNCT	_	_	39	punct	_	_
 39	peut-être	peut-être	ADV	_	_	34	mod	_	_
 40-41	au	_	_	_	_	_	_	_	_
-40	à	à	ADP	_	ExtPos=ADV	43	mod	_	Idiom=Yes
-41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	comp:obj@scrap	_	_
-42	moins	moins	ADV	_	_	40	unk	_	InIdiom=Yes
+40	à	à	ADP	_	ExtPos=ADV	43	mod	_	_
+41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
+42	moins	moins	ADV	_	_	40	comp:obj	_	_
 43	douze	douze	NUM	_	ExtPos=DET|Shared=No	44	det	_	Number[lex]=Plur
 44	ans	an	NOUN	_	_	34	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 45	,	,	PUNCT	_	_	47	punct	_	_
