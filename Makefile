@@ -118,9 +118,9 @@ split_dtt:
 
 GMQ=/Users/guillaum/github/grew-nlp/grew_match_quick
 gmq_prosody:
-	python3 ${GMQ}/grew_match_quick.py prosody_pauses
+	python3 ${GMQ}/grew_match_quick.py --config sud prosody_pauses
 gmq_sud:
-	python3 ${GMQ}/grew_match_quick.py ../SUD_French-Rhapsodie
+	python3 ${GMQ}/grew_match_quick.py --config sud ../SUD_French-Rhapsodie
 gmq_ud:
-	python3 ${GMQ}/grew_match_quick.py ${UD_FOLDER}
+	python3 ${GMQ}/grew_match_quick.py --config ud ${UD_FOLDER}
 
