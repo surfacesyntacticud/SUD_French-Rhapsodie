@@ -135,6 +135,10 @@ package misc {
 		commands { X.Gender=Masc }
 	}
 
+  rule idiom_amalgam {
+		pattern { e: M -> N; N [InIdiom]; X[!InIdiom, !Idiom]; X << e }
+		commands { X.InIdiom = Yes }
+	}
 }
 
 rule spaceafter_on_amalgam_2 {
