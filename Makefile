@@ -14,18 +14,31 @@ doc:
 	@echo "make norm     ---> normalise with Grew"
 	@echo "make validate ---> UD validation of last conversion"
 	@echo "-------------------------------------------------------"
-	@echo "Production of SUD from prosody_pauses:"
-	@echo "make step1 && make step2 && make step3 && make split_dtt"
+	@echo "Production of regular SUD from prosody_pauses:"
+	@echo "make step1 && make step2 && make step3"
 	@echo "-------------------------------------------------------"
 
 
 # NB: naming in SUD is `….sud.…` and `…-ud-…` in UD
 convert:
-	for infile in fr_rhapsodie*.conllu ; do \
-		outfile=`echo $$infile | sed "s+^+${UD_FOLDER}/+" | sed "s+.sud.+-ud-+"` ; \
+	for infile in Rhap*.conllu ; do \
+		outfile=`echo $$infile | sed "s+^+${UD_FOLDER}/not-to-release/+" | sed "s+.sud.+-ud-+"` ; \
 		echo "$$infile --> $$outfile" ; \
 		grew_dev transform -config sud -grs ${GRS_CONVERT}/fr_SUD_to_UD.grs -strat fr_main -i $$infile -o $$outfile ; \
 	done
+	@make build_ud
+
+build_ud:
+	echo "# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC" > _ud_full.conllu
+	for infile in ${UD_FOLDER}/not-to-release/*.conllu ; do \
+		cat $$infile | grep -v "# global.columns" >> _ud_full.conllu ; \
+	done
+	python3 ${SUD_TOOLS}/conll_filter.py utils/sent_ids_dev.txt _ud_full.conllu ${UD_FOLDER}/fr_rhapsodie-ud-dev.conllu
+	python3 ${SUD_TOOLS}/conll_filter.py utils/sent_ids_test.txt _ud_full.conllu ${UD_FOLDER}/fr_rhapsodie-ud-test.conllu
+	python3 ${SUD_TOOLS}/conll_filter.py utils/sent_ids_train.txt _ud_full.conllu ${UD_FOLDER}/fr_rhapsodie-ud-train.conllu
+	rm -f _ud_full.conllu
+
+
 
 norm:
 	for file in *.conllu ; do \
@@ -99,22 +112,12 @@ step2:
 step3:
 	mkdir -p _s_words
 	for infile in _p_words/*.conllu ; do \
-		outfile=`echo $$infile | sed "s+_p_words+_s_words+"` ; \
+		outfile=`echo $$infile | sed "s+_p_words+.+"` ; \
 		echo "$$infile --> $$outfile" ; \
 		grew_dev transform -config sud -grs grs/split_amalgam.grs -i $$infile -o tmp ; \
 		cat tmp | sed "s/##SAN##	_	_	_	_	_	_	_	_/	_	_	_	_	_	_	_	SpaceAfter=No/" > $$outfile ; \
 	done
 	rm -f tmp
-
-split_dtt:
-	echo "# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC" > _full.conllu
-	for infile in _s_words/*.conllu ; do \
-		cat $$infile | grep -v "# global.columns" >> _full.conllu ; \
-	done
-	python3 ${SUD_TOOLS}/conll_filter.py utils/sent_ids_dev.txt _full.conllu fr_rhapsodie.sud.dev.conllu
-	python3 ${SUD_TOOLS}/conll_filter.py utils/sent_ids_test.txt _full.conllu fr_rhapsodie.sud.test.conllu
-	python3 ${SUD_TOOLS}/conll_filter.py utils/sent_ids_train.txt _full.conllu fr_rhapsodie.sud.train.conllu
-	rm -f _full.conllu
 
 GMQ=/Users/guillaum/github/grew-nlp/grew_match_quick
 gmq_prosody:
