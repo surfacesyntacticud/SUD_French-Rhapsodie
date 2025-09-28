@@ -10,12 +10,12 @@ UD_FOLDER=/Users/guillaum/github/UniversalDependencies/UD_French-Rhapsodie
 
 doc:
 	@echo "-------------------------------------------------------"
+	@echo "Production of regular SUD from prosody_pauses:"
+	@echo "make build"
+	@echo "-------------------------------------------------------"
 	@echo "make convert  ---> convert to UD"
 	@echo "make norm     ---> normalise with Grew"
 	@echo "make validate ---> UD validation of last conversion"
-	@echo "-------------------------------------------------------"
-	@echo "Production of regular SUD from prosody_pauses:"
-	@echo "make step1 && make step2 && make step3"
 	@echo "-------------------------------------------------------"
 
 
@@ -81,27 +81,32 @@ size:
 	@egrep "^[0-9]+\t" fr_rhapsodie.sud.*.conllu | wc -l
 	
 
+build:
+	@make step1
+	@make step2
+	@make step3
+
 # ===========================================================================
 # making everything build for the prosody version produced in https://github.com/Paz2311/StageModyco
 # ===========================================================================
 # step1
 # build the corpus with the prosdy but without the pauses (applying grs/remove_pauses.grs)
-# output goes to "_prosody"
+# output goes to "prosody"
 step1:
-	mkdir -p _prosody
+	mkdir -p prosody
 	for infile in prosody_pauses/*.conllu ; do \
-		outfile=`echo $$infile | sed "s+prosody_pauses+_prosody+"` ; \
+		outfile=`echo $$infile | sed "s+prosody_pauses+prosody+"` ; \
 		echo "$$infile --> $$outfile" ; \
 		grew_dev transform -config sud -grs grs/remove_pauses.grs -i $$infile -o $$outfile ; \
 	done
 
 # step2
 # build the corpus without the prosdy (applying grs/remove_syllables.grs)
-# output goes to "_p_words" (amalgams "au", "du"… are not split)
+# output goes to "p_words" (amalgams "au", "du"… are not split)
 step2:
-	mkdir -p _p_words
-	for infile in _prosody/*.conllu ; do \
-		outfile=`echo $$infile | sed "s+_prosody+_p_words+"` ; \
+	mkdir -p p_words
+	for infile in prosody/*.conllu ; do \
+		outfile=`echo $$infile | sed "s+prosody+p_words+"` ; \
 		echo "$$infile --> $$outfile" ; \
 		grew_dev transform -config sud -grs grs/remove_syllables.grs -i $$infile -o $$outfile ; \
 	done
@@ -111,8 +116,8 @@ step2:
 # output goes to "_s_words"
 step3:
 	mkdir -p _s_words
-	for infile in _p_words/*.conllu ; do \
-		outfile=`echo $$infile | sed "s+_p_words+.+"` ; \
+	for infile in p_words/*.conllu ; do \
+		outfile=`echo $$infile | sed "s+p_words+.+"` ; \
 		echo "$$infile --> $$outfile" ; \
 		grew_dev transform -config sud -grs grs/split_amalgam.grs -i $$infile -o tmp ; \
 		cat tmp | sed "s/##SAN##	_	_	_	_	_	_	_	_/	_	_	_	_	_	_	_	SpaceAfter=No/" > $$outfile ; \
