@@ -11,8 +11,8 @@ rule empty { % remove empty nodes
 }
 
 package features {
-  rule AlignBegin { pattern { X [AlignBegin] } commands {del_feat X.AlignBegin} }
-  rule AlignEnd { pattern { X [AlignEnd] } commands {del_feat X.AlignEnd} }
+  % rule AlignBegin { pattern { X [AlignBegin] } commands {del_feat X.AlignBegin} }
+  % rule AlignEnd { pattern { X [AlignEnd] } commands {del_feat X.AlignEnd} }
 
   rule AssociatedNucleus { pattern { X [AssociatedNucleus] } commands {del_feat X.AssociatedNucleus} }
   rule Foot { pattern { X [Foot] } commands {del_feat X.Foot} }
