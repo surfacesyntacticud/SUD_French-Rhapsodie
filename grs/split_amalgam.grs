@@ -38,7 +38,7 @@ package regular {
 			D.textform="_";
 
 			add_edge N -[det]-> D;
-			append_feats X =[re"Overlap\|InTitle"]=> D;
+			append_feats X =[re"Overlap\|InTitle\|AlignBegin\|AlignEnd"]=> D;
 		}
 	}
 #BEGIN lex
@@ -75,7 +75,7 @@ des	de	de	les	le	Plur
 			P.textform="_";
 
 			add_edge X -[comp:obj]-> P;
-			append_feats X =[re"Overlap\|InTitle"]=> P;
+			append_feats X =[re"Overlap\|InTitle\|AlignBegin\|AlignEnd"]=> P;
 		}
 	}
 
@@ -108,7 +108,7 @@ package scrap {
 			D.textform="_";
 
 			add_edge X -[comp:obj@scrap]-> D;
-			append_feats X =[re"Overlap\|InTitle"]=> D;
+			append_feats X =[re"Overlap\|InTitle\|AlignBegin\|AlignEnd"]=> D;
 		}
 	}
 #BEGIN lex
