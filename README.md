@@ -8,7 +8,7 @@ The corpus was automatically converted from the [Rhapsodie treebank](https://www
 
 # Development
 
-The corpus is maintained in the [SUD](https://surfacesyntacticud.github.io/) and is available in the [SUD_French-Rhapsodie](https://github.com/surfacesyntacticud/SUD_French-Rhapsodie) repository.
+The corpus is maintained in the [SUD](https://surfacesyntacticud.github.io/) format and is available in the [SUD_French-Rhapsodie](https://github.com/surfacesyntacticud/SUD_French-Rhapsodie) repository.
 
 Prosodic annotations from the original project were imported into the SUD data in 2025.
 This work is described in the TLT paper:
