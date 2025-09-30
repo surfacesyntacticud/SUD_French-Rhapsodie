@@ -4,7 +4,7 @@ A Universal Dependencies corpus for spoken French.
 
 # Introduction
 
-The corpus was automatically converted from the [Rhapsodie treebank](https://www.ortolang.fr/market/corpora/rhapsodie/) and then underwent many manual corrections and improvements.
+The corpus was automatically converted from the [Rhapsodie treebank](https://rhapsodie.modyco.fr/) and then underwent many manual corrections and improvements.
 
 # Development
 
