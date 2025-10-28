@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Rhap_D0017-1
 # old_id = Rhap_D0017-1
 # type = dialogue
@@ -65,7 +64,7 @@
 7	à	à	ADP	_	_	6	comp:obl	_	AlignBegin=2545|AlignEnd=2650
 8	droite	droite	NOUN	_	_	7	comp:obj	_	AlignBegin=2650|AlignEnd=3183|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	AlignBegin=3183|AlignEnd=3990
-10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	AlignBegin=3990|AlignEnd=4244
+10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	AlignBegin=3990|AlignEnd=4244|HasSpokenGender=OnlySingExceptWithLiaison
 11	droite	droite	NOUN	_	_	8	conj:dicto	_	AlignBegin=4244|AlignEnd=4752|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 12	.	.	PUNCT	_	_	6	punct	_	AlignBegin=4752|AlignEnd=4752
 
@@ -99,11 +98,11 @@
 2	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	3	subj	_	AlignBegin=5975|AlignEnd=6075|Polite=Unknown
 3	allez	aller	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=6075|AlignEnd=6355
 4	tout	tout	ADV	_	_	5	mod	_	AlignBegin=6355|AlignEnd=6490
-5	droit	droit	ADJ	_	Gender=Masc	3	mod	_	AlignBegin=6490|AlignEnd=6857|Number[ctxt]=Sing
+5	droit	droit	ADJ	_	Gender=Masc	3	mod	_	AlignBegin=6490|AlignEnd=6857|HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing
 6	jusqu'	jusque	ADP	_	_	3	mod	_	AlignBegin=6857|AlignEnd=7235|SpaceAfter=No
 7	au	au	ADP	_	_	6	comp:obj	_	AlignBegin=7235|AlignEnd=7828
-8	prochain	prochain	ADJ	_	_	9	mod	_	AlignBegin=7828|AlignEnd=8142|Gender[ctxt]=Masc|Number[ctxt]=Sing
-9	arrêt	arrêt	NOUN	_	_	7	comp:obj	_	AlignBegin=8142|AlignEnd=8405|Gender[lex]=Masc|Number[ctxt]=Sing
+8	prochain	prochain	ADJ	_	Number=Sing	9	mod	_	AlignBegin=7828|AlignEnd=8142|Gender[ctxt]=Masc|LiaisonAfter=Yes
+9	arrêt	arrêt	NOUN	_	_	7	comp:obj	_	AlignBegin=8142|AlignEnd=8405|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 10	de	de	ADP	_	_	9	udep	_	AlignBegin=8405|AlignEnd=8485
 11	tram	tram	NOUN	_	_	10	comp:obj	_	AlignBegin=8485|AlignEnd=8795|Gender[lex]=Masc|Number[ctxt]=Sing
 12	où	où	PRON	_	PronType=Rel	15	mod	_	AlignBegin=9639|AlignEnd=9730
@@ -147,8 +146,8 @@
 5	droit	droit	NOUN	_	_	3	mod	_	AlignBegin=12943|AlignEnd=13348|Gender[lex]=Masc|Number[ctxt]=Sing
 6	jusqu'	jusque	ADP	_	_	3	mod	_	AlignBegin=13348|AlignEnd=13743|SpaceAfter=No
 7	au	au	ADP	_	_	6	comp:obj	_	AlignBegin=13743|AlignEnd=14016
-8	deuxième	deuxième	ADJ	_	_	9	mod	_	AlignBegin=14016|AlignEnd=14347|Gender[ctxt]=Masc|Number[ctxt]=Sing
-9	arrêt	arrêt	NOUN	_	_	7	comp:obj	_	AlignBegin=14347|AlignEnd=14643|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+8	deuxième	deuxième	ADJ	_	Number=Sing	9	mod	_	AlignBegin=14016|AlignEnd=14347|Gender[ctxt]=Masc|LiaisonAfter=Yes
+9	arrêt	arrêt	NOUN	_	_	7	comp:obj	_	AlignBegin=14347|AlignEnd=14643|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 10	.	.	PUNCT	_	_	3	punct	_	AlignBegin=14643|AlignEnd=14643
 
 # sent_id = Rhap_D0017-5
@@ -178,7 +177,7 @@
 # macrosyntax = ^et avant d'arriver au troisième <+ vous prenez à droite là où il y a { les intersions | les intersections } //
 # text = et avant d'arriver au troisième, vous prenez à droite là où il y a les intersions, les intersections.
 1	et	et	CCONJ	_	_	9	cc	_	AlignBegin=15513|AlignEnd=16148
-2	avant	avant	NOUN	_	_	9	mod	_	AlignBegin=16148|AlignEnd=16483|Gender[lex]=Masc|Number[ctxt]=Sing
+2	avant	avant	NOUN	_	_	9	mod	_	AlignBegin=16148|AlignEnd=16483|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 3	d'	de	ADP	_	_	2	udep	_	AlignBegin=16483|AlignEnd=16523|SpaceAfter=No
 4	arriver	arriver	VERB	_	VerbForm=Inf	3	comp:obj	_	AlignBegin=16523|AlignEnd=16913|Subject=NoRaising
 5	au	au	ADP	_	_	4	comp:obl	_	AlignBegin=16913|AlignEnd=17073
@@ -193,11 +192,11 @@
 14	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	subj@expl	_	AlignBegin=20391|AlignEnd=20446
 15	y	y	PRON	_	Person=3|PronType=Prs	16	comp@expl	_	AlignBegin=20446|AlignEnd=20532
 16	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	mod@relcl	_	AlignBegin=20532|AlignEnd=20882
-17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	18	det	_	AlignBegin=20882|AlignEnd=20986
-18	intersions	intersion	NOUN	_	Number=Plur	16	comp:obj	_	AlignBegin=20986|AlignEnd=21764|Gender[lex]=Fem|SpaceAfter=No
+17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	18	det	_	AlignBegin=20882|AlignEnd=20986|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+18	intersions	intersion	NOUN	_	Number=Plur	16	comp:obj	_	AlignBegin=20986|AlignEnd=21764|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|SpaceAfter=No
 19	,	,	PUNCT	_	_	21	punct	_	AlignBegin=21764|AlignEnd=21922
-20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	AlignBegin=21922|AlignEnd=22086
-21	intersections	intersection	NOUN	_	_	18	conj:dicto	_	AlignBegin=22086|AlignEnd=22785|Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
+20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	AlignBegin=21922|AlignEnd=22086|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+21	intersections	intersection	NOUN	_	_	18	conj:dicto	_	AlignBegin=22086|AlignEnd=22785|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 22	.	.	PUNCT	_	_	9	punct	_	AlignBegin=22785|AlignEnd=22785
 
 # sent_id = Rhap_D0017-6
@@ -299,8 +298,8 @@
 4	au	au	ADP	_	_	13	mod	_	AlignBegin=28654|AlignEnd=28826
 5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=28826|AlignEnd=29016
 6	au	au	ADP	_	_	4	conj:dicto	_	AlignBegin=29016|AlignEnd=29132
-7	prochain	prochain	ADJ	_	_	8	mod	_	AlignBegin=29132|AlignEnd=29542|Gender[ctxt]=Masc|Number[ctxt]=Sing
-8	arrêt	arrêt	NOUN	_	_	6	comp:obj	_	AlignBegin=29542|AlignEnd=29873|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+7	prochain	prochain	ADJ	_	Number=Sing	8	mod	_	AlignBegin=29132|AlignEnd=29542|Gender[ctxt]=Masc|LiaisonAfter=Yes
+8	arrêt	arrêt	NOUN	_	_	6	comp:obj	_	AlignBegin=29542|AlignEnd=29873|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 9	,	,	PUNCT	_	_	4	punct	_	AlignBegin=29873|AlignEnd=29873
 10	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	13	subj	_	AlignBegin=29873|AlignEnd=30230|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	AlignBegin=30230|AlignEnd=30515
@@ -337,8 +336,8 @@
 1	euh	euh	INTJ	_	_	10	discourse	_	AlignBegin=32019|AlignEnd=32288|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=32288|AlignEnd=32802
 3	au	au	ADP	_	_	10	mod	_	AlignBegin=32802|AlignEnd=33049
-4	prochain	prochain	ADJ	_	_	5	mod	_	AlignBegin=33049|AlignEnd=33511|Gender[ctxt]=Masc|Number[ctxt]=Sing
-5	arrêt	arrêt	NOUN	_	_	3	comp:obj	_	AlignBegin=33511|AlignEnd=33948|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+4	prochain	prochain	ADJ	_	Number=Sing	5	mod	_	AlignBegin=33049|AlignEnd=33511|Gender[ctxt]=Masc|LiaisonAfter=Yes
+5	arrêt	arrêt	NOUN	_	_	3	comp:obj	_	AlignBegin=33511|AlignEnd=33948|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=33948|AlignEnd=33948
 7	oui	oui	INTJ	_	_	5	discourse	_	AlignBegin=33948|AlignEnd=34311|SpaceAfter=No
 8	,	,	PUNCT	_	_	3	punct	_	AlignBegin=34311|AlignEnd=34311
@@ -377,7 +376,7 @@
 # macrosyntax = ^et avant d'arriver au troisième <+ il y aura une intersection des voies //
 # text = et avant d'arriver au troisième, il y aura une intersection des voies.
 1	et	et	CCONJ	_	_	10	cc	_	AlignBegin=38373|AlignEnd=38758
-2	avant	avant	NOUN	_	_	10	mod	_	AlignBegin=38758|AlignEnd=39061|Gender[lex]=Masc|Number[ctxt]=Sing
+2	avant	avant	NOUN	_	_	10	mod	_	AlignBegin=38758|AlignEnd=39061|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 3	d'	de	ADP	_	_	2	udep	_	AlignBegin=39061|AlignEnd=39087|SpaceAfter=No
 4	arriver	arriver	VERB	_	VerbForm=Inf	3	comp:obj	_	AlignBegin=39087|AlignEnd=39343|Subject=NoRaising
 5	au	au	ADP	_	_	4	comp:obl	_	AlignBegin=39343|AlignEnd=39511
@@ -386,8 +385,8 @@
 8	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	subj@expl	_	AlignBegin=40174|AlignEnd=40283
 9	y	y	PRON	_	Person=3|PronType=Prs	10	comp@expl	_	AlignBegin=40283|AlignEnd=40343
 10	aura	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	AlignBegin=40343|AlignEnd=40704
-11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	AlignBegin=40704|AlignEnd=40863
-12	intersection	intersection	NOUN	_	_	10	comp:obj	_	AlignBegin=40863|AlignEnd=41902|Gender[lex]=Fem|Number[ctxt]=Sing
+11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	AlignBegin=40704|AlignEnd=40863|LiaisonAfter=Yes
+12	intersection	intersection	NOUN	_	_	10	comp:obj	_	AlignBegin=40863|AlignEnd=41902|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 13	des	de	ADP	_	_	12	udep	_	AlignBegin=41902|AlignEnd=42002
 14	voies	voie	NOUN	_	_	13	comp:obj	_	AlignBegin=42002|AlignEnd=42273|Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
 15	.	.	PUNCT	_	_	10	punct	_	AlignBegin=42273|AlignEnd=42273
@@ -428,7 +427,7 @@
 8	jusqu'	jusque	ADP	_	_	5	mod	_	AlignBegin=45390|AlignEnd=45622|SpaceAfter=No
 9	à	à	ADP	_	_	8	comp:obj	_	AlignBegin=45622|AlignEnd=45694
 10	voir	voir	VERB	_	VerbForm=Inf	9	comp:obj	_	AlignBegin=45694|AlignEnd=45834|Subject=SubjRaising
-11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	AlignBegin=45834|AlignEnd=45954
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	AlignBegin=45834|AlignEnd=45954|HasSpokenGender=OnlySingExceptWithLiaison
 12	cathédrale	cathédrale	NOUN	_	_	10	comp:obj	_	AlignBegin=45954|AlignEnd=46556|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 13	.	.	PUNCT	_	_	5	punct	_	AlignBegin=46556|AlignEnd=46556
 
