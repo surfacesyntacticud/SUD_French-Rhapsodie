@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Rhap_M0012-1
 # old_id = Rhap_M0012-1
 # type = monologue
@@ -37,7 +36,7 @@
 10	euh	euh	INTJ	_	_	8	discourse	_	AlignBegin=1996|AlignEnd=2344|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	AlignBegin=2344|AlignEnd=2344
 12	en	en	ADP	_	_	6	mod	_	AlignBegin=2344|AlignEnd=2514
-13	longeant	longer	VERB	_	VerbForm=Part	12	comp:obj	_	AlignBegin=2514|AlignEnd=2994|Tense[denom]=Pres
+13	longeant	longer	VERB	_	VerbForm=Part	12	comp:obj	_	AlignBegin=2514|AlignEnd=2994|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Pres
 14	là	là	ADV	_	_	13	mod	_	AlignBegin=2994|AlignEnd=3260|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	AlignBegin=3260|AlignEnd=3260
 16	donc	donc	ADV	_	_	14	discourse	_	AlignBegin=3260|AlignEnd=3488|SpaceAfter=No
@@ -45,13 +44,11 @@
 18	euh	euh	INTJ	_	_	14	discourse	_	AlignBegin=3488|AlignEnd=3628|SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	AlignBegin=3628|AlignEnd=3628
 20	jusqu'	jusque	ADP	_	_	14	conj:dicto	_	AlignBegin=3628|AlignEnd=3908|SpaceAfter=No
-21-22	au	_	_	_	_	_	_	_	_
-21	à	à	ADP	_	_	20	comp:obj	_	AlignBegin=3908|AlignEnd=4228
-22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	AlignBegin=3908|AlignEnd=4228
-23	cinéma	cinéma	NOUN	_	_	21	comp:obj	_	AlignBegin=4228|AlignEnd=4678|Gender[lex]=Masc|Number[ctxt]=Sing
-24	Nef	Nef	PROPN	_	Gender=Fem|Number=Sing	23	mod@appos	_	AlignBegin=4678|AlignEnd=4848
-25	Chavant	Chavant	PROPN	_	_	24	flat@name	_	AlignBegin=4848|AlignEnd=5262|Gender[lex]=Unknown|SpaceAfter=No
-26	.	.	PUNCT	_	_	6	punct	_	AlignBegin=5262|AlignEnd=5262
+21	au	au	ADP	_	_	20	comp:obj	_	AlignBegin=3908|AlignEnd=4228
+22	cinéma	cinéma	NOUN	_	_	21	comp:obj	_	AlignBegin=4228|AlignEnd=4678|Gender[lex]=Masc|Number[ctxt]=Sing
+23	Nef	Nef	PROPN	_	Gender=Fem|Number=Sing	22	mod@appos	_	AlignBegin=4678|AlignEnd=4848
+24	Chavant	Chavant	PROPN	_	_	23	flat@name	_	AlignBegin=4848|AlignEnd=5262|Gender[lex]=Unknown|SpaceAfter=No
+25	.	.	PUNCT	_	_	6	punct	_	AlignBegin=5262|AlignEnd=5262
 
 # sent_id = Rhap_M0012-2
 # old_id = Rhap_M0012-2
@@ -85,7 +82,7 @@
 4	continuerais	continuer	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=7086|AlignEnd=7666
 5	jusqu'	jusque	ADP	_	_	4	mod	_	AlignBegin=7666|AlignEnd=7876|SpaceAfter=No
 6	à	à	ADP	_	_	5	comp:obj	_	AlignBegin=7876|AlignEnd=7976
-7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	AlignBegin=7976|AlignEnd=8046
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	AlignBegin=7976|AlignEnd=8046|HasSpokenGender=OnlySingExceptWithLiaison
 8	Préfecture	Préfecture	PROPN	_	_	6	comp:obj	_	AlignBegin=8046|AlignEnd=8951|Gender[lex]=Unknown|SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	AlignBegin=8951|AlignEnd=8951
 
@@ -118,7 +115,7 @@
 1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=9506|AlignEnd=9676
 2	couperais	couper	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=9676|AlignEnd=10106
 3	par	par	ADP	_	_	2	comp:obl	_	AlignBegin=10106|AlignEnd=10276
-4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	AlignBegin=10276|AlignEnd=10406
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	AlignBegin=10276|AlignEnd=10406|HasSpokenGender=OnlySingExceptWithLiaison
 5	place	place	NOUN	_	_	3	comp:obj	_	AlignBegin=10406|AlignEnd=10706|Gender[lex]=Fem|Number[ctxt]=Sing
 6	Grenette	Grenette	PROPN	_	_	5	mod@appos	_	AlignBegin=10706|AlignEnd=11352|Gender[lex]=Unknown|SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	AlignBegin=11352|AlignEnd=11352
@@ -155,7 +152,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=12421|AlignEnd=12421
 5	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	subj	_	AlignBegin=12421|AlignEnd=12529
 6	longerais	longer	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=12529|AlignEnd=12799
-7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	AlignBegin=12799|AlignEnd=12841
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	AlignBegin=12799|AlignEnd=12841|HasSpokenGender=OnlySingExceptWithLiaison
 8	boulevard	boulevard	NOUN	_	_	6	comp:obj	_	AlignBegin=12841|AlignEnd=13210|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=13210|AlignEnd=13210
 10	euh	euh	INTJ	_	_	8	discourse	_	AlignBegin=13210|AlignEnd=13374|SpaceAfter=No
@@ -194,7 +191,7 @@
 3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=14525|AlignEnd=14525
 4	donc	donc	ADV	_	_	2	discourse	_	AlignBegin=14525|AlignEnd=14735|SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	AlignBegin=14735|AlignEnd=14735
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	AlignBegin=14735|AlignEnd=14835
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	AlignBegin=14735|AlignEnd=14835|HasSpokenGender=OnlySingExceptWithLiaison
 7	cours	cours	NOUN	_	Number=Sing	2	comp:obj	_	AlignBegin=14835|AlignEnd=15015|Gender[lex]=Masc
 8	Jean	Jean	PROPN	_	_	7	mod@appos	_	AlignBegin=15015|AlignEnd=15195|Gender[lex]=Unknown
 9	Jaurès	Jaurès	PROPN	_	_	8	flat@name	_	AlignBegin=15195|AlignEnd=15750|Gender[lex]=Unknown|SpaceAfter=No

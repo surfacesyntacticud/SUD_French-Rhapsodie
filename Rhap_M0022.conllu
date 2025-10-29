@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Rhap_M0022-1
 # old_id = Rhap_M0022-1
 # type = monologue
@@ -42,8 +41,8 @@
 15	pour	pour	ADP	_	_	14	mod	_	AlignBegin=5855|AlignEnd=6043
 16	sortir	sortir	VERB	_	VerbForm=Inf	15	comp:obj	_	AlignBegin=6043|AlignEnd=6465|Subject=NoRaising
 17	de	de	ADP	_	_	16	comp:obl	_	AlignBegin=6465|AlignEnd=6504
-18	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	19	det	_	AlignBegin=6504|AlignEnd=6745|Gender[ctxt]=Fem
-19	usine	usine	NOUN	_	_	17	comp:obj	_	AlignBegin=6745|AlignEnd=7695|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+18	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	19	det	_	AlignBegin=6504|AlignEnd=6745|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+19	usine	usine	NOUN	_	_	17	comp:obj	_	AlignBegin=6745|AlignEnd=7695|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 20	.	.	PUNCT	_	_	8	punct	_	AlignBegin=7695|AlignEnd=7695
 
 # sent_id = Rhap_M0022-2
@@ -79,9 +78,9 @@
 5	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	subj	_	AlignBegin=9225|AlignEnd=9413
 6	voit	voir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=9413|AlignEnd=9583
 7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	AlignBegin=9583|AlignEnd=10325
-8	jeune	jeune	ADJ	_	_	9	mod	_	AlignBegin=10325|AlignEnd=10633|Gender[ctxt]=Fem|Number[ctxt]=Sing
+8	jeune	jeune	ADJ	_	_	9	mod	_	AlignBegin=10325|AlignEnd=10633|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 9	fille	fille	NOUN	_	_	6	comp:obj	_	AlignBegin=10633|AlignEnd=11012|Gender[lex]=Fem|Number[ctxt]=Sing
-10	habillée	habiller	VERB	_	VerbForm=Part	9	mod	_	AlignBegin=11012|AlignEnd=11493|Gender[ctxt]=Fem|Number[ctxt]=Sing|Tense[denom]=Past
+10	habillée	habiller	VERB	_	VerbForm=Part	9	mod	_	AlignBegin=11012|AlignEnd=11493|Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 11	en	en	ADP	_	_	10	mod	_	AlignBegin=11493|AlignEnd=11626
 12	noir	noir	NOUN	_	_	11	comp:obj	_	AlignBegin=11626|AlignEnd=12203|Gender[lex]=Masc|Number[ctxt]=Sing
 13	qui	qui	PRON	_	PronType=Rel	14	subj	_	AlignBegin=12857|AlignEnd=12977
@@ -94,25 +93,23 @@
 20	qui	qui	PRON	_	PronType=Rel	21	subj	_	AlignBegin=15267|AlignEnd=15507
 21	profite	profiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj:coord	_	AlignBegin=15507|AlignEnd=16317
 22	d'	de	ADP	_	_	21	comp:obl	_	AlignBegin=16841|AlignEnd=16891|SpaceAfter=No
-23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	AlignBegin=16891|AlignEnd=16961
-24	aller	aller	NOUN	_	_	22	comp:obj	_	AlignBegin=16961|AlignEnd=17231|Gender[lex]=Masc|Number[ctxt]=Sing
+23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	AlignBegin=16891|AlignEnd=16961|LiaisonAfter=Yes
+24	aller	aller	NOUN	_	_	22	comp:obj	_	AlignBegin=16961|AlignEnd=17231|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 25	retour	retour	NOUN	_	_	24	compound	_	AlignBegin=17261|AlignEnd=17881|Gender[lex]=Masc|Number[ctxt]=Sing
-26-27	du	_	_	_	_	_	_	_	_
-26	de	de	ADP	_	_	24	udep	_	AlignBegin=17881|AlignEnd=18041
-27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	AlignBegin=17881|AlignEnd=18041
-28	boulanger	boulanger	NOUN	_	_	26	comp:obj	_	AlignBegin=18041|AlignEnd=18691|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
-29	,	,	PUNCT	_	_	31	punct	_	AlignBegin=18691|AlignEnd=18691
-30	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	31	subj	_	AlignBegin=18691|AlignEnd=18771
-31	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	discourse	_	AlignBegin=18771|AlignEnd=18861
-32	dire	dire	VERB	_	VerbForm=Inf	31	comp:obj	_	AlignBegin=18861|AlignEnd=19061|SpaceAfter=No|Subject=SubjRaising
-33	,	,	PUNCT	_	_	34	punct	_	AlignBegin=19061|AlignEnd=19912
-34	pour	pour	ADP	_	_	21	mod	_	AlignBegin=19912|AlignEnd=20125
-35	piquer	piquer	VERB	_	VerbForm=Inf	34	comp:obj	_	AlignBegin=20125|AlignEnd=20502|Subject=NoRaising
-36	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	37	det	_	AlignBegin=20502|AlignEnd=20652
-37	baguette	baguette	NOUN	_	_	35	comp:obj	_	AlignBegin=20652|AlignEnd=21313|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
-38	,	,	PUNCT	_	_	39	punct	_	AlignBegin=22150|AlignEnd=22150
-39	euh	euh	INTJ	_	_	37	discourse	_	AlignBegin=22150|AlignEnd=23308|SpaceAfter=No
-40	.	.	PUNCT	_	_	6	punct	_	AlignBegin=23308|AlignEnd=23308
+26	du	du	ADP	_	_	24	udep	_	AlignBegin=17881|AlignEnd=18041
+27	boulanger	boulanger	NOUN	_	_	26	comp:obj	_	AlignBegin=18041|AlignEnd=18691|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+28	,	,	PUNCT	_	_	30	punct	_	AlignBegin=18691|AlignEnd=18691
+29	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	30	subj	_	AlignBegin=18691|AlignEnd=18771
+30	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	discourse	_	AlignBegin=18771|AlignEnd=18861
+31	dire	dire	VERB	_	VerbForm=Inf	30	comp:obj	_	AlignBegin=18861|AlignEnd=19061|SpaceAfter=No|Subject=SubjRaising
+32	,	,	PUNCT	_	_	33	punct	_	AlignBegin=19061|AlignEnd=19912
+33	pour	pour	ADP	_	_	21	mod	_	AlignBegin=19912|AlignEnd=20125
+34	piquer	piquer	VERB	_	VerbForm=Inf	33	comp:obj	_	AlignBegin=20125|AlignEnd=20502|Subject=NoRaising
+35	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	AlignBegin=20502|AlignEnd=20652
+36	baguette	baguette	NOUN	_	_	34	comp:obj	_	AlignBegin=20652|AlignEnd=21313|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+37	,	,	PUNCT	_	_	38	punct	_	AlignBegin=22150|AlignEnd=22150
+38	euh	euh	INTJ	_	_	36	discourse	_	AlignBegin=22150|AlignEnd=23308|SpaceAfter=No
+39	.	.	PUNCT	_	_	6	punct	_	AlignBegin=23308|AlignEnd=23308
 
 # sent_id = Rhap_M0022-3
 # old_id = Rhap_M0022-3
@@ -144,17 +141,17 @@
 2	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	1	unk	_	AlignBegin=24335|AlignEnd=24817|InIdiom=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	AlignBegin=24817|AlignEnd=24817
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	AlignBegin=24817|AlignEnd=25077
-5	vieille	vieux	ADJ	_	Gender=Fem	6	mod	_	AlignBegin=25077|AlignEnd=25662|Number[ctxt]=Sing
+5	vieille	vieux	ADJ	_	Gender=Fem	6	mod	_	AlignBegin=25077|AlignEnd=25662|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 6	femme	femme	NOUN	_	Shared=Yes	10	subj	_	AlignBegin=25662|AlignEnd=26326|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=26326|AlignEnd=27047
 8	euh	euh	INTJ	_	_	6	discourse	_	AlignBegin=27047|AlignEnd=27979|SpaceAfter=No
 9	,	,	PUNCT	_	_	6	punct	_	AlignBegin=27979|AlignEnd=27979
 10	voit	voir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=27979|AlignEnd=28257
-11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	AlignBegin=28257|AlignEnd=28417
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	AlignBegin=28257|AlignEnd=28417|HasSpokenGender=OnlySingExceptWithLiaison
 12	vol	vol	NOUN	_	_	10	comp:obj	_	AlignBegin=28417|AlignEnd=29107|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	AlignBegin=29037|AlignEnd=29107
 14	prévient	prévenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj:coord	_	AlignBegin=29107|AlignEnd=29697
-15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	AlignBegin=29697|AlignEnd=29757
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	AlignBegin=29697|AlignEnd=29757|HasSpokenGender=OnlySingExceptWithLiaison
 16	boulanger	boulanger	NOUN	_	_	14	comp:obj	_	AlignBegin=29757|AlignEnd=30697|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 17	.	.	PUNCT	_	_	10	punct	_	AlignBegin=30697|AlignEnd=30697
 
@@ -184,8 +181,8 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-M0022.mp3
 # macrosyntax = la jeune fille "euh" se retrouve par terre avec Chaplin "euh" au sol //
 # text = la jeune fille, euh, se retrouve par terre avec Chaplin, euh, au sol.
-1	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	AlignBegin=31402|AlignEnd=31862
-2	jeune	jeune	ADJ	_	_	3	mod	_	AlignBegin=31862|AlignEnd=32212|Gender[ctxt]=Fem|Number[ctxt]=Sing
+1	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	AlignBegin=31402|AlignEnd=31862|HasSpokenGender=OnlySingExceptWithLiaison
+2	jeune	jeune	ADJ	_	_	3	mod	_	AlignBegin=31862|AlignEnd=32212|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 3	fille	fille	NOUN	_	_	8	subj	_	AlignBegin=32212|AlignEnd=33134|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=33134|AlignEnd=33343
 5	euh	euh	INTJ	_	_	3	discourse	_	AlignBegin=33343|AlignEnd=34222|SpaceAfter=No
@@ -199,11 +196,9 @@
 13	,	,	PUNCT	_	_	14	punct	_	AlignBegin=37396|AlignEnd=38001
 14	euh	euh	INTJ	_	_	12	discourse	_	AlignBegin=38001|AlignEnd=39251|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	AlignBegin=39191|AlignEnd=39251
-16-17	au	_	_	_	_	_	_	_	_
-16	à	à	ADP	_	_	9	conj:dicto	_	AlignBegin=39251|AlignEnd=39391
-17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	AlignBegin=39251|AlignEnd=39391
-18	sol	sol	NOUN	_	_	16	comp:obj	_	AlignBegin=39391|AlignEnd=40267|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
-19	.	.	PUNCT	_	_	8	punct	_	AlignBegin=40267|AlignEnd=40267
+16	au	au	ADP	_	_	9	conj:dicto	_	AlignBegin=39251|AlignEnd=39391
+17	sol	sol	NOUN	_	_	16	comp:obj	_	AlignBegin=39391|AlignEnd=40267|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+18	.	.	PUNCT	_	_	8	punct	_	AlignBegin=40267|AlignEnd=40267
 
 # sent_id = Rhap_M0022-5
 # old_id = Rhap_M0022-5
@@ -231,7 +226,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-M0022.mp3
 # macrosyntax = le boulanger arrive à la rattraper "euh" //
 # text = le boulanger arrive à la rattraper, euh.
-1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	AlignBegin=40682|AlignEnd=40812
+1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	AlignBegin=40682|AlignEnd=40812|HasSpokenGender=OnlySingExceptWithLiaison
 2	boulanger	boulanger	NOUN	_	_	3	subj	_	AlignBegin=40812|AlignEnd=41932|Gender[lex]=Masc|Number[ctxt]=Sing
 3	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=41932|AlignEnd=42355
 4	à	à	ADP	_	_	3	comp:obl	_	AlignBegin=42355|AlignEnd=42415
@@ -269,21 +264,21 @@
 # text = à travers la foule, le policier arrive, demande des explications, mh, de ce, euh, mh, brouhaha, euh.
 1	à	à	ADP	_	ExtPos=ADP	8	mod	_	AlignBegin=48116|AlignEnd=48196|Idiom=Yes
 2	travers	travers	NOUN	_	_	1	comp:obj	_	AlignBegin=48196|AlignEnd=48556|Gender[lex]=Masc|InIdiom=Yes
-3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	AlignBegin=48556|AlignEnd=48656
+3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	AlignBegin=48556|AlignEnd=48656|HasSpokenGender=OnlySingExceptWithLiaison
 4	foule	foule	NOUN	_	_	1	comp:obj	_	AlignBegin=48656|AlignEnd=48966|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	AlignBegin=48966|AlignEnd=48966
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	AlignBegin=48966|AlignEnd=49106
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	AlignBegin=48966|AlignEnd=49106|HasSpokenGender=OnlySingExceptWithLiaison
 7	policier	policier	NOUN	_	Shared=Yes	8	subj	_	AlignBegin=49106|AlignEnd=50252|Gender[lex]=Masc|Number[ctxt]=Sing
 8	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=50567|AlignEnd=51167|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=51167|AlignEnd=51167
 10	demande	demander	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj:coord	_	AlignBegin=51167|AlignEnd=51507
-11	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	12	det	_	AlignBegin=51507|AlignEnd=51607
-12	explications	explication	NOUN	_	_	10	comp:obj	_	AlignBegin=51607|AlignEnd=52707|Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
+11	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	12	det	_	AlignBegin=51507|AlignEnd=51607|LiaisonAfter=Yes
+12	explications	explication	NOUN	_	_	10	comp:obj	_	AlignBegin=51607|AlignEnd=52707|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	AlignBegin=52707|AlignEnd=52948
 14	mh	mh	INTJ	_	_	12	discourse	_	AlignBegin=52948|AlignEnd=53208|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	AlignBegin=53208|AlignEnd=53208
 16	de	de	ADP	_	_	12	udep	_	AlignBegin=53208|AlignEnd=53378
-17	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	23	det	_	AlignBegin=53378|AlignEnd=53638|SpaceAfter=No
+17	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	23	det	_	AlignBegin=53378|AlignEnd=53638|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	AlignBegin=53638|AlignEnd=53638
 19	euh	euh	INTJ	_	_	17	discourse	_	AlignBegin=53638|AlignEnd=54088|SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	AlignBegin=54088|AlignEnd=54088
@@ -320,7 +315,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-M0022.mp3
 # macrosyntax = le boulanger { est { très éner~ | XXX très énervé } contre la fille "euh" | explique le vol } //
 # text = le boulanger est très éner~, XXX très énervé contre la fille, euh, explique le vol.
-1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	AlignBegin=57375|AlignEnd=57525
+1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	AlignBegin=57375|AlignEnd=57525|HasSpokenGender=OnlySingExceptWithLiaison
 2	boulanger	boulanger	NOUN	_	Shared=Yes	3	subj	_	AlignBegin=57525|AlignEnd=57965|Gender[lex]=Masc|Number[ctxt]=Sing
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=57965|AlignEnd=58005
 4	très	très	ADV	_	_	5	mod	_	AlignBegin=58005|AlignEnd=58185
@@ -328,15 +323,15 @@
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=58451|AlignEnd=58451
 7	XXX	XXX	X	_	_	9	unk@scrap	_	AlignBegin=58451|AlignEnd=58666
 8	très	très	ADV	_	_	9	mod	_	AlignBegin=58963|AlignEnd=59173
-9	énervé	énervé	ADJ	_	_	5	conj:dicto	_	AlignBegin=59173|AlignEnd=59583|Gender[ctxt]=Masc|Number[ctxt]=Sing
+9	énervé	énervé	ADJ	_	_	5	conj:dicto	_	AlignBegin=59173|AlignEnd=59583|Gender[ctxt]=Masc|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 10	contre	contre	ADP	_	_	9	mod	_	AlignBegin=59583|AlignEnd=59883
-11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	AlignBegin=59883|AlignEnd=60003
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	AlignBegin=59883|AlignEnd=60003|HasSpokenGender=OnlySingExceptWithLiaison
 12	fille	fille	NOUN	_	_	10	comp:obj	_	AlignBegin=60003|AlignEnd=60558|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	AlignBegin=60558|AlignEnd=61263
 14	euh	euh	INTJ	_	_	12	discourse	_	AlignBegin=61263|AlignEnd=61893|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	AlignBegin=61893|AlignEnd=62003
 16	explique	expliquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj:coord	_	AlignBegin=62003|AlignEnd=62887
-17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	AlignBegin=62887|AlignEnd=63077
+17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	AlignBegin=62887|AlignEnd=63077|HasSpokenGender=OnlySingExceptWithLiaison
 18	vol	vol	NOUN	_	_	16	comp:obj	_	AlignBegin=63077|AlignEnd=63911|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 19	.	.	PUNCT	_	_	3	punct	_	AlignBegin=63911|AlignEnd=63911
 
@@ -368,7 +363,7 @@
 # text = Chaplin, grand seigneur, explique que, euh, c'est lui qui a la baguette et que donc il y a pas de vol, euh.
 1	Chaplin	Chaplin	PROPN	_	_	6	subj	_	AlignBegin=63911|AlignEnd=64531|Gender[lex]=Unknown|SpaceAfter=No
 2	,	,	PUNCT	_	_	4	punct	_	AlignBegin=64531|AlignEnd=64531
-3	grand	grand	ADJ	_	Gender=Masc|Number=Sing	4	mod	_	AlignBegin=64531|AlignEnd=64771
+3	grand	grand	ADJ	_	Gender=Masc	4	mod	_	AlignBegin=64531|AlignEnd=64771|HasSpokenGender=Yes|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 4	seigneur	seigneur	NOUN	_	_	1	conj:appos	_	AlignBegin=64771|AlignEnd=65661|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	AlignBegin=65661|AlignEnd=65661
 6	explique	expliquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=65661|AlignEnd=66163
@@ -381,7 +376,7 @@
 13	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	comp:pred	_	AlignBegin=67502|AlignEnd=67662
 14	qui	qui	PRON	_	PronType=Rel	15	subj	_	AlignBegin=67662|AlignEnd=67712
 15	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	comp:cleft	_	AlignBegin=67712|AlignEnd=67782|Filler=subj
-16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	AlignBegin=67782|AlignEnd=67872
+16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	AlignBegin=67782|AlignEnd=67872|HasSpokenGender=OnlySingExceptWithLiaison
 17	baguette	baguette	NOUN	_	_	15	comp:obj	_	AlignBegin=67872|AlignEnd=68482|Gender[lex]=Fem|Number[ctxt]=Sing
 18	et	et	CCONJ	_	_	19	cc	_	AlignBegin=68482|AlignEnd=68552
 19	que	que	SCONJ	_	_	7	conj:coord	_	AlignBegin=68552|AlignEnd=68662
@@ -425,18 +420,16 @@
 1	sauf	sauf	CCONJ	_	ExtPos=SCONJ	0	root	_	AlignBegin=71019|AlignEnd=71259|Idiom=Yes
 2	que	que	SCONJ	_	_	1	unk	_	AlignBegin=71259|AlignEnd=71379|InIdiom=Yes
 3	pour	pour	ADP	_	_	8	mod	_	AlignBegin=71379|AlignEnd=71529
-4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	AlignBegin=71529|AlignEnd=71589
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	AlignBegin=71529|AlignEnd=71589|HasSpokenGender=OnlySingExceptWithLiaison
 5	policier	policier	NOUN	_	_	3	comp:obj	_	AlignBegin=71589|AlignEnd=72079|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	AlignBegin=72079|AlignEnd=72079
 7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	subj	_	AlignBegin=72079|AlignEnd=72149|SpaceAfter=No
 8	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	AlignBegin=72149|AlignEnd=72239
 9	quand	quand	SCONJ	_	ExtPos=ADV	8	mod	_	AlignBegin=72239|AlignEnd=72379|Idiom=Yes
 10	même	même	ADV	_	_	9	unk	_	AlignBegin=72379|AlignEnd=72469|InIdiom=Yes
-11-12	du	_	_	_	_	_	_	_	_
-11	de	de	ADP	_	_	8	comp:obl	_	AlignBegin=72469|AlignEnd=72578
-12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	AlignBegin=72469|AlignEnd=72578
-13	vol	vol	NOUN	_	_	11	comp:obj	_	AlignBegin=72578|AlignEnd=73009|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
-14	.	.	PUNCT	_	_	1	punct	_	AlignBegin=73009|AlignEnd=73009
+11	du	du	ADP	_	_	8	comp:obl	_	AlignBegin=72469|AlignEnd=72578
+12	vol	vol	NOUN	_	_	11	comp:obj	_	AlignBegin=72578|AlignEnd=73009|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+13	.	.	PUNCT	_	_	1	punct	_	AlignBegin=73009|AlignEnd=73009
 
 # sent_id = Rhap_M0022-10
 # old_id = Rhap_M0022-10
@@ -473,7 +466,7 @@
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=74655|AlignEnd=74655
 8	mh	mh	INTJ	_	_	4	discourse	_	AlignBegin=74655|AlignEnd=75115|SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	AlignBegin=75115|AlignEnd=77009
-10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	AlignBegin=77009|AlignEnd=77216
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	AlignBegin=77009|AlignEnd=77216|HasSpokenGender=OnlySingExceptWithLiaison
 11	Chaplin	Chaplin	PROPN	_	_	4	comp:obj	_	AlignBegin=77216|AlignEnd=78267|Gender[lex]=Unknown
 12	pour	pour	ADP	_	_	4	mod	_	AlignBegin=78932|AlignEnd=79272
 13	ensuite	ensuite	ADV	_	_	12	comp:obj@scrap	_	AlignBegin=79272|AlignEnd=80900|SpaceAfter=No
@@ -538,24 +531,24 @@
 # text = donc, tout le monde s'en va, y compris la foule puisque la foule est intéressée par les flics, euh.
 1	donc	donc	ADV	_	_	8	mod	_	AlignBegin=82589|AlignEnd=82799|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=82799|AlignEnd=82799
-3	tout	tout	ADJ	_	Gender=Masc	5	mod	_	AlignBegin=82799|AlignEnd=82899|Number[ctxt]=Sing
-4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	5	det	_	AlignBegin=82899|AlignEnd=82940
+3	tout	tout	ADJ	_	Gender=Masc	5	mod	_	AlignBegin=82799|AlignEnd=82899|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	5	det	_	AlignBegin=82899|AlignEnd=82940|HasSpokenGender=OnlySingExceptWithLiaison
 5	monde	monde	NOUN	_	_	8	subj	_	AlignBegin=82940|AlignEnd=83059|Gender[lex]=Masc|Number[ctxt]=Sing
 6	s'	soi	PRON	_	Person=3|PronType=Prs	8	comp@expl	_	AlignBegin=83059|AlignEnd=83143|SpaceAfter=No
 7	en	en	PRON	_	Person=3|PronType=Prs	8	comp@expl	_	AlignBegin=83143|AlignEnd=83239
 8	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=83239|AlignEnd=83539|SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	AlignBegin=83539|AlignEnd=83539
 10	y	y	PRON	_	Person=3|PronType=Prs	11	comp	_	AlignBegin=83539|AlignEnd=83589|InIdiom=Yes
-11	compris	comprendre	VERB	_	ExtPos=ADP|Gender=Masc|VerbForm=Part	13	mod	_	AlignBegin=83589|AlignEnd=83889|Idiom=Yes|Number[ctxt]=Sing|Tense[denom]=Past
-12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	AlignBegin=83889|AlignEnd=84039
+11	compris	comprendre	VERB	_	ExtPos=ADP|Gender=Masc|VerbForm=Part	13	mod	_	AlignBegin=83589|AlignEnd=83889|Idiom=Yes|Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	AlignBegin=83889|AlignEnd=84039|HasSpokenGender=OnlySingExceptWithLiaison
 13	foule	foule	NOUN	_	_	5	conj:coord	_	AlignBegin=84039|AlignEnd=84412|Gender[lex]=Fem|Number[ctxt]=Sing
 14	puisque	puisque	SCONJ	_	_	13	mod	_	AlignBegin=84412|AlignEnd=84767
-15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	AlignBegin=84767|AlignEnd=84877
+15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	AlignBegin=84767|AlignEnd=84877|HasSpokenGender=OnlySingExceptWithLiaison
 16	foule	foule	NOUN	_	_	17	subj@pass	_	AlignBegin=84877|AlignEnd=85107|Gender[lex]=Fem|Number[ctxt]=Sing
 17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	comp:obj	_	AlignBegin=85107|AlignEnd=85157
-18	intéressée	intéresser	VERB	_	VerbForm=Part|Voice=Pass	17	comp:aux@pass	_	AlignBegin=85157|AlignEnd=85657|Gender[ctxt]=Fem|Number[ctxt]=Sing|Tense[denom]=Past
+18	intéressée	intéresser	VERB	_	VerbForm=Part|Voice=Pass	17	comp:aux@pass	_	AlignBegin=85157|AlignEnd=85657|Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 19	par	par	ADP	_	_	18	comp:obl@agent	_	AlignBegin=85657|AlignEnd=85847
-20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	AlignBegin=85847|AlignEnd=85933
+20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	AlignBegin=85847|AlignEnd=85933|HasSpokenGender=OnlySingExceptWithLiaison
 21	flics	flic	NOUN	_	_	19	comp:obj	_	AlignBegin=85933|AlignEnd=86495|Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	AlignBegin=86495|AlignEnd=86495
 23	euh	euh	INTJ	_	_	21	discourse	_	AlignBegin=86495|AlignEnd=87641|SpaceAfter=No
@@ -594,45 +587,43 @@
 5	donc	donc	ADV	_	_	3	discourse	_	AlignBegin=88317|AlignEnd=88607|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=88607|AlignEnd=88607
 7	avec	avec	ADP	_	_	3	mod	_	AlignBegin=88607|AlignEnd=88927
-8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	9	det	_	AlignBegin=88927|AlignEnd=89007
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	9	det	_	AlignBegin=88927|AlignEnd=89007|HasSpokenGender=OnlySingExceptWithLiaison
 9	boulanger	boulanger	NOUN	_	_	7	comp:obj	_	AlignBegin=89007|AlignEnd=89687|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 10	,	,	PUNCT	_	_	13	punct	_	AlignBegin=89687|AlignEnd=90927
-11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	AlignBegin=90927|AlignEnd=91067
-12	jeune	jeune	ADJ	_	_	13	mod	_	AlignBegin=91067|AlignEnd=91317|Gender[ctxt]=Fem|Number[ctxt]=Sing
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	AlignBegin=90927|AlignEnd=91067|HasSpokenGender=OnlySingExceptWithLiaison
+12	jeune	jeune	ADJ	_	_	13	mod	_	AlignBegin=91067|AlignEnd=91317|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 13	fille	fille	NOUN	_	_	9	conj:coord	_	AlignBegin=91317|AlignEnd=91457|Gender[lex]=Fem|Number[ctxt]=Sing
-14-15	au	_	_	_	_	_	_	_	_
-14	à	à	ADP	_	_	13	udep	_	AlignBegin=91457|AlignEnd=91627
-15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	AlignBegin=91457|AlignEnd=91627
-16	sol	sol	NOUN	_	_	14	comp:obj	_	AlignBegin=91627|AlignEnd=92040|Gender[lex]=Masc|Number[ctxt]=Sing
-17	et	et	CCONJ	_	_	20	cc	_	AlignBegin=92509|AlignEnd=92729
-18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	AlignBegin=92729|AlignEnd=92989
-19	vieille	vieux	ADJ	_	Gender=Fem	20	mod	_	AlignBegin=92989|AlignEnd=93189|Number[ctxt]=Sing
-20	dame	dame	NOUN	_	_	13	conj:coord	_	AlignBegin=93189|AlignEnd=93449|Gender[lex]=Fem|Number[ctxt]=Sing
-21	qui	qui	PRON	_	PronType=Rel	22	subj	_	AlignBegin=93449|AlignEnd=93596
-22	revient	revenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	mod@relcl	_	AlignBegin=93596|AlignEnd=93929
-23	vers	vers	ADP	_	_	22	comp:obl	_	AlignBegin=93929|AlignEnd=94089
-24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	AlignBegin=94089|AlignEnd=94149
-25	boulanger	boulanger	NOUN	_	_	23	comp:obj	_	AlignBegin=94149|AlignEnd=94749|Gender[lex]=Masc|Number[ctxt]=Sing
-26	pour	pour	ADP	_	_	22	mod	_	AlignBegin=94749|AlignEnd=94939
-27	lui	lui	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=3|PronType=Prs	28	comp:obl	_	AlignBegin=94939|AlignEnd=95049
-28	dire	dire	VERB	_	VerbForm=Inf	26	comp:obj	_	AlignBegin=95049|AlignEnd=95309|Subject=NoRaising
-29	non	non	ADV	_	Polarity=Neg	33	discourse	_	AlignBegin=95309|AlignEnd=95578|SpaceAfter=No
-30	,	,	PUNCT	_	_	29	punct	_	AlignBegin=95578|AlignEnd=95578
-31	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	33	subj	_	AlignBegin=95578|AlignEnd=95783
-32	n'	ne	ADV	_	Polarity=Neg	33	mod	_	AlignBegin=95783|AlignEnd=95863|SpaceAfter=No
-33	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	comp:obj	_	AlignBegin=95863|AlignEnd=95933|Reported=Yes
-34	pas	pas	ADV	_	Polarity=Neg	33	mod	_	AlignBegin=95933|AlignEnd=96103
-35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	AlignBegin=96103|AlignEnd=96163
-36	monsieur	monsieur	NOUN	_	Number=Sing	33	comp:pred	_	AlignBegin=96163|AlignEnd=96673|Gender[lex]=Masc|SpaceAfter=No
-37	,	,	PUNCT	_	_	40	punct	_	AlignBegin=96673|AlignEnd=96673
-38	mais	mais	CCONJ	_	_	40	cc	_	AlignBegin=96673|AlignEnd=96783
-39	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	40	subj	_	AlignBegin=96783|AlignEnd=96873|SpaceAfter=No
-40	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	conj:coord	_	AlignBegin=96873|AlignEnd=96933
-41	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	43	det	_	AlignBegin=96933|AlignEnd=97023
-42	jeune	jeune	ADJ	_	_	43	mod	_	AlignBegin=97023|AlignEnd=97243|Gender[ctxt]=Fem|Number[ctxt]=Sing
-43	fille	fille	NOUN	_	_	40	comp:pred	_	AlignBegin=97243|AlignEnd=97513|Gender[lex]=Fem|Number[ctxt]=Sing
-44	effectivement	effectivement	ADV	_	_	40	mod	_	AlignBegin=97513|AlignEnd=98063|SpaceAfter=No
-45	.	.	PUNCT	_	_	3	punct	_	AlignBegin=98063|AlignEnd=98063
+14	au	au	ADP	_	_	13	udep	_	AlignBegin=91457|AlignEnd=91627
+15	sol	sol	NOUN	_	_	14	comp:obj	_	AlignBegin=91627|AlignEnd=92040|Gender[lex]=Masc|Number[ctxt]=Sing
+16	et	et	CCONJ	_	_	19	cc	_	AlignBegin=92509|AlignEnd=92729
+17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	AlignBegin=92729|AlignEnd=92989|HasSpokenGender=OnlySingExceptWithLiaison
+18	vieille	vieux	ADJ	_	Gender=Fem	19	mod	_	AlignBegin=92989|AlignEnd=93189|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
+19	dame	dame	NOUN	_	_	13	conj:coord	_	AlignBegin=93189|AlignEnd=93449|Gender[lex]=Fem|Number[ctxt]=Sing
+20	qui	qui	PRON	_	PronType=Rel	21	subj	_	AlignBegin=93449|AlignEnd=93596
+21	revient	revenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	mod@relcl	_	AlignBegin=93596|AlignEnd=93929
+22	vers	vers	ADP	_	_	21	comp:obl	_	AlignBegin=93929|AlignEnd=94089
+23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	AlignBegin=94089|AlignEnd=94149|HasSpokenGender=OnlySingExceptWithLiaison
+24	boulanger	boulanger	NOUN	_	_	22	comp:obj	_	AlignBegin=94149|AlignEnd=94749|Gender[lex]=Masc|Number[ctxt]=Sing
+25	pour	pour	ADP	_	_	21	mod	_	AlignBegin=94749|AlignEnd=94939
+26	lui	lui	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=3|PronType=Prs	27	comp:obl	_	AlignBegin=94939|AlignEnd=95049
+27	dire	dire	VERB	_	VerbForm=Inf	25	comp:obj	_	AlignBegin=95049|AlignEnd=95309|Subject=NoRaising
+28	non	non	ADV	_	Polarity=Neg	32	discourse	_	AlignBegin=95309|AlignEnd=95578|SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	AlignBegin=95578|AlignEnd=95578
+30	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	32	subj	_	AlignBegin=95578|AlignEnd=95783
+31	n'	ne	ADV	_	Polarity=Neg	32	mod	_	AlignBegin=95783|AlignEnd=95863|SpaceAfter=No
+32	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	comp:obj	_	AlignBegin=95863|AlignEnd=95933|Reported=Yes
+33	pas	pas	ADV	_	Polarity=Neg	32	mod	_	AlignBegin=95933|AlignEnd=96103
+34	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	AlignBegin=96103|AlignEnd=96163|HasSpokenGender=OnlySingExceptWithLiaison
+35	monsieur	monsieur	NOUN	_	Number=Sing	32	comp:pred	_	AlignBegin=96163|AlignEnd=96673|Gender[lex]=Masc|SpaceAfter=No
+36	,	,	PUNCT	_	_	39	punct	_	AlignBegin=96673|AlignEnd=96673
+37	mais	mais	CCONJ	_	_	39	cc	_	AlignBegin=96673|AlignEnd=96783
+38	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	39	subj	_	AlignBegin=96783|AlignEnd=96873|SpaceAfter=No
+39	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	conj:coord	_	AlignBegin=96873|AlignEnd=96933
+40	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	AlignBegin=96933|AlignEnd=97023|HasSpokenGender=OnlySingExceptWithLiaison
+41	jeune	jeune	ADJ	_	_	42	mod	_	AlignBegin=97023|AlignEnd=97243|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
+42	fille	fille	NOUN	_	_	39	comp:pred	_	AlignBegin=97243|AlignEnd=97513|Gender[lex]=Fem|Number[ctxt]=Sing
+43	effectivement	effectivement	ADV	_	_	39	mod	_	AlignBegin=97513|AlignEnd=98063|SpaceAfter=No
+44	.	.	PUNCT	_	_	3	punct	_	AlignBegin=98063|AlignEnd=98063
 
 # sent_id = Rhap_M0022-14
 # old_id = Rhap_M0022-14
@@ -665,7 +656,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=99926|AlignEnd=99926
 4	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	5	subj@pass	_	AlignBegin=99926|AlignEnd=99996
 5	es	être	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=99996|AlignEnd=100046
-6	revenue	revenir	VERB	_	VerbForm=Part|Voice=Pass	5	comp:aux@pass	_	AlignBegin=100046|AlignEnd=100623|Gender[ctxt]=Fem|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+6	revenue	revenir	VERB	_	VerbForm=Part|Voice=Pass	5	comp:aux@pass	_	AlignBegin=100046|AlignEnd=100623|Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=100623|AlignEnd=100623
 8	euh	euh	INTJ	_	_	6	discourse	_	AlignBegin=100623|AlignEnd=100846|SpaceAfter=No
 9	.	.	PUNCT	_	_	5	punct	_	AlignBegin=100846|AlignEnd=100846
