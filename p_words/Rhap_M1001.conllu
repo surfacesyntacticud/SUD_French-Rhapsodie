@@ -94,7 +94,7 @@
 # text = j'ai eu l'obtention de mon bac, euh, donc, l'année dernière.
 1	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=2230|AlignEnd=2455|SpaceAfter=No
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=2455|AlignEnd=2613
-3	eu	avoir	VERB	_	VerbForm=Part|Voice=Act	2	comp:aux@tense	_	AlignBegin=2613|AlignEnd=2977|Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+3	eu	avoir	VERB	_	VerbForm=Part|Voice=Act	2	comp:aux@tense	_	AlignBegin=2613|AlignEnd=2977|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	AlignBegin=2977|AlignEnd=3025|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 5	obtention	obtention	NOUN	_	_	3	comp:obj	_	AlignBegin=3025|AlignEnd=3425|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 6	de	de	ADP	_	_	5	udep	_	AlignBegin=3425|AlignEnd=3461
@@ -107,7 +107,7 @@
 13	,	,	PUNCT	_	_	15	punct	_	AlignBegin=4149|AlignEnd=4149
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	AlignBegin=4149|AlignEnd=4189|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 15	année	année	NOUN	_	_	2	mod	_	AlignBegin=4189|AlignEnd=4379|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
-16	dernière	dernier	ADJ	_	Gender=Fem	15	mod	_	AlignBegin=4379|AlignEnd=4744|HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
+16	dernière	dernier	ADJ	_	Gender=Fem	15	mod	_	AlignBegin=4379|AlignEnd=4744|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 17	.	.	PUNCT	_	_	2	punct	_	AlignBegin=4744|AlignEnd=4744
 
 # sent_id = Rhap_M1001-4
@@ -146,7 +146,7 @@
 8	SMS	SMS	PROPN	_	_	4	mod@appos	_	AlignBegin=5895|AlignEnd=6520|Gender[lex]=Unknown|SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	AlignBegin=6520|AlignEnd=6520
 10	donc	donc	ADV	_	_	11	mod	_	AlignBegin=6520|AlignEnd=6750
-11	technologique	technologique	ADJ	_	_	8	conj:appos	_	AlignBegin=6750|AlignEnd=7340|Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+11	technologique	technologique	ADJ	_	_	8	conj:appos	_	AlignBegin=6750|AlignEnd=7340|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct	_	AlignBegin=7340|AlignEnd=7340
 
 # sent_id = Rhap_M1001-5
@@ -178,7 +178,7 @@
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	AlignBegin=7497|AlignEnd=7542|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=7542|AlignEnd=7592
 3	sciences	science	NOUN	_	_	2	comp:pred	_	AlignBegin=7592|AlignEnd=7842|Gender[lex]=Fem|Number[ctxt]=Plur
-4	médico-sociales	médico-sociale	ADJ	_	_	3	mod	_	AlignBegin=7842|AlignEnd=8462|Gender[ctxt]=Fem|Number[ctxt]=Plur|SpaceAfter=No
+4	médico-sociales	médico-sociale	ADJ	_	_	3	mod	_	AlignBegin=7842|AlignEnd=8462|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	AlignBegin=8462|AlignEnd=8462
 
 # sent_id = Rhap_M1001-6
@@ -309,7 +309,7 @@
 21	,	,	PUNCT	_	_	18	punct	_	AlignBegin=16469|AlignEnd=17387
 22	XXX	XXX	X	_	_	23	unk	_	AlignBegin=17387|AlignEnd=17805
 23	sciences	science	NOUN	_	_	16	conj:dicto	_	AlignBegin=17805|AlignEnd=18000|Gender[lex]=Fem|Number[ctxt]=Plur
-24	médico-sociales	médico-sociale	ADJ	_	_	23	mod	_	AlignBegin=18000|AlignEnd=18650|Gender[ctxt]=Fem|Number[ctxt]=Plur|SpaceAfter=No
+24	médico-sociales	médico-sociale	ADJ	_	_	23	mod	_	AlignBegin=18000|AlignEnd=18650|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|SpaceAfter=No
 25	.	.	PUNCT	_	_	3	punct	_	AlignBegin=18650|AlignEnd=18650
 
 # sent_id = Rhap_M1001-9
@@ -348,10 +348,10 @@
 8	,	,	PUNCT	_	_	2	punct	_	AlignBegin=19516|AlignEnd=19516
 9	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	10	subj	_	AlignBegin=19516|AlignEnd=19601|SpaceAfter=No
 10	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=19601|AlignEnd=19661
-11	choisi	choisir	VERB	_	VerbForm=Part|Voice=Act	10	comp:aux@tense	_	AlignBegin=19661|AlignEnd=19951|Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+11	choisi	choisir	VERB	_	VerbForm=Part|Voice=Act	10	comp:aux@tense	_	AlignBegin=19661|AlignEnd=19951|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 12	italien	italien	NOUN	_	_	11	comp:obj	_	AlignBegin=19951|AlignEnd=20261|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 13	en	en	ADP	_	_	10	mod	_	AlignBegin=20261|AlignEnd=20351
-14	deuxième	deuxième	ADJ	_	_	15	mod	_	AlignBegin=20351|AlignEnd=20631|Gender[ctxt]=Masc|Number[ctxt]=Sing
+14	deuxième	deuxième	ADJ	_	_	15	mod	_	AlignBegin=20351|AlignEnd=20631|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 15	choix	choix	NOUN	_	_	13	comp:obj	_	AlignBegin=20631|AlignEnd=20865|Gender[lex]=Masc|SpaceAfter=No
 16	.	.	PUNCT	_	_	10	punct	_	AlignBegin=20865|AlignEnd=20865
 
@@ -382,7 +382,7 @@
 # macrosyntax = mon premier choix "euh" < c'était "euh" psychologie //
 # text = mon premier choix, euh, c'était, euh, psychologie.
 1	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	3	det	_	AlignBegin=20865|AlignEnd=20970|HasSpokenGender=OnlySingExceptWithLiaison
-2	premier	premier	ADJ	_	Gender=Masc	3	mod	_	AlignBegin=20970|AlignEnd=21210|HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing
+2	premier	premier	ADJ	_	Gender=Masc	3	mod	_	AlignBegin=20970|AlignEnd=21210|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 3	choix	choix	NOUN	_	Number=Sing	8	dislocated:subj	_	AlignBegin=21210|AlignEnd=21570|Gender[lex]=Masc|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=21570|AlignEnd=21570
 5	euh	euh	INTJ	_	_	3	discourse	_	AlignBegin=21570|AlignEnd=21600|SpaceAfter=No
@@ -431,7 +431,7 @@
 8	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=24542|AlignEnd=24592
 9	pas	pas	ADV	_	Polarity=Neg	8	mod	_	AlignBegin=24592|AlignEnd=24669
 10	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux@tense	_	AlignBegin=24669|AlignEnd=24802
-11	acceptée	accepter	VERB	_	VerbForm=Part|Voice=Pass	10	comp:aux@pass	_	AlignBegin=24802|AlignEnd=25157|Gender[ctxt]=Fem|Number[ctxt]=Sing|Tense[denom]=Past
+11	acceptée	accepter	VERB	_	VerbForm=Part|Voice=Pass	10	comp:aux@pass	_	AlignBegin=24802|AlignEnd=25157|Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 12	parce	parce	ADV	_	ExtPos=SCONJ	8	mod	_	AlignBegin=25157|AlignEnd=25292|Idiom=Yes
 13	qu'	que	SCONJ	_	_	12	unk	_	AlignBegin=25292|AlignEnd=25321|InIdiom=Yes|SpaceAfter=No
 14	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	subj@expl	_	AlignBegin=25321|AlignEnd=25352
@@ -439,7 +439,7 @@
 16	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	comp:obj	_	AlignBegin=25412|AlignEnd=25502
 17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	AlignBegin=25502|AlignEnd=25532|LiaisonAfter=Yes
 18	entretien	entretien	NOUN	_	_	16	comp:obj	_	AlignBegin=25532|AlignEnd=25912|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
-19	oral	oral	ADJ	_	Number=Sing	18	mod	_	AlignBegin=25912|AlignEnd=26142|Gender[ctxt]=Masc|HasSpokenNumber=AlwaysMasc|SpaceAfter=No
+19	oral	oral	ADJ	_	Number=Sing	18	mod	_	AlignBegin=25912|AlignEnd=26142|Gender[ctxt]=Masc|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|SpaceAfter=No
 20	.	.	PUNCT	_	_	8	punct	_	AlignBegin=26142|AlignEnd=26142
 
 # sent_id = Rhap_M1001-12
@@ -550,7 +550,7 @@
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=29533|AlignEnd=29533
 10	s~	s~	X	_	_	5	comp:pred	_	AlignBegin=29533|AlignEnd=29563|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	AlignBegin=29563|AlignEnd=29906
-12	stupide	stupide	ADJ	_	_	10	conj:dicto	_	AlignBegin=29906|AlignEnd=30308|Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+12	stupide	stupide	ADJ	_	_	10	conj:dicto	_	AlignBegin=29906|AlignEnd=30308|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	AlignBegin=30308|AlignEnd=30308
 
 # sent_id = Rhap_M1001-15
@@ -583,10 +583,10 @@
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=30947|AlignEnd=30947
 3	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=30947|AlignEnd=30997|SpaceAfter=No
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=30997|AlignEnd=31077
-5	pris	prendre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	4	comp:aux@tense	_	AlignBegin=31077|AlignEnd=31197|Tense[denom]=Past
+5	pris	prendre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	4	comp:aux@tense	_	AlignBegin=31077|AlignEnd=31197|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 6	italien	italien	NOUN	_	_	5	comp:obj	_	AlignBegin=31197|AlignEnd=31437|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 7	en	en	ADP	_	_	4	mod	_	AlignBegin=31437|AlignEnd=31467
-8	deuxième	deuxième	ADJ	_	_	9	mod	_	AlignBegin=31467|AlignEnd=31717|Gender[ctxt]=Masc|Number[ctxt]=Sing
+8	deuxième	deuxième	ADJ	_	_	9	mod	_	AlignBegin=31467|AlignEnd=31717|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 9	choix	choix	NOUN	_	_	7	comp:obj	_	AlignBegin=31717|AlignEnd=31897|Gender[lex]=Masc
 10	parce	parce	ADV	_	ExtPos=SCONJ	4	mod	_	AlignBegin=31897|AlignEnd=32107|Idiom=Yes
 11	que	que	SCONJ	_	_	10	unk	_	AlignBegin=32107|AlignEnd=32243|InIdiom=Yes
@@ -630,7 +630,7 @@
 # text = je suis bilingue.
 1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=33619|AlignEnd=33774
 2	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=33774|AlignEnd=33964
-3	bilingue	bilingue	ADJ	_	_	2	comp:pred	_	AlignBegin=33964|AlignEnd=34268|Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+3	bilingue	bilingue	ADJ	_	_	2	comp:pred	_	AlignBegin=33964|AlignEnd=34268|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	AlignBegin=34268|AlignEnd=34268
 
 # sent_id = Rhap_M1001-17
@@ -1030,11 +1030,11 @@
 7	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	8	subj	_	AlignBegin=61635|AlignEnd=61705
 8	passerai	passer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	AlignBegin=61705|AlignEnd=61905
 9	en	en	ADP	_	_	8	comp:obl	_	AlignBegin=61905|AlignEnd=62025
-10	deuxième	deuxième	ADJ	_	Number=Sing	11	mod	_	AlignBegin=62025|AlignEnd=62325|Gender[ctxt]=Fem|LiaisonAfter=Yes
+10	deuxième	deuxième	ADJ	_	Number=Sing	11	mod	_	AlignBegin=62025|AlignEnd=62325|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes
 11	année	année	NOUN	_	_	9	comp:obj	_	AlignBegin=62325|AlignEnd=62575|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=62575|AlignEnd=62575
 13	en	en	ADP	_	_	9	conj:dicto	_	AlignBegin=62575|AlignEnd=62675
-14	troisième	troisième	ADJ	_	Number=Sing	15	mod	_	AlignBegin=62675|AlignEnd=62935|Gender[ctxt]=Fem|LiaisonAfter=Yes
+14	troisième	troisième	ADJ	_	Number=Sing	15	mod	_	AlignBegin=62675|AlignEnd=62935|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes
 15	année	année	NOUN	_	_	13	comp:obj	_	AlignBegin=62935|AlignEnd=63293|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 16	.	.	PUNCT	_	_	8	punct	_	AlignBegin=63293|AlignEnd=63293
 
@@ -1123,7 +1123,7 @@
 18	,	,	PUNCT	_	_	20	punct	_	AlignBegin=68307|AlignEnd=68307
 19	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	20	subj	_	AlignBegin=68307|AlignEnd=68342|SpaceAfter=No
 20	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	conj:dicto	_	AlignBegin=68342|AlignEnd=68425
-21	appris	apprendre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	20	comp:aux@tense	_	AlignBegin=68425|AlignEnd=68650|Tense[denom]=Past
+21	appris	apprendre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	20	comp:aux@tense	_	AlignBegin=68425|AlignEnd=68650|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 22	beaucoup	beaucoup	ADV	_	_	21	comp:obj	_	AlignBegin=68650|AlignEnd=68870
 23	de	de	ADP	_	_	22	comp:obl	_	AlignBegin=68870|AlignEnd=68900
 24	choses	chose	NOUN	_	_	23	comp:obj	_	AlignBegin=68900|AlignEnd=69220|Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
@@ -1162,7 +1162,7 @@
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj	_	AlignBegin=69600|AlignEnd=69645|SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=69645|AlignEnd=69755
 7	très	très	ADV	_	_	8	mod	_	AlignBegin=69755|AlignEnd=69885
-8	intéressant	intéressant	ADJ	_	Gender=Masc	6	comp:pred	_	AlignBegin=69885|AlignEnd=70315|HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
+8	intéressant	intéressant	ADJ	_	Gender=Masc	6	comp:pred	_	AlignBegin=69885|AlignEnd=70315|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 9	.	.	PUNCT	_	_	6	punct	_	AlignBegin=70315|AlignEnd=70315
 
 # sent_id = Rhap_M1001-29
@@ -1282,7 +1282,7 @@
 13	,	,	PUNCT	_	_	15	punct	_	AlignBegin=77150|AlignEnd=77150
 14	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	15	subj	_	AlignBegin=77150|AlignEnd=77225
 15	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	conj:coord	_	AlignBegin=77225|AlignEnd=77315
-16	compréhensive	compréhensif	ADJ	_	Gender=Fem	15	comp:pred	_	AlignBegin=77315|AlignEnd=78095|HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
+16	compréhensive	compréhensif	ADJ	_	Gender=Fem	15	comp:pred	_	AlignBegin=77315|AlignEnd=78095|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	AlignBegin=78095|AlignEnd=78095
 18	et	et	CCONJ	_	_	19	cc	_	AlignBegin=78095|AlignEnd=78275
 19	que	que	SCONJ	_	_	5	conj:coord	_	AlignBegin=78275|AlignEnd=78425|SpaceAfter=No
@@ -1316,7 +1316,7 @@
 # text = enfin, tout le monde me dit que je suis plus, euh, faite pour, euh, pour, euh, ces métiers-là et ces études-là que pour l'italien.
 1	enfin	enfin	ADV	_	_	7	discourse	_	AlignBegin=78425|AlignEnd=78635|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=78635|AlignEnd=78635
-3	tout	tout	ADJ	_	Gender=Masc	5	mod	_	AlignBegin=78635|AlignEnd=78755|HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Sing
+3	tout	tout	ADJ	_	Gender=Masc	5	mod	_	AlignBegin=78635|AlignEnd=78755|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	AlignBegin=78755|AlignEnd=78811|HasSpokenGender=OnlySingExceptWithLiaison
 5	monde	monde	NOUN	_	_	7	subj	_	AlignBegin=78811|AlignEnd=78935|Gender[lex]=Masc|Number[ctxt]=Sing
 6	me	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	7	comp:obl	_	AlignBegin=78935|AlignEnd=79025
@@ -1328,7 +1328,7 @@
 12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=79855|AlignEnd=79855
 13	euh	euh	INTJ	_	_	11	discourse	_	AlignBegin=79855|AlignEnd=80085|SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	AlignBegin=80085|AlignEnd=80085
-15	faite	faire	VERB	_	Gender=Fem|VerbForm=Part|Voice=Pass	10	comp:aux@pass	_	AlignBegin=80085|AlignEnd=80315|Number[ctxt]=Sing|Tense[denom]=Past
+15	faite	faire	VERB	_	Gender=Fem|VerbForm=Part|Voice=Pass	10	comp:aux@pass	_	AlignBegin=80085|AlignEnd=80315|Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 16	pour	pour	ADP	_	_	15	mod	_	AlignBegin=80315|AlignEnd=80505|SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	AlignBegin=80505|AlignEnd=80505
 18	euh	euh	INTJ	_	_	25	discourse	_	AlignBegin=80505|AlignEnd=80787|SpaceAfter=No

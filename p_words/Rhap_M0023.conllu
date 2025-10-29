@@ -35,7 +35,7 @@
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=1119|AlignEnd=1119
 10	euh	euh	INTJ	_	_	8	discourse	_	AlignBegin=1119|AlignEnd=1847|SpaceAfter=No
 11	,	,	PUNCT	_	_	8	punct	_	AlignBegin=1847|AlignEnd=1847
-12	jeune	jeune	ADJ	_	_	13	mod	_	AlignBegin=1847|AlignEnd=2065|Gender[ctxt]=Fem|Number[ctxt]=Sing
+12	jeune	jeune	ADJ	_	_	13	mod	_	AlignBegin=1847|AlignEnd=2065|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 13	fille	fille	NOUN	_	_	7	comp:obj	_	AlignBegin=2065|AlignEnd=2510|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	AlignBegin=2510|AlignEnd=2510
 15	euh	euh	INTJ	_	_	13	discourse	_	AlignBegin=2510|AlignEnd=3175|SpaceAfter=No
@@ -74,7 +74,7 @@
 3	,	,	PUNCT	_	_	1	punct	_	AlignBegin=3995|AlignEnd=3995
 4	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	5	subj	_	AlignBegin=3995|AlignEnd=4041|SpaceAfter=No
 5	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=4041|AlignEnd=4105
-6	commencé	commencer	VERB	_	VerbForm=Part|Voice=Act	5	comp:aux@tense	_	AlignBegin=4105|AlignEnd=4551|Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+6	commencé	commencer	VERB	_	VerbForm=Part|Voice=Act	5	comp:aux@tense	_	AlignBegin=4105|AlignEnd=4551|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 7	.	.	PUNCT	_	_	5	punct	_	AlignBegin=4551|AlignEnd=4551
 
 # sent_id = Rhap_M0023-3
@@ -263,7 +263,7 @@
 10	y	y	PRON	_	Person=3|PronType=Prs	11	comp@expl	_	AlignBegin=20715|AlignEnd=20745
 11	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=20745|AlignEnd=20792
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	AlignBegin=20792|AlignEnd=20912|HasSpokenGender=OnlySingExceptWithLiaison
-13	jeune	jeune	ADJ	_	_	14	mod	_	AlignBegin=20912|AlignEnd=21132|Gender[ctxt]=Fem|Number[ctxt]=Sing
+13	jeune	jeune	ADJ	_	_	14	mod	_	AlignBegin=20912|AlignEnd=21132|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 14	fille	fille	NOUN	_	_	11	comp:obj	_	AlignBegin=21132|AlignEnd=21401|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 15	.	.	PUNCT	_	_	11	punct	_	AlignBegin=21401|AlignEnd=21401
 
@@ -297,7 +297,7 @@
 2	y	y	PRON	_	Person=3|PronType=Prs	3	comp@expl	_	AlignBegin=21474|AlignEnd=21522
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=21474|AlignEnd=21522|AttachTo=11@Rhap_M0023-6|Rel=parataxis:conj
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	AlignBegin=21522|AlignEnd=21617
-5	jeune	jeune	ADJ	_	_	6	mod	_	AlignBegin=21617|AlignEnd=21792|Gender[ctxt]=Fem|Number[ctxt]=Sing
+5	jeune	jeune	ADJ	_	_	6	mod	_	AlignBegin=21617|AlignEnd=21792|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 6	fille	fille	NOUN	_	_	3	comp:obj	_	AlignBegin=21792|AlignEnd=22112|Gender[lex]=Fem|Number[ctxt]=Sing
 7	qui	qui	PRON	_	PronType=Rel	8	subj	_	AlignBegin=22112|AlignEnd=22434
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	AlignBegin=22434|AlignEnd=23122|SpaceAfter=No
@@ -306,7 +306,7 @@
 11	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj:dicto	_	AlignBegin=23199|AlignEnd=23237
 12	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	AlignBegin=23237|AlignEnd=23261|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 13	air	air	NOUN	_	_	11	comp:obj@lvc	_	AlignBegin=23261|AlignEnd=23442|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
-14	pauvre	pauvre	ADJ	_	_	13	comp:pred	_	AlignBegin=23442|AlignEnd=23886|Gender[ctxt]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+14	pauvre	pauvre	ADJ	_	_	13	comp:pred	_	AlignBegin=23442|AlignEnd=23886|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	AlignBegin=23886|AlignEnd=23886
 16	qui	qui	PRON	_	PronType=Rel	17	subj	_	AlignBegin=23886|AlignEnd=24067
 17	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj:coord	_	AlignBegin=24067|AlignEnd=24156
@@ -721,7 +721,7 @@
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=52083|AlignEnd=53021
 5	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	conj:dicto	_	AlignBegin=53021|AlignEnd=53101
 6	tombent	tomber	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=53101|AlignEnd=53311
-7	tous	tout	ADJ	_	Gender=Masc	9	mod	_	AlignBegin=53311|AlignEnd=53425|HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Plur
+7	tous	tout	ADJ	_	Gender=Masc	9	mod	_	AlignBegin=53311|AlignEnd=53425|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	AlignBegin=53425|AlignEnd=53531|HasSpokenGender=OnlySingExceptWithLiaison
 9	deux	deux	NUM	_	ExtPos=PRON	6	mod	_	AlignBegin=53531|AlignEnd=53821|Number[lex]=Plur|SpaceAfter=No
 10	.	.	PUNCT	_	_	6	punct	_	AlignBegin=53821|AlignEnd=53821
@@ -769,7 +769,7 @@
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	AlignBegin=56928|AlignEnd=57018|HasSpokenGender=OnlySingExceptWithLiaison
 16	baguette	baguette	NOUN	_	_	17	subj	_	AlignBegin=57018|AlignEnd=57367|Gender[lex]=Fem|Number[ctxt]=Sing
 17	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	comp:obj	_	AlignBegin=57367|AlignEnd=57419
-18	disparu	disparaître	VERB	_	VerbForm=Part|Voice=Act	17	comp:aux@tense	_	AlignBegin=57419|AlignEnd=57884|Gender[ctxt]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Tense[denom]=Past
+18	disparu	disparaître	VERB	_	VerbForm=Part|Voice=Act	17	comp:aux@tense	_	AlignBegin=57419|AlignEnd=57884|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 19	.	.	PUNCT	_	_	3	punct	_	AlignBegin=57884|AlignEnd=57884
 
 # sent_id = Rhap_M0023-19
@@ -850,7 +850,7 @@
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	AlignBegin=62106|AlignEnd=62296|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	AlignBegin=62296|AlignEnd=62296
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	conj:dicto	_	AlignBegin=62296|AlignEnd=62398|HasSpokenGender=OnlySingExceptWithLiaison
-20	jeune	jeune	ADJ	_	_	21	mod	_	AlignBegin=62398|AlignEnd=62586|Gender[ctxt]=Fem|Number[ctxt]=Sing
+20	jeune	jeune	ADJ	_	_	21	mod	_	AlignBegin=62398|AlignEnd=62586|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 21	fille	fille	NOUN	_	_	12	comp:obj	_	AlignBegin=62586|AlignEnd=62756|Gender[lex]=Fem|Number[ctxt]=Sing
 22	partir	partir	VERB	_	VerbForm=Inf	12	comp:obj	_	AlignBegin=62756|AlignEnd=63286|SpaceAfter=No|Subject=ObjRaising
 23	.	.	PUNCT	_	_	6	punct	_	AlignBegin=63286|AlignEnd=63286
@@ -937,14 +937,14 @@
 20	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	22	subj	_	AlignBegin=69755|AlignEnd=69855
 21	se	soi	PRON	_	Person=3|PronType=Prs	23	comp:obj	_	AlignBegin=69855|AlignEnd=69904
 22	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	comp:obj	_	AlignBegin=69904|AlignEnd=69975
-23	rencontrés	rencontrer	VERB	_	VerbForm=Part|Voice=Act	22	comp:aux@tense	_	AlignBegin=69975|AlignEnd=70445|Gender[ctxt]=Masc|Number[ctxt]=Plur|Tense[denom]=Past
-24	tous	tout	ADJ	_	Gender=Masc	26	mod	_	AlignBegin=70445|AlignEnd=70569|HasSpokenGender=YesExceptSingWithLiaison|Number[ctxt]=Plur
+23	rencontrés	rencontrer	VERB	_	VerbForm=Part|Voice=Act	22	comp:aux@tense	_	AlignBegin=69975|AlignEnd=70445|Gender[ctxt]=Masc|Number[ctxt]=Plur|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+24	tous	tout	ADJ	_	Gender=Masc	26	mod	_	AlignBegin=70445|AlignEnd=70569|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur
 25	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	AlignBegin=70569|AlignEnd=70645|HasSpokenGender=OnlySingExceptWithLiaison
 26	deux	deux	NUM	_	ExtPos=PRON	23	mod	_	AlignBegin=70645|AlignEnd=70815|Number[lex]=Plur|SpaceAfter=No
 27	,	,	PUNCT	_	_	28	punct	_	AlignBegin=70815|AlignEnd=71287
 28	Charlot	Charlot	PROPN	_	_	17	conj:dicto	_	AlignBegin=71287|AlignEnd=71613|Gender[lex]=Unknown
 29	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=71613|AlignEnd=71764
-30	récupéré	récupérer	VERB	_	VerbForm=Part|Voice=Act	29	comp:aux@tense	_	AlignBegin=71764|AlignEnd=72263|Gender[ctxt]=Masc|Number[ctxt]=Sing|Tense[denom]=Past
+30	récupéré	récupérer	VERB	_	VerbForm=Part|Voice=Act	29	comp:aux@tense	_	AlignBegin=71764|AlignEnd=72263|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 31	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	AlignBegin=72263|AlignEnd=72555|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 32	,	,	PUNCT	_	_	33	punct	_	AlignBegin=72555|AlignEnd=72555
 33	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	conj:dicto	_	AlignBegin=72555|AlignEnd=72723|HasSpokenGender=OnlySingExceptWithLiaison
@@ -1080,7 +1080,7 @@
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	conj:dicto	_	AlignBegin=78154|AlignEnd=78234|HasSpokenGender=OnlySingExceptWithLiaison
 9	boulanger	boulanger	NOUN	_	_	10	subj	_	AlignBegin=78234|AlignEnd=78763|Gender[lex]=Masc|Number[ctxt]=Sing
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=79393|AlignEnd=79534
-11	dit	dire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	10	comp:aux@tense	_	AlignBegin=79534|AlignEnd=79708|Number[ctxt]=Sing|Tense[denom]=Past
+11	dit	dire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	10	comp:aux@tense	_	AlignBegin=79534|AlignEnd=79708|Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 12	au	au	ADP	_	_	11	comp:obl	_	AlignBegin=79708|AlignEnd=79767
 13	policier	policier	NOUN	_	_	12	comp:obj	_	AlignBegin=79767|AlignEnd=80114|Gender[lex]=Masc|Number[ctxt]=Sing
 14	qu'	que	SCONJ	_	_	11	comp:obj	_	AlignBegin=80114|AlignEnd=80149|SpaceAfter=No
@@ -1144,7 +1144,7 @@
 23	qui	qui	PRON	_	PronType=Rel	25	subj	_	AlignBegin=83961|AlignEnd=84094
 24	l'	le	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=3|PronType=Prs	26	comp:obj	_	AlignBegin=84094|AlignEnd=84140|SpaceAfter=No
 25	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	comp:cleft	_	AlignBegin=84140|AlignEnd=84211|Filler=subj
-26	pris	prendre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	25	comp:aux@tense	_	AlignBegin=84211|AlignEnd=84620|Tense[denom]=Past
+26	pris	prendre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	25	comp:aux@tense	_	AlignBegin=84211|AlignEnd=84620|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 27	puisqu'	puisque	SCONJ	_	_	25	mod	_	AlignBegin=85225|AlignEnd=85391|SpaceAfter=No
 28	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	subj	_	AlignBegin=85391|AlignEnd=85455
 29	l'	le	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=3|PronType=Prs	30	comp:obj	_	AlignBegin=85455|AlignEnd=85525|SpaceAfter=No
