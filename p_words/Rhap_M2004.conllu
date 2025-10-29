@@ -211,7 +211,7 @@
 1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=45485|AlignEnd=45620
 2	vous	vous	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=2|PronType=Prs	3	comp:obl	_	AlignBegin=45620|AlignEnd=45784|Polite=Unknown
 3	redis	redire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=45784|AlignEnd=46070
-4	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs|Shared=No	5	det	_	AlignBegin=46070|AlignEnd=46260|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+4	mon	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs|Shared=No	5	det	_	AlignBegin=46070|AlignEnd=46260|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
 5	émotion	émotion	NOUN	_	_	3	comp:obj	_	AlignBegin=46260|AlignEnd=46861|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 6	,	,	PUNCT	_	_	10	punct	_	AlignBegin=46861|AlignEnd=48087
 7	mais	mais	CCONJ	_	_	10	cc	_	AlignBegin=48087|AlignEnd=48182
@@ -1498,7 +1498,7 @@
 1	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	AlignBegin=321433|AlignEnd=321553
 2	nouvel	nouveau	ADJ	_	Number=Sing	3	mod	_	AlignBegin=321553|AlignEnd=321763|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes
 3	ordre	ordre	NOUN	_	_	6	subj	_	AlignBegin=321763|AlignEnd=322013|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
-4	international	international	ADJ	_	Number=Sing	3	mod	_	AlignBegin=322013|AlignEnd=322893|Gender[ctxt]=Masc|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc
+4	international	international	ADJ	_	_	3	mod	_	AlignBegin=322013|AlignEnd=322893|Gender[ctxt]=Masc|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|Number[ctxt]=Sing
 5	s'	soi	PRON	_	Person=3|PronType=Prs	6	comp@expl	_	AlignBegin=322893|AlignEnd=323073|SpaceAfter=No
 6	affirme	affirmer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=323073|AlignEnd=323823
 7	peu	peu	ADV	_	_	8	mod	_	AlignBegin=323823|AlignEnd=323973|InIdiom=Yes
@@ -2342,7 +2342,7 @@
 116	de	de	ADP	_	_	115	udep	_	AlignBegin=506219|AlignEnd=506299
 117	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	118	det	_	AlignBegin=506299|AlignEnd=506349|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 118	intérêt	intérêt	NOUN	_	_	116	comp:obj	_	AlignBegin=506349|AlignEnd=506649|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
-119	général	général	ADJ	_	Number=Sing	118	mod	_	AlignBegin=506649|AlignEnd=507229|Gender[ctxt]=Masc|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc
+119	général	général	ADJ	_	_	118	mod	_	AlignBegin=506649|AlignEnd=507229|Gender[ctxt]=Masc|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|Number[ctxt]=Sing
 120	qui	qui	PRON	_	PronType=Rel	121	subj	_	AlignBegin=507229|AlignEnd=507369
 121	impose	imposer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	115	mod@relcl	_	AlignBegin=507369|AlignEnd=508054
 122	que	que	SCONJ	_	_	121	comp:obj	_	AlignBegin=508566|AlignEnd=508661

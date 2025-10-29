@@ -647,7 +647,7 @@
 # macrosyntax = dans son éditorial <+ dans Libération <+ Laurent Joffrin parle lui aussi de désaveu cinglant >
 # text = dans son éditorial, dans Libération, Laurent Joffrin parle lui aussi de désaveu cinglant.
 1	dans	dans	ADP	_	_	10	mod	_	AlignBegin=50815|AlignEnd=51080
-2	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	3	det	_	AlignBegin=51080|AlignEnd=51380|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+2	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	3	det	_	AlignBegin=51080|AlignEnd=51380|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
 3	éditorial	éditorial	NOUN	_	Number=Sing	1	comp:obj	_	AlignBegin=51380|AlignEnd=51890|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=51890|AlignEnd=51890
 5	dans	dans	ADP	_	_	3	udep	_	AlignBegin=51890|AlignEnd=52010
@@ -1366,9 +1366,9 @@
 # macrosyntax = scrutin { local | ^ou national } //
 # text = scrutin local ou national ?
 1	scrutin	scrutin	NOUN	_	_	0	root	_	AlignBegin=115735|AlignEnd=116430|Gender[lex]=Masc|Number[ctxt]=Sing
-2	local	local	ADJ	_	Number=Sing	1	mod	_	AlignBegin=116430|AlignEnd=117030|Gender[ctxt]=Masc|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc
+2	local	local	ADJ	_	_	1	mod	_	AlignBegin=116430|AlignEnd=117030|Gender[ctxt]=Masc|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|Number[ctxt]=Sing
 3	ou	ou	CCONJ	_	_	4	cc	_	AlignBegin=117030|AlignEnd=117160
-4	national	national	ADJ	_	Number=Sing	2	conj:coord	_	AlignBegin=117160|AlignEnd=117630|Gender[ctxt]=Masc|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc
+4	national	national	ADJ	_	_	2	conj:coord	_	AlignBegin=117160|AlignEnd=117630|Gender[ctxt]=Masc|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|Number[ctxt]=Sing
 5	?	?	PUNCT	_	_	1	punct	_	AlignBegin=117630|AlignEnd=117630
 
 # sent_id = Rhap_D2013-34
@@ -1475,7 +1475,7 @@
 36	exécutif	exécutif	ADJ	_	Gender=Masc	34	comp:obj	_	AlignBegin=128777|AlignEnd=129467|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 37	,	,	PUNCT	_	_	38	punct	_	AlignBegin=129467|AlignEnd=129467
 38	message	message	NOUN	_	_	31	conj:dicto	_	AlignBegin=129467|AlignEnd=129827|Gender[lex]=Masc|Number[ctxt]=Sing
-39	national	national	ADJ	_	Number=Sing	38	mod	_	AlignBegin=129827|AlignEnd=130457|Gender[ctxt]=Masc|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc
+39	national	national	ADJ	_	_	38	mod	_	AlignBegin=129827|AlignEnd=130457|Gender[ctxt]=Masc|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|Number[ctxt]=Sing
 40	donc	donc	ADV	_	_	39	mod	_	AlignBegin=130457|AlignEnd=130757|SpaceAfter=No
 41	,	,	PUNCT	_	_	44	punct	_	AlignBegin=130757|AlignEnd=130757
 42	mais	mais	CCONJ	_	_	44	cc	_	AlignBegin=130757|AlignEnd=130978
