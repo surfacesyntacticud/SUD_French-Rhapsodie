@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Rhap_M0002-1
 # old_id = Rhap_M0002-1
 # type = monologue
@@ -161,7 +162,7 @@
 13	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	subj	_	AlignBegin=23293|AlignEnd=23393
 14	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=23393|AlignEnd=23613
 15	laissé	laisser	VERB	_	VerbForm=Part|Voice=Act	14	comp:aux@tense	_	AlignBegin=23613|AlignEnd=24043|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-16	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	17	det	_	AlignBegin=24257|AlignEnd=24527|HasSpokenGender=OnlySingExceptWithLiaison
+16	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	17	det	_	AlignBegin=24257|AlignEnd=24527|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 17	camion	camion	NOUN	_	_	15	comp:obj	_	AlignBegin=24527|AlignEnd=24971|Gender[lex]=Masc|Number[ctxt]=Sing
 18	ouvert	ouvert	ADJ	_	Gender=Masc	15	comp:pred	_	AlignBegin=24971|AlignEnd=25658|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 19	.	.	PUNCT	_	_	14	punct	_	AlignBegin=25658|AlignEnd=25658
@@ -411,9 +412,11 @@
 12	d'	de	ADP	_	_	9	mod	_	AlignBegin=45332|AlignEnd=45397|SpaceAfter=No
 13	abord	abord	NOUN	_	_	12	comp:obj	_	AlignBegin=45397|AlignEnd=45702|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	AlignBegin=45702|AlignEnd=45702
-15	au	au	ADP	_	_	10	comp:obl	_	AlignBegin=45702|AlignEnd=45822
-16	boulanger	boulanger	NOUN	_	_	15	comp:obj	_	AlignBegin=45822|AlignEnd=46416|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
-17	.	.	PUNCT	_	_	9	punct	_	AlignBegin=46416|AlignEnd=46416
+15-16	au	_	_	_	_	_	_	_	_
+15	à	à	ADP	_	_	10	comp:obl	_	AlignBegin=45702|AlignEnd=45822
+16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	AlignBegin=45702|AlignEnd=45822
+17	boulanger	boulanger	NOUN	_	_	15	comp:obj	_	AlignBegin=45822|AlignEnd=46416|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+18	.	.	PUNCT	_	_	9	punct	_	AlignBegin=46416|AlignEnd=46416
 
 # sent_id = Rhap_M0002-10
 # old_id = Rhap_M0002-10

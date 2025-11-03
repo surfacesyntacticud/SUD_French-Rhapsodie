@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Rhap_M0004-1
 # old_id = Rhap_M0004-1
 # type = monologue
@@ -59,10 +60,12 @@
 1	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	2	subj	_	AlignBegin=1158|AlignEnd=1295
 2	descends	descendre	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=1295|AlignEnd=1672
 3	jusqu'	jusque	ADP	_	_	2	mod	_	AlignBegin=1672|AlignEnd=1940|SpaceAfter=No
-4	au	au	ADP	_	_	3	comp:obj	_	AlignBegin=1940|AlignEnd=1983
-5	cinéma	cinéma	NOUN	_	_	4	comp:obj	_	AlignBegin=1983|AlignEnd=2320|Gender[lex]=Masc|Number[ctxt]=Sing
-6	Star	Star	PROPN	_	_	5	mod@appos	_	AlignBegin=2320|AlignEnd=2582|Gender[lex]=Unknown|SpaceAfter=No
-7	.	.	PUNCT	_	_	2	punct	_	AlignBegin=4057|AlignEnd=4057
+4-5	au	_	_	_	_	_	_	_	_
+4	à	à	ADP	_	_	3	comp:obj	_	AlignBegin=1940|AlignEnd=1983
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=1940|AlignEnd=1983
+6	cinéma	cinéma	NOUN	_	_	4	comp:obj	_	AlignBegin=1983|AlignEnd=2320|Gender[lex]=Masc|Number[ctxt]=Sing
+7	Star	Star	PROPN	_	_	6	mod@appos	_	AlignBegin=2320|AlignEnd=2582|Gender[lex]=Unknown|SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	AlignBegin=4057|AlignEnd=4057
 
 # sent_id = Rhap_M0004-3
 # old_id = Rhap_M0004-3
@@ -90,27 +93,31 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-M0004.mp3
 # macrosyntax = arrivé au cinéma Star < il faut continuer tout droit { jusqu'en bas de la rue | jusqu'au rond-point } //
 # text = arrivé au cinéma Star, il faut continuer tout droit jusqu'en bas de la rue, jusqu'au rond-point.
-1	arrivé	arriver	VERB	_	VerbForm=Part	7	mod	_	AlignBegin=4057|AlignEnd=4271|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
-2	au	au	ADP	_	_	1	comp:obl	_	AlignBegin=4271|AlignEnd=4371
-3	cinéma	cinéma	NOUN	_	_	2	comp:obj	_	AlignBegin=4371|AlignEnd=4718|Gender[lex]=Masc|Number[ctxt]=Sing
-4	Star	Star	PROPN	_	_	3	mod@appos	_	AlignBegin=4718|AlignEnd=4931|Gender[lex]=Unknown|SpaceAfter=No
-5	,	,	PUNCT	_	_	1	punct	_	AlignBegin=4931|AlignEnd=4931
-6	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj@expl	_	AlignBegin=4931|AlignEnd=5021
-7	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=5021|AlignEnd=5141
-8	continuer	continuer	VERB	_	VerbForm=Inf	7	comp:obj	_	AlignBegin=5141|AlignEnd=5543|Subject=NoRaising
-9	tout	tout	ADV	_	_	10	mod	_	AlignBegin=5543|AlignEnd=5688
-10	droit	droit	NOUN	_	_	8	mod	_	AlignBegin=5688|AlignEnd=5957|Gender[lex]=Masc|Number[ctxt]=Sing
-11	jusqu'	jusque	ADP	_	_	8	mod	_	AlignBegin=5957|AlignEnd=6167|SpaceAfter=No
-12	en	en	ADP	_	_	11	comp:obj	_	AlignBegin=6167|AlignEnd=6247
-13	bas	bas	NOUN	_	_	12	comp:obj	_	AlignBegin=6247|AlignEnd=6372|Gender[lex]=Masc
-14	de	de	ADP	_	_	13	udep	_	AlignBegin=6372|AlignEnd=6423
-15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	AlignBegin=6424|AlignEnd=6527|HasSpokenGender=OnlySingExceptWithLiaison
-16	rue	rue	NOUN	_	_	14	comp:obj	_	AlignBegin=6527|AlignEnd=6752|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
-17	,	,	PUNCT	_	_	18	punct	_	AlignBegin=6752|AlignEnd=7452
-18	jusqu'	jusque	ADP	_	_	11	conj:dicto	_	AlignBegin=7452|AlignEnd=7681|SpaceAfter=No
-19	au	au	ADP	_	_	18	comp:obj	_	AlignBegin=7681|AlignEnd=7787
-20	rond-point	rond-point	NOUN	_	_	19	comp:obj	_	AlignBegin=7787|AlignEnd=8226|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
-21	.	.	PUNCT	_	_	7	punct	_	AlignBegin=8226|AlignEnd=8226
+1	arrivé	arriver	VERB	_	VerbForm=Part	8	mod	_	AlignBegin=4057|AlignEnd=4271|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+2-3	au	_	_	_	_	_	_	_	_
+2	à	à	ADP	_	_	1	comp:obl	_	AlignBegin=4271|AlignEnd=4371
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	AlignBegin=4271|AlignEnd=4371
+4	cinéma	cinéma	NOUN	_	_	2	comp:obj	_	AlignBegin=4371|AlignEnd=4718|Gender[lex]=Masc|Number[ctxt]=Sing
+5	Star	Star	PROPN	_	_	4	mod@appos	_	AlignBegin=4718|AlignEnd=4931|Gender[lex]=Unknown|SpaceAfter=No
+6	,	,	PUNCT	_	_	1	punct	_	AlignBegin=4931|AlignEnd=4931
+7	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj@expl	_	AlignBegin=4931|AlignEnd=5021
+8	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=5021|AlignEnd=5141
+9	continuer	continuer	VERB	_	VerbForm=Inf	8	comp:obj	_	AlignBegin=5141|AlignEnd=5543|Subject=NoRaising
+10	tout	tout	ADV	_	_	11	mod	_	AlignBegin=5543|AlignEnd=5688
+11	droit	droit	NOUN	_	_	9	mod	_	AlignBegin=5688|AlignEnd=5957|Gender[lex]=Masc|Number[ctxt]=Sing
+12	jusqu'	jusque	ADP	_	_	9	mod	_	AlignBegin=5957|AlignEnd=6167|SpaceAfter=No
+13	en	en	ADP	_	_	12	comp:obj	_	AlignBegin=6167|AlignEnd=6247
+14	bas	bas	NOUN	_	_	13	comp:obj	_	AlignBegin=6247|AlignEnd=6372|Gender[lex]=Masc
+15	de	de	ADP	_	_	14	udep	_	AlignBegin=6372|AlignEnd=6423
+16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	AlignBegin=6424|AlignEnd=6527|HasSpokenGender=OnlySingExceptWithLiaison
+17	rue	rue	NOUN	_	_	15	comp:obj	_	AlignBegin=6527|AlignEnd=6752|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	AlignBegin=6752|AlignEnd=7452
+19	jusqu'	jusque	ADP	_	_	12	conj:dicto	_	AlignBegin=7452|AlignEnd=7681|SpaceAfter=No
+20-21	au	_	_	_	_	_	_	_	_
+20	à	à	ADP	_	_	19	comp:obj	_	AlignBegin=7681|AlignEnd=7787
+21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	AlignBegin=7681|AlignEnd=7787
+22	rond-point	rond-point	NOUN	_	_	20	comp:obj	_	AlignBegin=7787|AlignEnd=8226|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+23	.	.	PUNCT	_	_	8	punct	_	AlignBegin=8226|AlignEnd=8226
 
 # sent_id = Rhap_M0004-4
 # old_id = Rhap_M0004-4
@@ -138,15 +145,17 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-M0004.mp3
 # macrosyntax = au rond-point <+ il faut tourner à gauche //
 # text = au rond-point, il faut tourner à gauche.
-1	au	au	ADP	_	_	5	mod	_	AlignBegin=9486|AlignEnd=9650
-2	rond-point	rond-point	NOUN	_	_	1	comp:obj	_	AlignBegin=9650|AlignEnd=10009|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
-3	,	,	PUNCT	_	_	1	punct	_	AlignBegin=10009|AlignEnd=10009
-4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	AlignBegin=10009|AlignEnd=10069
-5	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=10069|AlignEnd=10169
-6	tourner	tourner	VERB	_	VerbForm=Inf	5	comp:obj	_	AlignBegin=10169|AlignEnd=10409|Subject=NoRaising
-7	à	à	ADP	_	_	6	mod	_	AlignBegin=10409|AlignEnd=10459
-8	gauche	gauche	NOUN	_	_	7	comp:obj	_	AlignBegin=10459|AlignEnd=10874|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
-9	.	.	PUNCT	_	_	5	punct	_	AlignBegin=10874|AlignEnd=10874
+1-2	au	_	_	_	_	_	_	_	_
+1	à	à	ADP	_	_	6	mod	_	AlignBegin=9486|AlignEnd=9650
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	AlignBegin=9486|AlignEnd=9650
+3	rond-point	rond-point	NOUN	_	_	1	comp:obj	_	AlignBegin=9650|AlignEnd=10009|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	AlignBegin=10009|AlignEnd=10009
+5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj@expl	_	AlignBegin=10009|AlignEnd=10069
+6	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=10069|AlignEnd=10169
+7	tourner	tourner	VERB	_	VerbForm=Inf	6	comp:obj	_	AlignBegin=10169|AlignEnd=10409|Subject=NoRaising
+8	à	à	ADP	_	_	7	mod	_	AlignBegin=10409|AlignEnd=10459
+9	gauche	gauche	NOUN	_	_	8	comp:obj	_	AlignBegin=10459|AlignEnd=10874|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+10	.	.	PUNCT	_	_	6	punct	_	AlignBegin=10874|AlignEnd=10874
 
 # sent_id = Rhap_M0004-5
 # old_id = Rhap_M0004-5

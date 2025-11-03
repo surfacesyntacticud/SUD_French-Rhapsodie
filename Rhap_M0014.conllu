@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Rhap_M0014-1
 # old_id = Rhap_M0014-1
 # type = monologue
@@ -112,9 +113,11 @@
 2	prends	prendre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=9946|AlignEnd=11236
 3	direction	direction	NOUN	_	_	2	comp:obj	_	AlignBegin=11236|AlignEnd=11716|Gender[lex]=Fem|Number[ctxt]=Sing
 4	Maison	Maison	PROPN	_	_	3	mod@appos	_	AlignBegin=11716|AlignEnd=12046|Gender[lex]=Unknown
-5	du	du	ADP	_	_	4	mod	_	AlignBegin=12046|AlignEnd=12166
-6	tourisme	tourisme	NOUN	_	_	5	comp:obj	_	AlignBegin=12166|AlignEnd=13048|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
-7	.	.	PUNCT	_	_	2	punct	_	AlignBegin=13048|AlignEnd=13048
+5-6	du	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	4	mod	_	AlignBegin=12046|AlignEnd=12166
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	AlignBegin=12046|AlignEnd=12166
+7	tourisme	tourisme	NOUN	_	_	5	comp:obj	_	AlignBegin=12166|AlignEnd=13048|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	AlignBegin=13048|AlignEnd=13048
 
 # sent_id = Rhap_M0014-4
 # old_id = Rhap_M0014-4
@@ -142,33 +145,35 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-M0014.mp3
 # macrosyntax = "euh" à la Maison du tourisme <+ { je contourne | enfin je prends } la rue de la République en remontant la rue de la République //
 # text = euh, à la Maison du tourisme, je contourne, enfin je prends la rue de la République en remontant la rue de la République.
-1	euh	euh	INTJ	_	_	10	discourse	_	AlignBegin=14205|AlignEnd=14575|SpaceAfter=No
+1	euh	euh	INTJ	_	_	11	discourse	_	AlignBegin=14205|AlignEnd=14575|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=14575|AlignEnd=14799
-3	à	à	ADP	_	_	10	mod	_	AlignBegin=14799|AlignEnd=14899
+3	à	à	ADP	_	_	11	mod	_	AlignBegin=14799|AlignEnd=14899
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	AlignBegin=14899|AlignEnd=14999|HasSpokenGender=OnlySingExceptWithLiaison
 5	Maison	Maison	PROPN	_	_	3	comp:obj	_	AlignBegin=14999|AlignEnd=15279|Gender[lex]=Unknown
-6	du	du	ADP	_	_	5	mod	_	AlignBegin=15279|AlignEnd=15389
-7	tourisme	tourisme	NOUN	_	_	6	comp:obj	_	AlignBegin=15389|AlignEnd=16254|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
-8	,	,	PUNCT	_	_	3	punct	_	AlignBegin=16254|AlignEnd=16254
-9	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	10	subj	_	AlignBegin=16254|AlignEnd=16574
-10	contourne	contourner	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=16754|AlignEnd=18843|SpaceAfter=No
-11	,	,	PUNCT	_	_	12	punct	_	AlignBegin=18843|AlignEnd=18925
-12	enfin	enfin	ADV	_	_	10	discourse	_	AlignBegin=18925|AlignEnd=19165
-13	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	14	subj	_	AlignBegin=19165|AlignEnd=19345
-14	prends	prendre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	conj:dicto	_	AlignBegin=19345|AlignEnd=19565
-15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	AlignBegin=19565|AlignEnd=19695|HasSpokenGender=OnlySingExceptWithLiaison
-16	rue	rue	NOUN	_	_	14	comp:obj	_	AlignBegin=19695|AlignEnd=19785|Gender[lex]=Fem|Number[ctxt]=Sing
-17	de	de	ADP	_	_	16	udep	_	AlignBegin=19785|AlignEnd=19845
-18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	AlignBegin=19845|AlignEnd=19935|HasSpokenGender=OnlySingExceptWithLiaison
-19	République	République	PROPN	_	_	17	comp:obj	_	AlignBegin=19935|AlignEnd=20477|Gender[lex]=Unknown
-20	en	en	ADP	_	_	14	mod	_	AlignBegin=20477|AlignEnd=20587
-21	remontant	remonter	VERB	_	VerbForm=Part	20	comp:obj	_	AlignBegin=20587|AlignEnd=21027|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Pres
-22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	AlignBegin=21027|AlignEnd=21137|HasSpokenGender=OnlySingExceptWithLiaison
-23	rue	rue	NOUN	_	_	21	comp:obj	_	AlignBegin=21137|AlignEnd=21277|Gender[lex]=Fem|Number[ctxt]=Sing
-24	de	de	ADP	_	_	23	udep	_	AlignBegin=21277|AlignEnd=21337
-25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	AlignBegin=21337|AlignEnd=21447|HasSpokenGender=OnlySingExceptWithLiaison
-26	République	République	PROPN	_	_	24	comp:obj	_	AlignBegin=21447|AlignEnd=22157|Gender[lex]=Unknown|SpaceAfter=No
-27	.	.	PUNCT	_	_	10	punct	_	AlignBegin=22157|AlignEnd=22157
+6-7	du	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	5	mod	_	AlignBegin=15279|AlignEnd=15389
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	AlignBegin=15279|AlignEnd=15389
+8	tourisme	tourisme	NOUN	_	_	6	comp:obj	_	AlignBegin=15389|AlignEnd=16254|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+9	,	,	PUNCT	_	_	3	punct	_	AlignBegin=16254|AlignEnd=16254
+10	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	11	subj	_	AlignBegin=16254|AlignEnd=16574
+11	contourne	contourner	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=16754|AlignEnd=18843|SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=18843|AlignEnd=18925
+13	enfin	enfin	ADV	_	_	11	discourse	_	AlignBegin=18925|AlignEnd=19165
+14	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	15	subj	_	AlignBegin=19165|AlignEnd=19345
+15	prends	prendre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	conj:dicto	_	AlignBegin=19345|AlignEnd=19565
+16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	AlignBegin=19565|AlignEnd=19695|HasSpokenGender=OnlySingExceptWithLiaison
+17	rue	rue	NOUN	_	_	15	comp:obj	_	AlignBegin=19695|AlignEnd=19785|Gender[lex]=Fem|Number[ctxt]=Sing
+18	de	de	ADP	_	_	17	udep	_	AlignBegin=19785|AlignEnd=19845
+19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	AlignBegin=19845|AlignEnd=19935|HasSpokenGender=OnlySingExceptWithLiaison
+20	République	République	PROPN	_	_	18	comp:obj	_	AlignBegin=19935|AlignEnd=20477|Gender[lex]=Unknown
+21	en	en	ADP	_	_	15	mod	_	AlignBegin=20477|AlignEnd=20587
+22	remontant	remonter	VERB	_	VerbForm=Part	21	comp:obj	_	AlignBegin=20587|AlignEnd=21027|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Pres
+23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	AlignBegin=21027|AlignEnd=21137|HasSpokenGender=OnlySingExceptWithLiaison
+24	rue	rue	NOUN	_	_	22	comp:obj	_	AlignBegin=21137|AlignEnd=21277|Gender[lex]=Fem|Number[ctxt]=Sing
+25	de	de	ADP	_	_	24	udep	_	AlignBegin=21277|AlignEnd=21337
+26	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	AlignBegin=21337|AlignEnd=21447|HasSpokenGender=OnlySingExceptWithLiaison
+27	République	République	PROPN	_	_	25	comp:obj	_	AlignBegin=21447|AlignEnd=22157|Gender[lex]=Unknown|SpaceAfter=No
+28	.	.	PUNCT	_	_	11	punct	_	AlignBegin=22157|AlignEnd=22157
 
 # sent_id = Rhap_M0014-5
 # old_id = Rhap_M0014-5

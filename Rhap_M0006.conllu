@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Rhap_M0006-1
 # old_id = Rhap_M0006-1
 # type = monologue
@@ -103,36 +104,40 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-M0006.mp3
 # macrosyntax = ^et "euh" quand tu arrives { au bout de { la | la } ligne droite | "euh" à l'intersection | au carrefour } <+ tu tournes à droite //
 # text = et, euh, quand tu arrives au bout de la, la ligne droite, euh, à l'intersection, au carrefour, tu tournes à droite.
-1	et	et	CCONJ	_	_	27	cc	_	AlignBegin=5812|AlignEnd=6006|SpaceAfter=No
+1	et	et	CCONJ	_	_	29	cc	_	AlignBegin=5812|AlignEnd=6006|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=6006|AlignEnd=6006
-3	euh	euh	INTJ	_	_	27	discourse	_	AlignBegin=6006|AlignEnd=6540|SpaceAfter=No
+3	euh	euh	INTJ	_	_	29	discourse	_	AlignBegin=6006|AlignEnd=6540|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=6540|AlignEnd=6540
-5	quand	quand	SCONJ	_	_	27	mod	_	AlignBegin=6540|AlignEnd=6660
+5	quand	quand	SCONJ	_	_	29	mod	_	AlignBegin=6540|AlignEnd=6660
 6	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	7	subj	_	AlignBegin=6660|AlignEnd=6737
 7	arrives	arriver	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	comp:obj	_	AlignBegin=6737|AlignEnd=7000
-8	au	au	ADP	_	_	7	comp:obl	_	AlignBegin=7000|AlignEnd=7100
-9	bout	bout	NOUN	_	_	8	comp:obj	_	AlignBegin=7100|AlignEnd=7250|Gender[lex]=Masc|Number[ctxt]=Sing
-10	de	de	ADP	_	_	9	udep	_	AlignBegin=7250|AlignEnd=7280
-11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	AlignBegin=7280|AlignEnd=8000|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
-12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=8000|AlignEnd=8000
-13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	conj:dicto	_	AlignBegin=8000|AlignEnd=8173|HasSpokenGender=OnlySingExceptWithLiaison
-14	ligne	ligne	NOUN	_	_	10	comp:obj	_	AlignBegin=8173|AlignEnd=8330|Gender[lex]=Fem|Number[ctxt]=Sing
-15	droite	droit	ADJ	_	Gender=Fem	14	mod	_	AlignBegin=8330|AlignEnd=8670|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
-16	,	,	PUNCT	_	_	17	punct	_	AlignBegin=8670|AlignEnd=8779
-17	euh	euh	INTJ	_	_	15	discourse	_	AlignBegin=8779|AlignEnd=8899|SpaceAfter=No
-18	,	,	PUNCT	_	_	19	punct	_	AlignBegin=8899|AlignEnd=8899
-19	à	à	ADP	_	_	8	conj:appos	_	AlignBegin=8899|AlignEnd=9049
-20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	AlignBegin=9049|AlignEnd=9089|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
-21	intersection	intersection	NOUN	_	_	19	comp:obj	_	AlignBegin=9089|AlignEnd=9675|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
-22	,	,	PUNCT	_	_	23	punct	_	AlignBegin=9675|AlignEnd=9675
-23	au	au	ADP	_	_	19	conj:dicto	_	AlignBegin=9675|AlignEnd=9725
-24	carrefour	carrefour	NOUN	_	_	23	comp:obj	_	AlignBegin=9725|AlignEnd=10191|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
-25	,	,	PUNCT	_	_	5	punct	_	AlignBegin=10191|AlignEnd=10261
-26	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	27	subj	_	AlignBegin=10261|AlignEnd=10341
-27	tournes	tourner	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=10341|AlignEnd=10725
-28	à	à	ADP	_	_	27	comp:obl	_	AlignBegin=10725|AlignEnd=10914
-29	droite	droite	NOUN	_	_	28	comp:obj	_	AlignBegin=11503|AlignEnd=11963|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
-30	.	.	PUNCT	_	_	27	punct	_	AlignBegin=11963|AlignEnd=11963
+8-9	au	_	_	_	_	_	_	_	_
+8	à	à	ADP	_	_	7	comp:obl	_	AlignBegin=7000|AlignEnd=7100
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	AlignBegin=7000|AlignEnd=7100
+10	bout	bout	NOUN	_	_	8	comp:obj	_	AlignBegin=7100|AlignEnd=7250|Gender[lex]=Masc|Number[ctxt]=Sing
+11	de	de	ADP	_	_	10	udep	_	AlignBegin=7250|AlignEnd=7280
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	AlignBegin=7280|AlignEnd=8000|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	AlignBegin=8000|AlignEnd=8000
+14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	conj:dicto	_	AlignBegin=8000|AlignEnd=8173|HasSpokenGender=OnlySingExceptWithLiaison
+15	ligne	ligne	NOUN	_	_	11	comp:obj	_	AlignBegin=8173|AlignEnd=8330|Gender[lex]=Fem|Number[ctxt]=Sing
+16	droite	droit	ADJ	_	Gender=Fem	15	mod	_	AlignBegin=8330|AlignEnd=8670|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	AlignBegin=8670|AlignEnd=8779
+18	euh	euh	INTJ	_	_	16	discourse	_	AlignBegin=8779|AlignEnd=8899|SpaceAfter=No
+19	,	,	PUNCT	_	_	20	punct	_	AlignBegin=8899|AlignEnd=8899
+20	à	à	ADP	_	_	8	conj:appos	_	AlignBegin=8899|AlignEnd=9049
+21	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	AlignBegin=9049|AlignEnd=9089|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+22	intersection	intersection	NOUN	_	_	20	comp:obj	_	AlignBegin=9089|AlignEnd=9675|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
+23	,	,	PUNCT	_	_	24	punct	_	AlignBegin=9675|AlignEnd=9675
+24-25	au	_	_	_	_	_	_	_	_
+24	à	à	ADP	_	_	20	conj:dicto	_	AlignBegin=9675|AlignEnd=9725
+25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	AlignBegin=9675|AlignEnd=9725
+26	carrefour	carrefour	NOUN	_	_	24	comp:obj	_	AlignBegin=9725|AlignEnd=10191|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+27	,	,	PUNCT	_	_	5	punct	_	AlignBegin=10191|AlignEnd=10261
+28	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	29	subj	_	AlignBegin=10261|AlignEnd=10341
+29	tournes	tourner	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=10341|AlignEnd=10725
+30	à	à	ADP	_	_	29	comp:obl	_	AlignBegin=10725|AlignEnd=10914
+31	droite	droite	NOUN	_	_	30	comp:obj	_	AlignBegin=11503|AlignEnd=11963|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+32	.	.	PUNCT	_	_	29	punct	_	AlignBegin=11963|AlignEnd=11963
 
 # sent_id = Rhap_M0006-4
 # old_id = Rhap_M0006-4
@@ -319,22 +324,24 @@
 2	suis	suivre	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=20165|AlignEnd=20375
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	AlignBegin=20375|AlignEnd=20493|HasSpokenGender=OnlySingExceptWithLiaison
 4	ligne	ligne	NOUN	_	_	2	comp:obj	_	AlignBegin=20493|AlignEnd=20715|Gender[lex]=Fem|Number[ctxt]=Sing
-5	du	du	ADP	_	_	4	udep	_	AlignBegin=20715|AlignEnd=20794
-6	tram	tram	NOUN	_	_	5	comp:obj	_	AlignBegin=20794|AlignEnd=21135|Gender[lex]=Masc|Number[ctxt]=Sing
-7	jusqu'	jusque	ADP	_	_	2	mod	_	AlignBegin=21135|AlignEnd=21465|SpaceAfter=No
-8	à	à	ADP	_	_	7	comp:obj	_	AlignBegin=21465|AlignEnd=22256|SpaceAfter=No
-9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=22256|AlignEnd=22904
-10	jusqu'	jusque	ADP	_	_	7	conj:dicto	_	AlignBegin=22904|AlignEnd=23164|SpaceAfter=No
-11	à	à	ADP	_	_	10	comp:obj	_	AlignBegin=23164|AlignEnd=23250|SpaceAfter=No
-12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=23250|AlignEnd=23250
-13	ben	ben	INTJ	_	_	11	discourse	_	AlignBegin=23250|AlignEnd=23340|SpaceAfter=No
-14	,	,	PUNCT	_	_	15	punct	_	AlignBegin=23340|AlignEnd=23340
-15	jusqu'	jusque	ADP	_	_	10	conj:dicto	_	AlignBegin=23340|AlignEnd=23580|SpaceAfter=No
-16	à	à	ADP	_	_	15	comp:obj	_	AlignBegin=23580|AlignEnd=23630
-17	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	AlignBegin=23630|AlignEnd=23700|HasSpokenGender=OnlySingExceptWithLiaison
-18	Nef	Nef	PROPN	_	Gender=Fem|Number=Sing	16	comp:obj	_	AlignBegin=23700|AlignEnd=23895
-19	Chavant	Chavant	PROPN	_	_	18	mod@appos	_	AlignBegin=23895|AlignEnd=24190|Gender[lex]=Unknown|SpaceAfter=No
-20	.	.	PUNCT	_	_	2	punct	_	AlignBegin=24190|AlignEnd=24190
+5-6	du	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	4	udep	_	AlignBegin=20715|AlignEnd=20794
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	AlignBegin=20715|AlignEnd=20794
+7	tram	tram	NOUN	_	_	5	comp:obj	_	AlignBegin=20794|AlignEnd=21135|Gender[lex]=Masc|Number[ctxt]=Sing
+8	jusqu'	jusque	ADP	_	_	2	mod	_	AlignBegin=21135|AlignEnd=21465|SpaceAfter=No
+9	à	à	ADP	_	_	8	comp:obj	_	AlignBegin=21465|AlignEnd=22256|SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	AlignBegin=22256|AlignEnd=22904
+11	jusqu'	jusque	ADP	_	_	8	conj:dicto	_	AlignBegin=22904|AlignEnd=23164|SpaceAfter=No
+12	à	à	ADP	_	_	11	comp:obj	_	AlignBegin=23164|AlignEnd=23250|SpaceAfter=No
+13	,	,	PUNCT	_	_	14	punct	_	AlignBegin=23250|AlignEnd=23250
+14	ben	ben	INTJ	_	_	12	discourse	_	AlignBegin=23250|AlignEnd=23340|SpaceAfter=No
+15	,	,	PUNCT	_	_	16	punct	_	AlignBegin=23340|AlignEnd=23340
+16	jusqu'	jusque	ADP	_	_	11	conj:dicto	_	AlignBegin=23340|AlignEnd=23580|SpaceAfter=No
+17	à	à	ADP	_	_	16	comp:obj	_	AlignBegin=23580|AlignEnd=23630
+18	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	AlignBegin=23630|AlignEnd=23700|HasSpokenGender=OnlySingExceptWithLiaison
+19	Nef	Nef	PROPN	_	Gender=Fem|Number=Sing	17	comp:obj	_	AlignBegin=23700|AlignEnd=23895
+20	Chavant	Chavant	PROPN	_	_	19	mod@appos	_	AlignBegin=23895|AlignEnd=24190|Gender[lex]=Unknown|SpaceAfter=No
+21	.	.	PUNCT	_	_	2	punct	_	AlignBegin=24190|AlignEnd=24190
 
 # sent_id = Rhap_M0006-9
 # old_id = Rhap_M0006-9

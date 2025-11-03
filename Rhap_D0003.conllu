@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Rhap_D0003-1
 # old_id = Rhap_D0003-1
 # type = dialogue
@@ -406,21 +407,23 @@
 2	qui	qui	PRON	_	PronType=Rel	3	subj	_	AlignBegin=24930|AlignEnd=25140
 3	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	mod@relcl	_	AlignBegin=25140|AlignEnd=25310
 4	que	que	SCONJ	_	_	3	comp:obj	_	AlignBegin=25310|AlignEnd=25441
-5	au	au	ADP	_	_	15	mod	_	AlignBegin=25441|AlignEnd=25680
-6	moment	moment	NOUN	_	_	5	comp:obj	_	AlignBegin=25680|AlignEnd=26390|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
-7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=26390|AlignEnd=26390
-8	mh	mh	INTJ	_	_	6	discourse	_	AlignBegin=26390|AlignEnd=26677|SpaceAfter=No
-9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=26677|AlignEnd=26677
-10	de	de	ADP	_	_	6	udep	_	AlignBegin=26677|AlignEnd=26780
-11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	AlignBegin=26780|AlignEnd=26923|HasSpokenGender=OnlySingExceptWithLiaison
-12	guerre	guerre	NOUN	_	_	10	comp:obj	_	AlignBegin=26923|AlignEnd=27256|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
-13	,	,	PUNCT	_	_	5	punct	_	AlignBegin=27256|AlignEnd=27256
-14	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	15	subj	_	AlignBegin=27256|AlignEnd=27470
-15	étions	être	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	4	comp:obj	_	AlignBegin=27470|AlignEnd=27770
-16	toujours	toujours	ADV	_	_	17	mod	_	AlignBegin=27770|AlignEnd=28070
-17	en	en	ADP	_	_	15	comp:obl	_	AlignBegin=28070|AlignEnd=28210
-18	Bretagne	Bretagne	PROPN	_	_	17	comp:obj	_	AlignBegin=28210|AlignEnd=28915|Gender[lex]=Unknown|SpaceAfter=No
-19	.	.	PUNCT	_	_	1	punct	_	AlignBegin=28910|AlignEnd=28910
+5-6	au	_	_	_	_	_	_	_	_
+5	à	à	ADP	_	_	16	mod	_	AlignBegin=25441|AlignEnd=25680
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	AlignBegin=25441|AlignEnd=25680
+7	moment	moment	NOUN	_	_	5	comp:obj	_	AlignBegin=25680|AlignEnd=26390|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=26390|AlignEnd=26390
+9	mh	mh	INTJ	_	_	7	discourse	_	AlignBegin=26390|AlignEnd=26677|SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	AlignBegin=26677|AlignEnd=26677
+11	de	de	ADP	_	_	7	udep	_	AlignBegin=26677|AlignEnd=26780
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	AlignBegin=26780|AlignEnd=26923|HasSpokenGender=OnlySingExceptWithLiaison
+13	guerre	guerre	NOUN	_	_	11	comp:obj	_	AlignBegin=26923|AlignEnd=27256|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+14	,	,	PUNCT	_	_	5	punct	_	AlignBegin=27256|AlignEnd=27256
+15	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	16	subj	_	AlignBegin=27256|AlignEnd=27470
+16	étions	être	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	4	comp:obj	_	AlignBegin=27470|AlignEnd=27770
+17	toujours	toujours	ADV	_	_	18	mod	_	AlignBegin=27770|AlignEnd=28070
+18	en	en	ADP	_	_	16	comp:obl	_	AlignBegin=28070|AlignEnd=28210
+19	Bretagne	Bretagne	PROPN	_	_	18	comp:obj	_	AlignBegin=28210|AlignEnd=28915|Gender[lex]=Unknown|SpaceAfter=No
+20	.	.	PUNCT	_	_	1	punct	_	AlignBegin=28910|AlignEnd=28910
 
 # sent_id = Rhap_D0003-12
 # old_id = Rhap_D0003-9bis
@@ -763,7 +766,7 @@
 3	bombardement	bombardement	NOUN	_	_	1	comp:obj	_	AlignBegin=44194|AlignEnd=44694|Gender[lex]=Masc|Number[ctxt]=Sing
 4	anglais	anglais	ADJ	_	Gender=Masc	3	mod	_	AlignBegin=44694|AlignEnd=44954|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	AlignBegin=45149|AlignEnd=41379
-6	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	9	det	_	AlignBegin=44954|AlignEnd=45149|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
+6	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	9	det	_	AlignBegin=44954|AlignEnd=45149|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=45149|AlignEnd=45557
 8	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	6	conj:dicto	_	AlignBegin=45557|AlignEnd=45792|HasSpokenGender=OnlySingExceptWithLiaison
 9	père	père	NOUN	_	_	10	subj	_	AlignBegin=45792|AlignEnd=45952|Gender[lex]=Masc|Number[ctxt]=Sing
@@ -1396,7 +1399,7 @@
 # text = alors, mon père avait passé ses nuits à faire ça.
 1	alors	alors	ADV	_	_	5	mod	_	AlignBegin=79545|AlignEnd=79750|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=79750|AlignEnd=79750
-3	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	4	det	_	AlignBegin=79750|AlignEnd=79917|HasSpokenGender=OnlySingExceptWithLiaison
+3	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	4	det	_	AlignBegin=79750|AlignEnd=79917|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 4	père	père	NOUN	_	_	5	subj	_	AlignBegin=79917|AlignEnd=80109|Gender[lex]=Masc|Number[ctxt]=Sing
 5	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=80109|AlignEnd=80320
 6	passé	passer	VERB	_	VerbForm=Part|Voice=Act	5	comp:aux@tense	_	AlignBegin=80320|AlignEnd=80580|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
@@ -1942,7 +1945,7 @@
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	AlignBegin=114069|AlignEnd=114159|SpaceAfter=No
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=114159|AlignEnd=114349
 3	pas	pas	ADV	_	Polarity=Neg	2	mod	_	AlignBegin=114349|AlignEnd=114689
-4	anormal	anormal	ADJ	_	Number=Sing	2	comp:pred	_	AlignBegin=114689|AlignEnd=115214|Gender[ctxt]=Masc|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|SpaceAfter=No
+4	anormal	anormal	ADJ	_	_	2	comp:pred	_	AlignBegin=114689|AlignEnd=115214|Gender[ctxt]=Masc|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|Number[ctxt]=Sing|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	AlignBegin=115214|AlignEnd=115214
 
 # sent_id = Rhap_D0003-53

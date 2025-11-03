@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Rhap_D0006-1
 # old_id = Rhap_D0006-1
 # type = dialogue
@@ -359,12 +360,14 @@
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	AlignBegin=21997|AlignEnd=22142|SpaceAfter=No
 2	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=22142|AlignEnd=22182
 3	plus	plus	ADV	_	_	4	mod	_	AlignBegin=22182|AlignEnd=22452
-4	au	au	ADP	_	_	2	comp:obl	_	AlignBegin=22452|AlignEnd=22492
-5	niveau	niveau	NOUN	_	_	4	comp:obj	_	AlignBegin=22492|AlignEnd=22702|Gender[lex]=Masc|Number[ctxt]=Sing
-6	de	de	ADP	_	_	5	udep	_	AlignBegin=22702|AlignEnd=22732
-7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	AlignBegin=22732|AlignEnd=22852|HasSpokenGender=OnlySingExceptWithLiaison
-8	fac	fac	NOUN	_	_	6	comp:obj	_	AlignBegin=22852|AlignEnd=23268|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
-9	.	.	PUNCT	_	_	2	punct	_	AlignBegin=23268|AlignEnd=23268
+4-5	au	_	_	_	_	_	_	_	_
+4	à	à	ADP	_	_	2	comp:obl	_	AlignBegin=22452|AlignEnd=22492
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=22452|AlignEnd=22492
+6	niveau	niveau	NOUN	_	_	4	comp:obj	_	AlignBegin=22492|AlignEnd=22702|Gender[lex]=Masc|Number[ctxt]=Sing
+7	de	de	ADP	_	_	6	udep	_	AlignBegin=22702|AlignEnd=22732
+8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	AlignBegin=22732|AlignEnd=22852|HasSpokenGender=OnlySingExceptWithLiaison
+9	fac	fac	NOUN	_	_	7	comp:obj	_	AlignBegin=22852|AlignEnd=23268|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+10	.	.	PUNCT	_	_	2	punct	_	AlignBegin=23268|AlignEnd=23268
 
 # sent_id = Rhap_D0006-11
 # old_id = Rhap_D0006-7bis
@@ -474,12 +477,14 @@
 6	petit	petit	ADJ	_	Gender=Masc	7	mod	_	AlignBegin=27364|AlignEnd=27514|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|InIdiom=Yes|Number[ctxt]=Sing
 7	peu	peu	NOUN	_	ExtPos=ADV	4	mod	_	AlignBegin=27514|AlignEnd=27614|Idiom=Yes
 8	de	de	ADP	_	_	4	comp:obl	_	AlignBegin=27614|AlignEnd=27644
-9	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	11	det	_	AlignBegin=27644|AlignEnd=27784|HasSpokenGender=OnlySingExceptWithLiaison
+9	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	11	det	_	AlignBegin=27644|AlignEnd=27784|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 10	petit	petit	ADJ	_	Gender=Masc	11	mod	_	AlignBegin=27784|AlignEnd=27954|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 11	cocon	cocon	NOUN	_	_	8	comp:obj	_	AlignBegin=27954|AlignEnd=28274|Gender[lex]=Masc|Number[ctxt]=Sing
-12	du	du	ADP	_	_	11	udep	_	AlignBegin=28274|AlignEnd=28354
-13	septième	septième	NOUN	_	_	12	comp:obj	_	AlignBegin=28354|AlignEnd=28804|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
-14	.	.	PUNCT	_	_	3	punct	_	AlignBegin=28804|AlignEnd=28804
+12-13	du	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	11	udep	_	AlignBegin=28274|AlignEnd=28354
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	AlignBegin=28274|AlignEnd=28354
+14	septième	septième	NOUN	_	_	12	comp:obj	_	AlignBegin=28354|AlignEnd=28804|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+15	.	.	PUNCT	_	_	3	punct	_	AlignBegin=28804|AlignEnd=28804
 
 # sent_id = Rhap_D0006-14
 # old_id = Rhap_D0006-10
@@ -1006,9 +1011,11 @@
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=70439|AlignEnd=70719
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	AlignBegin=70719|AlignEnd=70759|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 5	argent	argent	NOUN	_	_	3	comp:pred	_	AlignBegin=70759|AlignEnd=71119|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
-6	du	du	ADP	_	_	5	udep	_	AlignBegin=71119|AlignEnd=71199
-7	cinéma	cinéma	NOUN	_	_	6	comp:obj	_	AlignBegin=71199|AlignEnd=71765|Gender[lex]=Masc|Number[ctxt]=Sing
-8	?	?	PUNCT	_	_	3	punct	_	AlignBegin=71765|AlignEnd=71765
+6-7	du	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	5	udep	_	AlignBegin=71119|AlignEnd=71199
+7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	AlignBegin=71119|AlignEnd=71199
+8	cinéma	cinéma	NOUN	_	_	6	comp:obj	_	AlignBegin=71199|AlignEnd=71765|Gender[lex]=Masc|Number[ctxt]=Sing
+9	?	?	PUNCT	_	_	3	punct	_	AlignBegin=71765|AlignEnd=71765
 
 # sent_id = Rhap_D0006-26
 # old_id = Rhap_D0006-17bis
@@ -1357,9 +1364,11 @@
 4	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	5	det	_	AlignBegin=88123|AlignEnd=88263
 5	principes	principe	NOUN	_	_	3	comp:pred	_	AlignBegin=88263|AlignEnd=88703|Gender[lex]=Masc|Number[ctxt]=Plur
 6	éducatifs	éducatif	ADJ	_	Gender=Masc	5	mod	_	AlignBegin=88703|AlignEnd=89313|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur
-7	des	de	ADP	_	_	5	udep	_	AlignBegin=89313|AlignEnd=89453
-8	parents	parent	NOUN	_	_	7	comp:obj	_	AlignBegin=89453|AlignEnd=89902|Gender[lex]=Masc|Number[ctxt]=Plur
-9	?	?	PUNCT	_	_	3	punct	_	AlignBegin=89902|AlignEnd=89902
+7-8	des	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	5	udep	_	AlignBegin=89313|AlignEnd=89453
+8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	AlignBegin=89313|AlignEnd=89453
+9	parents	parent	NOUN	_	_	7	comp:obj	_	AlignBegin=89453|AlignEnd=89902|Gender[lex]=Masc|Number[ctxt]=Plur
+10	?	?	PUNCT	_	_	3	punct	_	AlignBegin=89902|AlignEnd=89902
 
 # sent_id = Rhap_D0006-36
 # old_id = Rhap_D0006-24
@@ -1573,7 +1582,7 @@
 21	peu	peu	NOUN	_	ExtPos=ADV	22	mod	_	AlignBegin=97904|AlignEnd=98004|Idiom=Yes
 22	sorti	sortir	VERB	_	VerbForm=Part|Voice=Act	19	comp:aux@tense	_	AlignBegin=98004|AlignEnd=98485|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 23	de	de	ADP	_	_	22	comp:obl	_	AlignBegin=98485|AlignEnd=98630
-24	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	26	det	_	AlignBegin=98630|AlignEnd=98794|HasSpokenGender=OnlySingExceptWithLiaison
+24	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	26	det	_	AlignBegin=98630|AlignEnd=98794|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 25	petit	petit	ADJ	_	Gender=Masc	26	mod	_	AlignBegin=98794|AlignEnd=98934|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 26	cocon	cocon	NOUN	_	_	23	comp:obj	_	AlignBegin=98934|AlignEnd=99286|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 27	,	,	PUNCT	_	_	2	punct	_	AlignBegin=99286|AlignEnd=99922
@@ -1610,24 +1619,26 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0006.mp3
 # macrosyntax = $L2 donc < { la | la } rencontre { des | de la } difficulté à vivre < c'est le ESPERLUETTE //
 # text = donc, la, la rencontre des, de la difficulté à vivre, c'est le…
-1	donc	donc	ADV	_	_	16	mod	_	AlignBegin=103412|AlignEnd=103717|SpaceAfter=No
+1	donc	donc	ADV	_	_	17	mod	_	AlignBegin=103412|AlignEnd=103717|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=103717|AlignEnd=103717
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	AlignBegin=103717|AlignEnd=104157|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=104157|AlignEnd=104157
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	conj:dicto	_	AlignBegin=104157|AlignEnd=104287|HasSpokenGender=OnlySingExceptWithLiaison
-6	rencontre	rencontre	NOUN	_	_	16	dislocated:subj	_	AlignBegin=104287|AlignEnd=105017|Gender[lex]=Fem|Number[ctxt]=Sing
-7	des	de	ADP	_	_	6	udep	_	AlignBegin=105017|AlignEnd=105477
-8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=105477|AlignEnd=105477
-9	de	de	ADP	_	_	7	conj:dicto	_	AlignBegin=105477|AlignEnd=105567
-10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	AlignBegin=105567|AlignEnd=105667|HasSpokenGender=OnlySingExceptWithLiaison
-11	difficulté	difficulté	NOUN	_	_	9	comp:obj	_	AlignBegin=105667|AlignEnd=106307|Gender[lex]=Fem|Number[ctxt]=Sing
-12	à	à	ADP	_	_	11	udep	_	AlignBegin=106307|AlignEnd=106367
-13	vivre	vivre	VERB	_	VerbForm=Inf	12	comp:obj	_	AlignBegin=106367|AlignEnd=106827|SpaceAfter=No|Subject=NoRaising
-14	,	,	PUNCT	_	_	6	punct	_	AlignBegin=106827|AlignEnd=106827
-15	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	subj	_	AlignBegin=106827|AlignEnd=107027|SpaceAfter=No
-16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=107027|AlignEnd=107259
-17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	comp:pred@scrap	_	AlignBegin=107259|AlignEnd=107732|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
-18	…	…	PUNCT	_	_	16	punct	_	AlignBegin=107732|AlignEnd=107732
+6	rencontre	rencontre	NOUN	_	_	17	dislocated:subj	_	AlignBegin=104287|AlignEnd=105017|Gender[lex]=Fem|Number[ctxt]=Sing
+7-8	des	_	_	_	_	_	_	_	SpaceAfter=No
+7	de	de	ADP	_	_	6	udep	_	AlignBegin=105017|AlignEnd=105477
+8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	comp:obj@scrap	_	AlignBegin=105017|AlignEnd=105477
+9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=105477|AlignEnd=105477
+10	de	de	ADP	_	_	7	conj:dicto	_	AlignBegin=105477|AlignEnd=105567
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	AlignBegin=105567|AlignEnd=105667|HasSpokenGender=OnlySingExceptWithLiaison
+12	difficulté	difficulté	NOUN	_	_	10	comp:obj	_	AlignBegin=105667|AlignEnd=106307|Gender[lex]=Fem|Number[ctxt]=Sing
+13	à	à	ADP	_	_	12	udep	_	AlignBegin=106307|AlignEnd=106367
+14	vivre	vivre	VERB	_	VerbForm=Inf	13	comp:obj	_	AlignBegin=106367|AlignEnd=106827|SpaceAfter=No|Subject=NoRaising
+15	,	,	PUNCT	_	_	6	punct	_	AlignBegin=106827|AlignEnd=106827
+16	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	17	subj	_	AlignBegin=106827|AlignEnd=107027|SpaceAfter=No
+17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=107027|AlignEnd=107259
+18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	comp:pred@scrap	_	AlignBegin=107259|AlignEnd=107732|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
+19	…	…	PUNCT	_	_	17	punct	_	AlignBegin=107732|AlignEnd=107732
 
 # sent_id = Rhap_D0006-43
 # old_id = Rhap_D0006-29
@@ -2307,11 +2318,15 @@
 29	être	être	AUX	_	VerbForm=Inf	28	comp:obj	_	AlignBegin=155294|AlignEnd=155389|Subject=NoRaising
 30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	AlignBegin=155389|AlignEnd=155498|HasSpokenGender=OnlySingExceptWithLiaison
 31	spécialiste	spécialiste	NOUN	_	_	29	comp:pred	_	AlignBegin=155498|AlignEnd=155941|Gender[lex]=Masc|Number[ctxt]=Sing
-32	du	du	ADP	_	_	31	udep	_	AlignBegin=155941|AlignEnd=156080
-33	spécialiste	spécialiste	NOUN	_	_	32	comp:obj	_	AlignBegin=156080|AlignEnd=156472|Gender[lex]=Masc|Number[ctxt]=Sing
-34	du	du	ADP	_	_	33	udep	_	AlignBegin=156472|AlignEnd=156587
-35	spécialiste	spécialiste	NOUN	_	_	34	comp:obj	_	AlignBegin=156587|AlignEnd=157019|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
-36	.	.	PUNCT	_	_	7	punct	_	AlignBegin=157019|AlignEnd=157019
+32-33	du	_	_	_	_	_	_	_	_
+32	de	de	ADP	_	_	31	udep	_	AlignBegin=155941|AlignEnd=156080
+33	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	AlignBegin=155941|AlignEnd=156080
+34	spécialiste	spécialiste	NOUN	_	_	32	comp:obj	_	AlignBegin=156080|AlignEnd=156472|Gender[lex]=Masc|Number[ctxt]=Sing
+35-36	du	_	_	_	_	_	_	_	_
+35	de	de	ADP	_	_	34	udep	_	AlignBegin=156472|AlignEnd=156587
+36	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	AlignBegin=156472|AlignEnd=156587
+37	spécialiste	spécialiste	NOUN	_	_	35	comp:obj	_	AlignBegin=156587|AlignEnd=157019|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+38	.	.	PUNCT	_	_	7	punct	_	AlignBegin=157019|AlignEnd=157019
 
 # sent_id = Rhap_D0006-61
 # old_id = Rhap_D0006-42bis
@@ -3324,30 +3339,32 @@
 6	d'	de	ADP	_	_	5	comp:obj	_	AlignBegin=221593|AlignEnd=221663|SpaceAfter=No
 7	autres	autre	PRON	_	Number=Sing|Person=3|PronType=Ind	6	comp:obj	_	AlignBegin=221663|AlignEnd=221763|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=221763|AlignEnd=221763
-9	au	au	ADP	_	_	5	mod	_	AlignBegin=221763|AlignEnd=221923
-10	contraire	contraire	NOUN	_	_	9	comp:obj	_	AlignBegin=221923|AlignEnd=222333|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
-11	,	,	PUNCT	_	_	12	punct	_	AlignBegin=222333|AlignEnd=222333
-12	euh	euh	INTJ	_	_	10	discourse	_	AlignBegin=222333|AlignEnd=222690|SpaceAfter=No
-13	,	,	PUNCT	_	_	19	punct	_	AlignBegin=222690|AlignEnd=224056
-14	qui	qui	PRON	_	PronType=Rel	19	subj	_	AlignBegin=224056|AlignEnd=224321|SpaceAfter=No
-15	,	,	PUNCT	_	_	16	punct	_	AlignBegin=224321|AlignEnd=224321
-16	euh	euh	INTJ	_	_	14	discourse	_	AlignBegin=224321|AlignEnd=225062|SpaceAfter=No
-17	,	,	PUNCT	_	_	18	punct	_	AlignBegin=225062|AlignEnd=225484
-18	qui	qui	PRON	_	PronType=Rel	14	conj:dicto	_	AlignBegin=225484|AlignEnd=225719
-19	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	AlignBegin=225719|AlignEnd=226002|SpaceAfter=No
-20	,	,	PUNCT	_	_	22	punct	_	AlignBegin=226002|AlignEnd=227281
-21	qui	qui	PRON	_	PronType=Rel	22	subj	_	AlignBegin=227281|AlignEnd=227436
-22	recherchent	rechercher	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	conj:dicto	_	AlignBegin=227436|AlignEnd=227966
-23	vraiment	vraiment	ADV	_	_	22	mod	_	AlignBegin=227966|AlignEnd=228486
-24	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	25	det	_	AlignBegin=228486|AlignEnd=228566|HasSpokenGender=OnlySingExceptWithLiaison
-25	contact	contact	NOUN	_	_	22	comp:obj	_	AlignBegin=228566|AlignEnd=229015|Gender[lex]=Masc|Number[ctxt]=Sing
-26	encore	encore	ADV	_	_	27	mod	_	AlignBegin=229756|AlignEnd=229991
-27	plus	plus	ADV	_	_	22	mod	_	AlignBegin=229991|AlignEnd=230294|SpaceAfter=No
-28	,	,	PUNCT	_	_	30	punct	_	AlignBegin=230294|AlignEnd=231696
-29	qui	qui	PRON	_	PronType=Rel	30	subj	_	AlignBegin=231696|AlignEnd=231856|Overlap=Rhap_D0006-88
-30	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	conj:coord	_	AlignBegin=231856|AlignEnd=231886|Overlap=Rhap_D0006-88
-31	fait	faire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	30	comp:aux@scrap	_	AlignBegin=231886|AlignEnd=231991|Number[ctxt]=Sing|Overlap=Rhap_D0006-88|PastPartHasSpokenGender=Yes|SpaceAfter=No|Tense[denom]=Past
-32	…	…	PUNCT	_	_	5	punct	_	AlignBegin=232225|AlignEnd=232225|Overlap=Rhap_D0006-63
+9-10	au	_	_	_	_	_	_	_	_
+9	à	à	ADP	_	_	5	mod	_	AlignBegin=221763|AlignEnd=221923
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	AlignBegin=221763|AlignEnd=221923
+11	contraire	contraire	NOUN	_	_	9	comp:obj	_	AlignBegin=221923|AlignEnd=222333|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=222333|AlignEnd=222333
+13	euh	euh	INTJ	_	_	11	discourse	_	AlignBegin=222333|AlignEnd=222690|SpaceAfter=No
+14	,	,	PUNCT	_	_	20	punct	_	AlignBegin=222690|AlignEnd=224056
+15	qui	qui	PRON	_	PronType=Rel	20	subj	_	AlignBegin=224056|AlignEnd=224321|SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	AlignBegin=224321|AlignEnd=224321
+17	euh	euh	INTJ	_	_	15	discourse	_	AlignBegin=224321|AlignEnd=225062|SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	AlignBegin=225062|AlignEnd=225484
+19	qui	qui	PRON	_	PronType=Rel	15	conj:dicto	_	AlignBegin=225484|AlignEnd=225719
+20	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	AlignBegin=225719|AlignEnd=226002|SpaceAfter=No
+21	,	,	PUNCT	_	_	23	punct	_	AlignBegin=226002|AlignEnd=227281
+22	qui	qui	PRON	_	PronType=Rel	23	subj	_	AlignBegin=227281|AlignEnd=227436
+23	recherchent	rechercher	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	conj:dicto	_	AlignBegin=227436|AlignEnd=227966
+24	vraiment	vraiment	ADV	_	_	23	mod	_	AlignBegin=227966|AlignEnd=228486
+25	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	26	det	_	AlignBegin=228486|AlignEnd=228566|HasSpokenGender=OnlySingExceptWithLiaison
+26	contact	contact	NOUN	_	_	23	comp:obj	_	AlignBegin=228566|AlignEnd=229015|Gender[lex]=Masc|Number[ctxt]=Sing
+27	encore	encore	ADV	_	_	28	mod	_	AlignBegin=229756|AlignEnd=229991
+28	plus	plus	ADV	_	_	23	mod	_	AlignBegin=229991|AlignEnd=230294|SpaceAfter=No
+29	,	,	PUNCT	_	_	31	punct	_	AlignBegin=230294|AlignEnd=231696
+30	qui	qui	PRON	_	PronType=Rel	31	subj	_	AlignBegin=231696|AlignEnd=231856|Overlap=Rhap_D0006-88
+31	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	conj:coord	_	AlignBegin=231856|AlignEnd=231886|Overlap=Rhap_D0006-88
+32	fait	faire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	31	comp:aux@scrap	_	AlignBegin=231886|AlignEnd=231991|Number[ctxt]=Sing|Overlap=Rhap_D0006-88|PastPartHasSpokenGender=Yes|SpaceAfter=No|Tense[denom]=Past
+33	…	…	PUNCT	_	_	5	punct	_	AlignBegin=232225|AlignEnd=232225|Overlap=Rhap_D0006-63
 
 # sent_id = Rhap_D0006-87
 # old_id = Rhap_D0006-62bis
@@ -3428,11 +3445,13 @@
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	AlignBegin=236058|AlignEnd=236133|HasSpokenGender=OnlySingExceptWithLiaison
 22	psychiatrie	psychiatrie	NOUN	_	_	5	conj:coord	_	AlignBegin=236133|AlignEnd=236969|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 23	,	,	PUNCT	_	_	24	punct	_	AlignBegin=236969|AlignEnd=236969
-24	des	de	ADP	_	_	22	conj:dicto	_	AlignBegin=236969|AlignEnd=237044
-25	choses	chose	NOUN	_	_	24	comp:obj	_	AlignBegin=237044|AlignEnd=237214|Gender[lex]=Fem|Number[ctxt]=Plur
-26	comme	comme	ADP	_	_	25	udep	_	AlignBegin=237214|AlignEnd=237354
-27	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	26	comp:obj	_	AlignBegin=237354|AlignEnd=237584
-28	?	?	PUNCT	_	_	3	punct	_	AlignBegin=237584|AlignEnd=237584
+24-25	des	_	_	_	_	_	_	_	_
+24	de	de	ADP	_	_	22	conj:dicto	_	AlignBegin=236969|AlignEnd=237044
+25	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	AlignBegin=236969|AlignEnd=237044
+26	choses	chose	NOUN	_	_	24	comp:obj	_	AlignBegin=237044|AlignEnd=237214|Gender[lex]=Fem|Number[ctxt]=Plur
+27	comme	comme	ADP	_	_	26	udep	_	AlignBegin=237214|AlignEnd=237354
+28	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	27	comp:obj	_	AlignBegin=237354|AlignEnd=237584
+29	?	?	PUNCT	_	_	3	punct	_	AlignBegin=237584|AlignEnd=237584
 
 # sent_id = Rhap_D0006-89
 # old_id = Rhap_D0006-63bis
@@ -3807,7 +3826,7 @@
 3	avoir	avoir	VERB	_	VerbForm=Inf	2	comp:obj	_	AlignBegin=250779|AlignEnd=250939|Subject=SubjRaising
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	AlignBegin=250939|AlignEnd=251049
 5	don	don	NOUN	_	_	3	comp:obj	_	AlignBegin=251049|AlignEnd=251219|Gender[lex]=Masc|Number[ctxt]=Sing
-6	spécial	spécial	ADJ	_	Number=Sing	5	mod	_	AlignBegin=251219|AlignEnd=251639|Gender[ctxt]=Masc|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc
+6	spécial	spécial	ADJ	_	_	5	mod	_	AlignBegin=251219|AlignEnd=251639|Gender[ctxt]=Masc|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|Number[ctxt]=Sing
 7	parce	parce	ADV	_	ExtPos=SCONJ	3	mod	_	AlignBegin=251639|AlignEnd=251809|Idiom=Yes
 8	que	que	SCONJ	_	_	7	unk	_	AlignBegin=251809|AlignEnd=251869|InIdiom=Yes
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	AlignBegin=251869|AlignEnd=251929|HasSpokenGender=OnlySingExceptWithLiaison
@@ -4342,10 +4361,12 @@
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	AlignBegin=278511|AlignEnd=278631|SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=278631|AlignEnd=278681
 4	une	un	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Ind	3	comp:pred	_	AlignBegin=278681|AlignEnd=278823
-5	des	de	ADP	_	_	4	mod	_	AlignBegin=278823|AlignEnd=278969
-6	moins	moins	ADV	_	_	7	mod	_	AlignBegin=278969|AlignEnd=279124
-7	payées	payer	VERB	_	VerbForm=Part	5	comp:obj	_	AlignBegin=279124|AlignEnd=279335|Gender[ctxt]=Fem|Number[ctxt]=Plur|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
-8	.	.	PUNCT	_	_	3	punct	_	AlignBegin=279335|AlignEnd=279335
+5-6	des	_	_	_	_	_	_	_	_
+5	de	de	ADP	_	_	4	mod	_	AlignBegin=278823|AlignEnd=278969
+6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	AlignBegin=278823|AlignEnd=278969
+7	moins	moins	ADV	_	_	8	mod	_	AlignBegin=278969|AlignEnd=279124
+8	payées	payer	VERB	_	VerbForm=Part	5	comp:obj	_	AlignBegin=279124|AlignEnd=279335|Gender[ctxt]=Fem|Number[ctxt]=Plur|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+9	.	.	PUNCT	_	_	3	punct	_	AlignBegin=279335|AlignEnd=279335
 
 # sent_id = Rhap_D0006-115
 # old_id = Rhap_D0006-83
@@ -5133,9 +5154,11 @@
 11	sur	sur	ADP	_	_	10	udep	_	AlignBegin=327621|AlignEnd=327851
 12	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	AlignBegin=327851|AlignEnd=327891|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 13	équipement	équipement	NOUN	_	_	11	comp:obj	_	AlignBegin=327891|AlignEnd=328311|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
-14	du	du	ADP	_	_	13	udep	_	AlignBegin=328311|AlignEnd=328371
-15	quartier	quartier	NOUN	_	_	14	comp:obj	_	AlignBegin=328371|AlignEnd=328760|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
-16	.	.	PUNCT	_	_	2	punct	_	AlignBegin=328760|AlignEnd=328760
+14-15	du	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	13	udep	_	AlignBegin=328311|AlignEnd=328371
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	AlignBegin=328311|AlignEnd=328371
+16	quartier	quartier	NOUN	_	_	14	comp:obj	_	AlignBegin=328371|AlignEnd=328760|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+17	.	.	PUNCT	_	_	2	punct	_	AlignBegin=328760|AlignEnd=328760
 
 # sent_id = Rhap_D0006-136
 # old_id = Rhap_D0006-103

@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Rhap_M0005-1
 # old_id = Rhap_M0005-1
 # type = monologue
@@ -49,13 +50,15 @@
 23	là	là	ADV	_	_	22	mod	_	AlignBegin=9214|AlignEnd=9394|SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	AlignBegin=9394|AlignEnd=9394
 25	aller	aller	VERB	_	VerbForm=Inf	20	conj:dicto	_	AlignBegin=9394|AlignEnd=9674|Subject=NoRaising
-26	tout	tout	ADV	_	_	29	mod	_	AlignBegin=9674|AlignEnd=9844
-27	au	au	ADP	_	_	25	comp:obl	_	AlignBegin=9844|AlignEnd=10014
-28	bout	bout	NOUN	_	_	27	comp:obj	_	AlignBegin=10014|AlignEnd=10154|Gender[lex]=Masc|Number[ctxt]=Sing
-29	de	de	ADP	_	_	28	udep	_	AlignBegin=10154|AlignEnd=10204
-30	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	31	det	_	AlignBegin=10204|AlignEnd=10284|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
-31	avenue	avenue	NOUN	_	_	29	comp:obj	_	AlignBegin=10284|AlignEnd=10845|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
-32	.	.	PUNCT	_	_	19	punct	_	AlignBegin=11308|AlignEnd=11308
+26	tout	tout	ADV	_	_	30	mod	_	AlignBegin=9674|AlignEnd=9844
+27-28	au	_	_	_	_	_	_	_	_
+27	à	à	ADP	_	_	25	comp:obl	_	AlignBegin=9844|AlignEnd=10014
+28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	AlignBegin=9844|AlignEnd=10014
+29	bout	bout	NOUN	_	_	27	comp:obj	_	AlignBegin=10014|AlignEnd=10154|Gender[lex]=Masc|Number[ctxt]=Sing
+30	de	de	ADP	_	_	29	udep	_	AlignBegin=10154|AlignEnd=10204
+31	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	32	det	_	AlignBegin=10204|AlignEnd=10284|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
+32	avenue	avenue	NOUN	_	_	30	comp:obj	_	AlignBegin=10284|AlignEnd=10845|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
+33	.	.	PUNCT	_	_	19	punct	_	AlignBegin=11308|AlignEnd=11308
 
 # sent_id = Rhap_M0005-2
 # old_id = Rhap_M0005-2
@@ -83,16 +86,18 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-M0005.mp3
 # macrosyntax = ensuite <+ aux feux <+ vous tournez à droite //
 # text = ensuite, aux feux, vous tournez à droite.
-1	ensuite	ensuite	ADV	_	_	7	mod	_	AlignBegin=11308|AlignEnd=11687|SpaceAfter=No
+1	ensuite	ensuite	ADV	_	_	8	mod	_	AlignBegin=11308|AlignEnd=11687|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=11687|AlignEnd=11687
-3	aux	au	ADP	_	_	7	mod	_	AlignBegin=11687|AlignEnd=11907
-4	feux	feu	NOUN	_	_	3	comp:obj	_	AlignBegin=11907|AlignEnd=12348|Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
-5	,	,	PUNCT	_	_	3	punct	_	AlignBegin=12348|AlignEnd=12348
-6	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	7	subj	_	AlignBegin=12348|AlignEnd=12518|Polite=Unknown
-7	tournez	tourner	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=12518|AlignEnd=12961
-8	à	à	ADP	_	_	7	comp:obl	_	AlignBegin=12961|AlignEnd=13048
-9	droite	droite	NOUN	_	_	8	comp:obj	_	AlignBegin=13048|AlignEnd=13587|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
-10	.	.	PUNCT	_	_	7	punct	_	AlignBegin=13587|AlignEnd=13587
+3-4	aux	_	_	_	_	_	_	_	_
+3	à	à	ADP	_	_	8	mod	_	AlignBegin=11687|AlignEnd=11907
+4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	AlignBegin=11687|AlignEnd=11907
+5	feux	feu	NOUN	_	_	3	comp:obj	_	AlignBegin=11907|AlignEnd=12348|Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
+6	,	,	PUNCT	_	_	3	punct	_	AlignBegin=12348|AlignEnd=12348
+7	vous	vous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=2|PronType=Prs	8	subj	_	AlignBegin=12348|AlignEnd=12518|Polite=Unknown
+8	tournez	tourner	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=12518|AlignEnd=12961
+9	à	à	ADP	_	_	8	comp:obl	_	AlignBegin=12961|AlignEnd=13048
+10	droite	droite	NOUN	_	_	9	comp:obj	_	AlignBegin=13048|AlignEnd=13587|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+11	.	.	PUNCT	_	_	8	punct	_	AlignBegin=13587|AlignEnd=13587
 
 # sent_id = Rhap_M0005-3
 # old_id = Rhap_M0005-3

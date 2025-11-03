@@ -1,3 +1,4 @@
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Rhap_M0001-1
 # old_id = Rhap_M0001-1
 # type = monologue
@@ -205,14 +206,16 @@
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=20043|AlignEnd=20043
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	conj:dicto	_	AlignBegin=20043|AlignEnd=20133|HasSpokenGender=OnlySingExceptWithLiaison
 6	rails	rail	NOUN	_	_	2	comp:obj	_	AlignBegin=20133|AlignEnd=20343|Gender[lex]=Masc|Number[ctxt]=Plur
-7	du	du	ADP	_	_	6	udep	_	AlignBegin=20343|AlignEnd=20413
-8	tram	tram	NOUN	_	_	7	comp:obj	_	AlignBegin=20413|AlignEnd=20963|Gender[lex]=Masc|Number[ctxt]=Sing
-9	jusqu'	jusque	ADP	_	_	2	mod	_	AlignBegin=21132|AlignEnd=21472|SpaceAfter=No
-10	à	à	ADP	_	_	9	comp:obj	_	AlignBegin=21472|AlignEnd=21512
-11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	AlignBegin=21512|AlignEnd=21632|HasSpokenGender=OnlySingExceptWithLiaison
-12	place	place	NOUN	_	_	10	comp:obj	_	AlignBegin=21632|AlignEnd=21812|Gender[lex]=Fem|Number[ctxt]=Sing
-13	Grenette	Grenette	PROPN	_	_	12	mod@appos	_	AlignBegin=21812|AlignEnd=22220|Gender[lex]=Unknown|SpaceAfter=No
-14	.	.	PUNCT	_	_	2	punct	_	AlignBegin=22220|AlignEnd=22220
+7-8	du	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	6	udep	_	AlignBegin=20343|AlignEnd=20413
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=20343|AlignEnd=20413
+9	tram	tram	NOUN	_	_	7	comp:obj	_	AlignBegin=20413|AlignEnd=20963|Gender[lex]=Masc|Number[ctxt]=Sing
+10	jusqu'	jusque	ADP	_	_	2	mod	_	AlignBegin=21132|AlignEnd=21472|SpaceAfter=No
+11	à	à	ADP	_	_	10	comp:obj	_	AlignBegin=21472|AlignEnd=21512
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	AlignBegin=21512|AlignEnd=21632|HasSpokenGender=OnlySingExceptWithLiaison
+13	place	place	NOUN	_	_	11	comp:obj	_	AlignBegin=21632|AlignEnd=21812|Gender[lex]=Fem|Number[ctxt]=Sing
+14	Grenette	Grenette	PROPN	_	_	13	mod@appos	_	AlignBegin=21812|AlignEnd=22220|Gender[lex]=Unknown|SpaceAfter=No
+15	.	.	PUNCT	_	_	2	punct	_	AlignBegin=22220|AlignEnd=22220
 
 # sent_id = Rhap_M0001-6
 # old_id = Rhap_M0001-6
@@ -358,9 +361,11 @@
 13	avant	avant	ADP	_	_	5	mod	_	AlignBegin=32427|AlignEnd=32665
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	AlignBegin=32665|AlignEnd=32805|HasSpokenGender=OnlySingExceptWithLiaison
 15	place	place	NOUN	_	_	13	comp:obj	_	AlignBegin=32805|AlignEnd=32995|Gender[lex]=Fem|Number[ctxt]=Sing
-16	du	du	ADP	_	_	15	udep	_	AlignBegin=32995|AlignEnd=33125
-17	Tribunal	Tribunal	PROPN	_	Gender=Masc|Number=Sing	16	comp:obj	_	AlignBegin=33125|AlignEnd=33697|SpaceAfter=No
-18	.	.	PUNCT	_	_	5	punct	_	AlignBegin=33697|AlignEnd=33697
+16-17	du	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	15	udep	_	AlignBegin=32995|AlignEnd=33125
+17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	AlignBegin=32995|AlignEnd=33125
+18	Tribunal	Tribunal	PROPN	_	Gender=Masc|Number=Sing	16	comp:obj	_	AlignBegin=33125|AlignEnd=33697|SpaceAfter=No
+19	.	.	PUNCT	_	_	5	punct	_	AlignBegin=33697|AlignEnd=33697
 
 # sent_id = Rhap_M0001-10
 # old_id = Rhap_M0001-10
@@ -427,26 +432,28 @@
 1	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	2	subj	_	AlignBegin=36693|AlignEnd=36731
 2	arrives	arriver	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=36731|AlignEnd=37231
 3	place	place	NOUN	_	_	2	comp:obj	_	AlignBegin=37231|AlignEnd=37593|Gender[lex]=Fem|Number[ctxt]=Sing
-4	aux	au	ADP	_	_	3	udep	_	AlignBegin=37593|AlignEnd=37770
-5	Herbes	Herbes	PROPN	_	_	4	comp:obj	_	AlignBegin=37770|AlignEnd=38021|Gender[lex]=Unknown
-6	avec	avec	ADP	_	_	3	udep	_	AlignBegin=38021|AlignEnd=38331
-7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	AlignBegin=38331|AlignEnd=38639|SpaceAfter=No
-8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=38535|AlignEnd=38639
-9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	conj:dicto	_	AlignBegin=38639|AlignEnd=38799
-10	sorte	sorte	NOUN	_	_	6	comp:obj	_	AlignBegin=38799|AlignEnd=38979|Gender[lex]=Fem|Number[ctxt]=Sing
-11	de	de	ADP	_	_	10	udep	_	AlignBegin=38979|AlignEnd=39189
-12	halle	halle	NOUN	_	_	11	comp:obj	_	AlignBegin=39189|AlignEnd=39490|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
-13	,	,	PUNCT	_	_	14	punct	_	AlignBegin=39490|AlignEnd=40038
-14	quoi	quoi	INTJ	_	_	12	discourse	_	AlignBegin=40038|AlignEnd=40148|SpaceAfter=No
-15	,	,	PUNCT	_	_	16	punct	_	AlignBegin=40148|AlignEnd=40148
-16	de	de	ADP	_	_	11	conj:dicto	_	AlignBegin=40148|AlignEnd=40341|SpaceAfter=No
-17	,	,	PUNCT	_	_	18	punct	_	AlignBegin=40341|AlignEnd=41218
-18	de	de	ADP	_	_	16	conj:dicto	_	AlignBegin=41218|AlignEnd=41558|SpaceAfter=No
-19	,	,	PUNCT	_	_	20	punct	_	AlignBegin=41558|AlignEnd=41678
-20	de	de	ADP	_	_	18	conj:dicto	_	AlignBegin=41678|AlignEnd=41758
-21	structure	structure	NOUN	_	_	20	comp:obj	_	AlignBegin=41758|AlignEnd=42168|Gender[lex]=Fem|Number[ctxt]=Sing
-22	métallique	métallique	ADJ	_	_	21	mod	_	AlignBegin=42168|AlignEnd=42786|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
-23	.	.	PUNCT	_	_	2	punct	_	AlignBegin=42786|AlignEnd=42786
+4-5	aux	_	_	_	_	_	_	_	_
+4	à	à	ADP	_	_	3	udep	_	AlignBegin=37593|AlignEnd=37770
+5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	AlignBegin=37593|AlignEnd=37770
+6	Herbes	Herbes	PROPN	_	_	4	comp:obj	_	AlignBegin=37770|AlignEnd=38021|Gender[lex]=Unknown
+7	avec	avec	ADP	_	_	3	udep	_	AlignBegin=38021|AlignEnd=38331
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	AlignBegin=38331|AlignEnd=38639|SpaceAfter=No
+9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=38535|AlignEnd=38639
+10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	conj:dicto	_	AlignBegin=38639|AlignEnd=38799
+11	sorte	sorte	NOUN	_	_	7	comp:obj	_	AlignBegin=38799|AlignEnd=38979|Gender[lex]=Fem|Number[ctxt]=Sing
+12	de	de	ADP	_	_	11	udep	_	AlignBegin=38979|AlignEnd=39189
+13	halle	halle	NOUN	_	_	12	comp:obj	_	AlignBegin=39189|AlignEnd=39490|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	AlignBegin=39490|AlignEnd=40038
+15	quoi	quoi	INTJ	_	_	13	discourse	_	AlignBegin=40038|AlignEnd=40148|SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	AlignBegin=40148|AlignEnd=40148
+17	de	de	ADP	_	_	12	conj:dicto	_	AlignBegin=40148|AlignEnd=40341|SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	AlignBegin=40341|AlignEnd=41218
+19	de	de	ADP	_	_	17	conj:dicto	_	AlignBegin=41218|AlignEnd=41558|SpaceAfter=No
+20	,	,	PUNCT	_	_	21	punct	_	AlignBegin=41558|AlignEnd=41678
+21	de	de	ADP	_	_	19	conj:dicto	_	AlignBegin=41678|AlignEnd=41758
+22	structure	structure	NOUN	_	_	21	comp:obj	_	AlignBegin=41758|AlignEnd=42168|Gender[lex]=Fem|Number[ctxt]=Sing
+23	métallique	métallique	ADJ	_	_	22	mod	_	AlignBegin=42168|AlignEnd=42786|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
+24	.	.	PUNCT	_	_	2	punct	_	AlignBegin=42786|AlignEnd=42786
 
 # sent_id = Rhap_M0001-12
 # old_id = Rhap_M0001-12
