@@ -24,7 +24,7 @@ convert:
 	for infile in Rhap*.conllu ; do \
 		outfile=`echo $$infile | sed "s+^+${UD_FOLDER}/not-to-release/+" | sed "s+.sud.+-ud-+"` ; \
 		echo "$$infile --> $$outfile" ; \
-		grew_dev transform -config sud -grs ${GRS_CONVERT}/fr_SUD_to_UD.grs -strat fr_main -i $$infile -o $$outfile ; \
+		${GREW} transform -config sud -grs ${GRS_CONVERT}/fr_SUD_to_UD.grs -strat fr_main -i $$infile -o $$outfile ; \
 	done
 	@make build_ud
 
@@ -42,7 +42,7 @@ build_ud:
 
 norm:
 	for file in *.conllu ; do \
-		grew_dev transform -i $$file -o tmp ; \
+		${GREW} transform -i $$file -o tmp ; \
 		mv -f tmp $$file ; \
 	done
 
@@ -54,7 +54,7 @@ validate:
 # Running a GRS on *.conllu --> should not be used. Upstream maintenance in prosody_pauses
 run:
 	for file in *.conllu ; do \
-		grew_dev transform -config sud -grs ../extpos.grs -i $$file -o tmp ; \
+		${GREW} transform -config sud -grs ../extpos.grs -i $$file -o tmp ; \
 		mv -f tmp $$file ; \
 	done
 
@@ -97,7 +97,7 @@ step1:
 	for infile in prosody_pauses/*.conllu ; do \
 		outfile=`echo $$infile | sed "s+prosody_pauses+prosody+"` ; \
 		echo "$$infile --> $$outfile" ; \
-		grew_dev transform -config sud -grs grs/remove_pauses.grs -i $$infile -o $$outfile ; \
+		${GREW} transform -config sud -grs grs/remove_pauses.grs -i $$infile -o $$outfile ; \
 	done
 
 # step2
@@ -108,7 +108,7 @@ step2:
 	for infile in prosody/*.conllu ; do \
 		outfile=`echo $$infile | sed "s+prosody+p_words+"` ; \
 		echo "$$infile --> $$outfile" ; \
-		grew_dev transform -config sud -grs grs/remove_syllables.grs -i $$infile -o $$outfile ; \
+		${GREW} transform -config sud -grs grs/remove_syllables.grs -i $$infile -o $$outfile ; \
 	done
 
 # step3
@@ -119,7 +119,7 @@ step3:
 	for infile in p_words/*.conllu ; do \
 		outfile=`echo $$infile | sed "s+p_words+.+"` ; \
 		echo "$$infile --> $$outfile" ; \
-		grew_dev transform -config sud -grs grs/split_amalgam.grs -i $$infile -o tmp ; \
+		${GREW} transform -config sud -grs grs/split_amalgam.grs -i $$infile -o tmp ; \
 		cat tmp | sed "s/##SAN##	_	_	_	_	_	_	_	_/	_	_	_	_	_	_	_	SpaceAfter=No/" > $$outfile ; \
 	done
 	rm -f tmp
