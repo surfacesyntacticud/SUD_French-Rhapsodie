@@ -1,0 +1,25 @@
+% Note preliminary step: search/replace:
+%	AttachTo=6@Rhap_D0004-2 --> AttachTo=6|AttachSent=Rhap_D0004
+
+strat main { Onf (convert) }
+
+package convert {
+	rule backchannel {
+		pattern { X[__MISC__Rel=discourse, AttachTo, AttachSent] }
+		commands {
+			X.Backchannel=X.AttachSent+"::"+X.AttachTo;
+			del_feat X.__MISC__Rel;
+			del_feat X.AttachSent;
+			del_feat X.AttachTo;
+		}
+	}
+	rule Coconstruct {
+		pattern { X[__MISC__Rel<>discourse, AttachTo, AttachSent] }
+		commands {
+			X.Coconstruct=X.__MISC__Rel+"::"+X.AttachSent+"::"+X.AttachTo;
+			del_feat X.__MISC__Rel;
+			del_feat X.AttachSent;
+			del_feat X.AttachTo;
+		}
+	}
+}
