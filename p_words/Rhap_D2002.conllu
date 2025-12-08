@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Rhap_D2002-1
 # old_id = Rhap_D2002-1
 # type = dialogue
@@ -480,7 +479,7 @@
 3	parlez	parler	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=33573|AlignEnd=33843
 4	de	de	ADP	_	_	3	comp:obl	_	AlignBegin=33843|AlignEnd=33873
 5	trucs	truc	NOUN	_	_	4	comp:obj	_	AlignBegin=33873|AlignEnd=34033|Gender[lex]=Masc|Number[ctxt]=Plur
-6	people	people	NOUN	_	Number=Plur	5	compound	_	AlignBegin=34033|AlignEnd=34465|Gender[lex]=Masc|SpaceAfter=No
+6	people	people	NOUN	_	_	5	compound	_	AlignBegin=34033|AlignEnd=34465|Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=34465|AlignEnd=34772
 8	euh	euh	INTJ	_	_	6	discourse	_	AlignBegin=34772|AlignEnd=35254|SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	AlignBegin=35254|AlignEnd=35254
@@ -622,7 +621,7 @@
 3	en	en	PRON	_	Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=39850|AlignEnd=40070
 4	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=40070|AlignEnd=40260
 5	au	au	ADP	_	_	4	mod	_	AlignBegin=40260|AlignEnd=40370
-6	sens	sens	NOUN	_	Number=Sing	5	comp:obj	_	AlignBegin=40370|AlignEnd=40710|Gender[lex]=Masc
+6	sens	sens	NOUN	_	_	5	comp:obj	_	AlignBegin=40370|AlignEnd=40710|Gender[lex]=Masc|Number[ctxt]=Sing
 7	de	de	ADP	_	_	6	udep	_	AlignBegin=40710|AlignEnd=40920
 8	philosophes	philosophe	NOUN	_	_	7	comp:obj	_	AlignBegin=41343|AlignEnd=41898|Gender[lex]=Masc|Number[ctxt]=Plur
 9	qui	qui	PRON	_	PronType=Rel	10	subj	_	AlignBegin=41898|AlignEnd=42198
@@ -877,7 +876,7 @@
 27	lire	lire	VERB	_	VerbForm=Inf	26	comp:obj	_	AlignBegin=66895|AlignEnd=67266|Subject=SubjRaising
 28	déjà	déjà	ADV	_	_	29	mod	_	AlignBegin=67266|AlignEnd=67586
 29	deux	deux	NUM	_	ExtPos=DET	30	det	_	AlignBegin=67586|AlignEnd=67796|Number[lex]=Plur
-30	fois	fois	NOUN	_	Number=Plur	25	mod	_	AlignBegin=67796|AlignEnd=68141|Gender[lex]=Fem|SpaceAfter=No
+30	fois	fois	NOUN	_	_	25	mod	_	AlignBegin=67796|AlignEnd=68141|Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
 31	,	,	PUNCT	_	_	33	punct	_	AlignBegin=68141|AlignEnd=68614
 32	qui	qui	PRON	_	PronType=Rel	33	subj	_	AlignBegin=68614|AlignEnd=68699
 33	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	conj:coord	_	AlignBegin=68699|AlignEnd=68729
@@ -959,7 +958,7 @@
 27	moment	moment	NOUN	_	_	25	comp:obj	_	AlignBegin=77870|AlignEnd=78107|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 28	,	,	PUNCT	_	_	12	punct	_	AlignBegin=78107|AlignEnd=78532
 29	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	30	det	_	AlignBegin=78532|AlignEnd=78577|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
-30	univers	univers	NOUN	_	Number=Sing	34	subj	_	AlignBegin=78577|AlignEnd=78977|Gender[lex]=Masc|LiaisonPossibleBefore=Yes
+30	univers	univers	NOUN	_	_	34	subj	_	AlignBegin=78577|AlignEnd=78977|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 31	de	de	ADP	_	_	30	udep	_	AlignBegin=78977|AlignEnd=79227
 32	Murakami	Murakami	PROPN	_	_	31	comp:obj	_	AlignBegin=79227|AlignEnd=80145|Gender[lex]=Unknown
 33	m'	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	36	comp:obl	_	AlignBegin=80145|AlignEnd=80164|SpaceAfter=No
@@ -1225,7 +1224,7 @@
 37	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	38	det	_	AlignBegin=100397|AlignEnd=100607|HasSpokenGender=OnlySingExceptWithLiaison
 38	chef	chef	NOUN	_	ExtPos=NOUN	32	comp:pred	_	AlignBegin=100607|AlignEnd=100797|Gender[lex]=Masc|Idiom=Yes|Number[ctxt]=Sing
 39	d'	de	ADP	_	_	38	udep	_	AlignBegin=100797|AlignEnd=100867|InIdiom=Yes|SpaceAfter=No
-40	œuvre	œuvre	NOUN	_	Number=Sing	39	comp:obj	_	AlignBegin=100867|AlignEnd=101147|Gender[lex]=Fem|InIdiom=Yes|LiaisonPossibleBefore=Yes|SpaceAfter=No
+40	œuvre	œuvre	NOUN	_	_	39	comp:obj	_	AlignBegin=100867|AlignEnd=101147|Gender[lex]=Fem|InIdiom=Yes|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 41	,	,	PUNCT	_	_	49	punct	_	AlignBegin=0|AlignEnd=101147
 42	enfin	enfin	ADV	_	_	49	discourse	_	AlignBegin=101147|AlignEnd=101337|SpaceAfter=No
 43	,	,	PUNCT	_	_	42	punct	_	AlignBegin=101337|AlignEnd=101337
@@ -1601,7 +1600,7 @@
 1	et	et	CCONJ	_	_	8	cc	_	AlignBegin=145728|AlignEnd=145823
 2	à	à	ADP	_	_	8	mod	_	AlignBegin=145823|AlignEnd=145903
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	AlignBegin=145903|AlignEnd=146053|HasSpokenGender=OnlySingExceptWithLiaison
-4	fois	fois	NOUN	_	Number=Sing	2	comp:obj	_	AlignBegin=146053|AlignEnd=146600|Gender[lex]=Fem|SpaceAfter=No
+4	fois	fois	NOUN	_	_	2	comp:obj	_	AlignBegin=146053|AlignEnd=146600|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	AlignBegin=146600|AlignEnd=147125
 6	tout	tout	ADJ	_	Gender=Masc	7	mod	_	AlignBegin=147125|AlignEnd=147220|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 7	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	subj	_	AlignBegin=147220|AlignEnd=147880
@@ -3169,7 +3168,7 @@
 13	,	,	PUNCT	_	_	16	punct	_	AlignBegin=269930|AlignEnd=269930
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	AlignBegin=269930|AlignEnd=270000|HasSpokenGender=OnlySingExceptWithLiaison
 15	première	premier	ADJ	_	Gender=Fem	16	mod	_	AlignBegin=270000|AlignEnd=270330|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
-16	fois	fois	NOUN	_	Number=Sing	12	conj:dicto	_	AlignBegin=270330|AlignEnd=270606|Gender[lex]=Fem
+16	fois	fois	NOUN	_	_	12	conj:dicto	_	AlignBegin=270330|AlignEnd=270606|Gender[lex]=Fem|Number[ctxt]=Sing
 17	où	où	PRON	_	PronType=Rel	19	mod	_	AlignBegin=270969|AlignEnd=271044
 18	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|Person=3|PronType=Prs	19	subj	_	AlignBegin=271044|AlignEnd=271128
 19	feront	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Shared=No|Tense=Fut|VerbForm=Fin	16	mod@relcl	_	AlignBegin=271128|AlignEnd=271364

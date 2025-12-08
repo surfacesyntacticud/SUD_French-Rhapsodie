@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Rhap_D2004-1
 # old_id = Rhap_D2004-1
 # type = dialogue
@@ -35,7 +34,7 @@
 8	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	AlignBegin=1065|AlignEnd=1325
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	AlignBegin=1325|AlignEnd=1529|HasSpokenGender=OnlySingExceptWithLiaison
 10	flying	flying	ADJ	_	Foreign=Yes	11	mod	_	AlignBegin=1529|AlignEnd=1997|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Lang=en
-11	doctors	doctor	NOUN	_	Foreign=Yes|Number=Plur	8	comp:pred	_	AlignBegin=1997|AlignEnd=2587|Lang=en
+11	doctors	doctor	NOUN	_	Foreign=Yes	8	comp:pred	_	AlignBegin=1997|AlignEnd=2587|Lang=en|Number[ctxt]=Plur
 12	de	de	ADP	_	_	11	udep	_	AlignBegin=2669|AlignEnd=2804
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	AlignBegin=2804|AlignEnd=2934|HasSpokenGender=OnlySingExceptWithLiaison
 14	Mref	Mref	PROPN	_	_	12	comp:obj	_	AlignBegin=2934|AlignEnd=3369|Gender[lex]=Unknown
@@ -658,7 +657,7 @@
 5	n'	ne	ADV	_	Polarity=Neg	6	mod	_	AlignBegin=76480|AlignEnd=76530|SpaceAfter=No
 6	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	comp:obj	_	AlignBegin=76530|AlignEnd=76580
 7	pas	pas	ADV	_	Polarity=Neg	6	mod	_	AlignBegin=76580|AlignEnd=76753
-8	pu	pouvoir	VERB	_	VerbForm=Part|Voice=Act	6	comp:aux@tense	_	AlignBegin=76753|AlignEnd=76858|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+8	pu	pouvoir	VERB	_	VerbForm=Part|Voice=Act	6	comp:aux@tense	_	AlignBegin=76753|AlignEnd=76858|Gender[ctxt]=Gender|Number[ctxt]=Number|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 9	aller	aller	VERB	_	VerbForm=Inf	8	comp:obj	_	AlignBegin=76858|AlignEnd=77068|Subject=SubjRaising
 10	là	là	ADV	_	_	9	comp:obj	_	AlignBegin=77068|AlignEnd=77317|SpaceAfter=No
 11	.	.	PUNCT	_	_	1	punct	_	AlignBegin=77317|AlignEnd=77317
@@ -989,7 +988,7 @@
 6	,	,	PUNCT	_	_	9	punct	_	AlignBegin=111769|AlignEnd=111769
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	AlignBegin=111769|AlignEnd=111911|HasSpokenGender=OnlySingExceptWithLiaison
 8	première	premier	ADJ	_	Gender=Fem	9	mod	_	AlignBegin=111911|AlignEnd=112211|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
-9	fois	fois	NOUN	_	Number=Sing	2	mod	_	AlignBegin=112211|AlignEnd=112371|Gender[lex]=Fem
+9	fois	fois	NOUN	_	_	2	mod	_	AlignBegin=112211|AlignEnd=112371|Gender[lex]=Fem|Number[ctxt]=Sing
 10	en	en	ADP	_	_	3	mod	_	AlignBegin=112371|AlignEnd=112631
 11	quarante-neuf	quarante-neuf	NUM	_	ExtPos=PROPN	10	comp:obj	_	AlignBegin=112631|AlignEnd=113361|Number[lex]=Sing|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=113361|AlignEnd=113361
@@ -1072,7 +1071,7 @@
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj	_	AlignBegin=117613|AlignEnd=117698|SpaceAfter=No
 6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	comp:obj	_	AlignBegin=117698|AlignEnd=117946
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	AlignBegin=117946|AlignEnd=118043
-8	pays	pays	NOUN	_	Number=Sing	6	comp:pred	_	AlignBegin=118043|AlignEnd=118283|Gender[lex]=Masc
+8	pays	pays	NOUN	_	_	6	comp:pred	_	AlignBegin=118043|AlignEnd=118283|Gender[lex]=Masc|Number[ctxt]=Sing
 9	formidable	formidable	ADJ	_	_	8	mod	_	AlignBegin=118283|AlignEnd=118896|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	_	AlignBegin=118896|AlignEnd=118896
 
@@ -1674,7 +1673,7 @@
 1	et	et	CCONJ	_	_	3	cc	_	AlignBegin=150569|AlignEnd=150972
 2	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=150972|AlignEnd=151062|SpaceAfter=No
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=151062|AlignEnd=151134
-4	été	être	VERB	_	VerbForm=Part|Voice=Act	3	comp:aux@tense	_	AlignBegin=151134|AlignEnd=151372|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+4	été	être	VERB	_	VerbForm=Part|Voice=Act	3	comp:aux@tense	_	AlignBegin=151134|AlignEnd=151372|Gender[ctxt]=Gender|Number[ctxt]=Number|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 5	deux	deux	NUM	_	ExtPos=DET	6	det	_	AlignBegin=151372|AlignEnd=151682|Number[lex]=Plur
 6	ans	an	NOUN	_	_	3	mod	_	AlignBegin=151682|AlignEnd=151772|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 7	en	en	ADP	_	_	4	comp:obl	_	AlignBegin=151772|AlignEnd=151992|SpaceAfter=No
@@ -1974,7 +1973,7 @@
 # macrosyntax = une fois qu'on a goûté Paris <+ on veut plus aller à la province //+ ( $L1 "ah bon" // ) $- { pour des études |} //+ ( $L1 XXX ) -$ $- {| "non" pour les études } > ( $L1 XXX ouais // ) -$ { sûrement | sûrement } { "ouais" | "ouais" } //
 # text = une fois qu'on a goûté Paris, on veut plus aller à la province pour des études, non, pour les études, sûrement, sûrement, ouais, ouais.
 1	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	AlignBegin=170931|AlignEnd=171057|InIdiom=Yes
-2	fois	fois	NOUN	_	ExtPos=ADV|Number=Sing	10	mod	_	AlignBegin=170931|AlignEnd=171057|Gender[lex]=Fem|Idiom=Yes
+2	fois	fois	NOUN	_	ExtPos=ADV	10	mod	_	AlignBegin=170931|AlignEnd=171057|Gender[lex]=Fem|Idiom=Yes|Number[ctxt]=Sing
 3	qu'	que	SCONJ	_	_	2	comp:obj	_	AlignBegin=171057|AlignEnd=171123|SpaceAfter=No
 4	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	subj	_	AlignBegin=171123|AlignEnd=171235
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	AlignBegin=171235|AlignEnd=171361
@@ -3237,7 +3236,7 @@
 28	,	,	PUNCT	_	_	29	punct	_	AlignBegin=276323|AlignEnd=276767
 29	à	à	ADP	_	_	27	conj:dicto	_	AlignBegin=276767|AlignEnd=276852
 30	vos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	31	det	_	AlignBegin=276852|AlignEnd=277012|HasSpokenGender=OnlySingExceptWithLiaison
-31	frais	frais	NOUN	_	Number=Plur	29	comp:obj	_	AlignBegin=277012|AlignEnd=277332|Gender[lex]=Masc
+31	frais	frais	NOUN	_	_	29	comp:obj	_	AlignBegin=277012|AlignEnd=277332|Gender[lex]=Masc|Number[ctxt]=Plur
 32	n'	ne	ADV	_	ExtPos=PRON|Polarity=Neg	26	mod	_	AlignBegin=277332|AlignEnd=277382|Idiom=Yes|SpaceAfter=No
 33	importe	importer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	unk	_	AlignBegin=277382|AlignEnd=277822|InIdiom=Yes
 34	où	où	PRON	_	PronType=Int	33	unk	_	AlignBegin=277822|AlignEnd=278024|InIdiom=Yes|SpaceAfter=No

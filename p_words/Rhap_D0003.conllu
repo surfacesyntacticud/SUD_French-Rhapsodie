@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Rhap_D0003-1
 # old_id = Rhap_D0003-1
 # type = dialogue
@@ -659,7 +658,7 @@
 # text = nous avons été sous très gros bombardements américains, puis anglais.
 1	nous	nous	PRON	_	Case=Nom|Emph=No|Number=Plur|Person=1|PronType=Prs	2	subj	_	AlignBegin=39056|AlignEnd=39306
 2	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=39306|AlignEnd=39496
-3	été	être	VERB	_	VerbForm=Part|Voice=Act	2	comp:aux@tense	_	AlignBegin=39496|AlignEnd=39666|Number[ctxt]=Plur|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+3	été	être	VERB	_	VerbForm=Part|Voice=Act	2	comp:aux@tense	_	AlignBegin=39496|AlignEnd=39666|Gender[ctxt]=Gender|Number[ctxt]=Number|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 4	sous	sous	ADP	_	_	3	comp:obl	_	AlignBegin=39666|AlignEnd=39846
 5	très	très	ADV	_	_	6	mod	_	AlignBegin=39846|AlignEnd=40046
 6	gros	gros	ADJ	_	Gender=Masc	7	mod	_	AlignBegin=40046|AlignEnd=40196|HasSpokenGender=Yes|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Plur
@@ -860,11 +859,11 @@
 16	ramper	ramper	VERB	_	VerbForm=Inf	15	comp:obj	_	AlignBegin=52016|AlignEnd=52479|Subject=SubjRaising
 17	dans	dans	ADP	_	_	16	mod	_	AlignBegin=52479|AlignEnd=52599
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	AlignBegin=52599|AlignEnd=52719|HasSpokenGender=OnlySingExceptWithLiaison
-19	décombres	décombre	NOUN	_	Number=Plur	17	comp:obj	_	AlignBegin=52719|AlignEnd=53208|Gender[lex]=Masc
+19	décombres	décombre	NOUN	_	_	17	comp:obj	_	AlignBegin=52719|AlignEnd=53208|Gender[lex]=Masc|Number[ctxt]=Plur
 20	pour	pour	ADP	_	_	16	mod	_	AlignBegin=53208|AlignEnd=53353
 21	aider	aider	VERB	_	VerbForm=Inf	20	comp:obj	_	AlignBegin=53353|AlignEnd=53553|Subject=NoRaising
 22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	AlignBegin=53553|AlignEnd=53643|HasSpokenGender=OnlySingExceptWithLiaison
-23	gens	gens	NOUN	_	Number=Plur	21	comp:obj	_	AlignBegin=53643|AlignEnd=53853|Gender[lex]=Masc
+23	gens	gens	NOUN	_	_	21	comp:obj	_	AlignBegin=53643|AlignEnd=53853|Gender[lex]=Masc|Number[ctxt]=Plur
 24	à	à	ADP	_	_	21	comp:obl	_	AlignBegin=53853|AlignEnd=53883
 25	mourir	mourir	VERB	_	VerbForm=Inf	24	comp:obj	_	AlignBegin=53883|AlignEnd=54233|Subject=NoRaising
 26	parce	parce	ADV	_	ExtPos=SCONJ	4	mod	_	AlignBegin=54233|AlignEnd=54403|Idiom=Yes
@@ -874,7 +873,7 @@
 30	pas	pas	ADV	_	Polarity=Neg	29	mod	_	AlignBegin=54793|AlignEnd=54953
 31	sortir	sortir	VERB	_	VerbForm=Inf	29	comp:obj	_	AlignBegin=54953|AlignEnd=55333|Subject=SubjRaising
 32	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	33	det	_	AlignBegin=55333|AlignEnd=55453|HasSpokenGender=OnlySingExceptWithLiaison
-33	gens	gens	NOUN	_	Number=Plur	31	comp:obj	_	AlignBegin=55453|AlignEnd=55673|Gender[lex]=Masc
+33	gens	gens	NOUN	_	_	31	comp:obj	_	AlignBegin=55453|AlignEnd=55673|Gender[lex]=Masc|Number[ctxt]=Plur
 34	de	de	ADP	_	_	31	comp:obl	_	AlignBegin=55673|AlignEnd=55703
 35	là	là	ADV	_	_	34	comp:obj	_	AlignBegin=55703|AlignEnd=55912|SpaceAfter=No
 36	.	.	PUNCT	_	_	4	punct	_	AlignBegin=55912|AlignEnd=55912
@@ -944,7 +943,7 @@
 6	eau	eau	NOUN	_	_	5	comp:obj	_	AlignBegin=58458|AlignEnd=58738|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	AlignBegin=58738|AlignEnd=59200
 8	ni	ni	CCONJ	_	_	9	cc	_	AlignBegin=59200|AlignEnd=59395
-9	gaz	gaz	NOUN	_	Number=Sing	6	conj:coord	_	AlignBegin=59395|AlignEnd=59635|Gender[lex]=Masc|SpaceAfter=No
+9	gaz	gaz	NOUN	_	_	6	conj:coord	_	AlignBegin=59395|AlignEnd=59635|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	AlignBegin=59635|AlignEnd=59635
 11	ni	ni	CCONJ	_	_	12	cc	_	AlignBegin=59635|AlignEnd=59710
 12	téléphone	téléphone	NOUN	_	_	9	conj:coord	_	AlignBegin=59710|AlignEnd=60155|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
@@ -1328,7 +1327,7 @@
 3	y	y	PRON	_	Person=3|PronType=Prs	4	comp@expl	_	AlignBegin=75776|AlignEnd=75799
 4	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=75799|AlignEnd=75969
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	AlignBegin=75969|AlignEnd=76119
-6	gens	gens	NOUN	_	Number=Plur	4	comp:obj	_	AlignBegin=76119|AlignEnd=76339|Gender[lex]=Masc
+6	gens	gens	NOUN	_	_	4	comp:obj	_	AlignBegin=76119|AlignEnd=76339|Gender[lex]=Masc|Number[ctxt]=Plur
 7	là-dedans	là-dedans	ADV	_	_	6	mod	_	AlignBegin=76339|AlignEnd=76689
 8	qui	qui	PRON	_	PronType=Rel	9	subj	_	AlignBegin=76689|AlignEnd=76869
 9	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	mod@relcl	_	AlignBegin=76869|AlignEnd=77219

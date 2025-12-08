@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Rhap_M1003-1
 # old_id = Rhap_M1003-1
 # type = monologue
@@ -289,14 +288,14 @@
 20	compétences	compétence	NOUN	_	_	15	comp:obj	_	AlignBegin=23262|AlignEnd=24012|Gender[lex]=Fem|Number[ctxt]=Plur
 21	et	et	CCONJ	_	_	23	cc	_	AlignBegin=24072|AlignEnd=24212
 22	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	23	det	_	AlignBegin=24212|AlignEnd=24312|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
-23	acquis	acquis	NOUN	_	Number=Plur	20	conj:coord	_	AlignBegin=24312|AlignEnd=24782|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|SpaceAfter=No
+23	acquis	acquis	NOUN	_	_	20	conj:coord	_	AlignBegin=24312|AlignEnd=24782|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 24	,	,	PUNCT	_	_	26	punct	_	AlignBegin=24782|AlignEnd=24782
 25	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	AlignBegin=24782|AlignEnd=24942|HasSpokenGender=OnlySingExceptWithLiaison
 26	choses	chose	NOUN	_	_	23	conj:appos	_	AlignBegin=24942|AlignEnd=25132|Gender[lex]=Fem|Number[ctxt]=Plur
 27	qu'	que	PRON	_	PronType=Rel	30	comp:obj	_	AlignBegin=25132|AlignEnd=25162|SpaceAfter=No
 28	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	29	subj	_	AlignBegin=25162|AlignEnd=25306
 29	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	mod@relcl	_	AlignBegin=25306|AlignEnd=25384
-30	acquis	acquérir	VERB	_	VerbForm=Part|Voice=Act	29	comp:aux@tense	_	AlignBegin=25384|AlignEnd=25777|Gender[ctxt]=Masc|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+30	acquis	acquérir	VERB	_	VerbForm=Part|Voice=Act	29	comp:aux@tense	_	AlignBegin=25384|AlignEnd=25777|Gender[ctxt]=Gender|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 31	tout	tout	ADV	_	_	32	mod	_	AlignBegin=26243|AlignEnd=26378
 32	au	au	ADP	_	_	29	mod	_	AlignBegin=26378|AlignEnd=26498
 33	long	long	ADJ	_	Gender=Masc	32	comp:obj	_	AlignBegin=26498|AlignEnd=26668|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
@@ -1011,7 +1010,7 @@
 6	,	,	PUNCT	_	_	3	punct	_	AlignBegin=116480|AlignEnd=116480
 7	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	8	subj	_	AlignBegin=116480|AlignEnd=116525|SpaceAfter=No
 8	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=116525|AlignEnd=116644
-9	pu	pouvoir	VERB	_	VerbForm=Part|Voice=Act	8	comp:aux@tense	_	AlignBegin=116644|AlignEnd=116802|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+9	pu	pouvoir	VERB	_	VerbForm=Part|Voice=Act	8	comp:aux@tense	_	AlignBegin=116644|AlignEnd=116802|Gender[ctxt]=Gender|Number[ctxt]=Number|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 10	relever	relever	VERB	_	VerbForm=Inf	9	comp:obj	_	AlignBegin=116802|AlignEnd=117191|Subject=SubjRaising
 11	en	en	ADP	_	_	10	mod	_	AlignBegin=117191|AlignEnd=117319
 12	faisant	faire	VERB	_	VerbForm=Part	11	comp:obj	_	AlignBegin=117319|AlignEnd=117600|PastPartHasSpokenGender=Yes|Tense[denom]=Pres
@@ -1019,7 +1018,7 @@
 14	ces	ce	DET	_	Number=Plur|PronType=Dem	15	det	_	AlignBegin=117720|AlignEnd=117920|HasSpokenGender=OnlySingExceptWithLiaison
 15	tests	test	NOUN	_	_	12	comp:obj	_	AlignBegin=117920|AlignEnd=118220|Gender[lex]=Masc|Number[ctxt]=Plur
 16	au	au	ADP	_	_	11	mod	_	AlignBegin=118220|AlignEnd=118360
-17	cours	cours	NOUN	_	Number=Sing	16	comp:obj	_	AlignBegin=118360|AlignEnd=118608|Gender[lex]=Masc
+17	cours	cours	NOUN	_	_	16	comp:obj	_	AlignBegin=118360|AlignEnd=118608|Gender[lex]=Masc|Number[ctxt]=Sing
 18	de	de	ADP	_	_	17	udep	_	AlignBegin=118608|AlignEnd=119196|SpaceAfter=No
 19	,	,	PUNCT	_	_	24	punct	_	AlignBegin=119196|AlignEnd=119316
 20	donc	donc	ADV	_	_	27	discourse	_	AlignBegin=119316|AlignEnd=119735|SpaceAfter=No
@@ -1307,7 +1306,7 @@
 52	d'	de	ADP	_	_	50	udep	_	AlignBegin=162755|AlignEnd=162795|SpaceAfter=No
 53	échanger	échanger	VERB	_	VerbForm=Inf	52	comp:obj	_	AlignBegin=162795|AlignEnd=163164|Subject=NoRaising
 54	avec	avec	ADP	_	_	53	comp:obl	_	AlignBegin=163164|AlignEnd=163325
-55	autrui	autrui	NOUN	_	Number=Sing	54	comp:obj	_	AlignBegin=163325|AlignEnd=163599|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|SpaceAfter=No
+55	autrui	autrui	NOUN	_	_	54	comp:obj	_	AlignBegin=163325|AlignEnd=163599|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 56	.	.	PUNCT	_	_	5	punct	_	AlignBegin=163599|AlignEnd=163599
 
 # sent_id = Rhap_M1003-25
@@ -1426,10 +1425,10 @@
 4	après	après	ADV	_	_	3	mod	_	AlignBegin=169126|AlignEnd=169518
 5	passer	passer	VERB	_	VerbForm=Inf	3	comp:obj	_	AlignBegin=169518|AlignEnd=169788|Subject=SubjRaising
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	AlignBegin=169788|AlignEnd=169888|HasSpokenGender=OnlySingExceptWithLiaison
-7	concours	concours	NOUN	_	Number=Sing	5	comp:obj	_	AlignBegin=169888|AlignEnd=170245|Gender[lex]=Masc
+7	concours	concours	NOUN	_	_	5	comp:obj	_	AlignBegin=169888|AlignEnd=170245|Gender[lex]=Masc|Number[ctxt]=Sing
 8	de	de	ADP	_	_	7	udep	_	AlignBegin=170245|AlignEnd=170330
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	AlignBegin=170330|AlignEnd=170386|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
-10	agreg	agreg	NOUN	_	Number=Sing	8	comp:obj	_	AlignBegin=170386|AlignEnd=170814|Gender[lex]=Fem|LiaisonPossibleBefore=Yes
+10	agreg	agreg	NOUN	_	_	8	comp:obj	_	AlignBegin=170386|AlignEnd=170814|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 11	pour	pour	ADP	_	_	3	mod	_	AlignBegin=171217|AlignEnd=171312
 12	enseigner	enseigner	VERB	_	VerbForm=Inf	11	comp:obj	_	AlignBegin=171312|AlignEnd=171902|Subject=NoRaising
 13	à	à	ADP	_	_	12	mod	_	AlignBegin=171902|AlignEnd=172022
@@ -1791,7 +1790,7 @@
 14	et	et	CCONJ	_	_	15	cc	_	AlignBegin=207017|AlignEnd=207232
 15	finira	finir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	conj:coord	_	AlignBegin=207232|AlignEnd=207723
 16	aux	au	ADP	_	_	15	comp:obl	_	AlignBegin=207723|AlignEnd=207798
-17	alentours	alentours	NOUN	_	Number=Plur	16	comp:obj	_	AlignBegin=207798|AlignEnd=208142|Gender[lex]=Masc|LiaisonPossibleBefore=Yes
+17	alentours	alentours	NOUN	_	_	16	comp:obj	_	AlignBegin=207798|AlignEnd=208142|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 18	de	de	ADP	_	_	17	udep	_	AlignBegin=208142|AlignEnd=208232
 19	trois	trois	NUM	_	ExtPos=DET	21	det	_	AlignBegin=208232|AlignEnd=208432|Number[lex]=Plur
 20	mille	mille	NUM	_	ExtPos=DET	19	flat	_	AlignBegin=208432|AlignEnd=208532|Number[lex]=Plur
@@ -1946,7 +1945,7 @@
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=219366|AlignEnd=219517
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	AlignBegin=219517|AlignEnd=219659
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=219659|AlignEnd=219713|HasSpokenGender=OnlySingExceptWithLiaison
-6	cas	cas	NOUN	_	Number=Sing	3	comp:pred	_	AlignBegin=219713|AlignEnd=219873|Gender[lex]=Masc
+6	cas	cas	NOUN	_	_	3	comp:pred	_	AlignBegin=219713|AlignEnd=219873|Gender[lex]=Masc|Number[ctxt]=Sing
 7	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	subj	_	AlignBegin=219873|AlignEnd=219891|InIdiom=Yes
 8	y	y	PRON	_	Person=3|PronType=Prs	9	comp	_	AlignBegin=219891|AlignEnd=219904|InIdiom=Yes
 9	a	avoir	VERB	_	ExtPos=ADP|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	mod	_	AlignBegin=219904|AlignEnd=220122|Idiom=Yes

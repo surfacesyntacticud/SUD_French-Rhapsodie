@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Rhap_D1001-1
 # old_id = Rhap_D1001-1
 # type = dialogue
@@ -348,7 +347,7 @@
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	AlignBegin=43875|AlignEnd=44045|HasSpokenGender=OnlySingExceptWithLiaison
 7	tempérament	tempérament	NOUN	_	_	10	subj	_	AlignBegin=44045|AlignEnd=44810|Gender[lex]=Masc|Number[ctxt]=Sing
 8	des	de	ADP	_	_	7	udep	_	AlignBegin=44810|AlignEnd=44945
-9	Beaucerons	Beauceron	NOUN	_	_	8	comp:obj	_	AlignBegin=44945|AlignEnd=45495|Gender[lex]=Masc
+9	Beaucerons	Beauceron	NOUN	_	Gender=Masc	8	comp:obj	_	AlignBegin=44945|AlignEnd=45495|Number[ctxt]=Plur
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	AlignBegin=45495|AlignEnd=45710
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	AlignBegin=45710|AlignEnd=45860
 12	tempérament	tempérament	NOUN	_	_	10	comp:pred	_	AlignBegin=45860|AlignEnd=46790|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
@@ -823,7 +822,7 @@
 8	d'	de	ADP	_	_	6	udep	_	AlignBegin=115243|AlignEnd=115283|SpaceAfter=No
 9	attachement	attachement	NOUN	_	_	8	comp:obj	_	AlignBegin=115283|AlignEnd=115853|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 10	au	au	ADP	_	_	9	udep	_	AlignBegin=115853|AlignEnd=116003
-11	pays	pays	NOUN	_	Number=Sing	10	comp:obj	_	AlignBegin=116003|AlignEnd=116639|Gender[lex]=Masc|SpaceAfter=No
+11	pays	pays	NOUN	_	_	10	comp:obj	_	AlignBegin=116003|AlignEnd=116639|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct	_	AlignBegin=116639|AlignEnd=116639
 
 # sent_id = Rhap_D1001-21
@@ -1334,7 +1333,7 @@
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	AlignBegin=185047|AlignEnd=185077|SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=185077|AlignEnd=185207
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=185207|AlignEnd=185397
-6	pays	pays	NOUN	_	Number=Sing	4	comp:pred	_	AlignBegin=185397|AlignEnd=185647|Gender[lex]=Masc
+6	pays	pays	NOUN	_	_	4	comp:pred	_	AlignBegin=185397|AlignEnd=185647|Gender[lex]=Masc|Number[ctxt]=Sing
 7	dans	dans	ADP	_	_	10	mod	_	AlignBegin=185647|AlignEnd=185837
 8	lequel	lequel	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	7	comp:obj	_	AlignBegin=185837|AlignEnd=186027
 9	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	subj	_	AlignBegin=186027|AlignEnd=186177
@@ -1373,7 +1372,7 @@
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	AlignBegin=188119|AlignEnd=188244|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=188244|AlignEnd=188374
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	AlignBegin=188374|AlignEnd=188504
-4	pays	pays	NOUN	_	Number=Sing	2	comp:pred	_	AlignBegin=188504|AlignEnd=188844|Gender[lex]=Masc
+4	pays	pays	NOUN	_	_	2	comp:pred	_	AlignBegin=188504|AlignEnd=188844|Gender[lex]=Masc|Number[ctxt]=Sing
 5	très	très	ADV	_	_	6	mod	_	AlignBegin=188844|AlignEnd=189044
 6	joyeux	joyeux	ADJ	_	Gender=Masc	4	mod	_	AlignBegin=189044|AlignEnd=189709|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=189709|AlignEnd=190462
@@ -1490,7 +1489,7 @@
 17	difficile	difficile	ADJ	_	_	15	comp:pred	_	AlignBegin=202538|AlignEnd=203461|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 18	à	à	ADP	_	_	15	comp:obl	_	AlignBegin=203461|AlignEnd=203771
 19	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	20	det	_	AlignBegin=203771|AlignEnd=203961|HasSpokenGender=OnlySingExceptWithLiaison
-20	gens	gens	NOUN	_	Number=Plur	18	comp:obj	_	AlignBegin=203961|AlignEnd=204153|Gender[lex]=Masc
+20	gens	gens	NOUN	_	_	18	comp:obj	_	AlignBegin=203961|AlignEnd=204153|Gender[lex]=Masc|Number[ctxt]=Plur
 21	du	du	ADP	_	_	20	udep	_	AlignBegin=204153|AlignEnd=204331
 22	Gâtinais	Gâtinais	PROPN	_	Gender=Masc|Number=Sing	21	comp:obj	_	AlignBegin=204331|AlignEnd=204919
 23	que	que	SCONJ	_	_	16	comp:obj	_	AlignBegin=204919|AlignEnd=205024
@@ -2175,7 +2174,7 @@
 10	dans	dans	ADP	_	_	3	mod	_	AlignBegin=310054|AlignEnd=310224
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	AlignBegin=310224|AlignEnd=310364
 12	petit	petit	ADJ	_	Gender=Masc	13	mod	_	AlignBegin=310364|AlignEnd=310634|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
-13	pays	pays	NOUN	_	Number=Sing	10	comp:obj	_	AlignBegin=310634|AlignEnd=311073|Gender[lex]=Masc|SpaceAfter=No
+13	pays	pays	NOUN	_	_	10	comp:obj	_	AlignBegin=310634|AlignEnd=311073|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 14	.	.	PUNCT	_	_	3	punct	_	AlignBegin=311067|AlignEnd=311067
 
 # sent_id = Rhap_D1001-51
