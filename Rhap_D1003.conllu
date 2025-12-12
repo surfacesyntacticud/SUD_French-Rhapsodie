@@ -406,7 +406,7 @@
 20	déménage	déménager	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	comp:obj	_	AlignBegin=33140|AlignEnd=33485
 21	tout	tout	ADJ	_	Gender=Masc	23	mod	_	AlignBegin=33485|AlignEnd=33602|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	AlignBegin=33602|AlignEnd=33639|HasSpokenGender=OnlySingExceptWithLiaison
-23	temps	temps	NOUN	_	Number=Sing	20	mod	_	AlignBegin=33639|AlignEnd=33819|Gender[lex]=Masc|SpaceAfter=No
+23	temps	temps	NOUN	_	_	20	mod	_	AlignBegin=33639|AlignEnd=33819|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 24	.	.	PUNCT	_	_	12	punct	_	AlignBegin=33819|AlignEnd=33819
 
 # sent_id = Rhap_D1003-10
@@ -443,7 +443,7 @@
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=34419|AlignEnd=34419
 7	déménagé	déménager	VERB	_	VerbForm=Part	5	conj:dicto	_	AlignBegin=34419|AlignEnd=34880|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 8	neuf	neuf	NUM	_	ExtPos=DET	9	det	_	AlignBegin=34880|AlignEnd=35104|Number[lex]=Plur
-9	fois	fois	NOUN	_	Number=Plur	4	mod	_	AlignBegin=35104|AlignEnd=35233|Gender[lex]=Fem
+9	fois	fois	NOUN	_	_	4	mod	_	AlignBegin=35104|AlignEnd=35233|Gender[lex]=Fem|Number[ctxt]=Plur
 10	dans	dans	ADP	_	_	4	mod	_	AlignBegin=35233|AlignEnd=35327
 11	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	12	det	_	AlignBegin=35327|AlignEnd=35451|HasSpokenGender=OnlySingExceptWithLiaison
 12	vie	vie	NOUN	_	_	10	comp:obj	_	AlignBegin=35451|AlignEnd=35649|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -484,7 +484,7 @@
 7	,	,	PUNCT	_	_	6	punct	_	AlignBegin=37313|AlignEnd=37313
 8	à	à	ADP	_	_	15	mod	_	AlignBegin=37313|AlignEnd=37417
 9	chaque	chaque	DET	_	PronType=Ind	10	det	_	AlignBegin=37417|AlignEnd=37610|Number[lex]=Sing
-10	fois	fois	NOUN	_	Number=Sing	8	comp:obj	_	AlignBegin=37610|AlignEnd=37760|Gender[lex]=Fem|SpaceAfter=No
+10	fois	fois	NOUN	_	_	8	comp:obj	_	AlignBegin=37610|AlignEnd=37760|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 11	,	,	PUNCT	_	_	8	punct	_	AlignBegin=37760|AlignEnd=37760
 12	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	15	subj	_	AlignBegin=37760|AlignEnd=38059|SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	AlignBegin=38059|AlignEnd=38059
@@ -810,7 +810,7 @@
 # text = j'ai été un an à Lisbonne et un an à Porto dans les, dans des collèges et dans des, dans des primaires portu~, euh, enfin, françaises.
 1	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=58633|AlignEnd=58718|SpaceAfter=No
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=58718|AlignEnd=58748
-3	été	être	VERB	_	VerbForm=Part|Voice=Act	2	comp:aux@tense	_	AlignBegin=58748|AlignEnd=58952|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+3	été	être	VERB	_	VerbForm=Part|Voice=Act	2	comp:aux@tense	_	AlignBegin=58748|AlignEnd=58952|Gender[ctxt]=Gender|Number[ctxt]=Number|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	AlignBegin=58952|AlignEnd=59078|LiaisonAfter=Yes
 5	an	an	NOUN	_	_	3	mod	_	AlignBegin=59078|AlignEnd=59178|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 6	à	à	ADP	_	_	3	comp:obl	_	AlignBegin=59178|AlignEnd=59233
@@ -1198,13 +1198,13 @@
 1	euh	euh	INTJ	_	_	4	discourse	_	AlignBegin=85039|AlignEnd=85287|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=85287|AlignEnd=85287
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	AlignBegin=85287|AlignEnd=85402|HasSpokenGender=OnlySingExceptWithLiaison
-4	gens	gens	NOUN	_	Number=Plur	0	root	_	AlignBegin=85402|AlignEnd=85633|Gender[lex]=Masc|SpaceAfter=No
+4	gens	gens	NOUN	_	_	0	root	_	AlignBegin=85402|AlignEnd=85633|Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=85633|AlignEnd=85633
 6	souvent	souvent	ADV	_	_	4	mod@scrap	_	AlignBegin=85633|AlignEnd=85902|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=85902|AlignEnd=85902
 8	dans	dans	ADP	_	_	4	udep	_	AlignBegin=85902|AlignEnd=85994
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	AlignBegin=85994|AlignEnd=86097|HasSpokenGender=OnlySingExceptWithLiaison
-10	récré	récré	NOUN	_	Number=Sing	8	comp:obj	_	AlignBegin=86097|AlignEnd=86314|Gender[lex]=Fem|SpaceAfter=No
+10	récré	récré	NOUN	_	_	8	comp:obj	_	AlignBegin=86097|AlignEnd=86314|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 11	…	…	PUNCT	_	_	4	punct	_	AlignBegin=86314|AlignEnd=86314
 
 # sent_id = Rhap_D1003-29

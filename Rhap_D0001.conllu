@@ -929,7 +929,7 @@
 10	,	,	PUNCT	_	_	11	punct	_	AlignBegin=57012|AlignEnd=55352|Overlap=Rhap_D0001-20ter
 11	par	par	ADP	_	_	8	conj:dicto	_	AlignBegin=55821|AlignEnd=56075|Overlap=Rhap_D0001-27
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	AlignBegin=56075|AlignEnd=56156|HasSpokenGender=OnlySingExceptWithLiaison|Overlap=Rhap_D0001-27
-13	quatre-vingt-six	quatre-vingt-six	NOUN	_	Number=Sing	11	comp:obj	_	AlignBegin=56156|AlignEnd=57012|Gender[lex]=Masc|Overlap=Rhap_D0001-27|SpaceAfter=No
+13	quatre-vingt-six	quatre-vingt-six	NOUN	_	_	11	comp:obj	_	AlignBegin=56156|AlignEnd=57012|Gender[lex]=Masc|Number[ctxt]=Sing|Overlap=Rhap_D0001-27|SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	AlignBegin=57012|AlignEnd=57012|Overlap=Rhap_D0001-20ter
 15	qui	qui	PRON	_	PronType=Rel	16	subj	_	AlignBegin=57012|AlignEnd=57182
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	mod@relcl	_	AlignBegin=57182|AlignEnd=57262
@@ -938,7 +938,7 @@
 19	qui	qui	PRON	_	PronType=Rel	20	subj	_	AlignBegin=57613|AlignEnd=58935|Overlap=Rhap_D0001-27
 20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj:dicto	_	AlignBegin=57613|AlignEnd=58935|Overlap=Rhap_D0001-27
 21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	AlignBegin=57613|AlignEnd=58935|Overlap=Rhap_D0001-27
-22	bus	bus	NOUN	_	Number=Sing	20	comp:pred	_	AlignBegin=57613|AlignEnd=58935|Gender[lex]=Masc|Overlap=Rhap_D0001-27
+22	bus	bus	NOUN	_	_	20	comp:pred	_	AlignBegin=57613|AlignEnd=58935|Gender[lex]=Masc|Number[ctxt]=Sing|Overlap=Rhap_D0001-27
 23	formidable	formidable	ADJ	_	_	22	mod	_	AlignBegin=57613|AlignEnd=58935|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|Overlap=Rhap_D0001-27|SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	AlignBegin=58935|AlignEnd=59523
 25	formidable	formidable	ADJ	_	_	23	conj:dicto	_	AlignBegin=59523|AlignEnd=60367|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
@@ -992,7 +992,7 @@
 # text = par le quatre-vingt-six.
 1	par	par	ADP	_	_	0	root	_	AlignBegin=0|AlignEnd=0|AttachTo=8@Rhap_D0001-25|Overlap=Rhap_D0001-25|Rel=conj:dicto
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	AlignBegin=0|AlignEnd=0|HasSpokenGender=OnlySingExceptWithLiaison|Overlap=Rhap_D0001-20
-3	quatre-vingt-six	quatre-vingt-six	NOUN	_	Number=Sing	1	comp:obj	_	AlignBegin=0|AlignEnd=0|Gender[lex]=Masc|Overlap=Rhap_D0001-25|SpaceAfter=No
+3	quatre-vingt-six	quatre-vingt-six	NOUN	_	_	1	comp:obj	_	AlignBegin=0|AlignEnd=0|Gender[lex]=Masc|Number[ctxt]=Sing|Overlap=Rhap_D0001-25|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=0|AlignEnd=0|Overlap=Rhap_D0001-20
 
 # sent_id = Rhap_D0001-27
@@ -1357,7 +1357,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0001.mp3
 # macrosyntax = { monsieur YYY |} $- $L2 ( { oui | oui } "je vois" //= bien sûr "je vois" // ) {| voisin } "euh" { prend ESPERLUETTE | -$ $L1 a } $- le même ( $L2 { oui | oui } // ) -$ discours $- "euh" ( absolument // ) ( $L2 absolument // ) -$ $- $L2 ( { oui | oui | oui } "je sais" // ) ému ( $L2 { oui | oui } // ) -$ quand on passe à l'arrière de Notre-Dame "hein" >+ en $- particulier //
 # text = monsieur YYY, voisin, euh, prend, a le même discours, euh, absolument ému quand on passe à l'arrière de Notre-Dame, hein, en particulier.
-1	monsieur	monsieur	NOUN	_	Number=Sing|Shared=Yes	8	subj	_	AlignBegin=83486|AlignEnd=83928|Gender[lex]=Masc
+1	monsieur	monsieur	NOUN	_	Shared=Yes	8	subj	_	AlignBegin=83486|AlignEnd=83928|Gender[lex]=Masc|Number[ctxt]=Sing
 2	YYY	YYY	PROPN	_	_	1	mod@appos	_	AlignBegin=84367|AlignEnd=84590|Gender[lex]=Unknown|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=84590|AlignEnd=84777
 4	voisin	voisin	NOUN	_	_	1	conj:dicto	_	AlignBegin=84777|AlignEnd=86514|Gender[lex]=Masc|Number[ctxt]=Sing|Overlap=Rhap_D0001-37|SpaceAfter=No
@@ -1369,7 +1369,7 @@
 10	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj:dicto	_	AlignBegin=87123|AlignEnd=87291
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	AlignBegin=87291|AlignEnd=87396|HasSpokenGender=OnlySingExceptWithLiaison|Overlap=Rhap_D0001-39
 12	même	même	ADJ	_	_	13	mod	_	AlignBegin=87396|AlignEnd=87673|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|Overlap=Rhap_D0001-39
-13	discours	discours	NOUN	_	Number=Sing	10	comp:obj	_	AlignBegin=87673|AlignEnd=88614|Gender[lex]=Masc|SpaceAfter=No
+13	discours	discours	NOUN	_	_	10	comp:obj	_	AlignBegin=87673|AlignEnd=88614|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	AlignBegin=88614|AlignEnd=88614
 15	euh	euh	INTJ	_	_	13	discourse	_	AlignBegin=88614|AlignEnd=89275|Overlap=Rhap_D0001-40|SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	AlignBegin=89275|AlignEnd=88614|Overlap=Rhap_D0001-27quinquies
@@ -1655,7 +1655,7 @@
 9	beau	beau	ADJ	_	Gender=Masc	10	mod	_	AlignBegin=95433|AlignEnd=95583|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|Overlap=Rhap_D0001-36
 10	trajet	trajet	NOUN	_	_	6	comp:pred	_	AlignBegin=95583|AlignEnd=96014|Gender[lex]=Masc|Number[ctxt]=Sing|Overlap=Rhap_D0001-36
 11	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	AlignBegin=96014|AlignEnd=96179|HasSpokenGender=OnlySingExceptWithLiaison
-12	quatre-vingt-six	quatre-vingt-six	NOUN	_	Number=Sing	6	dislocated:subj	_	AlignBegin=96179|AlignEnd=96898|Gender[lex]=Masc|SpaceAfter=No
+12	quatre-vingt-six	quatre-vingt-six	NOUN	_	_	6	dislocated:subj	_	AlignBegin=96179|AlignEnd=96898|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 13	.	.	PUNCT	_	_	6	punct	_	AlignBegin=96898|AlignEnd=96898
 
 # sent_id = Rhap_D0001-45
@@ -2255,7 +2255,7 @@
 11	pied	pied	NOUN	_	_	10	comp:obj	_	AlignBegin=131549|AlignEnd=131779|Gender[lex]=Masc|Number[ctxt]=Plur
 12	tout	tout	ADJ	_	Gender=Masc	14	mod	_	AlignBegin=131779|AlignEnd=131909|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	AlignBegin=131909|AlignEnd=132049|HasSpokenGender=OnlySingExceptWithLiaison
-14	temps	temps	NOUN	_	Number=Sing	9	mod	_	AlignBegin=132049|AlignEnd=132286|Gender[lex]=Masc|SpaceAfter=No
+14	temps	temps	NOUN	_	_	9	mod	_	AlignBegin=132049|AlignEnd=132286|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 15	.	.	PUNCT	_	_	6	punct	_	AlignBegin=132286|AlignEnd=132286
 
 # sent_id = Rhap_D0001-61
@@ -2358,7 +2358,7 @@
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	AlignBegin=135301|AlignEnd=135391|Overlap=Rhap_D0001-61|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=135391|AlignEnd=135461|Overlap=Rhap_D0001-61
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	AlignBegin=135461|AlignEnd=135541|HasSpokenGender=OnlySingExceptWithLiaison|Overlap=Rhap_D0001-61
-4	cours	cours	NOUN	_	Number=Sing	2	comp:pred	_	AlignBegin=135541|AlignEnd=135711|Gender[lex]=Masc|Overlap=Rhap_D0001-61
+4	cours	cours	NOUN	_	_	2	comp:pred	_	AlignBegin=135541|AlignEnd=135711|Gender[lex]=Masc|Number[ctxt]=Sing|Overlap=Rhap_D0001-61
 5	de	de	ADP	_	_	4	udep	_	AlignBegin=135711|AlignEnd=135741|Overlap=Rhap_D0001-61
 6	Vincennes	Vincennes	PROPN	_	_	5	comp:obj	_	AlignBegin=135741|AlignEnd=136189|Gender[lex]=Unknown|Overlap=Rhap_D0001-61|SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	AlignBegin=136189|AlignEnd=136189|Overlap=Rhap_D0001-44
@@ -3328,7 +3328,7 @@
 # text = on a pu se croiser, peut-être, à Censier.
 1	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	AlignBegin=207168|AlignEnd=207223
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=207223|AlignEnd=207403
-3	pu	pouvoir	VERB	_	VerbForm=Part|Voice=Act	2	comp:aux@tense	_	AlignBegin=207403|AlignEnd=207713|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+3	pu	pouvoir	VERB	_	VerbForm=Part|Voice=Act	2	comp:aux@tense	_	AlignBegin=207403|AlignEnd=207713|Gender[ctxt]=Gender|Number[ctxt]=Number|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 4	se	soi	PRON	_	Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=207713|AlignEnd=207803
 5	croiser	croiser	VERB	_	VerbForm=Inf	3	comp:obj	_	AlignBegin=207803|AlignEnd=208343|SpaceAfter=No|Subject=SubjRaising
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=208343|AlignEnd=208343
@@ -4114,7 +4114,7 @@
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=238745|AlignEnd=239614|Overlap=Rhap_D0001-111
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	AlignBegin=238745|AlignEnd=239614|Overlap=Rhap_D0001-111
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=238745|AlignEnd=239614|HasSpokenGender=OnlySingExceptWithLiaison|Overlap=Rhap_D0001-111
-6	cas	cas	NOUN	_	Number=Sing	3	comp:pred	_	AlignBegin=238745|AlignEnd=239614|Gender[lex]=Masc|Overlap=Rhap_D0001-111|SpaceAfter=No
+6	cas	cas	NOUN	_	_	3	comp:pred	_	AlignBegin=238745|AlignEnd=239614|Gender[lex]=Masc|Number[ctxt]=Sing|Overlap=Rhap_D0001-111|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=239614|AlignEnd=239614|Overlap=Rhap_D0001-83
 8	euh	euh	INTJ	_	_	6	discourse	_	AlignBegin=239614|AlignEnd=239834|SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	AlignBegin=239834|AlignEnd=239834
@@ -4954,7 +4954,7 @@
 # macrosyntax = $L2 ça < j'avoue qu'on a du mal quand on voit que Paul Valéry { passe en Zep | # } // $- "je veux dire" ça me ( $L3 ## a été en Zep // "oui" // ) -$ laisse assez rêveur //
 # text = a été en Zep.
 1	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=277637|AlignEnd=278597|AttachTo=16@Rhap_D0001-132|Overlap=Rhap_D0001-135|Rel=conj:dicto
-2	été	être	VERB	_	VerbForm=Part|Voice=Act	1	comp:aux@tense	_	AlignBegin=277637|AlignEnd=278597|Gender[ctxt]=Masc|Number[ctxt]=Sing|Overlap=Rhap_D0001-135|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
+2	été	être	VERB	_	VerbForm=Part|Voice=Act	1	comp:aux@tense	_	AlignBegin=277637|AlignEnd=278597|Gender[ctxt]=Gender|Number[ctxt]=Number|Overlap=Rhap_D0001-135|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 3	en	en	ADP	_	_	2	comp:obl	_	AlignBegin=277637|AlignEnd=278597|Overlap=Rhap_D0001-135
 4	Zep	Zep	PROPN	_	_	3	comp:obj	_	AlignBegin=277637|AlignEnd=278597|Gender[lex]=Unknown|Overlap=Rhap_D0001-135|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	AlignBegin=278597|AlignEnd=278597|Overlap=Rhap_D0001-103
@@ -5287,7 +5287,7 @@
 5	dire	dire	VERB	_	VerbForm=Inf	4	comp:obj	_	AlignBegin=288706|AlignEnd=289056|Subject=SubjRaising
 6	de	de	ADP	_	_	5	comp:obl	_	AlignBegin=289056|AlignEnd=289336
 7	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	8	det	_	AlignBegin=289336|AlignEnd=289606|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
-8	temps	temps	NOUN	_	Number=Sing	6	comp:obj	_	AlignBegin=289606|AlignEnd=289936|Gender[lex]=Masc|SpaceAfter=No
+8	temps	temps	NOUN	_	_	6	comp:obj	_	AlignBegin=289606|AlignEnd=289936|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=289936|AlignEnd=290124
 10	euh	euh	INTJ	_	_	8	discourse	_	AlignBegin=290124|AlignEnd=290376|SpaceAfter=No
 11	.	.	PUNCT	_	_	4	punct	_	AlignBegin=290376|AlignEnd=290376

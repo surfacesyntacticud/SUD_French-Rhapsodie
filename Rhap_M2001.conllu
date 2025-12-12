@@ -25,9 +25,9 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-M2001.mp3
 # macrosyntax = { mesdames | ^et messieurs } < je suis heureux de me retrouver ce soir parmi vous //
 # text = mesdames et messieurs, je suis heureux de me retrouver ce soir parmi vous.
-1	mesdames	monsieur	NOUN	_	Number=Plur	6	vocative	_	AlignBegin=275|AlignEnd=555|Gender[lex]=Fem
+1	mesdames	monsieur	NOUN	_	_	6	vocative	_	AlignBegin=275|AlignEnd=555|Gender[lex]=Fem|Number[ctxt]=Plur
 2	et	et	CCONJ	_	_	3	cc	_	AlignBegin=555|AlignEnd=695
-3	messieurs	monsieur	NOUN	_	Number=Plur	1	conj:coord	_	AlignBegin=695|AlignEnd=1154|Gender[lex]=Masc|SpaceAfter=No
+3	messieurs	monsieur	NOUN	_	_	1	conj:coord	_	AlignBegin=695|AlignEnd=1154|Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=1154|AlignEnd=2690
 5	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	subj	_	AlignBegin=2690|AlignEnd=2910
 6	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=2910|AlignEnd=3190
@@ -612,7 +612,7 @@
 10	d'	de	ADP	_	_	9	mod	_	AlignBegin=99026|AlignEnd=99076|SpaceAfter=No
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	AlignBegin=99076|AlignEnd=99186
 12	même	même	ADJ	_	_	13	mod	_	AlignBegin=99186|AlignEnd=99556|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
-13	pas	pas	NOUN	_	Number=Sing	10	comp:obj	_	AlignBegin=99556|AlignEnd=99754|Gender[lex]=Masc|SpaceAfter=No
+13	pas	pas	NOUN	_	_	10	comp:obj	_	AlignBegin=99556|AlignEnd=99754|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	AlignBegin=99754|AlignEnd=101232
 15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	AlignBegin=101232|AlignEnd=101359
 16	Europe	Europe	PROPN	_	_	7	conj:appos	_	AlignBegin=101359|AlignEnd=101639|Gender[lex]=Unknown
@@ -1002,7 +1002,7 @@
 19-20	au	_	_	_	_	_	_	_	_
 19	à	à	ADP	_	_	15	mod	_	AlignBegin=172738|AlignEnd=172840
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	AlignBegin=172738|AlignEnd=172840
-21	travers	travers	NOUN	_	Number=Sing	19	comp:obj	_	AlignBegin=172840|AlignEnd=173278|Gender[lex]=Masc
+21	travers	travers	NOUN	_	_	19	comp:obj	_	AlignBegin=172840|AlignEnd=173278|Gender[lex]=Masc|Number[ctxt]=Sing
 22-23	des	_	_	_	_	_	_	_	_
 22	de	de	ADP	_	_	21	udep	_	AlignBegin=173278|AlignEnd=173419
 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	AlignBegin=173278|AlignEnd=173419
