@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Rhap_M0006-1
 # old_id = Rhap_M0006-1
 # type = monologue
@@ -69,13 +68,13 @@
 # macrosyntax = tu prends tout droit là "tu vois" //
 # text = tu prends tout droit là, tu vois.
 1	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	2	subj	_	AlignBegin=3617|AlignEnd=3717
-2	prends	prendre	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=3717|AlignEnd=4087
+2	prends	prendre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=3717|AlignEnd=4087|Person[ctxt]=2
 3	tout	tout	ADV	_	_	4	mod	_	AlignBegin=4087|AlignEnd=4237
 4	droit	droit	NOUN	_	_	2	comp:obj	_	AlignBegin=4237|AlignEnd=4536|Gender[lex]=Masc|Number[ctxt]=Sing
 5	là	là	ADV	_	_	2	mod	_	AlignBegin=4536|AlignEnd=4723|SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	AlignBegin=4723|AlignEnd=4723
 7	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	8	subj	_	AlignBegin=4723|AlignEnd=4883
-8	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	discourse	_	AlignBegin=4883|AlignEnd=5119|SpaceAfter=No
+8	vois	voir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	5	discourse	_	AlignBegin=4883|AlignEnd=5119|Person[ctxt]=2|SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	AlignBegin=5119|AlignEnd=5119
 
 # sent_id = Rhap_M0006-3
@@ -110,7 +109,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=6540|AlignEnd=6540
 5	quand	quand	SCONJ	_	_	27	mod	_	AlignBegin=6540|AlignEnd=6660
 6	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	7	subj	_	AlignBegin=6660|AlignEnd=6737
-7	arrives	arriver	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	comp:obj	_	AlignBegin=6737|AlignEnd=7000
+7	arrives	arriver	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	5	comp:obj	_	AlignBegin=6737|AlignEnd=7000|Person[ctxt]=2
 8	au	au	ADP	_	_	7	comp:obl	_	AlignBegin=7000|AlignEnd=7100
 9	bout	bout	NOUN	_	_	8	comp:obj	_	AlignBegin=7100|AlignEnd=7250|Gender[lex]=Masc|Number[ctxt]=Sing
 10	de	de	ADP	_	_	9	udep	_	AlignBegin=7250|AlignEnd=7280
@@ -130,7 +129,7 @@
 24	carrefour	carrefour	NOUN	_	_	23	comp:obj	_	AlignBegin=9725|AlignEnd=10191|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 25	,	,	PUNCT	_	_	5	punct	_	AlignBegin=10191|AlignEnd=10261
 26	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	27	subj	_	AlignBegin=10261|AlignEnd=10341
-27	tournes	tourner	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=10341|AlignEnd=10725
+27	tournes	tourner	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=10341|AlignEnd=10725|Person[ctxt]=2
 28	à	à	ADP	_	_	27	comp:obl	_	AlignBegin=10725|AlignEnd=10914
 29	droite	droite	NOUN	_	_	28	comp:obj	_	AlignBegin=11503|AlignEnd=11963|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 30	.	.	PUNCT	_	_	27	punct	_	AlignBegin=11963|AlignEnd=11963
@@ -164,7 +163,7 @@
 1	ensuite	ensuite	ADV	_	_	4	mod	_	AlignBegin=12010|AlignEnd=12300|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=12300|AlignEnd=12300
 3	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	4	subj	_	AlignBegin=12300|AlignEnd=12410
-4	continues	continuer	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=12410|AlignEnd=12810
+4	continues	continuer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=12410|AlignEnd=12810|Person[ctxt]=2
 5	tout	tout	ADV	_	_	6	mod	_	AlignBegin=12810|AlignEnd=12950
 6	droit	droit	ADV	_	_	4	comp:obj	_	AlignBegin=12950|AlignEnd=13195
 7	jusqu'	jusque	ADP	_	_	4	mod	_	AlignBegin=13195|AlignEnd=13455|SpaceAfter=No
@@ -275,7 +274,7 @@
 # text = quand tu arrives à l'arrêt de tram, là, tu tournes à gauche.
 1	quand	quand	SCONJ	_	_	13	mod	_	AlignBegin=17473|AlignEnd=17543
 2	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	3	subj	_	AlignBegin=17543|AlignEnd=17591
-3	arrives	arriver	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	comp:obj	_	AlignBegin=17591|AlignEnd=17799
+3	arrives	arriver	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	1	comp:obj	_	AlignBegin=17591|AlignEnd=17799|Person[ctxt]=2
 4	à	à	ADP	_	_	3	comp:obl	_	AlignBegin=17799|AlignEnd=17873
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	AlignBegin=17873|AlignEnd=17903|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 6	arrêt	arrêt	NOUN	_	_	4	comp:obj	_	AlignBegin=17903|AlignEnd=18073|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
@@ -285,7 +284,7 @@
 10	là	là	ADV	_	_	13	mod	_	AlignBegin=19249|AlignEnd=19329|SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=19329|AlignEnd=19329
 12	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	13	subj	_	AlignBegin=19329|AlignEnd=19449
-13	tournes	tourner	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=19449|AlignEnd=19669
+13	tournes	tourner	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=19449|AlignEnd=19669|Person[ctxt]=2
 14	à	à	ADP	_	_	13	comp:obl	_	AlignBegin=19669|AlignEnd=19759
 15	gauche	gauche	NOUN	_	_	14	comp:obj	_	AlignBegin=19759|AlignEnd=20095|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 16	.	.	PUNCT	_	_	13	punct	_	AlignBegin=20060|AlignEnd=20060
@@ -317,7 +316,7 @@
 # macrosyntax = tu suis la ligne du tram { jusqu'à | jusqu'à | "ben" jusqu'à } La Nef Chavant //
 # text = tu suis la ligne du tram jusqu'à, jusqu'à, ben, jusqu'à La Nef Chavant.
 1	tu	toi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=2|PronType=Prs	2	subj	_	AlignBegin=20095|AlignEnd=20165
-2	suis	suivre	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=20165|AlignEnd=20375
+2	suis	suivre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=20165|AlignEnd=20375|Person[ctxt]=2
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	AlignBegin=20375|AlignEnd=20493|HasSpokenGender=OnlySingExceptWithLiaison
 4	ligne	ligne	NOUN	_	_	2	comp:obj	_	AlignBegin=20493|AlignEnd=20715|Gender[lex]=Fem|Number[ctxt]=Sing
 5	du	du	ADP	_	_	4	udep	_	AlignBegin=20715|AlignEnd=20794

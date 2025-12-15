@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Rhap_M0003-1
 # old_id = Rhap_M0003-1
 # type = monologue
@@ -256,7 +255,7 @@
 2	petite	petit	ADJ	_	Gender=Fem	3	mod	_	AlignBegin=23233|AlignEnd=23574|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 3	rue	rue	NOUN	_	_	0	root	_	AlignBegin=23574|AlignEnd=23907|Gender[lex]=Fem|Number[ctxt]=Sing
 4	qui	qui	PRON	_	PronType=Rel	5	subj	_	AlignBegin=24377|AlignEnd=24474
-5	part	partir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	AlignBegin=24474|AlignEnd=24700
+5	part	partir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	AlignBegin=24474|AlignEnd=24700|Person[ctxt]=3
 6	à	à	ADP	_	_	5	comp:obl	_	AlignBegin=24700|AlignEnd=24787
 7	droite	droite	NOUN	_	_	6	comp:obj	_	AlignBegin=24787|AlignEnd=25091|Gender[lex]=Fem|Number[ctxt]=Sing
 8	du	du	ADP	_	_	7	udep	_	AlignBegin=25091|AlignEnd=25204
@@ -725,11 +724,11 @@
 8	du	du	ADP	_	_	7	udep	_	AlignBegin=54329|AlignEnd=54459
 9	tram	tram	NOUN	_	_	8	comp:obj	_	AlignBegin=54459|AlignEnd=54826|Gender[lex]=Masc|Number[ctxt]=Sing
 10	qui	qui	PRON	_	PronType=Rel	11	subj	_	AlignBegin=54826|AlignEnd=54991
-11	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	AlignBegin=54991|AlignEnd=55296
+11	passe	passer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	AlignBegin=54991|AlignEnd=55296|Person[ctxt]=3
 12	vers	vers	ADP	_	_	11	comp:obl	_	AlignBegin=55296|AlignEnd=55476
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	comp:obj@scrap	_	AlignBegin=55476|AlignEnd=55897|HasSpokenGender=OnlySingExceptWithLiaison
 14	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	15	subj	_	AlignBegin=56207|AlignEnd=56324
-15	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	conj:dicto	_	AlignBegin=56324|AlignEnd=56440|Graft=Yes
+15	crois	croire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	13	conj:dicto	_	AlignBegin=56324|AlignEnd=56440|Graft=Yes|Person[ctxt]=1
 16	que	que	SCONJ	_	_	15	comp:obj	_	AlignBegin=56440|AlignEnd=56483
 17	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	subj	_	AlignBegin=56483|AlignEnd=56668|SpaceAfter=No
 18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	comp:obj	_	AlignBegin=56668|AlignEnd=56792
@@ -738,7 +737,7 @@
 21	caserne	caserne	NOUN	_	_	18	comp:pred	_	AlignBegin=57366|AlignEnd=57931|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 22	,	,	PUNCT	_	_	24	punct	_	AlignBegin=57931|AlignEnd=57931
 23	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	24	subj	_	AlignBegin=57931|AlignEnd=58027
-24	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	discourse	_	AlignBegin=58027|AlignEnd=58303|SpaceAfter=No
+24	crois	croire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	18	discourse	_	AlignBegin=58027|AlignEnd=58303|Person[ctxt]=1|SpaceAfter=No
 25	.	.	PUNCT	_	_	5	punct	_	AlignBegin=58303|AlignEnd=58303
 
 # sent_id = Rhap_M0003-19

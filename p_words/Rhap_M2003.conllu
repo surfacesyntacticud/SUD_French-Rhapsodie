@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Rhap_M2003-1
 # old_id = Rhap_M2003-1
 # type = monologue
@@ -43,7 +42,7 @@
 16	journée	journée	NOUN	_	_	5	conj:appos	_	AlignBegin=5282|AlignEnd=5925|Gender[lex]=Fem|Number[ctxt]=Sing
 17	où	où	PRON	_	PronType=Rel	19	mod	_	AlignBegin=6265|AlignEnd=6382
 18	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	subj	_	AlignBegin=6382|AlignEnd=6560
-19	manifeste	manifester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	AlignBegin=6560|AlignEnd=7468
+19	manifeste	manifester	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	AlignBegin=6560|AlignEnd=7468|Person[ctxt]=3
 20	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs|Shared=No	21	det	_	AlignBegin=7468|AlignEnd=7740|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
 21	autorité	autorité	NOUN	_	_	19	comp:obj	_	AlignBegin=7740|AlignEnd=8600|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 22	et	et	CCONJ	_	_	24	cc	_	AlignBegin=9038|AlignEnd=9163
@@ -57,7 +56,7 @@
 30	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	31	det	_	AlignBegin=11303|AlignEnd=11412|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 31	évangile	évangile	NOUN	_	_	28	conj:coord	_	AlignBegin=11412|AlignEnd=12146|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 32	qui	qui	PRON	_	PronType=Rel	33	subj	_	AlignBegin=12468|AlignEnd=12613
-33	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	mod@relcl	_	AlignBegin=12613|AlignEnd=13121
+33	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	31	mod@relcl	_	AlignBegin=12613|AlignEnd=13121|Person[ctxt]=3
 34	avec	avec	ADP	_	_	33	mod	_	AlignBegin=13335|AlignEnd=13660
 35	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	comp:obj	_	AlignBegin=13660|AlignEnd=13965|SpaceAfter=No
 36	.	.	PUNCT	_	_	2	punct	_	AlignBegin=13965|AlignEnd=13965
@@ -127,7 +126,7 @@
 # text = Jésus ne dit rien avant la fin de l'épisode.
 1	Jésus	Jésus	PROPN	_	_	3	subj	_	AlignBegin=18165|AlignEnd=18680|Gender[lex]=Unknown
 2	ne	ne	ADV	_	Polarity=Neg	3	mod	_	AlignBegin=18680|AlignEnd=18850
-3	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=18850|AlignEnd=19030
+3	dit	dire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=18850|AlignEnd=19030|Person[ctxt]=3
 4	rien	rien	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	3	comp:obj	_	AlignBegin=19030|AlignEnd=19502
 5	avant	avant	ADP	_	_	3	mod	_	AlignBegin=20240|AlignEnd=20535
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	AlignBegin=20535|AlignEnd=20665|HasSpokenGender=OnlySingExceptWithLiaison
@@ -164,7 +163,7 @@
 # macrosyntax = il agit //
 # text = il agit.
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	AlignBegin=22966|AlignEnd=23271
-2	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=23271|AlignEnd=23820|SpaceAfter=No
+2	agit	agir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=23271|AlignEnd=23820|Person[ctxt]=3|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	AlignBegin=23820|AlignEnd=23820
 
 # sent_id = Rhap_M2003-5
@@ -236,7 +235,7 @@
 2	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	3	det	_	AlignBegin=28525|AlignEnd=28715|HasSpokenGender=OnlySingExceptWithLiaison
 3	fièvre	fièvre	NOUN	_	_	5	subj	_	AlignBegin=28715|AlignEnd=29335|Gender[lex]=Fem|Number[ctxt]=Sing
 4	la	le	PRON	_	Case=Acc|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=29335|AlignEnd=29581
-5	quitte	quitter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=29581|AlignEnd=30052|SpaceAfter=No
+5	quitte	quitter	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=29581|AlignEnd=30052|Person[ctxt]=3|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	AlignBegin=30052|AlignEnd=30052
 
 # sent_id = Rhap_M2003-7
@@ -266,7 +265,7 @@
 # macrosyntax = il guérit ensuite toutes sortes de malades > comme [ plus tard <+ dans l'évangile <+ il acceptera { de se laisser toucher | ^ou de bénir en imposant les mains } ] //
 # text = il guérit ensuite toutes sortes de malades comme plus tard, dans l'évangile, il acceptera de se laisser toucher ou de bénir en imposant les mains.
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	AlignBegin=31029|AlignEnd=31194
-2	guérit	guérir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=31194|AlignEnd=31744
+2	guérit	guérir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=31194|AlignEnd=31744|Person[ctxt]=3
 3	ensuite	ensuite	ADV	_	_	2	mod	_	AlignBegin=31744|AlignEnd=32284
 4	toutes	tout	DET	_	Gender=Fem|Number=Plur|PronType=Ind	5	det	_	AlignBegin=32284|AlignEnd=32504
 5	sortes	sorte	NOUN	_	_	2	comp:obj	_	AlignBegin=32504|AlignEnd=33149|Gender[lex]=Fem|Number[ctxt]=Plur
@@ -283,7 +282,7 @@
 16	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	subj	_	AlignBegin=36683|AlignEnd=36788
 17	acceptera	accepter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	comp:obj	_	AlignBegin=36788|AlignEnd=37538
 18	de	de	ADP	_	_	17	comp:obl	_	AlignBegin=37538|AlignEnd=37648
-19	se	soi	PRON	_	Person=3|PronType=Prs	21	comp:obj	_	AlignBegin=37648|AlignEnd=37848
+19	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	21	comp:obj	_	AlignBegin=37648|AlignEnd=37848
 20	laisser	laisser	VERB	_	VerbForm=Inf	18	comp:obj	_	AlignBegin=37848|AlignEnd=38233|Subject=SubjRaising
 21	toucher	toucher	VERB	_	VerbForm=Inf	20	comp:obj	_	AlignBegin=38233|AlignEnd=38921|Subject=SubjRaising
 22	ou	ou	CCONJ	_	_	23	cc	_	AlignBegin=39455|AlignEnd=39560
@@ -322,14 +321,14 @@
 # macrosyntax = il chasse { beaucoup d'esprits | >+ ce qui fait du mal aux gens } //
 # text = il chasse beaucoup d'esprits, ce qui fait du mal aux gens.
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	AlignBegin=43287|AlignEnd=43422
-2	chasse	chasser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=43422|AlignEnd=43812
+2	chasse	chasser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=43422|AlignEnd=43812|Person[ctxt]=3
 3	beaucoup	beaucoup	ADV	_	_	2	comp:obj	_	AlignBegin=43812|AlignEnd=44202
 4	d'	de	ADP	_	_	3	comp:obl	_	AlignBegin=44202|AlignEnd=44252|SpaceAfter=No
 5	esprits	esprit	NOUN	_	_	4	comp:obj	_	AlignBegin=44252|AlignEnd=44860|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=44860|AlignEnd=45398
 7	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	dislocated:obj	_	AlignBegin=45398|AlignEnd=45493
 8	qui	qui	PRON	_	PronType=Rel	9	subj	_	AlignBegin=45493|AlignEnd=45653
-9	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	AlignBegin=45653|AlignEnd=45773
+9	fait	faire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	AlignBegin=45653|AlignEnd=45773|Person[ctxt]=3
 10	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	AlignBegin=45773|AlignEnd=45923
 11	mal	mal	NOUN	_	Number=Sing	9	comp:obj	_	AlignBegin=45923|AlignEnd=46133|Gender[lex]=Masc
 12	aux	au	ADP	_	_	9	comp:obl	_	AlignBegin=46133|AlignEnd=46273
@@ -459,11 +458,11 @@
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	AlignBegin=64763|AlignEnd=64793|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 6	évangile	évangile	NOUN	_	_	8	subj	_	AlignBegin=64793|AlignEnd=65532|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 7	nous	nous	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=1|PronType=Prs	8	comp:obl	_	AlignBegin=65532|AlignEnd=65707
-8	montre	montrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=65707|AlignEnd=66013
+8	montre	montrer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=65707|AlignEnd=66013|Person[ctxt]=3
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	AlignBegin=66013|AlignEnd=66103
 10	Jésus	Jésus	PROPN	_	_	8	comp:obj	_	AlignBegin=66103|AlignEnd=66721|Gender[lex]=Unknown
 11	qui	qui	PRON	_	PronType=Rel	12	subj	_	AlignBegin=67150|AlignEnd=67315
-12	remet	remettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	mod@relcl	_	AlignBegin=67315|AlignEnd=67665
+12	remet	remettre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	10	mod@relcl	_	AlignBegin=67315|AlignEnd=67665|Person[ctxt]=3
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	AlignBegin=67665|AlignEnd=67705|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 14	humanité	humanité	NOUN	_	_	12	comp:obj	_	AlignBegin=67705|AlignEnd=68390|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 15	debout	debout	ADJ	_	Gender=Fem	12	comp:pred	_	AlignBegin=68390|AlignEnd=69038|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
@@ -504,7 +503,7 @@
 7	journée	journée	NOUN	_	_	4	comp:obj	_	AlignBegin=71719|AlignEnd=72262|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	4	punct	_	AlignBegin=72262|AlignEnd=72655
 9	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	subj	_	AlignBegin=72655|AlignEnd=72840
-10	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=72840|AlignEnd=73110
+10	fait	faire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=72840|AlignEnd=73110|Person[ctxt]=3
 11	de	de	ADP	_	_	10	comp:obl	_	AlignBegin=73110|AlignEnd=73230
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	AlignBegin=73230|AlignEnd=73430|HasSpokenGender=OnlySingExceptWithLiaison
 13	belle-mère	belle-mère	NOUN	_	_	11	comp:obj	_	AlignBegin=73430|AlignEnd=73820|Gender[lex]=Fem|Number[ctxt]=Sing
@@ -552,7 +551,7 @@
 7	,	,	PUNCT	_	_	6	punct	_	AlignBegin=79993|AlignEnd=79993
 8	comme	comme	SCONJ	_	_	25	mod	_	AlignBegin=79993|AlignEnd=80163
 9	le	le	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	comp:obj	_	AlignBegin=80163|AlignEnd=80253
-10	répète	répéter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	AlignBegin=80253|AlignEnd=80743
+10	répète	répéter	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	8	comp:obj	_	AlignBegin=80253|AlignEnd=80743|Person[ctxt]=3
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	AlignBegin=80743|AlignEnd=80833|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 12	apôtre	apôtre	NOUN	_	_	10	subj	_	AlignBegin=80833|AlignEnd=81305|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 13	Paul	Paul	PROPN	_	_	12	mod@appos	_	AlignBegin=81305|AlignEnd=81742|Gender[lex]=Unknown|SpaceAfter=No
@@ -649,7 +648,7 @@
 # text = Jésus ne pose même pas ses gestes de bonté comme des appels à la foi.
 1	Jésus	Jésus	PROPN	_	_	3	subj	_	AlignBegin=104691|AlignEnd=105283|Gender[lex]=Unknown
 2	ne	ne	ADV	_	Polarity=Neg	3	mod	_	AlignBegin=105769|AlignEnd=105884
-3	pose	poser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=105884|AlignEnd=106184
+3	pose	poser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=105884|AlignEnd=106184|Person[ctxt]=3
 4	même	même	ADV	_	_	3	mod	_	AlignBegin=106184|AlignEnd=106439
 5	pas	pas	ADV	_	Polarity=Neg	3	mod	_	AlignBegin=106439|AlignEnd=106584
 6	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	7	det	_	AlignBegin=106584|AlignEnd=106794|HasSpokenGender=OnlySingExceptWithLiaison
@@ -729,7 +728,7 @@
 8	jour	jour	NOUN	_	_	5	comp:obj	_	AlignBegin=113474|AlignEnd=114062|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 9	,	,	PUNCT	_	_	5	punct	_	AlignBegin=114062|AlignEnd=114730
 10	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	subj	_	AlignBegin=114730|AlignEnd=114924
-11	inaugure	inaugurer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=114924|AlignEnd=115615
+11	inaugure	inaugurer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=114924|AlignEnd=115615|Person[ctxt]=3
 12	en	en	ADP	_	_	11	mod	_	AlignBegin=115615|AlignEnd=115715
 13	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	14	det	_	AlignBegin=115715|AlignEnd=115911|HasSpokenGender=OnlySingExceptWithLiaison
 14	personne	personne	NOUN	_	_	12	comp:obj	_	AlignBegin=115911|AlignEnd=116633|Gender[lex]=Fem|Number[ctxt]=Sing
@@ -808,8 +807,8 @@
 21	,	,	PUNCT	_	_	23	punct	_	AlignBegin=132521|AlignEnd=133064
 22	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	23	det	_	AlignBegin=133064|AlignEnd=133289|HasSpokenGender=OnlySingExceptWithLiaison
 23	message	message	NOUN	_	_	2	conj:dicto	_	AlignBegin=133289|AlignEnd=133869|Gender[lex]=Masc|Number[ctxt]=Sing
-24	s'	soi	PRON	_	Person=3|PronType=Prs	25	comp@pass	_	AlignBegin=133869|AlignEnd=134009|SpaceAfter=No
-25	inscrit	inscrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=134009|AlignEnd=134444
+24	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	25	comp@pass	_	AlignBegin=133869|AlignEnd=134009|SpaceAfter=No
+25	inscrit	inscrire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=134009|AlignEnd=134444|Person[ctxt]=3
 26	aujourd'hui	aujourd'hui	ADV	_	_	25	mod	_	AlignBegin=134444|AlignEnd=134957
 27	dans	dans	ADP	_	_	25	mod	_	AlignBegin=134957|AlignEnd=135139
 28	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	29	det	_	AlignBegin=135139|AlignEnd=135319|HasSpokenGender=OnlySingExceptWithLiaison
@@ -843,7 +842,7 @@
 # macrosyntax = il trouve sa traduction en action dans ses gestes de libération //
 # text = il trouve sa traduction en action dans ses gestes de libération.
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	AlignBegin=136494|AlignEnd=136696
-2	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=136696|AlignEnd=137029
+2	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=136696|AlignEnd=137029|Person[ctxt]=3
 3	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	4	det	_	AlignBegin=137029|AlignEnd=137219|HasSpokenGender=OnlySingExceptWithLiaison
 4	traduction	traduction	NOUN	_	_	2	comp:obj	_	AlignBegin=137219|AlignEnd=138016|Gender[lex]=Fem|Number[ctxt]=Sing
 5	en	en	ADP	_	_	4	udep	_	AlignBegin=138016|AlignEnd=138249
@@ -891,8 +890,8 @@
 8	aujourd'hui	aujourd'hui	ADV	_	_	7	comp:obj	_	AlignBegin=144935|AlignEnd=145502|SpaceAfter=No
 9	,	,	PUNCT	_	_	4	punct	_	AlignBegin=0|AlignEnd=146045
 10	Jésus	Jésus	PROPN	_	_	12	subj	_	AlignBegin=146045|AlignEnd=146810|Gender[lex]=Unknown
-11	s'	soi	PRON	_	Person=3|PronType=Prs	12	comp	_	AlignBegin=146810|AlignEnd=146950|SpaceAfter=No
-12	accorde	accorder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=146950|AlignEnd=147410
+11	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	12	comp:obl	_	AlignBegin=146810|AlignEnd=146950|SpaceAfter=No
+12	accorde	accorder	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=146950|AlignEnd=147410|Person[ctxt]=3
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	AlignBegin=147410|AlignEnd=147542|HasSpokenGender=OnlySingExceptWithLiaison
 14	pouvoir	pouvoir	NOUN	_	_	12	comp:obj	_	AlignBegin=147542|AlignEnd=148090|Gender[lex]=Masc|Number[ctxt]=Sing
 15	de	de	ADP	_	_	14	udep	_	AlignBegin=148090|AlignEnd=148220
@@ -934,13 +933,13 @@
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	AlignBegin=151419|AlignEnd=151544
 2	n'	ne	ADV	_	Polarity=Neg	4	mod	_	AlignBegin=151544|AlignEnd=151624|SpaceAfter=No
 3	en	en	PRON	_	Person=3|PronType=Prs	4	comp:obj	_	AlignBegin=151624|AlignEnd=151734
-4	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=151734|AlignEnd=152174
+4	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=151734|AlignEnd=152174|Person[ctxt]=3
 5	plus	plus	ADV	_	Polarity=Neg	4	mod	_	AlignBegin=152174|AlignEnd=152498|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=152498|AlignEnd=152498
 7	comme	comme	SCONJ	_	_	4	mod	_	AlignBegin=152498|AlignEnd=152654
 8	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind|Shared=No	10	subj	_	AlignBegin=152654|AlignEnd=152784
 9	le	le	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	comp:obj	_	AlignBegin=152784|AlignEnd=152884
-10	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	comp:obj	_	AlignBegin=152884|AlignEnd=153204
+10	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	7	comp:obj	_	AlignBegin=152884|AlignEnd=153204|Person[ctxt]=3
 11	en	en	ADP	_	_	10	mod	_	AlignBegin=153204|AlignEnd=153324
 12	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	13	det	_	AlignBegin=153324|AlignEnd=153604|HasSpokenGender=OnlySingExceptWithLiaison
 13	temps	temps	NOUN	_	_	11	comp:obj	_	AlignBegin=153604|AlignEnd=153902|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
@@ -985,7 +984,7 @@
 # macrosyntax = il guérit de son propre chef les malades //
 # text = il guérit de son propre chef les malades.
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	AlignBegin=159929|AlignEnd=160097
-2	guérit	guérir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=160097|AlignEnd=160534
+2	guérit	guérir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=160097|AlignEnd=160534|Person[ctxt]=3
 3	de	de	ADP	_	_	2	mod	_	AlignBegin=160534|AlignEnd=160624
 4	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	6	det	_	AlignBegin=160624|AlignEnd=160868|HasSpokenGender=OnlySingExceptWithLiaison
 5	propre	propre	ADJ	_	_	6	mod	_	AlignBegin=160868|AlignEnd=161294|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
@@ -1027,12 +1026,12 @@
 5	vie	vie	NOUN	_	_	2	comp:pred	_	AlignBegin=163703|AlignEnd=163936|Gender[lex]=Fem|Number[ctxt]=Sing
 6	qu'	que	PRON	_	PronType=Rel	8	comp:obj	_	AlignBegin=163936|AlignEnd=164033|SpaceAfter=No
 7	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj	_	AlignBegin=164033|AlignEnd=164206
-8	communique	communiquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:cleft	_	AlignBegin=164206|AlignEnd=164850|Filler=obj
+8	communique	communiquer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	2	comp:cleft	_	AlignBegin=164206|AlignEnd=164850|Filler=obj|Person[ctxt]=3
 9	à	à	ADP	_	_	8	comp:obl	_	AlignBegin=165365|AlignEnd=165440
 10	ceux	celui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	9	comp:obj	_	AlignBegin=165440|AlignEnd=165630
 11	qu'	que	PRON	_	PronType=Rel	13	comp:obj	_	AlignBegin=165630|AlignEnd=165700|SpaceAfter=No
 12	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	subj	_	AlignBegin=165700|AlignEnd=165810
-13	rencontre	rencontrer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	mod@relcl	_	AlignBegin=165810|AlignEnd=166524|SpaceAfter=No
+13	rencontre	rencontrer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	10	mod@relcl	_	AlignBegin=165810|AlignEnd=166524|Person[ctxt]=3|SpaceAfter=No
 14	.	.	PUNCT	_	_	2	punct	_	AlignBegin=166524|AlignEnd=166524
 
 # sent_id = Rhap_M2003-23
@@ -1068,7 +1067,7 @@
 5	autorité	autorité	NOUN	_	_	2	comp:pred	_	AlignBegin=167633|AlignEnd=168393|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 6	qu'	que	PRON	_	PronType=Rel	8	comp:obj	_	AlignBegin=168393|AlignEnd=168423|SpaceAfter=No
 7	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj	_	AlignBegin=168423|AlignEnd=168513
-8	engage	engager	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:cleft	_	AlignBegin=168513|AlignEnd=169104|Filler=obj|SpaceAfter=No
+8	engage	engager	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	2	comp:cleft	_	AlignBegin=168513|AlignEnd=169104|Filler=obj|Person[ctxt]=3|SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	AlignBegin=169104|AlignEnd=169454
 10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	AlignBegin=169454|AlignEnd=169499|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 11	autorité	autorité	NOUN	_	_	5	conj:appos	_	AlignBegin=169499|AlignEnd=170019|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
@@ -1105,7 +1104,7 @@
 # text = je le veux.
 1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=170956|AlignEnd=171198
 2	le	le	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=171198|AlignEnd=171371
-3	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=171371|AlignEnd=171701|Reported=Yes|SpaceAfter=No
+3	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=171371|AlignEnd=171701|Person[ctxt]=1|Reported=Yes|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=171701|AlignEnd=171701
 
 # sent_id = Rhap_M2003-25
@@ -1137,7 +1136,7 @@
 1	sois	être	AUX	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=172082|AlignEnd=172357|Reported=Yes
 2	purifié	purifier	VERB	_	VerbForm=Part|Voice=Pass	1	comp:aux@pass	_	AlignBegin=172357|AlignEnd=173135|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=173135|AlignEnd=173604
-4	entend	entendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis:insert	_	AlignBegin=173604|AlignEnd=173999|SpaceAfter=No
+4	entend	entendre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	1	parataxis:insert	_	AlignBegin=173604|AlignEnd=173999|Person[ctxt]=3|SpaceAfter=No
 5	-on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	AlignBegin=173999|AlignEnd=174169
 6	dans	dans	ADP	_	_	4	mod	_	AlignBegin=174169|AlignEnd=174299
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	AlignBegin=174299|AlignEnd=174329|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
@@ -1177,8 +1176,8 @@
 5	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	8	subj	_	AlignBegin=176345|AlignEnd=176551
 6	te	toi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=2|PronType=Prs	8	comp:obl	_	AlignBegin=176551|AlignEnd=176671
 7	le	le	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	AlignBegin=176671|AlignEnd=176781
-8	dis	dire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=176781|AlignEnd=177021|Reported=Yes
-9	lève	lever	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	comp:obj	_	AlignBegin=177354|AlignEnd=177629|Reported=Yes|SpaceAfter=No
+8	dis	dire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=176781|AlignEnd=177021|Person[ctxt]=1|Reported=Yes
+9	lève	lever	VERB	_	Mood=Imp|Number=Sing|Tense=Pres|VerbForm=Fin	8	comp:obj	_	AlignBegin=177354|AlignEnd=177629|Person[ctxt]=2|Reported=Yes|SpaceAfter=No
 10	-toi	toi	PRON	_	Number=Sing|Person=2|PronType=Prs	9	comp:obj	_	AlignBegin=177629|AlignEnd=178050|SpaceAfter=No
 11	.	.	PUNCT	_	_	8	punct	_	AlignBegin=178050|AlignEnd=178050
 
@@ -1217,7 +1216,7 @@
 7	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	10	subj	_	AlignBegin=180516|AlignEnd=180696
 8	te	toi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=2|PronType=Prs	10	comp:obl	_	AlignBegin=180696|AlignEnd=180856
 9	l'	le	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=3|PronType=Prs	10	comp:obj	_	AlignBegin=180856|AlignEnd=180906|SpaceAfter=No
-10	ordonne	ordonner	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=180906|AlignEnd=181489|Reported=Yes|SpaceAfter=No
+10	ordonne	ordonner	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=180906|AlignEnd=181489|Person[ctxt]=1|Reported=Yes|SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	AlignBegin=181489|AlignEnd=181489
 
 # sent_id = Rhap_M2003-28
@@ -1255,7 +1254,7 @@
 7	nom	nom	NOUN	_	_	4	comp:obj	_	AlignBegin=184428|AlignEnd=184699|Gender[lex]=Masc|Number[ctxt]=Sing
 8	que	que	SCONJ	_	_	2	comp:cleft	_	AlignBegin=185961|AlignEnd=186086
 9	Jésus	Jésus	PROPN	_	_	10	subj	_	AlignBegin=186086|AlignEnd=186636|Gender[lex]=Unknown
-10	chasse	chasser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	AlignBegin=186636|AlignEnd=187018|Filler=mod
+10	chasse	chasser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	8	comp:obj	_	AlignBegin=186636|AlignEnd=187018|Filler=mod|Person[ctxt]=3
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	AlignBegin=187018|AlignEnd=187156|HasSpokenGender=OnlySingExceptWithLiaison
 12	démons	démon	NOUN	_	_	10	comp:obj	_	AlignBegin=187156|AlignEnd=187490|Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	AlignBegin=187490|AlignEnd=187490
@@ -1287,7 +1286,7 @@
 # macrosyntax = il enseigne { avec autorité | pas comme { les pharisiens | ^et les scribes } } //
 # text = il enseigne avec autorité, pas comme les pharisiens et les scribes.
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	AlignBegin=188242|AlignEnd=188337
-2	enseigne	enseigner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=188337|AlignEnd=188887
+2	enseigne	enseigner	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=188337|AlignEnd=188887|Person[ctxt]=3
 3	avec	avec	ADP	_	_	2	mod	_	AlignBegin=188887|AlignEnd=189082
 4	autorité	autorité	NOUN	_	_	3	comp:obj	_	AlignBegin=189082|AlignEnd=189854|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=189854|AlignEnd=190327
@@ -1327,7 +1326,7 @@
 # macrosyntax = il guérit { en donnant la vie | en donnant sa propre vie } //
 # text = il guérit en donnant la vie, en donnant sa propre vie.
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	AlignBegin=193212|AlignEnd=193355
-2	guérit	guérir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=193355|AlignEnd=193965
+2	guérit	guérir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=193355|AlignEnd=193965|Person[ctxt]=3
 3	en	en	ADP	_	_	2	mod	_	AlignBegin=194377|AlignEnd=194572
 4	donnant	donner	VERB	_	VerbForm=Part	3	comp:obj	_	AlignBegin=194572|AlignEnd=194932|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Pres
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	AlignBegin=194932|AlignEnd=195092|HasSpokenGender=OnlySingExceptWithLiaison
@@ -1430,7 +1429,7 @@
 21	celui	celui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	conj:appos	_	AlignBegin=208713|AlignEnd=209100
 22	que	que	PRON	_	PronType=Rel	24	comp:obj	_	AlignBegin=209100|AlignEnd=209243
 23	l'on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	24	subj	_	AlignBegin=209243|AlignEnd=209403
-24	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	mod@relcl	_	AlignBegin=209403|AlignEnd=209769
+24	fait	faire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	21	mod@relcl	_	AlignBegin=209403|AlignEnd=209769|Person[ctxt]=3
 25	en	en	ADP	_	_	24	mod	_	AlignBegin=210014|AlignEnd=210099
 26	faisant	faire	VERB	_	VerbForm=Part	25	comp:obj	_	AlignBegin=210099|AlignEnd=210489|PastPartHasSpokenGender=Yes|Tense[denom]=Pres
 27	du	du	ADP	_	_	26	comp:obl	_	AlignBegin=210489|AlignEnd=210609
@@ -1490,7 +1489,7 @@
 13	première	premier	ADJ	_	Gender=Fem	14	mod	_	AlignBegin=219042|AlignEnd=219412|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 14	lecture	lecture	NOUN	_	_	11	comp:obj	_	AlignBegin=219412|AlignEnd=219869|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 15	,	,	PUNCT	_	_	3	punct	_	AlignBegin=219869|AlignEnd=219869
-16	retentit	retentir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=219869|AlignEnd=220468
+16	retentit	retentir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=219869|AlignEnd=220468|Person[ctxt]=3
 17	à	à	ADP	_	_	16	mod	_	AlignBegin=220865|AlignEnd=220970
 18	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	19	det	_	AlignBegin=220970|AlignEnd=221120|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
 19	oreilles	oreille	NOUN	_	_	17	comp:obj	_	AlignBegin=221120|AlignEnd=221738|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
@@ -1524,7 +1523,7 @@
 # text = vraiment, dit Job, la vie de l'homme sur terre est une corvée.
 1	vraiment	vraiment	ADV	_	_	13	mod	_	AlignBegin=222566|AlignEnd=223111|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=223111|AlignEnd=223111
-3	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	parataxis:insert	_	AlignBegin=223111|AlignEnd=223251
+3	dit	dire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	13	parataxis:insert	_	AlignBegin=223111|AlignEnd=223251|Person[ctxt]=3
 4	Job	Job	PROPN	_	_	3	subj	_	AlignBegin=223251|AlignEnd=223731|Gender[lex]=Unknown|SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	AlignBegin=223731|AlignEnd=224287
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	AlignBegin=224287|AlignEnd=224422|HasSpokenGender=OnlySingExceptWithLiaison
@@ -1566,7 +1565,7 @@
 # macrosyntax = il fait des journées de manœuvre //
 # text = il fait des journées de manœuvre.
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	AlignBegin=227156|AlignEnd=227286
-2	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=227286|AlignEnd=227481|Reported=Yes
+2	fait	faire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=227286|AlignEnd=227481|Person[ctxt]=3|Reported=Yes
 3	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	4	det	_	AlignBegin=227481|AlignEnd=227601
 4	journées	journée	NOUN	_	_	2	comp:obj	_	AlignBegin=227601|AlignEnd=227971|Gender[lex]=Fem|Number[ctxt]=Plur
 5	de	de	ADP	_	_	4	udep	_	AlignBegin=227971|AlignEnd=228091
@@ -1603,7 +1602,7 @@
 2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	AlignBegin=229383|AlignEnd=229456|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 3	esclave	esclave	NOUN	_	_	1	comp:obj	_	AlignBegin=229456|AlignEnd=230176|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 4	qui	qui	PRON	_	PronType=Rel	5	subj	_	AlignBegin=230588|AlignEnd=230713
-5	désire	désirer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	AlignBegin=230713|AlignEnd=231083
+5	désire	désirer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	AlignBegin=230713|AlignEnd=231083|Person[ctxt]=3
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	AlignBegin=231083|AlignEnd=231186|InIdiom=Yes
 7	peu	peu	NOUN	_	ExtPos=ADV	5	comp:obj	_	AlignBegin=231186|AlignEnd=231393|Idiom=Yes
 8	d'	de	ADP	_	_	7	comp:obl	_	AlignBegin=231393|AlignEnd=231463|SpaceAfter=No
@@ -1613,14 +1612,14 @@
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	AlignBegin=232093|AlignEnd=232223|HasSpokenGender=OnlySingExceptWithLiaison
 13	manœuvre	manœuvre	NOUN	_	_	11	comp:obj	_	AlignBegin=232223|AlignEnd=232785|Gender[lex]=Fem|Number[ctxt]=Sing
 14	qui	qui	PRON	_	PronType=Rel	15	subj	_	AlignBegin=232785|AlignEnd=232943
-15	attend	attendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	mod@relcl	_	AlignBegin=232943|AlignEnd=233223
+15	attend	attendre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	13	mod@relcl	_	AlignBegin=232943|AlignEnd=233223|Person[ctxt]=3
 16	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	17	det	_	AlignBegin=233223|AlignEnd=233407|HasSpokenGender=OnlySingExceptWithLiaison
 17	paye	paye	NOUN	_	_	15	comp:obj	_	AlignBegin=233407|AlignEnd=233912|Gender[lex]=Fem|Number[ctxt]=Sing
 18	depuis	depuis	ADP	_	_	15	mod	_	AlignBegin=234350|AlignEnd=234743
 19	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	20	det	_	AlignBegin=234743|AlignEnd=234935
 20	mois	mois	NOUN	_	_	18	comp:obj	_	AlignBegin=234935|AlignEnd=235418|Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	AlignBegin=235418|AlignEnd=235572
-22	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	parataxis:insert	_	AlignBegin=235572|AlignEnd=235702
+22	dit	dire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	28	parataxis:insert	_	AlignBegin=235572|AlignEnd=235702|Person[ctxt]=3
 23	Job	Job	PROPN	_	_	22	subj	_	AlignBegin=235702|AlignEnd=236216|Gender[lex]=Unknown|SpaceAfter=No
 24	,	,	PUNCT	_	_	22	punct	_	AlignBegin=236216|AlignEnd=236570
 25	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	28	subj	_	AlignBegin=236570|AlignEnd=236695
@@ -1664,7 +1663,7 @@
 # text = je ne compte que des nuits de souffrance…
 1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=239720|AlignEnd=239885
 2	ne	ne	ADV	_	Polarity=Neg	3	mod	_	AlignBegin=239885|AlignEnd=240055
-3	compte	compter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=240055|AlignEnd=240605|Reported=Yes
+3	compte	compter	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=240055|AlignEnd=240605|Person[ctxt]=1|Reported=Yes
 4	que	que	ADV	_	Polarity=Neg	6	mod	_	AlignBegin=241095|AlignEnd=241250
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	AlignBegin=241250|AlignEnd=241390
 6	nuits	nuit	NOUN	_	_	3	comp:obj	_	AlignBegin=241390|AlignEnd=241680|Gender[lex]=Fem|Number[ctxt]=Plur
@@ -1738,12 +1737,12 @@
 2	beaucoup	beaucoup	ADV	_	ExtPos=PRON	11	subj	_	AlignBegin=247270|AlignEnd=247759|SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	AlignBegin=247759|AlignEnd=247759
 4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	AlignBegin=247759|AlignEnd=247889
-5	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis:parenth	_	AlignBegin=247889|AlignEnd=248055
+5	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	2	parataxis:parenth	_	AlignBegin=247889|AlignEnd=248055|Person[ctxt]=3
 6	l'	le	PRON	_	Case=Acc|Emph=No|Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=248055|AlignEnd=248095|SpaceAfter=No
 7	avouer	avouer	VERB	_	VerbForm=Inf	5	comp:obj	_	AlignBegin=248095|AlignEnd=248501|SpaceAfter=No|Subject=NoRaising
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=248501|AlignEnd=248909
 9	beaucoup	beaucoup	ADV	_	ExtPos=PRON	2	conj:dicto	_	AlignBegin=248909|AlignEnd=249274
-10	s'	soi	PRON	_	Person=3|PronType=Prs	11	comp:obj	_	AlignBegin=249274|AlignEnd=249404|SpaceAfter=No
+10	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	11	comp:obj	_	AlignBegin=249274|AlignEnd=249404|SpaceAfter=No
 11	éloignent	éloigner	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=249404|AlignEnd=249794
 12	de	de	ADP	_	_	11	comp:obl	_	AlignBegin=249794|AlignEnd=249904
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	AlignBegin=249904|AlignEnd=250014|HasSpokenGender=OnlySingExceptWithLiaison
@@ -1839,8 +1838,8 @@
 48	vie	vie	NOUN	_	_	46	comp:obj	_	AlignBegin=267203|AlignEnd=267451|Gender[lex]=Fem|Number[ctxt]=Sing
 49	qu'	que	PRON	_	PronType=Rel	51	comp:obj	_	AlignBegin=267451|AlignEnd=267576|SpaceAfter=No
 50	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	51	subj	_	AlignBegin=267576|AlignEnd=267733
-51	communique	communiquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	mod@relcl	_	AlignBegin=267733|AlignEnd=268311
-52	interroge	interroger	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=268613|AlignEnd=269238
+51	communique	communiquer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	45	mod@relcl	_	AlignBegin=267733|AlignEnd=268311|Person[ctxt]=3
+52	interroge	interroger	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=268613|AlignEnd=269238|Person[ctxt]=3
 53	vraiment	vraiment	ADV	_	_	52	mod	_	AlignBegin=269238|AlignEnd=269756|SpaceAfter=No
 54	,	,	PUNCT	_	_	55	punct	_	AlignBegin=269756|AlignEnd=270255
 55	vraiment	vraiment	ADV	_	_	53	conj:dicto	_	AlignBegin=270255|AlignEnd=270660
@@ -1901,7 +1900,7 @@
 13	du	du	ADP	_	_	12	udep	_	AlignBegin=283132|AlignEnd=283272
 14	Christ	Christ	PROPN	_	Gender=Masc|Number=Sing	13	comp:obj	_	AlignBegin=283272|AlignEnd=283720
 15	qui	qui	PRON	_	PronType=Rel	16	subj	_	AlignBegin=283841|AlignEnd=283966
-16	donne	donner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	mod@relcl	_	AlignBegin=283966|AlignEnd=284226
+16	donne	donner	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	14	mod@relcl	_	AlignBegin=283966|AlignEnd=284226|Person[ctxt]=3
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	AlignBegin=284226|AlignEnd=284348|HasSpokenGender=OnlySingExceptWithLiaison
 18	vie	vie	NOUN	_	_	16	comp:obj	_	AlignBegin=284348|AlignEnd=284573|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	AlignBegin=284573|AlignEnd=285059
@@ -1919,7 +1918,7 @@
 31	comprise	comprendre	VERB	_	Gender=Fem|VerbForm=Part|Voice=Pass	30	comp:aux@pass	_	AlignBegin=287767|AlignEnd=288563|Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|SpaceAfter=No|Tense[denom]=Past
 32	,	,	PUNCT	_	_	1	punct	_	AlignBegin=288563|AlignEnd=289119
 33	ne	ne	ADV	_	Polarity=Neg	34	mod	_	AlignBegin=289119|AlignEnd=289224
-34	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=289224|AlignEnd=289434|SpaceAfter=No
+34	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=289224|AlignEnd=289434|Person[ctxt]=3|SpaceAfter=No
 35	-il	lui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	34	subj@expl	_	AlignBegin=289434|AlignEnd=289685
 36	pas	pas	ADV	_	Polarity=Neg	34	mod	_	AlignBegin=289685|AlignEnd=290008|SpaceAfter=No
 37	,	,	PUNCT	_	_	38	punct	_	AlignBegin=290008|AlignEnd=290525

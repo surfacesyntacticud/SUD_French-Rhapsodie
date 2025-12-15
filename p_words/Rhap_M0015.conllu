@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Rhap_M0015-1
 # old_id = Rhap_M0015-1
 # type = monologue
@@ -36,7 +35,7 @@
 9	CCJ	CCJ	PROPN	_	_	8	comp:obj	_	AlignBegin=2410|AlignEnd=3130|Gender[lex]=Unknown|SpaceAfter=No
 10	,	,	PUNCT	_	_	5	punct	_	AlignBegin=3130|AlignEnd=3130
 11	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	12	subj	_	AlignBegin=3130|AlignEnd=4113
-12	remonte	remonter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=4113|AlignEnd=4470
+12	remonte	remonter	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=4113|AlignEnd=4470|Person[ctxt]=1
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	AlignBegin=4470|AlignEnd=4500|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 14	avenue	avenue	NOUN	_	_	12	comp:obj	_	AlignBegin=4500|AlignEnd=4663|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 15	Alsace-Lorraine	Alsace-Lorraine	PROPN	_	_	14	mod@appos	_	AlignBegin=4663|AlignEnd=5180|Gender[lex]=Unknown
@@ -75,7 +74,7 @@
 # macrosyntax = je traverse { l'avenue Vict~ | "euh" la place Victor Hugo } en diagonale //+ jusqu'à arriver { au | "mh" au } boulevard Agutte Sembat //
 # text = je traverse l'avenue Vict~, euh, la place Victor Hugo en diagonale, jusqu'à arriver au, mh, au boulevard Agutte Sembat.
 1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=6833|AlignEnd=6947
-2	traverse	traverser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=6947|AlignEnd=7387
+2	traverse	traverser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=6947|AlignEnd=7387|Person[ctxt]=1
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art|Shared=No	4	det	_	AlignBegin=7387|AlignEnd=7417|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 4	avenue	avenue	NOUN	_	_	2	comp:obj	_	AlignBegin=7417|AlignEnd=7907|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 5	Vict~	Vict~	X	_	ExtPos=PROPN	4	mod@appos	_	AlignBegin=7907|AlignEnd=8377|SpaceAfter=No
@@ -129,7 +128,7 @@
 # macrosyntax = je remonte le boulevard Agutte Sembat //+ donc < vers le sud "on va dire" //
 # text = je remonte le boulevard Agutte Sembat, donc, vers le sud, on va dire.
 1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=14500|AlignEnd=14652
-2	remonte	remonter	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=14652|AlignEnd=15019
+2	remonte	remonter	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=14652|AlignEnd=15019|Person[ctxt]=1
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	AlignBegin=15019|AlignEnd=15079|HasSpokenGender=OnlySingExceptWithLiaison
 4	boulevard	boulevard	NOUN	_	_	2	comp:obj	_	AlignBegin=15079|AlignEnd=15399|Gender[lex]=Masc|Number[ctxt]=Sing
 5	Agutte	Agutte	PROPN	_	_	4	mod@appos	_	AlignBegin=15399|AlignEnd=15592|Gender[lex]=Unknown
@@ -177,7 +176,7 @@
 3	arri~	arri~	X	_	ExtPos=VERB	0	root	_	AlignBegin=20225|AlignEnd=20615|SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	AlignBegin=20615|AlignEnd=20615
 5	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	6	subj	_	AlignBegin=20615|AlignEnd=20745
-6	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj:dicto	_	AlignBegin=20745|AlignEnd=20955
+6	passe	passer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	3	conj:dicto	_	AlignBegin=20745|AlignEnd=20955|Person[ctxt]=1
 7	devant	devant	ADP	_	_	6	mod	_	AlignBegin=20955|AlignEnd=21165
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	AlignBegin=21165|AlignEnd=21275|HasSpokenGender=OnlySingExceptWithLiaison
 9	grande	grand	ADJ	_	Gender=Fem	10	mod	_	AlignBegin=21275|AlignEnd=21495|HasSpokenGender=Yes|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
@@ -223,7 +222,7 @@
 11	bien	bien	INTJ	_	_	8	discourse	_	AlignBegin=24147|AlignEnd=24247|SpaceAfter=No
 12	,	,	PUNCT	_	_	2	punct	_	AlignBegin=24247|AlignEnd=24247
 13	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	14	subj	_	AlignBegin=24247|AlignEnd=24357|SpaceAfter=No
-14	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=24357|AlignEnd=24707|SpaceAfter=No
+14	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=24357|AlignEnd=24707|Person[ctxt]=1|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	AlignBegin=24707|AlignEnd=24707
 16	euh	euh	INTJ	_	_	14	discourse	_	AlignBegin=24707|AlignEnd=24867|SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	AlignBegin=24867|AlignEnd=24867

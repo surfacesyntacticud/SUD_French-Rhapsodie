@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Rhap_M2005-1
 # old_id = Rhap_M2005-1
 # type = monologue
@@ -146,7 +145,7 @@
 # macrosyntax = dans l'ombre de Facebook, il existe ( en effet ) des sites communautaires qui permettent { de communiquer avec des amis | ^ou de faire des rencontres } dans des cercles très fermés //
 # text = il existe, en effet, des sites communautaires qui permettent de communiquer avec des amis ou de faire des rencontres dans des cercles très fermés.
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	AlignBegin=12753|AlignEnd=12798
-2	existe	exister	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=12798|AlignEnd=13148|SpaceAfter=No
+2	existe	exister	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=12798|AlignEnd=13148|Person[ctxt]=3|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=13148|AlignEnd=13148
 4	en	en	ADP	_	_	2	mod	_	AlignBegin=13148|AlignEnd=13218
 5	effet	effet	NOUN	_	_	4	comp:obj	_	AlignBegin=13218|AlignEnd=13518|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
@@ -200,7 +199,7 @@
 # macrosyntax = on peut citer ( par exemple ) le site A Small World //
 # text = on peut citer, par exemple, le site A Small World.
 1	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	AlignBegin=19981|AlignEnd=20116
-2	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=20116|AlignEnd=20306
+2	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=20116|AlignEnd=20306|Person[ctxt]=3
 3	citer	citer	VERB	_	VerbForm=Inf	2	comp:obj	_	AlignBegin=20306|AlignEnd=20636|SpaceAfter=No|Subject=SubjRaising
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=20636|AlignEnd=20636
 5	par	par	ADP	_	_	3	mod	_	AlignBegin=20636|AlignEnd=20796
@@ -284,7 +283,7 @@
 1	A	A	X	_	Foreign=Yes	4	subj	_	AlignBegin=28518|AlignEnd=28573|InTitle=Yes|Lang=en
 2	Small	Small	X	_	Foreign=Yes	1	flat@foreign	_	AlignBegin=28573|AlignEnd=28983|InTitle=Yes|Lang=en
 3	World	World	X	_	Foreign=Yes	2	flat@foreign	_	AlignBegin=28983|AlignEnd=29283|Lang=en|Title=Yes
-4	compte	compter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=29283|AlignEnd=29593
+4	compte	compter	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=29283|AlignEnd=29593|Person[ctxt]=3
 5	parmi	parmi	ADP	_	_	4	mod	_	AlignBegin=29593|AlignEnd=29903
 6	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	7	det	_	AlignBegin=29903|AlignEnd=30093|HasSpokenGender=OnlySingExceptWithLiaison
 7	membres	membre	NOUN	_	_	5	comp:obj	_	AlignBegin=30093|AlignEnd=30493|Gender[lex]=Masc|Number[ctxt]=Plur
@@ -422,7 +421,7 @@
 2	même	même	ADV	_	_	3	mod	_	AlignBegin=44913|AlignEnd=45113
 3	si	si	SCONJ	_	_	12	mod	_	AlignBegin=45113|AlignEnd=45283
 4	internet	internet	NOUN	_	_	5	subj	_	AlignBegin=45283|AlignEnd=45723|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
-5	rapproche	rapprocher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	AlignBegin=45723|AlignEnd=46103
+5	rapproche	rapprocher	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	3	comp:obj	_	AlignBegin=45723|AlignEnd=46103|Person[ctxt]=3
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	AlignBegin=46103|AlignEnd=46213|HasSpokenGender=OnlySingExceptWithLiaison
 7	monde	monde	NOUN	_	_	5	comp:obj	_	AlignBegin=46213|AlignEnd=46623|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	3	punct	_	AlignBegin=46623|AlignEnd=46670
@@ -463,7 +462,7 @@
 # macrosyntax = il faut déjà connaître un people pour avoir le droit de fréquenter les peoples //
 # text = il faut déjà connaître un people pour avoir le droit de fréquenter les peoples.
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	AlignBegin=49649|AlignEnd=49724
-2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=49724|AlignEnd=49944
+2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=49724|AlignEnd=49944|Person[ctxt]=3
 3	déjà	déjà	ADV	_	_	2	mod	_	AlignBegin=49944|AlignEnd=50314
 4	connaître	connaître	VERB	_	VerbForm=Inf	2	comp:obj	_	AlignBegin=50314|AlignEnd=50724|Subject=NoRaising
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=50724|AlignEnd=50784
@@ -518,7 +517,7 @@
 12	mortels	mortel	NOUN	_	_	11	comp:obj	_	AlignBegin=56305|AlignEnd=56675|Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 13	,	,	PUNCT	_	_	5	punct	_	AlignBegin=56675|AlignEnd=56675
 14	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	subj	_	AlignBegin=56675|AlignEnd=56750
-15	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=56750|AlignEnd=56910
+15	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=56750|AlignEnd=56910|Person[ctxt]=3
 16	citer	citer	VERB	_	VerbForm=Inf	15	comp:obj	_	AlignBegin=56910|AlignEnd=57270|Subject=SubjRaising
 17	ziki	ziki	PROPN	_	_	16	comp:obj	_	AlignBegin=57270|AlignEnd=57850|Gender[lex]=Unknown
 18	point	point	NOUN	_	_	17	flat	_	AlignBegin=57850|AlignEnd=58120|Gender[lex]=Masc|Number[ctxt]=Sing
@@ -580,9 +579,9 @@
 6	éviter	éviter	VERB	_	VerbForm=Inf	5	comp:obj	_	AlignBegin=65835|AlignEnd=66095|Subject=NoRaising
 7	qu'	que	SCONJ	_	_	6	comp:obj	_	AlignBegin=66095|AlignEnd=66185|SpaceAfter=No
 8	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	subj	_	AlignBegin=66185|AlignEnd=66265
-9	dise	dire	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	AlignBegin=66265|AlignEnd=66435
+9	dise	dire	VERB	_	Mood=Sub|Number=Sing|Tense=Pres|VerbForm=Fin	7	comp:obj	_	AlignBegin=66265|AlignEnd=66435|Person[ctxt]=3
 10	n'	ne	ADV	_	ExtPos=PRON|Polarity=Neg	9	comp:obj	_	AlignBegin=66435|AlignEnd=66485|Idiom=Yes|SpaceAfter=No
-11	importe	importer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	unk	_	AlignBegin=66485|AlignEnd=66845|InIdiom=Yes|Reported=Yes
+11	importe	importer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	10	unk	_	AlignBegin=66485|AlignEnd=66845|InIdiom=Yes|Person[ctxt]=3|Reported=Yes
 12	quoi	quoi	PRON	_	Person=3|PronType=Int	11	unk	_	AlignBegin=66845|AlignEnd=67045|InIdiom=Yes
 13	à	à	ADP	_	_	9	mod	_	AlignBegin=67045|AlignEnd=67085
 14	propos	propos	NOUN	_	_	13	comp:obj	_	AlignBegin=67085|AlignEnd=67435|Gender[lex]=Masc
@@ -592,7 +591,7 @@
 18	internet	internet	NOUN	_	_	17	comp:obj	_	AlignBegin=67895|AlignEnd=68605|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 19	,	,	PUNCT	_	_	5	punct	_	AlignBegin=68605|AlignEnd=69042
 20	mieux	mieux	ADV	_	_	21	comp:obj	_	AlignBegin=69042|AlignEnd=69327
-21	vaut	valoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=69327|AlignEnd=69487
+21	vaut	valoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=69327|AlignEnd=69487|Person[ctxt]=3
 22	prendre	prendre	VERB	_	VerbForm=Inf	21	comp:obj	_	AlignBegin=69487|AlignEnd=69887|Subject=NoRaising
 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	AlignBegin=69887|AlignEnd=69987|HasSpokenGender=OnlySingExceptWithLiaison
 24	devants	devant	NOUN	_	_	22	comp:obj	_	AlignBegin=69987|AlignEnd=70494|Gender[lex]=Masc|Number[ctxt]=Plur
@@ -637,9 +636,9 @@
 3	tout	tout	ADV	_	_	4	mod	_	AlignBegin=74210|AlignEnd=74390
 4	récemment	récemment	ADV	_	_	6	mod	_	AlignBegin=74390|AlignEnd=74810|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=74810|AlignEnd=74810
-6	vient	venir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=74810|AlignEnd=75020
+6	vient	venir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=74810|AlignEnd=75020|Person[ctxt]=3
 7	de	de	ADP	_	_	6	comp:obl	_	AlignBegin=75020|AlignEnd=75060
-8	s'	soi	PRON	_	Person=3|PronType=Prs	9	comp	_	AlignBegin=75060|AlignEnd=75140|SpaceAfter=No
+8	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	9	comp@pass	_	AlignBegin=75060|AlignEnd=75140|SpaceAfter=No
 9	ouvrir	ouvrir	VERB	_	VerbForm=Inf	7	comp:obj	_	AlignBegin=75140|AlignEnd=75420|Subject=SubjRaising
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	AlignBegin=75420|AlignEnd=75500|HasSpokenGender=OnlySingExceptWithLiaison
 11	site	site	NOUN	_	_	6	subj	_	AlignBegin=75500|AlignEnd=75800|Gender[lex]=Masc|Number[ctxt]=Sing
@@ -789,7 +788,7 @@
 10	arrière-grand-mère	arrière-grand-mère	NOUN	_	_	8	comp:obj	_	AlignBegin=96024|AlignEnd=96614|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 11	,	,	PUNCT	_	_	4	punct	_	AlignBegin=96614|AlignEnd=96614
 12	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	subj	_	AlignBegin=96614|AlignEnd=96704
-13	suffit	suffire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=96704|AlignEnd=97054
+13	suffit	suffire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=96704|AlignEnd=97054|Person[ctxt]=3
 14	de	de	ADP	_	_	13	comp:obl	_	AlignBegin=97054|AlignEnd=97174
 15	donner	donner	VERB	_	VerbForm=Inf	14	comp:obj	_	AlignBegin=97174|AlignEnd=97404|Subject=NoRaising
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	AlignBegin=97404|AlignEnd=97484|HasSpokenGender=OnlySingExceptWithLiaison
@@ -807,7 +806,7 @@
 28	de	de	ADP	_	_	14	conj:coord	_	AlignBegin=100579|AlignEnd=100689
 29	vous	vous	PRON	_	Case=Dat|Emph=No|Number=Plur|Person=2|PronType=Prs	30	comp:obl	_	AlignBegin=100689|AlignEnd=100869|Polite=Unknown
 30	retrouver	retrouver	VERB	_	VerbForm=Inf	28	comp:obj	_	AlignBegin=100869|AlignEnd=101370|Subject=NoRaising
-31	tous	tout	DET	_	Gender=Masc|Number=Plur|PronType=Ind	32	det	_	AlignBegin=101486|AlignEnd=101571|LiaisonAfter=Yes
+31	tous	tout	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	30	mod	_	AlignBegin=101486|AlignEnd=101571|LiaisonAfter=Yes
 32	ensemble	ensemble	NOUN	_	_	30	mod	_	AlignBegin=101571|AlignEnd=102031|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 33	sur	sur	ADP	_	_	30	comp:obl	_	AlignBegin=102031|AlignEnd=102218
 34	Famibook	Famibook	PROPN	_	_	33	comp:obj	_	AlignBegin=102555|AlignEnd=103128|Gender[lex]=Unknown

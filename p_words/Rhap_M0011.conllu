@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Rhap_M0011-1
 # old_id = Rhap_M0011-1
 # type = monologue
@@ -40,7 +39,7 @@
 13	Chavant	Chavant	PROPN	_	_	12	flat@name	_	AlignBegin=3602|AlignEnd=4042|Gender[lex]=Unknown|SpaceAfter=No
 14	,	,	PUNCT	_	_	4	punct	_	AlignBegin=4042|AlignEnd=4914
 15	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	16	subj	_	AlignBegin=4914|AlignEnd=5234
-16	prolonge	prolonger	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=5354|AlignEnd=5774
+16	prolonge	prolonger	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=5354|AlignEnd=5774|Person[ctxt]=1
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	AlignBegin=5774|AlignEnd=5854|HasSpokenGender=OnlySingExceptWithLiaison
 18	place	place	NOUN	_	_	16	comp:obj	_	AlignBegin=5854|AlignEnd=6104|Gender[lex]=Fem|Number[ctxt]=Sing
 19	Notre-Dame	Notre-Dame	PROPN	_	_	18	mod@appos	_	AlignBegin=6104|AlignEnd=6614|Gender[lex]=Unknown
@@ -77,7 +76,7 @@
 # macrosyntax = je continue tout droit //
 # text = je continue tout droit.
 1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=8596|AlignEnd=8728
-2	continue	continuer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=8728|AlignEnd=9156
+2	continue	continuer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=8728|AlignEnd=9156|Person[ctxt]=1
 3	tout	tout	ADV	_	_	4	mod	_	AlignBegin=9156|AlignEnd=9296
 4	droit	droit	ADJ	_	Gender=Masc	2	mod	_	AlignBegin=9296|AlignEnd=9616|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	AlignBegin=9616|AlignEnd=9616
@@ -109,7 +108,7 @@
 # macrosyntax = j'arrive au lycée Stendhal //
 # text = j'arrive au lycée Stendhal.
 1	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=9616|AlignEnd=9726|SpaceAfter=No
-2	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=9726|AlignEnd=9946
+2	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=9726|AlignEnd=9946|Person[ctxt]=1
 3	au	au	ADP	_	_	2	comp:obl	_	AlignBegin=9946|AlignEnd=9976
 4	lycée	lycée	NOUN	_	_	3	comp:obj	_	AlignBegin=9976|AlignEnd=10276|Gender[lex]=Masc|Number[ctxt]=Sing
 5	Stendhal	Stendhal	PROPN	_	_	4	mod@appos	_	AlignBegin=10276|AlignEnd=10726|Gender[lex]=Unknown|SpaceAfter=No
@@ -144,7 +143,7 @@
 1	là	là	ADV	_	_	4	mod	_	AlignBegin=11165|AlignEnd=11271|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=11271|AlignEnd=11271
 3	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=11271|AlignEnd=11345
-4	tourne	tourner	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=11345|AlignEnd=11615
+4	tourne	tourner	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=11345|AlignEnd=11615|Person[ctxt]=1
 5	dans	dans	ADP	_	_	4	comp:obl	_	AlignBegin=11615|AlignEnd=11735
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	AlignBegin=11735|AlignEnd=11855|HasSpokenGender=OnlySingExceptWithLiaison
 7	rue	rue	NOUN	_	_	5	comp:obj	_	AlignBegin=11855|AlignEnd=12135|Gender[lex]=Fem|Number[ctxt]=Sing
@@ -155,7 +154,7 @@
 12	géographe	géographe	NOUN	_	_	10	comp:obj	_	AlignBegin=12845|AlignEnd=13243|Gender[lex]=Masc|Number[ctxt]=Sing
 13	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	15	subj	_	AlignBegin=13243|AlignEnd=13373
 14	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	15	comp@expl	_	AlignBegin=13373|AlignEnd=13471
-15	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	conj:dicto	_	AlignBegin=13471|AlignEnd=13703
+15	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	12	conj:dicto	_	AlignBegin=13471|AlignEnd=13703|Person[ctxt]=1
 16	plus	plus	ADV	_	_	15	mod	_	AlignBegin=13703|AlignEnd=13983
 17	lequel	lequel	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	15	comp:obj	_	AlignBegin=14073|AlignEnd=14503|SpaceAfter=No
 18	.	.	PUNCT	_	_	4	punct	_	AlignBegin=14503|AlignEnd=14503
@@ -188,7 +187,7 @@
 # text = et je passe sous le lycée Stendhal.
 1	et	et	CCONJ	_	_	3	cc	_	AlignBegin=15230|AlignEnd=15309
 2	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=15309|AlignEnd=15408
-3	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=15408|AlignEnd=15955
+3	passe	passer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=15408|AlignEnd=15955|Person[ctxt]=1
 4	sous	sous	ADP	_	_	3	comp:obl	_	AlignBegin=15955|AlignEnd=16235
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=16235|AlignEnd=16305|HasSpokenGender=OnlySingExceptWithLiaison
 6	lycée	lycée	NOUN	_	_	4	comp:obj	_	AlignBegin=16305|AlignEnd=16615|Gender[lex]=Masc|Number[ctxt]=Sing
@@ -226,7 +225,7 @@
 3	passage	passage	NOUN	_	_	0	root	_	AlignBegin=17404|AlignEnd=18118|Gender[lex]=Masc|Number[ctxt]=Sing
 4	qui	qui	PRON	_	PronType=Rel	6	subj	_	AlignBegin=18678|AlignEnd=18798
 5	m'	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	6	comp:obl	_	AlignBegin=18798|AlignEnd=18868|SpaceAfter=No
-6	amène	amener	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	AlignBegin=18868|AlignEnd=19245
+6	amène	amener	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	AlignBegin=18868|AlignEnd=19245|Person[ctxt]=3
 7	vers	vers	ADP	_	_	6	comp:obl	_	AlignBegin=19245|AlignEnd=19355
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=19355|AlignEnd=19435|HasSpokenGender=OnlySingExceptWithLiaison
 9	square	square	NOUN	_	_	7	comp:obj	_	AlignBegin=19435|AlignEnd=19745|Gender[lex]=Masc|Number[ctxt]=Sing
@@ -266,7 +265,7 @@
 4	postes	poste	NOUN	_	_	3	comp:obj	_	AlignBegin=21483|AlignEnd=21875|Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	AlignBegin=21875|AlignEnd=21875
 6	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	7	subj	_	AlignBegin=21875|AlignEnd=22050
-7	peux	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=22050|AlignEnd=22250
+7	peux	pouvoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=22050|AlignEnd=22250|Person[ctxt]=1
 8	rejoindre	rejoindre	VERB	_	VerbForm=Inf	7	comp:obj	_	AlignBegin=22250|AlignEnd=22700|Subject=SubjRaising
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	AlignBegin=22700|AlignEnd=22790|HasSpokenGender=OnlySingExceptWithLiaison
 10	place	place	NOUN	_	_	8	comp:obj	_	AlignBegin=22790|AlignEnd=23090|Gender[lex]=Fem|Number[ctxt]=Sing
@@ -337,7 +336,7 @@
 # macrosyntax = "je crois" //
 # text = je crois.
 1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=25948|AlignEnd=26054
-2	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=26054|AlignEnd=26256|SpaceAfter=No
+2	crois	croire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=26054|AlignEnd=26256|Person[ctxt]=1|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	AlignBegin=26256|AlignEnd=26256
 
 # sent_id = Rhap_M0011-10
@@ -369,7 +368,7 @@
 1	ou	ou	CCONJ	_	ExtPos=CCONJ	4	cc	_	AlignBegin=26396|AlignEnd=26459|Idiom=Yes
 2	bien	bien	ADV	_	_	1	unk	_	AlignBegin=26459|AlignEnd=26862|InIdiom=Yes
 3	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=26862|AlignEnd=27278
-4	prends	prendre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=27717|AlignEnd=27977
+4	prends	prendre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=27717|AlignEnd=27977|Person[ctxt]=1
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	6	det	_	AlignBegin=27977|AlignEnd=28097|HasSpokenGender=OnlySingExceptWithLiaison
 6	rue	rue	NOUN	_	_	4	comp:obj	_	AlignBegin=28097|AlignEnd=28277|Gender[lex]=Fem|Number[ctxt]=Sing
 7	Lesdiguières	Lesdiguières	PROPN	_	_	6	mod@appos	_	AlignBegin=28277|AlignEnd=29020|Gender[lex]=Unknown
@@ -455,7 +454,7 @@
 10	Sarce	Sarce	PROPN	_	_	8	comp:obj	_	AlignBegin=36828|AlignEnd=37308|Gender[lex]=Unknown|SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	AlignBegin=37308|AlignEnd=37308
 12	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	13	subj	_	AlignBegin=37308|AlignEnd=37439
-13	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	discourse	_	AlignBegin=37439|AlignEnd=37785|SpaceAfter=No
+13	crois	croire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	10	discourse	_	AlignBegin=37439|AlignEnd=37785|Person[ctxt]=1|SpaceAfter=No
 14	.	.	PUNCT	_	_	2	punct	_	AlignBegin=37785|AlignEnd=37785
 
 # sent_id = Rhap_M0011-13
@@ -531,7 +530,7 @@
 10	dont	dont	PRON	_	PronType=Rel	13	comp:obl	_	AlignBegin=42245|AlignEnd=42375
 11	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	13	subj	_	AlignBegin=42375|AlignEnd=42505
 12	ne	ne	ADV	_	Polarity=Neg	13	mod	_	AlignBegin=42505|AlignEnd=42545
-13	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	AlignBegin=42545|AlignEnd=42705
+13	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	AlignBegin=42545|AlignEnd=42705|Person[ctxt]=1
 14	pas	pas	ADV	_	Polarity=Neg	13	mod	_	AlignBegin=42705|AlignEnd=42861
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	AlignBegin=42861|AlignEnd=42915|HasSpokenGender=OnlySingExceptWithLiaison
 16	nom	nom	NOUN	_	_	13	comp:obj	_	AlignBegin=42915|AlignEnd=43192|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
@@ -542,7 +541,7 @@
 21	en	en	ADP	_	_	20	udep@scrap	_	AlignBegin=43937|AlignEnd=45258|SpaceAfter=No
 22	,	,	PUNCT	_	_	24	punct	_	AlignBegin=45258|AlignEnd=45258
 23	qui	qui	PRON	_	PronType=Rel	24	subj	_	AlignBegin=45258|AlignEnd=45408
-24	tourne	tourner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	mod@relcl	_	AlignBegin=45408|AlignEnd=45728
+24	tourne	tourner	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	20	mod@relcl	_	AlignBegin=45408|AlignEnd=45728|Person[ctxt]=3
 25	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	AlignBegin=45728|AlignEnd=45808|InIdiom=Yes
 26	peu	peu	NOUN	_	ExtPos=ADV	24	mod	_	AlignBegin=45808|AlignEnd=46104|Idiom=Yes|SpaceAfter=No
 27	.	.	PUNCT	_	_	5	punct	_	AlignBegin=46104|AlignEnd=46104
@@ -576,10 +575,10 @@
 1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=46634|AlignEnd=47124|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=47124|AlignEnd=47124
 3	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	1	conj:dicto	_	AlignBegin=47124|AlignEnd=47254|SpaceAfter=No
-4	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=47254|AlignEnd=47536|SpaceAfter=No
+4	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=47254|AlignEnd=47536|Person[ctxt]=1|SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	AlignBegin=47536|AlignEnd=47536
 6	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	7	subj	_	AlignBegin=47536|AlignEnd=47666
-7	tombe	tomber	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj:dicto	_	AlignBegin=47666|AlignEnd=47946
+7	tombe	tomber	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	4	conj:dicto	_	AlignBegin=47666|AlignEnd=47946|Person[ctxt]=1
 8	sur	sur	ADP	_	_	7	comp:obl	_	AlignBegin=47946|AlignEnd=48046
 9	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	AlignBegin=48046|AlignEnd=48365|HasSpokenGender=OnlySingExceptWithLiaison
 10	Nef	Nef	PROPN	_	Gender=Fem|Number=Sing	8	comp:obj	_	AlignBegin=48365|AlignEnd=48556
