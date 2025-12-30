@@ -57,7 +57,7 @@
 17	#	#	PUNCT	_	_	16	punct	_	AlignBegin=4042|AlignEnd=4914|BeforeAvgAmplitude=69.629|BeforeGlo=ml|BeforeLoc=ml|BeforeMeanF0=101.219|BeforeMeanF0Step=113.614|BeforePitchRangeGlo=L|BeforePitchRangeLoc=L|BeforeSemiton=4.633|BeforeSemitonesFromUtterance=-1.43|BeforeSlope=Rise|BeforeSlopeGlo=Fall|BeforeSlopeLoc=Fall|Duration=0.87214|NextAvgAmplitude=0.0|NextGlo=0.0|NextLoc=0.0|NextMeanF0=0.0|NextMeanF0Step=0.0|NextPitchRangeGlo=0.0|NextPitchRangeLoc=0.0|NextSemiton=0.0|NextSemitonesFromUtterance=0.0|NextSlope=0.0|NextSlopeGlo=0.0|NextSlopeLoc=0.0|pauseID=4-M0011-1|SilentPauseType=M
 18	,	,	PUNCT	_	_	5	punct	_	AlignBegin=4042|AlignEnd=4914
 19	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	20	subj	_	AlignBegin=4914|AlignEnd=5234
-20	prolonge	prolonger	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=5354|AlignEnd=5774
+20	prolonge	prolonger	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=5354|AlignEnd=5774|Person[ctxt]=1
 20.1	_	_	_	_	_	20	Syl=1	_	AlignBegin=5354|AlignEnd=5570|AvgAmplitude=71.699|AvgHeightGlo=M|AvgHeightLoc=M|Duration=215|Glo=mm|Loc=mm|MaxAmplitude=74.52|MeanF0=94.636|MeanF0Step=106.226|PitchRangeGlo=L|PitchRangeLoc=L|Semiton=-1.474|SemitonesFromUtteranceMean=-2.594|Slope=Flat|SlopeGlo=Flat|SlopeLoc=Flat|SylForm=pRO
 20.2	_	_	_	_	_	20|21.1	Syl=2|ExternalOnset=Yes	_	AlignBegin=5570|AlignEnd=5703|AvgAmplitude=74.333|AvgHeightGlo=M|AvgHeightLoc=M|Duration=133|Glo=mm|Loc=mm|MaxAmplitude=75.494|MeanF0=95.778|MeanF0Step=107.507|PitchRangeGlo=L|PitchRangeLoc=L|Semiton=1.094|SemitonesFromUtteranceMean=-2.387|Slope=Flat|SlopeGlo=Flat|SlopeLoc=Flat|SylForm=lo~
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	AlignBegin=5774|AlignEnd=5854|HasSpokenGender=OnlySingExceptWithLiaison
@@ -107,7 +107,7 @@
 # text = je continue tout droit.
 1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=8596|AlignEnd=8728
 1.1	_	_	_	_	_	1	Syl=1	_	AlignBegin=8596|AlignEnd=8728|AvgAmplitude=63.711|AvgHeightGlo=M|AvgHeightLoc=M|Duration=131|Glo=mm|Loc=mm|MaxAmplitude=68.892|MeanF0=91.833|MeanF0Step=103.079|PitchRangeGlo=L|PitchRangeLoc=L|Semiton=2.061|SemitonesFromUtteranceMean=-2.464|Slope=Flat|SlopeGlo=Flat|SlopeLoc=Flat|SylForm=Z@
-2	continue	continuer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=8728|AlignEnd=9156
+2	continue	continuer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=8728|AlignEnd=9156|Person[ctxt]=1
 2.1	_	_	_	_	_	2	Syl=1	_	AlignBegin=8728|AlignEnd=8886|AvgAmplitude=58.502|AvgHeightGlo=M|AvgHeightLoc=M|Duration=158|Glo=lh|Loc=lh|MaxAmplitude=70.779|MeanF0=101.133|MeanF0Step=113.518|PitchRangeGlo=M|PitchRangeLoc=M|Semiton=-2.437|SemitonesFromUtteranceMean=-0.794|Slope=Fall|SlopeGlo=Rise|SlopeLoc=Rise|SylForm=ko~
 2.2	_	_	_	_	_	2	Syl=2	_	AlignBegin=8886|AlignEnd=9026|AvgAmplitude=63.504|AvgHeightGlo=M|AvgHeightLoc=M|Duration=140|Glo=mm|Loc=mm|MaxAmplitude=65.184|MeanF0=96.312|MeanF0Step=108.107|PitchRangeGlo=L|PitchRangeLoc=L|Semiton=-0.35|SemitonesFromUtteranceMean=-1.64|Slope=Flat|SlopeGlo=Flat|SlopeLoc=Flat|SylForm=ti
 2.3	_	_	_	_	_	2	Syl=3	_	AlignBegin=9026|AlignEnd=9156|AvgAmplitude=72.427|AvgHeightGlo=M|AvgHeightLoc=M|Duration=129|Glo=mm|Loc=mm|MaxAmplitude=72.959|MeanF0=93.538|MeanF0Step=104.993|PitchRangeGlo=L|PitchRangeLoc=L|Semiton=1.633|SemitonesFromUtteranceMean=-2.146|Slope=Rise|SlopeGlo=Flat|SlopeLoc=Flat|SylForm=ny
@@ -145,7 +145,7 @@
 # text = j'arrive au lycée Stendhal.
 1	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=9616|AlignEnd=9726|SpaceAfter=No
 1.1	_	_	_	_	_	1|2	Syl=1|Syl=1	_	AlignBegin=9616|AlignEnd=9776|AvgAmplitude=69.087|AvgHeightGlo=M|AvgHeightLoc=M|Duration=160|Fused=Yes|Glo=mm|Loc=mm|MaxAmplitude=71.684|MeanF0=177.385|MeanF0Step=199.107|PitchRangeGlo=L|PitchRangeLoc=L|Semiton=1.762|SemitonesFromUtteranceMean=6.042|Slope=Flat|SlopeGlo=Flat|SlopeLoc=Flat|SylForm=Za
-2	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=9726|AlignEnd=9946
+2	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=9726|AlignEnd=9946|Person[ctxt]=1
 2.1	_	_	_	_	_	2	Syl=2	_	AlignBegin=9776|AlignEnd=9856|AvgAmplitude=71.742|Glo=X|Loc=X|MaxAmplitude=71.742|MeanF0=0|MeanF0Step=0|Semiton=X|SemitonesFromUtteranceMean=0|Slope=X|SylForm=Ri
 2.2	_	_	_	_	_	2|3	Syl=3|Syl=1	_	AlignBegin=9856|AlignEnd=9976|Fused=Yes|Glo=X|Loc=X|SylForm=vo
 3	au	au	ADP	_	_	2	comp:obl	_	AlignBegin=9946|AlignEnd=9976
@@ -189,7 +189,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=11271|AlignEnd=11271
 3	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=11271|AlignEnd=11345
 3.1	_	_	_	_	_	3|4	Syl=1|Syl=1	_	AlignBegin=11271|AlignEnd=11615|AvgAmplitude=67.509|AvgHeightGlo=M|AvgHeightLoc=M|Duration=343|Fused=Yes|Glo=lmh2|Loc=lmh2|MaxAmplitude=76.248|MeanF0=137.809|MeanF0Step=154.685|PitchRangeGlo=L|PitchRangeLoc=L|Semiton=-1.581|SemitonesFromUtteranceMean=2.795|Slope=Fall|SlopeGlo=Rise|SlopeLoc=Rise|SylForm=ZtuRn
-4	tourne	tourner	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=11345|AlignEnd=11615
+4	tourne	tourner	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=11345|AlignEnd=11615|Person[ctxt]=1
 5	dans	dans	ADP	_	_	4	comp:obl	_	AlignBegin=11615|AlignEnd=11735
 5.1	_	_	_	_	_	5	Syl=1	_	AlignBegin=11615|AlignEnd=11735|AvgAmplitude=78.564|AvgHeightGlo=M|AvgHeightLoc=M|Duration=119|Glo=mm|Loc=mm|MaxAmplitude=78.564|MeanF0=114.96|MeanF0Step=129.038|PitchRangeGlo=L|PitchRangeLoc=L|Semiton=2.194|SemitonesFromUtteranceMean=-0.343|Slope=Rise|SlopeGlo=Flat|SlopeLoc=Flat|SylForm=da~
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	AlignBegin=11735|AlignEnd=11855|HasSpokenGender=OnlySingExceptWithLiaison
@@ -211,7 +211,7 @@
 14	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	16	subj	_	AlignBegin=13243|AlignEnd=13373
 14.1	_	_	_	_	_	14|15	Syl=1|Syl=1	_	AlignBegin=13243|AlignEnd=13471|AvgAmplitude=66.41|AvgHeightGlo=M|AvgHeightLoc=M|Duration=228|Fused=Yes|Glo=ml|Loc=hl|MaxAmplitude=73.265|MeanF0=97.833|MeanF0Step=109.814|PitchRangeGlo=L|PitchRangeLoc=M|Semiton=4.218|SemitonesFromUtteranceMean=-3.136|Slope=Rise|SlopeGlo=Fall|SlopeLoc=Fall|SylForm=Zm@
 15	me	moi	PRON	_	Number=Sing|Person=1|PronType=Prs	16	comp@expl	_	AlignBegin=13373|AlignEnd=13471
-16	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	conj:dicto	_	AlignBegin=13471|AlignEnd=13703
+16	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	13	conj:dicto	_	AlignBegin=13471|AlignEnd=13703|Person[ctxt]=1
 16.1	_	_	_	_	_	16	Syl=1	_	AlignBegin=13471|AlignEnd=13603|AvgAmplitude=67.399|AvgHeightGlo=M|AvgHeightLoc=M|Duration=131|Glo=lh|Loc=lh|MaxAmplitude=70.662|MeanF0=118|MeanF0Step=132.451|PitchRangeGlo=M|PitchRangeLoc=M|Semiton=-7.751|SemitonesFromUtteranceMean=0.109|Slope=Fall|SlopeGlo=Rise|SlopeLoc=Rise|SylForm=su
 16.2	_	_	_	_	_	16	Syl=2	_	AlignBegin=13603|AlignEnd=13703|AvgAmplitude=73.004|AvgHeightGlo=M|AvgHeightLoc=M|Duration=100|Glo=hl|Loc=hl|MaxAmplitude=73.004|MeanF0=106.75|MeanF0Step=119.823|PitchRangeGlo=M|PitchRangeLoc=M|Semiton=5.799|SemitonesFromUtteranceMean=-1.626|Slope=Rise|SlopeGlo=Fall|SlopeLoc=Fall|SylForm=vje~
 17	plus	plus	ADV	_	_	16	mod	_	AlignBegin=13703|AlignEnd=13983
@@ -253,7 +253,7 @@
 1.1	_	_	_	_	_	1	Syl=1	_	AlignBegin=15230|AlignEnd=15309|AvgAmplitude=75.929|AvgHeightGlo=M|AvgHeightLoc=M|Duration=78|Glo=hl|Loc=hl|MaxAmplitude=75.929|MeanF0=119.357|MeanF0Step=133.974|PitchRangeGlo=M|PitchRangeLoc=M|Semiton=4.388|SemitonesFromUtteranceMean=-0.215|Slope=Rise|SlopeGlo=Fall|SlopeLoc=Fall|SylForm=e
 2	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=15309|AlignEnd=15408
 2.1	_	_	_	_	_	2	Syl=1	_	AlignBegin=15309|AlignEnd=15408|AvgAmplitude=75.898|AvgHeightGlo=M|AvgHeightLoc=M|Duration=98|Glo=mm|Loc=mm|MaxAmplitude=75.898|MeanF0=101.75|MeanF0Step=114.211|PitchRangeGlo=L|PitchRangeLoc=L|Semiton=0|SemitonesFromUtteranceMean=-2.978|Slope=Flat|SlopeGlo=Flat|SlopeLoc=Flat|SylForm=Z@
-3	passe	passer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=15408|AlignEnd=15955
+3	passe	passer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=15408|AlignEnd=15955|Person[ctxt]=1
 3.1	_	_	_	_	_	3	Syl=1	_	AlignBegin=15408|AlignEnd=15955|AvgAmplitude=74.176|AvgHeightGlo=M|AvgHeightLoc=M|Duration=547|Glo=hl|Loc=hl|MaxAmplitude=74.642|MeanF0=98.111|MeanF0Step=110.126|PitchRangeGlo=M|PitchRangeLoc=M|Semiton=2.583|SemitonesFromUtteranceMean=-3.608|Slope=Rise|SlopeGlo=Fall|SlopeLoc=Fall|SylForm=pas
 4	sous	sous	ADP	_	_	3	comp:obl	_	AlignBegin=15955|AlignEnd=16235
 4.1	_	_	_	_	_	4	Syl=1	_	AlignBegin=15955|AlignEnd=16235|AvgAmplitude=78.37|AvgHeightGlo=M|AvgHeightLoc=M|Duration=280|Glo=mm|Loc=mm|MaxAmplitude=79.7|MeanF0=174.889|MeanF0Step=196.306|PitchRangeGlo=L|PitchRangeLoc=L|Semiton=0.796|SemitonesFromUtteranceMean=6.399|Slope=Flat|SlopeGlo=Flat|SlopeLoc=Flat|SylForm=su
@@ -305,7 +305,7 @@
 5.1	_	_	_	_	_	5	Syl=1	_	AlignBegin=18678|AlignEnd=18798|AvgAmplitude=67.912|AvgHeightGlo=M|AvgHeightLoc=M|Duration=120|Glo=mm|Loc=mm|MaxAmplitude=67.912|MeanF0=110.5|MeanF0Step=124.032|PitchRangeGlo=L|PitchRangeLoc=L|Semiton=0.158|SemitonesFromUtteranceMean=-1.708|Slope=Flat|SlopeGlo=Flat|SlopeLoc=Flat|SylForm=ki
 6	m'	moi	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=1|PronType=Prs	7	comp:obl	_	AlignBegin=18798|AlignEnd=18868|SpaceAfter=No
 6.1	_	_	_	_	_	6|7	Syl=1|Syl=1	_	AlignBegin=18798|AlignEnd=18914|AvgAmplitude=75.884|AvgHeightGlo=M|AvgHeightLoc=M|Duration=116|Fused=Yes|Glo=mm|Loc=mm|MaxAmplitude=75.884|MeanF0=101.87|MeanF0Step=114.345|PitchRangeGlo=L|PitchRangeLoc=L|Semiton=1.682|SemitonesFromUtteranceMean=-3.116|Slope=Rise|SlopeGlo=Flat|SlopeLoc=Flat|SylForm=ma
-7	amène	amener	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	AlignBegin=18868|AlignEnd=19245
+7	amène	amener	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	AlignBegin=18868|AlignEnd=19245|Person[ctxt]=3
 7.1	_	_	_	_	_	7	Syl=2	_	AlignBegin=18914|AlignEnd=19245|AvgHeightGlo=M|AvgHeightLoc=M|Duration=330|Glo=mm|Loc=mm|PitchRangeGlo=L|PitchRangeLoc=L|SlopeGlo=Flat|SlopeLoc=Flat|SylForm=mEn
 8	vers	vers	ADP	_	_	7	comp:obl	_	AlignBegin=19245|AlignEnd=19355
 8.1	_	_	_	_	_	8	Syl=1	_	AlignBegin=19245|AlignEnd=19355|AvgAmplitude=76.25|AvgHeightGlo=M|AvgHeightLoc=M|Duration=109|Glo=mm|Loc=mm|MaxAmplitude=76.25|MeanF0=101.522|MeanF0Step=113.954|PitchRangeGlo=L|PitchRangeLoc=L|Semiton=1.536|SemitonesFromUtteranceMean=-3.175|Slope=Rise|SlopeGlo=Flat|SlopeLoc=Flat|SylForm=vER
@@ -358,7 +358,7 @@
 5	,	,	PUNCT	_	_	1	punct	_	AlignBegin=21875|AlignEnd=21875
 6	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	7	subj	_	AlignBegin=21875|AlignEnd=22050
 6.1	_	_	_	_	_	6	Syl=1	_	AlignBegin=21875|AlignEnd=22050|AvgAmplitude=69.269|AvgHeightGlo=M|AvgHeightLoc=M|Duration=174|Glo=ml|Loc=ml|MaxAmplitude=75.902|MeanF0=107|MeanF0Step=120.103|PitchRangeGlo=L|PitchRangeLoc=L|Semiton=3.901|SemitonesFromUtteranceMean=-3.18|Slope=Rise|SlopeGlo=Fall|SlopeLoc=Fall|SylForm=Z@
-7	peux	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=22050|AlignEnd=22250
+7	peux	pouvoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=22050|AlignEnd=22250|Person[ctxt]=1
 7.1	_	_	_	_	_	7	Syl=1	_	AlignBegin=22050|AlignEnd=22250|AvgAmplitude=61.867|AvgHeightGlo=M|AvgHeightLoc=M|Duration=200|Glo=Lh|Loc=Lh|MaxAmplitude=75.554|MeanF0=118.714|MeanF0Step=133.252|PitchRangeGlo=H|PitchRangeLoc=H|Semiton=-7.209|SemitonesFromUtteranceMean=-1.381|Slope=Fall|SlopeGlo=Rise|SlopeLoc=Rise|SylForm=p2
 8	rejoindre	rejoindre	VERB	_	VerbForm=Inf	7	comp:obj	_	AlignBegin=22250|AlignEnd=22700|Subject=SubjRaising
 8.1	_	_	_	_	_	8	Syl=1	_	AlignBegin=22250|AlignEnd=22408|AvgAmplitude=71.193|AvgHeightGlo=M|AvgHeightLoc=M|Duration=158|Glo=mm|Loc=mm|MaxAmplitude=76.733|MeanF0=125|MeanF0Step=140.308|PitchRangeGlo=L|PitchRangeLoc=L|Semiton=2.276|SemitonesFromUtteranceMean=-0.488|Slope=Rise|SlopeGlo=Flat|SlopeLoc=Flat|SylForm=R@
@@ -447,7 +447,7 @@
 # text = je crois.
 1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=25948|AlignEnd=26054
 1.1	_	_	_	_	_	1	Syl=1	_	AlignBegin=25948|AlignEnd=26054|AvgAmplitude=67.644|AvgHeightGlo=M|AvgHeightLoc=M|Duration=106|Glo=mm|Loc=mm|MaxAmplitude=67.644|MeanF0=143.8|MeanF0Step=161.41|PitchRangeGlo=L|PitchRangeLoc=L|Semiton=2.082|SemitonesFromUtteranceMean=2.994|Slope=Flat|SlopeGlo=Flat|SlopeLoc=Flat|SylForm=Z@
-2	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=26054|AlignEnd=26256|SpaceAfter=No
+2	crois	croire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=26054|AlignEnd=26256|Person[ctxt]=1|SpaceAfter=No
 2.1	_	_	_	_	_	2	Syl=1	_	AlignBegin=26054|AlignEnd=26256|AvgAmplitude=65.274|AvgHeightGlo=M|AvgHeightLoc=M|Duration=201|Glo=mm|Loc=mm|MaxAmplitude=76.285|MeanF0=108.278|MeanF0Step=121.538|PitchRangeGlo=L|PitchRangeLoc=L|Semiton=2.621|SemitonesFromUtteranceMean=-1.918|Slope=Rise|SlopeGlo=Flat|SlopeLoc=Flat|SylForm=kRwa
 3	#	#	PUNCT	_	_	2	punct	_	AlignBegin=26256|AlignEnd=26396|BeforeAvgAmplitude=65.274|BeforeGlo=mm|BeforeLoc=mm|BeforeMeanF0=108.278|BeforeMeanF0Step=121.538|BeforePitchRangeGlo=L|BeforePitchRangeLoc=L|BeforeSemiton=2.621|BeforeSemitonesFromUtterance=-1.918|BeforeSlope=Rise|BeforeSlopeGlo=Flat|BeforeSlopeLoc=Flat|Duration=0.140316|ExtraNucleus=AssociatedNucleus|ExtraNucleusFrontiere=No|NextAvgAmplitude=0|NextGlo=mm|NextLoc=mm|NextMeanF0=152.273|NextMeanF0Step=170.92|NextPitchRangeGlo=L|NextPitchRangeLoc=L|NextSemiton=2.494|NextSemitonsFromUtterance=6.303|NextSlope=Flat|NextSlopeGlo=Flat|NextSlopeLoc=Flat|NucleusType=Nucleus|pauseID=1-M0011-9|SilentPauseType=A
 4	.	.	PUNCT	_	_	2	punct	_	AlignBegin=26256|AlignEnd=26256
@@ -485,7 +485,7 @@
 3	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	5	subj	_	AlignBegin=26862|AlignEnd=27278
 3.1	_	_	_	_	_	3	Syl=1	_	AlignBegin=26862|AlignEnd=27278|AvgAmplitude=76.685|AvgHeightGlo=M|AvgHeightLoc=M|Duration=416|Glo=mm|Loc=mm|MaxAmplitude=80.306|MeanF0=98.922|MeanF0Step=111.036|PitchRangeGlo=L|PitchRangeLoc=L|Semiton=4.644|SemitonesFromUtteranceMean=-1.165|Slope=Rise|SlopeGlo=Flat|SlopeLoc=Flat|SylForm=Z@
 4	#	#	PUNCT	_	_	3	punct	_	AlignBegin=27278|AlignEnd=27717|BeforeAvgAmplitude=76.685|BeforeGlo=mm|BeforeLoc=mm|BeforeMeanF0=98.922|BeforeMeanF0Step=111.036|BeforePitchRangeGlo=L|BeforePitchRangeLoc=L|BeforeSemiton=4.644|BeforeSemitonesFromUtterance=-1.165|BeforeSlope=Rise|BeforeSlopeGlo=Flat|BeforeSlopeLoc=Flat|Duration=0.43861|HesitationComposition=no_filler|HesitationPauseType=O|NextAvgAmplitude=77.82|NextGlo=mm|NextLoc=mm|NextMeanF0=122.087|NextMeanF0Step=137.038|NextPitchRangeGlo=L|NextPitchRangeLoc=L|NextSemiton=1.87|NextSemitonsFromUtterance=2.478|NextSlope=Rise|NextSlopeGlo=Flat|NextSlopeLoc=Flat|pauseID=1-M0011-10
-5	prends	prendre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=27717|AlignEnd=27977
+5	prends	prendre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=27717|AlignEnd=27977|Person[ctxt]=1
 5.1	_	_	_	_	_	5	Syl=1	_	AlignBegin=27717|AlignEnd=27977|AvgAmplitude=77.82|AvgHeightGlo=M|AvgHeightLoc=M|Duration=260|Glo=mm|Loc=mm|MaxAmplitude=79.082|MeanF0=122.087|MeanF0Step=137.038|PitchRangeGlo=L|PitchRangeLoc=L|Semiton=1.87|SemitonesFromUtteranceMean=2.478|Slope=Rise|SlopeGlo=Flat|SlopeLoc=Flat|SylForm=pRa~
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	7	det	_	AlignBegin=27977|AlignEnd=28097|HasSpokenGender=OnlySingExceptWithLiaison
 6.1	_	_	_	_	_	6	Syl=1	_	AlignBegin=27977|AlignEnd=28097|AvgAmplitude=78.326|AvgHeightGlo=M|AvgHeightLoc=M|Duration=120|Glo=hl|Loc=hl|MaxAmplitude=78.326|MeanF0=102.5|MeanF0Step=115.052|PitchRangeGlo=M|PitchRangeLoc=M|Semiton=4.133|SemitonesFromUtteranceMean=-0.55|Slope=Rise|SlopeGlo=Fall|SlopeLoc=Fall|SylForm=la
@@ -606,7 +606,7 @@
 13	,	,	PUNCT	_	_	15	punct	_	AlignBegin=37308|AlignEnd=37308
 14	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	15	subj	_	AlignBegin=37308|AlignEnd=37439
 14.1	_	_	_	_	_	14	Syl=1	_	AlignBegin=37308|AlignEnd=37439|AvgAmplitude=67.931|Glo=X|Loc=X|MaxAmplitude=69.734|MeanF0=0|MeanF0Step=0|Semiton=X|SemitonesFromUtteranceMean=0|Slope=X|SylForm=Z@
-15	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	discourse	_	AlignBegin=37439|AlignEnd=37785|SpaceAfter=No
+15	crois	croire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	12	discourse	_	AlignBegin=37439|AlignEnd=37785|Person[ctxt]=1|SpaceAfter=No
 15.1	_	_	_	_	_	15	Syl=1	_	AlignBegin=37439|AlignEnd=37785|AvgAmplitude=58.213|Glo=X|Loc=X|MaxAmplitude=62.473|MeanF0=0|MeanF0Step=0|Semiton=X|SemitonesFromUtteranceMean=0|Slope=X|SylForm=kRwa
 16	#	#	PUNCT	_	_	15	punct	_	AlignBegin=37785|AlignEnd=38687|BeforeAvgAmplitude=0.0|BeforeGlo=0.0|BeforeLoc=0.0|BeforeMeanF0=0.0|BeforeMeanF0Step=0.0|BeforePitchRangeGlo=0.0|BeforePitchRangeLoc=0.0|BeforeSemiton=0.0|BeforeSemitonesFromUtterance=0.0|BeforeSlope=0.0|BeforeSlopeGlo=0.0|BeforeSlopeLoc=0.0|Duration=0.902252|ExtraNucleus=AssociatedNucleus|ExtraNucleusFrontiere=No|NextAvgAmplitude=73.475|NextGlo=lH|NextLoc=lH|NextMeanF0=122.514|NextMeanF0Step=137.518|NextPitchRangeGlo=H|NextPitchRangeLoc=H|NextSemiton=-4.334|NextSemitonsFromUtterance=1.516|NextSlope=Fall|NextSlopeGlo=Rise|NextSlopeLoc=Rise|NucleusType=Nucleus|pauseID=3-M0011-12|SilentPauseType=A
 17	.	.	PUNCT	_	_	2	punct	_	AlignBegin=37785|AlignEnd=37785
@@ -702,7 +702,7 @@
 11	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	13	subj	_	AlignBegin=42375|AlignEnd=42505
 11.1	_	_	_	_	_	11|12	Syl=1|Syl=1	_	AlignBegin=42375|AlignEnd=42545|AvgAmplitude=73.365|AvgHeightGlo=M|AvgHeightLoc=M|Duration=170|Fused=Yes|Glo=mm|Loc=mm|MaxAmplitude=74.361|MeanF0=94.167|MeanF0Step=105.699|PitchRangeGlo=L|PitchRangeLoc=L|Semiton=1.583|SemitonesFromUtteranceMean=-3.097|Slope=Rise|SlopeGlo=Flat|SlopeLoc=Flat|SylForm=Z@n
 12	ne	ne	ADV	_	Polarity=Neg	13	mod	_	AlignBegin=42505|AlignEnd=42545
-13	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	AlignBegin=42545|AlignEnd=42705
+13	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	AlignBegin=42545|AlignEnd=42705|Person[ctxt]=1
 13.1	_	_	_	_	_	13	Syl=1	_	AlignBegin=42545|AlignEnd=42705|AvgAmplitude=67.374|AvgHeightGlo=M|AvgHeightLoc=M|Duration=159|Glo=mm|Loc=mm|MaxAmplitude=68.579|MeanF0=96.222|MeanF0Step=108.006|PitchRangeGlo=L|PitchRangeLoc=L|Semiton=-1.583|SemitonesFromUtteranceMean=-2.723|Slope=Fall|SlopeGlo=Flat|SlopeLoc=Flat|SylForm=sE
 14	pas	pas	ADV	_	Polarity=Neg	13	mod	_	AlignBegin=42705|AlignEnd=42861
 14.1	_	_	_	_	_	14|15	Syl=1|Syl=1	_	AlignBegin=42705|AlignEnd=42915|AvgAmplitude=75.298|AvgHeightGlo=M|AvgHeightLoc=M|Duration=210|Fused=Yes|Glo=mm|Loc=mm|MaxAmplitude=80.442|MeanF0=100.6|MeanF0Step=112.92|PitchRangeGlo=L|PitchRangeLoc=L|Semiton=0.686|SemitonesFromUtteranceMean=-1.953|Slope=Flat|SlopeGlo=Flat|SlopeLoc=Flat|SylForm=pal
@@ -722,7 +722,7 @@
 22	,	,	PUNCT	_	_	24	punct	_	AlignBegin=45258|AlignEnd=45258
 23	qui	qui	PRON	_	PronType=Rel	24	subj	_	AlignBegin=45258|AlignEnd=45408
 23.1	_	_	_	_	_	23	Syl=1	_	AlignBegin=45258|AlignEnd=45408|AvgAmplitude=60.132|Glo=X|Loc=X|MaxAmplitude=64.531|MeanF0=0|MeanF0Step=0|Semiton=X|SemitonesFromUtteranceMean=0|Slope=X|SylForm=ki
-24	tourne	tourner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	mod@relcl	_	AlignBegin=45408|AlignEnd=45728
+24	tourne	tourner	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	20	mod@relcl	_	AlignBegin=45408|AlignEnd=45728|Person[ctxt]=3
 24.1	_	_	_	_	_	24	Syl=1	_	AlignBegin=45408|AlignEnd=45728|AvgAmplitude=52.526|AvgHeightGlo=M|AvgHeightLoc=M|Duration=320|Glo=mm|Loc=mm|MaxAmplitude=65.378|MeanF0=111.2|MeanF0Step=124.818|PitchRangeGlo=L|PitchRangeLoc=L|Semiton=0.312|SemitonesFromUtteranceMean=-0.218|Slope=Flat|SlopeGlo=Flat|SlopeLoc=Flat|SylForm=tuRn
 25	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	AlignBegin=45728|AlignEnd=45808|InIdiom=Yes
 25.1	_	_	_	_	_	25	Syl=1	_	AlignBegin=45728|AlignEnd=45808|AvgAmplitude=77.484|AvgHeightGlo=M|AvgHeightLoc=M|Duration=79|Glo=mm|Loc=mm|MaxAmplitude=77.484|MeanF0=102.688|MeanF0Step=115.263|PitchRangeGlo=L|PitchRangeLoc=L|Semiton=2.177|SemitonesFromUtteranceMean=-1.597|Slope=Rise|SlopeGlo=Flat|SlopeLoc=Flat|SylForm=9~
@@ -762,12 +762,12 @@
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=47124|AlignEnd=47124
 3	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	1	conj:dicto	_	AlignBegin=47124|AlignEnd=47254|SpaceAfter=No
 3.1	_	_	_	_	_	3|4	Syl=1|Syl=1	_	AlignBegin=47124|AlignEnd=47324|AvgAmplitude=70.058|Fused=Yes|Glo=X|Loc=X|MaxAmplitude=74.326|MeanF0=88.357|MeanF0Step=99.178|Semiton=4.424|SemitonesFromUtteranceMean=-1.532|Slope=Rise|SylForm=Za
-4	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=47254|AlignEnd=47536|SpaceAfter=No
+4	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=47254|AlignEnd=47536|Person[ctxt]=1|SpaceAfter=No
 4.1	_	_	_	_	_	4	Syl=2	_	AlignBegin=47324|AlignEnd=47536|AvgHeightGlo=H|AvgHeightLoc=M|Duration=211|Glo=mh|Loc=lh|PitchRangeGlo=L|PitchRangeLoc=M|SlopeGlo=Rise|SlopeLoc=Rise|SylForm=Riv
 5	,	,	PUNCT	_	_	7	punct	_	AlignBegin=47536|AlignEnd=47536
 6	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	7	subj	_	AlignBegin=47536|AlignEnd=47666
 6.1	_	_	_	_	_	6	Syl=1	_	AlignBegin=47536|AlignEnd=47666|AvgAmplitude=57.096|AvgHeightGlo=M|AvgHeightLoc=M|Duration=129|Glo=lh|Loc=lh|MaxAmplitude=59.453|MeanF0=112.385|MeanF0Step=126.147|PitchRangeGlo=M|PitchRangeLoc=M|Semiton=-4.122|SemitonesFromUtteranceMean=2.632|Slope=Fall|SlopeGlo=Rise|SlopeLoc=Rise|SylForm=Z@
-7	tombe	tomber	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj:dicto	_	AlignBegin=47666|AlignEnd=47946
+7	tombe	tomber	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	4	conj:dicto	_	AlignBegin=47666|AlignEnd=47946|Person[ctxt]=1
 7.1	_	_	_	_	_	7	Syl=1	_	AlignBegin=47666|AlignEnd=47946|AvgAmplitude=56.314|AvgHeightGlo=M|AvgHeightLoc=M|Duration=280|Glo=mm|Loc=mm|MaxAmplitude=70.934|MeanF0=121.556|MeanF0Step=136.441|PitchRangeGlo=L|PitchRangeLoc=L|Semiton=-0.151|SemitonesFromUtteranceMean=3.99|Slope=Flat|SlopeGlo=Flat|SlopeLoc=Flat|SylForm=to~b
 8	sur	sur	ADP	_	_	7	comp:obl	_	AlignBegin=47946|AlignEnd=48046
 8.1	_	_	_	_	_	8	Syl=1	_	AlignBegin=47946|AlignEnd=48046|AvgAmplitude=71.309|Glo=X|Loc=X|MaxAmplitude=71.309|MeanF0=0|MeanF0Step=0|Semiton=X|SemitonesFromUtteranceMean=0|Slope=X|SylForm=syR

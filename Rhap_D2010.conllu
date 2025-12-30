@@ -28,7 +28,7 @@
 1	alors	alors	ADV	_	_	4	mod	_	AlignBegin=326|AlignEnd=541|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=541|AlignEnd=541
 3	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	4	subj	_	AlignBegin=541|AlignEnd=651
-4	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=651|AlignEnd=811
+4	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=651|AlignEnd=811|Person[ctxt]=1
 5	bien	bien	ADV	_	_	4	mod	_	AlignBegin=811|AlignEnd=951|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=951|AlignEnd=951
 7	Marguerite	Marguerite	PROPN	_	_	4	vocative	_	AlignBegin=951|AlignEnd=1191|Gender[lex]=Unknown
@@ -340,7 +340,7 @@
 13	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	16	subj	_	AlignBegin=23785|AlignEnd=23980|SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	AlignBegin=23980|AlignEnd=23980
 15	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	13	conj:dicto	_	AlignBegin=23980|AlignEnd=24090|SpaceAfter=No
-16	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=24090|AlignEnd=24240
+16	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=24090|AlignEnd=24240|Person[ctxt]=1
 17	peur	peur	NOUN	_	_	16	comp:obj@lvc	_	AlignBegin=24240|AlignEnd=24600|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	AlignBegin=24600|AlignEnd=24600
 19	pour	pour	ADP	_	_	17	udep	_	AlignBegin=24600|AlignEnd=24740
@@ -353,7 +353,7 @@
 26	peur	peur	NOUN	_	_	17	conj:dicto	_	AlignBegin=26796|AlignEnd=26976|Gender[lex]=Fem|Number[ctxt]=Sing
 27	relative	relative	ADJ	_	_	26	mod	_	AlignBegin=26976|AlignEnd=27396|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	AlignBegin=27396|AlignEnd=27396
-29	remarquez	remarquer	VERB	_	Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	discourse	_	AlignBegin=27396|AlignEnd=27820|SpaceAfter=No
+29	remarquez	remarquer	VERB	_	Mood=Imp|Number=Sing|Tense=Pres|VerbForm=Fin	27	discourse	_	AlignBegin=27396|AlignEnd=27820|Person[ctxt]=3|SpaceAfter=No
 30	.	.	PUNCT	_	_	16	punct	_	AlignBegin=27820|AlignEnd=27820
 
 # sent_id = Rhap_D2010-10
@@ -384,7 +384,7 @@
 # text = mais j'avais peur qu'il ne soit pas celui que les gens attendaient de moi.
 1	mais	mais	CCONJ	_	_	3	cc	_	AlignBegin=28734|AlignEnd=28819
 2	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=28819|AlignEnd=28889|SpaceAfter=No
-3	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=28889|AlignEnd=29109
+3	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=28889|AlignEnd=29109|Person[ctxt]=1
 4	peur	peur	NOUN	_	_	3	comp:obj@lvc	_	AlignBegin=29109|AlignEnd=29279|Gender[lex]=Fem|Number[ctxt]=Sing
 5	qu'	que	SCONJ	_	_	4	comp:obl	_	AlignBegin=29279|AlignEnd=29329|SpaceAfter=No
 6	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj	_	AlignBegin=29329|AlignEnd=29419
@@ -655,7 +655,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D2010.mp3
 # macrosyntax = $- $L2 oui //
 # text = oui.
-1	oui	oui	ADV	_	_	0	root	_	AlignBegin=40441|AlignEnd=40966|AttachTo=3@Rhap_D2010-17|Overlap=Rhap_D2010-19|Rel=conj:dicto|SpaceAfter=No
+1	oui	oui	ADV	_	_	0	root	_	AlignBegin=40441|AlignEnd=40966|AttachTo=3@Rhap_D2010-17|Overlap=Rhap_D2010-19|Rel=discourse|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=41063|AlignEnd=41063|Overlap=Rhap_D2010-13
 
 # sent_id = Rhap_D2010-19
@@ -687,7 +687,7 @@
 1	vraiment	vraiment	ADV	_	_	4	mod	_	AlignBegin=40441|AlignEnd=41063|Overlap=Rhap_D2010-18|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=41063|AlignEnd=40441|Overlap=Rhap_D2010-12quater
 3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	AlignBegin=40441|AlignEnd=41063|Overlap=Rhap_D2010-18
-4	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=40441|AlignEnd=41063|Overlap=Rhap_D2010-18
+4	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=40441|AlignEnd=41063|Overlap=Rhap_D2010-18|Person[ctxt]=3
 5	être	être	AUX	_	VerbForm=Inf	4	comp:obj@scrap	_	AlignBegin=40441|AlignEnd=41063|Overlap=Rhap_D2010-18|SpaceAfter=No|Subject=SubjRaising
 6	…	…	PUNCT	_	_	4	punct	_	AlignBegin=41063|AlignEnd=41063|Overlap=Rhap_D2010-12quater
 
@@ -719,7 +719,7 @@
 # text = il en faut bien un.
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	AlignBegin=41442|AlignEnd=41532
 2	en	en	PRON	_	Person=3|PronType=Prs	5	mod	_	AlignBegin=41532|AlignEnd=41587
-3	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=41587|AlignEnd=41737
+3	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=41587|AlignEnd=41737|Person[ctxt]=3
 4	bien	bien	ADV	_	_	3	mod	_	AlignBegin=41737|AlignEnd=41927
 5	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	comp:obj	_	AlignBegin=41927|AlignEnd=42083|SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	AlignBegin=42083|AlignEnd=42083
@@ -860,12 +860,12 @@
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=45390|AlignEnd=45390
 10	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	conj:dicto	_	AlignBegin=45390|AlignEnd=45565
 11	ne	ne	ADV	_	Polarity=Neg	12	mod	_	AlignBegin=45565|AlignEnd=45595
-12	comprend	comprendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	AlignBegin=45595|AlignEnd=45825|Reported=Yes
+12	comprend	comprendre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	3	comp:obj	_	AlignBegin=45595|AlignEnd=45825|Person[ctxt]=3|Reported=Yes
 13	pas	pas	ADV	_	Polarity=Neg	12	mod	_	AlignBegin=45825|AlignEnd=45955
 14	qu'	que	SCONJ	_	_	12	comp:obj	_	AlignBegin=45955|AlignEnd=46045|SpaceAfter=No
 15	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	AlignBegin=46045|AlignEnd=46145|LiaisonAfter=Yes
 16	éditeur	éditeur	NOUN	_	_	17	subj	_	AlignBegin=46145|AlignEnd=46475|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
-17	laisse	laisser	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	comp:obj	_	AlignBegin=46475|AlignEnd=46635
+17	laisse	laisser	VERB	_	Mood=Sub|Number=Sing|Tense=Pres|VerbForm=Fin	14	comp:obj	_	AlignBegin=46475|AlignEnd=46635|Person[ctxt]=3
 18	passer	passer	VERB	_	VerbForm=Inf	17	comp:obj	_	AlignBegin=46635|AlignEnd=46885|Subject=SubjRaising
 19	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	20	det	_	AlignBegin=46885|AlignEnd=46995
 20	fautes	faute	NOUN	_	_	18	comp:obj	_	AlignBegin=46995|AlignEnd=47175|Gender[lex]=Fem|Number[ctxt]=Plur
@@ -1490,7 +1490,7 @@
 # macrosyntax = je peux pas ouvrir le journal //
 # text = je peux pas ouvrir le journal.
 1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=74445|AlignEnd=74580
-2	peux	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=74580|AlignEnd=74700
+2	peux	pouvoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=74580|AlignEnd=74700|Person[ctxt]=1
 3	pas	pas	ADV	_	Polarity=Neg	2	mod	_	AlignBegin=74700|AlignEnd=74880
 4	ouvrir	ouvrir	VERB	_	VerbForm=Inf	2	comp:obj	_	AlignBegin=74880|AlignEnd=75180|Subject=SubjRaising
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=75180|AlignEnd=75210|HasSpokenGender=OnlySingExceptWithLiaison
@@ -1568,8 +1568,8 @@
 11	de	de	ADP	_	_	6	conj:dicto	_	AlignBegin=79578|AlignEnd=79673
 12	fuite	fuite	NOUN	_	_	11	comp:obj	_	AlignBegin=79673|AlignEnd=80013|Gender[lex]=Fem|Number[ctxt]=Sing
 13	qui	qui	PRON	_	PronType=Rel	15	subj	_	AlignBegin=80013|AlignEnd=80123
-14	se	soi	PRON	_	Person=3|PronType=Prs	15	comp@pass	_	AlignBegin=80123|AlignEnd=80203
-15	produit	produire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	AlignBegin=80203|AlignEnd=80585|SpaceAfter=No
+14	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	15	comp@pass	_	AlignBegin=80123|AlignEnd=80203
+15	produit	produire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	AlignBegin=80203|AlignEnd=80585|Person[ctxt]=3|SpaceAfter=No
 16	.	.	PUNCT	_	_	3	punct	_	AlignBegin=80585|AlignEnd=80585
 
 # sent_id = Rhap_D2010-45
@@ -1725,7 +1725,7 @@
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	AlignBegin=92205|AlignEnd=92285|HasSpokenGender=OnlySingExceptWithLiaison
 9	critique	critique	NOUN	_	_	7	comp:obj	_	AlignBegin=92285|AlignEnd=93100|Gender[lex]=Fem|Number[ctxt]=Sing
 10	qui	qui	PRON	_	PronType=Rel	11	subj	_	AlignBegin=94335|AlignEnd=94490
-11	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:cleft	_	AlignBegin=94490|AlignEnd=94826|Filler=subj
+11	fait	faire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	4	comp:cleft	_	AlignBegin=94490|AlignEnd=94826|Filler=subj|Person[ctxt]=3
 12	que	que	SCONJ	_	_	11	comp:obj	_	AlignBegin=94826|AlignEnd=95572
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	AlignBegin=95572|AlignEnd=95710
 14	livre	livre	NOUN	_	_	15	subj@pass	_	AlignBegin=95710|AlignEnd=95930|Gender[lex]=Masc|Number[ctxt]=Sing
@@ -1941,7 +1941,7 @@
 4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	AlignBegin=107595|AlignEnd=107695
 5	rumeur	rumeur	NOUN	_	_	3	comp:obj	_	AlignBegin=107695|AlignEnd=108105|Gender[lex]=Fem|Number[ctxt]=Sing
 6	qui	qui	PRON	_	PronType=Rel	7	subj	_	AlignBegin=108105|AlignEnd=108205
-7	court	courir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	AlignBegin=108205|AlignEnd=108365
+7	court	courir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	AlignBegin=108205|AlignEnd=108365|Person[ctxt]=3
 8	Paris	Paris	PROPN	_	_	7	comp:obj	_	AlignBegin=108365|AlignEnd=108753|Gender[lex]=Unknown|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=108753|AlignEnd=109068
 10	euh	euh	INTJ	_	_	8	discourse	_	AlignBegin=109068|AlignEnd=109333|SpaceAfter=No
@@ -1984,7 +1984,7 @@
 9	mais	mais	CCONJ	_	_	12	cc	_	AlignBegin=110903|AlignEnd=111033
 10	pourquoi	pourquoi	ADV	_	PronType=Int	12	mod	_	AlignBegin=111033|AlignEnd=111353
 11	lui	lui	PRON	_	Case=Dat|Emph=No|Number=Sing|Person=3|PronType=Prs	12	comp:obl	_	AlignBegin=111383|AlignEnd=111473
-12	donnerait	donner	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	AlignBegin=111473|AlignEnd=111783|Reported=Yes|SpaceAfter=No
+12	donnerait	donner	VERB	_	Mood=Cnd|Number=Sing|Tense=Pres|VerbForm=Fin	8	comp:obj	_	AlignBegin=111473|AlignEnd=111783|Person[ctxt]=3|Reported=Yes|SpaceAfter=No
 13	-on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	subj	_	AlignBegin=111783|AlignEnd=111883
 14	pas	pas	ADV	_	Polarity=Neg	12	mod	_	AlignBegin=111883|AlignEnd=112073
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	AlignBegin=112073|AlignEnd=112193|HasSpokenGender=OnlySingExceptWithLiaison
@@ -2086,8 +2086,8 @@
 27	œuvre	œuvre	NOUN	_	_	26	unk	_	AlignBegin=117905|AlignEnd=118035|Gender[lex]=Fem|InIdiom=Yes|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 28	,	,	PUNCT	_	_	31	punct	_	AlignBegin=0|AlignEnd=118035
 29	qui	qui	PRON	_	PronType=Rel	31	subj	_	AlignBegin=118035|AlignEnd=118121
-30	s'	soi	PRON	_	Person=3|PronType=Prs	31	comp@expl	_	AlignBegin=118121|AlignEnd=118151|SpaceAfter=No
-31	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	mod@relcl	_	AlignBegin=118151|AlignEnd=118281
+30	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	31	comp@expl	_	AlignBegin=118121|AlignEnd=118151|SpaceAfter=No
+31	appelle	appeler	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	15	mod@relcl	_	AlignBegin=118151|AlignEnd=118281|Person[ctxt]=3
 32	Un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	det	_	AlignBegin=118281|AlignEnd=118341|InTitle=Yes
 33	Barrage	Barrage	NOUN	_	ExtPos=PROPN	31	comp:obj	_	AlignBegin=118341|AlignEnd=118611|Gender[lex]=Masc|Number[ctxt]=Sing|Title=Yes
 34	contre	contre	ADP	_	_	33	udep	_	AlignBegin=118611|AlignEnd=118771|InTitle=Yes
@@ -2133,13 +2133,13 @@
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	AlignBegin=121123|AlignEnd=121153|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 4	Académie	Académie	PROPN	_	Shared=Yes	7	subj	_	AlignBegin=121153|AlignEnd=121513|Gender[lex]=Unknown
 5	Goncourt	Goncourt	PROPN	_	_	4	mod@appos	_	AlignBegin=121513|AlignEnd=121794|Gender[lex]=Unknown
-6	s'	soi	PRON	_	Person=3|PronType=Prs	7	comp	_	AlignBegin=121794|AlignEnd=121863|InIdiom=Yes|SpaceAfter=No
+6	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	7	comp	_	AlignBegin=121794|AlignEnd=121863|InIdiom=Yes|SpaceAfter=No
 7	est	être	AUX	_	ExtPos=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=121863|AlignEnd=121923|Idiom=Yes
 8	complètement	complètement	ADV	_	_	7	mod	_	AlignBegin=121923|AlignEnd=122705|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=122705|AlignEnd=123069
 10	euh	euh	INTJ	_	_	8	discourse	_	AlignBegin=123069|AlignEnd=123404|SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	AlignBegin=123404|AlignEnd=123404
-12	s'	soi	PRON	_	Person=3|PronType=Prs	13	comp	_	AlignBegin=123404|AlignEnd=123524|SpaceAfter=No
+12	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	13	comp	_	AlignBegin=123404|AlignEnd=123524|SpaceAfter=No
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj:dicto	_	AlignBegin=123524|AlignEnd=123644|SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	AlignBegin=123644|AlignEnd=123644
 15	ben	ben	INTJ	_	_	17	discourse	_	AlignBegin=123644|AlignEnd=123842|SpaceAfter=No
@@ -2214,7 +2214,7 @@
 # macrosyntax = c'était d'autres //
 # text = c'était d'autres.
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	AlignBegin=125795|AlignEnd=125875|SpaceAfter=No
-2	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=125875|AlignEnd=126145
+2	était	être	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=125875|AlignEnd=126145|Person[ctxt]=3
 3	d'	de	ADP	_	_	2	comp:obl	_	AlignBegin=126145|AlignEnd=126205|SpaceAfter=No
 4	autres	autre	PRON	_	Number=Plur|Person=3|PronType=Ind	3	comp:obj	_	AlignBegin=126205|AlignEnd=126385|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	AlignBegin=126385|AlignEnd=126385
@@ -2246,7 +2246,7 @@
 # macrosyntax = c'était en cinquante //
 # text = c'était en cinquante.
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	AlignBegin=126385|AlignEnd=126415|SpaceAfter=No
-2	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=126415|AlignEnd=126565
+2	était	être	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=126415|AlignEnd=126565|Person[ctxt]=3
 3	en	en	ADP	_	_	2	comp:obl	_	AlignBegin=126565|AlignEnd=126675
 4	cinquante	cinquante	NUM	_	ExtPos=PROPN	3	comp:obj	_	AlignBegin=126675|AlignEnd=127110|Number[lex]=Sing|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	AlignBegin=127110|AlignEnd=127110
@@ -2282,7 +2282,7 @@
 3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj@expl	_	AlignBegin=127335|AlignEnd=127435
 4	y	y	PRON	_	Person=3|PronType=Prs	6	comp@expl	_	AlignBegin=127435|AlignEnd=127535
 5	en	en	ADV	_	_	7	mod	_	AlignBegin=127535|AlignEnd=127565
-6	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=127565|AlignEnd=127665
+6	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=127565|AlignEnd=127665|Person[ctxt]=3
 7	aucun	aucun	PRON	_	Gender=Masc|Number=Sing|PronType=Neg	6	comp:obj	_	AlignBegin=127665|AlignEnd=128014
 8	de	de	ADP	_	_	6	dislocated:obl	_	AlignBegin=128014|AlignEnd=128158
 9	ceux	celui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Dem	8	comp:obj	_	AlignBegin=128158|AlignEnd=128293|Overlap=Rhap_D2010-64
@@ -2629,7 +2629,7 @@
 11	parce	parce	ADV	_	ExtPos=SCONJ	5	mod	_	AlignBegin=139567|AlignEnd=139732|Idiom=Yes
 12	que	que	SCONJ	_	_	11	unk	_	AlignBegin=139732|AlignEnd=140136|InIdiom=Yes
 13	j'	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	14	subj	_	AlignBegin=140136|AlignEnd=140175|SpaceAfter=No
-14	étais	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	11	comp:obj	_	AlignBegin=140175|AlignEnd=140902
+14	étais	être	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	11	comp:obj	_	AlignBegin=140175|AlignEnd=140902|Person[ctxt]=1
 15	de	de	ADP	_	_	14	comp:obl	_	AlignBegin=141861|AlignEnd=141956
 16	gauche	gauche	NOUN	_	_	15	comp:obj	_	AlignBegin=141956|AlignEnd=142466|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 17	.	.	PUNCT	_	_	2	punct	_	AlignBegin=142466|AlignEnd=142466
@@ -2734,7 +2734,7 @@
 # text = ce qui fait que le Barrage, ça a été une expérience épouvantable pour la famille, pour ma mère, et que j'en ai été punie par ailleurs quand j'en ai parlé, quand j'en ai écrit, enfin.
 1	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	root	_	AlignBegin=147577|AlignEnd=147692
 2	qui	qui	PRON	_	PronType=Rel	3	subj	_	AlignBegin=147692|AlignEnd=147852
-3	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	mod@relcl	_	AlignBegin=147852|AlignEnd=148089
+3	fait	faire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	1	mod@relcl	_	AlignBegin=147852|AlignEnd=148089|Person[ctxt]=3
 4	que	que	SCONJ	_	_	3	comp:obj	_	AlignBegin=148089|AlignEnd=148654
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=148829|AlignEnd=148934|HasSpokenGender=OnlySingExceptWithLiaison
 6	Barrage	Barrage	NOUN	_	ExtPos=PROPN	9	dislocated:subj	_	AlignBegin=148934|AlignEnd=149284|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|Title=Yes
@@ -2986,7 +2986,7 @@
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=170403|AlignEnd=170563
 6	bac	bac	NOUN	_	_	4	comp:obj	_	AlignBegin=170563|AlignEnd=171020|Gender[lex]=Masc|Number[ctxt]=Sing
 7	qui	qui	PRON	_	PronType=Rel	8	subj	_	AlignBegin=171241|AlignEnd=171346
-8	traverse	traverser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	AlignBegin=171346|AlignEnd=171966
+8	traverse	traverser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	AlignBegin=171346|AlignEnd=171966|Person[ctxt]=3
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	10	det	_	AlignBegin=171966|AlignEnd=172066|HasSpokenGender=OnlySingExceptWithLiaison
 10	fleuve	fleuve	NOUN	_	_	8	comp:obj	_	AlignBegin=172066|AlignEnd=172436|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	AlignBegin=172436|AlignEnd=0
@@ -3624,7 +3624,7 @@
 # macrosyntax = on doit vous remarquer } //
 # text = on doit vous remarquer.
 1	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	AlignBegin=200890|AlignEnd=200977
-2	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=200977|AlignEnd=201097
+2	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=200977|AlignEnd=201097|Person[ctxt]=3
 3	vous	vous	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=2|PronType=Prs	4	comp:obj	_	AlignBegin=201097|AlignEnd=201207|Polite=Unknown
 4	remarquer	remarquer	VERB	_	VerbForm=Inf	2	comp:obj	_	AlignBegin=201207|AlignEnd=201630|SpaceAfter=No|Subject=SubjRaising
 5	.	.	PUNCT	_	_	2	punct	_	AlignBegin=201630|AlignEnd=201630
@@ -3659,7 +3659,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=0|AlignEnd=202105
 3	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	subj	_	AlignBegin=202105|AlignEnd=202195
 4	vous	vous	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=2|PronType=Prs	5	comp:obj	_	AlignBegin=202195|AlignEnd=202305|Polite=Unknown
-5	remarquerait	remarquer	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=202305|AlignEnd=202615
+5	remarquerait	remarquer	VERB	_	Mood=Cnd|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=202305|AlignEnd=202615|Person[ctxt]=3
 6	à	à	ADP	_	_	5	mod	_	AlignBegin=202615|AlignEnd=202685
 7	peine	peine	NOUN	_	_	6	comp:obj	_	AlignBegin=202685|AlignEnd=202875|Gender[lex]=Fem|Number[ctxt]=Sing
 8	parce	parce	ADV	_	ExtPos=SCONJ	5	mod	_	AlignBegin=202875|AlignEnd=202995|Idiom=Yes
@@ -3669,8 +3669,8 @@
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	AlignBegin=203185|AlignEnd=203255
 13	mode	mode	NOUN	_	_	11	comp:pred	_	AlignBegin=203255|AlignEnd=203435|Gender[lex]=Fem|Number[ctxt]=Sing
 14	qui	qui	PRON	_	PronType=Rel	16	subj	_	AlignBegin=203435|AlignEnd=203545
-15	se	soi	PRON	_	Person=3|PronType=Prs	16	comp@pass	_	AlignBegin=203545|AlignEnd=203605
-16	porte	porter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	mod@relcl	_	AlignBegin=203605|AlignEnd=203855
+15	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	16	comp@pass	_	AlignBegin=203545|AlignEnd=203605
+16	porte	porter	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	13	mod@relcl	_	AlignBegin=203605|AlignEnd=203855|Person[ctxt]=3
 17	couramment	couramment	ADV	_	_	16	mod	_	AlignBegin=203855|AlignEnd=204185
 18	chez	chez	ADP	_	_	16	mod	_	AlignBegin=204185|AlignEnd=204275
 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	AlignBegin=204275|AlignEnd=204335|HasSpokenGender=OnlySingExceptWithLiaison
@@ -3831,7 +3831,7 @@
 3	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	subj	_	AlignBegin=206562|AlignEnd=206592
 4	ne	ne	ADV	_	Polarity=Neg	6	mod	_	AlignBegin=206592|AlignEnd=206652
 5	vous	vous	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=2|PronType=Prs	6	comp:obj	_	AlignBegin=206652|AlignEnd=206712|Polite=Unknown
-6	remarquerait	remarquer	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=206712|AlignEnd=207092
+6	remarquerait	remarquer	VERB	_	Mood=Cnd|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=206712|AlignEnd=207092|Person[ctxt]=3
 7	pas	pas	ADV	_	Polarity=Neg	6	mod	_	AlignBegin=207092|AlignEnd=207232|SpaceAfter=No
 8	.	.	PUNCT	_	_	6	punct	_	AlignBegin=207232|AlignEnd=207232
 
@@ -3863,12 +3863,12 @@
 # text = mais à cette époque, on vous remarquerait.
 1	mais	mais	CCONJ	_	_	8	cc	_	AlignBegin=207232|AlignEnd=207332
 2	à	à	ADP	_	_	8	mod	_	AlignBegin=207332|AlignEnd=207362
-3	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	AlignBegin=207362|AlignEnd=207532|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+3	cette	ce	DET	_	Number=Sing|PronType=Dem	4	det	_	AlignBegin=207362|AlignEnd=207532|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
 4	époque	époque	NOUN	_	_	2	comp:obj	_	AlignBegin=207532|AlignEnd=207815|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	AlignBegin=207815|AlignEnd=208170
 6	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	subj	_	AlignBegin=208170|AlignEnd=208235
 7	vous	vous	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=2|PronType=Prs	8	comp:obj	_	AlignBegin=208235|AlignEnd=208335|Polite=Unknown
-8	remarquerait	remarquer	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=208335|AlignEnd=208735|SpaceAfter=No
+8	remarquerait	remarquer	VERB	_	Mood=Cnd|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=208335|AlignEnd=208735|Person[ctxt]=3|SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	AlignBegin=208735|AlignEnd=208735
 
 # sent_id = Rhap_D2010-108
@@ -3974,7 +3974,7 @@
 3	et	et	CCONJ	_	_	1	conj:dicto	_	AlignBegin=212780|AlignEnd=212900
 4	vos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	5	det	_	AlignBegin=212900|AlignEnd=213030|HasSpokenGender=OnlySingExceptWithLiaison
 5	regards	regard	NOUN	_	_	7	subj	_	AlignBegin=213030|AlignEnd=213330|Gender[lex]=Masc|Number[ctxt]=Plur
-6	se	soi	PRON	_	Person=3|PronType=Prs	7	comp:obj	_	AlignBegin=213330|AlignEnd=213440
+6	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	7	comp:obj	_	AlignBegin=213330|AlignEnd=213440
 7	croisent	croiser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=213440|AlignEnd=213840|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	AlignBegin=213840|AlignEnd=213840
 
@@ -4006,7 +4006,7 @@
 # text = et on peut dire…
 1	et	et	CCONJ	_	_	3	cc	_	AlignBegin=213840|AlignEnd=213920
 2	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	AlignBegin=213920|AlignEnd=214010
-3	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=214010|AlignEnd=214160
+3	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=214010|AlignEnd=214160|Person[ctxt]=3
 4	dire	dire	VERB	_	VerbForm=Inf	3	comp:obj	_	AlignBegin=214160|AlignEnd=214543|SpaceAfter=No|Subject=SubjRaising
 5	…	…	PUNCT	_	_	3	punct	_	AlignBegin=214543|AlignEnd=214543
 
@@ -4040,10 +4040,10 @@
 2	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	1	subj@expl	_	AlignBegin=214750|AlignEnd=214810
 3	qu'	que	SCONJ	_	_	1	comp:pred	_	AlignBegin=214810|AlignEnd=214840|SpaceAfter=No
 4	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	subj	_	AlignBegin=214840|AlignEnd=214920
-5	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	AlignBegin=214920|AlignEnd=215080
+5	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	3	comp:obj	_	AlignBegin=214920|AlignEnd=215080|Person[ctxt]=3
 6	dire	dire	VERB	_	VerbForm=Inf	5	comp:obj	_	AlignBegin=215080|AlignEnd=215400|Subject=SubjRaising
 7	que	que	SCONJ	_	_	6	comp:obj	_	AlignBegin=215400|AlignEnd=215700
-8	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	AlignBegin=215927|AlignEnd=216092|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+8	cet	ce	DET	_	Number=Sing|PronType=Dem	9	det	_	AlignBegin=215927|AlignEnd=216092|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
 9	échange	échange	NOUN	_	_	12	subj	_	AlignBegin=216092|AlignEnd=216422|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 10	de	de	ADP	_	_	9	udep	_	AlignBegin=216422|AlignEnd=216512
 11	regards	regard	NOUN	_	_	10	comp:obj	_	AlignBegin=216512|AlignEnd=216802|Gender[lex]=Masc|Number[ctxt]=Plur
@@ -4110,8 +4110,8 @@
 # text = le livre s'appelait avant La Photographie Absolue.
 1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	AlignBegin=221209|AlignEnd=221404|HasSpokenGender=OnlySingExceptWithLiaison
 2	livre	livre	NOUN	_	_	4	subj	_	AlignBegin=221404|AlignEnd=221644|Gender[lex]=Masc|Number[ctxt]=Sing
-3	s'	soi	PRON	_	Person=3|PronType=Prs	4	comp@expl	_	AlignBegin=221644|AlignEnd=221734|SpaceAfter=No
-4	appelait	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=221734|AlignEnd=222314
+3	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	4	comp@expl	_	AlignBegin=221644|AlignEnd=221734|SpaceAfter=No
+4	appelait	appeler	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=221734|AlignEnd=222314|Person[ctxt]=3
 5	avant	avant	ADP	_	_	4	mod	_	AlignBegin=222384|AlignEnd=222834
 6	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	AlignBegin=223473|AlignEnd=223558|HasSpokenGender=OnlySingExceptWithLiaison|InTitle=Yes
 7	Photographie	photographie	NOUN	_	ExtPos=PROPN	4	comp:pred	_	AlignBegin=223558|AlignEnd=224168|Gender[lex]=Fem|Number[ctxt]=Sing|Title=Yes
@@ -4228,7 +4228,7 @@
 3	celle	celui	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Dem	2	comp:pred	_	AlignBegin=232668|AlignEnd=232898|SpaceAfter=No
 4	-là	là	ADV	_	_	3	mod	_	AlignBegin=232898|AlignEnd=233151|SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	AlignBegin=233151|AlignEnd=234277
-6	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	AlignBegin=234277|AlignEnd=234702|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+6	cet	ce	DET	_	Number=Sing|PronType=Dem	7	det	_	AlignBegin=234277|AlignEnd=234702|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
 7	instant	instant	NOUN	_	_	3	conj:dicto	_	AlignBegin=234702|AlignEnd=235032|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 8	-là	là	ADV	_	_	7	mod	_	AlignBegin=235032|AlignEnd=235172|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=235172|AlignEnd=235172
@@ -4529,7 +4529,7 @@
 2	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	5	subj	_	AlignBegin=253734|AlignEnd=253914
 3	n'	ne	ADV	_	Polarity=Neg	5	mod	_	AlignBegin=253914|AlignEnd=253914|SpaceAfter=No
 4	en	en	PRON	_	Person=3|PronType=Prs	5	comp:obj	_	AlignBegin=253984|AlignEnd=254084
-5	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=254084|AlignEnd=254224
+5	vois	voir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=254084|AlignEnd=254224|Person[ctxt]=1
 6	plus	plus	ADV	_	Polarity=Neg	5	mod	_	AlignBegin=254224|AlignEnd=254474
 7	de	de	ADP	_	_	5	dislocated:obj	_	AlignBegin=254474|AlignEnd=254524
 8	ces	ce	DET	_	Number=Plur|PronType=Dem	9	det	_	AlignBegin=254524|AlignEnd=254714|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
@@ -4570,7 +4570,7 @@
 5	non	non	ADV	_	Polarity=Neg	13	discourse	_	AlignBegin=255455|AlignEnd=255705|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=255705|AlignEnd=255705
 7	de	de	ADP	_	_	13	mod	_	AlignBegin=255705|AlignEnd=255785
-8	toute	toute	DET	_	Gender=Fem|Number=Sing|PronType=Ind	9	det	_	AlignBegin=255785|AlignEnd=255915
+8	toute	tout	DET	_	Gender=Fem|Number=Sing|PronType=Ind	9	det	_	AlignBegin=255785|AlignEnd=255915
 9	façon	façon	NOUN	_	_	7	comp:obj	_	AlignBegin=255915|AlignEnd=256165|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 10	,	,	PUNCT	_	_	7	punct	_	AlignBegin=256165|AlignEnd=256165
 11	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	subj	_	AlignBegin=256165|AlignEnd=256195|InIdiom=Yes
@@ -4645,11 +4645,11 @@
 # macrosyntax = je pense que [ si on s'était assis l'un devant l'autre < on aurait été { à c~ | à cette } distance-là $- { dans cette auto |} ] //+
 # text = je pense que si on s'était assis l'un devant l'autre, on aurait été à c~, à cette distance-là dans cette auto.
 1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=258560|AlignEnd=258625
-2	pense	penser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=258625|AlignEnd=258845
+2	pense	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=258625|AlignEnd=258845|Person[ctxt]=1
 3	que	que	SCONJ	_	_	2	comp:obj	_	AlignBegin=258845|AlignEnd=258975
 4	si	si	SCONJ	_	_	16	mod	_	AlignBegin=258975|AlignEnd=259154
 5	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	subj	_	AlignBegin=259154|AlignEnd=259214
-6	s'	soi	PRON	_	Person=3|PronType=Prs	8	comp@expl	_	AlignBegin=259214|AlignEnd=259305|SpaceAfter=No
+6	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	8	comp@expl	_	AlignBegin=259214|AlignEnd=259305|SpaceAfter=No
 7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	comp:obj	_	AlignBegin=259305|AlignEnd=259495
 8	assis	asseoir	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	7	comp:aux@tense	_	AlignBegin=259495|AlignEnd=259755|Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	AlignBegin=259755|AlignEnd=259815|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
@@ -4669,7 +4669,7 @@
 23	distance	distance	NOUN	_	_	21	comp:obj	_	AlignBegin=261996|AlignEnd=262526|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 24	-là	là	ADV	_	_	23	mod	_	AlignBegin=262526|AlignEnd=262688
 25	dans	dans	ADP	_	_	16	mod	_	AlignBegin=263170|AlignEnd=263395|Overlap=Rhap_D2010-129
-26	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	27	det	_	AlignBegin=263395|AlignEnd=263615|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|Overlap=Rhap_D2010-129
+26	cette	ce	DET	_	Number=Sing|PronType=Dem	27	det	_	AlignBegin=263395|AlignEnd=263615|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|Overlap=Rhap_D2010-129
 27	auto	auto	NOUN	_	_	25	comp:obj	_	AlignBegin=263615|AlignEnd=263895|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|Overlap=Rhap_D2010-129|SpaceAfter=No
 28	.	.	PUNCT	_	_	2	punct	_	AlignBegin=263895|AlignEnd=263895|Overlap=Rhap_D2010-98bis
 
@@ -4730,7 +4730,7 @@
 # macrosyntax = $L1 {| dans cette auto } //
 # text = dans cette auto.
 1	dans	dans	ADP	_	_	0	root	_	AlignBegin=264234|AlignEnd=264309
-2	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	AlignBegin=264309|AlignEnd=264469|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+2	cette	ce	DET	_	Number=Sing|PronType=Dem	3	det	_	AlignBegin=264309|AlignEnd=264469|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
 3	auto	auto	NOUN	_	_	1	comp:obj	_	AlignBegin=264469|AlignEnd=264817|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=264817|AlignEnd=264817
 
@@ -4795,7 +4795,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=267440|AlignEnd=267440
 3	qui	qui	PRON	_	PronType=Rel	5	subj	_	AlignBegin=267440|AlignEnd=267590
 4	vous	vous	PRON	_	Case=Acc|Emph=No|Number=Plur|Person=2|PronType=Prs	5	comp:obj	_	AlignBegin=267590|AlignEnd=267690|Polite=Unknown
-5	regarde	regarder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=267690|AlignEnd=268070
+5	regarde	regarder	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=267690|AlignEnd=268070|Person[ctxt]=3
 6	?	?	PUNCT	_	_	5	punct	_	AlignBegin=268070|AlignEnd=268070
 
 # sent_id = Rhap_D2010-133
@@ -4933,7 +4933,7 @@
 # text = je le sais à l'automobile, et puis au chauffeur.
 1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	3	subj	_	AlignBegin=274146|AlignEnd=274256
 2	le	le	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=274256|AlignEnd=274306
-3	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=274306|AlignEnd=274506
+3	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=274306|AlignEnd=274506|Person[ctxt]=1
 4	à	à	ADP	_	_	3	comp:obl	_	AlignBegin=274506|AlignEnd=274536
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	AlignBegin=274536|AlignEnd=274576|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 6	automobile	automobile	NOUN	_	_	4	comp:obj	_	AlignBegin=274576|AlignEnd=275297|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
@@ -5003,7 +5003,7 @@
 # macrosyntax = je sais les choses comme ça //
 # text = je sais les choses comme ça.
 1	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	2	subj	_	AlignBegin=278284|AlignEnd=278379
-2	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=278379|AlignEnd=278519
+2	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=278379|AlignEnd=278519|Person[ctxt]=1
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	AlignBegin=278519|AlignEnd=278589|HasSpokenGender=OnlySingExceptWithLiaison
 4	choses	chose	NOUN	_	_	2	comp:obj	_	AlignBegin=278589|AlignEnd=278819|Gender[lex]=Fem|Number[ctxt]=Plur
 5	comme	comme	ADP	_	_	4	udep	_	AlignBegin=278819|AlignEnd=279009
@@ -5271,7 +5271,7 @@
 5	,	,	PUNCT	_	_	2	punct	_	AlignBegin=302954|AlignEnd=302954
 6	je	moi	PRON	_	Case=Nom|Emph=No|Number=Sing|Person=1|PronType=Prs	8	subj	_	AlignBegin=302954|AlignEnd=303084
 7	n'	ne	ADV	_	Polarity=Neg	8	mod	_	AlignBegin=303084|AlignEnd=303084|SpaceAfter=No
-8	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=303144|AlignEnd=303294
+8	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=303144|AlignEnd=303294|Person[ctxt]=1
 9	pas	pas	ADV	_	Polarity=Neg	8	mod	_	AlignBegin=303294|AlignEnd=303424
 10	d'	de	ADP	_	_	8	comp:obj	_	AlignBegin=303424|AlignEnd=303474|SpaceAfter=No
 11	avis	avis	NOUN	_	_	10	comp:obj	_	AlignBegin=303474|AlignEnd=303674|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|SpaceAfter=No
@@ -5311,7 +5311,7 @@
 6	étonnée	étonner	VERB	_	VerbForm=Part	4	comp:pred	_	AlignBegin=306645|AlignEnd=306985|Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 7	par	par	ADP	_	_	4	mod	_	AlignBegin=306985|AlignEnd=307225
 8	tout	tout	ADJ	_	Gender=Masc	10	mod	_	AlignBegin=307225|AlignEnd=307385|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
-9	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	AlignBegin=307385|AlignEnd=307645|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
+9	cet	ce	DET	_	Number=Sing|PronType=Dem	10	det	_	AlignBegin=307385|AlignEnd=307645|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
 10	attirail	attirail	NOUN	_	_	7	comp:obj	_	AlignBegin=307645|AlignEnd=308550|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 11	de	de	ADP	_	_	10	udep	_	AlignBegin=309807|AlignEnd=310112
 12	milliardaire	milliardaire	NOUN	_	_	11	comp:obj	_	AlignBegin=310112|AlignEnd=310709|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No

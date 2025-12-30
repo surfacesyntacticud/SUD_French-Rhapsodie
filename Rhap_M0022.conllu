@@ -32,12 +32,12 @@
 5	euh	euh	INTJ	_	_	3	discourse	_	AlignBegin=2065|AlignEnd=2555|SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	AlignBegin=2555|AlignEnd=3645
 7	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	subj	_	AlignBegin=3645|AlignEnd=3765
-8	voit	voir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=3765|AlignEnd=3915
+8	voit	voir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=3765|AlignEnd=3915|Person[ctxt]=3
 9	Chaplin	Chaplin	PROPN	_	_	8	comp:obj	_	AlignBegin=3915|AlignEnd=4605|Gender[lex]=Unknown|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	AlignBegin=4605|AlignEnd=4605
 11	euh	euh	INTJ	_	_	9	discourse	_	AlignBegin=4605|AlignEnd=5265|SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	AlignBegin=5265|AlignEnd=5265
-13	s'	soi	PRON	_	Person=3|PronType=Prs	14	comp:obj	_	AlignBegin=5265|AlignEnd=5432|SpaceAfter=No
+13	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	14	comp:obj	_	AlignBegin=5265|AlignEnd=5432|SpaceAfter=No
 14	habiller	habiller	VERB	_	VerbForm=Inf	8	comp:obj	_	AlignBegin=5432|AlignEnd=5855|Subject=ObjRaising
 15	pour	pour	ADP	_	_	14	mod	_	AlignBegin=5855|AlignEnd=6043
 16	sortir	sortir	VERB	_	VerbForm=Inf	15	comp:obj	_	AlignBegin=6043|AlignEnd=6465|Subject=NoRaising
@@ -77,7 +77,7 @@
 3	euh	euh	INTJ	_	_	1	discourse	_	AlignBegin=8743|AlignEnd=9225|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	AlignBegin=9225|AlignEnd=9225
 5	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	subj	_	AlignBegin=9225|AlignEnd=9413
-6	voit	voir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=9413|AlignEnd=9583
+6	voit	voir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=9413|AlignEnd=9583|Person[ctxt]=3
 7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	AlignBegin=9583|AlignEnd=10325
 8	jeune	jeune	ADJ	_	_	9	mod	_	AlignBegin=10325|AlignEnd=10633|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 9	fille	fille	NOUN	_	_	6	comp:obj	_	AlignBegin=10633|AlignEnd=11012|Gender[lex]=Fem|Number[ctxt]=Sing
@@ -85,14 +85,14 @@
 11	en	en	ADP	_	_	10	mod	_	AlignBegin=11493|AlignEnd=11626
 12	noir	noir	NOUN	_	_	11	comp:obj	_	AlignBegin=11626|AlignEnd=12203|Gender[lex]=Masc|Number[ctxt]=Sing
 13	qui	qui	PRON	_	PronType=Rel	14	subj	_	AlignBegin=12857|AlignEnd=12977
-14	regarde	regarder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	AlignBegin=12977|AlignEnd=13457
+14	regarde	regarder	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	AlignBegin=12977|AlignEnd=13457|Person[ctxt]=3
 15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	AlignBegin=13457|AlignEnd=13597
 16	devanture	devanture	NOUN	_	_	14	comp:obj	_	AlignBegin=13597|AlignEnd=14127|Gender[lex]=Fem|Number[ctxt]=Sing
 17	de	de	ADP	_	_	16	udep	_	AlignBegin=14127|AlignEnd=14257
 18	magasin	magasin	NOUN	_	_	17	comp:obj	_	AlignBegin=14257|AlignEnd=15267|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 19	,	,	PUNCT	_	_	21	punct	_	AlignBegin=15207|AlignEnd=15267
 20	qui	qui	PRON	_	PronType=Rel	21	subj	_	AlignBegin=15267|AlignEnd=15507
-21	profite	profiter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	conj:coord	_	AlignBegin=15507|AlignEnd=16317
+21	profite	profiter	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	14	conj:coord	_	AlignBegin=15507|AlignEnd=16317|Person[ctxt]=3
 22	d'	de	ADP	_	_	21	comp:obl	_	AlignBegin=16841|AlignEnd=16891|SpaceAfter=No
 23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	AlignBegin=16891|AlignEnd=16961|LiaisonAfter=Yes
 24	aller	aller	NOUN	_	_	22	comp:obj	_	AlignBegin=16961|AlignEnd=17231|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
@@ -149,11 +149,11 @@
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=26326|AlignEnd=27047
 8	euh	euh	INTJ	_	_	6	discourse	_	AlignBegin=27047|AlignEnd=27979|SpaceAfter=No
 9	,	,	PUNCT	_	_	6	punct	_	AlignBegin=27979|AlignEnd=27979
-10	voit	voir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=27979|AlignEnd=28257
+10	voit	voir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=27979|AlignEnd=28257|Person[ctxt]=3
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	AlignBegin=28257|AlignEnd=28417|HasSpokenGender=OnlySingExceptWithLiaison
 12	vol	vol	NOUN	_	_	10	comp:obj	_	AlignBegin=28417|AlignEnd=29107|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	AlignBegin=29037|AlignEnd=29107
-14	prévient	prévenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj:coord	_	AlignBegin=29107|AlignEnd=29697
+14	prévient	prévenir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	10	conj:coord	_	AlignBegin=29107|AlignEnd=29697|Person[ctxt]=3
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	AlignBegin=29697|AlignEnd=29757|HasSpokenGender=OnlySingExceptWithLiaison
 16	boulanger	boulanger	NOUN	_	_	14	comp:obj	_	AlignBegin=29757|AlignEnd=30697|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 17	.	.	PUNCT	_	_	10	punct	_	AlignBegin=30697|AlignEnd=30697
@@ -190,8 +190,8 @@
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=33134|AlignEnd=33343
 5	euh	euh	INTJ	_	_	3	discourse	_	AlignBegin=33343|AlignEnd=34222|SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	AlignBegin=34222|AlignEnd=35586
-7	se	soi	PRON	_	Person=3|PronType=Prs	8	comp:obj	_	AlignBegin=35586|AlignEnd=35736
-8	retrouve	retrouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=35736|AlignEnd=36103
+7	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	8	comp:obj	_	AlignBegin=35586|AlignEnd=35736
+8	retrouve	retrouver	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=35736|AlignEnd=36103|Person[ctxt]=3
 9	par	par	ADP	_	_	8	comp:obl	_	AlignBegin=36103|AlignEnd=36316
 10	terre	terre	NOUN	_	_	9	comp:obj	_	AlignBegin=36316|AlignEnd=36546|Gender[lex]=Fem|Number[ctxt]=Sing
 11	avec	avec	ADP	_	_	8	mod	_	AlignBegin=36546|AlignEnd=36755
@@ -233,7 +233,7 @@
 # text = le boulanger arrive à la rattraper, euh.
 1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	AlignBegin=40682|AlignEnd=40812|HasSpokenGender=OnlySingExceptWithLiaison
 2	boulanger	boulanger	NOUN	_	_	3	subj	_	AlignBegin=40812|AlignEnd=41932|Gender[lex]=Masc|Number[ctxt]=Sing
-3	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=41932|AlignEnd=42355
+3	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=41932|AlignEnd=42355|Person[ctxt]=3
 4	à	à	ADP	_	_	3	comp:obl	_	AlignBegin=42355|AlignEnd=42415
 5	la	le	PRON	_	Case=Acc|Emph=No|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	AlignBegin=42415|AlignEnd=42569
 6	rattraper	rattraper	VERB	_	VerbForm=Inf	4	comp:obj	_	AlignBegin=42569|AlignEnd=43902|SpaceAfter=No|Subject=SubjRaising
@@ -274,9 +274,9 @@
 5	,	,	PUNCT	_	_	1	punct	_	AlignBegin=48966|AlignEnd=48966
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	AlignBegin=48966|AlignEnd=49106|HasSpokenGender=OnlySingExceptWithLiaison
 7	policier	policier	NOUN	_	Shared=Yes	8	subj	_	AlignBegin=49106|AlignEnd=50252|Gender[lex]=Masc|Number[ctxt]=Sing
-8	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=50567|AlignEnd=51167|SpaceAfter=No
+8	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=50567|AlignEnd=51167|Person[ctxt]=3|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=51167|AlignEnd=51167
-10	demande	demander	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj:coord	_	AlignBegin=51167|AlignEnd=51507
+10	demande	demander	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	8	conj:coord	_	AlignBegin=51167|AlignEnd=51507|Person[ctxt]=3
 11	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	12	det	_	AlignBegin=51507|AlignEnd=51607|LiaisonAfter=Yes
 12	explications	explication	NOUN	_	_	10	comp:obj	_	AlignBegin=51607|AlignEnd=52707|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	AlignBegin=52707|AlignEnd=52948
@@ -335,7 +335,7 @@
 13	,	,	PUNCT	_	_	14	punct	_	AlignBegin=60558|AlignEnd=61263
 14	euh	euh	INTJ	_	_	12	discourse	_	AlignBegin=61263|AlignEnd=61893|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	AlignBegin=61893|AlignEnd=62003
-16	explique	expliquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj:coord	_	AlignBegin=62003|AlignEnd=62887
+16	explique	expliquer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	3	conj:coord	_	AlignBegin=62003|AlignEnd=62887|Person[ctxt]=3
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	AlignBegin=62887|AlignEnd=63077|HasSpokenGender=OnlySingExceptWithLiaison
 18	vol	vol	NOUN	_	_	16	comp:obj	_	AlignBegin=63077|AlignEnd=63911|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 19	.	.	PUNCT	_	_	3	punct	_	AlignBegin=63911|AlignEnd=63911
@@ -371,7 +371,7 @@
 3	grand	grand	ADJ	_	Gender=Masc	4	mod	_	AlignBegin=64531|AlignEnd=64771|HasSpokenGender=Yes|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 4	seigneur	seigneur	NOUN	_	_	1	conj:appos	_	AlignBegin=64771|AlignEnd=65661|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	AlignBegin=65661|AlignEnd=65661
-6	explique	expliquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=65661|AlignEnd=66163
+6	explique	expliquer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=65661|AlignEnd=66163|Person[ctxt]=3
 7	que	que	SCONJ	_	_	6	comp:obj	_	AlignBegin=66163|AlignEnd=66642|SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	AlignBegin=66642|AlignEnd=67104
 9	euh	euh	INTJ	_	_	12	discourse	_	AlignBegin=67104|AlignEnd=67292|SpaceAfter=No
@@ -467,7 +467,7 @@
 1	donc	donc	ADV	_	_	4	mod	_	AlignBegin=73009|AlignEnd=73292|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=73292|AlignEnd=73292
 3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	AlignBegin=73292|AlignEnd=73525
-4	embarque	embarquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=73525|AlignEnd=74089|SpaceAfter=No
+4	embarque	embarquer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=73525|AlignEnd=74089|Person[ctxt]=3|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=74089|AlignEnd=74204
 6	euh	euh	INTJ	_	_	4	discourse	_	AlignBegin=74204|AlignEnd=74655|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=74655|AlignEnd=74655
@@ -506,8 +506,8 @@
 # macrosyntax = on se retrouve ESPERLUETTE //
 # text = on se retrouve…
 1	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	AlignBegin=81217|AlignEnd=81597
-2	se	soi	PRON	_	Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=81597|AlignEnd=82114
-3	retrouve	retrouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root@scrap	_	AlignBegin=82114|AlignEnd=82589|SpaceAfter=No
+2	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	3	comp:obj	_	AlignBegin=81597|AlignEnd=82114
+3	retrouve	retrouver	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root@scrap	_	AlignBegin=82114|AlignEnd=82589|Person[ctxt]=3|SpaceAfter=No
 4	…	…	PUNCT	_	_	3	punct	_	AlignBegin=82589|AlignEnd=82589
 
 # sent_id = Rhap_M0022-12
@@ -541,7 +541,7 @@
 3	tout	tout	ADJ	_	Gender=Masc	5	mod	_	AlignBegin=82799|AlignEnd=82899|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	5	det	_	AlignBegin=82899|AlignEnd=82940|HasSpokenGender=OnlySingExceptWithLiaison
 5	monde	monde	NOUN	_	_	8	subj	_	AlignBegin=82940|AlignEnd=83059|Gender[lex]=Masc|Number[ctxt]=Sing
-6	s'	soi	PRON	_	Person=3|PronType=Prs	8	comp@expl	_	AlignBegin=83059|AlignEnd=83143|SpaceAfter=No
+6	s'	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	8	comp@expl	_	AlignBegin=83059|AlignEnd=83143|SpaceAfter=No
 7	en	en	PRON	_	Person=3|PronType=Prs	8	comp@expl	_	AlignBegin=83143|AlignEnd=83239
 8	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=83239|AlignEnd=83539|SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	AlignBegin=83539|AlignEnd=83539
@@ -588,8 +588,8 @@
 # macrosyntax = on se retrouve ( donc ) avec { le boulanger | la jeune fille au sol | ^et la vieille dame qui revient vers le boulanger pour lui dire [ non // ce n'est pas le monsieur // ^mais c'est la jeune fille > effectivement // ] } //
 # text = on se retrouve, donc, avec le boulanger, la jeune fille au sol et la vieille dame qui revient vers le boulanger pour lui dire non, ce n'est pas le monsieur, mais c'est la jeune fille effectivement.
 1	on	on	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	AlignBegin=87641|AlignEnd=87807
-2	se	soi	PRON	_	Person=3|PronType=Prs	3	comp:obj	_	AlignBegin=87807|AlignEnd=87927
-3	retrouve	retrouver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=87927|AlignEnd=88317|SpaceAfter=No
+2	se	soi	PRON	_	Person=3|PronType=Prs|Reflex=Yes	3	comp:obj	_	AlignBegin=87807|AlignEnd=87927
+3	retrouve	retrouver	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=87927|AlignEnd=88317|Person[ctxt]=3|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=88317|AlignEnd=88317
 5	donc	donc	ADV	_	_	3	discourse	_	AlignBegin=88317|AlignEnd=88607|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=88607|AlignEnd=88607
@@ -609,7 +609,7 @@
 19	vieille	vieux	ADJ	_	Gender=Fem	20	mod	_	AlignBegin=92989|AlignEnd=93189|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 20	dame	dame	NOUN	_	_	13	conj:coord	_	AlignBegin=93189|AlignEnd=93449|Gender[lex]=Fem|Number[ctxt]=Sing
 21	qui	qui	PRON	_	PronType=Rel	22	subj	_	AlignBegin=93449|AlignEnd=93596
-22	revient	revenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	mod@relcl	_	AlignBegin=93596|AlignEnd=93929
+22	revient	revenir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	20	mod@relcl	_	AlignBegin=93596|AlignEnd=93929|Person[ctxt]=3
 23	vers	vers	ADP	_	_	22	comp:obl	_	AlignBegin=93929|AlignEnd=94089
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	AlignBegin=94089|AlignEnd=94149|HasSpokenGender=OnlySingExceptWithLiaison
 25	boulanger	boulanger	NOUN	_	_	23	comp:obj	_	AlignBegin=94149|AlignEnd=94749|Gender[lex]=Masc|Number[ctxt]=Sing
