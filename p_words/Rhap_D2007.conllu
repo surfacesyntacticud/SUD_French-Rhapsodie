@@ -134,7 +134,7 @@
 # macrosyntax = tu peux //
 # text = tu peux.
 1	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	AlignBegin=4486|AlignEnd=5691|Number[lex]=Sing|Overlap=Rhap_D2007-2|Person[lex]=2
-2	peux	pouvoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=4486|AlignEnd=5691|AttachTo=2@Rhap_D2007-3|Overlap=Rhap_D2007-2|Person[ctxt]=2|Rel=parataxis:conj|SpaceAfter=No
+2	peux	pouvoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=4486|AlignEnd=5691|Coconstruct=parataxis:conj::Rhap_D2007-3::2|Overlap=Rhap_D2007-2|Person[ctxt]=2|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	AlignBegin=5691|AlignEnd=5691|Overlap=Rhap_D2007-2
 
 # sent_id = Rhap_D2007-5
@@ -234,7 +234,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D2007.mp3
 # macrosyntax = $- $L2 ouais //
 # text = ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=9163|AlignEnd=9671|AttachTo=5@Rhap_D2007-5|Overlap=Rhap_D2007-8|Rel=discourse|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=9163|AlignEnd=9671|Backchannel=Rhap_D2007-5::5|Overlap=Rhap_D2007-8|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=9671|AlignEnd=9671|Overlap=Rhap_D2007-5quater
 
 # sent_id = Rhap_D2007-8
@@ -263,7 +263,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D2007.mp3
 # macrosyntax = $L3 ouais // -$
 # text = ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=9163|AlignEnd=9671|AttachTo=5@Rhap_D2007-5|Overlap=Rhap_D2007-7|Rel=discourse|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=9163|AlignEnd=9671|Backchannel=Rhap_D2007-5::5|Overlap=Rhap_D2007-7|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=9671|AlignEnd=9671|Overlap=Rhap_D2007-5ter
 
 # sent_id = Rhap_D2007-9
@@ -369,7 +369,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D2007.mp3
 # macrosyntax = $- $L1 c'est-à-dire //
 # text = c'est-à-dire.
-1	c'est-à-dire	c'est-à-dire	CCONJ	_	_	0	root	_	AlignBegin=13582|AlignEnd=14002|AttachTo=5@Rhap_D2007-10|Overlap=Rhap_D2007-12|Rel=parataxis:conj|SpaceAfter=No
+1	c'est-à-dire	c'est-à-dire	CCONJ	_	_	0	root	_	AlignBegin=13582|AlignEnd=14002|Coconstruct=parataxis:conj::Rhap_D2007-10::5|Overlap=Rhap_D2007-12|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=14002|AlignEnd=14002|Overlap=Rhap_D2007-7ter
 
 # sent_id = Rhap_D2007-12
@@ -398,7 +398,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D2007.mp3
 # macrosyntax = $L3 ouais // -$
 # text = ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=13582|AlignEnd=14002|AttachTo=15@Rhap_D2007-10|Overlap=Rhap_D2007-11|Rel=discourse|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=13582|AlignEnd=14002|Backchannel=Rhap_D2007-10::15|Overlap=Rhap_D2007-11|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=14002|AlignEnd=14002|Overlap=Rhap_D2007-7bis
 
 # sent_id = Rhap_D2007-13
@@ -530,7 +530,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D2007.mp3
 # macrosyntax = $L3 ouais //
 # text = ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=17843|AlignEnd=18063|AttachTo=2@Rhap_D2007-16|Rel=discourse|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=17843|AlignEnd=18063|Backchannel=Rhap_D2007-16::2|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=18063|AlignEnd=18063
 
 # sent_id = Rhap_D2007-17
@@ -881,7 +881,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D2007.mp3
 # macrosyntax = $L1 { ouais | ouais } //
 # text = ouais, ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=29847|AlignEnd=30157|AttachTo=5@Rhap_D2007-25|Rel=discourse|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=29847|AlignEnd=30157|Backchannel=Rhap_D2007-25::5|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=30157|AlignEnd=30157
 3	ouais	ouais	INTJ	_	_	1	conj:coord	_	AlignBegin=30157|AlignEnd=30447|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=30447|AlignEnd=30447
@@ -1056,7 +1056,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D2007.mp3
 # macrosyntax = $L1 { oui | oui | oui } //
 # text = oui, oui, oui.
-1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=39993|AlignEnd=40298|AttachTo=2@Rhap_D2007-29|Rel=discourse|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=39993|AlignEnd=40298|Backchannel=Rhap_D2007-29::2|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=40298|AlignEnd=40298
 3	oui	oui	INTJ	_	_	1	conj:coord	_	AlignBegin=40298|AlignEnd=40528|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=40528|AlignEnd=40528
@@ -1128,7 +1128,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D2007.mp3
 # macrosyntax = c'est $- pour ça que c'était ( $L3 ouais // ) -$ pas de la radio //
 # text = ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=40840|AlignEnd=41234|AttachTo=2@Rhap_D2007-31|Overlap=Rhap_D2007-31|Rel=discourse|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=40840|AlignEnd=41234|Backchannel=Rhap_D2007-31::2|Overlap=Rhap_D2007-31|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=41234|AlignEnd=41234|Overlap=Rhap_D2007-24
 
 # sent_id = Rhap_D2007-33
@@ -1270,7 +1270,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D2007.mp3
 # macrosyntax = $L3 ouais //
 # text = ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=46522|AlignEnd=46732|AttachTo=2@Rhap_D2007-35|Rel=discourse|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=46522|AlignEnd=46732|Backchannel=Rhap_D2007-35::2|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=46732|AlignEnd=46732
 
 # sent_id = Rhap_D2007-37
@@ -1429,7 +1429,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D2007.mp3
 # macrosyntax = $L1 oui //=
 # text = oui.
-1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=56361|AlignEnd=56606|AttachTo=2@Rhap_D2007-39|Rel=discourse|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=56361|AlignEnd=56606|Backchannel=Rhap_D2007-39::2|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=56606|AlignEnd=56606
 
 # sent_id = Rhap_D2007-41
@@ -1552,7 +1552,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D2007.mp3
 # macrosyntax = oui //=
 # text = oui.
-1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=59213|AlignEnd=59418|AttachTo=3@Rhap_D2007-43|Rel=discourse|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=59213|AlignEnd=59418|Backchannel=Rhap_D2007-43::3|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=59418|AlignEnd=59418
 
 # sent_id = Rhap_D2007-45
@@ -1612,7 +1612,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D2007.mp3
 # macrosyntax = oui //
 # text = oui.
-1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=59923|AlignEnd=60128|AttachTo=1@Rhap_D2007-44|Rel=discourse|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=59923|AlignEnd=60128|Backchannel=Rhap_D2007-44::1|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=60128|AlignEnd=60128
 
 # sent_id = Rhap_D2007-47
@@ -2110,7 +2110,7 @@
 2	tard	tard	ADV	_	_	5	mod	_	AlignBegin=89967|AlignEnd=90317|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=90317|AlignEnd=90317
 4	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	AlignBegin=90317|AlignEnd=90467|Number[lex]=Sing|Person[lex]=1
-5	préviens	prévenir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=90467|AlignEnd=90857|AttachTo=10@Rhap_D2007-59|Person[ctxt]=1|Rel=parataxis:conj
+5	préviens	prévenir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=90467|AlignEnd=90857|Coconstruct=parataxis:conj::Rhap_D2007-59::10|Person[ctxt]=1
 6	pas	pas	ADV	_	Polarity=Neg	5	mod	_	AlignBegin=90857|AlignEnd=91141|SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	AlignBegin=91141|AlignEnd=91141
 
@@ -2569,7 +2569,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D2007.mp3
 # macrosyntax = $L3 ouais //
 # text = ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=114950|AlignEnd=115145|AttachTo=14@Rhap_D2007-72|Rel=discourse|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=114950|AlignEnd=115145|Backchannel=Rhap_D2007-72::14|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=115145|AlignEnd=115145
 
 # sent_id = Rhap_D2007-74
@@ -3046,7 +3046,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D2007.mp3
 # macrosyntax = oui //
 # text = oui.
-1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=129707|AlignEnd=131382|AttachTo=2@Rhap_D2007-86|Overlap=Rhap_D2007-85|Rel=discourse|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=129707|AlignEnd=131382|Backchannel=Rhap_D2007-86::2|Overlap=Rhap_D2007-85|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=131382|AlignEnd=131382|Overlap=Rhap_D2007-67
 
 # sent_id = Rhap_D2007-88
@@ -3149,7 +3149,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D2007.mp3
 # macrosyntax = $L4 oui //
 # text = oui.
-1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=131887|AlignEnd=133985|AttachTo=11@Rhap_D2007-89|Overlap=Rhap_D2007-89|Rel=discourse|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=131887|AlignEnd=133985|Backchannel=Rhap_D2007-89::11|Overlap=Rhap_D2007-89|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=133985|AlignEnd=133985|Overlap=Rhap_D2007-69
 
 # sent_id = Rhap_D2007-91
@@ -3580,7 +3580,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D2007.mp3
 # macrosyntax = $L1 oui //
 # text = oui.
-1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=148094|AlignEnd=148429|AttachTo=3@Rhap_D2007-101|Rel=discourse|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=148094|AlignEnd=148429|Backchannel=Rhap_D2007-101::3|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=148429|AlignEnd=148429
 
 # sent_id = Rhap_D2007-103
@@ -3826,7 +3826,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D2007.mp3
 # macrosyntax = $L1 oui //
 # text = oui.
-1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=154797|AlignEnd=155012|AttachTo=7@Rhap_D2007-108|Rel=discourse|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=154797|AlignEnd=155012|Backchannel=Rhap_D2007-108::7|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=155012|AlignEnd=155012
 
 # sent_id = Rhap_D2007-110
@@ -4454,7 +4454,7 @@
 # text = ah, oui.
 1	ah	ah	INTJ	_	_	3	discourse	_	AlignBegin=193117|AlignEnd=193237|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=193237|AlignEnd=193237
-3	oui	oui	INTJ	_	_	0	root	_	AlignBegin=193237|AlignEnd=193301|AttachTo=11@Rhap_D2007-125|Rel=discourse|SpaceAfter=No
+3	oui	oui	INTJ	_	_	0	root	_	AlignBegin=193237|AlignEnd=193301|Backchannel=Rhap_D2007-125::11|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=193301|AlignEnd=193301
 
 # sent_id = Rhap_D2007-127
@@ -4603,7 +4603,7 @@
 # text = XXX XXX oui.
 1	XXX	XXX	X	_	_	3	unk	_	AlignBegin=206953|AlignEnd=207269
 2	XXX	XXX	X	_	_	1	unk	_	AlignBegin=209585|AlignEnd=210049
-3	oui	oui	INTJ	_	_	0	root	_	AlignBegin=210579|AlignEnd=210784|AttachTo=2@Rhap_D2007-129|Rel=discourse|SpaceAfter=No
+3	oui	oui	INTJ	_	_	0	root	_	AlignBegin=210579|AlignEnd=210784|Backchannel=Rhap_D2007-129::2|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=210784|AlignEnd=210784
 
 # sent_id = Rhap_D2007-131
@@ -4699,7 +4699,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D2007.mp3
 # macrosyntax = $L3  " ah "  //
 # text = ah.
-1	ah	ah	INTJ	_	_	0	root	_	AlignBegin=214873|AlignEnd=215044|AttachTo=8@Rhap_D2007-133|Rel=discourse|SpaceAfter=No
+1	ah	ah	INTJ	_	_	0	root	_	AlignBegin=214873|AlignEnd=215044|Backchannel=Rhap_D2007-133::8|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=215044|AlignEnd=215044
 
 # sent_id = Rhap_D2007-134
@@ -5166,7 +5166,7 @@
 # text = alors, non.
 1	alors	alors	ADV	_	_	3	discourse	_	AlignBegin=237870|AlignEnd=238130|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=238130|AlignEnd=238130
-3	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=238130|AlignEnd=238330|AttachTo=3@Rhap_D2007-146|Rel=discourse|SpaceAfter=No
+3	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=238130|AlignEnd=238330|Backchannel=Rhap_D2007-146::3|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=238330|AlignEnd=238330
 
 # sent_id = Rhap_D2007-148
@@ -5593,7 +5593,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D2007.mp3
 # macrosyntax = $L1 en croyant que c'était la fille  " ah "   " oui " "non" //
 # text = en croyant que c'était la fille, ah, oui, non.
-1	en	en	ADP	_	_	0	root	_	AlignBegin=255821|AlignEnd=256026|AttachTo=3@Rhap_D2007-158|Rel=parataxis:conj
+1	en	en	ADP	_	_	0	root	_	AlignBegin=255821|AlignEnd=256026|Coconstruct=parataxis:conj::Rhap_D2007-158::3
 2	croyant	croire	VERB	_	VerbForm=Part	1	comp:obj	_	AlignBegin=256026|AlignEnd=256356|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Pres
 3	que	que	PRON	_	PronType=Rel	2	comp:obj	_	AlignBegin=256356|AlignEnd=256386
 4	c'	ce	PRON	_	PronType=Dem	5	subj	_	AlignBegin=256386|AlignEnd=256416|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No

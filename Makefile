@@ -108,8 +108,10 @@ step2:
 	for infile in prosody/*.conllu ; do \
 		outfile=`echo $$infile | sed "s+prosody+p_words+"` ; \
 		echo "$$infile --> $$outfile" ; \
-		${GREW} transform -config sud -grs grs/remove_syllables.grs -i $$infile -o $$outfile ; \
+		${GREW} transform -config sud -grs grs/remove_syllables.grs -i $$infile -o tmp ; \
+		grep -v "global.columns" tmp > $$outfile ; \
 	done
+	rm -f tmp
 
 # step3
 # build the corpus without the amalgams (applying grs/split_amalgam.grs)

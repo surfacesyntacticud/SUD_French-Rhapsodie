@@ -128,7 +128,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D2012.mp3
 # macrosyntax = $L2 non //
 # text = non.
-1	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=20010|AlignEnd=20440|AttachTo=3@Rhap_D2012-2|Rel=discourse|SpaceAfter=No
+1	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=20010|AlignEnd=20440|Backchannel=Rhap_D2012-2::3|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=20440|AlignEnd=20440
 
 # sent_id = Rhap_D2012-4
@@ -887,7 +887,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D2012.mp3
 # macrosyntax = je n~ me demande d'ailleurs si "euh" l'arrivée { du berger dans Le roi Roger | ce berger qui "euh" amène { { d'autres | $- d'autres } valeurs | ( $L1  d'autres XXX // ) -$  } } "si vous voulez" dans un monde qui est figé "euh" ne rappelle pas un peu l'arrivée de Lohengrin //
 # text = d'autres XXX.
-1	d'	de	ADP	_	_	0	root	_	AlignBegin=86485|AlignEnd=87465|AttachTo=31@Rhap_D2012-19|Overlap=Rhap_D2012-19|Rel=conj:dicto|SpaceAfter=No
+1	d'	de	ADP	_	_	0	root	_	AlignBegin=86485|AlignEnd=87465|Coconstruct=conj:dicto::Rhap_D2012-19::31|Overlap=Rhap_D2012-19|SpaceAfter=No
 2	autres	autre	ADJ	_	PronType=Ind	3	mod	_	AlignBegin=86485|AlignEnd=87465|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|Overlap=Rhap_D2012-19
 3	XXX	XXX	X	_	ExtPos=NOUN	1	comp:obj	_	AlignBegin=86485|AlignEnd=87465|Overlap=Rhap_D2012-19|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=87465|AlignEnd=87465|Overlap=Rhap_D2012-18
@@ -1043,7 +1043,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D2012.mp3
 # macrosyntax = ça pourrait être $- { Lohengrin | ( $L1 "oui" // ) -$ ^et Parsifal } > effectivement //
 # text = oui.
-1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=100590|AlignEnd=101094|AttachTo=2@Rhap_D2012-23|Overlap=Rhap_D2012-23|Rel=discourse|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=100590|AlignEnd=101094|Backchannel=Rhap_D2012-23::2|Overlap=Rhap_D2012-23|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=101094|AlignEnd=101094
 
 # sent_id = Rhap_D2012-25
@@ -1587,7 +1587,7 @@
 # text = les beaux hôtels.
 1	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	AlignBegin=164847|AlignEnd=164972|HasSpokenGender=OnlySingExceptWithLiaison|Overlap=Rhap_D2012-34
 2	beaux	beau	ADJ	_	Gender=Masc|Number=Plur	3	mod	_	AlignBegin=164972|AlignEnd=165172|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes|Overlap=Rhap_D2012-34
-3	hôtels	hôtel	NOUN	_	_	0	root	_	AlignBegin=165172|AlignEnd=165650|AttachTo=22@Rhap_D2012-34|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|Overlap=Rhap_D2012-34|Rel=conj:dicto|SpaceAfter=No
+3	hôtels	hôtel	NOUN	_	_	0	root	_	AlignBegin=165172|AlignEnd=165650|Coconstruct=conj:dicto::Rhap_D2012-34::22|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|Overlap=Rhap_D2012-34|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=166545|AlignEnd=166545|Overlap=Rhap_D2012-31
 
 # sent_id = Rhap_D2012-36
@@ -2096,7 +2096,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D2012.mp3
 # macrosyntax = $L1 {| pour la direction de l'orchestre } // -$
 # text = pour la direction de l'orchestre.
-1	pour	pour	ADP	_	_	0	root	_	AlignBegin=217977|AlignEnd=219300|AttachTo=14@Rhap_D2012-44|Overlap=Rhap_D2012-44|Rel=conj:dicto
+1	pour	pour	ADP	_	_	0	root	_	AlignBegin=217977|AlignEnd=219300|Coconstruct=conj:dicto::Rhap_D2012-44::14|Overlap=Rhap_D2012-44
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	AlignBegin=217977|AlignEnd=219300|HasSpokenGender=OnlySingExceptWithLiaison|Overlap=Rhap_D2012-44
 3	direction	direction	NOUN	_	_	1	comp:obj	_	AlignBegin=217977|AlignEnd=219300|Gender[lex]=Fem|Number[ctxt]=Sing|Overlap=Rhap_D2012-44
 4	de	de	ADP	_	_	3	udep	_	AlignBegin=217977|AlignEnd=219300|Overlap=Rhap_D2012-44

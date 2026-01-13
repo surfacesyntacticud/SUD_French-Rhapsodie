@@ -249,7 +249,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0001.mp3
 # macrosyntax = $L1 à quelle heure //
 # text = à quelle heure ?
-1	à	à	ADP	_	_	0	root	_	AlignBegin=16860|AlignEnd=17985|AttachTo=18@Rhap_D0001-6|Overlap=Rhap_D0001-6|Rel=mod
+1	à	à	ADP	_	_	0	root	_	AlignBegin=16860|AlignEnd=17985|Coconstruct=mod::Rhap_D0001-6::18|Overlap=Rhap_D0001-6
 2	quelle	quel	DET	_	Number=Sing|PronType=Int	3	det	_	AlignBegin=16860|AlignEnd=17985|Gender[ctxt]=Fem|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes|Overlap=Rhap_D0001-6
 3	heure	heure	NOUN	_	_	1	comp:obj	_	AlignBegin=16860|AlignEnd=17985|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|Overlap=Rhap_D0001-6
 4	?	?	PUNCT	_	_	1	punct	_	AlignBegin=17985|AlignEnd=17985|Overlap=Rhap_D0001-4
@@ -280,7 +280,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0001.mp3
 # macrosyntax = "excusez-moi" // -$
 # text = excusez-moi.
-1	excusez	excuser	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=16860|AlignEnd=17985|AttachTo=1@Rhap_D0001-7|Overlap=Rhap_D0001-6|Rel=discourse|SpaceAfter=No
+1	excusez	excuser	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=16860|AlignEnd=17985|Backchannel=Rhap_D0001-7::1|Overlap=Rhap_D0001-6|SpaceAfter=No
 2	-moi	moi	PRON	_	PronType=Prs	1	comp:obj	_	AlignBegin=16860|AlignEnd=17985|Number[lex]=Sing|Overlap=Rhap_D0001-6|Person[lex]=1|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	AlignBegin=17985|AlignEnd=17985|Overlap=Rhap_D0001-4
 
@@ -389,7 +389,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0001.mp3
 # macrosyntax = $L1 mh mh // -$
 # text = mh, mh.
-1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=0|AlignEnd=0|AttachTo=6@Rhap_D0001-10|Overlap=Rhap_D0001-10|Rel=discourse|SpaceAfter=No
+1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=0|AlignEnd=0|Backchannel=Rhap_D0001-10::6|Overlap=Rhap_D0001-10|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=0|AlignEnd=0|Overlap=Rhap_D0001-6
 3	mh	mh	INTJ	_	_	1	conj:dicto	_	AlignBegin=0|AlignEnd=0|Overlap=Rhap_D0001-10|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=0|AlignEnd=0|Overlap=Rhap_D0001-6
@@ -693,7 +693,7 @@
 # text = ou je vais au musée du quai Branly.
 1	ou	ou	CCONJ	_	_	3	cc	_	AlignBegin=40031|AlignEnd=40317
 2	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	AlignBegin=40317|AlignEnd=40427|Number[lex]=Sing|Person[lex]=1
-3	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=40427|AlignEnd=40905|AttachTo=4@Rhap_D0001-18|Rel=parataxis:conj
+3	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=40427|AlignEnd=40905|Coconstruct=parataxis:conj::Rhap_D0001-18::4
 4	au	au	ADP	_	_	3	comp:obl	_	AlignBegin=41158|AlignEnd=41223
 5	musée	musée	NOUN	_	_	4	comp:obj	_	AlignBegin=41223|AlignEnd=41563|Gender[lex]=Masc|Number[ctxt]=Sing
 6	du	du	ADP	_	_	5	udep	_	AlignBegin=41563|AlignEnd=41753
@@ -729,7 +729,7 @@
 # text = ou je vais…
 1	ou	ou	CCONJ	_	_	3	cc	_	AlignBegin=42561|AlignEnd=42666
 2	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	AlignBegin=42666|AlignEnd=42864|Number[lex]=Sing|Person[lex]=1
-3	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root@scrap	_	AlignBegin=42864|AlignEnd=43306|AttachTo=4@Rhap_D0001-18|Rel=parataxis:conj|SpaceAfter=No
+3	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root@scrap	_	AlignBegin=42864|AlignEnd=43306|Coconstruct=parataxis:conj::Rhap_D0001-18::4|SpaceAfter=No
 4	…	…	PUNCT	_	_	3	punct	_	AlignBegin=43306|AlignEnd=43306
 
 # sent_id = Rhap_D0001-21
@@ -843,7 +843,7 @@
 # text = mais je reviens jamais en métro.
 1	mais	mais	CCONJ	_	_	3	cc	_	AlignBegin=50610|AlignEnd=50695
 2	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	AlignBegin=50695|AlignEnd=50795|Number[lex]=Sing|Person[lex]=1
-3	reviens	revenir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=50795|AlignEnd=51245|AttachTo=14@Rhap_D0001-22|Person[ctxt]=1|Rel=parataxis:conj
+3	reviens	revenir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=50795|AlignEnd=51245|Coconstruct=parataxis:conj::Rhap_D0001-22::14|Person[ctxt]=1
 4	jamais	jamais	ADV	_	PronType=Neg	3	mod	_	AlignBegin=51245|AlignEnd=51605
 5	en	en	ADP	_	_	3	mod	_	AlignBegin=51605|AlignEnd=51725
 6	métro	métro	NOUN	_	_	5	comp:obj	_	AlignBegin=51725|AlignEnd=52005|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
@@ -876,7 +876,7 @@
 # macrosyntax = je reviens toujours en bus //
 # text = je reviens toujours en bus.
 1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	AlignBegin=52005|AlignEnd=52065|Number[lex]=Sing|Person[lex]=1
-2	reviens	revenir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=52065|AlignEnd=52385|AttachTo=14@Rhap_D0001-22|Person[ctxt]=1|Rel=parataxis:conj
+2	reviens	revenir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=52065|AlignEnd=52385|Coconstruct=parataxis:conj::Rhap_D0001-22::14|Person[ctxt]=1
 3	toujours	toujours	ADV	_	_	2	mod	_	AlignBegin=52385|AlignEnd=52710
 4	en	en	ADP	_	_	2	mod	_	AlignBegin=52710|AlignEnd=52815
 5	bus	bus	NOUN	_	_	4	comp:obj	_	AlignBegin=52815|AlignEnd=53287|Gender[lex]=Masc|SpaceAfter=No
@@ -981,7 +981,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0001.mp3
 # macrosyntax = ça < c'est { { par le | par $- le | par le } quatre-vingt-six |} //+ $L1 {| par le quatre-vingt-six } //+ -$ { qui est un |} $- $L1 qui passe à l'arrière-plan //+ {| qui est un bus } { formidable | -$ formidable } { { qui | qui | qui } traverse le quar~ | qui $- passe { boulevard Saint-Germain | ( $L1 ah oui // ) -$ "euh" boulevard Henri Quatre } } //
 # text = par le quatre-vingt-six.
-1	par	par	ADP	_	_	0	root	_	AlignBegin=0|AlignEnd=0|AttachTo=8@Rhap_D0001-25|Overlap=Rhap_D0001-25|Rel=conj:dicto
+1	par	par	ADP	_	_	0	root	_	AlignBegin=0|AlignEnd=0|Coconstruct=conj:dicto::Rhap_D0001-25::8|Overlap=Rhap_D0001-25
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	AlignBegin=0|AlignEnd=0|HasSpokenGender=OnlySingExceptWithLiaison|Overlap=Rhap_D0001-20
 3	quatre-vingt-six	quatre-vingt-six	NOUN	_	_	1	comp:obj	_	AlignBegin=0|AlignEnd=0|Gender[lex]=Masc|Number[ctxt]=Sing|Overlap=Rhap_D0001-25|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=0|AlignEnd=0|Overlap=Rhap_D0001-20
@@ -1013,7 +1013,7 @@
 # macrosyntax = ça < c'est { { par le | par $- le | par le } quatre-vingt-six |} //+ $L1 {| par le quatre-vingt-six } //+ -$ { qui est un |} $- $L1 qui passe à l'arrière-plan //+ {| qui est un bus } { formidable | -$ formidable } { { qui | qui | qui } traverse le quar~ | qui $- passe { boulevard Saint-Germain | ( $L1 ah oui // ) -$ "euh" boulevard Henri Quatre } } //
 # text = qui passe à l'arrière-plan.
 1	qui	qui	PRON	_	PronType=Rel	2	subj	_	AlignBegin=57613|AlignEnd=57708|Overlap=Rhap_D0001-25
-2	passe	passer	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=57708|AlignEnd=57988|AttachTo=3@Rhap_D0001-26|Number[ctxt]=Sing|Overlap=Rhap_D0001-25|Person[ctxt]=3|Rel=mod@relcl
+2	passe	passer	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=57708|AlignEnd=57988|Coconstruct=mod@relcl::Rhap_D0001-26::3|Number[ctxt]=Sing|Overlap=Rhap_D0001-25|Person[ctxt]=3
 3	à	à	ADP	_	_	2	mod	_	AlignBegin=57988|AlignEnd=58048|Overlap=Rhap_D0001-25
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	AlignBegin=58048|AlignEnd=58138|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|Overlap=Rhap_D0001-25|SpaceAfter=No
 5	arrière-plan	arrière-plan	NOUN	_	_	3	comp:obj	_	AlignBegin=58138|AlignEnd=58935|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|Overlap=Rhap_D0001-25|SpaceAfter=No
@@ -1047,7 +1047,7 @@
 # text = ah, oui.
 1	ah	ah	INTJ	_	_	3	discourse	_	AlignBegin=61853|AlignEnd=63676|Overlap=Rhap_D0001-25|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=63676|AlignEnd=61853|Overlap=Rhap_D0001-20
-3	oui	oui	INTJ	_	_	0	root	_	AlignBegin=61853|AlignEnd=63676|AttachTo=37@Rhap_D0001-25|Overlap=Rhap_D0001-25|Rel=discourse|SpaceAfter=No
+3	oui	oui	INTJ	_	_	0	root	_	AlignBegin=61853|AlignEnd=63676|Backchannel=Rhap_D0001-25::37|Overlap=Rhap_D0001-25|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=63676|AlignEnd=63676|Overlap=Rhap_D0001-20
 
 # sent_id = Rhap_D0001-29
@@ -1156,7 +1156,7 @@
 # macrosyntax = c'est vraiment très agréable //
 # text = c'est vraiment très agréable.
 1	c'	ce	PRON	_	PronType=Dem	2	subj	_	AlignBegin=70821|AlignEnd=70917|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=70917|AlignEnd=71007|AttachTo=13@Rhap_D0001-30|Rel=parataxis:conj
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=70917|AlignEnd=71007|Coconstruct=parataxis:conj::Rhap_D0001-30::13
 3	vraiment	vraiment	ADV	_	_	5	mod	_	AlignBegin=71007|AlignEnd=71551
 4	très	très	ADV	_	_	5	mod	_	AlignBegin=71551|AlignEnd=71826
 5	agréable	agréable	ADJ	_	_	2	comp:pred	_	AlignBegin=71826|AlignEnd=72199|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
@@ -1410,7 +1410,7 @@
 3	oui	oui	INTJ	_	_	1	conj:dicto	_	AlignBegin=84922|AlignEnd=85012|Overlap=Rhap_D0001-36|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	AlignBegin=86514|AlignEnd=84777|Overlap=Rhap_D0001-27
 5	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	subj	_	AlignBegin=85012|AlignEnd=85282|Number[lex]=Sing|Overlap=Rhap_D0001-36|Person[lex]=1
-6	vois	voir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=85282|AlignEnd=85622|AttachTo=1@Rhap_D0001-36|Overlap=Rhap_D0001-36|Person[ctxt]=1|Rel=discourse|SpaceAfter=No
+6	vois	voir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=85282|AlignEnd=85622|Backchannel=Rhap_D0001-36::1|Overlap=Rhap_D0001-36|Person[ctxt]=1|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	AlignBegin=86514|AlignEnd=86514|Overlap=Rhap_D0001-27
 
 # sent_id = Rhap_D0001-38
@@ -1443,7 +1443,7 @@
 2	sûr	sûr	ADJ	_	ExtPos=ADV	5	mod	_	AlignBegin=85782|AlignEnd=86016|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Idiom=Yes|Number[ctxt]=Sing|Overlap=Rhap_D0001-36|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=86514|AlignEnd=90373|Overlap=Rhap_D0001-27
 4	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	AlignBegin=86016|AlignEnd=86082|Number[lex]=Sing|Overlap=Rhap_D0001-36|Person[lex]=1
-5	vois	voir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=86082|AlignEnd=86514|AttachTo=6@Rhap_D0001-37|Overlap=Rhap_D0001-36|Person[ctxt]=1|Rel=parataxis:conj|SpaceAfter=No
+5	vois	voir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=86082|AlignEnd=86514|Coconstruct=parataxis:conj::Rhap_D0001-37::6|Overlap=Rhap_D0001-36|Person[ctxt]=1|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	AlignBegin=86514|AlignEnd=86514|Overlap=Rhap_D0001-27
 
 # sent_id = Rhap_D0001-39
@@ -1472,7 +1472,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0001.mp3
 # macrosyntax = $L3 "euh" -$ { monsieur YYY |} $- $L2 ( { oui | oui } "je vois" //= bien sûr "je vois" // ) {| voisin } "euh" { prend ESPERLUETTE | -$ $L1 a } $- le même ( $L2 { oui | oui } // ) -$ discours $- "euh" ( absolument // ) ( $L2 absolument // ) -$ $- $L2 ( { oui | oui | oui } "je sais" // ) ému ( $L2 { oui | oui } // ) -$ quand on passe à l'arrière de Notre Dame "hein" >+ en $- particulier //
 # text = oui, oui.
-1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=87291|AlignEnd=87673|AttachTo=8@Rhap_D0001-36|Overlap=Rhap_D0001-36|Rel=discourse|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=87291|AlignEnd=87673|Backchannel=Rhap_D0001-36::8|Overlap=Rhap_D0001-36|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=87673|AlignEnd=87291|Overlap=Rhap_D0001-27
 3	oui	oui	INTJ	_	_	1	conj:dicto	_	AlignBegin=87291|AlignEnd=87673|Overlap=Rhap_D0001-36|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=87673|AlignEnd=87673|Overlap=Rhap_D0001-27
@@ -1503,7 +1503,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0001.mp3
 # macrosyntax = $L3 "euh" -$ { monsieur YYY |} $- $L2 ( { oui | oui } "je vois" //= bien sûr "je vois" // ) {| voisin } "euh" { prend ESPERLUETTE | -$ $L1 a } $- le même ( $L2 { oui | oui } // ) -$ discours $- "euh" ( absolument // ) ( $L2 absolument // ) -$ $- $L2 ( { oui | oui | oui } "je sais" // ) ému ( $L2 { oui | oui } // ) -$ quand on passe à l'arrière de Notre Dame "hein" >+ en $- particulier //
 # text = absolument.
-1	absolument	absolument	ADV	_	_	0	root	_	AlignBegin=89440|AlignEnd=90373|AttachTo=8@Rhap_D0001-36|Overlap=Rhap_D0001-36|Rel=discourse|SpaceAfter=No
+1	absolument	absolument	ADV	_	_	0	root	_	AlignBegin=89440|AlignEnd=90373|Backchannel=Rhap_D0001-36::8|Overlap=Rhap_D0001-36|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=90373|AlignEnd=90373|Overlap=Rhap_D0001-27
 
 # sent_id = Rhap_D0001-41
@@ -1568,7 +1568,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0001.mp3
 # macrosyntax = $L3 "euh" -$ { monsieur YYY |} $- $L2 ( { oui | oui } "je vois" //= bien sûr "je vois" // ) {| voisin } "euh" { prend ESPERLUETTE | -$ $L1 a } $- le même ( $L2 { oui | oui } // ) -$ discours $- "euh" ( absolument // ) ( $L2 absolument // ) -$ $- $L2 ( { oui | oui | oui } "je sais" // ) ému ( $L2 { oui | oui } // ) -$ quand on passe à l'arrière de Notre Dame "hein" >+ en $- particulier //
 # text = oui, oui, oui.
-1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=91462|AlignEnd=91993|AttachTo=13@Rhap_D0001-36|Overlap=Rhap_D0001-36|Rel=discourse|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=91462|AlignEnd=91993|Backchannel=Rhap_D0001-36::13|Overlap=Rhap_D0001-36|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=91993|AlignEnd=0|Overlap=Rhap_D0001-27
 3	oui	oui	INTJ	_	_	1	conj:dicto	_	AlignBegin=0|AlignEnd=0|Overlap=Rhap_D0001-36|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=0|AlignEnd=0|Overlap=Rhap_D0001-27
@@ -1674,7 +1674,7 @@
 # macrosyntax = $- $L2 c'est vraiment un { très | très } beau trajet //
 # text = c'est vraiment un très, très beau trajet.
 1	c'	ce	PRON	_	PronType=Dem	2	subj	_	AlignBegin=96898|AlignEnd=96953|Gender[lex]=Masc|Number[lex]=Sing|Overlap=Rhap_D0001-46|Person[lex]=3|SpaceAfter=No
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=96953|AlignEnd=96993|AttachTo=6@Rhap_D0001-44|Overlap=Rhap_D0001-46|Rel=parataxis:conj
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=96953|AlignEnd=96993|Coconstruct=parataxis:conj::Rhap_D0001-44::6|Overlap=Rhap_D0001-46
 3	vraiment	vraiment	ADV	_	_	2	mod	_	AlignBegin=96993|AlignEnd=97343|Overlap=Rhap_D0001-46
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=97343|AlignEnd=97373|Overlap=Rhap_D0001-46
 5	très	très	ADV	_	_	8	mod	_	AlignBegin=97373|AlignEnd=97793|Overlap=Rhap_D0001-46|SpaceAfter=No
@@ -1710,7 +1710,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0001.mp3
 # macrosyntax = ( $L1 "mh" // -$ ) { oui | oui } //
 # text = mh.
-1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=96898|AlignEnd=98468|AttachTo=2@Rhap_D0001-45|Overlap=Rhap_D0001-45|Rel=discourse|SpaceAfter=No
+1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=96898|AlignEnd=98468|Backchannel=Rhap_D0001-45::2|Overlap=Rhap_D0001-45|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=98468|AlignEnd=98468|Overlap=Rhap_D0001-30
 
 # sent_id = Rhap_D0001-47
@@ -1739,7 +1739,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0001.mp3
 # macrosyntax = ( $L1 "mh" // -$ ) { oui | oui } //
 # text = oui, oui.
-1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=98917|AlignEnd=99057|AttachTo=2@Rhap_D0001-45|Rel=discourse|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=98917|AlignEnd=99057|Backchannel=Rhap_D0001-45::2|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=99057|AlignEnd=99057
 3	oui	oui	INTJ	_	_	1	conj:dicto	_	AlignBegin=99057|AlignEnd=99162|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=99162|AlignEnd=99162
@@ -2403,7 +2403,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0001.mp3
 # macrosyntax = ( $L1 "mh" -$ )
 # text = mh.
-1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=136312|AlignEnd=137420|AttachTo=3@Rhap_D0001-64|Overlap=Rhap_D0001-64|Rel=discourse|SpaceAfter=No
+1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=136312|AlignEnd=137420|Backchannel=Rhap_D0001-64::3|Overlap=Rhap_D0001-64|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=137420|AlignEnd=137420|Overlap=Rhap_D0001-47
 
 # sent_id = Rhap_D0001-66
@@ -2685,7 +2685,7 @@
 # macrosyntax = c'est ( $L1 "mh" oui d'accord // ) -$ $- des achats ponctuels //
 # text = c'est des achats ponctuels.
 1	c'	ce	PRON	_	PronType=Dem	2	subj	_	AlignBegin=148647|AlignEnd=148727|Gender[lex]=Masc|Number[lex]=Sing|Overlap=Rhap_D0001-74|Person[lex]=3|SpaceAfter=No
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=148727|AlignEnd=148814|AttachTo=2@Rhap_D0001-72|Overlap=Rhap_D0001-74|Rel=parataxis:conj
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=148727|AlignEnd=148814|Coconstruct=parataxis:conj::Rhap_D0001-72::2|Overlap=Rhap_D0001-74
 3	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	4	det	_	AlignBegin=148814|AlignEnd=148969|LiaisonAfter=Yes|Overlap=Rhap_D0001-75
 4	achats	achat	NOUN	_	_	2	comp:pred	_	AlignBegin=148969|AlignEnd=149229|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|Overlap=Rhap_D0001-75
 5	ponctuels	ponctuel	ADJ	_	_	4	mod	_	AlignBegin=149229|AlignEnd=149689|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|Overlap=Rhap_D0001-75|SpaceAfter=No
@@ -2719,7 +2719,7 @@
 # text = mh, oui, d'accord.
 1	mh	mh	INTJ	_	_	3	discourse	_	AlignBegin=147456|AlignEnd=148814|Overlap=Rhap_D0001-73|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=148814|AlignEnd=147456|Overlap=Rhap_D0001-55
-3	oui	oui	INTJ	_	_	0	root	_	AlignBegin=147456|AlignEnd=148814|AttachTo=2@Rhap_D0001-73|Overlap=Rhap_D0001-73|Rel=discourse|SpaceAfter=No
+3	oui	oui	INTJ	_	_	0	root	_	AlignBegin=147456|AlignEnd=148814|Backchannel=Rhap_D0001-73::2|Overlap=Rhap_D0001-73|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=148814|AlignEnd=147456|Overlap=Rhap_D0001-55
 5	d'	de	ADP	_	ExtPos=ADP	3	discourse	_	AlignBegin=147456|AlignEnd=148814|Idiom=Yes|Overlap=Rhap_D0001-73|SpaceAfter=No
 6	accord	accord	NOUN	_	_	5	comp:obj	_	AlignBegin=147456|AlignEnd=148814|Gender[lex]=Masc|InIdiom=Yes|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|Overlap=Rhap_D0001-73|SpaceAfter=No
@@ -3163,7 +3163,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0001.mp3
 # macrosyntax = ^et ^puis après <+ j'étais au lycée Arago //+ $- donc < "voyez" { qui est ESPERLUETTE | ( $L1 mh XXX mh mh // ) -$ "hein" qui avait { une annexe d'ailleurs "euh" | une annexe qui est à Reuilly-Diderot } } //
 # text = mh, XXX mh, mh.
-1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=195553|AlignEnd=195708|AttachTo=17@Rhap_D0001-84|Overlap=Rhap_D0001-84|Rel=discourse|SpaceAfter=No
+1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=195553|AlignEnd=195708|Backchannel=Rhap_D0001-84::17|Overlap=Rhap_D0001-84|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=195708|AlignEnd=0|Overlap=Rhap_D0001-63
 3	XXX	XXX	X	_	_	1	unk@scrap	_	AlignBegin=0|AlignEnd=195708|Overlap=Rhap_D0001-63
 4	mh	mh	INTJ	_	_	3	conj:dicto	_	AlignBegin=195708|AlignEnd=196336|Overlap=Rhap_D0001-84|SpaceAfter=No
@@ -3409,7 +3409,7 @@
 # macrosyntax = $L2 XXX { oui | oui | oui } XXX // -$
 # text = XXX oui, oui, oui XXX.
 1	XXX	XXX	X	_	_	2	unk@scrap	_	AlignBegin=210013|AlignEnd=212063|Overlap=Rhap_D0001-90
-2	oui	oui	INTJ	_	_	0	root	_	AlignBegin=210013|AlignEnd=212063|AttachTo=4@Rhap_D0001-90|Overlap=Rhap_D0001-90|Rel=discourse|SpaceAfter=No
+2	oui	oui	INTJ	_	_	0	root	_	AlignBegin=210013|AlignEnd=212063|Backchannel=Rhap_D0001-90::4|Overlap=Rhap_D0001-90|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=212063|AlignEnd=210013|Overlap=Rhap_D0001-68
 4	oui	oui	INTJ	_	_	2	conj:coord	_	AlignBegin=210013|AlignEnd=212063|Overlap=Rhap_D0001-90|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=212063|AlignEnd=0|Overlap=Rhap_D0001-68
@@ -3851,7 +3851,7 @@
 # macrosyntax = c'é~ ESPERLUETTE //
 # text = c'é~…
 1	c'	ce	PRON	_	PronType=Dem	2	subj	_	AlignBegin=229496|AlignEnd=229676|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-2	é~	é~	X	_	ExtPos=VERB	0	root@scrap	_	AlignBegin=229676|AlignEnd=229768|AttachTo=2@Rhap_D0001-102|Rel=parataxis:conj|SpaceAfter=No
+2	é~	é~	X	_	ExtPos=VERB	0	root@scrap	_	AlignBegin=229676|AlignEnd=229768|Coconstruct=parataxis:conj::Rhap_D0001-102::2|SpaceAfter=No
 3	…	…	PUNCT	_	_	2	punct	_	AlignBegin=229768|AlignEnd=229768
 
 # sent_id = Rhap_D0001-104
@@ -4022,7 +4022,7 @@
 # macrosyntax = $- l'école ( $L2 c'était ESPERLUETTE // ) -$ est conçue $- maintenant comme un ( $L2 voilà // ) -$ pensum //
 # text = c'était…
 1	c'	ce	PRON	_	PronType=Dem	2	subj	_	AlignBegin=235874|AlignEnd=236249|Gender[lex]=Masc|Number[lex]=Sing|Overlap=Rhap_D0001-107|Person[lex]=3|SpaceAfter=No
-2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root@scrap	_	AlignBegin=235874|AlignEnd=236249|AttachTo=5@Rhap_D0001-106|Overlap=Rhap_D0001-107|Rel=conj:dicto|SpaceAfter=No
+2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root@scrap	_	AlignBegin=235874|AlignEnd=236249|Coconstruct=conj:dicto::Rhap_D0001-106::5|Overlap=Rhap_D0001-107|SpaceAfter=No
 3	…	…	PUNCT	_	_	2	punct	_	AlignBegin=236249|AlignEnd=236249|Overlap=Rhap_D0001-81
 
 # sent_id = Rhap_D0001-109
@@ -4051,7 +4051,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0001.mp3
 # macrosyntax = $- l'école ( $L2 c'était ESPERLUETTE // ) -$ est conçue $- maintenant comme un ( $L2 voilà // ) -$ pensum //
 # text = voilà.
-1	voilà	voilà	VERB	_	_	0	root	_	AlignBegin=236718|AlignEnd=237414|AttachTo=4@Rhap_D0001-107|Overlap=Rhap_D0001-107|Rel=discourse|SpaceAfter=No
+1	voilà	voilà	VERB	_	_	0	root	_	AlignBegin=236718|AlignEnd=237414|Backchannel=Rhap_D0001-107::4|Overlap=Rhap_D0001-107|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=237414|AlignEnd=237414|Overlap=Rhap_D0001-81
 
 # sent_id = Rhap_D0001-110
@@ -4122,7 +4122,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0001.mp3
 # macrosyntax = $L2 { oui | oui | oui } //
 # text = oui, oui, oui.
-1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=238745|AlignEnd=238976|AttachTo=3@Rhap_D0001-110|Overlap=Rhap_D0001-110|Rel=discourse|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=238745|AlignEnd=238976|Backchannel=Rhap_D0001-110::3|Overlap=Rhap_D0001-110|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=239614|AlignEnd=238745|Overlap=Rhap_D0001-82
 3	oui	oui	INTJ	_	_	1	conj:coord	_	AlignBegin=238976|AlignEnd=239136|Overlap=Rhap_D0001-110|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=239614|AlignEnd=238745|Overlap=Rhap_D0001-82
@@ -4155,7 +4155,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0001.mp3
 # macrosyntax = autrefois $- ( $L2 { oui | oui | oui } // ) <+ c'était pas le cas -$ "euh" $- "je veux dire" "euh" // ( $L2 oui // -$ )
 # text = oui.
-1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=240563|AlignEnd=240727|AttachTo=3@Rhap_D0001-110|Overlap=Rhap_D0001-110|Rel=discourse|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=240563|AlignEnd=240727|Backchannel=Rhap_D0001-110::3|Overlap=Rhap_D0001-110|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=240388|AlignEnd=240388|Overlap=Rhap_D0001-82
 
 # sent_id = Rhap_D0001-113
@@ -4260,7 +4260,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0001.mp3
 # macrosyntax = on n'avait -$ pas les conditions matérielles $- ( $L3 { non | non } // ) qu'ils ont maintenant -$ "ça" "euh" //
 # text = non, non.
-1	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=243290|AlignEnd=243556|AttachTo=3@Rhap_D0001-111|Overlap=Rhap_D0001-114|Rel=discourse|SpaceAfter=No
+1	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=243290|AlignEnd=243556|Backchannel=Rhap_D0001-111::3|Overlap=Rhap_D0001-114|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=240861|AlignEnd=240861|Overlap=Rhap_D0001-85
 3	non	non	ADV	_	Polarity=Neg	1	conj:coord	_	AlignBegin=243935|AlignEnd=244325|Overlap=Rhap_D0001-114|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=242001|AlignEnd=242001|Overlap=Rhap_D0001-85
@@ -4744,7 +4744,7 @@
 # macrosyntax = c'est ESPERLUETTE //=
 # text = c'est…
 1	c'	ce	PRON	_	PronType=Dem	2	subj	_	AlignBegin=266543|AlignEnd=269143|Gender[lex]=Masc|Number[lex]=Sing|Overlap=Rhap_D0001-126|Person[lex]=3|SpaceAfter=No
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root@scrap	_	AlignBegin=266543|AlignEnd=269143|AttachTo=2@Rhap_D0001-127|Overlap=Rhap_D0001-126|Rel=parataxis:conj|SpaceAfter=No
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root@scrap	_	AlignBegin=266543|AlignEnd=269143|Coconstruct=parataxis:conj::Rhap_D0001-127::2|Overlap=Rhap_D0001-126|SpaceAfter=No
 3	…	…	PUNCT	_	_	2	punct	_	AlignBegin=269143|AlignEnd=269143|Overlap=Rhap_D0001-96
 
 # sent_id = Rhap_D0001-129
@@ -4920,7 +4920,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0001.mp3
 # macrosyntax = $L2 ça < j'avoue qu'on a du mal quand on voit que Paul Valéry { passe en Zep | # } // $- "je veux dire" ça me ( $L3 ## a été en Zep // "oui" // ) -$ laisse assez rêveur //
 # text = a été en Zep.
-1	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=277637|AlignEnd=278597|AttachTo=16@Rhap_D0001-132|Overlap=Rhap_D0001-135|Rel=conj:dicto
+1	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=277637|AlignEnd=278597|Coconstruct=conj:dicto::Rhap_D0001-132::16|Overlap=Rhap_D0001-135
 2	été	être	VERB	_	VerbForm=Part|Voice=Act	1	comp:aux@tense	_	AlignBegin=277637|AlignEnd=278597|Gender[ctxt]=Gender|Number[ctxt]=Number|Overlap=Rhap_D0001-135|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 3	en	en	ADP	_	_	2	comp:obl	_	AlignBegin=277637|AlignEnd=278597|Overlap=Rhap_D0001-135
 4	Zep	Zep	PROPN	_	_	3	comp:obj	_	AlignBegin=277637|AlignEnd=278597|Gender[lex]=Unknown|Overlap=Rhap_D0001-135|SpaceAfter=No
@@ -5018,7 +5018,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0001.mp3
 # macrosyntax = $- { sur le | sur les | sur le } changement qui est ( $L2 là -$ // $- $L2 oui // ^et ça // ) intervenu -$ //
 # text = sur le, sur les, sur le changement qui est intervenu.
-1	sur	sur	ADP	_	_	0	root	_	AlignBegin=281156|AlignEnd=281351|AttachTo=9@Rhap_D0001-135|Overlap=Rhap_D0001-137|Rel=udep
+1	sur	sur	ADP	_	_	0	root	_	AlignBegin=281156|AlignEnd=281351|Coconstruct=udep::Rhap_D0001-135::9|Overlap=Rhap_D0001-137
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	comp:obj@scrap	_	AlignBegin=281351|AlignEnd=281521|HasSpokenGender=OnlySingExceptWithLiaison|Overlap=Rhap_D0001-137|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=281521|AlignEnd=281641|Overlap=Rhap_D0001-104bis
 4	sur	sur	ADP	_	_	1	conj:dicto	_	AlignBegin=281156|AlignEnd=282824|Overlap=Rhap_D0001-137
@@ -5087,7 +5087,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0001.mp3
 # macrosyntax = $- { sur le | sur les | sur le } changement qui est ( $L2 là -$ // $- $L2 oui // ^et ça // ) intervenu -$ //
 # text = oui.
-1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=282939|AlignEnd=283034|AttachTo=1@Rhap_D0001-136|Overlap=Rhap_D0001-136|Rel=discourse|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=282939|AlignEnd=283034|Backchannel=Rhap_D0001-136::1|Overlap=Rhap_D0001-136|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=283853|AlignEnd=283853|Overlap=Rhap_D0001-104
 
 # sent_id = Rhap_D0001-139

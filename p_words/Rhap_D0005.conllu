@@ -363,7 +363,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0005.mp3
 # macrosyntax = $L2 "ouais" // -$
 # text = ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=24189|AlignEnd=25001|AttachTo=9@Rhap_D0005-8|Overlap=Rhap_D0005-8|Rel=discourse|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=24189|AlignEnd=25001|Backchannel=Rhap_D0005-8::9|Overlap=Rhap_D0005-8|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=25001|AlignEnd=25001|Overlap=Rhap_D0005-8
 
 # sent_id = Rhap_D0005-10
@@ -1419,7 +1419,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0005.mp3
 # macrosyntax = $L2 ouais //
 # text = ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=116880|AlignEnd=117097|AttachTo=1@Rhap_D0005-32|Overlap=Rhap_D0005-32|Rel=discourse|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=116880|AlignEnd=117097|Backchannel=Rhap_D0005-32::1|Overlap=Rhap_D0005-32|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=117344|AlignEnd=117344|Overlap=Rhap_D0005-30
 
 # sent_id = Rhap_D0005-34
@@ -1739,7 +1739,7 @@
 # macrosyntax = { ils sa~ | ils savaient } -$ pas utiliser un ordinateur //
 # text = ils sa~, ils savaient pas utiliser un ordinateur.
 1	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	2	subj	_	AlignBegin=129242|AlignEnd=129347|Overlap=Rhap_D0005-39|Person[lex]=3
-2	sa~	sa~	X	_	ExtPos=VERB	0	root	_	AlignBegin=129347|AlignEnd=129561|AttachTo=2@Rhap_D0005-40|Overlap=Rhap_D0005-39|Rel=parataxis:conj|SpaceAfter=No
+2	sa~	sa~	X	_	ExtPos=VERB	0	root	_	AlignBegin=129347|AlignEnd=129561|Coconstruct=parataxis:conj::Rhap_D0005-40::2|Overlap=Rhap_D0005-39|SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	AlignBegin=129891|AlignEnd=127101|Overlap=Rhap_D0005-36
 4	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	5	subj	_	AlignBegin=129561|AlignEnd=129645|Overlap=Rhap_D0005-39|Person[lex]=3
 5	savaient	savoir	VERB	_	Mood=Ind|Person=3|Tense=Imp|VerbForm=Fin	2	conj:dicto	_	AlignBegin=129645|AlignEnd=129891|Number[ctxt]=Plur|Overlap=Rhap_D0005-39
@@ -2121,7 +2121,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0005.mp3
 # macrosyntax = $L2 { ouais | ouais | ouais } -$ //
 # text = ouais, ouais, ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=150369|AlignEnd=151861|AttachTo=8@Rhap_D0005-51|Overlap=Rhap_D0005-51|Rel=discourse|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=150369|AlignEnd=151861|Backchannel=Rhap_D0005-51::8|Overlap=Rhap_D0005-51|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=151861|AlignEnd=150369|Overlap=Rhap_D0005-48
 3	ouais	ouais	INTJ	_	_	1	conj:coord	_	AlignBegin=150369|AlignEnd=151861|Overlap=Rhap_D0005-51|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=151861|AlignEnd=150369|Overlap=Rhap_D0005-48
@@ -2821,7 +2821,7 @@
 # sound_url = https://rhapsodie.modyco.fr/rp/waves/Rhap-D0005.mp3
 # macrosyntax = $L2 ouais //
 # text = ouais.
-1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=179739|AlignEnd=180158|AttachTo=8@Rhap_D0005-69|Overlap=Rhap_D0005-69|Rel=discourse|SpaceAfter=No
+1	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=179739|AlignEnd=180158|Backchannel=Rhap_D0005-69::8|Overlap=Rhap_D0005-69|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=180158|AlignEnd=180158|Overlap=Rhap_D0005-64
 
 # sent_id = Rhap_D0005-71
@@ -3563,7 +3563,7 @@
 # text = ça se règle.
 1	ça	ça	PRON	_	PronType=Dem	3	subj	_	AlignBegin=213699|AlignEnd=213824|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 2	se	soi	PRON	_	PronType=Prs|Reflex=Yes	3	comp@pass	_	AlignBegin=213824|AlignEnd=213924|Person[lex]=3
-3	règle	régler	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=213924|AlignEnd=214184|AttachTo=5@Rhap_D0005-88|Number[ctxt]=Sing|Person[ctxt]=3|Rel=parataxis:conj|SpaceAfter=No
+3	règle	régler	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=213924|AlignEnd=214184|Coconstruct=parataxis:conj::Rhap_D0005-88::5|Number[ctxt]=Sing|Person[ctxt]=3|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=214184|AlignEnd=214184
 
 # sent_id = Rhap_D0005-90
@@ -3594,7 +3594,7 @@
 # text = ça se règle maintenant.
 1	ça	ça	PRON	_	PronType=Dem	3	subj	_	AlignBegin=214184|AlignEnd=214344|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 2	se	soi	PRON	_	PronType=Prs|Reflex=Yes	3	comp@pass	_	AlignBegin=214344|AlignEnd=214434|Person[lex]=3
-3	règle	régler	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=214434|AlignEnd=214604|AttachTo=3@Rhap_D0005-89|Number[ctxt]=Sing|Person[ctxt]=3|Rel=parataxis:conj
+3	règle	régler	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=214434|AlignEnd=214604|Coconstruct=parataxis:conj::Rhap_D0005-89::3|Number[ctxt]=Sing|Person[ctxt]=3
 4	maintenant	maintenant	ADV	_	_	3	mod	_	AlignBegin=214604|AlignEnd=214953|SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	AlignBegin=214953|AlignEnd=214953
 
@@ -4200,7 +4200,7 @@
 # text = ah, ouais.
 1	ah	ah	INTJ	_	_	3	discourse	_	AlignBegin=236658|AlignEnd=236843|Overlap=Rhap_D0005-105|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=237071|AlignEnd=236658|Overlap=Rhap_D0005-98
-3	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=236843|AlignEnd=237071|AttachTo=5@Rhap_D0005-105|Overlap=Rhap_D0005-105|Rel=discourse|SpaceAfter=No
+3	ouais	ouais	INTJ	_	_	0	root	_	AlignBegin=236843|AlignEnd=237071|Backchannel=Rhap_D0005-105::5|Overlap=Rhap_D0005-105|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=237071|AlignEnd=237071|Overlap=Rhap_D0005-98
 
 # sent_id = Rhap_D0005-107
