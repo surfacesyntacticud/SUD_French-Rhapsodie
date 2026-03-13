@@ -3,10 +3,12 @@ GREW=grew
 GRS_CONVERT=/Users/guillaum/github/surfacesyntacticud/tools/converter/grs
 UD_TOOLS=/Users/guillaum/github/UniversalDependencies/tools
 SUD_TOOLS=/Users/guillaum/github/surfacesyntacticud/tools/MISC
+UNIDIVE=/Users/guillaum/github/UniDive/SpLAn-UD/metadata-encoding
 
 # Corpus specific variables
 LANG=fr
 UD_FOLDER=/Users/guillaum/github/UniversalDependencies/UD_French-Rhapsodie
+ORIGINAL_SPLIT=${UD_FOLDER}/not-to-release/original_split
 
 doc:
 	@echo "-------------------------------------------------------"
@@ -18,27 +20,22 @@ doc:
 	@echo "make validate ---> UD validation of last conversion"
 	@echo "-------------------------------------------------------"
 
-
-# NB: naming in SUD is `….sud.…` and `…-ud-…` in UD
 convert:
-	for infile in Rhap*.conllu ; do \
-		outfile=`echo $$infile | sed "s+^+${UD_FOLDER}/not-to-release/+" | sed "s+.sud.+-ud-+"` ; \
+	mkdir -p ${ORIGINAL_SPLIT}
+	for infile in *.conllu ; do \
+		outfile=`echo $$infile | sed "s+^+${ORIGINAL_SPLIT}/+"` ; \
 		echo "$$infile --> $$outfile" ; \
 		${GREW} transform -config sud -grs ${GRS_CONVERT}/fr_SUD_to_UD.grs -strat fr_main -i $$infile -o $$outfile ; \
 	done
-	@make build_ud
+	cp -f merge.json ${ORIGINAL_SPLIT}
+	cp -f metadata.json ${ORIGINAL_SPLIT}
+	python3 ${UNIDIVE}/merge_and_unshare.py ${UD_FOLDER}
 
-build_ud:
-	echo "# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC" > _ud_full.conllu
-	for infile in ${UD_FOLDER}/not-to-release/*.conllu ; do \
-		cat $$infile | grep -v "# global.columns" >> _ud_full.conllu ; \
+validate:
+	for file in ${ORIGINAL_SPLIT}/*.conllu ; do \
+		echo `basename $$file` ; \
+		${UD_TOOLS}/validate.py --lang=${LANG} --max-err=0 $$file || true ; \
 	done
-	python3 ${SUD_TOOLS}/conll_filter.py utils/sent_ids_dev.txt _ud_full.conllu ${UD_FOLDER}/fr_rhapsodie-ud-dev.conllu
-	python3 ${SUD_TOOLS}/conll_filter.py utils/sent_ids_test.txt _ud_full.conllu ${UD_FOLDER}/fr_rhapsodie-ud-test.conllu
-	python3 ${SUD_TOOLS}/conll_filter.py utils/sent_ids_train.txt _ud_full.conllu ${UD_FOLDER}/fr_rhapsodie-ud-train.conllu
-	rm -f _ud_full.conllu
-
-
 
 norm:
 	for file in *.conllu ; do \
@@ -46,13 +43,8 @@ norm:
 		mv -f tmp $$file ; \
 	done
 
-validate:
-	for file in ${UD_FOLDER}/*.conllu ; do \
-		${UD_TOOLS}/validate.py --lang=${LANG} --max-err=0 $$file || true ; \
-	done
-
 # Running a GRS on *.conllu --> should not be used. Upstream maintenance in prosody_pauses
-run:
+run_do_not_use:
 	for file in *.conllu ; do \
 		${GREW} transform -config sud -grs ../extpos.grs -i $$file -o tmp ; \
 		mv -f tmp $$file ; \
@@ -115,9 +107,8 @@ step2:
 
 # step3
 # build the corpus without the amalgams (applying grs/split_amalgam.grs)
-# output goes to "_s_words"
+# output goes to root_folder
 step3:
-	mkdir -p _s_words
 	for infile in p_words/*.conllu ; do \
 		outfile=`echo $$infile | sed "s+p_words+.+"` ; \
 		echo "$$infile --> $$outfile" ; \
@@ -125,6 +116,8 @@ step3:
 		cat tmp | sed "s/##SAN##	_	_	_	_	_	_	_	_/	_	_	_	_	_	_	_	SpaceAfter=No/" > $$outfile ; \
 	done
 	rm -f tmp
+
+# =========================================================
 
 GMQ=/Users/guillaum/github/grew-nlp/grew_match_quick
 gmq_prosody:
