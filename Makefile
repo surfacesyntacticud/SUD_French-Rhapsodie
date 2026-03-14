@@ -50,6 +50,12 @@ run_do_not_use:
 		mv -f tmp $$file ; \
 	done
 
+remove_old_id:
+	for file in *.conllu ; do \
+		cat $$file | grep -v "# old_id = " > tmp ; \
+		mv -f tmp $$file ; \
+	done
+
 # ================================================================================
 size:
 	@echo "dev sentences:"
