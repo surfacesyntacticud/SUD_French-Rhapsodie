@@ -177,7 +177,7 @@
 # speaker_id = §LF16
 # macrosyntax = ça < { non | non } //
 # text = ça, non, non.
-1	ça	ça	PRON	_	PronType=Dem	3	dislocated:unk	_	AlignBegin=28231|AlignEnd=28426|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
+1	ça	ça	PRON	_	PronType=Dem	3	dislocated:subj	_	AlignBegin=28231|AlignEnd=28426|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=28426|AlignEnd=28426
 3	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=28426|AlignEnd=28630|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=28630|AlignEnd=28708
@@ -193,11 +193,11 @@
 1	ça	ça	PRON	_	PronType=Dem	9	dislocated:unk	_	AlignBegin=28933|AlignEnd=29153|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=29153|AlignEnd=29153
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	AlignBegin=29153|AlignEnd=29333|HasSpokenGender=OnlySingExceptWithLiaison
-4	livres	livre	NOUN	_	_	9	dislocated:unk	_	AlignBegin=29333|AlignEnd=29545|Gender[lex]=Masc|Number[ctxt]=Plur
+4	livres	livre	NOUN	_	_	1	conj:appos	_	AlignBegin=29333|AlignEnd=29545|Gender[lex]=Masc|Number[ctxt]=Plur
 5	politiques	politique	ADJ	_	_	4	mod	_	AlignBegin=29847|AlignEnd=30548|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=30548|AlignEnd=31178
 7	enfin	enfin	ADV	_	_	5	discourse	_	AlignBegin=31178|AlignEnd=31393|SpaceAfter=No
-8	,	,	PUNCT	_	_	4	punct	_	AlignBegin=31393|AlignEnd=31393
+8	,	,	PUNCT	_	_	1	punct	_	AlignBegin=31393|AlignEnd=31393
 9	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=31393|AlignEnd=31513|SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	AlignBegin=31513|AlignEnd=31513
 
@@ -255,7 +255,7 @@
 # text = mais les livres politiques, non.
 1	mais	mais	CCONJ	_	_	6	cc	_	AlignBegin=35254|AlignEnd=35497
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	AlignBegin=35497|AlignEnd=35657|HasSpokenGender=OnlySingExceptWithLiaison
-3	livres	livre	NOUN	_	_	6	dislocated:unk	_	AlignBegin=35657|AlignEnd=35879|Gender[lex]=Masc|Number[ctxt]=Plur
+3	livres	livre	NOUN	_	_	6	dislocated:subj	_	AlignBegin=35657|AlignEnd=35879|Gender[lex]=Masc|Number[ctxt]=Plur
 4	politiques	politique	ADJ	_	_	3	mod	_	AlignBegin=36124|AlignEnd=36659|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	AlignBegin=36659|AlignEnd=36659
 6	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=36659|AlignEnd=36779|SpaceAfter=No
