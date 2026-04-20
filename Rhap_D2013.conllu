@@ -113,7 +113,7 @@
 5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=15311|AlignEnd=15311
 6	constate	constater	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis:insert	_	AlignBegin=15311|AlignEnd=15771|Number[ctxt]=Sing|Person[ctxt]=3
 7	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	AlignBegin=15771|AlignEnd=15861|HasSpokenGender=OnlySingExceptWithLiaison
-8	Voix	Voix	PROPN	_	ExtPos=PROPN|Gender=Fem|Number=Sing	6	subj	_	AlignBegin=15861|AlignEnd=16001
+8	Voix	voix	NOUN	_	ExtPos=PROPN|Number=Sing	6	subj	_	AlignBegin=15861|AlignEnd=16001|Gender[lex]=Fem
 9-10	du	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	8	mod	_	AlignBegin=16001|AlignEnd=16120
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	AlignBegin=16001|AlignEnd=16120
@@ -262,7 +262,7 @@
 # text = pour Le Parisien aujourd'hui en France, à la une, ce n'est plus une vague.
 1	pour	pour	ADP	_	_	14	mod	_	AlignBegin=38774|AlignEnd=38899
 2	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	AlignBegin=38899|AlignEnd=38999|HasSpokenGender=OnlySingExceptWithLiaison
-3	Parisien	Parisien	PROPN	_	Gender=Masc|Number=Sing	1	comp:obj	_	AlignBegin=38999|AlignEnd=39429
+3	Parisien	Parisien	PROPN	_	Number=Sing	1	comp:obj	_	AlignBegin=38999|AlignEnd=39429|Gender[lex]=Masc
 4	aujourd'hui	aujourd'hui	PROPN	_	_	3	unk	_	AlignBegin=39429|AlignEnd=39749|Gender[lex]=Unknown
 5	en	en	ADP	_	_	3	mod	_	AlignBegin=39749|AlignEnd=39859
 6	France	France	PROPN	_	_	5	comp:obj	_	AlignBegin=39859|AlignEnd=40189|Gender[lex]=Unknown|SpaceAfter=No
@@ -425,7 +425,7 @@
 # text = pour Le Figaro, aussi, la gauche a transformé l'essai du premier tour.
 1	pour	pour	ADP	_	_	10	mod	_	AlignBegin=67582|AlignEnd=67687
 2	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	AlignBegin=67687|AlignEnd=67717|HasSpokenGender=OnlySingExceptWithLiaison
-3	Figaro	Figaro	PROPN	_	Gender=Masc|Number=Sing	1	comp:obj	_	AlignBegin=67717|AlignEnd=68097|SpaceAfter=No
+3	Figaro	Figaro	PROPN	_	Number=Sing	1	comp:obj	_	AlignBegin=67717|AlignEnd=68097|Gender[lex]=Masc|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=68097|AlignEnd=68097
 5	aussi	aussi	ADV	_	_	3	mod	_	AlignBegin=68097|AlignEnd=68437|SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	AlignBegin=68437|AlignEnd=68437
@@ -449,7 +449,7 @@
 # macrosyntax = Le Figaro qui reconnaît l'écrasante victoire de la gauche } //
 # text = Le Figaro qui reconnaît l'écrasante victoire de la gauche.
 1	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	AlignBegin=70577|AlignEnd=70657|HasSpokenGender=OnlySingExceptWithLiaison
-2	Figaro	Figaro	PROPN	_	Gender=Masc|Number=Sing	0	root	_	AlignBegin=70657|AlignEnd=71030
+2	Figaro	Figaro	PROPN	_	Number=Sing	0	root	_	AlignBegin=70657|AlignEnd=71030|Gender[lex]=Masc
 3	qui	qui	PRON	_	PronType=Rel	4	subj	_	AlignBegin=71352|AlignEnd=71487
 4	reconnaît	reconnaître	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	2	mod@relcl	_	AlignBegin=71487|AlignEnd=72007|Person[ctxt]=3
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	AlignBegin=72007|AlignEnd=72037|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
@@ -589,7 +589,7 @@
 8	Mougeotte	Mougeotte	PROPN	_	_	7	flat@name	_	AlignBegin=94348|AlignEnd=94648|Gender[lex]=Unknown
 9	dans	dans	ADP	_	_	6	mod	_	AlignBegin=94648|AlignEnd=94778
 10	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	AlignBegin=94778|AlignEnd=94848|HasSpokenGender=OnlySingExceptWithLiaison
-11	Figaro	Figaro	PROPN	_	Gender=Masc|Number=Sing	9	comp:obj	_	AlignBegin=94848|AlignEnd=95348|SpaceAfter=No
+11	Figaro	Figaro	PROPN	_	Number=Sing	9	comp:obj	_	AlignBegin=94848|AlignEnd=95348|Gender[lex]=Masc|SpaceAfter=No
 12	,	,	PUNCT	_	_	6	punct	_	AlignBegin=95348|AlignEnd=95348
 13-14	au	_	_	_	_	_	_	_	_
 13	à	à	ADP	_	_	18	mod	_	AlignBegin=95348|AlignEnd=95498
@@ -755,7 +755,7 @@
 9	de	de	ADP	_	_	8	mod	_	AlignBegin=119155|AlignEnd=119245
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	AlignBegin=119245|AlignEnd=119305|HasSpokenGender=OnlySingExceptWithLiaison
 11	Haute	Haute	PROPN	_	_	9	comp:obj	_	AlignBegin=119305|AlignEnd=119545|Gender[lex]=Unknown
-12	Marne	Marne	PROPN	_	Gender=Fem|Number=Sing	11	flat@name	_	AlignBegin=119545|AlignEnd=119815|SpaceAfter=No
+12	Marne	Marne	PROPN	_	Number=Sing	11	flat@name	_	AlignBegin=119545|AlignEnd=119815|Gender[lex]=Fem|SpaceAfter=No
 13	.	.	PUNCT	_	_	5	punct	_	AlignBegin=119815|AlignEnd=119815
 
 # sent_id = Rhap_D2013-35
@@ -1112,6 +1112,6 @@
 5	réformes	réforme	NOUN	_	_	0	root	_	AlignBegin=180303|AlignEnd=180835|Gender[lex]=Fem|Number[ctxt]=Plur
 6	sans	sans	ADP	_	_	5	udep	_	AlignBegin=180949|AlignEnd=181260
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	AlignBegin=181365|AlignEnd=181579|HasSpokenGender=OnlySingExceptWithLiaison
-8	Rolex	Rolex	PROPN	_	Gender=Fem|Number=Sing	6	comp:obj	_	AlignBegin=181579|AlignEnd=182210|SpaceAfter=No
+8	Rolex	Rolex	PROPN	_	Number=Sing	6	comp:obj	_	AlignBegin=181579|AlignEnd=182210|Gender[lex]=Fem|SpaceAfter=No
 9	.	.	PUNCT	_	_	5	punct	_	AlignBegin=182210|AlignEnd=182210
 
