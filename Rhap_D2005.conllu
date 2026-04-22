@@ -99,13 +99,13 @@
 16	auteur	auteur	NOUN	_	_	14	comp:pred	_	AlignBegin=17865|AlignEnd=18225|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 17	de	de	ADP	_	_	16	udep	_	AlignBegin=18225|AlignEnd=18375
 18	nombreux	nombreux	ADJ	_	Gender=Masc	19	mod	_	AlignBegin=18375|AlignEnd=18745|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Plur
-19	best	best	NOUN	_	_	17	comp:obj	_	AlignBegin=18745|AlignEnd=18975
-20	sellers	seller	NOUN	_	_	19	compound	_	AlignBegin=18975|AlignEnd=19537|Number[ctxt]=Plur
-21	comme	comme	ADP	_	_	19	udep	_	AlignBegin=19602|AlignEnd=19847
+19	best	best	X	_	_	17	comp:obj	_	AlignBegin=18745|AlignEnd=18975|Lang=en
+20	sellers	sellers	X	_	_	19	flat@foreign	_	AlignBegin=18975|AlignEnd=19537|Lang=en
+21	comme	comme	ADP	_	_	20	udep	_	AlignBegin=19602|AlignEnd=19847
 22	Mille	Mille	PROPN	_	_	21	comp:obj	_	AlignBegin=19847|AlignEnd=19987|Gender[lex]=Unknown|Title=Yes
 23	quatre	quatre	NUM	_	ExtPos=PROPN	22	mod	_	AlignBegin=19987|AlignEnd=20195|InTitle=Yes|Number[lex]=Sing
-24	cent	cent	NUM	_	ExtPos=PROPN|Number=Plur	23	flat	_	AlignBegin=20195|AlignEnd=20337|InTitle=Yes
-25	quatre-vingt-douze	quatre-vingt-douze	NUM	_	ExtPos=PROPN|Number=Plur	24	flat	_	AlignBegin=20337|AlignEnd=20687|InTitle=Yes
+24	cent	cent	NUM	_	ExtPos=PROPN	23	flat	_	AlignBegin=20195|AlignEnd=20337|InTitle=Yes|Number[lex]=Plur
+25	quatre-vingt-douze	quatre-vingt-douze	NUM	_	ExtPos=PROPN	24	flat	_	AlignBegin=20337|AlignEnd=20687|InTitle=Yes|Number[lex]=Plur
 26	ou	ou	CCONJ	_	_	28	cc	_	AlignBegin=21107|AlignEnd=21377
 27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	AlignBegin=21377|AlignEnd=21537|HasSpokenGender=OnlySingExceptWithLiaison|InTitle=Yes
 28	Dictionnaire	Dictionnaire	PROPN	_	_	22	conj:coord	_	AlignBegin=21537|AlignEnd=22327|Gender[lex]=Unknown|Title=Yes
@@ -322,9 +322,9 @@
 5	Alger	Alger	PROPN	_	_	4	comp:obj	_	AlignBegin=73565|AlignEnd=73935|Gender[lex]=Unknown
 6	en	en	ADP	_	_	3	mod	_	AlignBegin=73935|AlignEnd=74225
 7	mille	mille	NUM	_	ExtPos=PROPN	6	comp:obj	_	AlignBegin=74225|AlignEnd=74345|Number[lex]=Sing
-8	neuf	neuf	NUM	_	ExtPos=PROPN|Number=Plur	7	flat	_	AlignBegin=74345|AlignEnd=74477
-9	cent	cent	NUM	_	ExtPos=PROPN|Number=Plur	8	flat	_	AlignBegin=74477|AlignEnd=74615
-10	quarante-trois	quarante-trois	NUM	_	ExtPos=PROPN|Number=Plur	9	flat	_	AlignBegin=74615|AlignEnd=75287|SpaceAfter=No
+8	neuf	neuf	NUM	_	ExtPos=PROPN	7	flat	_	AlignBegin=74345|AlignEnd=74477|Number[lex]=Plur
+9	cent	cent	NUM	_	ExtPos=PROPN	8	flat	_	AlignBegin=74477|AlignEnd=74615|Number[lex]=Plur
+10	quarante-trois	quarante-trois	NUM	_	ExtPos=PROPN	9	flat	_	AlignBegin=74615|AlignEnd=75287|Number[lex]=Plur|SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	AlignBegin=75287|AlignEnd=75287
 
 # sent_id = Rhap_D2005-13
@@ -502,9 +502,9 @@
 5	France	France	PROPN	_	_	4	comp:obj	_	AlignBegin=107000|AlignEnd=107785|Gender[lex]=Unknown
 6	en	en	ADP	_	_	3	mod	_	AlignBegin=107785|AlignEnd=107891
 7	mille	mille	NUM	_	ExtPos=PROPN	6	comp:obj	_	AlignBegin=107891|AlignEnd=108000|Number[lex]=Sing
-8	neuf	neuf	NUM	_	ExtPos=PROPN|Number=Plur	7	flat	_	AlignBegin=108000|AlignEnd=108120
-9	cent	cent	NUM	_	ExtPos=PROPN|Number=Plur	8	flat	_	AlignBegin=108120|AlignEnd=108190
-10	cinquante-six	cinquante-six	NUM	_	ExtPos=PROPN|Number=Plur	9	flat	_	AlignBegin=108190|AlignEnd=108770|SpaceAfter=No
+8	neuf	neuf	NUM	_	ExtPos=PROPN	7	flat	_	AlignBegin=108000|AlignEnd=108120|Number[lex]=Plur
+9	cent	cent	NUM	_	ExtPos=PROPN	8	flat	_	AlignBegin=108120|AlignEnd=108190|Number[lex]=Plur
+10	cinquante-six	cinquante-six	NUM	_	ExtPos=PROPN	9	flat	_	AlignBegin=108190|AlignEnd=108770|Number[lex]=Plur|SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	AlignBegin=108770|AlignEnd=108770
 
 # sent_id = Rhap_D2005-20
@@ -1020,7 +1020,7 @@
 5	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=199915|AlignEnd=200125
 6	mis	mettre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	5	comp:aux@tense	_	AlignBegin=200125|AlignEnd=200255|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	AlignBegin=200255|AlignEnd=200305|InIdiom=Yes
-8	peu	peu	NOUN	_	ExtPos=ADV	9	mod	_	AlignBegin=200305|AlignEnd=200425|Idiom=Yes
+8	peu	peu	NOUN	_	ExtPos=ADV	9	mod	_	AlignBegin=200305|AlignEnd=200425|Gender[lex]=Masc|Idiom=Yes
 9	plus	plus	ADV	_	_	10	mod	_	AlignBegin=200425|AlignEnd=200575
 10	tard	tard	ADV	_	_	5	mod	_	AlignBegin=200575|AlignEnd=201105|SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	AlignBegin=201105|AlignEnd=0

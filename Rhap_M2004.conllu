@@ -29,10 +29,10 @@
 22	derniers	dernier	ADJ	_	Gender=Masc	23	mod	_	AlignBegin=9094|AlignEnd=9604|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur
 23	jours	jour	NOUN	_	_	20	comp:obj	_	AlignBegin=9604|AlignEnd=10014|Gender[lex]=Masc|Number[ctxt]=Plur
 24	de	de	ADP	_	_	23	udep	_	AlignBegin=10014|AlignEnd=10134
-25	mille	mille	NUM	_	ExtPos=PROPN|Number=Plur	24	comp:obj	_	AlignBegin=10134|AlignEnd=10294
-26	neuf	neuf	NUM	_	ExtPos=PROPN|Number=Plur	25	flat	_	AlignBegin=10294|AlignEnd=10464
-27	cent	cent	NUM	_	ExtPos=PROPN|Number=Plur	26	flat	_	AlignBegin=10464|AlignEnd=10664
-28	quatre-vingt-dix-neuf	quatre-vingt-dix-neuf	NUM	_	ExtPos=PROPN|Number=Plur	27	flat	_	AlignBegin=10664|AlignEnd=11804
+25	mille	mille	NUM	_	ExtPos=PROPN	24	comp:obj	_	AlignBegin=10134|AlignEnd=10294|Number[lex]=Plur
+26	neuf	neuf	NUM	_	ExtPos=PROPN	25	flat	_	AlignBegin=10294|AlignEnd=10464|Number[lex]=Plur
+27	cent	cent	NUM	_	ExtPos=PROPN	26	flat	_	AlignBegin=10464|AlignEnd=10664|Number[lex]=Plur
+28	quatre-vingt-dix-neuf	quatre-vingt-dix-neuf	NUM	_	ExtPos=PROPN	27	flat	_	AlignBegin=10664|AlignEnd=11804|Number[lex]=Plur
 29	dans	dans	ADP	_	_	20	comp:obl	_	AlignBegin=12150|AlignEnd=12325
 30	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	31	det	_	AlignBegin=12325|AlignEnd=12365|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 31	épreuve	épreuve	NOUN	_	_	29	comp:obj	_	AlignBegin=12365|AlignEnd=12803|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
@@ -375,8 +375,8 @@
 12	de	de	ADP	_	_	11	udep	_	AlignBegin=125746|AlignEnd=125846
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	AlignBegin=125846|AlignEnd=125896|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 14	an	an	NOUN	_	_	12	comp:obj	_	AlignBegin=125896|AlignEnd=126006|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
-15	deux	deux	NUM	_	ExtPos=PROPN|Number=Plur	14	mod	_	AlignBegin=126006|AlignEnd=126156
-16	mille	mille	NUM	_	ExtPos=PROPN|Number=Plur	15	flat	_	AlignBegin=126156|AlignEnd=126702|SpaceAfter=No
+15	deux	deux	NUM	_	ExtPos=PROPN	14	mod	_	AlignBegin=126006|AlignEnd=126156|Number[lex]=Plur
+16	mille	mille	NUM	_	ExtPos=PROPN	15	flat	_	AlignBegin=126156|AlignEnd=126702|Number[lex]=Plur|SpaceAfter=No
 17	,	,	PUNCT	_	_	3	punct	_	AlignBegin=126702|AlignEnd=127968
 18	rien	rien	PRON	_	PronType=Neg	20	subj	_	AlignBegin=127968|AlignEnd=128423|Gender[lex]=Masc|Number[lex]=Sing
 19	n'	ne	ADV	_	Polarity=Neg	20	mod	_	AlignBegin=128423|AlignEnd=128473|SpaceAfter=No
@@ -500,8 +500,8 @@
 13	,	,	PUNCT	_	_	15	punct	_	AlignBegin=174515|AlignEnd=174966
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	AlignBegin=174966|AlignEnd=175091|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 15	an	an	NOUN	_	_	12	conj:appos	_	AlignBegin=175091|AlignEnd=175281|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
-16	deux	deux	NUM	_	ExtPos=PROPN|Number=Plur	15	mod	_	AlignBegin=175281|AlignEnd=175431
-17	mille	mille	NUM	_	ExtPos=PROPN|Number=Plur	16	flat	_	AlignBegin=175431|AlignEnd=175951|SpaceAfter=No
+16	deux	deux	NUM	_	ExtPos=PROPN	15	mod	_	AlignBegin=175281|AlignEnd=175431|Number[lex]=Plur
+17	mille	mille	NUM	_	ExtPos=PROPN	16	flat	_	AlignBegin=175431|AlignEnd=175951|Number[lex]=Plur|SpaceAfter=No
 18	,	,	PUNCT	_	_	1	punct	_	AlignBegin=175951|AlignEnd=177037
 19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=177037|AlignEnd=177132
 20	devenu	devenir	VERB	_	VerbForm=Part|Voice=Act	19	comp:aux@tense	_	AlignBegin=177132|AlignEnd=177922|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
@@ -530,12 +530,12 @@
 12	instants	instant	NOUN	_	_	10	comp:obj	_	AlignBegin=184241|AlignEnd=184681|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 13	avec	avec	ADP	_	_	10	mod	_	AlignBegin=184681|AlignEnd=184831
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	15	det	_	AlignBegin=184831|AlignEnd=185011|InIdiom=Yes
-15	peu	peu	NOUN	_	ExtPos=ADV	13	mod	_	AlignBegin=185011|AlignEnd=185437|Idiom=Yes
+15	peu	peu	NOUN	_	ExtPos=ADV	13	mod	_	AlignBegin=185011|AlignEnd=185437|Gender[lex]=Masc|Idiom=Yes
 16	d'	de	ADP	_	_	15	comp:obl	_	AlignBegin=185669|AlignEnd=185884|SpaceAfter=No
 17	émotion	émotion	NOUN	_	_	16	comp:obj	_	AlignBegin=185884|AlignEnd=186644|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 18	,	,	PUNCT	_	_	20	punct	_	AlignBegin=186644|AlignEnd=186644
 19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	AlignBegin=186644|AlignEnd=186744|InIdiom=Yes
-20	peu	peu	NOUN	_	ExtPos=ADV	15	conj:coord	_	AlignBegin=186744|AlignEnd=186904|Idiom=Yes
+20	peu	peu	NOUN	_	ExtPos=ADV	15	conj:coord	_	AlignBegin=186744|AlignEnd=186904|Gender[lex]=Masc|Idiom=Yes
 21	d'	de	ADP	_	_	20	comp:obl	_	AlignBegin=186904|AlignEnd=187024|SpaceAfter=No
 22	étonnement	étonnement	NOUN	_	_	21	comp:obj	_	AlignBegin=187024|AlignEnd=187775|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 23	,	,	PUNCT	_	_	26	punct	_	AlignBegin=187775|AlignEnd=188779
@@ -622,7 +622,7 @@
 16	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	17	det	_	AlignBegin=211236|AlignEnd=211406|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
 17	histoire	histoire	NOUN	_	_	15	comp:obj	_	AlignBegin=211406|AlignEnd=211975|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 18	pour	pour	ADP	_	ExtPos=ADP	3	mod	_	AlignBegin=212910|AlignEnd=213060|Idiom=Yes
-19	peu	peu	NOUN	_	_	18	comp:obj	_	AlignBegin=213060|AlignEnd=213200|InIdiom=Yes
+19	peu	peu	NOUN	_	_	18	comp:obj	_	AlignBegin=213060|AlignEnd=213200|Gender[lex]=Masc|InIdiom=Yes
 20	qu'	que	SCONJ	_	_	18	comp:obj	_	AlignBegin=213200|AlignEnd=213290|SpaceAfter=No
 21	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	22	subj	_	AlignBegin=213290|AlignEnd=213380|Person[lex]=3
 22	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	comp:obj	_	AlignBegin=213380|AlignEnd=213988
@@ -849,9 +849,9 @@
 12	verront	voir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	AlignBegin=285845|AlignEnd=286410
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	AlignBegin=286410|AlignEnd=286490|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 14	an	an	NOUN	_	_	12	comp:obj	_	AlignBegin=286490|AlignEnd=286760|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
-15	deux	deux	NUM	_	ExtPos=PROPN|Number=Plur	14	mod	_	AlignBegin=286760|AlignEnd=286960
-16	mille	mille	NUM	_	ExtPos=PROPN|Number=Plur	15	flat	_	AlignBegin=286960|AlignEnd=287150
-17	cent	cent	NUM	_	ExtPos=PROPN|Number=Plur	16	flat	_	AlignBegin=287150|AlignEnd=287415|SpaceAfter=No
+15	deux	deux	NUM	_	ExtPos=PROPN	14	mod	_	AlignBegin=286760|AlignEnd=286960|Number[lex]=Plur
+16	mille	mille	NUM	_	ExtPos=PROPN	15	flat	_	AlignBegin=286960|AlignEnd=287150|Number[lex]=Plur
+17	cent	cent	NUM	_	ExtPos=PROPN	16	flat	_	AlignBegin=287150|AlignEnd=287415|Number[lex]=Plur|SpaceAfter=No
 18	.	.	PUNCT	_	_	12	punct	_	AlignBegin=287415|AlignEnd=287415
 
 # sent_id = Rhap_M2004-25
@@ -1894,7 +1894,7 @@
 30	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	conj:coord	_	AlignBegin=626008|AlignEnd=626266|LiaisonAfter=Yes
 31	heureuse	heureux	ADJ	_	Number=Sing	32	mod	_	AlignBegin=626420|AlignEnd=627099|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyFemWithLiaison|LiaisonAfter=Yes|LiaisonPossibleBefore=Yes
 32	année	année	NOUN	_	_	24	comp:obj	_	AlignBegin=627099|AlignEnd=627554|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
-33	deux	deux	NUM	_	ExtPos=PROPN|Number=Plur	32	mod	_	AlignBegin=627554|AlignEnd=627734
-34	mille	mille	NUM	_	ExtPos=PROPN|Number=Plur	33	flat	_	AlignBegin=627734|AlignEnd=628264|SpaceAfter=No
+33	deux	deux	NUM	_	ExtPos=PROPN	32	mod	_	AlignBegin=627554|AlignEnd=627734|Number[lex]=Plur
+34	mille	mille	NUM	_	ExtPos=PROPN	33	flat	_	AlignBegin=627734|AlignEnd=628264|Number[lex]=Plur|SpaceAfter=No
 35	.	.	PUNCT	_	_	24	punct	_	AlignBegin=628264|AlignEnd=628264
 

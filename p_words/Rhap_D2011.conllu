@@ -324,7 +324,7 @@
 # speaker_id = §LM30
 # macrosyntax = bonjour > maître //=
 # text = bonjour, Maître.
-1	bonjour	bonjour	NOUN	_	ExtPos=INTJ	0	root	_	AlignBegin=59160|AlignEnd=59425|SpaceAfter=No
+1	bonjour	bonjour	NOUN	_	ExtPos=INTJ	0	root	_	AlignBegin=59160|AlignEnd=59425|Gender[lex]=Masc|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=59425|AlignEnd=0
 3	Maître	maître	NOUN	_	Number=Sing	1	vocative	_	AlignBegin=59425|AlignEnd=59941|Gender[lex]=Masc|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=0|AlignEnd=0
@@ -335,7 +335,7 @@
 # speaker_id = §LM32
 # macrosyntax = $L3 bonjour > Pierre //
 # text = bonjour, Pierre.
-1	bonjour	bonjour	NOUN	_	ExtPos=INTJ	0	root	_	AlignBegin=60284|AlignEnd=60589|SpaceAfter=No
+1	bonjour	bonjour	NOUN	_	ExtPos=INTJ	0	root	_	AlignBegin=60284|AlignEnd=60589|Gender[lex]=Masc|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=60589|AlignEnd=60589
 3	Pierre	Pierre	PROPN	_	_	1	vocative	_	AlignBegin=60589|AlignEnd=60854|Gender[lex]=Unknown|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=60854|AlignEnd=60854
@@ -1005,7 +1005,7 @@
 1	et	et	CCONJ	_	_	3	cc	_	AlignBegin=155269|AlignEnd=155364
 2	tout	tout	ADJ	_	Gender=Masc	3	mod	_	AlignBegin=155364|AlignEnd=155514|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 3	cela	cela	PRON	_	PronType=Dem	0	root	_	AlignBegin=155514|AlignEnd=155824|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
-4	grâce	grâce	NOUN	_	ExtPos=ADV	3	mod	_	AlignBegin=155824|AlignEnd=156384
+4	grâce	grâce	NOUN	_	ExtPos=ADV	3	mod	_	AlignBegin=155824|AlignEnd=156384|Gender[lex]=Fem
 5	à	à	ADP	_	_	4	comp:obl	_	AlignBegin=156528|AlignEnd=156688
 6	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	AlignBegin=156757|AlignEnd=157074|HasSpokenGender=OnlySingExceptWithLiaison
 7	boule	boule	NOUN	_	_	5	comp:obj	_	AlignBegin=157074|AlignEnd=157334|Gender[lex]=Fem|Number[ctxt]=Sing
@@ -1731,7 +1731,7 @@
 15	en	en	PRON	_	PronType=Prs	16	comp:obj	_	AlignBegin=263145|AlignEnd=263235|Person[lex]=3
 16	fait	faire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	8	conj:coord	_	AlignBegin=263235|AlignEnd=263385|Person[ctxt]=3
 17	plus	plus	ADV	_	Polarity=Neg	16	mod	_	AlignBegin=263385|AlignEnd=263697
-18	grâce	grâce	NOUN	_	ExtPos=ADV	16	mod	_	AlignBegin=263697|AlignEnd=264095
+18	grâce	grâce	NOUN	_	ExtPos=ADV	16	mod	_	AlignBegin=263697|AlignEnd=264095|Gender[lex]=Fem
 19	à	à	ADP	_	_	18	comp:obl	_	AlignBegin=264095|AlignEnd=264263
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	AlignBegin=264263|AlignEnd=264345|HasSpokenGender=OnlySingExceptWithLiaison
 21	boule	boule	NOUN	_	_	19	comp:obj	_	AlignBegin=264345|AlignEnd=264525|Gender[lex]=Fem|Number[ctxt]=Sing

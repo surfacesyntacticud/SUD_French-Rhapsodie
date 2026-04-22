@@ -5,7 +5,7 @@
 # speaker_id = §LF35
 # macrosyntax = bonjour > Eric //=
 # text = bonjour Eric.
-1	bonjour	bonjour	NOUN	_	ExtPos=INTJ	0	root	_	AlignBegin=14525|AlignEnd=14869
+1	bonjour	bonjour	NOUN	_	ExtPos=INTJ	0	root	_	AlignBegin=14525|AlignEnd=14869|Gender[lex]=Masc
 2	Eric	Eric	PROPN	_	_	1	vocative	_	AlignBegin=14869|AlignEnd=15213|Gender[lex]=Unknown|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	AlignBegin=15213|AlignEnd=15213
 
@@ -409,7 +409,7 @@
 14-15	du	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	13	udep	_	AlignBegin=112840|AlignEnd=112970
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	AlignBegin=112840|AlignEnd=112970
-16	vingt-neuf	vingt-neuf	NUM	_	ExtPos=PROPN|Number=Plur	17	det	_	AlignBegin=112970|AlignEnd=113452
+16	vingt-neuf	vingt-neuf	NUM	_	ExtPos=PROPN	17	det	_	AlignBegin=112970|AlignEnd=113452|Number[lex]=Plur
 17	janvier	janvier	NOUN	_	_	14	comp:obj	_	AlignBegin=113452|AlignEnd=113883|Gender[lex]=Masc|Number[ctxt]=Sing
 18	dernier	dernier	ADJ	_	Gender=Masc	17	mod	_	AlignBegin=113883|AlignEnd=114351|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 19	.	.	PUNCT	_	_	2	punct	_	AlignBegin=114351|AlignEnd=114351
@@ -644,9 +644,9 @@
 9	Info	Info	PROPN	_	_	8	flat@name	_	AlignBegin=303065|AlignEnd=303479|Gender[lex]=Unknown
 10	réalisé	réaliser	VERB	_	VerbForm=Part	2	mod	_	AlignBegin=303479|AlignEnd=304178|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=Yes	12	det	_	AlignBegin=304178|AlignEnd=304418|HasSpokenGender=OnlySingExceptWithLiaison
-12	treize	treize	NUM	_	ExtPos=PROPN|Number=Plur	10	mod	_	AlignBegin=304418|AlignEnd=304759
+12	treize	treize	NUM	_	ExtPos=PROPN	10	mod	_	AlignBegin=304418|AlignEnd=304759|Number[lex]=Plur
 13	et	et	CCONJ	_	_	14	cc	_	AlignBegin=304759|AlignEnd=304823
-14	quatorze	quatorze	NUM	_	ExtPos=PROPN|Number=Plur	12	conj:coord	_	AlignBegin=304823|AlignEnd=305294
+14	quatorze	quatorze	NUM	_	ExtPos=PROPN	12	conj:coord	_	AlignBegin=304823|AlignEnd=305294|Number[lex]=Plur
 15	février	février	NOUN	_	_	14	mod	_	AlignBegin=305294|AlignEnd=305766|Gender[lex]=Masc|Number[ctxt]=Sing
 16	dernier	dernier	ADJ	_	Gender=Masc	15	mod	_	AlignBegin=305766|AlignEnd=306075|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 17	.	.	PUNCT	_	_	2	punct	_	AlignBegin=0|AlignEnd=0
@@ -698,7 +698,7 @@
 # speaker_id = §LF35
 # macrosyntax = bonjour > Sébastien Paour //
 # text = bonjour Sébastien Paour.
-1	bonjour	bonjour	NOUN	_	ExtPos=INTJ	0	root	_	AlignBegin=320584|AlignEnd=320930
+1	bonjour	bonjour	NOUN	_	ExtPos=INTJ	0	root	_	AlignBegin=320584|AlignEnd=320930|Gender[lex]=Masc
 2	Sébastien	Sébastien	PROPN	_	_	1	vocative	_	AlignBegin=320930|AlignEnd=321418|Gender[lex]=Unknown
 3	Paour	Paour	PROPN	_	_	2	flat@name	_	AlignBegin=321418|AlignEnd=321744|Gender[lex]=Unknown|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=321744|AlignEnd=321744
@@ -1531,9 +1531,9 @@
 14	devraient	devoir	VERB	_	Mood=Cnd|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=750298|AlignEnd=750773|Number[ctxt]=Plur
 15	baisser	baisser	VERB	_	VerbForm=Inf	14	comp:obj	_	AlignBegin=750773|AlignEnd=751126|Subject=SubjRaising
 16	en	en	ADP	_	_	15	mod	_	AlignBegin=751126|AlignEnd=751236
-17	deux	deux	NUM	_	ExtPos=PROPN|Number=Plur	16	comp:obj	_	AlignBegin=751236|AlignEnd=751334
-18	mille	mille	NUM	_	ExtPos=PROPN|Number=Plur	17	flat	_	AlignBegin=751334|AlignEnd=751533
-19	neuf	neuf	NUM	_	ExtPos=PROPN|Number=Plur	18	flat	_	AlignBegin=751533|AlignEnd=752002|SpaceAfter=No
+17	deux	deux	NUM	_	ExtPos=PROPN	16	comp:obj	_	AlignBegin=751236|AlignEnd=751334|Number[lex]=Plur
+18	mille	mille	NUM	_	ExtPos=PROPN	17	flat	_	AlignBegin=751334|AlignEnd=751533|Number[lex]=Plur
+19	neuf	neuf	NUM	_	ExtPos=PROPN	18	flat	_	AlignBegin=751533|AlignEnd=752002|Number[lex]=Plur|SpaceAfter=No
 20	.	.	PUNCT	_	_	14	punct	_	AlignBegin=752002|AlignEnd=752002
 
 # sent_id = Rhap_M2006-68
@@ -1594,7 +1594,7 @@
 10	journée	journée	NOUN	_	_	7	comp:obj	_	AlignBegin=852598|AlignEnd=852902|Gender[lex]=Fem|Number[ctxt]=Sing
 11	de	de	ADP	_	_	10	udep	_	AlignBegin=852902|AlignEnd=853053
 12	ligue	ligue	NOUN	_	_	11	comp:obj	_	AlignBegin=853053|AlignEnd=853373|Gender[lex]=Fem|Number[ctxt]=Sing
-13	un	un	NUM	_	ExtPos=PROPN|Number=Sing	12	mod@appos	_	AlignBegin=853373|AlignEnd=853579
+13	un	un	NUM	_	ExtPos=PROPN	12	mod@appos	_	AlignBegin=853373|AlignEnd=853579|Number[lex]=Sing
 14	hier	hier	ADV	_	_	2	mod	_	AlignBegin=853579|AlignEnd=854060|SpaceAfter=No
 15	.	.	PUNCT	_	_	2	punct	_	AlignBegin=854060|AlignEnd=854060
 
@@ -1635,8 +1635,8 @@
 10	victoire	victoire	NOUN	_	_	8	comp:obj	_	AlignBegin=859669|AlignEnd=860092|Gender[lex]=Fem|Number[ctxt]=Sing
 11	sur	sur	ADP	_	_	10	udep	_	AlignBegin=860092|AlignEnd=860307
 12	Caen	Caen	PROPN	_	_	11	comp:obj	_	AlignBegin=860307|AlignEnd=860830|Gender[lex]=Unknown
-13	deux	deux	NUM	_	ExtPos=PROPN|Number=Plur	10	mod	_	AlignBegin=860900|AlignEnd=861159
-14	zéro	zéro	NUM	_	ExtPos=PROPN|Number=Sing	13	conj:coord	_	AlignBegin=861159|AlignEnd=861567|SpaceAfter=No
+13	deux	deux	NUM	_	ExtPos=PROPN	10	mod	_	AlignBegin=860900|AlignEnd=861159|Number[lex]=Plur
+14	zéro	zéro	NUM	_	ExtPos=PROPN	13	conj:coord	_	AlignBegin=861159|AlignEnd=861567|Number[lex]=Sing|SpaceAfter=No
 15	.	.	PUNCT	_	_	2	punct	_	AlignBegin=861567|AlignEnd=861567
 
 # sent_id = Rhap_M2006-73
@@ -1650,8 +1650,8 @@
 3	impose	imposer	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=862437|AlignEnd=862821|Number[ctxt]=Sing|Person[ctxt]=3
 4	à	à	ADP	_	_	3	comp:obl	_	AlignBegin=862821|AlignEnd=862880
 5	Nancy	Nancy	PROPN	_	_	4	comp:obj	_	AlignBegin=862880|AlignEnd=863345|Gender[lex]=Unknown
-6	deux	deux	NUM	_	ExtPos=PROPN|Number=Plur	3	mod	_	AlignBegin=863455|AlignEnd=863761
+6	deux	deux	NUM	_	ExtPos=PROPN	3	mod	_	AlignBegin=863455|AlignEnd=863761|Number[lex]=Plur
 7	à	à	ADP	_	_	8	cc	_	AlignBegin=863761|AlignEnd=863905
-8	un	un	NUM	_	ExtPos=PROPN|Number=Sing	6	conj:coord	_	AlignBegin=863905|AlignEnd=864055|SpaceAfter=No
+8	un	un	NUM	_	ExtPos=PROPN	6	conj:coord	_	AlignBegin=863905|AlignEnd=864055|Number[lex]=Sing|SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	AlignBegin=864055|AlignEnd=864055
 
