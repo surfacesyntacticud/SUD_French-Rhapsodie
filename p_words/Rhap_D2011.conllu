@@ -862,7 +862,7 @@
 # speaker_id = §LM30
 # macrosyntax = $L1 voilà //
 # text = voilà.
-1	voilà	voilà	VERB	_	_	0	root	_	AlignBegin=134633|AlignEnd=134799|Backchannel=Rhap_D2011-50::3|SpaceAfter=No
+1	voilà	voilà	VERB	_	_	0	root	_	AlignBegin=134633|AlignEnd=134799|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=134799|AlignEnd=134799
 
 # sent_id = Rhap_D2011-52
@@ -1066,10 +1066,10 @@
 # speaker_id = §LM30
 # macrosyntax = $L1 merci beaucoup > maître //
 # text = merci beaucoup, Maître.
-1	merci	merci	INTJ	_	_	0	root	_	AlignBegin=163584|AlignEnd=163969|Backchannel=Rhap_D2011-62::4
+1	merci	merci	INTJ	_	_	0	root	_	AlignBegin=163584|AlignEnd=163969
 2	beaucoup	beaucoup	ADV	_	_	1	mod	_	AlignBegin=163969|AlignEnd=164219|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	AlignBegin=164219|AlignEnd=0
-4	Maître	maître	NOUN	_	Number=Sing	1	vocative	_	AlignBegin=164219|AlignEnd=164699|Gender[lex]=Masc|SpaceAfter=No
+4	Maître	Maître	PROPN	_	Gender=Masc|Number=Sing	1	vocative	_	AlignBegin=164219|AlignEnd=164699|SpaceAfter=No
 5	.	.	PUNCT	_	_	1	punct	_	AlignBegin=0|AlignEnd=0
 
 # sent_id = Rhap_D2011-64
@@ -1141,7 +1141,7 @@
 # speaker_id = §LM30
 # macrosyntax = "eh bien" le secret < il est { là | dans ce ( $L1 "eh" oui // ) petit bruit que l'on entend } //
 # text = eh oui.
-1	eh	eh	INTJ	_	ExtPos=INTJ	0	root	_	AlignBegin=173561|AlignEnd=173694|Backchannel=Rhap_D2011-66::12|Idiom=Yes|Overlap=Rhap_D2011-66
+1	eh	eh	INTJ	_	ExtPos=INTJ	0	root	_	AlignBegin=173561|AlignEnd=173694|Backchannel=Rhap_D2011-66::8|Idiom=Yes|Overlap=Rhap_D2011-66
 2	oui	oui	INTJ	_	_	1	unk	_	AlignBegin=173694|AlignEnd=173946|InIdiom=Yes|Overlap=Rhap_D2011-66|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	AlignBegin=173946|AlignEnd=173946|Overlap=Rhap_D2011-57
 
@@ -1771,7 +1771,7 @@
 # text = ah, oui.
 1	ah	ah	INTJ	_	_	3	discourse	_	AlignBegin=268839|AlignEnd=269054|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=269054|AlignEnd=269054
-3	oui	oui	INTJ	_	_	0	root	_	AlignBegin=269054|AlignEnd=269214|Backchannel=Rhap_D2011-100::11|SpaceAfter=No
+3	oui	oui	INTJ	_	_	0	root	_	AlignBegin=269054|AlignEnd=269214|Answer=Rhap_D2011-100::11|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=269214|AlignEnd=269214
 
 # sent_id = Rhap_D2011-102
@@ -1867,7 +1867,7 @@
 # speaker_id = §LF22
 # macrosyntax = $L5 tout à fait //
 # text = tout à fait.
-1	tout	tout	ADV	_	_	0	root	_	AlignBegin=278867|AlignEnd=279487|Overlap=Rhap_D2011-105
+1	tout	tout	ADV	_	_	0	root	_	AlignBegin=278867|AlignEnd=279487|Answer=Rhap_D2011-105::1|Overlap=Rhap_D2011-105
 2	à	à	ADP	_	_	1	comp:obl	_	AlignBegin=278867|AlignEnd=279487|Overlap=Rhap_D2011-105
 3	fait	fait	NOUN	_	_	2	comp:obj	_	AlignBegin=278867|AlignEnd=279487|Gender[lex]=Masc|Number[ctxt]=Sing|Overlap=Rhap_D2011-105|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=279487|AlignEnd=279487|Overlap=Rhap_D2011-90
@@ -1928,7 +1928,7 @@
 # speaker_id = §LF22
 # macrosyntax = {| pas du tout } //
 # text = pas du tout.
-1	pas	pas	ADV	_	Polarity=Neg	0	root	_	AlignBegin=283474|AlignEnd=283647
+1	pas	pas	ADV	_	Polarity=Neg	0	root	_	AlignBegin=283474|AlignEnd=283647|Answer=Rhap_D2011-110::4
 2	du	du	ADP	_	_	1	mod	_	AlignBegin=283647|AlignEnd=283797
 3	tout	tout	NOUN	_	_	2	comp:obj	_	AlignBegin=283797|AlignEnd=284110|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=284110|AlignEnd=284110
@@ -2082,7 +2082,7 @@
 # speaker_id = §LM30
 # macrosyntax = merci $- beaucoup d'être venue -$ $- sur notre plateau //
 # text = merci beaucoup d'être venue sur notre plateau.
-1	merci	merci	INTJ	_	_	0	root	_	AlignBegin=306082|AlignEnd=306450|Backchannel=?
+1	merci	merci	INTJ	_	_	0	root	_	AlignBegin=306082|AlignEnd=306450
 2	beaucoup	beaucoup	ADV	_	_	1	mod	_	AlignBegin=306450|AlignEnd=306655|Overlap=Rhap_D2011-119
 3	d'	de	ADP	_	_	1	udep	_	AlignBegin=306655|AlignEnd=306685|Overlap=Rhap_D2011-119|SpaceAfter=No
 4	être	être	AUX	_	VerbForm=Inf	3	comp:obj	_	AlignBegin=306685|AlignEnd=306935|Overlap=Rhap_D2011-119|Subject=NoRaising
@@ -2098,7 +2098,7 @@
 # speaker_id = §LF21
 # macrosyntax = merci Magalie //
 # text = merci Magalie.
-1	merci	merci	INTJ	_	_	0	root	_	AlignBegin=306450|AlignEnd=307273|Backchannel=?|Overlap=Rhap_D2011-118
+1	merci	merci	INTJ	_	_	0	root	_	AlignBegin=306450|AlignEnd=307273|Overlap=Rhap_D2011-118
 2	Magalie	Magalie	PROPN	_	_	1	vocative	_	AlignBegin=306450|AlignEnd=307273|Gender[lex]=Unknown|Overlap=Rhap_D2011-118|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	AlignBegin=307273|AlignEnd=307273|Overlap=Rhap_D2011-99
 
@@ -2108,7 +2108,7 @@
 # speaker_id = §LF22
 # macrosyntax = $L5 merci à vous -$ //
 # text = merci à vous.
-1	merci	merci	INTJ	_	_	0	root	_	AlignBegin=307273|AlignEnd=308382|Backchannel=?|Overlap=Rhap_D2011-118
+1	merci	merci	INTJ	_	_	0	root	_	AlignBegin=307273|AlignEnd=308382|Overlap=Rhap_D2011-118
 2	à	à	ADP	_	_	1	udep	_	AlignBegin=307273|AlignEnd=308382|Overlap=Rhap_D2011-118
 3	vous	vous	PRON	_	Case=Acc|Emph=No|PronType=Prs	2	comp:obj	_	AlignBegin=307273|AlignEnd=308382|Number[lex]=Plur|Overlap=Rhap_D2011-118|Person[lex]=2|Polite=Unknown|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=308382|AlignEnd=308382|Overlap=Rhap_D2011-99

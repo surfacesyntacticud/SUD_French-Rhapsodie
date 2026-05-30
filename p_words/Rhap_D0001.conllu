@@ -487,7 +487,7 @@
 # text = ah, oui.
 1	ah	ah	INTJ	_	_	3	discourse	_	AlignBegin=61853|AlignEnd=63676|Overlap=Rhap_D0001-25|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=63676|AlignEnd=61853|Overlap=Rhap_D0001-20
-3	oui	oui	INTJ	_	_	0	root	_	AlignBegin=61853|AlignEnd=63676|Backchannel=Rhap_D0001-25::37|Overlap=Rhap_D0001-25|SpaceAfter=No
+3	oui	oui	INTJ	_	_	0	root	_	AlignBegin=61853|AlignEnd=63676|Backchannel=Rhap_D0001-25::4|Overlap=Rhap_D0001-25|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=63676|AlignEnd=63676|Overlap=Rhap_D0001-20
 
 # sent_id = Rhap_D0001-29
@@ -655,8 +655,8 @@
 27	,	,	PUNCT	_	_	28	punct	_	AlignBegin=94060|AlignEnd=94060
 28	hein	hein	INTJ	_	_	26	discourse	_	AlignBegin=94060|AlignEnd=94245|SpaceAfter=No
 29	,	,	PUNCT	_	_	30	punct	_	AlignBegin=94245|AlignEnd=94245
-30	en	en	ADP	_	_	21	mod	_	AlignBegin=94245|AlignEnd=94305
-31	particulier	particulier	ADJ	_	Gender=Masc	30	comp:obj	_	AlignBegin=94578|AlignEnd=96014|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|Overlap=Rhap_D0001-44|SpaceAfter=No
+30	en	en	ADP	_	_	21	mod	_	AlignBegin=94245|AlignEnd=94305|Idiom=Yes
+31	particulier	particulier	ADJ	_	Gender=Masc	30	comp:obj	_	AlignBegin=94578|AlignEnd=96014|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|InIdiom=Yes|Number[ctxt]=Sing|Overlap=Rhap_D0001-44|SpaceAfter=No
 32	.	.	PUNCT	_	_	8	punct	_	AlignBegin=96014|AlignEnd=96014|Overlap=Rhap_D0001-29
 
 # sent_id = Rhap_D0001-37
@@ -1065,7 +1065,7 @@
 # speaker_id = §LF2
 # macrosyntax = $L3 non //= "ah" non //
 # text = non, ah, non.
-1	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=134446|AlignEnd=134941|Overlap=Rhap_D0001-61|SpaceAfter=No
+1	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=134446|AlignEnd=134941|Answer=Rhap_D0001-61::5|Overlap=Rhap_D0001-61|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=136189|AlignEnd=134446|Overlap=Rhap_D0001-44
 3	ah	ah	INTJ	_	_	1	discourse	_	AlignBegin=135001|AlignEnd=135121|Overlap=Rhap_D0001-61|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=136189|AlignEnd=134446|Overlap=Rhap_D0001-44
@@ -1367,7 +1367,7 @@
 # speaker_id = §LM1
 # macrosyntax = $L2 { oui | oui | oui } // -$
 # text = oui, oui, oui.
-1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=167504|AlignEnd=169170|Backchannel=Rhap_D0001-80::1|Overlap=Rhap_D0001-80|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=167504|AlignEnd=169170|Answer=Rhap_D0001-80::1|Overlap=Rhap_D0001-80|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=169170|AlignEnd=167504|Overlap=Rhap_D0001-59
 3	oui	oui	INTJ	_	_	1	conj:coord	_	AlignBegin=167504|AlignEnd=169170|Overlap=Rhap_D0001-80|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=169170|AlignEnd=167504|Overlap=Rhap_D0001-59
@@ -1410,7 +1410,7 @@
 # speaker_id = §LM1
 # macrosyntax = oui ça "euh" ESPERLUETTE //
 # text = oui ça, euh…
-1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=176650|AlignEnd=176810|Backchannel=<sent_id>::<tok_id>
+1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=176650|AlignEnd=176810
 2	ça	ça	PRON	_	PronType=Dem	1	unk@scrap	_	AlignBegin=176999|AlignEnd=177457|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=177457|AlignEnd=177457
 4	euh	euh	INTJ	_	_	2	discourse	_	AlignBegin=177457|AlignEnd=178094|SpaceAfter=No
@@ -1463,7 +1463,7 @@
 # speaker_id = §LF1
 # macrosyntax = ^et ^puis après <+ j'étais au lycée Arago //+ $- donc < "voyez" { qui est ESPERLUETTE | ( $L1 mh XXX mh mh // ) -$ "hein" qui avait { une annexe d'ailleurs "euh" | une annexe qui est à Reuilly-Diderot } } //
 # text = mh, XXX mh, mh.
-1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=195553|AlignEnd=195708|Backchannel=Rhap_D0001-84::17|Overlap=Rhap_D0001-84|SpaceAfter=No
+1	mh	mh	INTJ	_	_	0	root	_	AlignBegin=195553|AlignEnd=195708|Backchannel=Rhap_D0001-84::6|Overlap=Rhap_D0001-84|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=195708|AlignEnd=0|Overlap=Rhap_D0001-63
 3	XXX	XXX	X	_	_	1	unk@scrap	_	AlignBegin=0|AlignEnd=195708|Overlap=Rhap_D0001-63
 4	mh	mh	INTJ	_	_	3	conj:dicto	_	AlignBegin=195708|AlignEnd=196336|Overlap=Rhap_D0001-84|SpaceAfter=No
@@ -1708,7 +1708,7 @@
 1	ah	ah	INTJ	_	_	4	discourse	_	AlignBegin=224937|AlignEnd=226712|Overlap=Rhap_D0001-95|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=226712|AlignEnd=224937|Overlap=Rhap_D0001-72
 3	oui	oui	INTJ	_	_	4	discourse	_	AlignBegin=224937|AlignEnd=226712|Overlap=Rhap_D0001-95
-4	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=224937|AlignEnd=226712|Overlap=Rhap_D0001-95|SpaceAfter=No
+4	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=224937|AlignEnd=226712|Answer=Rhap_D0001-95::6|Overlap=Rhap_D0001-95|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	AlignBegin=226712|AlignEnd=226712|Overlap=Rhap_D0001-72
 
 # sent_id = Rhap_D0001-97
@@ -1800,7 +1800,7 @@
 # speaker_id = §LM1
 # macrosyntax = $L2 { non | non } //
 # text = non, non.
-1	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=229768|AlignEnd=229873|SpaceAfter=No
+1	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=229768|AlignEnd=229873|Answer=Rhap_D0001-101::3|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=229873|AlignEnd=229873
 3	non	non	ADV	_	Polarity=Neg	1	conj:coord	_	AlignBegin=229873|AlignEnd=230123|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=230123|AlignEnd=230123
@@ -1960,7 +1960,7 @@
 # speaker_id = §LF2
 # macrosyntax = on n'avait -$ pas les conditions matérielles $- ( $L3 { non | non } // ) qu'ils ont maintenant -$ "ça" "euh" //
 # text = non, non.
-1	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=243290|AlignEnd=243556|Backchannel=Rhap_D0001-111::3|Overlap=Rhap_D0001-114|SpaceAfter=No
+1	non	non	ADV	_	Polarity=Neg	0	root	_	AlignBegin=243290|AlignEnd=243556|Backchannel=Rhap_D0001-114::3|Overlap=Rhap_D0001-114|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=240861|AlignEnd=240861|Overlap=Rhap_D0001-85
 3	non	non	ADV	_	Polarity=Neg	1	conj:coord	_	AlignBegin=243935|AlignEnd=244325|Overlap=Rhap_D0001-114|SpaceAfter=No
 4	.	.	PUNCT	_	_	1	punct	_	AlignBegin=242001|AlignEnd=242001|Overlap=Rhap_D0001-85
@@ -2272,7 +2272,7 @@
 # speaker_id = §LF2
 # macrosyntax = $L2 ça < j'avoue qu'on a du mal quand on voit que Paul Valéry { passe en Zep | # } // $- "je veux dire" ça me ( $L3 ## a été en Zep // "oui" // ) -$ laisse assez rêveur //
 # text = oui.
-1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=0|AlignEnd=0|Backchannel=<sent_id>::<tok_id>|Overlap=Rhap_D0001-135|SpaceAfter=No
+1	oui	oui	INTJ	_	_	0	root	_	AlignBegin=0|AlignEnd=0|Overlap=Rhap_D0001-135|SpaceAfter=No
 2	.	.	PUNCT	_	_	1	punct	_	AlignBegin=0|AlignEnd=0|Overlap=Rhap_D0001-103
 
 # sent_id = Rhap_D0001-135
@@ -2562,7 +2562,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=322546|AlignEnd=322546
 3	ben	ben	INTJ	_	_	5	discourse	_	AlignBegin=322546|AlignEnd=322706|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=322706|AlignEnd=322706
-5	moi	moi	PRON	_	Emph=Yes|PronType=Prs	0	root	_	AlignBegin=322706|AlignEnd=322856|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+5	moi	moi	PRON	_	Emph=Yes|PronType=Prs	0	root	_	AlignBegin=322706|AlignEnd=322856|Answer=Rhap_D0001-148::1|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=322856|AlignEnd=322856
 7	de	de	ADP	_	_	5	discourse	_	AlignBegin=322856|AlignEnd=322966
 8	toute	tout	DET	_	Gender=Fem|Number=Sing|PronType=Ind	9	det	_	AlignBegin=322966|AlignEnd=323126
