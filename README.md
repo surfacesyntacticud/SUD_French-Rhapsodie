@@ -22,8 +22,8 @@ The table below outlines the various available formats and their production meth
 
 | Treebanks | Desc | Files | Production |
 |-----------|------|-------|------------|
-| [SUD_French-Rhapsodie-prosody_pauses](https://universal.grew.fr/?corpus=SUD_French-Rhapsodie-prosody_pauses) | SUD Syntax + Prosody (including pauses) | `prosody_pauses/*.conllu` | Source data |
-| [SUD_French-Rhapsodie-prosody](https://universal.grew.fr/?corpus=SUD_French-Rhapsodie-prosody) | SUD Syntax + Prosody | `prosody/*.conllu` | `grs/remove_pauses.grs` |
+| [pSUD_French-Rhapsodie@pauses](https://universal.grew.fr/?corpus=pSUD_French-Rhapsodie@pauses) | SUD Syntax + Prosody (including pauses) | `prosody_pauses/*.conllu` | Source data |
+| [pSUD_French-Rhapsodie@latest](https://universal.grew.fr/?corpus=pSUD_French-Rhapsodie@latest) | SUD Syntax + Prosody | `prosody/*.conllu` | `grs/remove_pauses.grs` |
 | [SUD_French-Rhapsodie@p_words](https://universal.grew.fr/?corpus=SUD_French-Rhapsodie@p_words) | SUD Syntax (on phonological words) ${}^1$ | `p_words/*.conllu` | `grs/remove_syllables.grs` |
 | [SUD_French-Rhapsodie@latest](https://universal.grew.fr/?corpus=SUD_French-Rhapsodie@latest) | SUD Syntax | `*.conllu` | `grs/split_amalgam.grs` |
 | [UD_French-Rhapsodie@conv](https://universal.grew.fr/?corpus=UD_French-Rhapsodie@conv) | UD Syntax | `*.conllu` in [UD repo](https://github.com/UniversalDependencies/UD_French-Rhapsodie) | [`fr_SUD_to_UD.grs` in converter](https://github.com/surfacesyntacticud/tools/tree/master/converter) |
