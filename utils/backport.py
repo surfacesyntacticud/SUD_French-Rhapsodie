@@ -5,7 +5,7 @@ import grewpy
 from grewpy import Corpus, CorpusDraft
 grewpy.set_config("sud")
 
-p_words_feats = ["AlignBegin", "AlignEnd", "AttachTo", "Filler", "Gender[ctxt]", "Gender[lex]", "HasSpokenGender", "HasSpokenNumber", "Idiom", "InIdiom", "LiaisonAfter", "LiaisonPossibleBefore", "Number[ctxt]", "Number[lex]", "Overlap", "PastPartHasSpokenGender", "Polite", "Rel", "SpaceAfter", "Subject", "Tense[denom]"]
+# p_words_feats = ["AlignBegin", "AlignEnd", "AttachTo", "Filler", "Gender[ctxt]", "Gender[lex]", "HasSpokenGender", "HasSpokenNumber", "Idiom", "InIdiom", "LiaisonAfter", "LiaisonPossibleBefore", "Number[ctxt]", "Number[lex]", "Overlap", "PastPartHasSpokenGender", "Polite", "Rel", "SpaceAfter", "Subject", "Tense[denom]"]
 
 def backport_sentence (sent1, sent2):
 	index1 = 0
@@ -21,9 +21,9 @@ def backport_sentence (sent1, sent2):
 		if feat2["form"] != sent1[str(index1)]["form"]:  # Chekck that we are well aligned
 			raise ValueError (f'different words: {feat2["form"]} and {sent1[str(index1)]["form"]} in sent_id = {s1}')
 		all_keys = list(sent2[id2].keys())
-		keys_to_remove = [key for key in all_keys if key not in p_words_feats]
-		for key in keys_to_remove:
-			sent2[id2].pop(key)
+		# keys_to_remove = [key for key in all_keys if key not in p_words_feats]
+		# for key in keys_to_remove:
+		# 	sent2[id2].pop(key)
 		sent2[id2].update(sent1[str(index1)])
 		index1 += 1
 		index2 += 1
