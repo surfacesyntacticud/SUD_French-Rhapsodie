@@ -20,22 +20,35 @@ doc:
 	@echo "make validate ---> UD validation of last conversion"
 	@echo "-------------------------------------------------------"
 
-convert:
-	mkdir -p ${ORIGINAL_SPLIT}
-	for infile in *.conllu ; do \
-		outfile=`echo $$infile | sed "s+^+${ORIGINAL_SPLIT}/+"` ; \
-		echo "$$infile --> $$outfile" ; \
-		${GREW} transform -config sud -grs ${GRS_CONVERT}/fr_SUD_to_UD.grs -strat fr_main -i $$infile -o $$outfile ; \
-	done
+UD_CORPUS=UD_French-Rhapsodie@conv
+UD_BUILD_DIR=`grew_dev get_dir ${UD_CORPUS}`
+ud:
+	${GREW} build ${UD_CORPUS}
+	cp ${UD_BUILD_DIR}/*.conllu ${ORIGINAL_SPLIT}
 	cp -f merge.json ${ORIGINAL_SPLIT}
 	cp -f metadata.json ${ORIGINAL_SPLIT}
 	python3 ${UNIDIVE}/merge_and_unshare.py ${UD_FOLDER}
 
 validate:
-	for file in ${ORIGINAL_SPLIT}/*.conllu ; do \
-		echo `basename $$file` ; \
-		${UD_TOOLS}/validate.py --lang=${LANG} --max-err=0 $$file || true ; \
-	done
+	${GREW} validate ${UD_CORPUS}
+	cat ${UD_BUILD_DIR}/_build_grew/${UD_CORPUS}/valid_ud.txt
+
+# convert:
+# 	mkdir -p ${ORIGINAL_SPLIT}
+# 	for infile in *.conllu ; do \
+# 		outfile=`echo $$infile | sed "s+^+${ORIGINAL_SPLIT}/+"` ; \
+# 		echo "$$infile --> $$outfile" ; \
+# 		${GREW} transform -config sud -grs ${GRS_CONVERT}/fr_SUD_to_UD.grs -strat fr_main -i $$infile -o $$outfile ; \
+# 	done
+# 	cp -f merge.json ${ORIGINAL_SPLIT}
+# 	cp -f metadata.json ${ORIGINAL_SPLIT}
+# 	python3 ${UNIDIVE}/merge_and_unshare.py ${UD_FOLDER}
+
+# validate:
+# 	for file in ${ORIGINAL_SPLIT}/*.conllu ; do \
+# 		echo `basename $$file` ; \
+# 		${UD_TOOLS}/validate.py --lang=${LANG} --max-err=0 $$file || true ; \
+# 	done
 
 norm:
 	for file in *.conllu ; do \
@@ -132,4 +145,10 @@ gmq_sud:
 	python3 ${GMQ}/grew_match_quick.py --config sud ../SUD_French-Rhapsodie
 gmq_ud:
 	python3 ${GMQ}/grew_match_quick.py --config ud ${UD_FOLDER}
+
+
+FEATS:
+	cat *.conllu | grep -v "^#" | grep -v "^$$" | cut -f 6 | grep -v "^_$$" | tr "|" "\n" | cut -f 1 -d "=" | sort | uniq -c | sort -nr
+MISC:
+	cat *.conllu | grep -v "^#" | grep -v "^$$" | cut -f 10 | grep -v "^_$$" | tr "|" "\n" | cut -f 1 -d "=" | sort | uniq -c | sort -nr
 
