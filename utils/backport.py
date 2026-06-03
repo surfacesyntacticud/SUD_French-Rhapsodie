@@ -1,11 +1,9 @@
-import sys
+import sys, os
 from pathlib import Path
-from termcolor import colored
+from termcolor import colored, cprint
 import grewpy
 from grewpy import Corpus, CorpusDraft
 grewpy.set_config("sud")
-
-# p_words_feats = ["AlignBegin", "AlignEnd", "AttachTo", "Filler", "Gender[ctxt]", "Gender[lex]", "HasSpokenGender", "HasSpokenNumber", "Idiom", "InIdiom", "LiaisonAfter", "LiaisonPossibleBefore", "Number[ctxt]", "Number[lex]", "Overlap", "PastPartHasSpokenGender", "Polite", "Rel", "SpaceAfter", "Subject", "Tense[denom]"]
 
 def backport_sentence (sent1, sent2):
 	index1 = 0
@@ -21,9 +19,6 @@ def backport_sentence (sent1, sent2):
 		if feat2["form"] != sent1[str(index1)]["form"]:  # Chekck that we are well aligned
 			raise ValueError (f'different words: {feat2["form"]} and {sent1[str(index1)]["form"]} in sent_id = {s1}')
 		all_keys = list(sent2[id2].keys())
-		# keys_to_remove = [key for key in all_keys if key not in p_words_feats]
-		# for key in keys_to_remove:
-		# 	sent2[id2].pop(key)
 		sent2[id2].update(sent1[str(index1)])
 		index1 += 1
 		index2 += 1
@@ -58,11 +53,14 @@ def backport_file (p_word, pauses, out):
 			f.write ("\n")
 
 def main():
-	pathlist = Path("../p_words").glob('*.conllu')
+	if not os.path.isdir('prosody_pauses'):
+		cprint ("Wrong folder. Please run from the root Rhapsodie folder", "red")
+		exit(1)
+	pathlist = Path(".").glob('*.conllu')
 	for path in pathlist:
 		p_word_file = str(path)
-		pause_file = p_word_file.replace("p_words", "prosody_pauses")
-		print (p_word_file)
+		pause_file = f'prosody_pauses/{p_word_file}'
+		print (f'{p_word_file} --> {pause_file}')
 		backport_file (p_word_file, pause_file, pause_file)
 
 if __name__ == "__main__":

@@ -12,6 +12,9 @@ ORIGINAL_SPLIT=${UD_FOLDER}/not-to-release/original_split
 
 doc:
 	@echo "-------------------------------------------------------"
+	@echo "Backport of treebank update to the prosody_pauses"
+	@echo "make backport"
+	@echo "-------------------------------------------------------"
 	@echo "Production of regular SUD from prosody_pauses:"
 	@echo "make build"
 	@echo "-------------------------------------------------------"
@@ -19,6 +22,9 @@ doc:
 	@echo "make norm     ---> normalise with Grew"
 	@echo "make validate ---> UD validation of last conversion"
 	@echo "-------------------------------------------------------"
+
+backport:
+	python3 utils/backport.py
 
 UD_CORPUS=UD_French-Rhapsodie@conv
 UD_BUILD_DIR=`grew_dev get_dir ${UD_CORPUS}`
@@ -101,7 +107,7 @@ build:
 # making everything build for the prosody version produced in https://github.com/Paz2311/StageModyco
 # ===========================================================================
 # step1
-# build the corpus with the prosdy but without the pauses (applying grs/remove_pauses.grs)
+# build the corpus with the prosody but without the pauses (applying grs/remove_pauses.grs)
 # output goes to "prosody"
 step1:
 	mkdir -p prosody
@@ -112,24 +118,24 @@ step1:
 	done
 
 # step2
-# build the corpus without the prosdy (applying grs/remove_syllables.grs)
-# output goes to "p_words" (amalgams "au", "du"… are not split)
+# build the corpus without the prosody (applying grs/remove_syllables.grs)
+# output goes to root folder (amalgams "au", "du"… are not split)
 step2:
-	mkdir -p p_words
 	for infile in prosody/*.conllu ; do \
-		outfile=`echo $$infile | sed "s+prosody+p_words+"` ; \
+		outfile=`echo $$infile | sed "s+prosody+.+"` ; \
 		echo "$$infile --> $$outfile" ; \
-		${GREW} transform -config sud -grs grs/remove_syllables.grs -i $$infile -o tmp ; \
+ 		${GREW} transform -config sud -grs grs/remove_syllables.grs -i $$infile -o tmp ; \
 		grep -v "global.columns" tmp > $$outfile ; \
 	done
 	rm -f tmp
 
 # step3
 # build the corpus without the amalgams (applying grs/split_amalgam.grs)
-# output goes to root_folder
+# output goes to s_words
 step3:
-	for infile in p_words/*.conllu ; do \
-		outfile=`echo $$infile | sed "s+p_words+.+"` ; \
+	mkdir -p s_words
+	for infile in *.conllu ; do \
+		outfile=`echo s_words/$$infile` ; \
 		echo "$$infile --> $$outfile" ; \
 		${GREW} transform -config sud -grs grs/split_amalgam.grs -i $$infile -o tmp ; \
 		cat tmp | sed "s/##SAN##	_	_	_	_	_	_	_	_/	_	_	_	_	_	_	_	SpaceAfter=No/" > $$outfile ; \
