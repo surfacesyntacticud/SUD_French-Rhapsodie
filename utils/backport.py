@@ -5,35 +5,75 @@ import grewpy
 from grewpy import Corpus, CorpusDraft
 grewpy.set_config("sud")
 
-def backport_sentence (sent1, sent2):
-	index1 = 0
-	index2 = 0
-	# We build a mapping from token_id_1 token_id_2 for edge update
+p_words_keys = [
+  "AlignBegin",
+  "AlignEnd",
+  "Answer",
+  "Automated",
+  "Backchannel",
+  "Coconstruct",
+  "ExtGender",
+  "ExtNumber",
+  "Filler",
+  "Gender[ctxt]",
+  "Gender[lex]",
+  "Graft",
+  "HasSpokenGender",
+  "HasSpokenNumber",
+  "Idiom",
+  "InIdiom",
+  "InTitle",
+  "Lang",
+  "LiaisonAfter",
+  "LiaisonPossibleBefore",
+  "Number[ctxt]",
+  "Number[lex]",
+  "Overlap",
+  "PastPartHasSpokenGender",
+  "Person[ctxt]",
+  "Person[lex]",
+  "Polite",
+  "Reported",
+  "SingleSpeaker",
+  "SpaceAfter",
+  "Subject",
+  "Tense[denom]",
+  "Title",
+]
+
+# backport_sentence (sent_p_words, sent_pauses)
+def backport_sentence (sent_p_words, sent_pauses):
+	index_p_words = 0
+	index_pauses = 0
+	# We build a mapping from token_id__p_words token_id__pauses for edge update
 	id_mapping = {}
-	for (id2,feat2) in sent2.features.items():
-		id_mapping[str(index1)] = str(index2)
-		if '.' in id2: continue # skip syllable tokens
-		if feat2["form"] == "#":
-			index2 += 1 # skip pause tokens
+	for (id_pauses,feat_pauses) in sent_pauses.features.items():
+		id_mapping[str(index_p_words)] = str(index_pauses)
+		if '.' in id_pauses: continue # skip syllable tokens
+		if feat_pauses["form"] == "#":
+			index_pauses += 1 # skip pause tokens
 			continue
-		if feat2["form"] != sent1[str(index1)]["form"]:  # Chekck that we are well aligned
-			raise ValueError (f'different words: {feat2["form"]} and {sent1[str(index1)]["form"]} in sent_id = {s1}')
-		all_keys = list(sent2[id2].keys())
-		sent2[id2].update(sent1[str(index1)])
-		index1 += 1
-		index2 += 1
+		if feat_pauses["form"] != sent_p_words[str(index_p_words)]["form"]:  # Chekck that we are well aligned
+			raise ValueError (f'different words: {feat_pauses["form"]} and {sent_p_words[str(index_p_words)]["form"]} in sent_id = {sent_p_words}')
+		for key in p_words_keys:
+			if key in sent_pauses[id_pauses]:
+				del sent_pauses[id_pauses][key]
+
+		sent_pauses[id_pauses].update(sent_p_words[str(index_p_words)])
+		index_p_words += 1
+		index_pauses += 1
 
 	def del_edge_with_tar(t):
-		for id2 in sent2:
-			sent2.sucs[id2] = [(tar, deprel) for (tar, deprel) in sent2.sucs.get(id2,[]) if tar != t]
+		for id_pauses in sent_pauses:
+			sent_pauses.sucs[id_pauses] = [(tar, deprel) for (tar, deprel) in sent_pauses.sucs.get(id_pauses,[]) if tar != t]
 	def add_edge (src,deprel,tar):
-		sent2.sucs[src] = sent2.sucs.get(src,[]) + [(tar,deprel)]
+		sent_pauses.sucs[src] = sent_pauses.sucs.get(src,[]) + [(tar,deprel)]
 
 	# For each token edge (tar univity because of dependencies), 
 	# - remove the corresponding edge in sent_2 
 	# - add an new edge following id_mapping 
-	for src in sent1:
-		for (tar, deprel) in sent1.sucs.get(src,[]):
+	for src in sent_p_words:
+		for (tar, deprel) in sent_p_words.sucs.get(src,[]):
 			del_edge_with_tar(id_mapping[tar])
 			add_edge(id_mapping[src],deprel,id_mapping[tar])
 
@@ -46,10 +86,10 @@ def backport_file (p_word, pauses, out):
 		for s1, s2 in zip(data_p_word, data_pauses):
 			if s1 != s2:
 				raise ValueError (f"different sent_id: {s1} VS {s2}")
-			sent1 = data_p_word[s1]
-			sent2 = data_pauses[s2]
-			backport_sentence (sent1, sent2)
-			f.write (sent2.to_conll())
+			sent_p_words = data_p_word[s1]
+			sent_pauses = data_pauses[s2]
+			backport_sentence (sent_p_words, sent_pauses)
+			f.write (sent_pauses.to_conll())
 			f.write ("\n")
 
 def main():
