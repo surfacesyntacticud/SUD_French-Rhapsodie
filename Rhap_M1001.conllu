@@ -263,14 +263,14 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=28723|AlignEnd=28853|SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	AlignBegin=28853|AlignEnd=28853
 4	c'	ce	PRON	_	PronType=Dem	5	subj	_	AlignBegin=28853|AlignEnd=28933|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj:dicto	_	AlignBegin=28933|AlignEnd=29003
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	repair	_	AlignBegin=28933|AlignEnd=29003
 6	trop	trop	ADV	_	_	5	mod	_	AlignBegin=29003|AlignEnd=29313|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=29273|AlignEnd=29313
 8	enfin	enfin	ADV	_	_	6	discourse	_	AlignBegin=29313|AlignEnd=29533|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=29533|AlignEnd=29533
 10	s~	s~	X	_	_	5	comp:pred	_	AlignBegin=29533|AlignEnd=29563|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	AlignBegin=29563|AlignEnd=29906
-12	stupide	stupide	ADJ	_	_	10	conj:dicto	_	AlignBegin=29906|AlignEnd=30308|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
+12	stupide	stupide	ADJ	_	_	10	repair	_	AlignBegin=29906|AlignEnd=30308|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	AlignBegin=30308|AlignEnd=30308
 
 # sent_id = Rhap_M1001-15
@@ -523,7 +523,7 @@
 # text = s~, si je passe, je passerai en deuxième année, en troisième année.
 1	s~	s~	X	_	_	8	mod	_	AlignBegin=60840|AlignEnd=61015|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=61015|AlignEnd=61015
-3	si	si	SCONJ	_	_	1	conj:dicto	_	AlignBegin=61015|AlignEnd=61204
+3	si	si	SCONJ	_	_	1	repair	_	AlignBegin=61015|AlignEnd=61204
 4	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	AlignBegin=61204|AlignEnd=61435|Number[lex]=Sing|Person[lex]=1
 5	passe	passer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	3	comp:obj	_	AlignBegin=61435|AlignEnd=61635|Person[ctxt]=1|SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	AlignBegin=61635|AlignEnd=61635
@@ -548,7 +548,7 @@
 2	fini~	fini~	X	_	ExtPos=VERB	0	root	_	AlignBegin=63613|AlignEnd=63973|SpaceAfter=No
 3	,	,	PUNCT	_	_	5	punct	_	AlignBegin=63973|AlignEnd=63973
 4	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	AlignBegin=63973|AlignEnd=64123|Number[lex]=Sing|Person[lex]=1
-5	finirai	finir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	2	conj:dicto	_	AlignBegin=64123|AlignEnd=64403
+5	finirai	finir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	2	repair	_	AlignBegin=64123|AlignEnd=64403
 6	ma	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	7	det	_	AlignBegin=64403|AlignEnd=64533|HasSpokenGender=OnlySingExceptWithLiaison
 7	licence	licence	NOUN	_	_	5	comp:obj	_	AlignBegin=64533|AlignEnd=64843|Gender[lex]=Fem|Number[ctxt]=Sing
 8	pour	pour	ADP	_	_	5	mod	_	AlignBegin=64843|AlignEnd=64913
@@ -578,11 +578,11 @@
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=67840|AlignEnd=67990|SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	AlignBegin=67990|AlignEnd=67990
 15	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	16	subj	_	AlignBegin=67990|AlignEnd=68080|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-16	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	conj:dicto	_	AlignBegin=68080|AlignEnd=68170
+16	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	conj:dicto	_	AlignBegin=68080|AlignEnd=68170
 17	beau~	beau~	X	_	ExtPos=ADV	16	mod	_	AlignBegin=68170|AlignEnd=68307|SpaceAfter=No
 18	,	,	PUNCT	_	_	20	punct	_	AlignBegin=68307|AlignEnd=68307
 19	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	20	subj	_	AlignBegin=68307|AlignEnd=68342|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-20	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	conj:dicto	_	AlignBegin=68342|AlignEnd=68425
+20	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	repair	_	AlignBegin=68342|AlignEnd=68425
 21	appris	apprendre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	20	comp:aux@tense	_	AlignBegin=68425|AlignEnd=68650|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 22	beaucoup	beaucoup	ADV	_	_	21	comp:obj	_	AlignBegin=68650|AlignEnd=68870
 23	de	de	ADP	_	_	22	comp:obl	_	AlignBegin=68870|AlignEnd=68900
@@ -656,7 +656,7 @@
 7	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	comp:obj	_	AlignBegin=76146|AlignEnd=76236
 8	à	à	ADP	_	_	7	comp:pred	_	AlignBegin=76236|AlignEnd=76306
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	AlignBegin=76306|AlignEnd=76336|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
-10	écoute	écoute	NOUN	_	_	8	comp:obj	_	AlignBegin=76336|AlignEnd=76576|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
+10	écoute	écoute	NOUN	_	_	8	comp:obj	_	AlignBegin=76336|AlignEnd=76576|cdet=No|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 11	des	de	ADP	_	_	10	udep	_	AlignBegin=76576|AlignEnd=76706
 12	personnes	personne	NOUN	_	_	11	comp:obj	_	AlignBegin=76706|AlignEnd=77150|Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	AlignBegin=77150|AlignEnd=77150
@@ -693,7 +693,7 @@
 17	,	,	PUNCT	_	_	20	punct	_	AlignBegin=80505|AlignEnd=80505
 18	euh	euh	INTJ	_	_	25	discourse	_	AlignBegin=80505|AlignEnd=80787|SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	AlignBegin=80787|AlignEnd=81312
-20	pour	pour	ADP	_	_	16	conj:dicto	_	AlignBegin=81312|AlignEnd=81447|SpaceAfter=No
+20	pour	pour	ADP	_	_	16	repair	_	AlignBegin=81312|AlignEnd=81447|SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	AlignBegin=81447|AlignEnd=81447
 22	euh	euh	INTJ	_	_	20	discourse	_	AlignBegin=81447|AlignEnd=81617|SpaceAfter=No
 23	,	,	PUNCT	_	_	25	punct	_	AlignBegin=81617|AlignEnd=81617
@@ -729,7 +729,7 @@
 11	euh	euh	INTJ	_	_	9	discourse	_	AlignBegin=85162|AlignEnd=85520|SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	AlignBegin=85520|AlignEnd=85520
 13	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	14	subj	_	AlignBegin=85520|AlignEnd=85590|Number[lex]=Sing|Person[lex]=1
-14	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	conj:dicto	_	AlignBegin=85590|AlignEnd=85680
+14	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	repair	_	AlignBegin=85590|AlignEnd=85680
 15	sûrement	sûrement	ADV	_	_	14	mod	_	AlignBegin=85680|AlignEnd=86004
 16	me	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	14	comp:obl	_	AlignBegin=86004|AlignEnd=86040|Number[lex]=Sing|Person[lex]=1
 17	réorienter	réorienter	VERB	_	VerbForm=Inf	14	comp:obj	_	AlignBegin=86040|AlignEnd=86610|SpaceAfter=No

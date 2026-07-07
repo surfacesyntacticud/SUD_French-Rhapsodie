@@ -17,9 +17,9 @@
 # text = vous, vous, vous prenez à droite, la droite.
 1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	subj	_	AlignBegin=1102|AlignEnd=1670|Number[lex]=Plur|Person[lex]=2|Polite=Unknown|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=1670|AlignEnd=1670
-3	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	1	conj:dicto	_	AlignBegin=1670|AlignEnd=2104|Number[lex]=Plur|Person[lex]=2|Polite=Unknown|SpaceAfter=No
+3	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	1	repair	_	AlignBegin=1670|AlignEnd=2104|Number[lex]=Plur|Person[lex]=2|Polite=Unknown|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=2104|AlignEnd=2104
-5	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	conj:dicto	_	AlignBegin=2104|AlignEnd=2297|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
+5	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	repair	_	AlignBegin=2104|AlignEnd=2297|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
 6	prenez	prendre	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=2297|AlignEnd=2545
 7	à	à	ADP	_	_	6	comp:obl	_	AlignBegin=2545|AlignEnd=2650
 8	droite	droite	NOUN	_	_	7	comp:obj	_	AlignBegin=2650|AlignEnd=3183|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -42,7 +42,7 @@
 6	jusqu'	jusque	ADP	_	_	3	mod	_	AlignBegin=6857|AlignEnd=7235|SpaceAfter=No
 7	au	au	ADP	_	_	6	comp:obj	_	AlignBegin=7235|AlignEnd=7828
 8	prochain	prochain	ADJ	_	Number=Sing	9	mod	_	AlignBegin=7828|AlignEnd=8142|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes
-9	arrêt	arrêt	NOUN	_	_	7	comp:obj	_	AlignBegin=8142|AlignEnd=8405|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
+9	arrêt	arrêt	NOUN	_	_	7	comp:obj	_	AlignBegin=8142|AlignEnd=8405|cdet=No|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 10	de	de	ADP	_	_	9	udep	_	AlignBegin=8405|AlignEnd=8485
 11	tram	tram	NOUN	_	_	10	comp:obj	_	AlignBegin=8485|AlignEnd=8795|Gender[lex]=Masc|Number[ctxt]=Sing
 12	où	où	ADV	_	PronType=Rel	15	mod	_	AlignBegin=9639|AlignEnd=9730
@@ -137,13 +137,13 @@
 3	mais	mais	CCONJ	_	_	13	cc	_	AlignBegin=28367|AlignEnd=28654
 4	au	au	ADP	_	_	13	mod	_	AlignBegin=28654|AlignEnd=28826
 5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=28826|AlignEnd=29016
-6	au	au	ADP	_	_	4	conj:dicto	_	AlignBegin=29016|AlignEnd=29132
+6	au	au	ADP	_	_	4	repair	_	AlignBegin=29016|AlignEnd=29132
 7	prochain	prochain	ADJ	_	Number=Sing	8	mod	_	AlignBegin=29132|AlignEnd=29542|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes
 8	arrêt	arrêt	NOUN	_	_	6	comp:obj	_	AlignBegin=29542|AlignEnd=29873|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 9	,	,	PUNCT	_	_	4	punct	_	AlignBegin=29873|AlignEnd=29873
 10	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	13	subj	_	AlignBegin=29873|AlignEnd=30230|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	AlignBegin=30230|AlignEnd=30515
-12	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	conj:dicto	_	AlignBegin=30515|AlignEnd=30704|Number[lex]=Sing|Person[lex]=1
+12	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	repair	_	AlignBegin=30515|AlignEnd=30704|Number[lex]=Sing|Person[lex]=1
 13	continue	continuer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=30704|AlignEnd=31332|Person[ctxt]=1
 14	?	?	PUNCT	_	_	13	punct	_	AlignBegin=31332|AlignEnd=31332
 
@@ -186,7 +186,7 @@
 9	y	y	PRON	_	PronType=Prs	10	comp@expl	_	AlignBegin=40283|AlignEnd=40343|Person[lex]=3
 10	aura	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	AlignBegin=40343|AlignEnd=40704
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	AlignBegin=40704|AlignEnd=40863|LiaisonAfter=Yes
-12	intersection	intersection	NOUN	_	_	10	comp:obj	_	AlignBegin=40863|AlignEnd=41902|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
+12	intersection	intersection	NOUN	_	_	10	comp:obj	_	AlignBegin=40863|AlignEnd=41902|cdet=No|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 13	des	de	ADP	_	_	12	udep	_	AlignBegin=41902|AlignEnd=42002
 14	voies	voie	NOUN	_	_	13	comp:obj	_	AlignBegin=42002|AlignEnd=42273|Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
 15	.	.	PUNCT	_	_	10	punct	_	AlignBegin=42273|AlignEnd=42273

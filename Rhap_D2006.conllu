@@ -15,7 +15,7 @@
 9	comporte	comporter	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=2677|AlignEnd=3222|Number[ctxt]=Sing|Person[ctxt]=3
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	AlignBegin=3222|AlignEnd=3372
 11	certain	certain	ADJ	_	Gender=Masc	12	mod	_	AlignBegin=3372|AlignEnd=3682|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
-12	nombre	nombre	NOUN	_	_	9	comp:obj	_	AlignBegin=3682|AlignEnd=3972|Gender[lex]=Masc|Number[ctxt]=Sing
+12	nombre	nombre	NOUN	_	_	9	comp:obj	_	AlignBegin=3682|AlignEnd=3972|cdet=Ambiguous|Gender[lex]=Masc|Number[ctxt]=Sing
 13	de	de	ADP	_	_	12	udep	_	AlignBegin=3972|AlignEnd=4072
 14	projets	projet	NOUN	_	_	13	comp:obj	_	AlignBegin=4072|AlignEnd=4562|Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 15	,	,	PUNCT	_	_	18	punct	_	AlignBegin=4562|AlignEnd=0
@@ -49,7 +49,7 @@
 43	chômeurs	chômeur	NOUN	_	_	42	comp:obj	_	AlignBegin=15333|AlignEnd=15843|Gender[lex]=Masc|Number[ctxt]=Plur
 44	partiels	partiel	ADJ	_	_	43	mod	_	AlignBegin=15843|AlignEnd=16409|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|SpaceAfter=No
 45	,	,	PUNCT	_	_	46	punct	_	AlignBegin=16409|AlignEnd=16947
-46	égalisation	égalisation	NOUN	_	_	41	conj:coord	_	AlignBegin=16947|AlignEnd=17692|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
+46	égalisation	égalisation	NOUN	_	_	41	conj:coord	_	AlignBegin=16947|AlignEnd=17692|cdet=No|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 47	des	de	ADP	_	_	46	udep	_	AlignBegin=17692|AlignEnd=17802
 48	salaires	salaire	NOUN	_	_	47	comp:obj	_	AlignBegin=17802|AlignEnd=18142|Gender[lex]=Masc|Number[ctxt]=Plur
 49	féminins	féminin	ADJ	_	Gender=Masc	48	mod	_	AlignBegin=18142|AlignEnd=18742|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur
@@ -61,7 +61,7 @@
 55	des	de	ADP	_	_	53	udep	_	AlignBegin=21087|AlignEnd=21217
 56	cadres	cadre	NOUN	_	_	55	comp:obj	_	AlignBegin=21217|AlignEnd=21537|Gender[lex]=Masc|Number[ctxt]=Plur
 57	aux	au	ADP	_	_	53	udep	_	AlignBegin=21537|AlignEnd=21587
-58	conseils	conseil	NOUN	_	_	57	comp:obj	_	AlignBegin=21587|AlignEnd=21937|Gender[lex]=Masc|Number[ctxt]=Plur
+58	conseils	conseil	NOUN	_	_	57	comp:obj	_	AlignBegin=21587|AlignEnd=21937|cdet=No|Gender[lex]=Masc|Number[ctxt]=Plur
 59	d'	de	ADP	_	_	58	udep	_	AlignBegin=21937|AlignEnd=21967|SpaceAfter=No
 60	administration	administration	NOUN	_	_	59	comp:obj	_	AlignBegin=21967|AlignEnd=22687|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 61	des	de	ADP	_	_	58	udep	_	AlignBegin=22687|AlignEnd=22817
@@ -69,7 +69,7 @@
 63	,	,	PUNCT	_	_	64	punct	_	AlignBegin=23380|AlignEnd=24266
 64	réforme	réforme	NOUN	_	_	53	conj:coord	_	AlignBegin=24266|AlignEnd=24871|Gender[lex]=Fem|Number[ctxt]=Sing
 65	du	du	ADP	_	_	64	udep	_	AlignBegin=24871|AlignEnd=25001
-66	droit	droit	NOUN	_	_	65	comp:obj	_	AlignBegin=25001|AlignEnd=25234|Gender[lex]=Masc|Number[ctxt]=Sing
+66	droit	droit	NOUN	_	_	65	comp:obj	_	AlignBegin=25001|AlignEnd=25234|cdet=No|Gender[lex]=Masc|Number[ctxt]=Sing
 67	de	de	ADP	_	_	66	udep	_	AlignBegin=25234|AlignEnd=25345
 68	licenciement	licenciement	NOUN	_	_	67	comp:obj	_	AlignBegin=25345|AlignEnd=25986|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 69	,	,	PUNCT	_	_	70	punct	_	AlignBegin=25986|AlignEnd=26567
@@ -84,7 +84,7 @@
 78	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	79	det	_	AlignBegin=29072|AlignEnd=29142|HasSpokenGender=OnlySingExceptWithLiaison
 79	public	public	NOUN	_	_	76	conj:coord	_	AlignBegin=29142|AlignEnd=29507|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 80	,	,	PUNCT	_	_	81	punct	_	AlignBegin=29507|AlignEnd=30141
-81	contrôle	contrôle	NOUN	_	_	70	conj:coord	_	AlignBegin=30141|AlignEnd=30786|Gender[lex]=Masc|Number[ctxt]=Sing
+81	contrôle	contrôle	NOUN	_	_	70	conj:coord	_	AlignBegin=30141|AlignEnd=30786|cdet=No|Gender[lex]=Masc|Number[ctxt]=Sing
 82	des	de	ADP	_	_	81	udep	_	AlignBegin=30786|AlignEnd=30894
 83	dépenses	dépense	NOUN	_	_	82	comp:obj	_	AlignBegin=30894|AlignEnd=31296|Gender[lex]=Fem|Number[ctxt]=Plur
 84	électorales	électoral	ADJ	_	_	83	mod	_	AlignBegin=31296|AlignEnd=31942|Gender[ctxt]=Fem|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|Number[ctxt]=Plur|SpaceAfter=No
@@ -130,7 +130,7 @@
 5	en	en	ADP	_	_	4	comp:obl	_	AlignBegin=48787|AlignEnd=48987
 6	doute	doute	NOUN	_	_	5	comp:obj	_	AlignBegin=48987|AlignEnd=49298|Gender[lex]=Masc|Number[ctxt]=Sing
 7	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	8	det	_	AlignBegin=50005|AlignEnd=50270|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
-8	amour	amour	NOUN	_	_	4	comp:obj	_	AlignBegin=50270|AlignEnd=50800|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
+8	amour	amour	NOUN	_	_	4	comp:obj	_	AlignBegin=50270|AlignEnd=50800|cdet=No|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 9	des	de	ADP	_	_	8	udep	_	AlignBegin=50800|AlignEnd=50940
 10	libertés	liberté	NOUN	_	_	9	comp:obj	_	AlignBegin=50940|AlignEnd=51444|Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
 11	,	,	PUNCT	_	_	1	punct	_	AlignBegin=51444|AlignEnd=52604
@@ -223,7 +223,7 @@
 14	universel	universel	ADJ	_	_	13	mod	_	AlignBegin=80389|AlignEnd=81070|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	AlignBegin=81070|AlignEnd=81760
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	AlignBegin=81760|AlignEnd=81955|HasSpokenGender=OnlySingExceptWithLiaison
-17	liberté	liberté	NOUN	_	_	13	conj:coord	_	AlignBegin=81955|AlignEnd=82548|Gender[lex]=Fem|Number[ctxt]=Sing
+17	liberté	liberté	NOUN	_	_	13	conj:coord	_	AlignBegin=81955|AlignEnd=82548|cdet=No|Gender[lex]=Fem|Number[ctxt]=Sing
 18	d'	de	ADP	_	_	17	udep	_	AlignBegin=82548|AlignEnd=82589|SpaceAfter=No
 19	association	association	NOUN	_	_	18	comp:obj	_	AlignBegin=82589|AlignEnd=83354|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	AlignBegin=83354|AlignEnd=91622
@@ -232,7 +232,7 @@
 23	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	21	comp:obj	_	AlignBegin=91927|AlignEnd=92197
 24	arraché	arracher	VERB	_	VerbForm=Part|Voice=Act	23	comp:aux@tense	_	AlignBegin=92197|AlignEnd=92857|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	AlignBegin=92857|AlignEnd=92947|HasSpokenGender=OnlySingExceptWithLiaison
-26	liberté	liberté	NOUN	_	_	24	comp:obj	_	AlignBegin=92947|AlignEnd=93414|Gender[lex]=Fem|Number[ctxt]=Sing
+26	liberté	liberté	NOUN	_	_	24	comp:obj	_	AlignBegin=92947|AlignEnd=93414|cdet=No|Gender[lex]=Fem|Number[ctxt]=Sing
 27	d'	de	ADP	_	_	26	udep	_	AlignBegin=93414|AlignEnd=93447|SpaceAfter=No
 28	association	association	NOUN	_	_	27	comp:obj	_	AlignBegin=93447|AlignEnd=94210|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 29	,	,	PUNCT	_	_	30	punct	_	AlignBegin=94210|AlignEnd=97617
@@ -247,7 +247,7 @@
 38	presse	presse	NOUN	_	_	36	comp:obj	_	AlignBegin=100361|AlignEnd=100861|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 39	,	,	PUNCT	_	_	41	punct	_	AlignBegin=100861|AlignEnd=102292
 40	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	AlignBegin=102292|AlignEnd=102500|HasSpokenGender=OnlySingExceptWithLiaison
-41	droit	droit	NOUN	_	_	35	conj:coord	_	AlignBegin=102500|AlignEnd=102736|Gender[lex]=Masc|Number[ctxt]=Sing
+41	droit	droit	NOUN	_	_	35	conj:coord	_	AlignBegin=102500|AlignEnd=102736|cdet=No|Gender[lex]=Masc|Number[ctxt]=Sing
 42	de	de	ADP	_	_	41	udep	_	AlignBegin=102736|AlignEnd=102830
 43	grève	grève	NOUN	_	_	42	comp:obj	_	AlignBegin=102830|AlignEnd=103195|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 44	,	,	PUNCT	_	_	46	punct	_	AlignBegin=103195|AlignEnd=105170
