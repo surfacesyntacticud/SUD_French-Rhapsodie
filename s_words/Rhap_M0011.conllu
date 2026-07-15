@@ -113,7 +113,7 @@
 6	amène	amener	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	AlignBegin=18868|AlignEnd=19245|Number[ctxt]=Sing|Person[ctxt]=3
 7	vers	vers	ADP	_	_	6	comp:obl	_	AlignBegin=19245|AlignEnd=19355
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=19355|AlignEnd=19435|HasSpokenGender=OnlySingExceptWithLiaison
-9	square	square	NOUN	_	_	7	comp:obj	_	AlignBegin=19435|AlignEnd=19745|Gender[lex]=Masc|Number[ctxt]=Sing
+9	square	square	NOUN	_	_	7	comp:obj	_	AlignBegin=19435|AlignEnd=19745|cdet=No|Gender[lex]=Masc|Number[ctxt]=Sing
 10-11	des	_	_	_	_	_	_	_	_
 10	de	de	ADP	_	_	9	udep	_	AlignBegin=19745|AlignEnd=19855
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	AlignBegin=19745|AlignEnd=19855
@@ -129,7 +129,7 @@
 1-2	du	_	_	_	_	_	_	_	_
 1	de	de	ADP	_	_	9	mod	_	AlignBegin=21063|AlignEnd=21143
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	AlignBegin=21063|AlignEnd=21143
-3	square	square	NOUN	_	_	1	comp:obj	_	AlignBegin=21143|AlignEnd=21363|Gender[lex]=Masc|Number[ctxt]=Sing
+3	square	square	NOUN	_	_	1	comp:obj	_	AlignBegin=21143|AlignEnd=21363|cdet=No|Gender[lex]=Masc|Number[ctxt]=Sing
 4-5	des	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	3	udep	_	AlignBegin=21363|AlignEnd=21483
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	AlignBegin=21363|AlignEnd=21483
@@ -218,7 +218,7 @@
 3	Emmanu~	Emmanu~	X	_	ExtPos=PROPN	2	comp:pred	_	AlignBegin=35367|AlignEnd=35687|SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	AlignBegin=35687|AlignEnd=35748
 5	c'	ce	PRON	_	PronType=Dem	6	subj	_	AlignBegin=35748|AlignEnd=35908|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj:dicto	_	AlignBegin=35908|AlignEnd=36358
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	repair	_	AlignBegin=35908|AlignEnd=36358
 7	fils	fils	NOUN	_	_	6	comp:pred	_	AlignBegin=36358|AlignEnd=36648|Gender[lex]=Masc
 8	de	de	ADP	_	_	7	udep	_	AlignBegin=36648|AlignEnd=36708
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	AlignBegin=36708|AlignEnd=36828|HasSpokenGender=OnlySingExceptWithLiaison
@@ -269,7 +269,7 @@
 18	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	AlignBegin=43192|AlignEnd=43270
 19	petite	petit	ADJ	_	Gender=Fem	20	mod	_	AlignBegin=43270|AlignEnd=43595|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 20	rue	rue	NOUN	_	_	8	conj:dicto	_	AlignBegin=43595|AlignEnd=43937|Gender[lex]=Fem|Number[ctxt]=Sing
-21	en	en	ADP	_	_	20	udep@scrap	_	AlignBegin=43937|AlignEnd=45258|SpaceAfter=No
+21	en	en	ADP	_	_	20	udep	_	AlignBegin=43937|AlignEnd=45258|Scrap=Yes|SpaceAfter=No
 22	,	,	PUNCT	_	_	24	punct	_	AlignBegin=45258|AlignEnd=45258
 23	qui	qui	PRON	_	PronType=Rel	24	subj	_	AlignBegin=45258|AlignEnd=45408
 24	tourne	tourner	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	mod@relcl	_	AlignBegin=45408|AlignEnd=45728|Number[ctxt]=Sing|Person[ctxt]=3
@@ -285,11 +285,11 @@
 # text = je, j'arrive, je tombe sur La Nef Chavant.
 1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	AlignBegin=46634|AlignEnd=47124|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=47124|AlignEnd=47124
-3	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	1	conj:dicto	_	AlignBegin=47124|AlignEnd=47254|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+3	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	1	repair	_	AlignBegin=47124|AlignEnd=47254|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 4	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=47254|AlignEnd=47536|Person[ctxt]=1|SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	AlignBegin=47536|AlignEnd=47536
 6	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj	_	AlignBegin=47536|AlignEnd=47666|Number[lex]=Sing|Person[lex]=1
-7	tombe	tomber	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	4	conj:dicto	_	AlignBegin=47666|AlignEnd=47946|Person[ctxt]=1
+7	tombe	tomber	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	4	repair	_	AlignBegin=47666|AlignEnd=47946|Person[ctxt]=1
 8	sur	sur	ADP	_	_	7	comp:obl	_	AlignBegin=47946|AlignEnd=48046
 9	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	AlignBegin=48046|AlignEnd=48365|HasSpokenGender=OnlySingExceptWithLiaison
 10	Nef	Nef	PROPN	_	Number=Sing	8	comp:obj	_	AlignBegin=48365|AlignEnd=48556|Gender[lex]=Fem

@@ -355,7 +355,7 @@
 # macrosyntax = { vous t~ | vous suivez } la ligne du tram qui passe vers { la ESPERLUETTE |
 # text = vous t~, vous suivez la ligne du tram qui passe vers la je crois que c'est une ancienne caserne, je crois.
 1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	AlignBegin=53163|AlignEnd=53364|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
-2	t~	t~	X	_	_	1	unk@scrap	_	AlignBegin=53364|AlignEnd=53526|SpaceAfter=No
+2	t~	t~	X	_	_	1	unk	_	AlignBegin=53364|AlignEnd=53526|Scrap=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=53526|AlignEnd=53526
 4	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	1	repair	_	AlignBegin=53526|AlignEnd=53724|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
 5	suivez	suivre	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=53724|AlignEnd=54037
@@ -366,7 +366,7 @@
 10	qui	qui	PRON	_	PronType=Rel	11	subj	_	AlignBegin=54826|AlignEnd=54991
 11	passe	passer	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	AlignBegin=54991|AlignEnd=55296|Number[ctxt]=Sing|Person[ctxt]=3
 12	vers	vers	ADP	_	_	11	comp:obl	_	AlignBegin=55296|AlignEnd=55476
-13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	comp:obj@scrap	_	AlignBegin=55476|AlignEnd=55897|HasSpokenGender=OnlySingExceptWithLiaison
+13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	comp:obj	_	AlignBegin=55476|AlignEnd=55897|HasSpokenGender=OnlySingExceptWithLiaison|Scrap=Yes
 14	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	15	subj	_	AlignBegin=56207|AlignEnd=56324|Number[lex]=Sing|Person[lex]=1
 15	crois	croire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	13	conj:dicto	_	AlignBegin=56324|AlignEnd=56440|Graft=Yes|Person[ctxt]=1
 16	que	que	SCONJ	_	_	15	comp:obj	_	AlignBegin=56440|AlignEnd=56483
@@ -553,7 +553,7 @@
 8	continuez	continuer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=80887|AlignEnd=81722|SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	AlignBegin=81722|AlignEnd=81722
 10	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	11	subj	_	AlignBegin=81722|AlignEnd=81850|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
-11	con~	con~	X	_	ExtPos=VERB	8	conj:dicto	_	AlignBegin=81850|AlignEnd=82055|SpaceAfter=No
+11	con~	con~	X	_	ExtPos=VERB	8	repair	_	AlignBegin=81850|AlignEnd=82055|SpaceAfter=No
 12	…	…	PUNCT	_	_	8	punct	_	AlignBegin=82055|AlignEnd=82055
 
 # sent_id = Rhap_M0003-29

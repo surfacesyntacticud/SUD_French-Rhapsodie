@@ -191,7 +191,7 @@
 1	alors	alors	ADV	_	_	4	mod	_	AlignBegin=39570|AlignEnd=39725|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=39725|AlignEnd=39725
 3	c'	ce	PRON	_	PronType=Dem	4	subj	_	AlignBegin=39725|AlignEnd=39805|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root@scrap	_	AlignBegin=39805|AlignEnd=39855
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=39805|AlignEnd=39855|Scrap=Yes
 5	à	à	ADP	_	_	4	mod	_	AlignBegin=39855|AlignEnd=39945
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	AlignBegin=39945|AlignEnd=40085|HasSpokenGender=OnlySingExceptWithLiaison
 7	fois	fois	NOUN	_	_	5	comp:obj	_	AlignBegin=40085|AlignEnd=40565|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -425,7 +425,7 @@
 # macrosyntax = je n~ me demande d'ailleurs si "euh" l'arrivée { du berger dans Le Roi Roger | ce berger qui "euh" amène { { d'autres | $- d'autres } valeurs | ( $L1  d'autres XXX // ) -$  } } "si vous voulez" dans un monde qui est figé "euh" ne rappelle pas un peu l'arrivée de Lohengrin //
 # text = je n~ me demande d'ailleurs si, euh, l'arrivée du berger dans Le Roi Roger, ce berger qui, euh, amène d'autres, d'autres valeurs, si vous voulez, dans un monde qui est figé, euh, ne rappelle pas un peu l'arrivée de Lohengrin.
 1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	AlignBegin=76325|AlignEnd=76820|Number[lex]=Sing|Person[lex]=1
-2	n~	n~	X	_	ExtPos=ADV	4	comp:obl@scrap	_	AlignBegin=76820|AlignEnd=77087
+2	n~	n~	X	_	ExtPos=ADV	4	comp:obl	_	AlignBegin=76820|AlignEnd=77087|Scrap=Yes
 3	me	moi	PRON	_	PronType=Prs	2	repair	_	AlignBegin=77840|AlignEnd=77965|Number[lex]=Sing|Person[lex]=1
 4	demande	demander	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=77965|AlignEnd=78435|Person[ctxt]=1
 5	d'	de	ADP	_	_	4	mod	_	AlignBegin=78435|AlignEnd=78495|SpaceAfter=No
@@ -539,7 +539,7 @@
 19	semble	sembler	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	15	discourse	_	AlignBegin=99494|AlignEnd=99836|Number[ctxt]=Sing|Person[ctxt]=3|SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	AlignBegin=99836|AlignEnd=99836
 21	dans	dans	ADP	_	_	2	mod	_	AlignBegin=99836|AlignEnd=99961
-22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	comp:obj@scrap	_	AlignBegin=99961|AlignEnd=100121|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
+22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	comp:obj	_	AlignBegin=99961|AlignEnd=100121|HasSpokenGender=OnlySingExceptWithLiaison|Scrap=Yes|SpaceAfter=No
 23	…	…	PUNCT	_	_	2	punct	_	AlignBegin=100121|AlignEnd=100121
 
 # sent_id = Rhap_D2012-23
@@ -597,7 +597,7 @@
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	conj:dicto	_	AlignBegin=107829|AlignEnd=107939|HasSpokenGender=OnlySingExceptWithLiaison
 24	portrait	portrait	NOUN	_	_	20	comp:obj	_	AlignBegin=107939|AlignEnd=108399|Gender[lex]=Masc|Number[ctxt]=Sing
 25	de	de	ADP	_	_	24	udep	_	AlignBegin=108399|AlignEnd=108499
-26	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	25	comp:obj@scrap	_	AlignBegin=108499|AlignEnd=108895|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
+26	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	25	comp:obj	_	AlignBegin=108499|AlignEnd=108895|HasSpokenGender=OnlySingExceptWithLiaison|Scrap=Yes|SpaceAfter=No
 27	,	,	PUNCT	_	_	28	punct	_	AlignBegin=108895|AlignEnd=108895
 28	de	de	ADP	_	_	25	repair	_	AlignBegin=108895|AlignEnd=109030
 29	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	30	det	_	AlignBegin=109030|AlignEnd=109438|HasSpokenGender=OnlySingExceptWithLiaison

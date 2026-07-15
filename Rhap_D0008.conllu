@@ -816,7 +816,7 @@
 6	,	,	PUNCT	_	_	2	punct	_	AlignBegin=128195|AlignEnd=128195
 7	ça	ça	PRON	_	PronType=Dem	9	subj	_	AlignBegin=128195|AlignEnd=128425|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 8	se	soi	PRON	_	PronType=Prs|Reflex=Yes	9	comp@pass	_	AlignBegin=128425|AlignEnd=128518|Person[lex]=3
-9	situe	situer	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root@scrap	_	AlignBegin=128518|AlignEnd=129092|Number[ctxt]=Sing|Person[ctxt]=3|SpaceAfter=No
+9	situe	situer	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=128518|AlignEnd=129092|Number[ctxt]=Sing|Person[ctxt]=3|Scrap=Yes|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	AlignBegin=129092|AlignEnd=129092
 11	euh	euh	INTJ	_	_	9	discourse	_	AlignBegin=129092|AlignEnd=129415|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=129415|AlignEnd=129415
@@ -1067,7 +1067,7 @@
 21	allant	aller	VERB	_	VerbForm=Part	19	comp:obj	_	AlignBegin=162880|AlignEnd=163146|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Pres
 22	mais	mais	CCONJ	_	_	23	cc	_	AlignBegin=163146|AlignEnd=163236
 23	en	en	ADP	_	_	19	conj:coord	_	AlignBegin=163236|AlignEnd=163326
-24	restant	rester	VERB	_	VerbForm=Part	23	comp:obj@scrap	_	AlignBegin=163326|AlignEnd=163670|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Pres
+24	restant	rester	VERB	_	VerbForm=Part	23	comp:obj	_	AlignBegin=163326|AlignEnd=163670|PastPartHasSpokenGender=NotInThisDialect|Scrap=Yes|Tense[denom]=Pres
 25	s~	s~	X	_	ExtPos=ADP	24	comp:obj	_	AlignBegin=163670|AlignEnd=163790|SpaceAfter=No
 26	,	,	PUNCT	_	_	27	punct	_	AlignBegin=163790|AlignEnd=164076
 27	sur	sur	ADP	_	_	25	repair	_	AlignBegin=164076|AlignEnd=164216
@@ -1089,7 +1089,7 @@
 6	euh	euh	INTJ	_	_	3	discourse	_	AlignBegin=165592|AlignEnd=166165|Overlap=Rhap_D0008-59|SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	AlignBegin=166165|AlignEnd=166165|Overlap=Rhap_D0008-52bis
 8	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	9	subj	_	AlignBegin=166165|AlignEnd=166371|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
-9	longez	longer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	comp:obj@scrap	_	AlignBegin=166371|AlignEnd=166910|SpaceAfter=No
+9	longez	longer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	comp:obj	_	AlignBegin=166371|AlignEnd=166910|Scrap=Yes|SpaceAfter=No
 10	…	…	PUNCT	_	_	1	punct	_	AlignBegin=166910|AlignEnd=166910
 
 # sent_id = Rhap_D0008-59
@@ -1122,7 +1122,7 @@
 12	allez	aller	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=168740|AlignEnd=168928
 13	passer	passer	VERB	_	VerbForm=Inf	12	comp:obj	_	AlignBegin=168928|AlignEnd=169309|Subject=SubjRaising
 14	aussi	aussi	ADV	_	_	13	mod	_	AlignBegin=169309|AlignEnd=169664
-15	devant	devant	ADV	_	_	13	mod@scrap	_	AlignBegin=169664|AlignEnd=170131|SpaceAfter=No
+15	devant	devant	ADV	_	_	13	mod	_	AlignBegin=169664|AlignEnd=170131|Scrap=Yes|SpaceAfter=No
 16	…	…	PUNCT	_	_	12	punct	_	AlignBegin=170131|AlignEnd=170131
 
 # sent_id = Rhap_D0008-61
@@ -1260,7 +1260,7 @@
 10	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	12	subj@expl	_	AlignBegin=189035|AlignEnd=189073|Person[lex]=3
 11	y	y	PRON	_	PronType=Prs	12	comp@expl	_	AlignBegin=189073|AlignEnd=189108|Person[lex]=3
 12	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=189108|AlignEnd=189182
-13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	comp:obj@scrap	_	AlignBegin=189182|AlignEnd=189638|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	comp:obj	_	AlignBegin=189182|AlignEnd=189638|HasSpokenGender=OnlySingExceptWithLiaison|Scrap=Yes|SpaceAfter=No
 14	.	.	PUNCT	_	_	13	punct	_	AlignBegin=189638|AlignEnd=189638
 
 # sent_id = Rhap_D0008-68
@@ -1354,7 +1354,7 @@
 # speaker_id = §LF10
 # macrosyntax = { vous pouvez pas ( $L2 XXX -$ "euh" ) | $- vous pouvez pas louper } "euh" // ( $L2 d'accord // ) -$
 # text = XXX euh.
-1	XXX	XXX	X	_	_	2	unk@scrap	_	AlignBegin=194638|AlignEnd=195450
+1	XXX	XXX	X	_	_	2	unk	_	AlignBegin=194638|AlignEnd=195450|Scrap=Yes
 2	euh	euh	INTJ	_	_	0	root	_	AlignBegin=196808|AlignEnd=197092|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	AlignBegin=197092|AlignEnd=197092
 

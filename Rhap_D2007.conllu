@@ -63,7 +63,7 @@
 # speaker_id = §LM22
 # macrosyntax = -$ XXX Maria < { elle est | $- elle était } solidaire //+ ( $L2 XXX // ) -$ pour mon futur procès //
 # text = XXX Maria, elle est, elle était solidaire, pour mon futur procès.
-1	XXX	XXX	X	_	_	5	unk@scrap	_	AlignBegin=5691|AlignEnd=6628
+1	XXX	XXX	X	_	_	5	unk	_	AlignBegin=5691|AlignEnd=6628|Scrap=Yes
 2	Maria	Maria	PROPN	_	_	5	dislocated:subj	_	AlignBegin=6628|AlignEnd=6933|Gender[lex]=Unknown|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=6933|AlignEnd=6933
 4	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	5	subj	_	AlignBegin=6933|AlignEnd=6973|Person[lex]=3
@@ -659,7 +659,7 @@
 # speaker_id = §LM22
 # macrosyntax = XXX je retiendrai Orson Welles //
 # text = XXX je retiendrai Orson Welles.
-1	XXX	XXX	X	_	_	3	unk@scrap	_	AlignBegin=57426|AlignEnd=57895
+1	XXX	XXX	X	_	_	3	unk	_	AlignBegin=57426|AlignEnd=57895|Scrap=Yes
 2	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	AlignBegin=57895|AlignEnd=58000|Number[lex]=Sing|Person[lex]=1
 3	retiendrai	retenir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	AlignBegin=58000|AlignEnd=58376
 4	Orson	Orson	PROPN	_	_	3	comp:obj	_	AlignBegin=58376|AlignEnd=58716|Gender[lex]=Unknown
@@ -982,7 +982,7 @@
 # text = alors elle est, tu vois…
 1	alors	alors	ADV	_	_	3	mod	_	AlignBegin=103175|AlignEnd=103350
 2	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	3	subj	_	AlignBegin=103350|AlignEnd=103540|Person[lex]=3
-3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root@scrap	_	AlignBegin=103540|AlignEnd=103630|SpaceAfter=No
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=103540|AlignEnd=103630|Scrap=Yes|SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	AlignBegin=103630|AlignEnd=103630
 5	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	subj	_	AlignBegin=103630|AlignEnd=103700|Number[lex]=Sing|Person[lex]=2
 6	vois	voir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	3	discourse	_	AlignBegin=103700|AlignEnd=104129|Person[ctxt]=2|SpaceAfter=No
@@ -1088,7 +1088,7 @@
 # macrosyntax = $L2 { si on | si on } n'est pas heureux < on s'en va //
 # text = si on, si on n'est pas heureux, on s'en va.
 1	si	si	SCONJ	_	_	14	mod	_	AlignBegin=113377|AlignEnd=113542
-2	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	1	comp:obj@scrap	_	AlignBegin=113542|AlignEnd=113662|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
+2	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	1	comp:obj	_	AlignBegin=113542|AlignEnd=113662|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|Scrap=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=113662|AlignEnd=113662
 4	si	si	SCONJ	_	_	2	conj:dicto	_	AlignBegin=113662|AlignEnd=113822
 5	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	7	subj	_	AlignBegin=113822|AlignEnd=113882|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
@@ -1130,10 +1130,10 @@
 1	mais	mais	CCONJ	_	_	3	cc	_	AlignBegin=115191|AlignEnd=115342|Overlap=Rhap_D2007-74
 2	c'	ce	PRON	_	PronType=Dem	3	subj	_	AlignBegin=115342|AlignEnd=115387|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=115387|AlignEnd=115447
-4	très	très	ADV	_	_	3	comp:pred@scrap	_	AlignBegin=115447|AlignEnd=115807|SpaceAfter=No
+4	très	très	ADV	_	_	3	comp:pred	_	AlignBegin=115447|AlignEnd=115807|Scrap=Yes|SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	AlignBegin=115807|AlignEnd=116327
 6	c'	ce	PRON	_	PronType=Dem	7	subj	_	AlignBegin=116327|AlignEnd=116437|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj:dicto@scrap	_	AlignBegin=116437|AlignEnd=116577|SpaceAfter=No
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj:dicto	_	AlignBegin=116437|AlignEnd=116577|Scrap=Yes|SpaceAfter=No
 8	…	…	PUNCT	_	_	3	punct	_	AlignBegin=116577|AlignEnd=116577
 
 # sent_id = Rhap_D2007-76
@@ -1179,7 +1179,7 @@
 # macrosyntax = ça me ESPERLUETTE //
 # text = ça me…
 1	ça	ça	PRON	_	PronType=Dem	0	root	_	AlignBegin=118105|AlignEnd=118401|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
-2	me	moi	PRON	_	PronType=Prs	1	unk@scrap	_	AlignBegin=118401|AlignEnd=118762|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+2	me	moi	PRON	_	PronType=Prs	1	unk	_	AlignBegin=118401|AlignEnd=118762|Number[lex]=Sing|Person[lex]=1|Scrap=Yes|SpaceAfter=No
 3	…	…	PUNCT	_	_	1	punct	_	AlignBegin=118762|AlignEnd=118762
 
 # sent_id = Rhap_D2007-80
@@ -1316,7 +1316,7 @@
 # macrosyntax = XXX -$ XXX //
 # text = XXX XXX.
 1	XXX	XXX	X	_	_	0	root	_	AlignBegin=129707|AlignEnd=131382|Overlap=Rhap_D2007-86
-2	XXX	XXX	X	_	_	1	unk@scrap	_	AlignBegin=131382|AlignEnd=131887|SpaceAfter=No
+2	XXX	XXX	X	_	_	1	unk	_	AlignBegin=131382|AlignEnd=131887|Scrap=Yes|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	AlignBegin=131887|AlignEnd=131887
 
 # sent_id = Rhap_D2007-89
@@ -1363,7 +1363,7 @@
 3	là	là	ADV	_	_	2	comp:obl	_	AlignBegin=131887|AlignEnd=133985|Overlap=Rhap_D2007-89|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=133985|AlignEnd=134340
 5	entre	entre	ADP	_	_	2	mod	_	AlignBegin=134340|AlignEnd=134705|Overlap=Rhap_D2007-92
-6	XXX	XXX	X	_	_	1	unk@scrap	_	AlignBegin=134340|AlignEnd=134705|Overlap=Rhap_D2007-92|SpaceAfter=No
+6	XXX	XXX	X	_	_	1	unk	_	AlignBegin=134340|AlignEnd=134705|Overlap=Rhap_D2007-92|Scrap=Yes|SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	AlignBegin=134705|AlignEnd=134705|Overlap=Rhap_D2007-72
 
 # sent_id = Rhap_D2007-92
@@ -1610,7 +1610,7 @@
 # speaker_id = §LM22
 # macrosyntax = XXX  " ah "  ^mais -$ c'est vrai qu'on est habillé $- pareil //
 # text = XXX, ah, mais c'est vrai qu'on est habillé pareil.
-1	XXX	XXX	X	_	_	3	unk@scrap	_	AlignBegin=152546|AlignEnd=153071|Overlap=Rhap_D2007-106|SpaceAfter=No
+1	XXX	XXX	X	_	_	3	unk	_	AlignBegin=152546|AlignEnd=153071|Overlap=Rhap_D2007-106|Scrap=Yes|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=153071|AlignEnd=152546|Overlap=Rhap_D2007-84
 3	ah	ah	INTJ	_	_	7	discourse	_	AlignBegin=152546|AlignEnd=153071|Overlap=Rhap_D2007-106|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=153071|AlignEnd=152546|Overlap=Rhap_D2007-84
@@ -1752,7 +1752,7 @@
 1	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	AlignBegin=171493|AlignEnd=171538|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 2	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=171538|AlignEnd=171716
 3	jamais	jamais	ADV	_	PronType=Neg	2	mod	_	AlignBegin=171716|AlignEnd=172018
-4	m~	m~	X	_	_	3	unk@scrap	_	AlignBegin=172018|AlignEnd=172053|SpaceAfter=No
+4	m~	m~	X	_	_	3	unk	_	AlignBegin=172018|AlignEnd=172053|Scrap=Yes|SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	AlignBegin=172053|AlignEnd=172694
 6	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj	_	AlignBegin=172694|AlignEnd=172819|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 7	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	repair	_	AlignBegin=172819|AlignEnd=172889
@@ -2287,7 +2287,7 @@
 3	c'	ce	PRON	_	PronType=Dem	4	subj	_	AlignBegin=243950|AlignEnd=243990|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=243990|AlignEnd=244080
 5	pas	pas	ADV	_	Polarity=Neg	4	mod	_	AlignBegin=244080|AlignEnd=244220
-6	du	du	ADP	_	ExtPos=DET	4	comp:pred@scrap	_	AlignBegin=244220|AlignEnd=244380
+6	du	du	ADP	_	ExtPos=DET	4	comp:pred	_	AlignBegin=244220|AlignEnd=244380|Scrap=Yes
 7	…	…	PUNCT	_	_	4	punct	_	AlignBegin=244380|AlignEnd=244380
 
 # sent_id = Rhap_D2007-151
@@ -2508,6 +2508,6 @@
 # text = c'est très…
 1	c'	ce	PRON	_	PronType=Dem	2	subj	_	AlignBegin=261742|AlignEnd=261787|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=261787|AlignEnd=261847
-3	très	très	ADV	_	_	2	comp:pred@scrap	_	AlignBegin=261847|AlignEnd=262307|SpaceAfter=No
+3	très	très	ADV	_	_	2	comp:pred	_	AlignBegin=261847|AlignEnd=262307|Scrap=Yes|SpaceAfter=No
 4	…	…	PUNCT	_	_	2	punct	_	AlignBegin=262307|AlignEnd=262307
 

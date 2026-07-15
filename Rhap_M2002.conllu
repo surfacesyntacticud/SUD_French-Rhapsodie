@@ -244,7 +244,7 @@
 7	réponse	réponse	NOUN	_	_	5	comp:pred	_	AlignBegin=44469|AlignEnd=44869|Gender[lex]=Fem|Number[ctxt]=Sing
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	9	det	_	AlignBegin=44869|AlignEnd=45029|InIdiom=Yes
 9	peu	peu	NOUN	_	ExtPos=ADV	14	mod	_	AlignBegin=45029|AlignEnd=45270|Gender[lex]=Masc|Idiom=Yes
-10	de	de	ADP	_	_	9	comp:obl@scrap	_	AlignBegin=45270|AlignEnd=45570|SpaceAfter=No
+10	de	de	ADP	_	_	9	comp:obl	_	AlignBegin=45270|AlignEnd=45570|Scrap=Yes|SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	AlignBegin=45570|AlignEnd=45969
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	AlignBegin=45969|AlignEnd=46084|InIdiom=Yes
 13	peu	peu	NOUN	_	ExtPos=ADV	9	repair	_	AlignBegin=46084|AlignEnd=46194|Gender[lex]=Masc|Idiom=Yes
@@ -278,7 +278,7 @@
 # text = il y a XXX…
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	3	subj@expl	_	AlignBegin=48739|AlignEnd=48784|Person[lex]=3
 2	y	y	PRON	_	PronType=Prs	3	comp@expl	_	AlignBegin=48784|AlignEnd=48887|Person[lex]=3
-3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root@scrap	_	AlignBegin=48887|AlignEnd=49017
+3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=48887|AlignEnd=49017|Scrap=Yes
 4	XXX	XXX	X	_	_	3	comp:obj	_	AlignBegin=49017|AlignEnd=49076|SpaceAfter=No
 5	…	…	PUNCT	_	_	3	punct	_	AlignBegin=49076|AlignEnd=49076
 
@@ -507,10 +507,10 @@
 39	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	40	det	_	AlignBegin=90381|AlignEnd=90506|LiaisonAfter=Yes
 40	art	art	NOUN	_	_	33	conj:dicto	_	AlignBegin=90506|AlignEnd=90816|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 41	dont	dont	PRON	_	PronType=Rel	40	conj:dicto	_	AlignBegin=90816|AlignEnd=91003
-42	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	41	unk@scrap	_	AlignBegin=91003|AlignEnd=91365|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
+42	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	41	unk	_	AlignBegin=91003|AlignEnd=91365|HasSpokenGender=OnlySingExceptWithLiaison|Scrap=Yes|SpaceAfter=No
 43	,	,	PUNCT	_	_	44	punct	_	AlignBegin=91365|AlignEnd=91540
-44	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	42	unk@scrap	_	AlignBegin=91540|AlignEnd=91716
-45	a~	a~	X	_	_	44	unk@scrap	_	AlignBegin=91716|AlignEnd=91900|SpaceAfter=No
+44	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	42	unk	_	AlignBegin=91540|AlignEnd=91716|Scrap=Yes
+45	a~	a~	X	_	_	44	unk	_	AlignBegin=91716|AlignEnd=91900|Scrap=Yes|SpaceAfter=No
 46	.	.	PUNCT	_	_	2	punct	_	AlignBegin=91900|AlignEnd=91900
 
 # sent_id = Rhap_M2002-17
@@ -1064,7 +1064,7 @@
 # macrosyntax = ^et { ça | ça } ESPERLUETTE //
 # text = et ça, ça…
 1	et	et	CCONJ	_	_	2	cc	_	AlignBegin=190951|AlignEnd=191321
-2	ça	ça	PRON	_	PronType=Dem	0	root@scrap	_	AlignBegin=191321|AlignEnd=191711|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
+2	ça	ça	PRON	_	PronType=Dem	0	root	_	AlignBegin=191321|AlignEnd=191711|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|Scrap=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=191711|AlignEnd=191711
 4	ça	ça	PRON	_	PronType=Dem	2	repair	_	AlignBegin=191711|AlignEnd=192171|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 5	…	…	PUNCT	_	_	2	punct	_	AlignBegin=192171|AlignEnd=192171
@@ -1103,7 +1103,7 @@
 1	et	et	CCONJ	_	_	3	cc	_	AlignBegin=197563|AlignEnd=197918
 2	ça	ça	PRON	_	PronType=Dem	3	subj	_	AlignBegin=197918|AlignEnd=198098|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=198098|AlignEnd=198158
-4	donné	donner	VERB	_	VerbForm=Part|Voice=Act	3	comp:aux@scrap	_	AlignBegin=198158|AlignEnd=198610|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
+4	donné	donner	VERB	_	VerbForm=Part|Voice=Act	3	comp:aux	_	AlignBegin=198158|AlignEnd=198610|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Scrap=Yes|SpaceAfter=No|Tense[denom]=Past
 5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=198610|AlignEnd=199013
 6	euh	euh	INTJ	_	_	4	discourse	_	AlignBegin=199013|AlignEnd=199528|SpaceAfter=No
 7	…	…	PUNCT	_	_	3	punct	_	AlignBegin=199528|AlignEnd=199528
@@ -1243,7 +1243,7 @@
 31	,	,	PUNCT	_	_	32	punct	_	AlignBegin=226192|AlignEnd=226284
 32	de	de	ADP	_	_	29	conj:dicto	_	AlignBegin=226284|AlignEnd=226399
 33	qui	qui	PRON	_	PronType=Rel	38	comp:pred	_	AlignBegin=226399|AlignEnd=226660
-34	c~	c~	X	_	_	33	unk@scrap	_	AlignBegin=226660|AlignEnd=226819|SpaceAfter=No
+34	c~	c~	X	_	_	33	unk	_	AlignBegin=226660|AlignEnd=226819|Scrap=Yes|SpaceAfter=No
 35	,	,	PUNCT	_	_	36	punct	_	AlignBegin=226819|AlignEnd=226819
 36	qui	qui	PRON	_	PronType=Rel	33	repair	_	AlignBegin=226819|AlignEnd=226939
 37	c'	ce	PRON	_	PronType=Dem	38	subj	_	AlignBegin=226939|AlignEnd=227029|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
@@ -1282,7 +1282,7 @@
 # speaker = L1
 # speaker_id = §LM49
 # macrosyntax = "euh" { jusqu'à la renaissance | ^et y compris { un peu l~ ESPERLUETTE | un ESPERLUETTE | jusqu'au dix-huitième siècle } } <+ { le point de vue { du | de } la fabrication | le point de vue de la production } de l'art est plus important que { le point de vue de l'expérience de la réception de l'art | "euh" le point de vue du spectateur } //
-# text = euh, jusqu'à la renaissance et y compris un peu l~, un, jusqu'au dix-huitième siècle, le point de vue du , de la fabrication, le point de vue de la production de l'art est plus important que le point de vue de l'expérience de la réception de l'art, euh, le point de vue du spectateur.
+# text = euh, jusqu'à la renaissance et y compris un peu l~, un, jusqu'au dix-huitième siècle, le point de vue du, de la fabrication, le point de vue de la production de l'art est plus important que le point de vue de l'expérience de la réception de l'art, euh, le point de vue du spectateur.
 1	euh	euh	INTJ	_	_	41	discourse	_	AlignBegin=233968|AlignEnd=234555|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=234555|AlignEnd=234555
 3	jusqu'	jusque	ADP	_	_	43	mod	_	AlignBegin=234555|AlignEnd=234740|SpaceAfter=No
@@ -1294,7 +1294,7 @@
 9	compris	comprendre	VERB	_	ExtPos=CCONJ|Gender=Masc|VerbForm=Part	16	cc	_	AlignBegin=236030|AlignEnd=236586|Idiom=Yes|Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	AlignBegin=236586|AlignEnd=236941|InIdiom=Yes
 11	peu	peu	NOUN	_	ExtPos=ADV	16	mod	_	AlignBegin=236941|AlignEnd=237081|Gender[lex]=Masc|Idiom=Yes
-12	l~	l~	X	_	_	11	unk@scrap	_	AlignBegin=237081|AlignEnd=237331|SpaceAfter=No
+12	l~	l~	X	_	_	11	unk	_	AlignBegin=237081|AlignEnd=237331|Scrap=Yes|SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	AlignBegin=237331|AlignEnd=237331
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	repair	_	AlignBegin=237331|AlignEnd=237598|SpaceAfter=No
 15	,	,	PUNCT	_	_	11	punct	_	AlignBegin=237598|AlignEnd=237842
@@ -1523,7 +1523,7 @@
 18	poïésis	poïésis	X	_	Foreign=Yes	16	comp:obj	_	AlignBegin=281876|AlignEnd=282650|Lang=grc|SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	AlignBegin=282650|AlignEnd=282720
 20	de	de	ADP	_	_	16	repair	_	AlignBegin=282720|AlignEnd=282815
-21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	comp:obj@scrap	_	AlignBegin=282815|AlignEnd=283015|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
+21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	comp:obj	_	AlignBegin=282815|AlignEnd=283015|HasSpokenGender=OnlySingExceptWithLiaison|Scrap=Yes|SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	AlignBegin=283015|AlignEnd=283015
 23	de	de	ADP	_	_	20	repair	_	AlignBegin=283015|AlignEnd=283075
 24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	AlignBegin=283075|AlignEnd=283275|HasSpokenGender=OnlySingExceptWithLiaison
@@ -1846,7 +1846,7 @@
 4	au	au	ADP	_	_	3	comp:obl	_	AlignBegin=343986|AlignEnd=344156
 5	rôle	rôle	NOUN	_	_	4	comp:obj	_	AlignBegin=344156|AlignEnd=344496|Gender[lex]=Masc|Number[ctxt]=Sing
 6	de	de	ADP	_	_	5	udep	_	AlignBegin=344496|AlignEnd=344626
-7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	comp:obj@scrap	_	AlignBegin=344626|AlignEnd=344873|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	comp:obj	_	AlignBegin=344626|AlignEnd=344873|HasSpokenGender=OnlySingExceptWithLiaison|Scrap=Yes|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=344873|AlignEnd=345109
 9	de	de	ADP	_	_	6	repair	_	AlignBegin=345109|AlignEnd=345184
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	AlignBegin=345184|AlignEnd=345314|HasSpokenGender=OnlySingExceptWithLiaison
@@ -1900,7 +1900,7 @@
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	2	subj	_	AlignBegin=357632|AlignEnd=357747|Person[lex]=3
 2	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=357747|AlignEnd=357847|Person[ctxt]=3
 3	avoir	avoir	VERB	_	VerbForm=Inf	2	comp:obj	_	AlignBegin=357847|AlignEnd=358167|Subject=SubjRaising
-4	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	3	comp:obj@scrap	_	AlignBegin=358167|AlignEnd=358297|SpaceAfter=No
+4	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	3	comp:obj	_	AlignBegin=358167|AlignEnd=358297|Scrap=Yes|SpaceAfter=No
 5	…	…	PUNCT	_	_	2	punct	_	AlignBegin=358297|AlignEnd=358297
 
 # sent_id = Rhap_M2002-62

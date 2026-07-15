@@ -20,7 +20,7 @@
 14	,	,	PUNCT	_	_	15	punct	_	AlignBegin=2510|AlignEnd=2510
 15	euh	euh	INTJ	_	_	13	discourse	_	AlignBegin=2510|AlignEnd=3175|SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	AlignBegin=3006|AlignEnd=3175
-17	qui	qui	PRON	_	PronType=Rel	13	unk@scrap	_	AlignBegin=3175|AlignEnd=3464|SpaceAfter=No
+17	qui	qui	PRON	_	PronType=Rel	13	unk	_	AlignBegin=3175|AlignEnd=3464|Scrap=Yes|SpaceAfter=No
 18	…	…	PUNCT	_	_	7	punct	_	AlignBegin=3464|AlignEnd=3464
 
 # sent_id = Rhap_M0023-2
@@ -318,7 +318,7 @@
 3	euh	euh	INTJ	_	_	10	discourse	_	AlignBegin=47172|AlignEnd=47787|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=47787|AlignEnd=47787
 5	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	3	conj:dicto	_	AlignBegin=47787|AlignEnd=47867|Person[lex]=3
-6	se	soi	PRON	_	PronType=Prs|Reflex=Yes	5	comp@scrap	_	AlignBegin=47867|AlignEnd=48266|Person[lex]=3|SpaceAfter=No
+6	se	soi	PRON	_	PronType=Prs|Reflex=Yes	5	comp	_	AlignBegin=47867|AlignEnd=48266|Person[lex]=3|Scrap=Yes|SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	AlignBegin=48266|AlignEnd=48266
 8	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	10	subj	_	AlignBegin=48266|AlignEnd=48297|Person[lex]=3
 9	se	soi	PRON	_	PronType=Prs|Reflex=Yes	10	comp:obj	_	AlignBegin=48297|AlignEnd=48347|Person[lex]=3
@@ -348,8 +348,8 @@
 # speaker_id = §LM47
 # macrosyntax = ils se ESPERLUETTE //
 # text = ils se…
-1	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	0	root@scrap	_	AlignBegin=49966|AlignEnd=50047|Person[lex]=3
-2	se	soi	PRON	_	PronType=Prs|Reflex=Yes	1	comp@scrap	_	AlignBegin=50047|AlignEnd=50775|Person[lex]=3|SpaceAfter=No
+1	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	0	root	_	AlignBegin=49966|AlignEnd=50047|Person[lex]=3|Scrap=Yes
+2	se	soi	PRON	_	PronType=Prs|Reflex=Yes	1	comp	_	AlignBegin=50047|AlignEnd=50775|Person[lex]=3|Scrap=Yes|SpaceAfter=No
 3	…	…	PUNCT	_	_	1	punct	_	AlignBegin=50775|AlignEnd=50775
 
 # sent_id = Rhap_M0023-16
@@ -377,7 +377,7 @@
 # text = et ils se, ils tombent tous les deux.
 1	et	et	CCONJ	_	_	6	cc	_	AlignBegin=51706|AlignEnd=51736
 2	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	6	subj	_	AlignBegin=51736|AlignEnd=51780|Person[lex]=3
-3	se	soi	PRON	_	PronType=Prs|Reflex=Yes	2	unk@scrap	_	AlignBegin=51780|AlignEnd=52083|Person[lex]=3|SpaceAfter=No
+3	se	soi	PRON	_	PronType=Prs|Reflex=Yes	2	unk	_	AlignBegin=51780|AlignEnd=52083|Person[lex]=3|Scrap=Yes|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=52083|AlignEnd=53021
 5	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	2	repair	_	AlignBegin=53021|AlignEnd=53101|Person[lex]=3
 6	tombent	tomber	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=53101|AlignEnd=53311|Number[ctxt]=Plur
@@ -422,7 +422,7 @@
 2	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	4	subj	_	AlignBegin=58762|AlignEnd=58850|Person[lex]=3
 3	se	soi	PRON	_	PronType=Prs|Reflex=Yes	4	comp:obl	_	AlignBegin=58850|AlignEnd=59058|Person[lex]=3
 4	dit	dire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=59058|AlignEnd=59259|Person[ctxt]=3
-5	que	que	SCONJ	_	_	4	comp:obj@scrap	_	AlignBegin=59259|AlignEnd=59603|SpaceAfter=No
+5	que	que	SCONJ	_	_	4	comp:obj	_	AlignBegin=59259|AlignEnd=59603|Scrap=Yes|SpaceAfter=No
 6	…	…	PUNCT	_	_	4	punct	_	AlignBegin=59603|AlignEnd=59603
 
 # sent_id = Rhap_M0023-20
@@ -486,7 +486,7 @@
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=67880|AlignEnd=68210
 10	bon	bon	INTJ	_	_	5	comp:obj	_	AlignBegin=68210|AlignEnd=68333|SpaceAfter=No
 11	,	,	PUNCT	_	_	5	punct	_	AlignBegin=68333|AlignEnd=68333
-12	XXX	XXX	X	_	_	5	unk@scrap	_	AlignBegin=68333|AlignEnd=68504
+12	XXX	XXX	X	_	_	5	unk	_	AlignBegin=68333|AlignEnd=68504|Scrap=Yes
 13	forcément	forcément	ADV	_	_	29	mod	_	AlignBegin=68504|AlignEnd=69122|SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	AlignBegin=69122|AlignEnd=69122
 15	euh	euh	INTJ	_	_	13	discourse	_	AlignBegin=69122|AlignEnd=69225|SpaceAfter=No
@@ -596,8 +596,8 @@
 15	c'	ce	PRON	_	PronType=Dem	16	subj@expl	_	AlignBegin=82865|AlignEnd=82981|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	comp:obj	_	AlignBegin=82981|AlignEnd=83041
 17	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|PronType=Prs	16	comp:pred	_	AlignBegin=83041|AlignEnd=83181|Person[lex]=3
-18	qui	qui	PRON	_	PronType=Rel	17	unk@scrap	_	AlignBegin=83181|AlignEnd=83403
-19	les	lui	PRON	_	Number=Plur|PronType=Prs	18	unk@scrap	_	AlignBegin=83403|AlignEnd=83643|Person[lex]=3|SpaceAfter=No
+18	qui	qui	PRON	_	PronType=Rel	17	unk	_	AlignBegin=83181|AlignEnd=83403|Scrap=Yes
+19	les	lui	PRON	_	Number=Plur|PronType=Prs	18	unk	_	AlignBegin=83403|AlignEnd=83643|Person[lex]=3|Scrap=Yes|SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	AlignBegin=83643|AlignEnd=83643
 21	euh	euh	INTJ	_	_	19	discourse	_	AlignBegin=83643|AlignEnd=83961|SpaceAfter=No
 22	,	,	PUNCT	_	_	25	punct	_	AlignBegin=83961|AlignEnd=83961

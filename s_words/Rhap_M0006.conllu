@@ -58,7 +58,7 @@
 11	de	de	ADP	_	_	10	udep	_	AlignBegin=7250|AlignEnd=7280
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	AlignBegin=7280|AlignEnd=8000|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	AlignBegin=8000|AlignEnd=8000
-14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	conj:dicto	_	AlignBegin=8000|AlignEnd=8173|HasSpokenGender=OnlySingExceptWithLiaison
+14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	repair	_	AlignBegin=8000|AlignEnd=8173|HasSpokenGender=OnlySingExceptWithLiaison
 15	ligne	ligne	NOUN	_	_	11	comp:obj	_	AlignBegin=8173|AlignEnd=8330|Gender[lex]=Fem|Number[ctxt]=Sing
 16	droite	droit	ADJ	_	Gender=Fem	15	mod	_	AlignBegin=8330|AlignEnd=8670|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	AlignBegin=8670|AlignEnd=8779
@@ -126,7 +126,7 @@
 5	y	y	PRON	_	PronType=Prs	6	comp@expl	_	AlignBegin=16178|AlignEnd=16225|Person[lex]=3
 6	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=16225|AlignEnd=16278
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	AlignBegin=16278|AlignEnd=16406|LiaisonAfter=Yes
-8	arrêt	arrêt	NOUN	_	_	6	comp:obj	_	AlignBegin=16406|AlignEnd=16556|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
+8	arrêt	arrêt	NOUN	_	_	6	comp:obj	_	AlignBegin=16406|AlignEnd=16556|cdet=No|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 9	de	de	ADP	_	_	8	udep	_	AlignBegin=16556|AlignEnd=16608
 10	tram	tram	NOUN	_	_	9	comp:obj	_	AlignBegin=16608|AlignEnd=16912|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 11	.	.	PUNCT	_	_	6	punct	_	AlignBegin=16912|AlignEnd=16912
@@ -142,7 +142,7 @@
 3	arrives	arriver	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	1	comp:obj	_	AlignBegin=17591|AlignEnd=17799|Person[ctxt]=2
 4	à	à	ADP	_	_	3	comp:obl	_	AlignBegin=17799|AlignEnd=17873
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	AlignBegin=17873|AlignEnd=17903|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
-6	arrêt	arrêt	NOUN	_	_	4	comp:obj	_	AlignBegin=17903|AlignEnd=18073|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
+6	arrêt	arrêt	NOUN	_	_	4	comp:obj	_	AlignBegin=17903|AlignEnd=18073|cdet=No|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 7	de	de	ADP	_	_	6	udep	_	AlignBegin=18073|AlignEnd=18133
 8	tram	tram	NOUN	_	_	7	comp:obj	_	AlignBegin=18133|AlignEnd=18562|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 9	,	,	PUNCT	_	_	1	punct	_	AlignBegin=18562|AlignEnd=19249
@@ -197,7 +197,7 @@
 6	c'	ce	PRON	_	PronType=Dem	7	subj	_	AlignBegin=24913|AlignEnd=25003|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=25003|AlignEnd=25043
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=25043|AlignEnd=25133|LiaisonAfter=Yes
-9	arrêt	arrêt	NOUN	_	_	7	comp:pred	_	AlignBegin=25133|AlignEnd=25313|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
+9	arrêt	arrêt	NOUN	_	_	7	comp:pred	_	AlignBegin=25133|AlignEnd=25313|cdet=No|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 10	de	de	ADP	_	_	9	udep	_	AlignBegin=25313|AlignEnd=25343
 11	tram	tram	NOUN	_	_	10	comp:obj	_	AlignBegin=25343|AlignEnd=25643|Gender[lex]=Masc|Number[ctxt]=Sing
 12	aussi	aussi	ADV	_	_	7	mod	_	AlignBegin=25643|AlignEnd=26000|SpaceAfter=No

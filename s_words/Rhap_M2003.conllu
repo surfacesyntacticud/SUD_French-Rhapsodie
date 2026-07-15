@@ -129,7 +129,7 @@
 2	guérit	guérir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=31194|AlignEnd=31744|Person[ctxt]=3
 3	ensuite	ensuite	ADV	_	_	2	mod	_	AlignBegin=31744|AlignEnd=32284
 4	toutes	tout	DET	_	Gender=Fem|Number=Plur|PronType=Ind	5	det	_	AlignBegin=32284|AlignEnd=32504
-5	sortes	sorte	NOUN	_	_	2	comp:obj	_	AlignBegin=32504|AlignEnd=33149|Gender[lex]=Fem|Number[ctxt]=Plur
+5	sortes	sorte	NOUN	_	_	2	comp:obj	_	AlignBegin=32504|AlignEnd=33149|cdet=Ambiguous|Gender[lex]=Fem|Number[ctxt]=Plur
 6	de	de	ADP	_	_	5	udep	_	AlignBegin=33346|AlignEnd=33491
 7	malades	malade	NOUN	_	_	6	comp:obj	_	AlignBegin=33491|AlignEnd=34134|Gender[lex]=Masc|Number[ctxt]=Plur
 8	comme	comme	ADP	_	_	2	mod	_	AlignBegin=34813|AlignEnd=35058
@@ -338,9 +338,9 @@
 49	personne	personne	NOUN	_	_	47	comp:obj	_	AlignBegin=93847|AlignEnd=94227|Gender[lex]=Fem|Number[ctxt]=Sing
 50	en	en	ADP	_	_	47	mod	_	AlignBegin=94227|AlignEnd=94357
 51	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	52	det	_	AlignBegin=94357|AlignEnd=94564|HasSpokenGender=OnlySingExceptWithLiaison
-52	qualité	qualité	NOUN	_	_	50	comp:obj	_	AlignBegin=94564|AlignEnd=95067|Gender[lex]=Fem|Number[ctxt]=Sing
+52	qualité	qualité	NOUN	_	_	50	comp:obj	_	AlignBegin=94564|AlignEnd=95067|cdet=No|Gender[lex]=Fem|Number[ctxt]=Sing
 53	de	de	ADP	_	_	52	udep	_	AlignBegin=95067|AlignEnd=95177
-54	sujet	sujet	NOUN	_	_	53	comp:obj	_	AlignBegin=95177|AlignEnd=95737|Gender[lex]=Masc|Number[ctxt]=Sing
+54	sujet	sujet	NOUN	_	_	53	comp:obj	_	AlignBegin=95177|AlignEnd=95737|cdet=No|Gender[lex]=Masc|Number[ctxt]=Sing
 55	de	de	ADP	_	_	54	udep	_	AlignBegin=95737|AlignEnd=95857
 56	parole	parole	NOUN	_	_	55	comp:obj	_	AlignBegin=95857|AlignEnd=96519|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 57	,	,	PUNCT	_	_	59	punct	_	AlignBegin=96519|AlignEnd=97588
@@ -377,7 +377,7 @@
 4	même	même	ADV	_	_	3	mod	_	AlignBegin=106184|AlignEnd=106439
 5	pas	pas	ADV	_	Polarity=Neg	3	mod	_	AlignBegin=106439|AlignEnd=106584
 6	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	7	det	_	AlignBegin=106584|AlignEnd=106794|HasSpokenGender=OnlySingExceptWithLiaison
-7	gestes	geste	NOUN	_	_	3	comp:obj	_	AlignBegin=106794|AlignEnd=107154|Gender[lex]=Masc|Number[ctxt]=Plur
+7	gestes	geste	NOUN	_	_	3	comp:obj	_	AlignBegin=106794|AlignEnd=107154|cdet=No|Gender[lex]=Masc|Number[ctxt]=Plur
 8	de	de	ADP	_	_	7	udep	_	AlignBegin=107154|AlignEnd=107294
 9	bonté	bonté	NOUN	_	_	8	comp:obj	_	AlignBegin=107294|AlignEnd=107694|Gender[lex]=Fem|Number[ctxt]=Sing
 10	comme	comme	ADP	_	_	7	udep	_	AlignBegin=107694|AlignEnd=107884
@@ -496,7 +496,7 @@
 6	action	action	NOUN	_	_	5	comp:obj	_	AlignBegin=138249|AlignEnd=138876|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 7	dans	dans	ADP	_	_	2	mod	_	AlignBegin=139713|AlignEnd=139848
 8	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	9	det	_	AlignBegin=139848|AlignEnd=140058|HasSpokenGender=OnlySingExceptWithLiaison
-9	gestes	geste	NOUN	_	_	7	comp:obj	_	AlignBegin=140058|AlignEnd=140538|Gender[lex]=Masc|Number[ctxt]=Plur
+9	gestes	geste	NOUN	_	_	7	comp:obj	_	AlignBegin=140058|AlignEnd=140538|cdet=No|Gender[lex]=Masc|Number[ctxt]=Plur
 10	de	de	ADP	_	_	9	udep	_	AlignBegin=140538|AlignEnd=140708
 11	libération	libération	NOUN	_	_	10	comp:obj	_	AlignBegin=140708|AlignEnd=141508|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct	_	AlignBegin=141508|AlignEnd=141508
@@ -678,7 +678,7 @@
 2	encore	encore	ADV	_	_	10	mod	_	AlignBegin=179068|AlignEnd=179558
 3	moi	moi	PRON	_	Emph=Yes|PronType=Prs	10	dislocated:subj	_	AlignBegin=179558|AlignEnd=179975|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=179975|AlignEnd=180181
-5	moi	moi	PRON	_	Emph=Yes|PronType=Prs	3	conj:dicto	_	AlignBegin=180181|AlignEnd=180516|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+5	moi	moi	PRON	_	Emph=Yes|PronType=Prs	3	repair	_	AlignBegin=180181|AlignEnd=180516|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	AlignBegin=180516|AlignEnd=180516
 7	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	subj	_	AlignBegin=180516|AlignEnd=180696|Number[lex]=Sing|Person[lex]=1
 8	te	toi	PRON	_	Case=Dat|Emph=No|PronType=Prs	10	comp:obl	_	AlignBegin=180696|AlignEnd=180856|Number[lex]=Sing|Person[lex]=2
@@ -880,7 +880,7 @@
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	2	subj	_	AlignBegin=227156|AlignEnd=227286|Person[lex]=3
 2	fait	faire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=227286|AlignEnd=227481|Person[ctxt]=3|Reported=Yes
 3	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	4	det	_	AlignBegin=227481|AlignEnd=227601
-4	journées	journée	NOUN	_	_	2	comp:obj	_	AlignBegin=227601|AlignEnd=227971|Gender[lex]=Fem|Number[ctxt]=Plur
+4	journées	journée	NOUN	_	_	2	comp:obj	_	AlignBegin=227601|AlignEnd=227971|cdet=No|Gender[lex]=Fem|Number[ctxt]=Plur
 5	de	de	ADP	_	_	4	udep	_	AlignBegin=227971|AlignEnd=228091
 6	manœuvre	manœuvre	NOUN	_	_	5	comp:obj	_	AlignBegin=228091|AlignEnd=228759|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	AlignBegin=0|AlignEnd=0
@@ -939,7 +939,7 @@
 3	compte	compter	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=240055|AlignEnd=240605|Person[ctxt]=1|Reported=Yes
 4	que	que	ADV	_	Polarity=Neg	6	mod	_	AlignBegin=241095|AlignEnd=241250
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	AlignBegin=241250|AlignEnd=241390
-6	nuits	nuit	NOUN	_	_	3	comp:obj	_	AlignBegin=241390|AlignEnd=241680|Gender[lex]=Fem|Number[ctxt]=Plur
+6	nuits	nuit	NOUN	_	_	3	comp:obj	_	AlignBegin=241390|AlignEnd=241680|cdet=No|Gender[lex]=Fem|Number[ctxt]=Plur
 7	de	de	ADP	_	_	6	udep	_	AlignBegin=241680|AlignEnd=241760
 8	souffrance	souffrance	NOUN	_	_	7	comp:obj	_	AlignBegin=241760|AlignEnd=242810|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 9	…	…	PUNCT	_	_	3	punct	_	AlignBegin=242810|AlignEnd=242810
@@ -952,7 +952,7 @@
 # text = que de nuits de souffrance dans notre humanité.
 1	que	que	ADV	_	_	0	root	_	AlignBegin=243421|AlignEnd=243566|Reported=Yes
 2	de	de	ADP	_	_	1	comp:obl	_	AlignBegin=243566|AlignEnd=243686
-3	nuits	nuit	NOUN	_	_	2	comp:obj	_	AlignBegin=243686|AlignEnd=243920|Gender[lex]=Fem|Number[ctxt]=Plur
+3	nuits	nuit	NOUN	_	_	2	comp:obj	_	AlignBegin=243686|AlignEnd=243920|cdet=No|Gender[lex]=Fem|Number[ctxt]=Plur
 4	de	de	ADP	_	_	3	udep	_	AlignBegin=243920|AlignEnd=244046
 5	souffrance	souffrance	NOUN	_	_	4	comp:obj	_	AlignBegin=244046|AlignEnd=244800|Gender[lex]=Fem|Number[ctxt]=Sing
 6	dans	dans	ADP	_	_	3	udep	_	AlignBegin=245200|AlignEnd=245335
@@ -1007,7 +1007,7 @@
 4	approche	approche	NOUN	_	_	2	comp:obj	_	AlignBegin=256053|AlignEnd=256704|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 5	de	de	ADP	_	_	4	udep	_	AlignBegin=257063|AlignEnd=257138
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	AlignBegin=257138|AlignEnd=257218|HasSpokenGender=OnlySingExceptWithLiaison
-7	journée	journée	NOUN	_	_	5	comp:obj	_	AlignBegin=257218|AlignEnd=257538|Gender[lex]=Fem|Number[ctxt]=Sing
+7	journée	journée	NOUN	_	_	5	comp:obj	_	AlignBegin=257218|AlignEnd=257538|cdet=No|Gender[lex]=Fem|Number[ctxt]=Sing
 8-9	des	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	7	udep	_	AlignBegin=257538|AlignEnd=257648
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	AlignBegin=257538|AlignEnd=257648
@@ -1040,7 +1040,7 @@
 36	santé	santé	NOUN	_	_	34	comp:obj	_	AlignBegin=263441|AlignEnd=263965|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 37	,	,	PUNCT	_	_	2	punct	_	AlignBegin=263965|AlignEnd=264491
 38	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	39	det	_	AlignBegin=264491|AlignEnd=264656|HasSpokenGender=OnlySingExceptWithLiaison
-39	puissance	puissance	NOUN	_	_	53	subj	_	AlignBegin=264656|AlignEnd=265226|Gender[lex]=Fem|Number[ctxt]=Sing
+39	puissance	puissance	NOUN	_	_	53	subj	_	AlignBegin=264656|AlignEnd=265226|cdet=No|Gender[lex]=Fem|Number[ctxt]=Sing
 40	de	de	ADP	_	_	39	udep	_	AlignBegin=265226|AlignEnd=265346
 41	guérison	guérison	NOUN	_	_	40	comp:obj	_	AlignBegin=265346|AlignEnd=265866|Gender[lex]=Fem|Number[ctxt]=Sing
 42	de	de	ADP	_	_	39	udep	_	AlignBegin=265866|AlignEnd=265946
@@ -1083,7 +1083,7 @@
 1	pour	pour	ADP	_	_	36	mod	_	AlignBegin=278518|AlignEnd=278713
 2	que	que	SCONJ	_	_	1	comp:obj	_	AlignBegin=278713|AlignEnd=278823
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	AlignBegin=278823|AlignEnd=278980|HasSpokenGender=OnlySingExceptWithLiaison
-4	parole	parole	NOUN	_	_	8	subj@pass	_	AlignBegin=278980|AlignEnd=279786|Gender[lex]=Fem|Number[ctxt]=Sing
+4	parole	parole	NOUN	_	_	8	subj@pass	_	AlignBegin=278980|AlignEnd=279786|cdet=No|Gender[lex]=Fem|Number[ctxt]=Sing
 5-6	des	_	_	_	_	_	_	_	_
 5	de	de	ADP	_	_	4	udep	_	AlignBegin=279786|AlignEnd=279968
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	AlignBegin=279786|AlignEnd=279968

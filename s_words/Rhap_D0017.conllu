@@ -18,9 +18,9 @@
 # text = vous, vous, vous prenez à droite, la droite.
 1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	subj	_	AlignBegin=1102|AlignEnd=1670|Number[lex]=Plur|Person[lex]=2|Polite=Unknown|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=1670|AlignEnd=1670
-3	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	1	conj:dicto	_	AlignBegin=1670|AlignEnd=2104|Number[lex]=Plur|Person[lex]=2|Polite=Unknown|SpaceAfter=No
+3	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	1	repair	_	AlignBegin=1670|AlignEnd=2104|Number[lex]=Plur|Person[lex]=2|Polite=Unknown|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=2104|AlignEnd=2104
-5	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	conj:dicto	_	AlignBegin=2104|AlignEnd=2297|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
+5	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	repair	_	AlignBegin=2104|AlignEnd=2297|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
 6	prenez	prendre	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=2297|AlignEnd=2545
 7	à	à	ADP	_	_	6	comp:obl	_	AlignBegin=2545|AlignEnd=2650
 8	droite	droite	NOUN	_	_	7	comp:obj	_	AlignBegin=2650|AlignEnd=3183|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -45,7 +45,7 @@
 7	à	à	ADP	_	_	6	comp:obj	_	AlignBegin=7235|AlignEnd=7828
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	AlignBegin=7235|AlignEnd=7828
 9	prochain	prochain	ADJ	_	Number=Sing	10	mod	_	AlignBegin=7828|AlignEnd=8142|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes
-10	arrêt	arrêt	NOUN	_	_	7	comp:obj	_	AlignBegin=8142|AlignEnd=8405|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
+10	arrêt	arrêt	NOUN	_	_	7	comp:obj	_	AlignBegin=8142|AlignEnd=8405|cdet=No|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 11	de	de	ADP	_	_	10	udep	_	AlignBegin=8405|AlignEnd=8485
 12	tram	tram	NOUN	_	_	11	comp:obj	_	AlignBegin=8485|AlignEnd=8795|Gender[lex]=Masc|Number[ctxt]=Sing
 13	où	où	ADV	_	PronType=Rel	16	mod	_	AlignBegin=9639|AlignEnd=9730
@@ -147,14 +147,14 @@
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	comp:obj@scrap	_	AlignBegin=28654|AlignEnd=28826
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=28826|AlignEnd=29016
 7-8	au	_	_	_	_	_	_	_	_
-7	à	à	ADP	_	_	4	conj:dicto	_	AlignBegin=29016|AlignEnd=29132
+7	à	à	ADP	_	_	4	repair	_	AlignBegin=29016|AlignEnd=29132
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	AlignBegin=29016|AlignEnd=29132
 9	prochain	prochain	ADJ	_	Number=Sing	10	mod	_	AlignBegin=29132|AlignEnd=29542|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes
 10	arrêt	arrêt	NOUN	_	_	7	comp:obj	_	AlignBegin=29542|AlignEnd=29873|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 11	,	,	PUNCT	_	_	4	punct	_	AlignBegin=29873|AlignEnd=29873
 12	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	15	subj	_	AlignBegin=29873|AlignEnd=30230|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	AlignBegin=30230|AlignEnd=30515
-14	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	12	conj:dicto	_	AlignBegin=30515|AlignEnd=30704|Number[lex]=Sing|Person[lex]=1
+14	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	12	repair	_	AlignBegin=30515|AlignEnd=30704|Number[lex]=Sing|Person[lex]=1
 15	continue	continuer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=30704|AlignEnd=31332|Person[ctxt]=1
 16	?	?	PUNCT	_	_	15	punct	_	AlignBegin=31332|AlignEnd=31332
 
@@ -203,7 +203,7 @@
 10	y	y	PRON	_	PronType=Prs	11	comp@expl	_	AlignBegin=40283|AlignEnd=40343|Person[lex]=3
 11	aura	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	AlignBegin=40343|AlignEnd=40704
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	AlignBegin=40704|AlignEnd=40863|LiaisonAfter=Yes
-13	intersection	intersection	NOUN	_	_	11	comp:obj	_	AlignBegin=40863|AlignEnd=41902|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
+13	intersection	intersection	NOUN	_	_	11	comp:obj	_	AlignBegin=40863|AlignEnd=41902|cdet=No|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 14-15	des	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	13	udep	_	AlignBegin=41902|AlignEnd=42002
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	AlignBegin=41902|AlignEnd=42002
