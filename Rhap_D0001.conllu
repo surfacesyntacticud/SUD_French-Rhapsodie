@@ -7,7 +7,7 @@
 1	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=2226|AlignEnd=2266|SpaceAfter=No
 2	-ce	ce	PRON	_	PronType=Dem	1	subj@expl	_	AlignBegin=2266|AlignEnd=2416|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 3	que	que	SCONJ	_	_	1	comp:pred	_	AlignBegin=2416|AlignEnd=2476
-4	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	AlignBegin=2476|AlignEnd=2646|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
+4	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	AlignBegin=2476|AlignEnd=2646|Number[lex]=Plur|Person[lex]=2
 5	pourriez	pouvoir	VERB	_	Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	comp	_	AlignBegin=2646|AlignEnd=3296
 6	décrire	décrire	VERB	_	VerbForm=Inf	5	comp:obj	_	AlignBegin=3475|AlignEnd=4315|SpaceAfter=No|Subject=SubjRaising
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=4315|AlignEnd=4973
@@ -318,7 +318,7 @@
 5	musée	musée	NOUN	_	_	4	comp	_	AlignBegin=41223|AlignEnd=41563|Gender[lex]=Masc|Number[ctxt]=Sing
 6	du	du	ADP	_	_	5	udep	_	AlignBegin=41563|AlignEnd=41753
 7	quai	quai	NOUN	_	_	6	comp	_	AlignBegin=41753|AlignEnd=41893|Gender[lex]=Masc|Number[ctxt]=Sing
-8	Branly	Branly	PROPN	_	_	7	mod@appos	_	AlignBegin=41893|AlignEnd=42561|Gender[lex]=Unknown|SpaceAfter=No
+8	Branly	Branly	PROPN	_	_	7	mod:appos	_	AlignBegin=41893|AlignEnd=42561|Gender[lex]=Unknown|SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	AlignBegin=42561|AlignEnd=42561
 
 # sent_id = Rhap_D0001-20
@@ -446,12 +446,12 @@
 36	qui	qui	PRON	_	PronType=Rel	37	subj	_	AlignBegin=61697|AlignEnd=61853|Overlap=Rhap_D0001-28
 37	passe	passer	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	32	repair	_	AlignBegin=61853|AlignEnd=62418|Number[ctxt]=Sing|Overlap=Rhap_D0001-28|Person[ctxt]=3
 38	boulevard	boulevard	NOUN	_	_	37	comp:obj	_	AlignBegin=62418|AlignEnd=62728|Gender[lex]=Masc|Number[ctxt]=Sing|Overlap=Rhap_D0001-28
-39	Saint-Germain	Saint-Germain	PROPN	_	_	38	mod@appos	_	AlignBegin=62728|AlignEnd=63676|Gender[lex]=Unknown|Overlap=Rhap_D0001-28|SpaceAfter=No
+39	Saint-Germain	Saint-Germain	PROPN	_	_	38	mod:appos	_	AlignBegin=62728|AlignEnd=63676|Gender[lex]=Unknown|Overlap=Rhap_D0001-28|SpaceAfter=No
 40	,	,	PUNCT	_	_	41	punct	_	AlignBegin=63676|AlignEnd=63916
 41	euh	euh	INTJ	_	_	39	discourse	_	AlignBegin=63916|AlignEnd=64316|SpaceAfter=No
 42	,	,	PUNCT	_	_	43	punct	_	AlignBegin=64316|AlignEnd=64316
 43	boulevard	boulevard	NOUN	_	_	38	repair	_	AlignBegin=64316|AlignEnd=64741|Gender[lex]=Masc|Number[ctxt]=Sing
-44	Henri	Henri	PROPN	_	_	43	mod@appos	_	AlignBegin=64741|AlignEnd=65046|Gender[lex]=Unknown
+44	Henri	Henri	PROPN	_	_	43	mod:appos	_	AlignBegin=64741|AlignEnd=65046|Gender[lex]=Unknown
 45	Quatre	Quatre	PROPN	_	_	44	flat@name	_	AlignBegin=65046|AlignEnd=65359|Gender[lex]=Unknown|SpaceAfter=No
 46	.	.	PUNCT	_	_	4	punct	_	AlignBegin=65359|AlignEnd=65359
 
@@ -520,7 +520,7 @@
 5	rue	rue	NOUN	_	_	12	dislocated:subj	_	AlignBegin=68529|AlignEnd=68644|Gender[lex]=Fem|Number[ctxt]=Sing
 6	du	du	ADP	_	_	5	udep	_	AlignBegin=68644|AlignEnd=68799
 7	Faubourg	Faubourg	PROPN	_	_	6	comp	_	AlignBegin=68799|AlignEnd=69119|Gender[lex]=Unknown
-8	Saint	Saint	PROPN	_	_	7	mod@appos	_	AlignBegin=69119|AlignEnd=69379|Gender[lex]=Unknown
+8	Saint	Saint	PROPN	_	_	7	mod:appos	_	AlignBegin=69119|AlignEnd=69379|Gender[lex]=Unknown
 9	Antoine	Antoine	PROPN	_	_	8	flat@name	_	AlignBegin=69379|AlignEnd=69749|Gender[lex]=Unknown|SpaceAfter=No
 10	,	,	PUNCT	_	_	5	punct	_	AlignBegin=69749|AlignEnd=69749
 11	c'	ce	PRON	_	PronType=Dem	12	subj	_	AlignBegin=69749|AlignEnd=69859|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
@@ -600,7 +600,7 @@
 # speaker_id = §LF1
 # macrosyntax = $- $L1 vous savez que nous sommes plusieurs à faire ça //
 # text = vous savez que nous sommes plusieurs à faire ça.
-1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	AlignBegin=80555|AlignEnd=80630|Number[lex]=Plur|Overlap=Rhap_D0001-35|Person[lex]=2|Polite=Unknown
+1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	AlignBegin=80555|AlignEnd=80630|Number[lex]=Plur|Overlap=Rhap_D0001-35|Person[lex]=2
 2	savez	savoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=80630|AlignEnd=80890|Overlap=Rhap_D0001-35
 3	que	que	SCONJ	_	_	2	comp:obj	_	AlignBegin=80890|AlignEnd=80970|Overlap=Rhap_D0001-35
 4	nous	nous	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	AlignBegin=80970|AlignEnd=81050|Number[lex]=Plur|Overlap=Rhap_D0001-35|Person[lex]=1
@@ -627,7 +627,7 @@
 # macrosyntax = { monsieur YYY |} $- $L2 ( { oui | oui } "je vois" //= bien sûr "je vois" // ) {| voisin } "euh" { prend ESPERLUETTE | -$ $L1 a } $- le même ( $L2 { oui | oui } // ) -$ discours $- "euh" ( absolument // ) ( $L2 absolument // ) -$ $- $L2 ( { oui | oui | oui } "je sais" // ) ému ( $L2 { oui | oui } // ) -$ quand on passe à l'arrière de Notre-Dame "hein" >+ en $- particulier //
 # text = monsieur YYY, voisin, euh, prend, a le même discours, euh, absolument ému quand on passe à l'arrière de Notre-Dame, hein, en particulier.
 1	monsieur	monsieur	NOUN	_	Shared=Yes	8	subj	_	AlignBegin=83486|AlignEnd=83928|Gender[lex]=Masc|Number[ctxt]=Sing
-2	YYY	YYY	PROPN	_	_	1	mod@appos	_	AlignBegin=84367|AlignEnd=84590|Gender[lex]=Unknown|SpaceAfter=No
+2	YYY	YYY	PROPN	_	_	1	mod:appos	_	AlignBegin=84367|AlignEnd=84590|Gender[lex]=Unknown|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=84590|AlignEnd=84777
 4	voisin	voisin	NOUN	_	_	1	conj:dicto	_	AlignBegin=84777|AlignEnd=86514|Gender[lex]=Masc|Number[ctxt]=Sing|Overlap=Rhap_D0001-37|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=86514|AlignEnd=84777|Overlap=Rhap_D0001-27bis
@@ -811,9 +811,9 @@
 # macrosyntax = $- ^et { vous | vous } ( $L2 ça < c'est ESPERLUETTE // ) -$ avez comme ça des moments de ESPERLUETTE //
 # text = et vous, vous avez comme ça des moments de… ?
 1	et	et	CCONJ	_	_	5	cc	_	AlignBegin=99398|AlignEnd=99473|Overlap=Rhap_D0001-49
-2	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	AlignBegin=99473|AlignEnd=99623|Number[lex]=Plur|Overlap=Rhap_D0001-49|Person[lex]=2|Polite=Unknown|SpaceAfter=No
+2	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	AlignBegin=99473|AlignEnd=99623|Number[lex]=Plur|Overlap=Rhap_D0001-49|Person[lex]=2|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=99819|AlignEnd=99398|Overlap=Rhap_D0001-32bis
-4	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	repair	_	AlignBegin=99623|AlignEnd=99819|Number[lex]=Plur|Overlap=Rhap_D0001-49|Person[lex]=2|Polite=Unknown
+4	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	repair	_	AlignBegin=99623|AlignEnd=99819|Number[lex]=Plur|Overlap=Rhap_D0001-49|Person[lex]=2
 5	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=99819|AlignEnd=100222
 6	comme	comme	ADP	_	_	5	mod	_	AlignBegin=100222|AlignEnd=100433
 7	ça	ça	PRON	_	PronType=Dem	6	comp	_	AlignBegin=99398|AlignEnd=99819|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
@@ -899,7 +899,7 @@
 7	,	,	PUNCT	_	_	9	punct	_	AlignBegin=109719|AlignEnd=109719
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=109719|AlignEnd=109789|HasSpokenGender=OnlySingExceptWithLiaison
 9	boulevard	boulevard	NOUN	_	_	4	conj:appos	_	AlignBegin=109789|AlignEnd=110069|Gender[lex]=Masc|Number[ctxt]=Sing
-10	Diderot	Diderot	PROPN	_	_	9	mod@appos	_	AlignBegin=110069|AlignEnd=111076|Gender[lex]=Unknown|SpaceAfter=No
+10	Diderot	Diderot	PROPN	_	_	9	mod:appos	_	AlignBegin=110069|AlignEnd=111076|Gender[lex]=Unknown|SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	AlignBegin=111076|AlignEnd=111076
 
 # sent_id = Rhap_D0001-53
@@ -1312,7 +1312,7 @@
 6	c'	ce	PRON	_	PronType=Dem	7	subj@expl	_	AlignBegin=156639|AlignEnd=156684|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	repair	_	AlignBegin=156684|AlignEnd=156714
 8	simplement	simplement	ADV	_	_	7	mod	_	AlignBegin=156714|AlignEnd=157284
-9	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	comp:pred	_	AlignBegin=157284|AlignEnd=157634|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
+9	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	comp:pred	_	AlignBegin=157284|AlignEnd=157634|Number[lex]=Plur|Person[lex]=2
 10	qui	qui	PRON	_	PronType=Rel	11	subj	_	AlignBegin=157634|AlignEnd=157804
 11	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	comp:cleft	_	AlignBegin=157804|AlignEnd=158273|Filler=subj
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	comp:obj	_	AlignBegin=158273|AlignEnd=158791|HasSpokenGender=OnlySingExceptWithLiaison|Scrap=Yes|SpaceAfter=No
@@ -1338,7 +1338,7 @@
 1	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=162023|AlignEnd=162068|SpaceAfter=No
 2	-ce	ce	PRON	_	PronType=Dem	1	subj@expl	_	AlignBegin=162068|AlignEnd=162208|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 3	que	que	SCONJ	_	_	1	comp:pred	_	AlignBegin=162208|AlignEnd=162308
-4	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	AlignBegin=162308|AlignEnd=162498|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
+4	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	AlignBegin=162308|AlignEnd=162498|Number[lex]=Plur|Person[lex]=2
 5	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	comp	_	AlignBegin=162498|AlignEnd=162748
 6	encore	encore	ADV	_	_	5	mod	_	AlignBegin=162748|AlignEnd=163168
 7	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art|Shared=No	10	det	_	AlignBegin=163168|AlignEnd=163607|SpaceAfter=No
@@ -1430,7 +1430,7 @@
 6	étais	être	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=180044|AlignEnd=180310|Person[ctxt]=1
 7	au	au	ADP	_	_	6	comp:obl	_	AlignBegin=180310|AlignEnd=180440
 8	lycée	lycée	NOUN	_	_	7	comp	_	AlignBegin=180440|AlignEnd=180890|Gender[lex]=Masc|Number[ctxt]=Sing
-9	Arago	Arago	PROPN	_	_	8	mod@appos	_	AlignBegin=180890|AlignEnd=181442|Gender[lex]=Unknown|SpaceAfter=No
+9	Arago	Arago	PROPN	_	_	8	mod:appos	_	AlignBegin=180890|AlignEnd=181442|Gender[lex]=Unknown|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	AlignBegin=181615|AlignEnd=181615
 11	donc	donc	ADV	_	_	8	discourse	_	AlignBegin=181615|AlignEnd=181800|Overlap=Rhap_D0001-85|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=183443|AlignEnd=181615|Overlap=Rhap_D0001-63bis
@@ -1496,7 +1496,7 @@
 17	philo	philo	NOUN	_	_	16	comp	_	AlignBegin=192910|AlignEnd=193280|Gender[lex]=Fem|Number[ctxt]=Sing
 18	au	au	ADP	_	_	15	udep	_	AlignBegin=193280|AlignEnd=193310
 19	lycée	lycée	NOUN	_	_	18	comp	_	AlignBegin=193310|AlignEnd=193630|Gender[lex]=Masc|Number[ctxt]=Sing
-20	Paul	Paul	PROPN	_	_	19	mod@appos	_	AlignBegin=193630|AlignEnd=193840|Gender[lex]=Unknown
+20	Paul	Paul	PROPN	_	_	19	mod:appos	_	AlignBegin=193630|AlignEnd=193840|Gender[lex]=Unknown
 21	Valéry	Valéry	PROPN	_	_	20	flat@name	_	AlignBegin=193840|AlignEnd=194383|Gender[lex]=Unknown|SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	AlignBegin=194383|AlignEnd=196336
 23	euh	euh	INTJ	_	_	21	discourse	_	AlignBegin=196336|AlignEnd=198105|SpaceAfter=No
@@ -1572,7 +1572,7 @@
 # text = simplement, vous êtes un peu plus jeune que moi.
 1	simplement	simplement	ADV	_	_	4	mod	_	AlignBegin=210013|AlignEnd=210547|Overlap=Rhap_D0001-91|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=212063|AlignEnd=210013|Overlap=Rhap_D0001-69
-3	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	AlignBegin=210547|AlignEnd=210709|Number[lex]=Plur|Overlap=Rhap_D0001-91|Person[lex]=2|Polite=Yes
+3	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	AlignBegin=210547|AlignEnd=210709|Number[lex]=Plur|Overlap=Rhap_D0001-91|Person[lex]=2
 4	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=210709|AlignEnd=210852|Overlap=Rhap_D0001-91
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=210852|AlignEnd=210953|InIdiom=Yes
 6	peu	peu	NOUN	_	ExtPos=ADV	7	mod	_	AlignBegin=210953|AlignEnd=211036|Gender[lex]=Masc|Idiom=Yes
@@ -1659,10 +1659,10 @@
 # speaker_id = §LF1
 # macrosyntax = { vous en | vous en } souvenez plutôt { { avec { "euh" | "euh" } | a~ | avec } l'impression { que ça tournait | que c'était bien "euh" } | ^ou $- $L1 ( au contraire ) d'un tel ennui ESPERLUETTE //
 # text = vous en, vous en souvenez plutôt avec, euh, euh, a~, avec l'impression que ça tournait, que c'était bien, euh, ou, au contraire, d'un  tel ennui…
-1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	subj	_	AlignBegin=218540|AlignEnd=218750|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
+1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	subj	_	AlignBegin=218540|AlignEnd=218750|Number[lex]=Plur|Person[lex]=2
 2	en	en	PRON	_	PronType=Prs	1	unk	_	AlignBegin=218750|AlignEnd=218840|Person[lex]=3|Scrap=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	AlignBegin=218840|AlignEnd=218840
-4	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	comp@expl	_	AlignBegin=218840|AlignEnd=219120|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
+4	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	comp@expl	_	AlignBegin=218840|AlignEnd=219120|Number[lex]=Plur|Person[lex]=2
 5	en	en	PRON	_	PronType=Prs	6	comp:obj	_	AlignBegin=219120|AlignEnd=219220|Person[lex]=3
 6	souvenez	souvenir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=219220|AlignEnd=219640
 7	plutôt	plutôt	ADV	_	_	6	mod	_	AlignBegin=219640|AlignEnd=220060
@@ -2018,7 +2018,7 @@
 4	,	,	PUNCT	_	_	1	punct	_	AlignBegin=251114|AlignEnd=251114
 5	au	au	ADP	_	_	10	mod	_	AlignBegin=251114|AlignEnd=251224
 6	lycée	lycée	NOUN	_	_	5	comp	_	AlignBegin=251224|AlignEnd=251574|Gender[lex]=Masc|Number[ctxt]=Sing
-7	Arago	Arago	PROPN	_	_	6	mod@appos	_	AlignBegin=251574|AlignEnd=252084|Gender[lex]=Unknown|SpaceAfter=No
+7	Arago	Arago	PROPN	_	_	6	mod:appos	_	AlignBegin=251574|AlignEnd=252084|Gender[lex]=Unknown|SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	AlignBegin=252084|AlignEnd=252084
 9	c'	ce	PRON	_	PronType=Dem	10	subj	_	AlignBegin=252084|AlignEnd=252171|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 10	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=252171|AlignEnd=252408
@@ -2519,20 +2519,20 @@
 1	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=313169|AlignEnd=313268|SpaceAfter=No
 2	-ce	ce	PRON	_	PronType=Dem	1	subj@expl	_	AlignBegin=313268|AlignEnd=313404|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 3	que	que	SCONJ	_	_	1	comp:pred	_	AlignBegin=313404|AlignEnd=314039
-4	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	AlignBegin=314039|AlignEnd=314249|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
+4	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	AlignBegin=314039|AlignEnd=314249|Number[lex]=Plur|Person[lex]=2
 5	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	comp	_	AlignBegin=314249|AlignEnd=314439
 6	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	det	_	AlignBegin=314439|AlignEnd=314639|LiaisonAfter=Yes
 7	enseignants	enseignant	NOUN	_	_	5	comp:obj	_	AlignBegin=314639|AlignEnd=315237|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 8	dont	dont	PRON	_	PronType=Rel	13	comp:obj	_	AlignBegin=315528|AlignEnd=315773|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=315773|AlignEnd=315773
 10	dont	dont	PRON	_	PronType=Rel	8	repair	_	AlignBegin=315773|AlignEnd=315913
-11	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	13	subj	_	AlignBegin=315913|AlignEnd=316033|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
-12	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	13	comp@expl	_	AlignBegin=316033|AlignEnd=316153|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
+11	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	13	subj	_	AlignBegin=315913|AlignEnd=316033|Number[lex]=Plur|Person[lex]=2
+12	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	13	comp@expl	_	AlignBegin=316033|AlignEnd=316153|Number[lex]=Plur|Person[lex]=2
 13	souvenez	souvenir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	AlignBegin=316153|AlignEnd=316633
 14	particulièrement	particulièrement	ADV	_	_	13	mod	_	AlignBegin=316633|AlignEnd=317393|SpaceAfter=No
 15	,	,	PUNCT	_	_	18	punct	_	AlignBegin=317393|AlignEnd=317393
 16	qui	qui	PRON	_	PronType=Rel	18	subj	_	AlignBegin=317393|AlignEnd=317521
-17	vous	vous	PRON	_	Case=Acc|Emph=No|PronType=Prs	19	comp:obj	_	AlignBegin=317521|AlignEnd=317704|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
+17	vous	vous	PRON	_	Case=Acc|Emph=No|PronType=Prs	19	comp:obj	_	AlignBegin=317521|AlignEnd=317704|Number[lex]=Plur|Person[lex]=2
 18	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	conj:dicto	_	AlignBegin=317704|AlignEnd=317781
 19	marqué	marquer	VERB	_	VerbForm=Part|Voice=Act	18	comp:aux@tense	_	AlignBegin=317781|AlignEnd=318578|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 20	,	,	PUNCT	_	_	21	punct	_	AlignBegin=318578|AlignEnd=318578

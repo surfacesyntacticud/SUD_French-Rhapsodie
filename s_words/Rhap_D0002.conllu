@@ -449,7 +449,7 @@
 # text = le lycée Voltaire est un bon lycée.
 1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	AlignBegin=64887|AlignEnd=64977|HasSpokenGender=OnlySingExceptWithLiaison
 2	lycée	lycée	NOUN	_	_	4	subj	_	AlignBegin=64977|AlignEnd=65277|Gender[lex]=Masc|Number[ctxt]=Sing
-3	Voltaire	Voltaire	PROPN	_	_	2	mod@appos	_	AlignBegin=65277|AlignEnd=65737|Gender[lex]=Unknown
+3	Voltaire	Voltaire	PROPN	_	_	2	mod:appos	_	AlignBegin=65277|AlignEnd=65737|Gender[lex]=Unknown
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=65737|AlignEnd=65877
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	AlignBegin=65877|AlignEnd=65967
 6	bon	bon	ADJ	_	Gender=Masc	7	mod	_	AlignBegin=65967|AlignEnd=66147|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
@@ -512,7 +512,7 @@
 3	problème	problème	NOUN	_	_	28	dislocated:subj	_	AlignBegin=70485|AlignEnd=70975|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=70975|AlignEnd=70975
 5	si	si	SCONJ	_	_	3	discourse	_	AlignBegin=70975|AlignEnd=71145
-6	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj	_	AlignBegin=71145|AlignEnd=71358|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
+6	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj	_	AlignBegin=71145|AlignEnd=71358|Number[lex]=Plur|Person[lex]=2
 7	voulez	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	comp	_	AlignBegin=71358|AlignEnd=71535|SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	AlignBegin=71535|AlignEnd=71535
 9	qui	qui	PRON	_	PronType=Rel	11	subj	_	AlignBegin=71535|AlignEnd=71655
@@ -547,7 +547,7 @@
 37	dans	dans	ADP	_	_	67	mod	_	AlignBegin=77871|AlignEnd=77996
 38	lequel	lequel	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	37	comp	_	AlignBegin=77996|AlignEnd=78396
 39	quand	quand	SCONJ	_	_	67	mod	_	AlignBegin=78396|AlignEnd=78476
-40	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	41	subj	_	AlignBegin=78476|AlignEnd=78746|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
+40	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	41	subj	_	AlignBegin=78476|AlignEnd=78746|Number[lex]=Plur|Person[lex]=2
 41	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	39	comp	_	AlignBegin=78746|AlignEnd=79056
 42	effectivement	effectivement	ADV	_	_	41	mod	_	AlignBegin=79056|AlignEnd=79655
 43	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	45	det	_	AlignBegin=79796|AlignEnd=79951
@@ -1443,7 +1443,7 @@
 # text = comment voulez vous apprendre à lire à un enfant qui parle pas français ?
 1	comment	comment	ADV	_	PronType=Int	2	mod	_	AlignBegin=207023|AlignEnd=207218
 2	voulez	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=207218|AlignEnd=207388
-3	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	AlignBegin=207388|AlignEnd=207514|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
+3	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	AlignBegin=207388|AlignEnd=207514|Number[lex]=Plur|Person[lex]=2
 4	apprendre	apprendre	VERB	_	VerbForm=Inf	2	comp:obj	_	AlignBegin=207514|AlignEnd=207848|Subject=SubjRaising
 5	à	à	ADP	_	_	4	comp:obl	_	AlignBegin=207848|AlignEnd=207938
 6	lire	lire	VERB	_	VerbForm=Inf	5	comp	_	AlignBegin=207938|AlignEnd=208238|Subject=SubjRaising
@@ -1823,7 +1823,7 @@
 2	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	AlignBegin=250863|AlignEnd=250996|Number[lex]=Sing|Overlap=Rhap_D0002-89|Person[lex]=1
 3	pense	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=250996|AlignEnd=251206|Overlap=Rhap_D0002-89|Person[ctxt]=1
 4	que	que	SCONJ	_	_	3	comp:obj	_	AlignBegin=251206|AlignEnd=251266|Overlap=Rhap_D0002-89
-5	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	subj	_	AlignBegin=251266|AlignEnd=251446|Number[lex]=Plur|Overlap=Rhap_D0002-89|Person[lex]=2|Polite=Unknown
+5	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	subj	_	AlignBegin=251266|AlignEnd=251446|Number[lex]=Plur|Overlap=Rhap_D0002-89|Person[lex]=2
 6	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	comp	_	AlignBegin=251446|AlignEnd=251646|Overlap=Rhap_D0002-89
 7	raison	raison	NOUN	_	_	6	comp:obj@lvc	_	AlignBegin=251646|AlignEnd=252018|Gender[lex]=Fem|Number[ctxt]=Sing|Overlap=Rhap_D0002-89|SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	AlignBegin=252018|AlignEnd=252018|Overlap=Rhap_D0002-67bis
@@ -1849,7 +1849,7 @@
 1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	AlignBegin=252132|AlignEnd=252307|Number[lex]=Sing|Person[lex]=1
 2	pense	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=252307|AlignEnd=252497|Person[ctxt]=1
 3	que	que	SCONJ	_	_	2	comp:obj	_	AlignBegin=252497|AlignEnd=252557
-4	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	AlignBegin=252557|AlignEnd=252687|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
+4	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	AlignBegin=252557|AlignEnd=252687|Number[lex]=Plur|Person[lex]=2
 5	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	comp	_	AlignBegin=252687|AlignEnd=252803
 6	raison	raison	NOUN	_	_	5	comp:obj@lvc	_	AlignBegin=252803|AlignEnd=253368|Gender[lex]=Fem|Number[ctxt]=Sing|Overlap=Rhap_D0002-97|SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	AlignBegin=253368|AlignEnd=253368|Overlap=Rhap_D0002-71bis
@@ -1862,7 +1862,7 @@
 # text = mais si vous voulez, le mélange est, est difficile quand ils sont petits.
 1	mais	mais	CCONJ	_	_	8	cc	_	AlignBegin=252803|AlignEnd=253368|Overlap=Rhap_D0002-97
 2	si	si	SCONJ	_	_	8	discourse	_	AlignBegin=253455|AlignEnd=253610
-3	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	AlignBegin=253610|AlignEnd=253730|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
+3	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	AlignBegin=253610|AlignEnd=253730|Number[lex]=Plur|Person[lex]=2
 4	voulez	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	comp	_	AlignBegin=253730|AlignEnd=254009|SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	AlignBegin=254009|AlignEnd=254009
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	AlignBegin=254009|AlignEnd=254180|HasSpokenGender=OnlySingExceptWithLiaison
@@ -1973,7 +1973,7 @@
 23	,	,	PUNCT	_	_	24	punct	_	AlignBegin=264166|AlignEnd=265156
 24	peuh	peuh	INTJ	_	_	20	discourse	_	AlignBegin=265156|AlignEnd=265908|SpaceAfter=No
 25	,	,	PUNCT	_	_	27	punct	_	AlignBegin=265908|AlignEnd=265908
-26	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	27	subj	_	AlignBegin=265908|AlignEnd=265945|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
+26	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	27	subj	_	AlignBegin=265908|AlignEnd=265945|Number[lex]=Plur|Person[lex]=2
 27	voyez	voir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	20	discourse	_	AlignBegin=265945|AlignEnd=266301|SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	AlignBegin=266301|AlignEnd=266301
 29	en	en	ADP	_	_	12	mod	_	AlignBegin=266301|AlignEnd=267291

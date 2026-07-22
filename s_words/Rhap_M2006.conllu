@@ -208,7 +208,7 @@
 11	vingt	vingt	NUM	_	ExtPos=DET	12	det	_	AlignBegin=69931|AlignEnd=70092|Number[lex]=Plur
 12	heures	heure	NOUN	_	_	10	comp	_	AlignBegin=70092|AlignEnd=70225|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 13	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	AlignBegin=70225|AlignEnd=70396|HasSpokenGender=OnlySingExceptWithLiaison
-14	soir	soir	NOUN	_	_	10	mod@appos	_	AlignBegin=70396|AlignEnd=70887|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
+14	soir	soir	NOUN	_	_	10	mod:appos	_	AlignBegin=70396|AlignEnd=70887|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 15	,	,	PUNCT	_	_	10	punct	_	AlignBegin=70887|AlignEnd=70979
 16	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	AlignBegin=70979|AlignEnd=71139|LiaisonAfter=Yes
 17	intervention	intervention	NOUN	_	_	0	root	_	AlignBegin=71139|AlignEnd=71715|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
@@ -276,7 +276,7 @@
 5	à	à	ADP	_	_	2	udep	_	AlignBegin=82392|AlignEnd=82567
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	comp:obj@scrap	_	AlignBegin=82392|AlignEnd=82567
 7	procès	procès	NOUN	_	_	5	comp	_	AlignBegin=82567|AlignEnd=82970|Gender[lex]=Masc|Number[ctxt]=Sing
-8	Colonna	Colonna	PROPN	_	_	7	mod@appos	_	AlignBegin=82970|AlignEnd=83410|Gender[lex]=Unknown|SpaceAfter=No
+8	Colonna	Colonna	PROPN	_	_	7	mod:appos	_	AlignBegin=82970|AlignEnd=83410|Gender[lex]=Unknown|SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	AlignBegin=83410|AlignEnd=83410
 
 # sent_id = Rhap_M2006-14
@@ -397,7 +397,7 @@
 2	rendez-vous	rendez-vous	NOUN	_	_	0	root	_	AlignBegin=109923|AlignEnd=110333|Gender[lex]=Masc|Number[ctxt]=Sing
 3	fixé	fixer	VERB	_	VerbForm=Part	2	mod	_	AlignBegin=110333|AlignEnd=110748|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
 4	,	,	PUNCT	_	_	7	punct	_	AlignBegin=110748|AlignEnd=110748
-5	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj	_	AlignBegin=110748|AlignEnd=110855|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
+5	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj	_	AlignBegin=110748|AlignEnd=110855|Number[lex]=Plur|Person[lex]=2
 6	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|PronType=Prs	8	comp:obj	_	AlignBegin=110855|AlignEnd=110895|Person[lex]=3|SpaceAfter=No
 7	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	parataxis:parenth	_	AlignBegin=110895|AlignEnd=111178
 8	dit	dire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	7	comp:aux@tense	_	AlignBegin=111178|AlignEnd=111475|Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|SpaceAfter=No|Tense[denom]=Past
@@ -445,7 +445,7 @@
 10	sortir	sortir	VERB	_	VerbForm=Inf	8	comp:obj	_	AlignBegin=118561|AlignEnd=119265|SpaceAfter=No|Subject=SubjRaising
 11	,	,	PUNCT	_	_	3	punct	_	AlignBegin=119265|AlignEnd=119321
 12	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	14	subj	_	AlignBegin=119321|AlignEnd=119578|Number[lex]=Sing|Person[lex]=1
-13	vous	vous	PRON	_	Case=Dat|Emph=No|PronType=Prs	14	comp:obl	_	AlignBegin=119578|AlignEnd=119812|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
+13	vous	vous	PRON	_	Case=Dat|Emph=No|PronType=Prs	14	comp:obl	_	AlignBegin=119578|AlignEnd=119812|Number[lex]=Plur|Person[lex]=2
 14	propose	proposer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=119812|AlignEnd=120466|Person[ctxt]=1
 15	de	de	ADP	_	_	14	comp:obl	_	AlignBegin=120466|AlignEnd=120566
 16	voir	voir	VERB	_	VerbForm=Inf	15	comp	_	AlignBegin=120566|AlignEnd=120876|Subject=ObjRaising
@@ -459,7 +459,7 @@
 24	se	soi	PRON	_	PronType=Prs|Reflex=Yes	25	comp@expl	_	AlignBegin=122575|AlignEnd=122620|Person[lex]=3
 25	passer	passer	VERB	_	VerbForm=Inf	23	comp:obj	_	AlignBegin=122620|AlignEnd=122943|Subject=SubjRaising
 26	avec	avec	ADP	_	_	16	mod	_	AlignBegin=123233|AlignEnd=123518
-27	vous	vous	PRON	_	Case=Acc|Emph=No|PronType=Prs	26	comp	_	AlignBegin=123518|AlignEnd=123620|Number[lex]=Plur|Person[lex]=2|Polite=Unknown|SpaceAfter=No
+27	vous	vous	PRON	_	Case=Acc|Emph=No|PronType=Prs	26	comp	_	AlignBegin=123518|AlignEnd=123620|Number[lex]=Plur|Person[lex]=2|SpaceAfter=No
 28	,	,	PUNCT	_	_	29	punct	_	AlignBegin=123620|AlignEnd=123620
 29	Jean-François	Jean-François	PROPN	_	_	27	conj:appos	_	AlignBegin=123620|AlignEnd=124079|Gender[lex]=Unknown
 30	Achilli	Achilli	PROPN	_	_	29	flat@name	_	AlignBegin=124079|AlignEnd=124389|Gender[lex]=Unknown|SpaceAfter=No
@@ -635,7 +635,7 @@
 # text = un sondage BVA, Les Échos, France Info réalisé les treize et quatorze février dernier.
 1	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	AlignBegin=301143|AlignEnd=301234
 2	sondage	sondage	NOUN	_	_	0	root	_	AlignBegin=301234|AlignEnd=301643|Gender[lex]=Masc|Number[ctxt]=Sing
-3	BVA	BVA	PROPN	_	_	2	mod@appos	_	AlignBegin=301643|AlignEnd=302215|Gender[lex]=Unknown|SpaceAfter=No
+3	BVA	BVA	PROPN	_	_	2	mod:appos	_	AlignBegin=301643|AlignEnd=302215|Gender[lex]=Unknown|SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	AlignBegin=302215|AlignEnd=302215
 5	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	AlignBegin=302215|AlignEnd=302500|HasSpokenGender=OnlySingExceptWithLiaison
 6	Échos	Échos	PROPN	_	_	3	conj:coord	_	AlignBegin=302500|AlignEnd=302785|Gender[lex]=Unknown|SpaceAfter=No
@@ -709,8 +709,8 @@
 # speaker_id = §LF35
 # macrosyntax = vous vous trouvez au Gosier //
 # text = vous vous trouvez au Gosier.
-1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	AlignBegin=321744|AlignEnd=321859|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
-2	vous	vous	PRON	_	Case=Dat|Emph=No|PronType=Prs	3	comp:obl	_	AlignBegin=321859|AlignEnd=321960|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
+1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	AlignBegin=321744|AlignEnd=321859|Number[lex]=Plur|Person[lex]=2
+2	vous	vous	PRON	_	Case=Dat|Emph=No|PronType=Prs	3	comp:obl	_	AlignBegin=321859|AlignEnd=321960|Number[lex]=Plur|Person[lex]=2
 3	trouvez	trouver	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=321960|AlignEnd=322238
 4-5	au	_	_	_	_	_	_	_	_
 4	à	à	ADP	_	_	3	comp:obl	_	AlignBegin=322238|AlignEnd=322352
@@ -749,7 +749,7 @@
 # macrosyntax = on vous retrouve pour un nouveau point dans le journal de huit heures //
 # text = on vous retrouve pour un nouveau point dans le journal de huit heures.
 1	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	3	subj	_	AlignBegin=421273|AlignEnd=421415|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
-2	vous	vous	PRON	_	Case=Acc|Emph=No|PronType=Prs	3	comp:obj	_	AlignBegin=421415|AlignEnd=421490|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
+2	vous	vous	PRON	_	Case=Acc|Emph=No|PronType=Prs	3	comp:obj	_	AlignBegin=421415|AlignEnd=421490|Number[lex]=Plur|Person[lex]=2
 3	retrouve	retrouver	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=421490|AlignEnd=421889|Number[ctxt]=Sing|Person[ctxt]=3
 4	pour	pour	ADP	_	_	3	mod	_	AlignBegin=421972|AlignEnd=422158
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	AlignBegin=422158|AlignEnd=422217
@@ -769,7 +769,7 @@
 # speaker_id = §LF35
 # macrosyntax = vous le savez //
 # text = vous le savez.
-1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	AlignBegin=427034|AlignEnd=427098|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
+1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	AlignBegin=427034|AlignEnd=427098|Number[lex]=Plur|Person[lex]=2
 2	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	3	comp:obj	_	AlignBegin=427098|AlignEnd=427228|Person[lex]=3
 3	savez	savoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=427228|AlignEnd=427529|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	AlignBegin=427529|AlignEnd=427529
@@ -780,7 +780,7 @@
 # speaker_id = §LF35
 # macrosyntax = vous y étiez il y a pas longtemps //
 # text = vous y étiez il y a pas longtemps.
-1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	AlignBegin=427529|AlignEnd=427673|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
+1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	AlignBegin=427529|AlignEnd=427673|Number[lex]=Plur|Person[lex]=2
 2	y	y	PRON	_	PronType=Prs	3	comp:pred	_	AlignBegin=427673|AlignEnd=427767|Person[lex]=3
 3	étiez	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=427767|AlignEnd=428004
 4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	6	subj	_	AlignBegin=428004|AlignEnd=428025|InIdiom=Yes|Person[lex]=3
@@ -1119,7 +1119,7 @@
 12	à	à	ADP	_	_	6	comp:obl	_	AlignBegin=524976|AlignEnd=525031
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	AlignBegin=525031|AlignEnd=525057|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 14	administration	administration	NOUN	_	_	12	comp	_	AlignBegin=525057|AlignEnd=525724|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
-15	Obama	Obama	PROPN	_	_	14	mod@appos	_	AlignBegin=525724|AlignEnd=526251|Gender[lex]=Unknown|SpaceAfter=No
+15	Obama	Obama	PROPN	_	_	14	mod:appos	_	AlignBegin=525724|AlignEnd=526251|Gender[lex]=Unknown|SpaceAfter=No
 16	.	.	PUNCT	_	_	5	punct	_	AlignBegin=526251|AlignEnd=526251
 
 # sent_id = Rhap_M2006-51
@@ -1156,7 +1156,7 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=532456|AlignEnd=532570
 3	bon	bon	ADJ	_	Gender=Masc	2	comp:pred	_	AlignBegin=532570|AlignEnd=532705|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	AlignBegin=532705|AlignEnd=532705
-5	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj	_	AlignBegin=532705|AlignEnd=532822|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
+5	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj	_	AlignBegin=532705|AlignEnd=532822|Number[lex]=Plur|Person[lex]=2
 6	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	7	comp:obj	_	AlignBegin=532822|AlignEnd=532863|Person[lex]=3
 7	verrez	voir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	2	discourse	_	AlignBegin=532863|AlignEnd=533146|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=533146|AlignEnd=533264
@@ -1186,7 +1186,7 @@
 12	hier	hier	ADV	_	_	13	mod	_	AlignBegin=599081|AlignEnd=599239
 13	matin	matin	NOUN	_	_	11	mod	_	AlignBegin=599239|AlignEnd=599609|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	AlignBegin=599609|AlignEnd=599609
-15	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	17	subj	_	AlignBegin=599609|AlignEnd=599714|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
+15	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	17	subj	_	AlignBegin=599609|AlignEnd=599714|Number[lex]=Plur|Person[lex]=2
 16	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	17	comp:obj	_	AlignBegin=599714|AlignEnd=599745|Person[lex]=3
 17	savez	savoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	13	discourse	_	AlignBegin=599745|AlignEnd=600060|SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	AlignBegin=600060|AlignEnd=600060
@@ -1372,7 +1372,7 @@
 21	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	AlignBegin=632620|AlignEnd=632675|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 22	ancien	ancien	ADJ	_	Gender=Masc	23	mod	_	AlignBegin=632675|AlignEnd=633178|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 23	préfet	préfet	NOUN	_	_	19	comp:obj	_	AlignBegin=633178|AlignEnd=633579|Gender[lex]=Masc|Number[ctxt]=Sing
-24	Bonnet	Bonnet	PROPN	_	_	23	mod@appos	_	AlignBegin=633579|AlignEnd=633965|Gender[lex]=Unknown|SpaceAfter=No
+24	Bonnet	Bonnet	PROPN	_	_	23	mod:appos	_	AlignBegin=633579|AlignEnd=633965|Gender[lex]=Unknown|SpaceAfter=No
 25	.	.	PUNCT	_	_	5	punct	_	AlignBegin=633965|AlignEnd=633965
 
 # sent_id = Rhap_M2006-61
@@ -1409,7 +1409,7 @@
 1	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	2	subj	_	AlignBegin=638979|AlignEnd=639126|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 2	écoute	écouter	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=639126|AlignEnd=639527|Number[ctxt]=Sing|Person[ctxt]=3
 3	maître	maître	NOUN	_	_	2	comp:obj	_	AlignBegin=639527|AlignEnd=639927|Gender[lex]=Masc|Number[ctxt]=Sing
-4	Sollacaro	Sollacaro	PROPN	_	_	3	mod@appos	_	AlignBegin=639927|AlignEnd=640621|Gender[lex]=Unknown
+4	Sollacaro	Sollacaro	PROPN	_	_	3	mod:appos	_	AlignBegin=639927|AlignEnd=640621|Gender[lex]=Unknown
 5-6	au	_	_	_	_	_	_	_	_
 5	à	à	ADP	_	_	2	mod	_	AlignBegin=643119|AlignEnd=643214
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	comp:obj@scrap	_	AlignBegin=643119|AlignEnd=643214
@@ -1594,7 +1594,7 @@
 10	journée	journée	NOUN	_	_	7	comp	_	AlignBegin=852598|AlignEnd=852902|cdet=No|Gender[lex]=Fem|Number[ctxt]=Sing
 11	de	de	ADP	_	_	10	udep	_	AlignBegin=852902|AlignEnd=853053
 12	ligue	ligue	NOUN	_	_	11	comp	_	AlignBegin=853053|AlignEnd=853373|Gender[lex]=Fem|Number[ctxt]=Sing
-13	un	un	NUM	_	ExtPos=PROPN	12	mod@appos	_	AlignBegin=853373|AlignEnd=853579|Number[lex]=Sing
+13	un	un	NUM	_	ExtPos=PROPN	12	mod:appos	_	AlignBegin=853373|AlignEnd=853579|Number[lex]=Sing
 14	hier	hier	ADV	_	_	2	mod	_	AlignBegin=853579|AlignEnd=854060|SpaceAfter=No
 15	.	.	PUNCT	_	_	2	punct	_	AlignBegin=854060|AlignEnd=854060
 

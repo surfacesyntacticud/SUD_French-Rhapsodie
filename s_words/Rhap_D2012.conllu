@@ -14,7 +14,7 @@
 7	de	de	ADP	_	_	6	mod	_	AlignBegin=9785|AlignEnd=9905
 8	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	9	det	_	AlignBegin=9905|AlignEnd=10385|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
 9	opus	opus	NOUN	_	_	7	comp	_	AlignBegin=10385|AlignEnd=10925|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
-10	un	un	NUM	_	ExtPos=PROPN	9	mod@appos	_	AlignBegin=10925|AlignEnd=11150|Number[lex]=Sing
+10	un	un	NUM	_	ExtPos=PROPN	9	mod:appos	_	AlignBegin=10925|AlignEnd=11150|Number[lex]=Sing
 11	de	de	ADP	_	_	9	udep	_	AlignBegin=11150|AlignEnd=11310
 12	mille	mille	NUM	_	ExtPos=PROPN	11	comp	_	AlignBegin=11310|AlignEnd=11470|Number[lex]=Sing
 13	neuf	neuf	NUM	_	ExtPos=PROPN	12	flat	_	AlignBegin=11470|AlignEnd=11660|Number[lex]=Plur
@@ -47,7 +47,7 @@
 # speaker_id = §LF23-1
 # macrosyntax = vous n'avez pas choisi Yudina "euh" par hasard > Didier Von Moere //
 # text = vous n'avez pas choisi Yudina, euh, par hasard Didier Von Moere.
-1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	AlignBegin=16860|AlignEnd=16955|Number[lex]=Plur|Person[lex]=2|Polite=Yes
+1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	AlignBegin=16860|AlignEnd=16955|Number[lex]=Plur|Person[lex]=2
 2	n'	ne	ADV	_	Polarity=Neg	3	mod	_	AlignBegin=16955|AlignEnd=17005|SpaceAfter=No
 3	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=17005|AlignEnd=17155
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	AlignBegin=17155|AlignEnd=17325
@@ -450,7 +450,7 @@
 16	dans	dans	ADP	_	_	12	udep	_	AlignBegin=81410|AlignEnd=81560
 17	Le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	AlignBegin=81560|AlignEnd=81590|HasSpokenGender=OnlySingExceptWithLiaison|InTitle=Yes
 18	Roi	Roi	NOUN	_	_	16	comp	_	AlignBegin=81590|AlignEnd=81750|Gender[lex]=Masc|Number[ctxt]=Sing|Title=Yes
-19	Roger	Roger	PROPN	_	_	18	mod@appos	_	AlignBegin=81750|AlignEnd=82137|Gender[lex]=Unknown|InTitle=Yes|SpaceAfter=No
+19	Roger	Roger	PROPN	_	_	18	mod:appos	_	AlignBegin=81750|AlignEnd=82137|Gender[lex]=Unknown|InTitle=Yes|SpaceAfter=No
 20	,	,	PUNCT	_	_	22	punct	_	AlignBegin=82137|AlignEnd=82286
 21	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	22	det	_	AlignBegin=82286|AlignEnd=82471|HasSpokenGender=OnlySingExceptWithLiaison
 22	berger	berger	NOUN	_	_	15	conj:appos	_	AlignBegin=82471|AlignEnd=83123|Gender[lex]=Masc|Number[ctxt]=Sing
@@ -467,7 +467,7 @@
 33	valeurs	valeur	NOUN	_	_	31	comp	_	AlignBegin=86800|AlignEnd=87465|Gender[lex]=Fem|Number[ctxt]=Plur|Overlap=Rhap_D2012-20|SpaceAfter=No
 34	,	,	PUNCT	_	_	35	punct	_	AlignBegin=87465|AlignEnd=87465
 35	si	si	SCONJ	_	_	33	discourse	_	AlignBegin=87465|AlignEnd=87650
-36	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	37	subj	_	AlignBegin=87650|AlignEnd=87780|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
+36	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	37	subj	_	AlignBegin=87650|AlignEnd=87780|Number[lex]=Plur|Person[lex]=2
 37	voulez	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	35	comp	_	AlignBegin=87780|AlignEnd=88185|SpaceAfter=No
 38	,	,	PUNCT	_	_	39	punct	_	AlignBegin=88185|AlignEnd=88475
 39	dans	dans	ADP	_	_	27	mod	_	AlignBegin=88475|AlignEnd=88780
@@ -584,7 +584,7 @@
 1	alors	alors	ADV	_	_	20	discourse	_	AlignBegin=102520|AlignEnd=102715|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=102715|AlignEnd=102715
 3	page	page	NOUN	_	_	20	mod	_	AlignBegin=102715|AlignEnd=102885|Gender[lex]=Fem|Number[ctxt]=Sing
-4	cent	cent	NUM	_	ExtPos=PROPN	3	mod@appos	_	AlignBegin=102885|AlignEnd=103075|Number[lex]=Sing
+4	cent	cent	NUM	_	ExtPos=PROPN	3	mod:appos	_	AlignBegin=102885|AlignEnd=103075|Number[lex]=Sing
 5	douze	douze	NUM	_	ExtPos=PROPN	4	flat	_	AlignBegin=103075|AlignEnd=103335|Number[lex]=Plur
 6	de	de	ADP	_	_	3	udep	_	AlignBegin=103335|AlignEnd=103445
 7	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs|Shared=No	8	det	_	AlignBegin=103445|AlignEnd=104009|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
@@ -1333,7 +1333,7 @@
 14	là	là	ADV	_	_	13	mod	_	AlignBegin=234535|AlignEnd=234755|SpaceAfter=No
 15	,	,	PUNCT	_	_	16	punct	_	AlignBegin=234755|AlignEnd=234755
 16	si	si	SCONJ	_	_	14	discourse	_	AlignBegin=234755|AlignEnd=234875
-17	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	18	subj	_	AlignBegin=234875|AlignEnd=234935|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
+17	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	18	subj	_	AlignBegin=234875|AlignEnd=234935|Number[lex]=Plur|Person[lex]=2
 18	voulez	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	16	comp	_	AlignBegin=234935|AlignEnd=235105|SpaceAfter=No
 19	,	,	PUNCT	_	_	21	punct	_	AlignBegin=235105|AlignEnd=235105
 20	quatre	quatre	NUM	_	ExtPos=DET	21	det	_	AlignBegin=235105|AlignEnd=235425|Number[lex]=Plur
@@ -1566,7 +1566,7 @@
 30	avec	avec	ADP	_	_	25	mod	_	AlignBegin=281744|AlignEnd=282004
 31	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	AlignBegin=282004|AlignEnd=282074|HasSpokenGender=OnlySingExceptWithLiaison
 32	cousin	cousin	NOUN	_	_	30	comp	_	AlignBegin=282074|AlignEnd=282434|Gender[lex]=Masc|Number[ctxt]=Sing
-33	Neuhaus	Neuhaus	PROPN	_	_	32	mod@appos	_	AlignBegin=282434|AlignEnd=282970|Gender[lex]=Unknown
+33	Neuhaus	Neuhaus	PROPN	_	_	32	mod:appos	_	AlignBegin=282434|AlignEnd=282970|Gender[lex]=Unknown
 34	qui	qui	PRON	_	PronType=Rel	38	subj	_	AlignBegin=282970|AlignEnd=283305|SpaceAfter=No
 35	,	,	PUNCT	_	_	36	punct	_	AlignBegin=283305|AlignEnd=283305
 36	euh	euh	INTJ	_	_	34	discourse	_	AlignBegin=283305|AlignEnd=283435|SpaceAfter=No
@@ -1639,7 +1639,7 @@
 16	radio	radio	NOUN	_	_	14	comp	_	AlignBegin=298545|AlignEnd=298855|Gender[lex]=Fem|Number[ctxt]=Sing
 17	polonaise	polonais	ADJ	_	Gender=Fem	16	mod	_	AlignBegin=298855|AlignEnd=299570|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing
 18	direction	direction	NOUN	_	_	9	mod	_	AlignBegin=299570|AlignEnd=300075|Gender[lex]=Fem|Number[ctxt]=Sing
-19	Casimir	Casimir	PROPN	_	_	18	mod@appos	_	AlignBegin=300075|AlignEnd=300585|Gender[lex]=Unknown
+19	Casimir	Casimir	PROPN	_	_	18	mod:appos	_	AlignBegin=300075|AlignEnd=300585|Gender[lex]=Unknown
 20	Kord	Kord	PROPN	_	_	19	flat@name	_	AlignBegin=300585|AlignEnd=300983|Gender[lex]=Unknown|SpaceAfter=No
 21	.	.	PUNCT	_	_	1	punct	_	AlignBegin=300983|AlignEnd=300983
 
