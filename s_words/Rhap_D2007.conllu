@@ -1,4 +1,3 @@
-# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # sent_id = Rhap_D2007-1
 # prosodic_annotation = yes
 # speaker = L1
@@ -7,7 +6,7 @@
 # text = alors, vous étiez un peu choquée quand même, hein, non mais.
 1	alors	alors	ADV	_	_	4	mod	_	AlignBegin=0|AlignEnd=86|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=86|AlignEnd=86
-3	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj@pass	_	AlignBegin=86|AlignEnd=196|Number[lex]=Plur|Person[lex]=2
+3	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj@pass	_	AlignBegin=86|AlignEnd=196|Number[lex]=Plur|Person[lex]=2|Polite=Yes
 4	étiez	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=196|AlignEnd=326
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	AlignBegin=326|AlignEnd=416|InIdiom=Yes
 6	peu	peu	NOUN	_	ExtPos=ADV	4	mod	_	AlignBegin=416|AlignEnd=519|Gender[lex]=Masc|Idiom=Yes
@@ -33,7 +32,7 @@
 4	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	5	det	_	AlignBegin=4811|AlignEnd=4921|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|Overlap=Rhap_D2007-3
 5	procès	procès	NOUN	_	_	3	comp	_	AlignBegin=4921|AlignEnd=5341|Gender[lex]=Masc|Number[ctxt]=Sing|Overlap=Rhap_D2007-3
 6	en	en	ADP	_	ExtPos=ADV	3	discourse	_	AlignBegin=5341|AlignEnd=5451|Idiom=Yes|Overlap=Rhap_D2007-3
-7	fait	fait	NOUN	_	_	6	comp:obj	_	AlignBegin=5451|AlignEnd=5697|Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|Overlap=Rhap_D2007-3|SpaceAfter=No
+7	fait	fait	NOUN	_	_	6	comp	_	AlignBegin=5451|AlignEnd=5697|Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|Overlap=Rhap_D2007-3|SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	AlignBegin=5691|AlignEnd=5691|Overlap=Rhap_D2007-3
 
 # sent_id = Rhap_D2007-3
@@ -428,7 +427,7 @@
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	AlignBegin=37441|AlignEnd=37471|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 10	époque	époque	NOUN	_	_	8	comp:pred	_	AlignBegin=37471|AlignEnd=37711|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 11	où	où	ADV	_	PronType=Rel	13	mod	_	AlignBegin=37711|AlignEnd=37771
-12	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	13	subj	_	AlignBegin=37771|AlignEnd=37871|Number[lex]=Plur|Person[lex]=2
+12	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	13	subj	_	AlignBegin=37771|AlignEnd=37871|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
 13	tourniez	tourner	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Imp|VerbForm=Fin	10	mod@relcl	_	AlignBegin=37871|AlignEnd=38151
 14	Landru	Landru	PROPN	_	_	13	comp:obj	_	AlignBegin=38151|AlignEnd=38491|Gender[lex]=Unknown|SpaceAfter=No|Title=Yes
 15	,	,	PUNCT	_	_	6	punct	_	AlignBegin=38491|AlignEnd=38491
@@ -584,7 +583,7 @@
 4	marrant	marrant	ADJ	_	Gender=Masc	3	comp:pred	_	AlignBegin=47874|AlignEnd=48091|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|Overlap=Rhap_D2007-37
 5	parce	parce	ADV	_	ExtPos=SCONJ	3	mod	_	AlignBegin=48091|AlignEnd=48231|Idiom=Yes|Overlap=Rhap_D2007-37
 6	que	que	SCONJ	_	_	5	unk	_	AlignBegin=48231|AlignEnd=48464|InIdiom=Yes|Overlap=Rhap_D2007-37
-7	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	8	subj	_	AlignBegin=48872|AlignEnd=48977|Number[lex]=Plur|Person[lex]=2
+7	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	8	subj	_	AlignBegin=48872|AlignEnd=48977|Number[lex]=Plur|Person[lex]=2|Polite=Yes
 8	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	comp:obj	_	AlignBegin=48977|AlignEnd=49077
 9	commencé	commencer	VERB	_	VerbForm=Part|Voice=Act	8	comp:aux@tense	_	AlignBegin=49077|AlignEnd=49437|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 10	acteur	acteur	NOUN	_	_	9	comp:pred	_	AlignBegin=49437|AlignEnd=50107|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
@@ -804,7 +803,7 @@
 19	plus	plus	ADV	_	_	20	mod	_	AlignBegin=76166|AlignEnd=76346
 20	tôt	tôt	ADV	_	_	17	mod	_	AlignBegin=76346|AlignEnd=76646|SpaceAfter=No
 21	,	,	PUNCT	_	_	23	punct	_	AlignBegin=76646|AlignEnd=77027
-22	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	23	subj	_	AlignBegin=77027|AlignEnd=77132|Number[lex]=Plur|Person[lex]=2
+22	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	23	subj	_	AlignBegin=77027|AlignEnd=77132|Number[lex]=Plur|Person[lex]=2|Polite=Yes
 23	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	13	comp	_	AlignBegin=77132|AlignEnd=77252
 24	déjà	déjà	ADV	_	_	23	mod	_	AlignBegin=77252|AlignEnd=77492
 25	surpris	surprendre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	23	comp:aux@tense	_	AlignBegin=77492|AlignEnd=77882|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
@@ -943,7 +942,7 @@
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=93234|AlignEnd=93294|SpaceAfter=No
 4	-ce	ce	PRON	_	PronType=Dem	3	subj@expl	_	AlignBegin=93294|AlignEnd=93374|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 5	que	que	SCONJ	_	_	3	comp:pred	_	AlignBegin=93374|AlignEnd=93434
-6	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj@caus	_	AlignBegin=93434|AlignEnd=93544|Number[lex]=Plur|Person[lex]=2
+6	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj@caus	_	AlignBegin=93434|AlignEnd=93544|Number[lex]=Plur|Person[lex]=2|Polite=Yes
 7	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	comp	_	AlignBegin=93544|AlignEnd=93694
 8	déjà	déjà	ADV	_	_	7	mod	_	AlignBegin=93694|AlignEnd=93964
 9	fait	faire	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux@tense	_	AlignBegin=93964|AlignEnd=94114|Tense[denom]=Past
@@ -1080,7 +1079,7 @@
 # speaker_id = §LM23
 # macrosyntax = $L3 vous avez des fidélités // -$
 # text = vous avez des fidélités.
-1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	AlignBegin=112327|AlignEnd=113377|Number[lex]=Plur|Overlap=Rhap_D2007-70|Person[lex]=2
+1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	AlignBegin=112327|AlignEnd=113377|Number[lex]=Plur|Overlap=Rhap_D2007-70|Person[lex]=2|Polite=Unknown
 2	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=112327|AlignEnd=113377|Overlap=Rhap_D2007-70
 3	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	4	det	_	AlignBegin=112327|AlignEnd=113377|Overlap=Rhap_D2007-70
 4	fidélités	fidélité	NOUN	_	_	2	comp:obj	_	AlignBegin=112327|AlignEnd=113377|Gender[lex]=Fem|Number[ctxt]=Plur|Overlap=Rhap_D2007-70|SpaceAfter=No
@@ -1193,13 +1192,13 @@
 # speaker_id = §LM23
 # macrosyntax = $L3 vous avez des fidélités successives > en fait //
 # text = vous avez des fidélités successives en fait.
-1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	AlignBegin=118762|AlignEnd=118867|Number[lex]=Plur|Person[lex]=2
+1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	AlignBegin=118762|AlignEnd=118867|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
 2	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=118867|AlignEnd=118948
 3	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	4	det	_	AlignBegin=118948|AlignEnd=119022
 4	fidélités	fidélité	NOUN	_	_	2	comp:obj	_	AlignBegin=119022|AlignEnd=119507|Gender[lex]=Fem|Number[ctxt]=Plur
 5	successives	successif	ADJ	_	Gender=Fem	4	mod	_	AlignBegin=119507|AlignEnd=120047|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur
 6	en	en	ADP	_	ExtPos=ADV	2	discourse	_	AlignBegin=120047|AlignEnd=120147|Idiom=Yes
-7	fait	fait	NOUN	_	_	6	comp:obj	_	AlignBegin=120147|AlignEnd=120381|Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
+7	fait	fait	NOUN	_	_	6	comp	_	AlignBegin=120147|AlignEnd=120381|Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	AlignBegin=120381|AlignEnd=120381
 
 # sent_id = Rhap_D2007-81
@@ -1688,7 +1687,7 @@
 # speaker_id = §LM24
 # macrosyntax = bientôt <+ ( $L4 vous allez changer tout à l'heure // ) -$ $L1 je serai grisonnant //
 # text = vous allez changer tout à l'heure.
-1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	AlignBegin=155739|AlignEnd=157046|Number[lex]=Plur|Overlap=Rhap_D2007-111|Person[lex]=2
+1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	AlignBegin=155739|AlignEnd=157046|Number[lex]=Plur|Overlap=Rhap_D2007-111|Person[lex]=2|Polite=Unknown
 2	allez	aller	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=155739|AlignEnd=157046|Overlap=Rhap_D2007-111
 3	changer	changer	VERB	_	VerbForm=Inf	2	comp:obj	_	AlignBegin=155739|AlignEnd=157046|Overlap=Rhap_D2007-111|Subject=SubjRaising
 4	tout	tout	ADV	_	_	2	mod	_	AlignBegin=155739|AlignEnd=157046|Overlap=Rhap_D2007-111
@@ -1730,8 +1729,8 @@
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=167636|AlignEnd=167676|SpaceAfter=No
 4	-ce	ce	PRON	_	PronType=Dem	3	subj@expl	_	AlignBegin=167676|AlignEnd=167716|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 5	que	que	SCONJ	_	_	3	comp:pred	_	AlignBegin=167716|AlignEnd=167776
-6	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	8	subj	_	AlignBegin=167776|AlignEnd=167836|Number[lex]=Plur|Person[lex]=2
-7	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	comp@expl	_	AlignBegin=167836|AlignEnd=167896|Number[lex]=Plur|Person[lex]=2
+6	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	8	subj	_	AlignBegin=167776|AlignEnd=167836|Number[lex]=Plur|Person[lex]=2|Polite=Yes
+7	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	comp@expl	_	AlignBegin=167836|AlignEnd=167896|Number[lex]=Plur|Person[lex]=2|Polite=Yes
 8	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	comp	_	AlignBegin=167896|AlignEnd=167986
 9	déjà	déjà	ADV	_	_	8	mod	_	AlignBegin=167986|AlignEnd=168216
 10	écriée	écrier	VERB	_	VerbForm=Part|Voice=Act	8	comp:aux@tense	_	AlignBegin=168216|AlignEnd=168606|Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
@@ -1983,7 +1982,7 @@
 5	dans	dans	ADP	_	_	9	mod	_	AlignBegin=198643|AlignEnd=198763
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	AlignBegin=198763|AlignEnd=198793|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 7	intimité	intimité	NOUN	_	_	5	comp	_	AlignBegin=198793|AlignEnd=199203|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
-8	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	9	subj	_	AlignBegin=199203|AlignEnd=199303|Number[lex]=Plur|Person[lex]=2
+8	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	9	subj	_	AlignBegin=199203|AlignEnd=199303|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
 9	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	comp	_	AlignBegin=199303|AlignEnd=199433
 10	déjà	déjà	ADV	_	_	9	mod	_	AlignBegin=199433|AlignEnd=199613
 11	appelé	appeler	VERB	_	VerbForm=Part|Voice=Act	9	comp:aux@tense	_	AlignBegin=199613|AlignEnd=199933|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
@@ -2055,7 +2054,7 @@
 # speaker_id = §LF19
 # macrosyntax = $L2 vous voyez ce que je veux dire //
 # text = vous voyez ce que je veux dire ?
-1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	AlignBegin=215206|AlignEnd=215244|Number[lex]=Plur|Person[lex]=2
+1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	AlignBegin=215206|AlignEnd=215244|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
 2	voyez	voir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=215244|AlignEnd=215408
 3	ce	ce	PRON	_	PronType=Dem	2	comp:obj	_	AlignBegin=215408|AlignEnd=215481|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 4	que	que	PRON	_	PronType=Rel	7	comp:obj	_	AlignBegin=215481|AlignEnd=215541
@@ -2199,7 +2198,7 @@
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	comp:obj@scrap	_	AlignBegin=233005|AlignEnd=233105
 8	téléphone	téléphone	NOUN	_	_	6	comp	_	AlignBegin=233105|AlignEnd=233575|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	AlignBegin=233575|AlignEnd=233575
-10	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	11	subj	_	AlignBegin=233575|AlignEnd=233695|Number[lex]=Plur|Person[lex]=2
+10	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	11	subj	_	AlignBegin=233575|AlignEnd=233695|Number[lex]=Plur|Person[lex]=2|Polite=Yes
 11	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	comp	_	AlignBegin=233695|AlignEnd=233805
 12	déjà	déjà	ADV	_	_	11	mod	_	AlignBegin=233805|AlignEnd=234055
 13	chauffé	chauffer	VERB	_	VerbForm=Part|Voice=Act	11	comp:aux@tense	_	AlignBegin=234055|AlignEnd=234495|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
@@ -2208,8 +2207,8 @@
 16	en	en	ADP	_	_	11	mod	_	AlignBegin=234825|AlignEnd=234935
 17	pensant	penser	VERB	_	VerbForm=Part	16	comp	_	AlignBegin=234935|AlignEnd=235235|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Pres
 18	que	que	SCONJ	_	_	17	comp:obj	_	AlignBegin=235235|AlignEnd=235268
-19	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	21	subj	_	AlignBegin=235268|AlignEnd=235321|Number[lex]=Plur|Person[lex]=2
-20	vous	vous	PRON	_	Case=Acc|Emph=No|PronType=Prs	21	comp:obj	_	AlignBegin=235321|AlignEnd=235397|Number[lex]=Plur|Person[lex]=2
+19	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	21	subj	_	AlignBegin=235268|AlignEnd=235321|Number[lex]=Plur|Person[lex]=2|Polite=Yes
+20	vous	vous	PRON	_	Case=Acc|Emph=No|PronType=Prs	21	comp:obj	_	AlignBegin=235321|AlignEnd=235397|Number[lex]=Plur|Person[lex]=2|Polite=Yes
 21	adressiez	adresser	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Imp|VerbForm=Fin	18	comp	_	AlignBegin=235397|AlignEnd=235702
 22	à	à	ADP	_	_	21	comp:obl	_	AlignBegin=235702|AlignEnd=235787
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	AlignBegin=235787|AlignEnd=235827|HasSpokenGender=OnlySingExceptWithLiaison
