@@ -6,7 +6,7 @@
 # text = alors, euh, je m'appelle Clara.
 1	alors	alors	ADV	_	_	7	mod	_	AlignBegin=373|AlignEnd=743|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=743|AlignEnd=743
-3	euh	euh	INTJ	_	_	1	discourse	_	AlignBegin=743|AlignEnd=811|SpaceAfter=No
+3	euh	euh	INTJ	_	_	1	discourse:filler	_	AlignBegin=743|AlignEnd=811|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	AlignBegin=811|AlignEnd=811
 5	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj	_	AlignBegin=811|AlignEnd=878|Number[lex]=Sing|Person[lex]=1
 6	m'	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	7	comp:obl	_	AlignBegin=878|AlignEnd=908|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
@@ -41,7 +41,7 @@
 7	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	8	det	_	AlignBegin=3461|AlignEnd=3605|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison
 8	bac	bac	NOUN	_	_	6	comp	_	AlignBegin=3605|AlignEnd=3895|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=3895|AlignEnd=3895
-10	euh	euh	INTJ	_	_	8	discourse	_	AlignBegin=3895|AlignEnd=3984|SpaceAfter=No
+10	euh	euh	INTJ	_	_	8	discourse:filler	_	AlignBegin=3895|AlignEnd=3984|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	AlignBegin=3984|AlignEnd=3984
 12	donc	donc	ADV	_	_	8	discourse	_	AlignBegin=3984|AlignEnd=4149|SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	AlignBegin=4149|AlignEnd=4149
@@ -61,7 +61,7 @@
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	AlignBegin=5447|AlignEnd=5537
 4	bac	bac	NOUN	_	_	2	comp:pred	_	AlignBegin=5537|AlignEnd=5767|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=5767|AlignEnd=5767
-6	euh	euh	INTJ	_	_	4	discourse	_	AlignBegin=5767|AlignEnd=5895|SpaceAfter=No
+6	euh	euh	INTJ	_	_	4	discourse:filler	_	AlignBegin=5767|AlignEnd=5895|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=5895|AlignEnd=5895
 8	SMS	SMS	PROPN	_	_	4	mod:appos	_	AlignBegin=5895|AlignEnd=6520|Gender[lex]=Unknown|SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	AlignBegin=6520|AlignEnd=6520
@@ -95,7 +95,7 @@
 6	voir	voir	VERB	_	VerbForm=Inf	5	comp	_	AlignBegin=8922|AlignEnd=9100|Subject=SubjRaising
 7	avec	avec	ADP	_	_	6	mod	_	AlignBegin=9100|AlignEnd=9328|SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	AlignBegin=9328|AlignEnd=9328
-9	euh	euh	INTJ	_	_	12	discourse	_	AlignBegin=9328|AlignEnd=9452|SpaceAfter=No
+9	euh	euh	INTJ	_	_	12	discourse:filler	_	AlignBegin=9328|AlignEnd=9452|SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	AlignBegin=9452|AlignEnd=9452
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	AlignBegin=9452|AlignEnd=9532|HasSpokenGender=OnlySingExceptWithLiaison
 12	littérature	littérature	NOUN	_	_	7	comp	_	AlignBegin=9532|AlignEnd=10056|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -112,7 +112,7 @@
 3	en	en	ADP	_	ExtPos=ADV	9	discourse	_	AlignBegin=10985|AlignEnd=11105|Idiom=Yes
 4	fait	fait	NOUN	_	_	3	comp	_	AlignBegin=11105|AlignEnd=11369|Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=11369|AlignEnd=11369
-6	euh	euh	INTJ	_	_	3	comp:obj	_	AlignBegin=11369|AlignEnd=11739|SpaceAfter=No
+6	euh	euh	INTJ	_	_	3	discourse:filler	_	AlignBegin=11369|AlignEnd=11739|SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	AlignBegin=11739|AlignEnd=11739
 8	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	9	subj	_	AlignBegin=11739|AlignEnd=11784|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 9	aime	aimer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	1	comp:obj	_	AlignBegin=11784|AlignEnd=12134|Person[ctxt]=1
@@ -131,24 +131,24 @@
 3	suis	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=13064|AlignEnd=13154
 4	plus	plus	ADV	_	_	8	mod	_	AlignBegin=13154|AlignEnd=13314|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=13314|AlignEnd=13314
-6	euh	euh	INTJ	_	_	4	discourse	_	AlignBegin=13314|AlignEnd=13654|SpaceAfter=No
+6	euh	euh	INTJ	_	_	4	discourse:filler	_	AlignBegin=13314|AlignEnd=13654|SpaceAfter=No
 7	,	,	PUNCT	_	_	4	punct	_	AlignBegin=13654|AlignEnd=14244
 8	vers	vers	ADP	_	_	3	comp:obl	_	AlignBegin=14244|AlignEnd=14359
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	10	det	_	AlignBegin=14359|AlignEnd=14519|HasSpokenGender=OnlySingExceptWithLiaison
 10	biologie	biologie	NOUN	_	_	8	comp	_	AlignBegin=14519|AlignEnd=15243|Gender[lex]=Fem|Number[ctxt]=Sing
 11	et	et	CCONJ	_	_	16	cc	_	AlignBegin=15243|AlignEnd=15349|SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	AlignBegin=15349|AlignEnd=15349
-13	euh	euh	INTJ	_	_	16	discourse	_	AlignBegin=15349|AlignEnd=15549|SpaceAfter=No
+13	euh	euh	INTJ	_	_	16	discourse:filler	_	AlignBegin=15349|AlignEnd=15549|SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	AlignBegin=15549|AlignEnd=15549
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	AlignBegin=15549|AlignEnd=15664|HasSpokenGender=OnlySingExceptWithLiaison
 16	social	social	NOUN	_	_	10	conj:coord	_	AlignBegin=15664|AlignEnd=15989|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	AlignBegin=15989|AlignEnd=15989
 18	donc	donc	ADV	_	_	23	cc	_	AlignBegin=15989|AlignEnd=16319|SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	AlignBegin=16319|AlignEnd=16319
-20	euh	euh	INTJ	_	_	18	discourse	_	AlignBegin=16319|AlignEnd=16469|SpaceAfter=No
+20	euh	euh	INTJ	_	_	18	discourse:filler	_	AlignBegin=16319|AlignEnd=16469|SpaceAfter=No
 21	,	,	PUNCT	_	_	18	punct	_	AlignBegin=16469|AlignEnd=17387
 22	XXX	XXX	X	_	_	23	unk	_	AlignBegin=17387|AlignEnd=17805
-23	sciences	science	NOUN	_	_	16	conj:dicto	_	AlignBegin=17805|AlignEnd=18000|Gender[lex]=Fem|Number[ctxt]=Plur
+23	sciences	science	NOUN	_	_	16	conj:reform	_	AlignBegin=17805|AlignEnd=18000|Gender[lex]=Fem|Number[ctxt]=Plur
 24	médico-sociales	médico-sociale	ADJ	_	_	23	mod	_	AlignBegin=18000|AlignEnd=18650|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|SpaceAfter=No
 25	.	.	PUNCT	_	_	3	punct	_	AlignBegin=18650|AlignEnd=18650
 
@@ -164,7 +164,7 @@
 4	en	en	ADP	_	ExtPos=ADV	2	discourse	_	AlignBegin=18936|AlignEnd=19053|Idiom=Yes
 5	fait	fait	NOUN	_	_	4	comp	_	AlignBegin=19053|AlignEnd=19334|Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=19334|AlignEnd=19334
-7	euh	euh	INTJ	_	_	4	comp:obj	_	AlignBegin=19334|AlignEnd=19516|SpaceAfter=No
+7	euh	euh	INTJ	_	_	4	discourse:filler	_	AlignBegin=19334|AlignEnd=19516|SpaceAfter=No
 8	,	,	PUNCT	_	_	2	punct	_	AlignBegin=19516|AlignEnd=19516
 9	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	subj	_	AlignBegin=19516|AlignEnd=19601|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 10	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=19601|AlignEnd=19661
@@ -185,12 +185,12 @@
 2	premier	premier	ADJ	_	Gender=Masc	3	mod	_	AlignBegin=20970|AlignEnd=21210|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 3	choix	choix	NOUN	_	_	8	dislocated:subj	_	AlignBegin=21210|AlignEnd=21570|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=21570|AlignEnd=21570
-5	euh	euh	INTJ	_	_	3	discourse	_	AlignBegin=21570|AlignEnd=21600|SpaceAfter=No
+5	euh	euh	INTJ	_	_	3	discourse:filler	_	AlignBegin=21570|AlignEnd=21600|SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	AlignBegin=21600|AlignEnd=21600
 7	c'	ce	PRON	_	PronType=Dem	8	subj	_	AlignBegin=21600|AlignEnd=21710|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=21710|AlignEnd=21969|SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	AlignBegin=21969|AlignEnd=21969
-10	euh	euh	INTJ	_	_	12	discourse	_	AlignBegin=21969|AlignEnd=22130|SpaceAfter=No
+10	euh	euh	INTJ	_	_	12	discourse:filler	_	AlignBegin=21969|AlignEnd=22130|SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	AlignBegin=22130|AlignEnd=22130
 12	psychologie	psychologie	NOUN	_	_	8	comp:pred	_	AlignBegin=22130|AlignEnd=22784|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 13	.	.	PUNCT	_	_	8	punct	_	AlignBegin=22784|AlignEnd=22784
@@ -205,7 +205,7 @@
 2	en	en	ADP	_	ExtPos=ADV	11	discourse	_	AlignBegin=23788|AlignEnd=23952|Idiom=Yes
 3	fait	fait	NOUN	_	_	2	comp	_	AlignBegin=23952|AlignEnd=24202|Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=24213|AlignEnd=24213
-5	euh	euh	INTJ	_	_	2	comp:obj	_	AlignBegin=24202|AlignEnd=24472|SpaceAfter=No
+5	euh	euh	INTJ	_	_	2	discourse:filler	_	AlignBegin=24202|AlignEnd=24472|SpaceAfter=No
 6	,	,	PUNCT	_	_	1	punct	_	AlignBegin=24472|AlignEnd=24472
 7	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	8	subj@pass	_	AlignBegin=24472|AlignEnd=24542|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 8	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=24542|AlignEnd=24592
@@ -243,12 +243,12 @@
 # text = donc, euh, en fait, euh, voilà.
 1	donc	donc	ADV	_	_	10	mod	_	AlignBegin=26979|AlignEnd=27244|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=27244|AlignEnd=27244
-3	euh	euh	INTJ	_	_	10	discourse	_	AlignBegin=27244|AlignEnd=27473|SpaceAfter=No
+3	euh	euh	INTJ	_	_	10	discourse:filler	_	AlignBegin=27244|AlignEnd=27473|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=27473|AlignEnd=27978
 5	en	en	ADP	_	ExtPos=ADV	10	discourse	_	AlignBegin=27978|AlignEnd=28218|Idiom=Yes
 6	fait	fait	NOUN	_	_	5	comp	_	AlignBegin=27978|AlignEnd=28218|Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=28218|AlignEnd=28218
-8	euh	euh	INTJ	_	_	5	comp:obj	_	AlignBegin=28218|AlignEnd=28263|SpaceAfter=No
+8	euh	euh	INTJ	_	_	5	discourse:filler	_	AlignBegin=28218|AlignEnd=28263|SpaceAfter=No
 9	,	,	PUNCT	_	_	5	punct	_	AlignBegin=28263|AlignEnd=28263
 10	voilà	voilà	VERB	_	_	0	root	_	AlignBegin=28263|AlignEnd=28543|SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	AlignBegin=28543|AlignEnd=28543
@@ -292,7 +292,7 @@
 11	que	que	SCONJ	_	_	10	unk	_	AlignBegin=32107|AlignEnd=32243|InIdiom=Yes
 12	aussi	aussi	ADV	_	_	4	mod	_	AlignBegin=32243|AlignEnd=32478|SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	AlignBegin=32478|AlignEnd=32478
-14	euh	euh	INTJ	_	_	12	discourse	_	AlignBegin=32478|AlignEnd=32598|SpaceAfter=No
+14	euh	euh	INTJ	_	_	12	discourse:filler	_	AlignBegin=32478|AlignEnd=32598|SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	AlignBegin=32598|AlignEnd=32598
 16	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	17	subj	_	AlignBegin=32598|AlignEnd=32668|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 17	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	comp:obj	_	AlignBegin=32668|AlignEnd=32708
@@ -345,12 +345,12 @@
 1	et	et	CCONJ	_	_	14	cc	_	AlignBegin=37008|AlignEnd=37143
 2	donc	donc	ADV	_	_	14	mod	_	AlignBegin=37143|AlignEnd=37463|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=37463|AlignEnd=37463
-4	euh	euh	INTJ	_	_	2	discourse	_	AlignBegin=37463|AlignEnd=37513|SpaceAfter=No
+4	euh	euh	INTJ	_	_	2	discourse:filler	_	AlignBegin=37463|AlignEnd=37513|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=37513|AlignEnd=37513
 6	en	en	ADP	_	ExtPos=ADV	2	discourse	_	AlignBegin=37513|AlignEnd=37723|Idiom=Yes
 7	fait	fait	NOUN	_	_	6	comp	_	AlignBegin=37723|AlignEnd=37993|Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=37993|AlignEnd=37993
-9	euh	euh	INTJ	_	_	6	discourse	_	AlignBegin=37993|AlignEnd=38483|SpaceAfter=No
+9	euh	euh	INTJ	_	_	6	discourse:filler	_	AlignBegin=37993|AlignEnd=38483|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	AlignBegin=38483|AlignEnd=38483
 11	ben	ben	INTJ	_	_	6	discourse	_	AlignBegin=38483|AlignEnd=38988|SpaceAfter=No
 12	,	,	PUNCT	_	_	2	punct	_	AlignBegin=38988|AlignEnd=38988
@@ -361,7 +361,7 @@
 17	italien	italien	NOUN	_	_	14	comp:obj	_	AlignBegin=40023|AlignEnd=40383|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 18	là	là	ADV	_	_	17	discourse	_	AlignBegin=40383|AlignEnd=40673|SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	AlignBegin=40673|AlignEnd=40673
-20	euh	euh	INTJ	_	_	17	discourse	_	AlignBegin=40673|AlignEnd=40853|SpaceAfter=No
+20	euh	euh	INTJ	_	_	17	discourse:filler	_	AlignBegin=40673|AlignEnd=40853|SpaceAfter=No
 21	.	.	PUNCT	_	_	14	punct	_	AlignBegin=40853|AlignEnd=40853
 
 # sent_id = Rhap_M1001-20
@@ -390,7 +390,7 @@
 2	en	en	ADP	_	ExtPos=ADV	8	discourse	_	AlignBegin=42398|AlignEnd=42558|Idiom=Yes
 3	fait	fait	NOUN	_	_	2	comp	_	AlignBegin=42558|AlignEnd=42809|Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=42809|AlignEnd=42809
-5	euh	euh	INTJ	_	_	2	comp:obj	_	AlignBegin=42809|AlignEnd=42920|SpaceAfter=No
+5	euh	euh	INTJ	_	_	2	discourse:filler	_	AlignBegin=42809|AlignEnd=42920|SpaceAfter=No
 6	,	,	PUNCT	_	_	2	punct	_	AlignBegin=42920|AlignEnd=42920
 7	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	8	subj	_	AlignBegin=42920|AlignEnd=43021|Number[lex]=Sing|Person[lex]=1
 8	pense	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=43021|AlignEnd=43281|Person[ctxt]=1
@@ -401,7 +401,7 @@
 13	me	moi	PRON	_	Case=Acc|Emph=No|PronType=Prs	14	comp:obj	_	AlignBegin=43778|AlignEnd=43891|Number[lex]=Sing|Person[lex]=1
 14	réorienter	réorienter	VERB	_	VerbForm=Inf	11	comp:obj	_	AlignBegin=43891|AlignEnd=44550|SpaceAfter=No|Subject=SubjRaising
 15	,	,	PUNCT	_	_	16	punct	_	AlignBegin=44550|AlignEnd=45481
-16	euh	euh	INTJ	_	_	14	discourse	_	AlignBegin=45481|AlignEnd=45836|SpaceAfter=No
+16	euh	euh	INTJ	_	_	14	discourse:filler	_	AlignBegin=45481|AlignEnd=45836|SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	AlignBegin=45836|AlignEnd=45836
 18	si	si	SCONJ	_	_	8	mod	_	AlignBegin=45836|AlignEnd=46186
 19	à	à	ADP	_	_	18	comp	_	AlignBegin=46186|AlignEnd=46346
@@ -413,7 +413,7 @@
 25	,	,	PUNCT	_	_	26	punct	_	AlignBegin=46946|AlignEnd=46946
 26	si	si	SCONJ	_	_	21	conj:dicto	_	AlignBegin=46946|AlignEnd=47226|SpaceAfter=No
 27	,	,	PUNCT	_	_	28	punct	_	AlignBegin=47226|AlignEnd=47226
-28	euh	euh	INTJ	_	_	26	discourse	_	AlignBegin=47226|AlignEnd=47587|SpaceAfter=No
+28	euh	euh	INTJ	_	_	26	discourse:filler	_	AlignBegin=47226|AlignEnd=47587|SpaceAfter=No
 29	…	…	PUNCT	_	_	8	punct	_	AlignBegin=47531|AlignEnd=47531
 
 # sent_id = Rhap_M1001-22
@@ -432,7 +432,7 @@
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=48552|AlignEnd=48552
 9	là	là	ADV	_	_	7	discourse	_	AlignBegin=48552|AlignEnd=48652|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	AlignBegin=48652|AlignEnd=48652
-11	euh	euh	INTJ	_	_	7	discourse	_	AlignBegin=48652|AlignEnd=48896|SpaceAfter=No
+11	euh	euh	INTJ	_	_	7	discourse:filler	_	AlignBegin=48652|AlignEnd=48896|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=48896|AlignEnd=48896
 13	en	en	ADP	_	_	5	mod	_	AlignBegin=48896|AlignEnd=49022
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	AlignBegin=49022|AlignEnd=49192|LiaisonAfter=Yes
@@ -447,11 +447,11 @@
 # text = et, euh, si, euh, je réussis pas, ben, je pense que je vais en psychologie parce que c'est plus, euh, ce que je veux faire la psycho.
 1	et	et	CCONJ	_	_	16	cc	_	AlignBegin=50338|AlignEnd=50476|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=50476|AlignEnd=50476
-3	euh	euh	INTJ	_	_	16	discourse	_	AlignBegin=50476|AlignEnd=50783|SpaceAfter=No
+3	euh	euh	INTJ	_	_	16	discourse:filler	_	AlignBegin=50476|AlignEnd=50783|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=50783|AlignEnd=50783
 5	si	si	SCONJ	_	_	16	mod	_	AlignBegin=50783|AlignEnd=51083|SpaceAfter=No
 6	,	,	PUNCT	_	_	10	punct	_	AlignBegin=51083|AlignEnd=51083
-7	euh	euh	INTJ	_	_	10	discourse	_	AlignBegin=51083|AlignEnd=51523|SpaceAfter=No
+7	euh	euh	INTJ	_	_	10	discourse:filler	_	AlignBegin=51083|AlignEnd=51523|SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	AlignBegin=51523|AlignEnd=51835
 9	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	subj	_	AlignBegin=51835|AlignEnd=51930|Number[lex]=Sing|Person[lex]=1
 10	réussis	réussir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	5	comp	_	AlignBegin=51930|AlignEnd=52300|Person[ctxt]=1
@@ -472,7 +472,7 @@
 25	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	comp:obj	_	AlignBegin=55097|AlignEnd=55177
 26	plus	plus	ADV	_	_	25	mod	_	AlignBegin=55177|AlignEnd=55476|SpaceAfter=No
 27	,	,	PUNCT	_	_	28	punct	_	AlignBegin=55476|AlignEnd=55476
-28	euh	euh	INTJ	_	_	26	discourse	_	AlignBegin=55476|AlignEnd=55646|SpaceAfter=No
+28	euh	euh	INTJ	_	_	26	discourse:filler	_	AlignBegin=55476|AlignEnd=55646|SpaceAfter=No
 29	,	,	PUNCT	_	_	30	punct	_	AlignBegin=55646|AlignEnd=55646
 30	ce	ce	PRON	_	PronType=Dem	25	comp:pred	_	AlignBegin=55646|AlignEnd=55729|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 31	que	que	PRON	_	PronType=Rel	34	comp:obj	_	AlignBegin=55729|AlignEnd=55867
@@ -491,12 +491,12 @@
 # text = et, euh, si je, si je passe l'année, par contre, je pense que je vais finir ma licence.
 1	et	et	CCONJ	_	_	18	cc	_	AlignBegin=57635|AlignEnd=57844|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=57844|AlignEnd=57844
-3	euh	euh	INTJ	_	_	18	discourse	_	AlignBegin=57844|AlignEnd=58165|SpaceAfter=No
+3	euh	euh	INTJ	_	_	18	discourse:filler	_	AlignBegin=57844|AlignEnd=58165|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=58165|AlignEnd=58165
 5	si	si	SCONJ	_	_	18	mod	_	AlignBegin=58165|AlignEnd=58289
 6	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	unk	_	AlignBegin=58289|AlignEnd=58481|Number[lex]=Sing|Person[lex]=1|Scrap=Yes|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=58481|AlignEnd=58651
-8	si	si	SCONJ	_	_	6	conj:dicto	_	AlignBegin=58651|AlignEnd=58876
+8	si	si	SCONJ	_	_	5	conj:reform	_	AlignBegin=58651|AlignEnd=58876
 9	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	subj	_	AlignBegin=58876|AlignEnd=58906|Number[lex]=Sing|Person[lex]=1
 10	passe	passer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	8	comp	_	AlignBegin=58906|AlignEnd=59086|Person[ctxt]=1
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	AlignBegin=59086|AlignEnd=59116|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
@@ -533,7 +533,7 @@
 10	deuxième	deuxième	ADJ	_	Number=Sing	11	mod	_	AlignBegin=62025|AlignEnd=62325|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes
 11	année	année	NOUN	_	_	9	comp	_	AlignBegin=62325|AlignEnd=62575|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=62575|AlignEnd=62575
-13	en	en	ADP	_	_	9	conj:dicto	_	AlignBegin=62575|AlignEnd=62675
+13	en	en	ADP	_	_	9	conj:reform	_	AlignBegin=62575|AlignEnd=62675
 14	troisième	troisième	ADJ	_	Number=Sing	15	mod	_	AlignBegin=62675|AlignEnd=62935|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes
 15	année	année	NOUN	_	_	13	comp	_	AlignBegin=62935|AlignEnd=63293|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 16	.	.	PUNCT	_	_	8	punct	_	AlignBegin=63293|AlignEnd=63293
@@ -597,7 +597,7 @@
 # text = et, euh, c'est très intéressant.
 1	et	et	CCONJ	_	_	6	cc	_	AlignBegin=69220|AlignEnd=69362|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=69362|AlignEnd=69362
-3	euh	euh	INTJ	_	_	6	discourse	_	AlignBegin=69362|AlignEnd=69600|SpaceAfter=No
+3	euh	euh	INTJ	_	_	6	discourse:filler	_	AlignBegin=69362|AlignEnd=69600|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=69600|AlignEnd=69600
 5	c'	ce	PRON	_	PronType=Dem	6	subj	_	AlignBegin=69600|AlignEnd=69645|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=69645|AlignEnd=69755
@@ -638,7 +638,7 @@
 2	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=74305|AlignEnd=74445
 3	plus	plus	ADV	_	_	2	mod	_	AlignBegin=74445|AlignEnd=74785|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=74785|AlignEnd=74785
-5	euh	euh	INTJ	_	_	3	discourse	_	AlignBegin=74785|AlignEnd=74935|SpaceAfter=No
+5	euh	euh	INTJ	_	_	3	discourse:filler	_	AlignBegin=74785|AlignEnd=74935|SpaceAfter=No
 6	…	…	PUNCT	_	_	2	punct	_	AlignBegin=74935|AlignEnd=74935
 
 # sent_id = Rhap_M1001-31
@@ -688,16 +688,16 @@
 10	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	comp	_	AlignBegin=79465|AlignEnd=79585
 11	plus	plus	ADV	_	_	10	mod	_	AlignBegin=79585|AlignEnd=79855|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=79855|AlignEnd=79855
-13	euh	euh	INTJ	_	_	11	discourse	_	AlignBegin=79855|AlignEnd=80085|SpaceAfter=No
+13	euh	euh	INTJ	_	_	11	discourse:filler	_	AlignBegin=79855|AlignEnd=80085|SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	AlignBegin=80085|AlignEnd=80085
 15	faite	faire	VERB	_	Gender=Fem|VerbForm=Part|Voice=Pass	10	comp:aux@pass	_	AlignBegin=80085|AlignEnd=80315|Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 16	pour	pour	ADP	_	_	15	mod	_	AlignBegin=80315|AlignEnd=80505|SpaceAfter=No
 17	,	,	PUNCT	_	_	20	punct	_	AlignBegin=80505|AlignEnd=80505
-18	euh	euh	INTJ	_	_	25	discourse	_	AlignBegin=80505|AlignEnd=80787|SpaceAfter=No
+18	euh	euh	INTJ	_	_	25	discourse:filler	_	AlignBegin=80505|AlignEnd=80787|SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	AlignBegin=80787|AlignEnd=81312
 20	pour	pour	ADP	_	_	16	repair	_	AlignBegin=81312|AlignEnd=81447|SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	AlignBegin=81447|AlignEnd=81447
-22	euh	euh	INTJ	_	_	20	discourse	_	AlignBegin=81447|AlignEnd=81617|SpaceAfter=No
+22	euh	euh	INTJ	_	_	20	discourse:filler	_	AlignBegin=81447|AlignEnd=81617|SpaceAfter=No
 23	,	,	PUNCT	_	_	25	punct	_	AlignBegin=81617|AlignEnd=81617
 24	ces	ce	DET	_	Number=Plur|PronType=Dem|Shared=No	25	det	_	AlignBegin=81617|AlignEnd=81777|HasSpokenGender=OnlySingExceptWithLiaison
 25	métiers	métier	NOUN	_	_	20	comp	_	AlignBegin=81777|AlignEnd=82027|Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
@@ -720,7 +720,7 @@
 # text = donc, euh, je pense que je vais, euh, je vais sûrement me réorienter, en psychologie.
 1	donc	donc	ADV	_	_	6	mod	_	AlignBegin=84015|AlignEnd=84200|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=84200|AlignEnd=84200
-3	euh	euh	INTJ	_	_	1	discourse	_	AlignBegin=84200|AlignEnd=84290|SpaceAfter=No
+3	euh	euh	INTJ	_	_	1	discourse:filler	_	AlignBegin=84200|AlignEnd=84290|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	AlignBegin=84290|AlignEnd=84290
 5	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	subj	_	AlignBegin=84290|AlignEnd=84390|Number[lex]=Sing|Person[lex]=1
 6	pense	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=84390|AlignEnd=84640|Person[ctxt]=1
@@ -728,7 +728,7 @@
 8	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	9	subj	_	AlignBegin=84790|AlignEnd=84890|Number[lex]=Sing|Person[lex]=1
 9	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	comp	_	AlignBegin=84890|AlignEnd=85162|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	AlignBegin=85162|AlignEnd=85162
-11	euh	euh	INTJ	_	_	9	discourse	_	AlignBegin=85162|AlignEnd=85520|SpaceAfter=No
+11	euh	euh	INTJ	_	_	9	discourse:filler	_	AlignBegin=85162|AlignEnd=85520|SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	AlignBegin=85520|AlignEnd=85520
 13	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	14	subj	_	AlignBegin=85520|AlignEnd=85590|Number[lex]=Sing|Person[lex]=1
 14	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	repair	_	AlignBegin=85590|AlignEnd=85680

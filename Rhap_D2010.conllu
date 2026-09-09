@@ -369,7 +369,7 @@
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=44645|AlignEnd=44675
 3	dit	dire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	2	comp:aux@tense	_	AlignBegin=44675|AlignEnd=45000|Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|SpaceAfter=No|Tense[denom]=Past
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=45000|AlignEnd=45000
-5	euh	euh	INTJ	_	_	3	discourse	_	AlignBegin=45000|AlignEnd=45125|SpaceAfter=No
+5	euh	euh	INTJ	_	_	3	discourse:filler	_	AlignBegin=45000|AlignEnd=45125|SpaceAfter=No
 6	,	,	PUNCT	_	_	12	punct	_	AlignBegin=45125|AlignEnd=45125
 7	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	12	subj	_	AlignBegin=45125|AlignEnd=45235|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 8	n~	n~	X	_	ExtPos=ADV	7	unk	_	AlignBegin=45235|AlignEnd=45390|Scrap=Yes|SpaceAfter=No
@@ -398,7 +398,7 @@
 # text = bon, euh, on y reviendra, d'ailleurs, sur, sur le style.
 1	bon	bon	INTJ	_	_	7	discourse	_	AlignBegin=49560|AlignEnd=49841|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=49841|AlignEnd=50136
-3	euh	euh	INTJ	_	_	7	discourse	_	AlignBegin=50136|AlignEnd=50431|SpaceAfter=No
+3	euh	euh	INTJ	_	_	7	discourse:filler	_	AlignBegin=50136|AlignEnd=50431|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=50431|AlignEnd=50431
 5	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	7	subj	_	AlignBegin=50431|AlignEnd=50651|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 6	y	y	PRON	_	PronType=Prs	7	comp:obl	_	AlignBegin=50651|AlignEnd=50681|Person[lex]=3
@@ -630,7 +630,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=71169|AlignEnd=71169
 4	évidemment	évidemment	ADV	_	_	9	mod	_	AlignBegin=71169|AlignEnd=71979|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=71979|AlignEnd=71979
-6	euh	euh	INTJ	_	_	4	discourse	_	AlignBegin=71979|AlignEnd=72009|SpaceAfter=No
+6	euh	euh	INTJ	_	_	4	discourse:filler	_	AlignBegin=71979|AlignEnd=72009|SpaceAfter=No
 7	,	,	PUNCT	_	_	4	punct	_	AlignBegin=72009|AlignEnd=72009
 8	c'	ce	PRON	_	PronType=Dem	9	subj	_	AlignBegin=72009|AlignEnd=72159|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=72159|AlignEnd=72199
@@ -742,7 +742,7 @@
 6	peut-être	peut-être	ADV	_	_	4	mod	_	AlignBegin=90446|AlignEnd=90753
 7	là	là	ADV	_	_	4	discourse	_	AlignBegin=90753|AlignEnd=90903|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=90903|AlignEnd=90903
-9	non	non	ADV	_	Polarity=Neg	4	discourse	_	AlignBegin=90903|AlignEnd=91086
+9	non	non	ADV	_	Polarity=Neg	4	discourse:tag	_	AlignBegin=90903|AlignEnd=91086
 10	?	?	PUNCT	_	_	4	punct	_	AlignBegin=91086|AlignEnd=91086
 
 # sent_id = Rhap_D2010-48
@@ -815,11 +815,11 @@
 # text = mais, euh, di~, euh…
 1	mais	mais	CCONJ	_	_	5	cc	_	AlignBegin=105585|AlignEnd=105708|Overlap=Rhap_D2010-52|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=105708|AlignEnd=106068
-3	euh	euh	INTJ	_	_	1	discourse	_	AlignBegin=106068|AlignEnd=106223|SpaceAfter=No
+3	euh	euh	INTJ	_	_	1	discourse:filler	_	AlignBegin=106068|AlignEnd=106223|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	AlignBegin=106223|AlignEnd=106223
 5	di~	di~	X	_	ExtPos=VERB	0	root	_	AlignBegin=106223|AlignEnd=106470|Scrap=Yes|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=106470|AlignEnd=106570
-7	euh	euh	INTJ	_	_	5	discourse	_	AlignBegin=106570|AlignEnd=106805|SpaceAfter=No
+7	euh	euh	INTJ	_	_	5	discourse:filler	_	AlignBegin=106570|AlignEnd=106805|SpaceAfter=No
 8	…	…	PUNCT	_	_	5	punct	_	AlignBegin=106805|AlignEnd=106805
 
 # sent_id = Rhap_D2010-52
@@ -860,7 +860,7 @@
 7	court	courir	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	AlignBegin=108205|AlignEnd=108365|Number[ctxt]=Sing|Person[ctxt]=3
 8	Paris	Paris	PROPN	_	_	7	comp:obj	_	AlignBegin=108365|AlignEnd=108753|Gender[lex]=Unknown|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=108753|AlignEnd=109068
-10	euh	euh	INTJ	_	_	8	discourse	_	AlignBegin=109068|AlignEnd=109333|SpaceAfter=No
+10	euh	euh	INTJ	_	_	8	discourse:filler	_	AlignBegin=109068|AlignEnd=109333|SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	AlignBegin=109333|AlignEnd=109333
 
 # sent_id = Rhap_D2010-55
@@ -973,7 +973,7 @@
 7	est	être	AUX	_	ExtPos=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=121863|AlignEnd=121923
 8	complètement	complètement	ADV	_	_	7	mod	_	AlignBegin=121923|AlignEnd=122705|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=122705|AlignEnd=123069
-10	euh	euh	INTJ	_	_	8	discourse	_	AlignBegin=123069|AlignEnd=123404|SpaceAfter=No
+10	euh	euh	INTJ	_	_	8	discourse:filler	_	AlignBegin=123069|AlignEnd=123404|SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	AlignBegin=123404|AlignEnd=123404
 12	s'	soi	PRON	_	PronType=Prs|Reflex=Yes	13	comp	_	AlignBegin=123404|AlignEnd=123524|Person[lex]=3|Scrap=Yes|SpaceAfter=No
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	repair	_	AlignBegin=123524|AlignEnd=123644|SpaceAfter=No
@@ -1097,7 +1097,7 @@
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=131711|AlignEnd=131711
 3	et	et	CCONJ	_	_	1	conj:dicto	_	AlignBegin=131711|AlignEnd=132059
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	AlignBegin=132059|AlignEnd=132169|HasSpokenGender=OnlySingExceptWithLiaison|InTitle=Yes
-5	Barrage	Barrage	PROPN	_	_	12	dislocated:obj	_	AlignBegin=132169|AlignEnd=132459|Gender[lex]=Unknown|Title=Yes
+5	Barrage	Barrage	PROPN	_	ExtPos=PROPN	12	dislocated:obj	_	AlignBegin=132169|AlignEnd=132459|Gender[lex]=Unknown|Title=Yes
 6	contre	contre	ADP	_	_	5	mod	_	AlignBegin=132459|AlignEnd=132579|InTitle=Yes
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	AlignBegin=132579|AlignEnd=132639|HasSpokenGender=OnlySingExceptWithLiaison|InTitle=Yes
 8	Pacifique	Pacifique	PROPN	_	_	6	comp	_	AlignBegin=132639|AlignEnd=133049|Gender[lex]=Unknown|InTitle=Yes|SpaceAfter=No
@@ -1328,7 +1328,7 @@
 19	années	année	NOUN	_	_	17	comp	_	AlignBegin=165997|AlignEnd=166207|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 20	vingt	vingt	NUM	_	ExtPos=PROPN	19	mod	_	AlignBegin=166207|AlignEnd=166486|Number[lex]=Sing|SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	AlignBegin=166486|AlignEnd=167371
-22	euh	euh	INTJ	_	_	20	discourse	_	AlignBegin=167371|AlignEnd=167646|SpaceAfter=No
+22	euh	euh	INTJ	_	_	20	discourse:filler	_	AlignBegin=167371|AlignEnd=167646|SpaceAfter=No
 23	.	.	PUNCT	_	_	5	punct	_	AlignBegin=167646|AlignEnd=167646
 
 # sent_id = Rhap_D2010-80
@@ -1600,7 +1600,7 @@
 10	devez	devoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=199967|AlignEnd=200157
 11	faire	faire	VERB	_	VerbForm=Inf	10	comp:obj	_	AlignBegin=200157|AlignEnd=200387|SpaceAfter=No|Subject=SubjRaising
 12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=200387|AlignEnd=200387
-13	euh	euh	INTJ	_	_	11	discourse	_	AlignBegin=200387|AlignEnd=200890|SpaceAfter=No
+13	euh	euh	INTJ	_	_	11	discourse:filler	_	AlignBegin=200387|AlignEnd=200890|SpaceAfter=No
 14	…	…	PUNCT	_	_	10	punct	_	AlignBegin=200890|AlignEnd=200890
 
 # sent_id = Rhap_D2010-100
@@ -1643,7 +1643,7 @@
 20	jeunes	jeune	ADJ	_	_	21	mod	_	AlignBegin=204335|AlignEnd=204515|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur
 21	filles	fille	NOUN	_	_	18	comp	_	AlignBegin=204515|AlignEnd=204743|Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	AlignBegin=204743|AlignEnd=204743
-23	hein	hein	INTJ	_	_	21	discourse	_	AlignBegin=204743|AlignEnd=204845
+23	hein	hein	INTJ	_	_	21	discourse:tag	_	AlignBegin=204743|AlignEnd=204845
 24	?	?	PUNCT	_	_	5	punct	_	AlignBegin=204845|AlignEnd=204845
 
 # sent_id = Rhap_D2010-102
@@ -2214,7 +2214,7 @@
 # macrosyntax = je le sais { à l'automobile |} //+ ( $L1 "ah" ouais // ) {| ^et ^puis au chauffeur } //=
 # text = ah ouais.
 1	ah	ah	INTJ	_	_	0	root	_	AlignBegin=275608|AlignEnd=275653|Backchannel=Rhap_D2010-136::3
-2	ouais	ouais	INTJ	_	_	1	discourse	_	AlignBegin=275653|AlignEnd=275788|SpaceAfter=No
+2	ouais	ouais	INTJ	_	_	1	unk	_	AlignBegin=275653|AlignEnd=275788|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	AlignBegin=275788|AlignEnd=275788
 
 # sent_id = Rhap_D2010-138

@@ -54,7 +54,7 @@
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	AlignBegin=8279|AlignEnd=8509|HasSpokenGender=OnlySingExceptWithLiaison
 5	sites	site	NOUN	_	_	2	comp:obj	_	AlignBegin=8509|AlignEnd=8979|Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=8979|AlignEnd=8979
-7	euh	euh	INTJ	_	_	5	discourse	_	AlignBegin=8979|AlignEnd=9229|SpaceAfter=No
+7	euh	euh	INTJ	_	_	5	discourse:filler	_	AlignBegin=8979|AlignEnd=9229|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=9229|AlignEnd=9229
 9	sociaux	social	ADJ	_	Gender=Masc|Number=Plur	5	mod	_	AlignBegin=9229|AlignEnd=9794|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc
 10	spécialisés	spécialisé	ADJ	_	_	5	mod	_	AlignBegin=9908|AlignEnd=10860|Gender[ctxt]=Masc|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur
@@ -109,9 +109,9 @@
 7	,	,	PUNCT	_	_	9	punct	_	AlignBegin=21326|AlignEnd=21326
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=21326|AlignEnd=21506|HasSpokenGender=OnlySingExceptWithLiaison
 9	site	site	NOUN	_	_	3	comp:obj	_	AlignBegin=21506|AlignEnd=21914|Gender[lex]=Masc|Number[ctxt]=Sing
-10	A	A	X	_	Foreign=Yes	9	mod:appos	_	AlignBegin=22010|AlignEnd=22055|InTitle=Yes|Lang=en
+10	A	A	X	_	ExtPos=PROPN|Foreign=Yes	9	mod@appos	_	AlignBegin=22010|AlignEnd=22055|Lang=en|Title=Yes
 11	Small	Small	X	_	Foreign=Yes	10	flat@foreign	_	AlignBegin=22055|AlignEnd=22415|InTitle=Yes|Lang=en
-12	World	World	X	_	Foreign=Yes	11	flat@foreign	_	AlignBegin=22415|AlignEnd=22850|Lang=en|SpaceAfter=No|Title=Yes
+12	World	World	X	_	Foreign=Yes	11	flat@foreign	_	AlignBegin=22415|AlignEnd=22850|InTitle=Yes|Lang=en|SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	AlignBegin=22850|AlignEnd=22850
 
 # sent_id = Rhap_M2005-6
@@ -144,7 +144,7 @@
 # text = A Small World compte parmi ses membres des gens comme Quentin Tarantino ou l'incontournable Paris Hilton, ou encore l'indéboulonnable Massimo Gargia.
 1	A	A	X	_	Foreign=Yes	4	subj	_	AlignBegin=28518|AlignEnd=28573|InTitle=Yes|Lang=en
 2	Small	Small	X	_	Foreign=Yes	1	flat@foreign	_	AlignBegin=28573|AlignEnd=28983|InTitle=Yes|Lang=en
-3	World	World	X	_	Foreign=Yes	2	flat@foreign	_	AlignBegin=28983|AlignEnd=29283|Lang=en|Title=Yes
+3	World	World	X	_	ExtPos=PROPN|Foreign=Yes	2	flat@foreign	_	AlignBegin=28983|AlignEnd=29283|Lang=en|Title=Yes
 4	compte	compter	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=29283|AlignEnd=29593|Number[ctxt]=Sing|Person[ctxt]=3
 5	parmi	parmi	ADP	_	_	4	mod	_	AlignBegin=29593|AlignEnd=29903
 6	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	7	det	_	AlignBegin=29903|AlignEnd=30093|HasSpokenGender=OnlySingExceptWithLiaison
@@ -197,7 +197,7 @@
 5	entrer	entrer	VERB	_	VerbForm=Inf	2	comp:obj	_	AlignBegin=40275|AlignEnd=40841|Subject=NoRaising
 6	pour	pour	ADP	_	_	5	mod	_	AlignBegin=40889|AlignEnd=41134|SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	AlignBegin=41134|AlignEnd=41134
-8	euh	euh	INTJ	_	_	11	discourse	_	AlignBegin=41134|AlignEnd=41294|SpaceAfter=No
+8	euh	euh	INTJ	_	_	11	discourse:filler	_	AlignBegin=41134|AlignEnd=41294|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=41294|AlignEnd=41294
 10	pouvoir	pouvoir	VERB	_	VerbForm=Inf	6	comp	_	AlignBegin=41294|AlignEnd=41644|Subject=NoRaising
 11	tchater	tchater	VERB	_	VerbForm=Inf	10	comp:obj	_	AlignBegin=41644|AlignEnd=42274|Subject=SubjRaising
@@ -229,7 +229,7 @@
 8	,	,	PUNCT	_	_	3	punct	_	AlignBegin=46623|AlignEnd=46670
 9	A	A	X	_	Foreign=Yes	12	subj	_	AlignBegin=46670|AlignEnd=46755|InTitle=Yes|Lang=en
 10	Small	Small	X	_	Foreign=Yes	9	flat@foreign	_	AlignBegin=46755|AlignEnd=47145|InTitle=Yes|Lang=en
-11	World	World	X	_	Foreign=Yes	10	flat@foreign	_	AlignBegin=47145|AlignEnd=47355|Lang=en|Title=Yes
+11	World	World	X	_	ExtPos=PROPN|Foreign=Yes	10	flat@foreign	_	AlignBegin=47145|AlignEnd=47355|Lang=en|Title=Yes
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=47355|AlignEnd=47405
 13	accessible	accessible	ADJ	_	_	12	comp:pred	_	AlignBegin=47405|AlignEnd=47915|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 14	uniquement	uniquement	ADV	_	_	12	mod	_	AlignBegin=47915|AlignEnd=48365
@@ -289,7 +289,7 @@
 20	point	point	NOUN	_	_	19	flat	_	AlignBegin=57850|AlignEnd=58120|Gender[lex]=Masc|Number[ctxt]=Sing
 21	com	com	X	_	_	20	flat	_	AlignBegin=58120|AlignEnd=58465|SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	AlignBegin=58465|AlignEnd=58465
-23	Z	Z	PROPN	_	_	19	conj:dicto	_	AlignBegin=58465|AlignEnd=58730|Gender[lex]=Unknown
+23	Z	Z	PROPN	_	_	19	conj:reform	_	AlignBegin=58465|AlignEnd=58730|Gender[lex]=Unknown
 24	I	I	PROPN	_	_	23	flat@name	_	AlignBegin=58730|AlignEnd=58930|Gender[lex]=Unknown
 25	K	K	PROPN	_	_	24	flat@name	_	AlignBegin=58930|AlignEnd=59130|Gender[lex]=Unknown
 26	I	I	PROPN	_	_	25	flat@name	_	AlignBegin=59130|AlignEnd=59410|Gender[lex]=Unknown|SpaceAfter=No

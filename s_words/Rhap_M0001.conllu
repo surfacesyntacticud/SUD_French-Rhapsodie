@@ -7,14 +7,14 @@
 1	eh	eh	INTJ	_	_	7	discourse	_	AlignBegin=0|AlignEnd=448
 2	ben	ben	INTJ	_	_	7	discourse	_	AlignBegin=448|AlignEnd=767|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=767|AlignEnd=767
-4	euh	euh	INTJ	_	_	7	discourse	_	AlignBegin=767|AlignEnd=1562|SpaceAfter=No
+4	euh	euh	INTJ	_	_	7	discourse:filler	_	AlignBegin=767|AlignEnd=1562|SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=1562|AlignEnd=1760
 6	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj	_	AlignBegin=1760|AlignEnd=1890|Number[lex]=Sing|Person[lex]=2
 7	prends	prendre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=1890|AlignEnd=2230|Person[ctxt]=2
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	9	det	_	AlignBegin=2230|AlignEnd=2290|HasSpokenGender=OnlySingExceptWithLiaison
 9	boulevard	boulevard	NOUN	_	_	7	comp:obj	_	AlignBegin=2290|AlignEnd=2996|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	AlignBegin=2996|AlignEnd=2996
-11	euh	euh	INTJ	_	_	9	discourse	_	AlignBegin=2996|AlignEnd=3436|SpaceAfter=No
+11	euh	euh	INTJ	_	_	9	discourse:filler	_	AlignBegin=2996|AlignEnd=3436|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=3436|AlignEnd=4481
 13	là	là	ADV	_	_	9	discourse	_	AlignBegin=4481|AlignEnd=4691
 14	qui	qui	PRON	_	PronType=Rel	15	subj	_	AlignBegin=4691|AlignEnd=4861
@@ -57,7 +57,7 @@
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	AlignBegin=10182|AlignEnd=10302|HasSpokenGender=OnlySingExceptWithLiaison
 6	place	place	NOUN	_	_	4	comp	_	AlignBegin=10302|AlignEnd=10772|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=10772|AlignEnd=10772
-8	euh	euh	INTJ	_	_	6	discourse	_	AlignBegin=10772|AlignEnd=11232|SpaceAfter=No
+8	euh	euh	INTJ	_	_	6	discourse:filler	_	AlignBegin=10772|AlignEnd=11232|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=11232|AlignEnd=11232
 10	Victor	Victor	PROPN	_	_	6	mod:appos	_	AlignBegin=11232|AlignEnd=11662|Gender[lex]=Unknown
 11	Hugo	Hugo	PROPN	_	_	10	flat@name	_	AlignBegin=11662|AlignEnd=12049|Gender[lex]=Unknown|SpaceAfter=No
@@ -69,7 +69,7 @@
 # speaker_id = §LM36
 # macrosyntax = "euh" la place Victor Hugo < à la banque "euh" qui fait l'angle <+ tu prends à droite //
 # text = euh, la place Victor Hugo, à la banque, euh, qui fait l'angle, tu prends à droite.
-1	euh	euh	INTJ	_	_	20	discourse	_	AlignBegin=13590|AlignEnd=13740|SpaceAfter=No
+1	euh	euh	INTJ	_	_	20	discourse:filler	_	AlignBegin=13590|AlignEnd=13740|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=13740|AlignEnd=13740
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	AlignBegin=13740|AlignEnd=13800|HasSpokenGender=OnlySingExceptWithLiaison
 4	place	place	NOUN	_	_	20	dislocated:mod	_	AlignBegin=13800|AlignEnd=14030|Gender[lex]=Fem|Number[ctxt]=Sing
@@ -80,7 +80,7 @@
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	AlignBegin=14704|AlignEnd=14854|HasSpokenGender=OnlySingExceptWithLiaison
 10	banque	banque	NOUN	_	_	8	comp	_	AlignBegin=14854|AlignEnd=15324|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	AlignBegin=15324|AlignEnd=15324
-12	euh	euh	INTJ	_	_	10	discourse	_	AlignBegin=15324|AlignEnd=15914|SpaceAfter=No
+12	euh	euh	INTJ	_	_	10	discourse:filler	_	AlignBegin=15324|AlignEnd=15914|SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	AlignBegin=15914|AlignEnd=16419
 14	qui	qui	PRON	_	PronType=Rel	15	subj	_	AlignBegin=16419|AlignEnd=16639
 15	fait	faire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	10	mod@relcl	_	AlignBegin=16639|AlignEnd=16769|Person[ctxt]=3
@@ -151,7 +151,7 @@
 # text = et, euh, après, tu bifurques.
 1	et	et	CCONJ	_	_	8	cc	_	AlignBegin=26456|AlignEnd=26647|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=26647|AlignEnd=26647
-3	euh	euh	INTJ	_	_	8	discourse	_	AlignBegin=26647|AlignEnd=27111|SpaceAfter=No
+3	euh	euh	INTJ	_	_	8	discourse:filler	_	AlignBegin=26647|AlignEnd=27111|SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=27111|AlignEnd=27503
 5	après	après	ADP	_	_	8	mod	_	AlignBegin=27503|AlignEnd=27763|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=27763|AlignEnd=27763
@@ -165,7 +165,7 @@
 # speaker_id = §LM36
 # macrosyntax = "euh" il y a une petite bifurcation "euh" juste avant la place du Tribunal //
 # text = euh, il y a une petite bifurcation, euh, juste avant la place du Tribunal.
-1	euh	euh	INTJ	_	_	5	discourse	_	AlignBegin=28733|AlignEnd=29195|SpaceAfter=No
+1	euh	euh	INTJ	_	_	5	discourse:filler	_	AlignBegin=28733|AlignEnd=29195|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=29195|AlignEnd=30889
 3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	5	subj@expl	_	AlignBegin=30889|AlignEnd=30927|Person[lex]=3
 4	y	y	PRON	_	PronType=Prs	5	comp@expl	_	AlignBegin=30927|AlignEnd=30957|Person[lex]=3
@@ -174,7 +174,7 @@
 7	petite	petit	ADJ	_	Gender=Fem	8	mod	_	AlignBegin=31117|AlignEnd=31277|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 8	bifurcation	bifurcation	NOUN	_	_	5	comp:obj	_	AlignBegin=31277|AlignEnd=32027|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=32027|AlignEnd=32027
-10	euh	euh	INTJ	_	_	8	discourse	_	AlignBegin=32027|AlignEnd=32165|SpaceAfter=No
+10	euh	euh	INTJ	_	_	8	discourse:filler	_	AlignBegin=32027|AlignEnd=32165|SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	AlignBegin=32165|AlignEnd=32165
 12	juste	juste	ADJ	_	_	15	mod	_	AlignBegin=32165|AlignEnd=32427|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 13	avant	avant	ADP	_	_	5	mod	_	AlignBegin=32427|AlignEnd=32665
@@ -263,7 +263,7 @@
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	AlignBegin=46677|AlignEnd=46797|HasSpokenGender=OnlySingExceptWithLiaison
 6	fontaine	fontaine	NOUN	_	_	4	comp	_	AlignBegin=46797|AlignEnd=47258|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=47258|AlignEnd=47258
-8	euh	euh	INTJ	_	_	6	discourse	_	AlignBegin=47258|AlignEnd=47687|SpaceAfter=No
+8	euh	euh	INTJ	_	_	6	discourse:filler	_	AlignBegin=47258|AlignEnd=47687|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=47687|AlignEnd=47687
 10	place	place	NOUN	_	_	4	conj:coord	_	AlignBegin=47687|AlignEnd=47997|Gender[lex]=Fem|Number[ctxt]=Sing
 11	Notre-Dame	Notre-Dame	PROPN	_	_	10	mod:appos	_	AlignBegin=47997|AlignEnd=48482|Gender[lex]=Unknown|SpaceAfter=No
