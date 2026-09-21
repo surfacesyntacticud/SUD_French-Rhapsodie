@@ -344,7 +344,7 @@
 11	district	district	NOUN	_	_	9	comp	_	AlignBegin=64168|AlignEnd=64849|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	AlignBegin=64849|AlignEnd=64849
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	AlignBegin=64849|AlignEnd=65034|HasSpokenGender=OnlySingExceptWithLiaison
-14	préfet	préfet	NOUN	_	_	8	conj:dicto	_	AlignBegin=65034|AlignEnd=65428|Gender[lex]=Masc|Number[ctxt]=Sing
+14	préfet	préfet	NOUN	_	_	8	repair	_	AlignBegin=65034|AlignEnd=65428|Gender[lex]=Masc|Number[ctxt]=Sing
 15-16	du	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	14	udep	_	AlignBegin=65428|AlignEnd=65528
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	comp:obj@scrap	_	AlignBegin=65428|AlignEnd=65528
@@ -799,7 +799,7 @@
 9	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=137698|AlignEnd=138005|Overlap=Rhap_D2004-35|SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	AlignBegin=138005|AlignEnd=138005|Overlap=Rhap_D2004-33
 11	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	12	subj@pass	_	AlignBegin=138005|AlignEnd=138080|Number[lex]=Plur|Overlap=Rhap_D2004-35|Person[lex]=2|Polite=Yes
-12	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	conj:dicto	_	AlignBegin=138080|AlignEnd=138280|Overlap=Rhap_D2004-35
+12	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	repair	_	AlignBegin=138080|AlignEnd=138280|Overlap=Rhap_D2004-35
 13	repartie	repartir	VERB	_	VerbForm=Part|Voice=Pass	12	comp:aux@pass	_	AlignBegin=138280|AlignEnd=138880|Gender[ctxt]=Fem|Number[ctxt]=Sing|Overlap=Rhap_D2004-35|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 14	vers	vers	ADP	_	_	13	comp:obl	_	AlignBegin=138880|AlignEnd=139030|Overlap=Rhap_D2004-35
 15	Mulhouse	Mulhouse	PROPN	_	_	14	comp	_	AlignBegin=139030|AlignEnd=139358|Gender[lex]=Unknown|Overlap=Rhap_D2004-35|SpaceAfter=No
@@ -904,18 +904,18 @@
 6	ans	an	NOUN	_	_	3	mod	_	AlignBegin=151682|AlignEnd=151772|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur
 7	en	en	ADP	_	_	4	comp:obl	_	AlignBegin=151772|AlignEnd=151992|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=151992|AlignEnd=151992
-9	en	en	ADP	_	_	7	comp	_	AlignBegin=151992|AlignEnd=152222
+9	en	en	ADP	_	_	7	repair	_	AlignBegin=151992|AlignEnd=152222
 10	Angleterre	Angleterre	PROPN	_	_	9	comp	_	AlignBegin=152222|AlignEnd=152902|Gender[lex]=Unknown
 11	en	en	ADP	_	_	10	mod	_	AlignBegin=152902|AlignEnd=153177|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=153177|AlignEnd=153177
-13	en	en	ADP	_	_	11	comp	_	AlignBegin=153177|AlignEnd=153472|SpaceAfter=No
+13	en	en	ADP	_	_	11	repair	_	AlignBegin=153177|AlignEnd=153472|SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	AlignBegin=153472|AlignEnd=153472
-15	en	en	ADP	_	_	13	comp	_	AlignBegin=153472|AlignEnd=153746
+15	en	en	ADP	_	_	13	repair	_	AlignBegin=153472|AlignEnd=153746
 16	trente	trente	NUM	_	ExtPos=PROPN	15	comp	_	AlignBegin=153811|AlignEnd=154106|Number[lex]=Sing|SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	AlignBegin=154106|AlignEnd=154106
-18	trente-et-un	trente-et-un	NUM	_	ExtPos=PROPN	16	conj:dicto	_	AlignBegin=154106|AlignEnd=154506|Number[lex]=Sing|SpaceAfter=No
+18	trente-et-un	trente-et-un	NUM	_	ExtPos=PROPN	16	conj:coord	_	AlignBegin=154106|AlignEnd=154506|Number[lex]=Sing|SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	AlignBegin=154506|AlignEnd=154506
-20	trente-deux	trente-deux	NUM	_	ExtPos=PROPN	16	conj:coord	_	AlignBegin=154506|AlignEnd=154999|Number[lex]=Sing|SpaceAfter=No
+20	trente-deux	trente-deux	NUM	_	ExtPos=PROPN	18	conj:coord	_	AlignBegin=154506|AlignEnd=154999|Number[lex]=Sing|SpaceAfter=No
 21	.	.	PUNCT	_	_	3	punct	_	AlignBegin=154999|AlignEnd=154999
 
 # sent_id = Rhap_D2004-41
@@ -1059,17 +1059,17 @@
 19	,	,	PUNCT	_	_	20	punct	_	AlignBegin=175346|AlignEnd=175510|Overlap=Rhap_D2004-45bis
 20	non	non	ADV	_	Polarity=Neg	18	discourse	_	AlignBegin=175510|AlignEnd=175646|Overlap=Rhap_D2004-50|SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	AlignBegin=176221|AlignEnd=175510|Overlap=Rhap_D2004-45ter
-22	pour	pour	ADP	_	_	16	conj:dicto	_	AlignBegin=175646|AlignEnd=175788|Overlap=Rhap_D2004-50
+22	pour	pour	ADP	_	_	16	repair	_	AlignBegin=175646|AlignEnd=175788|Overlap=Rhap_D2004-50
 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	AlignBegin=175788|AlignEnd=175960|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|Overlap=Rhap_D2004-50
 24	études	étude	NOUN	_	_	22	comp	_	AlignBegin=175960|AlignEnd=176221|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|Overlap=Rhap_D2004-50|SpaceAfter=No
 25	,	,	PUNCT	_	_	26	punct	_	AlignBegin=176221|AlignEnd=176221
 26	sûrement	sûrement	ADV	_	_	10	mod	_	AlignBegin=176221|AlignEnd=176626|SpaceAfter=No
 27	,	,	PUNCT	_	_	28	punct	_	AlignBegin=176626|AlignEnd=176740
-28	sûrement	sûrement	ADV	_	_	26	conj:dicto	_	AlignBegin=176740|AlignEnd=177158|SpaceAfter=No
+28	sûrement	sûrement	ADV	_	_	26	repair	_	AlignBegin=176740|AlignEnd=177158|SpaceAfter=No
 29	,	,	PUNCT	_	_	30	punct	_	AlignBegin=177158|AlignEnd=175510
 30	ouais	ouais	INTJ	_	_	28	discourse	_	AlignBegin=175510|AlignEnd=176221|SpaceAfter=No
 31	,	,	PUNCT	_	_	32	punct	_	AlignBegin=176221|AlignEnd=177460
-32	ouais	ouais	INTJ	_	_	28	conj:dicto	_	AlignBegin=177460|AlignEnd=177595|SpaceAfter=No
+32	ouais	ouais	INTJ	_	_	30	conj:coord	_	AlignBegin=177460|AlignEnd=177595|SpaceAfter=No
 33	.	.	PUNCT	_	_	10	punct	_	AlignBegin=177595|AlignEnd=177595
 
 # sent_id = Rhap_D2004-49
@@ -1205,9 +1205,9 @@
 # text = et, et, et c'est un type, euh, passionnant.
 1	et	et	CCONJ	_	_	7	cc	_	AlignBegin=193011|AlignEnd=193906|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=193906|AlignEnd=193906
-3	et	et	CCONJ	_	_	1	conj:dicto	_	AlignBegin=193906|AlignEnd=194036|SpaceAfter=No
+3	et	et	CCONJ	_	_	1	conj:coord	_	AlignBegin=193906|AlignEnd=194036|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=194036|AlignEnd=194036
-5	et	et	CCONJ	_	_	3	conj:dicto	_	AlignBegin=194036|AlignEnd=194166
+5	et	et	CCONJ	_	_	3	conj:coord	_	AlignBegin=194036|AlignEnd=194166
 6	c'	ce	PRON	_	PronType=Dem	7	subj	_	AlignBegin=194166|AlignEnd=194302|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=194302|AlignEnd=194327
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	AlignBegin=194327|AlignEnd=194446

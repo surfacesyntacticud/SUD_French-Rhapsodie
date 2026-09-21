@@ -646,7 +646,7 @@
 14	sur	sur	ADP	_	_	7	comp:obl	_	AlignBegin=111780|AlignEnd=111980
 15	qui	qui	PRON	_	PronType=Rel	14	comp	_	AlignBegin=111980|AlignEnd=112130
 16	que	que	PRON	_	PronType=Rel	18	comp:pred	_	AlignBegin=112130|AlignEnd=112170
-17	ce	ce	PROPN	_	_	18	subj	_	AlignBegin=112170|AlignEnd=112335|Gender[lex]=Unknown
+17	ce	ce	PRON	_	PronType=Dem	18	subj	_	AlignBegin=112170|AlignEnd=112335|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
 18	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	mod@relcl	_	AlignBegin=112335|AlignEnd=112655|SpaceAfter=No
 19	.	.	PUNCT	_	_	2	punct	_	AlignBegin=112655|AlignEnd=112655
 
@@ -887,8 +887,8 @@
 1	et	et	CCONJ	_	_	3	cc	_	AlignBegin=149909|AlignEnd=150499
 2	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	AlignBegin=150499|AlignEnd=150664|Number[lex]=Sing|Person[lex]=1
 3	précise	préciser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=150664|AlignEnd=151004|Person[ctxt]=1
-4	d'	de	ADP	_	_	3	mod	_	AlignBegin=151004|AlignEnd=151034|SpaceAfter=No
-5	ailleurs	ailleurs	ADV	_	_	4	comp	_	AlignBegin=151034|AlignEnd=151254
+4	d'	de	ADP	_	ExtPos=ADV	3	mod	_	AlignBegin=151004|AlignEnd=151034|Idiom=Yes|SpaceAfter=No
+5	ailleurs	ailleurs	ADV	_	_	4	comp	_	AlignBegin=151034|AlignEnd=151254|InIdiom=Yes
 6	que	que	SCONJ	_	_	3	comp:obj	_	AlignBegin=151254|AlignEnd=151374
 7	quand	quand	SCONJ	_	_	10	mod	_	AlignBegin=151374|AlignEnd=151524
 8	Marcel	Marcel	PROPN	_	_	10	subj	_	AlignBegin=151524|AlignEnd=151824|Gender[lex]=Unknown

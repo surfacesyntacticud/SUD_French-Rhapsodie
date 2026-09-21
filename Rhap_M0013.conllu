@@ -113,7 +113,7 @@
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	13	det	_	AlignBegin=17128|AlignEnd=17188|HasSpokenGender=OnlySingExceptWithLiaison
 13	poste	poste	NOUN	_	_	11	comp	_	AlignBegin=17188|AlignEnd=17661|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	AlignBegin=17661|AlignEnd=17661
-15	et	et	CCONJ	_	ExtPos=ADV	10	conj:dicto	_	AlignBegin=17661|AlignEnd=17751|Idiom=Yes
+15	et	et	CCONJ	_	ExtPos=ADV	10	conj:coord	_	AlignBegin=17661|AlignEnd=17751|Idiom=Yes
 16	caetera	caetera	ADV	_	_	15	unk	_	AlignBegin=17751|AlignEnd=18388|InIdiom=Yes|SpaceAfter=No
 17	.	.	PUNCT	_	_	8	punct	_	AlignBegin=18388|AlignEnd=18388
 
@@ -189,7 +189,7 @@
 23	,	,	PUNCT	_	_	26	punct	_	AlignBegin=29327|AlignEnd=29327
 24	que	que	PRON	_	PronType=Rel	27	comp:obj	_	AlignBegin=29327|AlignEnd=29450
 25	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	26	subj	_	AlignBegin=29450|AlignEnd=29572|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
-26	pouvez	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	22	conj:dicto	_	AlignBegin=29572|AlignEnd=29824
+26	pouvez	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	21	conj:reform	_	AlignBegin=29572|AlignEnd=29824
 27	suivre	suivre	VERB	_	VerbForm=Inf	26	comp:obj	_	AlignBegin=29824|AlignEnd=30321|SpaceAfter=No|Subject=SubjRaising
 28	,	,	PUNCT	_	_	29	punct	_	AlignBegin=30321|AlignEnd=30321
 29	euh	euh	INTJ	_	_	27	discourse:filler	_	AlignBegin=30321|AlignEnd=30672|SpaceAfter=No
@@ -237,20 +237,20 @@
 29	euh	euh	INTJ	_	_	27	discourse:filler	_	AlignBegin=38867|AlignEnd=39367|SpaceAfter=No
 30	,	,	PUNCT	_	_	32	punct	_	AlignBegin=39367|AlignEnd=39572
 31	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	32	subj	_	AlignBegin=39572|AlignEnd=39647|Number[lex]=Sing|Person[lex]=1
-32	sais	savoir	VERB	_	ExtPos=ADV|Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	25	conj:dicto	_	AlignBegin=39647|AlignEnd=39771|Graft=Yes|Person[ctxt]=1
+32	sais	savoir	VERB	_	ExtPos=ADV|Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	25	conj:reform	_	AlignBegin=39647|AlignEnd=39771|Graft=Yes|Person[ctxt]=1
 33	pas	pas	ADV	_	Polarity=Neg	32	mod	_	AlignBegin=39771|AlignEnd=39927
 34	combien	combien	ADV	_	ExtPos=PRON|PronType=Int	32	comp:obj	_	AlignBegin=39927|AlignEnd=40141
 35	de	de	ADP	_	_	34	comp:obl	_	AlignBegin=40141|AlignEnd=40201
 36	temps	temps	NOUN	_	_	35	comp	_	AlignBegin=40201|AlignEnd=40405|Gender[lex]=Masc|SpaceAfter=No
 37	,	,	PUNCT	_	_	38	punct	_	AlignBegin=40405|AlignEnd=40405
-38	à	à	ADP	_	ExtPos=ADV	32	conj:dicto	_	AlignBegin=40405|AlignEnd=40435|Idiom=Yes
+38	à	à	ADP	_	ExtPos=ADV	32	conj:reform	_	AlignBegin=40405|AlignEnd=40435|Idiom=Yes
 39	peu	peu	ADV	_	_	38	comp:obj	_	AlignBegin=40435|AlignEnd=40535|InIdiom=Yes
 40	près	près	ADV	_	_	38	mod	_	AlignBegin=40535|AlignEnd=40895|InIdiom=Yes|SpaceAfter=No
 41	,	,	PUNCT	_	_	42	punct	_	AlignBegin=40895|AlignEnd=40895
 42	euh	euh	INTJ	_	_	40	discourse:filler	_	AlignBegin=40895|AlignEnd=41175|SpaceAfter=No
 43	,	,	PUNCT	_	_	45	punct	_	AlignBegin=41175|AlignEnd=41175
 44	ça	ça	PRON	_	PronType=Dem	45	subj	_	AlignBegin=41175|AlignEnd=41270|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3
-45	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	38	conj:dicto	_	AlignBegin=41270|AlignEnd=41370|Graft=Yes|Person[ctxt]=3
+45	doit	devoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	38	repair	_	AlignBegin=41270|AlignEnd=41370|Graft=Yes|Person[ctxt]=3
 46	être	être	VERB	_	VerbForm=Inf	45	comp:obj	_	AlignBegin=41370|AlignEnd=41560|Subject=SubjRaising
 47	cinq-cents	cinq-cents	NUM	_	ExtPos=PRON	57	mod	_	AlignBegin=41560|AlignEnd=42130|Number[lex]=Plur|SpaceAfter=No
 48	,	,	PUNCT	_	_	55	punct	_	AlignBegin=42130|AlignEnd=42130
@@ -260,7 +260,7 @@
 52	,	,	PUNCT	_	_	49	punct	_	AlignBegin=43154|AlignEnd=43154
 53	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	55	det	_	AlignBegin=43154|AlignEnd=43224
 54	petit	petit	ADJ	_	Gender=Masc	55	mod	_	AlignBegin=43224|AlignEnd=43404|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
-55	kilomètre	kilomètre	NOUN	_	_	47	conj:dicto	_	AlignBegin=43404|AlignEnd=44042|Gender[lex]=Masc|Number[ctxt]=Sing
+55	kilomètre	kilomètre	NOUN	_	_	47	conj:reform	_	AlignBegin=43404|AlignEnd=44042|Gender[lex]=Masc|Number[ctxt]=Sing
 56	plus	plus	ADV	_	_	57	mod	_	AlignBegin=44467|AlignEnd=44552
 57	loin	loin	ADV	_	_	46	comp:obl	_	AlignBegin=44552|AlignEnd=44801|SpaceAfter=No
 58	,	,	PUNCT	_	_	60	punct	_	AlignBegin=44801|AlignEnd=44801
@@ -313,7 +313,7 @@
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	5	det	_	AlignBegin=51257|AlignEnd=51337|InIdiom=Yes
 5	peu	peu	NOUN	_	ExtPos=ADV	2	mod	_	AlignBegin=51337|AlignEnd=51557|Gender[lex]=Masc|Idiom=Yes|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=51557|AlignEnd=51557
-7	ou	ou	CCONJ	_	_	5	conj:dicto	_	AlignBegin=51557|AlignEnd=51890|SpaceAfter=No
+7	ou	ou	CCONJ	_	_	5	conj:coord	_	AlignBegin=51557|AlignEnd=51890|Scrap=Yes|SpaceAfter=No
 8	…	…	PUNCT	_	_	2	punct	_	AlignBegin=51890|AlignEnd=0
 9	?	?	PUNCT	_	_	2	punct	_	AlignBegin=0|AlignEnd=0
 

@@ -117,7 +117,7 @@
 17	vérité	vérité	NOUN	_	_	14	conj:appos	_	AlignBegin=22021|AlignEnd=22581|Gender[lex]=Fem|Number[ctxt]=Sing
 18	plus	plus	ADV	_	_	21	mod	_	AlignBegin=22581|AlignEnd=23097|SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	AlignBegin=23097|AlignEnd=23264
-20	plus	plus	ADV	_	_	18	conj:dicto	_	AlignBegin=23264|AlignEnd=23409
+20	plus	plus	ADV	_	_	18	repair	_	AlignBegin=23264|AlignEnd=23409
 21	nue	nu	ADJ	_	_	17	mod	_	AlignBegin=23409|AlignEnd=23819|Gender[ctxt]=Fem|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	AlignBegin=23819|AlignEnd=24068
 23	si	si	SCONJ	_	_	21	discourse	_	AlignBegin=24068|AlignEnd=24343
@@ -357,7 +357,7 @@
 16	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	AlignBegin=64911|AlignEnd=65061
 17	langage	langage	NOUN	_	_	15	comp	_	AlignBegin=65061|AlignEnd=65819|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	AlignBegin=65763|AlignEnd=65819
-19	que	que	SCONJ	_	_	8	conj:dicto	_	AlignBegin=65819|AlignEnd=65974
+19	que	que	SCONJ	_	_	8	conj:coord	_	AlignBegin=65819|AlignEnd=65974
 20	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	21	subj	_	AlignBegin=65974|AlignEnd=66114|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 21	pense	penser	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	comp	_	AlignBegin=66114|AlignEnd=66504|Number[ctxt]=Sing|Person[ctxt]=3
 22	en	en	ADP	_	_	21	mod	_	AlignBegin=66504|AlignEnd=66624
@@ -395,12 +395,12 @@
 # speaker_id = §LM27
 # macrosyntax = ^et par conséquent "euh" ESPERLUETTE //
 # text = et par conséquent, euh…
-1	et	et	CCONJ	_	_	0	root	_	AlignBegin=73042|AlignEnd=73182
-2	par	par	ADP	_	_	1	conj:dicto	_	AlignBegin=73182|AlignEnd=73382
+1	et	et	CCONJ	_	_	2	cc	_	AlignBegin=73042|AlignEnd=73182
+2	par	par	ADP	_	_	0	root	_	AlignBegin=73182|AlignEnd=73382
 3	conséquent	conséquent	NOUN	_	_	2	comp	_	AlignBegin=73382|AlignEnd=74042|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=74042|AlignEnd=74042
 5	euh	euh	INTJ	_	_	3	discourse:filler	_	AlignBegin=74042|AlignEnd=74482|SpaceAfter=No
-6	…	…	PUNCT	_	_	1	punct	_	AlignBegin=74482|AlignEnd=74482
+6	…	…	PUNCT	_	_	2	punct	_	AlignBegin=74482|AlignEnd=74482
 
 # sent_id = Rhap_D2009-17
 # prosodic_annotation = yes
@@ -682,7 +682,7 @@
 17	,	,	PUNCT	_	_	20	punct	_	AlignBegin=122467|AlignEnd=122467
 18	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	20	subj@expl	_	AlignBegin=122467|AlignEnd=122587|Person[lex]=3
 19	y	y	PRON	_	PronType=Prs	20	comp@expl	_	AlignBegin=122587|AlignEnd=122667|Person[lex]=3
-20	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	16	conj:dicto	_	AlignBegin=122667|AlignEnd=122927|Number[ctxt]=Sing|Person[ctxt]=3
+20	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	16	repair	_	AlignBegin=122667|AlignEnd=122927|Number[ctxt]=Sing|Person[ctxt]=3
 21	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	22	det	_	AlignBegin=122927|AlignEnd=123237
 22	tâche	tâche	NOUN	_	_	20	comp:obj	_	AlignBegin=123237|AlignEnd=123576|Gender[lex]=Fem|Number[ctxt]=Sing
 23	historique	historique	ADJ	_	_	22	mod	_	AlignBegin=123767|AlignEnd=124417|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
@@ -1132,10 +1132,10 @@
 7	nouvelle	nouveau	ADJ	_	Gender=Fem	4	comp:obj	_	AlignBegin=199510|AlignEnd=199884|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	AlignBegin=199884|AlignEnd=199884
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	AlignBegin=199884|AlignEnd=200019|LiaisonAfter=Yes
-10	anti-littérature	anti-littérature	NOUN	_	_	7	conj:dicto	_	AlignBegin=200019|AlignEnd=201009|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
+10	anti-littérature	anti-littérature	NOUN	_	_	7	repair	_	AlignBegin=200019|AlignEnd=201009|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	AlignBegin=201009|AlignEnd=201009
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	AlignBegin=201009|AlignEnd=201129
-13	contre-littérature	contre-littérature	NOUN	_	_	10	conj:dicto	_	AlignBegin=201129|AlignEnd=202172|Gender[lex]=Fem|Number[ctxt]=Sing
+13	contre-littérature	contre-littérature	NOUN	_	_	10	conj:reform	_	AlignBegin=201129|AlignEnd=202172|Gender[lex]=Fem|Number[ctxt]=Sing
 14	?	?	PUNCT	_	_	4	punct	_	AlignBegin=202172|AlignEnd=202172
 
 # sent_id = Rhap_D2009-48
@@ -1219,7 +1219,7 @@
 23	tout	tout	ADV	_	_	24	mod	_	AlignBegin=216977|AlignEnd=217067
 24	au	au	ADP	_	_	26	mod	_	AlignBegin=217067|AlignEnd=217197
 25	moins	moins	ADV	_	_	24	comp	_	AlignBegin=217197|AlignEnd=217347
-26	de	de	ADP	_	_	20	conj:dicto	_	AlignBegin=217347|AlignEnd=217377
+26	de	de	ADP	_	_	20	conj:reform	_	AlignBegin=217347|AlignEnd=217377
 27	se	soi	PRON	_	PronType=Prs|Reflex=Yes	28	comp@pass	_	AlignBegin=217377|AlignEnd=217507|Person[lex]=3
 28	modifier	modifier	VERB	_	VerbForm=Inf	26	comp	_	AlignBegin=217507|AlignEnd=217957|Subject=ObjRaising
 29	profondément	profondément	ADV	_	_	28	mod	_	AlignBegin=217957|AlignEnd=218572|SpaceAfter=No

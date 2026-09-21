@@ -309,7 +309,7 @@
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=33998|AlignEnd=33998
 9	quarante	quarante	NUM	_	ExtPos=PRON	5	conj:appos	_	AlignBegin=33998|AlignEnd=34330|Number[lex]=Plur|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	AlignBegin=34330|AlignEnd=34330
-11	quarante-cinq	quarante-cinq	NUM	_	ExtPos=PRON	9	conj:dicto	_	AlignBegin=34330|AlignEnd=35084|Number[lex]=Plur|Overlap=Rhap_D0009-22|SpaceAfter=No
+11	quarante-cinq	quarante-cinq	NUM	_	ExtPos=PRON	9	conj:reform	_	AlignBegin=34330|AlignEnd=35084|Number[lex]=Plur|Overlap=Rhap_D0009-22|SpaceAfter=No
 12	.	.	PUNCT	_	_	4	punct	_	AlignBegin=35084|AlignEnd=35084|Overlap=Rhap_D0009-20
 
 # sent_id = Rhap_D0009-21
@@ -401,8 +401,8 @@
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	2	subj@expl	_	AlignBegin=39040|AlignEnd=39771|Overlap=Rhap_D0009-26|Person[lex]=3
 2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=39040|AlignEnd=39771|Overlap=Rhap_D0009-26|Person[ctxt]=3|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=39771|AlignEnd=39885
-4	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	2	conj:dicto	_	AlignBegin=39885|AlignEnd=40135|Person[ctxt]=3
-5	compter	compter	VERB	_	VerbForm=Inf	2	comp:obj	_	AlignBegin=40135|AlignEnd=40377|Subject=NoRaising
+4	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	2	repair	_	AlignBegin=39885|AlignEnd=40135|Person[ctxt]=3
+5	compter	compter	VERB	_	VerbForm=Inf	4	comp:obj	_	AlignBegin=40135|AlignEnd=40377|Subject=NoRaising
 6	autour	autour	ADV	_	_	5	comp:obj	_	AlignBegin=40377|AlignEnd=40715
 7	de	de	ADP	_	_	6	comp:obl	_	AlignBegin=40715|AlignEnd=41033
 8	soixante	soixante	NUM	_	ExtPos=PROPN	7	comp	_	AlignBegin=41033|AlignEnd=41383|Number[lex]=Sing|SpaceAfter=No
@@ -496,7 +496,7 @@
 2	jours	jour	NOUN	_	_	0	root	_	AlignBegin=48537|AlignEnd=49026|Gender[lex]=Masc|Number[ctxt]=Plur|Overlap=Rhap_D0009-34|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=49026|AlignEnd=49026
 4	quinze	quinze	NUM	_	ExtPos=DET	5	det	_	AlignBegin=49026|AlignEnd=49196|Number[lex]=Plur
-5	jours	jour	NOUN	_	_	2	conj:dicto	_	AlignBegin=49196|AlignEnd=49411|Gender[lex]=Masc|Number[ctxt]=Plur
+5	jours	jour	NOUN	_	_	2	conj:reform	_	AlignBegin=49196|AlignEnd=49411|Gender[lex]=Masc|Number[ctxt]=Plur
 6	maximum	maximum	NOUN	_	_	5	mod	_	AlignBegin=49411|AlignEnd=49734|Gender[lex]=Masc|Number[ctxt]=Sing|Overlap=Rhap_D0009-36|SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	AlignBegin=50072|AlignEnd=50072|Overlap=Rhap_D0009-28
 
@@ -572,13 +572,13 @@
 8	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	comp:obj	_	AlignBegin=57964|AlignEnd=58814|Scrap=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	AlignBegin=58814|AlignEnd=59332
 10	c'	ce	PRON	_	PronType=Dem	11	subj	_	AlignBegin=59332|AlignEnd=59417|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-11	est	être	AUX	_	ExtPos=NOUN|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj:dicto	_	AlignBegin=59417|AlignEnd=59577|Graft=Yes
+11	est	être	AUX	_	ExtPos=NOUN|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	repair	_	AlignBegin=59417|AlignEnd=59577|Graft=Yes
 12	pas	pas	ADV	_	Polarity=Neg	11	mod	_	AlignBegin=59577|AlignEnd=59707
 13	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	14	det	_	AlignBegin=59707|AlignEnd=59877
 14	coussins	coussin	NOUN	_	_	11	comp:pred	_	AlignBegin=59877|AlignEnd=60397|Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	AlignBegin=60397|AlignEnd=60397
 16	c'	ce	PRON	_	PronType=Dem	17	subj	_	AlignBegin=60397|AlignEnd=60447|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-17	était	être	AUX	_	ExtPos=NOUN|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	conj:dicto	_	AlignBegin=60447|AlignEnd=61361
+17	était	être	AUX	_	ExtPos=NOUN|Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	conj:reform	_	AlignBegin=60447|AlignEnd=61361
 18	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	21	det	_	AlignBegin=61361|AlignEnd=62034|SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	AlignBegin=62034|AlignEnd=62034
 20	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	18	repair	_	AlignBegin=62034|AlignEnd=62214
@@ -856,18 +856,18 @@
 7	de	de	ADP	_	ExtPos=DET	24	det	_	AlignBegin=88705|AlignEnd=88755|Idiom=Yes
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	unk	_	AlignBegin=88755|AlignEnd=89672|HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=89672|AlignEnd=89672
-10	de	de	ADP	_	_	7	conj:dicto	_	AlignBegin=89672|AlignEnd=89937|SpaceAfter=No
+10	de	de	ADP	_	_	7	repair	_	AlignBegin=89672|AlignEnd=89937|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	AlignBegin=89937|AlignEnd=89937
-12	de	de	ADP	_	ExtPos=DET	10	conj:dicto	_	AlignBegin=89937|AlignEnd=90057|Idiom=Yes
+12	de	de	ADP	_	ExtPos=DET	10	repair	_	AlignBegin=89937|AlignEnd=90057|Idiom=Yes
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	unk	_	AlignBegin=90057|AlignEnd=90197|HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes|SpaceAfter=No
 14	,	,	PUNCT	_	_	16	punct	_	AlignBegin=90197|AlignEnd=90197
 15	pas	pas	ADV	_	Polarity=Neg	16	mod	_	AlignBegin=90197|AlignEnd=90357
-16	de	de	ADP	_	ExtPos=DET	12	conj:dicto	_	AlignBegin=90357|AlignEnd=90387|Idiom=Yes
+16	de	de	ADP	_	ExtPos=DET	12	repair	_	AlignBegin=90357|AlignEnd=90387|Idiom=Yes
 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	unk	_	AlignBegin=90387|AlignEnd=90657|HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes|SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	AlignBegin=90657|AlignEnd=90657
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	repair	_	AlignBegin=90657|AlignEnd=90947|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	AlignBegin=90947|AlignEnd=90947
-21	de	de	ADP	_	ExtPos=DET	16	conj:dicto	_	AlignBegin=90947|AlignEnd=90975|Idiom=Yes
+21	de	de	ADP	_	ExtPos=DET	16	repair	_	AlignBegin=90947|AlignEnd=90975|Idiom=Yes
 22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	unk	_	AlignBegin=90975|AlignEnd=91047|HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes
 23	véritable	véritable	ADJ	_	_	24	mod	_	AlignBegin=91047|AlignEnd=91507|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 24	paille	paille	NOUN	_	_	6	comp	_	AlignBegin=91507|AlignEnd=91787|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -993,7 +993,7 @@
 10	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	AlignBegin=101932|AlignEnd=102042
 11	là	là	ADV	_	_	10	mod	_	AlignBegin=102042|AlignEnd=102292|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=102292|AlignEnd=102292
-13	à	à	ADP	_	_	11	conj:dicto	_	AlignBegin=102292|AlignEnd=102382
+13	à	à	ADP	_	_	11	repair	_	AlignBegin=102292|AlignEnd=102382
 14	côté	côté	NOUN	_	_	13	comp	_	AlignBegin=102382|AlignEnd=102862|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 15	,	,	PUNCT	_	_	18	punct	_	AlignBegin=102862|AlignEnd=103023
 16	que	que	PRON	_	PronType=Rel	19	comp:obj	_	AlignBegin=103023|AlignEnd=103158
@@ -1077,7 +1077,7 @@
 5	crapaud	crapaud	NOUN	_	_	4	compound	_	AlignBegin=110111|AlignEnd=110381|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	AlignBegin=110381|AlignEnd=110381
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	AlignBegin=110381|AlignEnd=110452
-8	véritable	véritable	ADJ	_	_	4	conj:dicto	_	AlignBegin=110452|AlignEnd=111282|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|Overlap=Rhap_D0009-71|SpaceAfter=No
+8	véritable	véritable	ADJ	_	_	4	mod	_	AlignBegin=110452|AlignEnd=111282|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|Overlap=Rhap_D0009-71|SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	AlignBegin=111282|AlignEnd=111282|Overlap=Rhap_D0009-55
 
 # sent_id = Rhap_D0009-71
@@ -1260,14 +1260,14 @@
 10	dix-neuvième	dix-neuvième	ADJ	_	_	11	mod	_	AlignBegin=125397|AlignEnd=125807|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 11	siècle	siècle	NOUN	_	_	9	comp	_	AlignBegin=125807|AlignEnd=126087|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=126087|AlignEnd=126087
-13	fin	fin	NOUN	_	_	9	conj:dicto	_	AlignBegin=126087|AlignEnd=126177|Gender[lex]=Fem|Number[ctxt]=Sing
+13	fin	fin	NOUN	_	_	9	repair	_	AlignBegin=126087|AlignEnd=126177|Gender[lex]=Fem|Number[ctxt]=Sing
 14-15	du	_	_	_	_	_	_	_	_
 14	de	de	ADP	_	_	13	udep	_	AlignBegin=126177|AlignEnd=126257
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	comp:obj@scrap	_	AlignBegin=126177|AlignEnd=126257
 16	dix-neuvième	dix-neuvième	ADJ	_	_	17	mod	_	AlignBegin=126257|AlignEnd=126647|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 17	siècle	siècle	NOUN	_	_	14	comp	_	AlignBegin=126647|AlignEnd=126884|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	AlignBegin=126884|AlignEnd=127733
-19	dix-huit	dix-huit	NUM	_	ExtPos=PROPN	13	conj:dicto	_	AlignBegin=127733|AlignEnd=129099|Number[lex]=Plur
+19	dix-huit	dix-huit	NUM	_	ExtPos=PROPN	13	conj:reform	_	AlignBegin=127733|AlignEnd=129099|Number[lex]=Plur
 20	cent	cent	NUM	_	ExtPos=PROPN	19	flat	_	AlignBegin=127733|AlignEnd=129099|Number[lex]=Plur
 21	quatre-vingt	quatre-vingt	NUM	_	ExtPos=PROPN	20	flat	_	AlignBegin=127733|AlignEnd=129099|Number[lex]=Plur|SpaceAfter=No
 22	.	.	PUNCT	_	_	4	punct	_	AlignBegin=129099|AlignEnd=129099
@@ -1429,7 +1429,7 @@
 16	vers	vers	ADP	_	_	15	comp:obl	_	AlignBegin=143160|AlignEnd=143430
 17	Isigny	Isigny	PROPN	_	_	16	comp	_	AlignBegin=143430|AlignEnd=143946|Gender[lex]=Unknown|SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	AlignBegin=143946|AlignEnd=144401
-19	Ducey	Ducey	PROPN	_	_	17	conj:dicto	_	AlignBegin=144401|AlignEnd=144901|Gender[lex]=Unknown|SpaceAfter=No
+19	Ducey	Ducey	PROPN	_	_	17	repair	_	AlignBegin=144401|AlignEnd=144901|Gender[lex]=Unknown|SpaceAfter=No
 20	.	.	PUNCT	_	_	9	punct	_	AlignBegin=144901|AlignEnd=144901
 
 # sent_id = Rhap_D0009-90

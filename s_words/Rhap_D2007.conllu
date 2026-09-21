@@ -351,10 +351,10 @@
 1	en	en	ADP	_	_	3	mod	_	AlignBegin=28690|AlignEnd=28844|Overlap=Rhap_D2007-23
 2	télé	télé	NOUN	_	_	1	comp	_	AlignBegin=28844|AlignEnd=29049|Gender[lex]=Fem|Number[ctxt]=Sing
 3	aussi	aussi	ADV	_	_	0	root	_	AlignBegin=29049|AlignEnd=29299
-4	d'	de	ADP	_	_	3	mod	_	AlignBegin=29299|AlignEnd=29329|SpaceAfter=No
-5	ailleurs	ailleurs	ADV	_	_	4	comp	_	AlignBegin=29329|AlignEnd=29524|SpaceAfter=No
-6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=29524|AlignEnd=29659
-7	ouais	ouais	INTJ	_	_	5	discourse	_	AlignBegin=29659|AlignEnd=29783|SpaceAfter=No
+4	d'	de	ADP	_	ExtPos=ADV	3	mod	_	AlignBegin=29299|AlignEnd=29329|Idiom=Yes|SpaceAfter=No
+5	ailleurs	ailleurs	ADV	_	_	4	comp	_	AlignBegin=29329|AlignEnd=29524|InIdiom=Yes|SpaceAfter=No
+6	,	,	PUNCT	_	_	4	punct	_	AlignBegin=29524|AlignEnd=29659
+7	ouais	ouais	INTJ	_	_	4	discourse	_	AlignBegin=29659|AlignEnd=29783|SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	AlignBegin=29783|AlignEnd=29783
 
 # sent_id = Rhap_D2007-26
@@ -1094,7 +1094,7 @@
 1	si	si	SCONJ	_	_	14	mod	_	AlignBegin=113377|AlignEnd=113542
 2	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	1	comp	_	AlignBegin=113542|AlignEnd=113662|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|Scrap=Yes|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=113662|AlignEnd=113662
-4	si	si	SCONJ	_	_	2	conj:dicto	_	AlignBegin=113662|AlignEnd=113822
+4	si	si	SCONJ	_	_	1	repair	_	AlignBegin=113662|AlignEnd=113822
 5	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	7	subj	_	AlignBegin=113822|AlignEnd=113882|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 6	n'	ne	ADV	_	Polarity=Neg	7	mod	_	AlignBegin=113882|AlignEnd=113882|SpaceAfter=No
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp	_	AlignBegin=113912|AlignEnd=113982
@@ -1137,7 +1137,7 @@
 4	très	très	ADV	_	_	3	comp:pred	_	AlignBegin=115447|AlignEnd=115807|Scrap=Yes|SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	AlignBegin=115807|AlignEnd=116327
 6	c'	ce	PRON	_	PronType=Dem	7	subj	_	AlignBegin=116327|AlignEnd=116437|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj:dicto	_	AlignBegin=116437|AlignEnd=116577|Scrap=Yes|SpaceAfter=No
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	repair	_	AlignBegin=116437|AlignEnd=116577|Scrap=Yes|SpaceAfter=No
 8	…	…	PUNCT	_	_	3	punct	_	AlignBegin=116577|AlignEnd=116577
 
 # sent_id = Rhap_D2007-76
@@ -1159,7 +1159,7 @@
 # text = mais, mais voilà.
 1	mais	mais	CCONJ	_	_	4	cc	_	AlignBegin=116870|AlignEnd=117075|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=117075|AlignEnd=117075
-3	mais	mais	CCONJ	_	_	1	conj:dicto	_	AlignBegin=117075|AlignEnd=117275
+3	mais	mais	CCONJ	_	_	1	conj:coord	_	AlignBegin=117075|AlignEnd=117275
 4	voilà	voilà	VERB	_	_	0	root	_	AlignBegin=117275|AlignEnd=117515|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	AlignBegin=117515|AlignEnd=117515
 
@@ -2341,11 +2341,11 @@
 # speaker_id = §LM22
 # macrosyntax = ^c' ^est ^-à ^-dire { dragouiller la mère |
 # text = c'est-à-dire dragouiller la mère…
-1	c'est-à-dire	c'est-à-dire	CCONJ	_	_	0	root	_	AlignBegin=248118|AlignEnd=248418
-2	dragouiller	dragouiller	VERB	_	VerbForm=Inf	1	comp:obj	_	AlignBegin=248418|AlignEnd=248918|Subject=SubjRaising
+1	c'est-à-dire	c'est-à-dire	CCONJ	_	_	2	cc	_	AlignBegin=248118|AlignEnd=248418
+2	dragouiller	dragouiller	VERB	_	VerbForm=Inf	0	root	_	AlignBegin=248418|AlignEnd=248918|Subject=SubjRaising
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	AlignBegin=248918|AlignEnd=249038|HasSpokenGender=OnlySingExceptWithLiaison
 4	mère	mère	NOUN	_	_	2	comp:obj	_	AlignBegin=249038|AlignEnd=249198|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
-5	…	…	PUNCT	_	_	1	punct	_	AlignBegin=249198|AlignEnd=249198
+5	…	…	PUNCT	_	_	2	punct	_	AlignBegin=249198|AlignEnd=249198
 
 # sent_id = Rhap_D2007-154
 # prosodic_annotation = yes
