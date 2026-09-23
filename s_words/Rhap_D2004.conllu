@@ -300,7 +300,7 @@
 36	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	comp:obj@scrap	_	AlignBegin=58614|AlignEnd=58714
 37	Kenya	Kenya	PROPN	_	Number=Sing	35	comp	_	AlignBegin=58714|AlignEnd=59144|Gender[lex]=Masc|SpaceAfter=No
 38	,	,	PUNCT	_	_	39	punct	_	AlignBegin=59144|AlignEnd=59144
-39	dans	dans	ADP	_	_	28	conj:dicto	_	AlignBegin=59144|AlignEnd=59364
+39	dans	dans	ADP	_	_	28	conj:reform	_	AlignBegin=59144|AlignEnd=59364
 40	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	AlignBegin=59364|AlignEnd=59434|HasSpokenGender=OnlySingExceptWithLiaison
 41	désert	désert	NOUN	_	_	39	comp	_	AlignBegin=59434|AlignEnd=59824|Gender[lex]=Masc|Number[ctxt]=Sing
 42-43	du	_	_	_	_	_	_	_	_
@@ -332,10 +332,10 @@
 # text = mais le, le dis~, le commissaire du district, le préfet du lieu ne voulait pas de, de femme non mariée.
 1	mais	mais	CCONJ	_	_	19	cc	_	AlignBegin=61802|AlignEnd=62256
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	5	det	_	AlignBegin=62256|AlignEnd=62837|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
-3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=62837|AlignEnd=62837
+3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=62837|AlignEnd=62837
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	repair	_	AlignBegin=62837|AlignEnd=63017|HasSpokenGender=OnlySingExceptWithLiaison
 5	dis~	dis~	X	_	ExtPos=NOUN	19	subj	_	AlignBegin=63017|AlignEnd=63257|SpaceAfter=No
-6	,	,	PUNCT	_	_	8	punct	_	AlignBegin=63257|AlignEnd=63353
+6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=63257|AlignEnd=63353
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	AlignBegin=63353|AlignEnd=63608|HasSpokenGender=OnlySingExceptWithLiaison
 8	commissaire	commissaire	NOUN	_	_	5	repair	_	AlignBegin=63608|AlignEnd=64068|Gender[lex]=Masc|Number[ctxt]=Sing
 9-10	du	_	_	_	_	_	_	_	_
@@ -344,7 +344,7 @@
 11	district	district	NOUN	_	_	9	comp	_	AlignBegin=64168|AlignEnd=64849|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	AlignBegin=64849|AlignEnd=64849
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	AlignBegin=64849|AlignEnd=65034|HasSpokenGender=OnlySingExceptWithLiaison
-14	préfet	préfet	NOUN	_	_	8	repair	_	AlignBegin=65034|AlignEnd=65428|Gender[lex]=Masc|Number[ctxt]=Sing
+14	préfet	préfet	NOUN	_	_	8	conj:reform	_	AlignBegin=65034|AlignEnd=65428|Gender[lex]=Masc|Number[ctxt]=Sing
 15-16	du	_	_	_	_	_	_	_	_
 15	de	de	ADP	_	_	14	udep	_	AlignBegin=65428|AlignEnd=65528
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	comp:obj@scrap	_	AlignBegin=65428|AlignEnd=65528
@@ -352,11 +352,11 @@
 18	ne	ne	ADV	_	Polarity=Neg	19	mod	_	AlignBegin=66297|AlignEnd=66484
 19	voulait	vouloir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=66484|AlignEnd=66792|Number[ctxt]=Sing|Person[ctxt]=3
 20	pas	pas	ADV	_	Polarity=Neg	19	mod	_	AlignBegin=66792|AlignEnd=66942
-21	de	de	ADP	_	_	19	comp:obl	_	AlignBegin=66942|AlignEnd=67212|SpaceAfter=No
-22	,	,	PUNCT	_	_	23	punct	_	AlignBegin=67212|AlignEnd=67212
-23	de	de	ADP	_	_	21	repair	_	AlignBegin=67212|AlignEnd=67352
-24	femme	femme	NOUN	_	_	23	comp	_	AlignBegin=67352|AlignEnd=67912|Gender[lex]=Fem|Number[ctxt]=Sing
-25	non	non	ADV	_	Polarity=Neg	24	discourse	_	AlignBegin=67912|AlignEnd=68082
+21	de	de	DET	_	_	24	det	_	AlignBegin=66942|AlignEnd=67212|SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	AlignBegin=67212|AlignEnd=67212
+23	de	de	DET	_	_	21	repair	_	AlignBegin=67212|AlignEnd=67352
+24	femme	femme	NOUN	_	_	19	comp:obj	_	AlignBegin=67352|AlignEnd=67912|Gender[lex]=Fem|Number[ctxt]=Sing
+25	non	non	ADV	_	Polarity=Neg	26	mod	_	AlignBegin=67912|AlignEnd=68082
 26	mariée	marié	ADJ	_	_	24	mod	_	AlignBegin=68082|AlignEnd=68552|Gender[ctxt]=Fem|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 27	.	.	PUNCT	_	_	19	punct	_	AlignBegin=68552|AlignEnd=68552
 
@@ -1472,15 +1472,15 @@
 4	seule	seul	ADJ	_	_	8	mod	_	AlignBegin=233920|AlignEnd=234329|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	AlignBegin=234329|AlignEnd=234600
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	AlignBegin=234600|AlignEnd=234709|HasSpokenGender=OnlySingExceptWithLiaison
-7	seule	seul	ADJ	_	_	4	conj:dicto	_	AlignBegin=234709|AlignEnd=234950|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
+7	seule	seul	ADJ	_	_	4	repair	_	AlignBegin=234709|AlignEnd=234950|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 8	médecin	médecin	NOUN	_	Shared=Yes	10	subj	_	AlignBegin=234950|AlignEnd=235280|Gender[lex]=Fem|Number[ctxt]=Sing
 9	femme	femme	NOUN	_	_	8	compound	_	AlignBegin=235280|AlignEnd=235719|Gender[lex]=Fem|Number[ctxt]=Sing
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	AlignBegin=235719|AlignEnd=236130|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	AlignBegin=236130|AlignEnd=236130
-12	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	10	conj:dicto	_	AlignBegin=236130|AlignEnd=236451|Number[ctxt]=Sing|Person[ctxt]=3
+12	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	10	repair	_	AlignBegin=236130|AlignEnd=236451|Number[ctxt]=Sing|Person[ctxt]=3
 13	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux@tense	_	AlignBegin=236451|AlignEnd=236842|SpaceAfter=No|Tense[denom]=Past
 14	,	,	PUNCT	_	_	15	punct	_	AlignBegin=236842|AlignEnd=237228
-15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj:dicto	_	AlignBegin=237228|AlignEnd=237458
+15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	repair	_	AlignBegin=237228|AlignEnd=237458
 16	tombée	tomber	VERB	_	VerbForm=Part|Voice=Act	13	comp:aux@tense	_	AlignBegin=237458|AlignEnd=237788|Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past
 17	malade	malade	ADJ	_	_	16	comp:obj	_	AlignBegin=237788|AlignEnd=238138|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	AlignBegin=238138|AlignEnd=238138
@@ -1797,7 +1797,7 @@
 13	,	,	PUNCT	_	_	16	punct	_	AlignBegin=289645|AlignEnd=289645
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	AlignBegin=289645|AlignEnd=289785|HasSpokenGender=OnlySingExceptWithLiaison
 15	grandes	grand	ADJ	_	Gender=Fem	16	mod	_	AlignBegin=289785|AlignEnd=290055|HasSpokenGender=Yes|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur
-16	villes	ville	NOUN	_	_	12	conj:dicto	_	AlignBegin=290055|AlignEnd=290239|Gender[lex]=Fem|Number[ctxt]=Plur
+16	villes	ville	NOUN	_	_	12	conj:reform	_	AlignBegin=290055|AlignEnd=290239|Gender[lex]=Fem|Number[ctxt]=Plur
 17	ne	ne	ADV	_	Polarity=Neg	19	mod	_	AlignBegin=290239|AlignEnd=290393
 18	me	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	19	comp:obl	_	AlignBegin=290393|AlignEnd=290495|Number[lex]=Sing|Person[lex]=1
 19	disaient	dire	VERB	_	Mood=Ind|Person=3|Tense=Imp|VerbForm=Fin	1	comp	_	AlignBegin=290495|AlignEnd=290815|Number[ctxt]=Plur
@@ -1859,9 +1859,9 @@
 18	à	à	ADP	_	_	17	udep	_	AlignBegin=299359|AlignEnd=299569
 19	Aden	Aden	PROPN	_	_	18	comp	_	AlignBegin=299569|AlignEnd=299914|Gender[lex]=Unknown|SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	AlignBegin=299914|AlignEnd=300472
-21	à	à	ADP	_	_	12	conj:dicto	_	AlignBegin=300472|AlignEnd=301057|SpaceAfter=No
+21	à	à	ADP	_	_	12	repair	_	AlignBegin=300472|AlignEnd=301057|SpaceAfter=No
 22	,	,	PUNCT	_	_	23	punct	_	AlignBegin=301057|AlignEnd=301057
-23	ici	ici	ADV	_	_	21	conj:dicto	_	AlignBegin=301057|AlignEnd=301337|SpaceAfter=No
+23	ici	ici	ADV	_	_	21	repair	_	AlignBegin=301057|AlignEnd=301337|SpaceAfter=No
 24	,	,	PUNCT	_	_	25	punct	_	AlignBegin=301337|AlignEnd=301337
 25-26	au	_	_	_	_	_	_	_	_
 25	à	à	ADP	_	_	23	conj:appos	_	AlignBegin=301337|AlignEnd=301397

@@ -105,7 +105,7 @@
 3	pas	pas	ADV	_	Polarity=Neg	2	mod	_	AlignBegin=11361|AlignEnd=11532|SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	AlignBegin=11532|AlignEnd=11783
 5	c'	ce	PRON	_	PronType=Dem	6	subj	_	AlignBegin=11783|AlignEnd=11863|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj:dicto	_	AlignBegin=11863|AlignEnd=11980|Scrap=Yes
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	repair	_	AlignBegin=11863|AlignEnd=11980|Scrap=Yes
 7	pas	pas	ADV	_	Polarity=Neg	6	mod	_	AlignBegin=11980|AlignEnd=12172|SpaceAfter=No
 8	…	…	PUNCT	_	_	2	punct	_	AlignBegin=12172|AlignEnd=12172
 
@@ -224,7 +224,7 @@
 12	euh	euh	INTJ	_	_	8	discourse:filler	_	AlignBegin=29300|AlignEnd=31110|SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	AlignBegin=31110|AlignEnd=31110
 14	qui	qui	PRON	_	PronType=Rel	15	subj	_	AlignBegin=31110|AlignEnd=31284
-15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj:dicto	_	AlignBegin=31284|AlignEnd=31363
+15	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	repair	_	AlignBegin=31284|AlignEnd=31363
 16	fait	faire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	15	comp:aux@tense	_	AlignBegin=31363|AlignEnd=31541|Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past
 17	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	AlignBegin=31541|AlignEnd=31582|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 18	éloge	éloge	NOUN	_	_	16	comp:obj	_	AlignBegin=31582|AlignEnd=31892|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
@@ -292,7 +292,7 @@
 8	parle	parler	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=47217|AlignEnd=47767|Number[ctxt]=Sing|Person[ctxt]=3
 9	de	de	ADP	_	_	8	comp:obl	_	AlignBegin=47767|AlignEnd=48213|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	AlignBegin=48213|AlignEnd=48213
-11	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj:dicto	_	AlignBegin=48213|AlignEnd=48317
+11	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	repair	_	AlignBegin=48213|AlignEnd=48317
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	AlignBegin=48317|AlignEnd=48450
 13	définition	définition	NOUN	_	_	11	comp:obj	_	AlignBegin=48450|AlignEnd=49171|Gender[lex]=Fem|Number[ctxt]=Sing
 14	de	de	ADP	_	_	13	udep	_	AlignBegin=49171|AlignEnd=49387
@@ -310,7 +310,7 @@
 26	euh	euh	INTJ	_	_	29	discourse:filler	_	AlignBegin=52182|AlignEnd=52449|SpaceAfter=No
 27	,	,	PUNCT	_	_	26	punct	_	AlignBegin=52449|AlignEnd=52449
 28	notamment	notamment	ADV	_	_	29	mod	_	AlignBegin=52449|AlignEnd=52981
-29	de	de	ADP	_	_	20	conj:dicto	_	AlignBegin=52981|AlignEnd=53113
+29	de	de	ADP	_	_	20	repair	_	AlignBegin=52981|AlignEnd=53113
 30	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	31	det	_	AlignBegin=53113|AlignEnd=53153|Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
 31	art	art	NOUN	_	_	29	comp	_	AlignBegin=53153|AlignEnd=53403|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 32	comme	comme	ADP	_	_	31	udep	_	AlignBegin=53866|AlignEnd=54245
@@ -335,7 +335,7 @@
 51	ch~	ch~	X	_	ExtPos=NOUN	49	unk	_	AlignBegin=56923|AlignEnd=57278|Scrap=Yes|SpaceAfter=No
 52	,	,	PUNCT	_	_	49	punct	_	AlignBegin=57278|AlignEnd=57278
 53	surtout	surtout	ADV	_	_	54	mod	_	AlignBegin=57278|AlignEnd=57633
-54	de	de	ADP	_	_	44	conj:dicto	_	AlignBegin=57633|AlignEnd=57666
+54	de	de	ADP	_	_	44	conj:reform	_	AlignBegin=57633|AlignEnd=57666
 55	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	57	det	_	AlignBegin=57666|AlignEnd=57792|HasSpokenGender=OnlySingExceptWithLiaison
 56	grande	grand	ADJ	_	Gender=Fem	57	mod	_	AlignBegin=57792|AlignEnd=58069|HasSpokenGender=Yes|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 57	santé	santé	NOUN	_	_	54	comp	_	AlignBegin=58069|AlignEnd=58483|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
@@ -365,7 +365,7 @@
 81	art	art	NOUN	_	_	79	comp	_	AlignBegin=70471|AlignEnd=70749|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 82	,	,	PUNCT	_	_	84	punct	_	AlignBegin=70749|AlignEnd=70749
 83	cette	ce	DET	_	Number=Sing|PronType=Dem	84	det	_	AlignBegin=70749|AlignEnd=71117|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
-84	idée	idée	NOUN	_	_	78	conj:dicto	_	AlignBegin=71117|AlignEnd=71349|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
+84	idée	idée	NOUN	_	_	78	conj:coord	_	AlignBegin=71117|AlignEnd=71349|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 85	qu'	que	PRON	_	PronType=Rel	89	comp:obj	_	AlignBegin=71349|AlignEnd=71380|SpaceAfter=No
 86	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	87	subj	_	AlignBegin=71380|AlignEnd=71469|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
 87	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	84	mod@relcl	_	AlignBegin=71469|AlignEnd=71555
@@ -382,7 +382,7 @@
 98	l~	l~	X	_	ExtPos=DET	97	comp	_	AlignBegin=74956|AlignEnd=75200|Scrap=Yes|SpaceAfter=No
 99	,	,	PUNCT	_	_	101	punct	_	AlignBegin=75200|AlignEnd=75489
 100	cette	ce	DET	_	Number=Sing|PronType=Dem	101	det	_	AlignBegin=75489|AlignEnd=75804|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes
-101	idée	idée	NOUN	_	_	84	conj:dicto	_	AlignBegin=75804|AlignEnd=75981|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
+101	idée	idée	NOUN	_	_	84	conj:coord	_	AlignBegin=75804|AlignEnd=75981|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 102	qui	qui	PRON	_	PronType=Rel	104	subj	_	AlignBegin=75981|AlignEnd=76084
 103	s'	soi	PRON	_	PronType=Prs|Reflex=Yes	106	comp@pass	_	AlignBegin=76084|AlignEnd=76168|Person[lex]=3|SpaceAfter=No
 104	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	101	mod@relcl	_	AlignBegin=76168|AlignEnd=76203
