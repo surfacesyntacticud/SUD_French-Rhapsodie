@@ -318,9 +318,9 @@
 1	et	et	CCONJ	_	_	3	cc	_	AlignBegin=42664|AlignEnd=42744|Overlap=Rhap_D0003-20
 2	nous	nous	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	AlignBegin=42744|AlignEnd=42874|Number[lex]=Plur|Overlap=Rhap_D0003-20|Person[lex]=1
 3	sommes	être	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=42874|AlignEnd=43234|Overlap=Rhap_D0003-20
-4	ob~	ob~	X	_	_	3	comp:aux@tense	_	AlignBegin=43234|AlignEnd=43464|Overlap=Rhap_D0003-20|SpaceAfter=No
-5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=45149|AlignEnd=41379|Overlap=Rhap_D0003-15bis
-6	ob~	ob~	X	_	_	4	repair	_	AlignBegin=43584|AlignEnd=43794|Overlap=Rhap_D0003-20|SpaceAfter=No
+4	ob~	ob~	X	_	_	6	reparandum	_	AlignBegin=43234|AlignEnd=43464|Overlap=Rhap_D0003-20|SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=45149|AlignEnd=41379|Overlap=Rhap_D0003-15bis
+6	ob~	ob~	X	_	_	3	comp:aux@tense	_	AlignBegin=43584|AlignEnd=43794|Overlap=Rhap_D0003-20|SpaceAfter=No
 7	…	…	PUNCT	_	_	3	punct	_	AlignBegin=45149|AlignEnd=45149|Overlap=Rhap_D0003-15bis
 
 # sent_id = Rhap_D0003-20
@@ -343,24 +343,24 @@
 3	bombardement	bombardement	NOUN	_	_	1	comp	_	AlignBegin=44194|AlignEnd=44694|Gender[lex]=Masc|Number[ctxt]=Sing
 4	anglais	anglais	ADJ	_	Gender=Masc	3	mod	_	AlignBegin=44694|AlignEnd=44954|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 5	,	,	PUNCT	_	_	1	punct	_	AlignBegin=45149|AlignEnd=41379
-6	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	9	det	_	AlignBegin=44954|AlignEnd=45149|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
-7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=45149|AlignEnd=45557
-8	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	6	repair	_	AlignBegin=45557|AlignEnd=45792|HasSpokenGender=OnlySingExceptWithLiaison
+6	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	8	reparandum	_	AlignBegin=44954|AlignEnd=45149|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	AlignBegin=45149|AlignEnd=45557
+8	mon	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	9	det	_	AlignBegin=45557|AlignEnd=45792|HasSpokenGender=OnlySingExceptWithLiaison
 9	père	père	NOUN	_	_	10	subj	_	AlignBegin=45792|AlignEnd=45952|Gender[lex]=Masc|Number[ctxt]=Sing
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=45952|AlignEnd=46062
 11	dit	dire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	10	comp:aux@tense	_	AlignBegin=46062|AlignEnd=46242|Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|SpaceAfter=No|Tense[denom]=Past
-12	,	,	PUNCT	_	_	16	punct	_	AlignBegin=46242|AlignEnd=46242
+12	,	,	PUNCT	_	_	19	punct	_	AlignBegin=46242|AlignEnd=46242
 13	bon	bon	INTJ	_	_	16	discourse	_	AlignBegin=46242|AlignEnd=46402|SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	AlignBegin=46402|AlignEnd=46402
 15	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs|Shared=Yes	16	subj	_	AlignBegin=46402|AlignEnd=46702|Person[lex]=3
-16	f~	f~	X	_	ExtPos=VERB	11	comp:obj	_	AlignBegin=46702|AlignEnd=46742|Reported=Yes|SpaceAfter=No
-17	,	,	PUNCT	_	_	19	punct	_	AlignBegin=46742|AlignEnd=46742
+16	f~	f~	X	_	ExtPos=VERB	19	reparandum	_	AlignBegin=46702|AlignEnd=46742|Reported=Yes|SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	AlignBegin=46742|AlignEnd=46742
 18	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	19	subj@expl	_	AlignBegin=46742|AlignEnd=46942|Person[lex]=3
-19	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	16	repair	_	AlignBegin=46942|AlignEnd=47072|Person[ctxt]=3
-20	partir	partir	VERB	_	VerbForm=Inf	19	comp:obj	_	AlignBegin=47072|AlignEnd=47542|SpaceAfter=No|Subject=NoRaising
-21	,	,	PUNCT	_	_	23	punct	_	AlignBegin=47542|AlignEnd=47542
+19	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	11	comp:obj	_	AlignBegin=46942|AlignEnd=47072|Person[ctxt]=3
+20	partir	partir	VERB	_	VerbForm=Inf	23	reparandum	_	AlignBegin=47072|AlignEnd=47542|SpaceAfter=No|Subject=NoRaising
+21	,	,	PUNCT	_	_	20	punct	_	AlignBegin=47542|AlignEnd=47542
 22	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	23	subj@expl	_	AlignBegin=47542|AlignEnd=47632|Person[lex]=3
-23	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	20	repair	_	AlignBegin=47632|AlignEnd=47792|Person[ctxt]=3|SpaceAfter=No
+23	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	19	comp:obj	_	AlignBegin=47632|AlignEnd=47792|Person[ctxt]=3|SpaceAfter=No
 24	…	…	PUNCT	_	_	10	punct	_	AlignBegin=47792|AlignEnd=47792
 
 # sent_id = Rhap_D0003-22
@@ -393,9 +393,9 @@
 10	ou	ou	CCONJ	_	_	12	cc	_	AlignBegin=50694|AlignEnd=50749
 11	trois	trois	NUM	_	ExtPos=DET	12	det	_	AlignBegin=50749|AlignEnd=51049|Number[lex]=Plur
 12	nuits	nuit	NOUN	_	_	8	conj:coord	_	AlignBegin=51049|AlignEnd=51389|Gender[lex]=Fem|Number[ctxt]=Plur
-13	à	à	ADP	_	_	4	mod	_	AlignBegin=51638|AlignEnd=51828|SpaceAfter=No
-14	,	,	PUNCT	_	_	15	punct	_	AlignBegin=51828|AlignEnd=51828
-15	à	à	ADP	_	_	13	repair	_	AlignBegin=51828|AlignEnd=52016
+13	à	à	ADP	_	_	15	reparandum	_	AlignBegin=51638|AlignEnd=51828|SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	AlignBegin=51828|AlignEnd=51828
+15	à	à	ADP	_	_	4	mod	_	AlignBegin=51828|AlignEnd=52016
 16	ramper	ramper	VERB	_	VerbForm=Inf	15	comp	_	AlignBegin=52016|AlignEnd=52479|Subject=SubjRaising
 17	dans	dans	ADP	_	_	16	mod	_	AlignBegin=52479|AlignEnd=52599
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	AlignBegin=52599|AlignEnd=52719|HasSpokenGender=OnlySingExceptWithLiaison
@@ -510,9 +510,9 @@
 # macrosyntax = ^et { la | la } Loire est en bas //
 # text = et la, la Loire est en bas.
 1	et	et	CCONJ	_	_	6	cc	_	AlignBegin=65618|AlignEnd=65733
-2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	AlignBegin=65733|AlignEnd=65933|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
-3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=65933|AlignEnd=65933
-4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	repair	_	AlignBegin=65933|AlignEnd=66093|HasSpokenGender=OnlySingExceptWithLiaison
+2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	reparandum	_	AlignBegin=65733|AlignEnd=65933|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=65933|AlignEnd=65933
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	AlignBegin=65933|AlignEnd=66093|HasSpokenGender=OnlySingExceptWithLiaison
 5	Loire	Loire	PROPN	_	_	6	subj	_	AlignBegin=66093|AlignEnd=66336|Gender[lex]=Unknown
 6	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=66336|AlignEnd=66473
 7	en	en	ADP	_	_	6	comp:obl	_	AlignBegin=66473|AlignEnd=66561
@@ -551,12 +551,12 @@
 1	voyez	voir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	discourse	_	AlignBegin=70622|AlignEnd=70948|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=70948|AlignEnd=70948
 3	c'	ce	PRON	_	PronType=Dem	4	subj	_	AlignBegin=70948|AlignEnd=71010|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=71010|AlignEnd=71475|SpaceAfter=No
-5	,	,	PUNCT	_	_	7	punct	_	AlignBegin=71475|AlignEnd=71475
+4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	reparandum	_	AlignBegin=71010|AlignEnd=71475|SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=71475|AlignEnd=71475
 6	c'	ce	PRON	_	PronType=Dem	7	subj	_	AlignBegin=71475|AlignEnd=71562|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	repair	_	AlignBegin=71562|AlignEnd=71765
+7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=71562|AlignEnd=71765
 8	effarant	effarant	ADJ	_	Gender=Masc	7	comp:pred	_	AlignBegin=71765|AlignEnd=72287|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
-9	.	.	PUNCT	_	_	4	punct	_	AlignBegin=72287|AlignEnd=72287
+9	.	.	PUNCT	_	_	7	punct	_	AlignBegin=72287|AlignEnd=72287
 
 # sent_id = Rhap_D0003-33
 # prosodic_annotation = yes
@@ -575,9 +575,9 @@
 # text = c'était assez, assez terrible.
 1	c'	ce	PRON	_	PronType=Dem	2	subj	_	AlignBegin=72753|AlignEnd=72808|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=72808|AlignEnd=72978
-3	assez	assez	ADV	_	_	6	mod	_	AlignBegin=72978|AlignEnd=73408|SpaceAfter=No
-4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=73408|AlignEnd=73408
-5	assez	assez	ADV	_	_	3	repair	_	AlignBegin=73408|AlignEnd=73818
+3	assez	assez	ADV	_	_	5	reparandum	_	AlignBegin=72978|AlignEnd=73408|SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=73408|AlignEnd=73408
+5	assez	assez	ADV	_	_	6	mod	_	AlignBegin=73408|AlignEnd=73818
 6	terrible	terrible	ADJ	_	_	2	comp:pred	_	AlignBegin=73818|AlignEnd=74172|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
 7	.	.	PUNCT	_	_	2	punct	_	AlignBegin=74172|AlignEnd=74172
 
@@ -588,9 +588,9 @@
 # macrosyntax = ^et { les | les } maisons ont brûlé //
 # text = et les, les maisons ont brûlé.
 1	et	et	CCONJ	_	_	6	cc	_	AlignBegin=74172|AlignEnd=74231
-2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	AlignBegin=74231|AlignEnd=74458|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
-3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=74458|AlignEnd=74458
-4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	repair	_	AlignBegin=74458|AlignEnd=74598|HasSpokenGender=OnlySingExceptWithLiaison
+2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	reparandum	_	AlignBegin=74231|AlignEnd=74458|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=74458|AlignEnd=74458
+4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	AlignBegin=74458|AlignEnd=74598|HasSpokenGender=OnlySingExceptWithLiaison
 5	maisons	maison	NOUN	_	_	6	subj	_	AlignBegin=74598|AlignEnd=74868|Gender[lex]=Fem|Number[ctxt]=Plur
 6	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=74868|AlignEnd=74978
 7	brûlé	brûler	VERB	_	VerbForm=Part|Voice=Act	6	comp:aux@tense	_	AlignBegin=74978|AlignEnd=75451|Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past
@@ -662,10 +662,10 @@
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	AlignBegin=83869|AlignEnd=83909|HasSpokenGender=OnlySingExceptWithLiaison
 8	bombardement	bombardement	NOUN	_	_	6	comp:obj	_	AlignBegin=83909|AlignEnd=84570|Gender[lex]=Masc|Number[ctxt]=Sing
 9	anglais	anglais	ADJ	_	Gender=Masc	8	mod	_	AlignBegin=84570|AlignEnd=84886|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing
-10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	AlignBegin=84886|AlignEnd=85028|HasSpokenGender=OnlySingExceptWithLiaison
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	reparandum	_	AlignBegin=84886|AlignEnd=85028|HasSpokenGender=OnlySingExceptWithLiaison
 11	de~	de~	X	_	_	10	unk	_	AlignBegin=85028|AlignEnd=85278|Scrap=Yes|SpaceAfter=No
-12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=85278|AlignEnd=85278
-13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	repair	_	AlignBegin=85278|AlignEnd=85482|HasSpokenGender=OnlySingExceptWithLiaison
+12	,	,	PUNCT	_	_	10	punct	_	AlignBegin=85278|AlignEnd=85278
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	AlignBegin=85278|AlignEnd=85482|HasSpokenGender=OnlySingExceptWithLiaison
 14	dernier	dernier	ADJ	_	Gender=Masc	15	mod	_	AlignBegin=85482|AlignEnd=85924|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|Overlap=Rhap_D0003-40
 15	soir	soir	NOUN	_	_	3	mod	_	AlignBegin=85924|AlignEnd=86204|Gender[lex]=Masc|Number[ctxt]=Sing|Overlap=Rhap_D0003-40|SpaceAfter=No
 16	,	,	PUNCT	_	_	3	punct	_	AlignBegin=86499|AlignEnd=85482|Overlap=Rhap_D0003-32bis
@@ -866,10 +866,10 @@
 3	c'	ce	PRON	_	PronType=Dem	4	subj	_	AlignBegin=111296|AlignEnd=111726|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	AlignBegin=111296|AlignEnd=111726
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art|Shared=No	6	det	_	AlignBegin=111726|AlignEnd=111886|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
-6	ha~	ha~	X	_	ExtPos=NOUN	4	comp:pred	_	AlignBegin=111726|AlignEnd=111886|SpaceAfter=No
-7	,	,	PUNCT	_	_	9	punct	_	AlignBegin=111886|AlignEnd=111886
+6	ha~	ha~	X	_	ExtPos=NOUN	9	reparandum	_	AlignBegin=111726|AlignEnd=111886|SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	AlignBegin=111886|AlignEnd=111886
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	AlignBegin=111886|AlignEnd=112416|Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No
-9	habitude	habitude	NOUN	_	_	6	repair	_	AlignBegin=111886|AlignEnd=112416|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
+9	habitude	habitude	NOUN	_	_	4	comp:pred	_	AlignBegin=111886|AlignEnd=112416|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 10	.	.	PUNCT	_	_	4	punct	_	AlignBegin=112416|AlignEnd=112416
 
 # sent_id = Rhap_D0003-51

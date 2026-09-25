@@ -21,13 +21,13 @@
 15	de	de	ADP	_	_	11	udep	_	AlignBegin=4506|AlignEnd=4656
 16	Grenoble	Grenoble	PROPN	_	_	15	comp	_	AlignBegin=4656|AlignEnd=5427|Gender[lex]=Unknown|SpaceAfter=No
 17	,	,	PUNCT	_	_	5	punct	_	AlignBegin=5427|AlignEnd=5427
-18	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	25	subj	_	AlignBegin=5427|AlignEnd=5951|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+18	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	24	reparandum	_	AlignBegin=5427|AlignEnd=5951|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	AlignBegin=5951|AlignEnd=5951
 20	euh	euh	INTJ	_	_	18	discourse:filler	_	AlignBegin=5951|AlignEnd=7023|SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	AlignBegin=7023|AlignEnd=7023
 22	ben	ben	INTJ	_	_	18	discourse	_	AlignBegin=7023|AlignEnd=7271|SpaceAfter=No
-23	,	,	PUNCT	_	_	24	punct	_	AlignBegin=7271|AlignEnd=7271
-24	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	18	repair	_	AlignBegin=7271|AlignEnd=7442|Number[lex]=Sing|Person[lex]=1
+23	,	,	PUNCT	_	_	18	punct	_	AlignBegin=7271|AlignEnd=7271
+24	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	25	subj	_	AlignBegin=7271|AlignEnd=7442|Number[lex]=Sing|Person[lex]=1
 25	sors	sortir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=7442|AlignEnd=7613|Person[ctxt]=1
 26	déjà	déjà	ADV	_	_	25	mod	_	AlignBegin=7613|AlignEnd=7883
 27	du	du	ADP	_	_	25	comp:obl	_	AlignBegin=7883|AlignEnd=8133
@@ -78,15 +78,15 @@
 # macrosyntax = ^et { { je | "euh" je } continue | je continue } jusqu'à une place qui est face à la grande poste où il y a la "euh" Chambre de { Commerce | ^et d'Industrie } //
 # text = et je, euh, je continue, je continue jusqu'à une place qui est face à la grande poste où il y a la, euh, Chambre de Commerce et d'Industrie.
 1	et	et	CCONJ	_	_	7	cc	_	AlignBegin=16864|AlignEnd=17298
-2	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj	_	AlignBegin=17298|AlignEnd=17857|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+2	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	reparandum	_	AlignBegin=17298|AlignEnd=17857|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	AlignBegin=17857|AlignEnd=17857
 4	euh	euh	INTJ	_	_	2	discourse:filler	_	AlignBegin=17857|AlignEnd=18524|SpaceAfter=No
-5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=18524|AlignEnd=18524
-6	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	repair	_	AlignBegin=18524|AlignEnd=18764|Number[lex]=Sing|Person[lex]=1
-7	continue	continuer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=18764|AlignEnd=19937|Person[ctxt]=1|SpaceAfter=No
-8	,	,	PUNCT	_	_	10	punct	_	AlignBegin=19937|AlignEnd=19937
+5	,	,	PUNCT	_	_	2	punct	_	AlignBegin=18524|AlignEnd=18524
+6	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj	_	AlignBegin=18524|AlignEnd=18764|Number[lex]=Sing|Person[lex]=1
+7	continue	continuer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	10	reparandum	_	AlignBegin=18764|AlignEnd=19937|Person[ctxt]=1|SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	AlignBegin=19937|AlignEnd=19937
 9	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	subj	_	AlignBegin=19937|AlignEnd=20017|Number[lex]=Sing|Person[lex]=1
-10	continue	continuer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	7	repair	_	AlignBegin=20017|AlignEnd=20645|Person[ctxt]=1
+10	continue	continuer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=20017|AlignEnd=20645|Person[ctxt]=1
 11	jusqu'	jusque	ADP	_	_	10	mod	_	AlignBegin=20645|AlignEnd=21045|SpaceAfter=No
 12	à	à	ADP	_	_	11	comp	_	AlignBegin=21045|AlignEnd=21475
 13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	AlignBegin=21475|AlignEnd=21795
@@ -112,7 +112,7 @@
 33	et	et	CCONJ	_	_	34	cc	_	AlignBegin=26101|AlignEnd=26151
 34	d'	de	ADP	_	_	31	conj:coord	_	AlignBegin=26151|AlignEnd=26201|SpaceAfter=No
 35	Industrie	Industrie	PROPN	_	_	34	comp	_	AlignBegin=26201|AlignEnd=27002|Gender[lex]=Unknown|SpaceAfter=No
-36	.	.	PUNCT	_	_	7	punct	_	AlignBegin=27002|AlignEnd=27002
+36	.	.	PUNCT	_	_	10	punct	_	AlignBegin=27002|AlignEnd=27002
 
 # sent_id = Rhap_M0016-5
 # prosodic_annotation = yes
@@ -192,10 +192,10 @@
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=36640|AlignEnd=36640
 7	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	8	subj	_	AlignBegin=36640|AlignEnd=36800|Number[lex]=Sing|Person[lex]=1
 8	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=36800|AlignEnd=37354
-9	jusqu'	jusque	ADP	_	_	8	comp:obl	_	AlignBegin=37354|AlignEnd=37946|SpaceAfter=No
+9	jusqu'	jusque	ADP	_	_	12	reparandum	_	AlignBegin=37354|AlignEnd=37946|SpaceAfter=No
 10	au	au	ADP	_	_	9	comp	_	AlignBegin=37946|AlignEnd=38202
-11	,	,	PUNCT	_	_	12	punct	_	AlignBegin=38202|AlignEnd=38202
-12	jusqu'	jusque	ADP	_	_	9	repair	_	AlignBegin=38202|AlignEnd=38422|SpaceAfter=No
+11	,	,	PUNCT	_	_	9	punct	_	AlignBegin=38202|AlignEnd=38202
+12	jusqu'	jusque	ADP	_	_	8	comp:obl	_	AlignBegin=38202|AlignEnd=38422|SpaceAfter=No
 13	à	à	ADP	_	_	12	comp	_	AlignBegin=38422|AlignEnd=38502
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	AlignBegin=38502|AlignEnd=38582|HasSpokenGender=OnlySingExceptWithLiaison
 15	place	place	NOUN	_	_	13	comp	_	AlignBegin=38582|AlignEnd=38802|Gender[lex]=Fem|Number[ctxt]=Sing
@@ -222,10 +222,10 @@
 11	effet	effet	NOUN	_	_	10	comp	_	AlignBegin=41548|AlignEnd=42106|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=42106|AlignEnd=42262
 13	euh	euh	INTJ	_	_	11	discourse:filler	_	AlignBegin=42262|AlignEnd=42477|SpaceAfter=No
-14	,	,	PUNCT	_	_	15	punct	_	AlignBegin=42477|AlignEnd=42477
-15	s~	s~	X	_	_	6	comp:obj	_	AlignBegin=42477|AlignEnd=42537|SpaceAfter=No
-16	,	,	PUNCT	_	_	17	punct	_	AlignBegin=42537|AlignEnd=42537
-17	près	près	ADV	_	_	15	repair	_	AlignBegin=42537|AlignEnd=42762
+14	,	,	PUNCT	_	_	17	punct	_	AlignBegin=42477|AlignEnd=42477
+15	s~	s~	X	_	_	17	reparandum	_	AlignBegin=42477|AlignEnd=42537|SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	AlignBegin=42537|AlignEnd=42537
+17	près	près	ADV	_	_	6	comp:obj	_	AlignBegin=42537|AlignEnd=42762
 18	des	de	ADP	_	_	17	comp:obl	_	AlignBegin=42762|AlignEnd=42898
 19	rails	rail	NOUN	_	_	18	comp	_	AlignBegin=42898|AlignEnd=43102|Gender[lex]=Masc|Number[ctxt]=Plur
 20	du	du	ADP	_	_	19	udep	_	AlignBegin=43102|AlignEnd=43262
@@ -238,11 +238,11 @@
 # speaker_id = §LF30
 # macrosyntax = { ^et "euh" | ^et } ces rails du tram < "eh" "ben" { je vais | je vais } les longer //
 # text = et, euh, et ces rails du tram, eh ben, je vais, je vais les longer.
-1	et	et	CCONJ	_	_	15	cc	_	AlignBegin=44454|AlignEnd=44652|SpaceAfter=No
+1	et	et	CCONJ	_	_	5	reparandum	_	AlignBegin=44454|AlignEnd=44652|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=44652|AlignEnd=44652
 3	euh	euh	INTJ	_	_	1	discourse:filler	_	AlignBegin=44652|AlignEnd=45174|SpaceAfter=No
-4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=45174|AlignEnd=45253
-5	et	et	CCONJ	_	_	1	repair	_	AlignBegin=45253|AlignEnd=45393
+4	,	,	PUNCT	_	_	1	punct	_	AlignBegin=45174|AlignEnd=45253
+5	et	et	CCONJ	_	_	15	cc	_	AlignBegin=45253|AlignEnd=45393
 6	ces	ce	DET	_	Number=Plur|PronType=Dem	7	det	_	AlignBegin=45393|AlignEnd=45522|HasSpokenGender=OnlySingExceptWithLiaison
 7	rails	rail	NOUN	_	_	15	dislocated:obj	_	AlignBegin=45522|AlignEnd=45673|Gender[lex]=Masc|Number[ctxt]=Plur
 8	du	du	ADP	_	_	7	udep	_	AlignBegin=45673|AlignEnd=45783
@@ -252,13 +252,13 @@
 12	ben	ben	INTJ	_	_	11	discourse	_	AlignBegin=46142|AlignEnd=46312|InIdiom=Yes|SpaceAfter=No
 13	,	,	PUNCT	_	_	7	punct	_	AlignBegin=46312|AlignEnd=46312
 14	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	15	subj	_	AlignBegin=46312|AlignEnd=46404|Number[lex]=Sing|Person[lex]=1
-15	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=46404|AlignEnd=46763|SpaceAfter=No
-16	,	,	PUNCT	_	_	18	punct	_	AlignBegin=46763|AlignEnd=46763
+15	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	reparandum	_	AlignBegin=46404|AlignEnd=46763|SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	AlignBegin=46763|AlignEnd=46763
 17	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	18	subj	_	AlignBegin=46763|AlignEnd=46838|Number[lex]=Sing|Person[lex]=1
-18	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	repair	_	AlignBegin=46838|AlignEnd=47007
+18	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=46838|AlignEnd=47007
 19	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|PronType=Prs	20	comp:obj	_	AlignBegin=47007|AlignEnd=47157|Person[lex]=3
 20	longer	longer	VERB	_	VerbForm=Inf	18	comp:obj	_	AlignBegin=47157|AlignEnd=47792|SpaceAfter=No|Subject=SubjRaising
-21	.	.	PUNCT	_	_	15	punct	_	AlignBegin=47792|AlignEnd=47792
+21	.	.	PUNCT	_	_	18	punct	_	AlignBegin=47792|AlignEnd=47792
 
 # sent_id = Rhap_M0016-12
 # prosodic_annotation = yes
@@ -383,11 +383,11 @@
 # speaker_id = §LF30
 # macrosyntax = { ^et " euh " | ^ et } " ben " " voilà " j'arrive au niveau de la grande place de la gare où il y a { tous les trams | tous les bus |} //+{| " non " pas tous les bus } //
 # text = et, euh, et, ben, voilà, j'arrive au niveau de la grande place de la gare où il y a tous les trams, tous les bus, non, pas tous les bus.
-1	et	et	CCONJ	_	_	12	cc	_	AlignBegin=69497|AlignEnd=69733|SpaceAfter=No
+1	et	et	CCONJ	_	_	5	reparandum	_	AlignBegin=69497|AlignEnd=69733|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=69733|AlignEnd=70095
 3	euh	euh	INTJ	_	_	1	discourse:filler	_	AlignBegin=70095|AlignEnd=70745|SpaceAfter=No
-4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=70745|AlignEnd=70871
-5	et	et	CCONJ	_	_	1	repair	_	AlignBegin=70871|AlignEnd=70981|SpaceAfter=No
+4	,	,	PUNCT	_	_	1	punct	_	AlignBegin=70745|AlignEnd=70871
+5	et	et	CCONJ	_	_	12	cc	_	AlignBegin=70871|AlignEnd=70981|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	AlignBegin=70981|AlignEnd=70981
 7	ben	ben	INTJ	_	_	5	discourse	_	AlignBegin=70981|AlignEnd=71171|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=71171|AlignEnd=71171

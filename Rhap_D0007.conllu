@@ -40,17 +40,17 @@
 3	euh	euh	INTJ	_	_	1	discourse:filler	_	AlignBegin=4057|AlignEnd=4307|SpaceAfter=No
 4	,	,	PUNCT	_	_	1	punct	_	AlignBegin=4307|AlignEnd=4307
 5	c'	ce	PRON	_	PronType=Dem	6	subj	_	AlignBegin=4307|AlignEnd=4357|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=4357|AlignEnd=4417
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	reparandum	_	AlignBegin=4357|AlignEnd=4417
 7	pas	pas	ADV	_	Polarity=Neg	6	mod	_	AlignBegin=4417|AlignEnd=4700|SpaceAfter=No
-8	,	,	PUNCT	_	_	10	punct	_	AlignBegin=4700|AlignEnd=4700
+8	,	,	PUNCT	_	_	6	punct	_	AlignBegin=4700|AlignEnd=4700
 9	c'	ce	PRON	_	PronType=Dem	10	subj	_	AlignBegin=4700|AlignEnd=4730|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	repair	_	AlignBegin=4730|AlignEnd=4770
+10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=4730|AlignEnd=4770
 11	pas	pas	ADV	_	Polarity=Neg	10	mod	_	AlignBegin=4770|AlignEnd=4890
 12	tout	tout	ADV	_	_	13	mod	_	AlignBegin=4890|AlignEnd=5040
 13	près	près	ADV	_	_	10	comp:pred	_	AlignBegin=5040|AlignEnd=5280|SpaceAfter=No
 14	,	,	PUNCT	_	_	15	punct	_	AlignBegin=5280|AlignEnd=5684
 15	euh	euh	INTJ	_	_	13	discourse:filler	_	AlignBegin=5684|AlignEnd=6334|SpaceAfter=No
-16	.	.	PUNCT	_	_	6	punct	_	AlignBegin=6334|AlignEnd=6334
+16	.	.	PUNCT	_	_	10	punct	_	AlignBegin=6334|AlignEnd=6334
 
 # sent_id = Rhap_D0007-4
 # prosodic_annotation = yes
@@ -63,15 +63,15 @@
 3	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	AlignBegin=6856|AlignEnd=6913|Number[lex]=Sing|Person[lex]=1
 4	vous	vous	PRON	_	Case=Dat|Emph=No|PronType=Prs	5	comp:obl	_	AlignBegin=6913|AlignEnd=7010|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
 5	conseillerais	conseiller	VERB	_	Mood=Cnd|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=7010|AlignEnd=7806|Person[ctxt]=1
-6	de	de	ADP	_	_	5	comp:obl	_	AlignBegin=7806|AlignEnd=8023|SpaceAfter=No
-7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=8023|AlignEnd=8168
-8	d'	de	ADP	_	_	6	repair	_	AlignBegin=8168|AlignEnd=8208|SpaceAfter=No
+6	de	de	ADP	_	_	8	reparandum	_	AlignBegin=7806|AlignEnd=8023|SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	AlignBegin=8023|AlignEnd=8168
+8	d'	de	ADP	_	_	5	comp:obl	_	AlignBegin=8168|AlignEnd=8208|SpaceAfter=No
 9	aller	aller	VERB	_	VerbForm=Inf	8	comp	_	AlignBegin=8208|AlignEnd=8438|Subject=ObjRaising
-10	tout	tout	ADV	_	_	9	comp:obj	_	AlignBegin=8438|AlignEnd=8598|SpaceAfter=No
+10	tout	tout	ADV	_	_	14	reparandum	_	AlignBegin=8438|AlignEnd=8598|SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	AlignBegin=8598|AlignEnd=8598
 12	euh	euh	INTJ	_	_	10	discourse:filler	_	AlignBegin=8598|AlignEnd=8928|SpaceAfter=No
-13	,	,	PUNCT	_	_	14	punct	_	AlignBegin=8928|AlignEnd=8928
-14	de	de	ADP	_	_	10	repair	_	AlignBegin=8928|AlignEnd=9028
+13	,	,	PUNCT	_	_	10	punct	_	AlignBegin=8928|AlignEnd=8928
+14	de	de	ADP	_	_	9	comp:obj	_	AlignBegin=8928|AlignEnd=9028
 15	traverser	traverser	VERB	_	VerbForm=Inf	14	comp	_	AlignBegin=9028|AlignEnd=9406|Subject=ObjRaising
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	AlignBegin=9406|AlignEnd=9428|HasSpokenGender=OnlySingExceptWithLiaison
 17	jardins	jardin	NOUN	_	_	15	comp:obj	_	AlignBegin=9428|AlignEnd=9668|cdet=No|Gender[lex]=Masc|Number[ctxt]=Plur
@@ -87,10 +87,10 @@
 # text = vous retombez sur la, sur la place Grenette.
 1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	AlignBegin=10151|AlignEnd=10262|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
 2	retombez	retomber	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=10262|AlignEnd=10611
-3	sur	sur	ADP	_	_	2	comp:obl	_	AlignBegin=10611|AlignEnd=10781
+3	sur	sur	ADP	_	_	6	reparandum	_	AlignBegin=10611|AlignEnd=10781
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	comp	_	AlignBegin=10781|AlignEnd=11125|HasSpokenGender=OnlySingExceptWithLiaison|Scrap=Yes|SpaceAfter=No
-5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=11125|AlignEnd=11160
-6	sur	sur	ADP	_	_	3	repair	_	AlignBegin=11160|AlignEnd=11270
+5	,	,	PUNCT	_	_	3	punct	_	AlignBegin=11125|AlignEnd=11160
+6	sur	sur	ADP	_	_	2	comp:obl	_	AlignBegin=11160|AlignEnd=11270
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	AlignBegin=11270|AlignEnd=11353|HasSpokenGender=OnlySingExceptWithLiaison
 8	place	place	NOUN	_	_	6	comp	_	AlignBegin=11353|AlignEnd=11530|Gender[lex]=Fem|Number[ctxt]=Sing
 9	Grenette	Grenette	PROPN	_	_	8	mod:appos	_	AlignBegin=11530|AlignEnd=11897|Gender[lex]=Unknown|SpaceAfter=No
@@ -187,9 +187,9 @@
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=26907|AlignEnd=26907
 4	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	AlignBegin=26907|AlignEnd=27107|Number[lex]=Plur|Overlap=Rhap_D0007-11|Person[lex]=2|Polite=Unknown
 5	tournez	tourner	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=27107|AlignEnd=27635|Overlap=Rhap_D0007-11
-6	à	à	ADP	_	_	5	mod	_	AlignBegin=27635|AlignEnd=28304|Overlap=Rhap_D0007-11|SpaceAfter=No
-7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=28304|AlignEnd=28691
-8	à	à	ADP	_	_	6	repair	_	AlignBegin=28691|AlignEnd=28871
+6	à	à	ADP	_	_	8	reparandum	_	AlignBegin=27635|AlignEnd=28304|Overlap=Rhap_D0007-11|SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	AlignBegin=28304|AlignEnd=28691
+8	à	à	ADP	_	_	5	mod	_	AlignBegin=28691|AlignEnd=28871
 9	droite	droite	NOUN	_	_	8	comp	_	AlignBegin=28871|AlignEnd=29478|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	AlignBegin=29478|AlignEnd=29478
 11	juste	juste	ADV	_	_	12	mod	_	AlignBegin=29478|AlignEnd=29678
@@ -220,14 +220,14 @@
 # macrosyntax = { vous conti~ | vous remontez } toujours tout droit //
 # text = vous conti~, vous remontez toujours tout droit.
 1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	AlignBegin=31907|AlignEnd=32047|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
-2	conti~	conti~	X	_	ExtPos=VERB	0	root	_	AlignBegin=32047|AlignEnd=32341|SpaceAfter=No
-3	,	,	PUNCT	_	_	5	punct	_	AlignBegin=32397|AlignEnd=32397
+2	conti~	conti~	X	_	ExtPos=VERB	5	reparandum	_	AlignBegin=32047|AlignEnd=32341|SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=32397|AlignEnd=32397
 4	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	AlignBegin=32397|AlignEnd=32566|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
-5	remontez	remonter	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	repair	_	AlignBegin=32566|AlignEnd=32877
+5	remontez	remonter	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=32566|AlignEnd=32877
 6	toujours	toujours	ADV	_	_	5	mod	_	AlignBegin=32877|AlignEnd=33207
 7	tout	tout	ADV	_	_	8	mod	_	AlignBegin=33207|AlignEnd=33317
 8	droit	droit	ADJ	_	Gender=Masc	5	comp:obj	_	AlignBegin=33317|AlignEnd=33687|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No
-9	.	.	PUNCT	_	_	2	punct	_	AlignBegin=33687|AlignEnd=33687
+9	.	.	PUNCT	_	_	5	punct	_	AlignBegin=33687|AlignEnd=33687
 
 # sent_id = Rhap_D0007-13
 # prosodic_annotation = yes
@@ -238,11 +238,11 @@
 1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	AlignBegin=33687|AlignEnd=33777|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
 2	allez	aller	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=33777|AlignEnd=33967
 3	tomber	tomber	VERB	_	VerbForm=Inf	2	comp:obj	_	AlignBegin=33967|AlignEnd=34277|Subject=SubjRaising
-4	sur	sur	ADP	_	_	3	comp:obl	_	AlignBegin=34277|AlignEnd=34447|SpaceAfter=No
-5	,	,	PUNCT	_	_	8	punct	_	AlignBegin=34447|AlignEnd=34447
+4	sur	sur	ADP	_	_	8	reparandum	_	AlignBegin=34277|AlignEnd=34447|SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=34447|AlignEnd=34447
 6	euh	euh	INTJ	_	_	13	discourse:filler	_	AlignBegin=35521|AlignEnd=35961|SpaceAfter=No
-7	,	,	PUNCT	_	_	8	punct	_	AlignBegin=34856|AlignEnd=35331
-8	sur	sur	ADP	_	_	4	repair	_	AlignBegin=35331|AlignEnd=35521|SpaceAfter=No
+7	,	,	PUNCT	_	_	4	punct	_	AlignBegin=34856|AlignEnd=35331
+8	sur	sur	ADP	_	_	3	comp:obl	_	AlignBegin=35331|AlignEnd=35521|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	AlignBegin=35522|AlignEnd=35522
 10	euh	euh	INTJ	_	_	8	discourse:filler	_	AlignBegin=35522|AlignEnd=35961|SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	AlignBegin=35961|AlignEnd=35961
@@ -265,9 +265,9 @@
 1	et	et	CCONJ	_	_	7	cc	_	AlignBegin=37726|AlignEnd=37846
 2	là	là	ADV	_	_	7	mod	_	AlignBegin=37846|AlignEnd=38051|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	AlignBegin=38051|AlignEnd=38051
-4	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj	_	AlignBegin=38051|AlignEnd=38401|Number[lex]=Plur|Person[lex]=2|Polite=Unknown|SpaceAfter=No
-5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=38401|AlignEnd=38401
-6	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	repair	_	AlignBegin=38401|AlignEnd=38571|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
+4	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	reparandum	_	AlignBegin=38051|AlignEnd=38401|Number[lex]=Plur|Person[lex]=2|Polite=Unknown|SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=38401|AlignEnd=38401
+6	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj	_	AlignBegin=38401|AlignEnd=38571|Number[lex]=Plur|Person[lex]=2|Polite=Unknown
 7	reprenez	reprendre	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=38571|AlignEnd=38841
 8	à	à	ADP	_	_	7	comp:obl	_	AlignBegin=38841|AlignEnd=39016
 9	gauche	gauche	NOUN	_	_	8	comp	_	AlignBegin=39016|AlignEnd=39438|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No

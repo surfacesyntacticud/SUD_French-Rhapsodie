@@ -203,11 +203,11 @@
 # macrosyntax = { c'est Emmanu~ | c'est fils de la Sarce "je crois" } //=
 # text = c'est Emmanu~, c'est fils de la Sarce, je crois.
 1	c'	ce	PRON	_	PronType=Dem	2	subj	_	AlignBegin=34877|AlignEnd=35007|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=35007|AlignEnd=35277|Coconstruct=parataxis:conj::Rhap_M0011-11::6
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	reparandum	_	AlignBegin=35007|AlignEnd=35277|Coconstruct=parataxis:conj::Rhap_M0011-11::6
 3	Emmanu~	Emmanu~	X	_	ExtPos=PROPN	2	comp:pred	_	AlignBegin=35367|AlignEnd=35687|SpaceAfter=No
-4	,	,	PUNCT	_	_	6	punct	_	AlignBegin=35687|AlignEnd=35748
+4	,	,	PUNCT	_	_	2	punct	_	AlignBegin=35687|AlignEnd=35748
 5	c'	ce	PRON	_	PronType=Dem	6	subj	_	AlignBegin=35748|AlignEnd=35908|Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No
-6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	repair	_	AlignBegin=35908|AlignEnd=36358
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=35908|AlignEnd=36358
 7	fils	fils	NOUN	_	_	6	comp:pred	_	AlignBegin=36358|AlignEnd=36648|Gender[lex]=Masc
 8	de	de	ADP	_	_	7	udep	_	AlignBegin=36648|AlignEnd=36708
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	AlignBegin=36708|AlignEnd=36828|HasSpokenGender=OnlySingExceptWithLiaison
@@ -215,7 +215,7 @@
 11	,	,	PUNCT	_	_	13	punct	_	AlignBegin=37308|AlignEnd=37308
 12	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	13	subj	_	AlignBegin=37308|AlignEnd=37439|Number[lex]=Sing|Person[lex]=1
 13	crois	croire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	10	discourse	_	AlignBegin=37439|AlignEnd=37785|Person[ctxt]=1|SpaceAfter=No
-14	.	.	PUNCT	_	_	2	punct	_	AlignBegin=37785|AlignEnd=37785
+14	.	.	PUNCT	_	_	6	punct	_	AlignBegin=37785|AlignEnd=37785
 
 # sent_id = Rhap_M0011-13
 # prosodic_annotation = yes
@@ -272,16 +272,16 @@
 # speaker_id = §LM41
 # macrosyntax = { { je | j' } arrive | je tombe } sur La Nef Chavant //
 # text = je, j'arrive, je tombe sur La Nef Chavant.
-1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	AlignBegin=46634|AlignEnd=47124|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-2	,	,	PUNCT	_	_	3	punct	_	AlignBegin=47124|AlignEnd=47124
-3	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	1	repair	_	AlignBegin=47124|AlignEnd=47254|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-4	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=47254|AlignEnd=47536|Person[ctxt]=1|SpaceAfter=No
-5	,	,	PUNCT	_	_	7	punct	_	AlignBegin=47536|AlignEnd=47536
+1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	reparandum	_	AlignBegin=46634|AlignEnd=47124|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=47124|AlignEnd=47124
+3	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	AlignBegin=47124|AlignEnd=47254|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+4	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	7	reparandum	_	AlignBegin=47254|AlignEnd=47536|Person[ctxt]=1|SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=47536|AlignEnd=47536
 6	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj	_	AlignBegin=47536|AlignEnd=47666|Number[lex]=Sing|Person[lex]=1
-7	tombe	tomber	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	4	repair	_	AlignBegin=47666|AlignEnd=47946|Person[ctxt]=1
+7	tombe	tomber	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=47666|AlignEnd=47946|Person[ctxt]=1
 8	sur	sur	ADP	_	_	7	comp:obl	_	AlignBegin=47946|AlignEnd=48046
 9	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	AlignBegin=48046|AlignEnd=48365|HasSpokenGender=OnlySingExceptWithLiaison
 10	Nef	Nef	PROPN	_	Number=Sing	8	comp	_	AlignBegin=48365|AlignEnd=48556|Gender[lex]=Fem
 11	Chavant	Chavant	PROPN	_	_	10	flat@name	_	AlignBegin=48556|AlignEnd=48920|Gender[lex]=Unknown|SpaceAfter=No
-12	.	.	PUNCT	_	_	4	punct	_	AlignBegin=48920|AlignEnd=48920
+12	.	.	PUNCT	_	_	7	punct	_	AlignBegin=48920|AlignEnd=48920
 

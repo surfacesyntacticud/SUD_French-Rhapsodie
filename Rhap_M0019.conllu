@@ -107,18 +107,18 @@
 20	,	,	PUNCT	_	_	19	punct	_	AlignBegin=17536|AlignEnd=17951
 21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	AlignBegin=17951|AlignEnd=18388
 22	monsieur	monsieur	NOUN	_	_	17	comp	_	AlignBegin=18388|AlignEnd=18782|Gender[lex]=Masc|Number[ctxt]=Sing
-23	en	en	ADP	_	_	22	udep	_	AlignBegin=18782|AlignEnd=18873
+23	en	en	ADP	_	_	34	reparandum	_	AlignBegin=18782|AlignEnd=18873
 24	train	train	NOUN	_	_	23	comp	_	AlignBegin=18873|AlignEnd=19093|Gender[lex]=Masc|Number[ctxt]=Sing
-25	de	de	ADP	_	_	24	udep	_	AlignBegin=19093|AlignEnd=19289|SpaceAfter=No
-26	,	,	PUNCT	_	_	27	punct	_	AlignBegin=19289|AlignEnd=19289
-27	de	de	ADP	_	_	25	repair	_	AlignBegin=19289|AlignEnd=19451
+25	de	de	ADP	_	_	27	reparandum	_	AlignBegin=19093|AlignEnd=19289|SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	AlignBegin=19289|AlignEnd=19289
+27	de	de	ADP	_	_	32	reparandum	_	AlignBegin=19289|AlignEnd=19451
 28	décharger	décharger	VERB	_	VerbForm=Inf	27	comp	_	AlignBegin=19451|AlignEnd=20162|SpaceAfter=No
 29	,	,	PUNCT	_	_	30	punct	_	AlignBegin=20162|AlignEnd=20162
 30	euh	euh	INTJ	_	_	28	discourse:filler	_	AlignBegin=20162|AlignEnd=20564|SpaceAfter=No
-31	,	,	PUNCT	_	_	32	punct	_	AlignBegin=20564|AlignEnd=20642
-32	de	de	ADP	_	_	27	repair	_	AlignBegin=20642|AlignEnd=20952|SpaceAfter=No
-33	,	,	PUNCT	_	_	34	punct	_	AlignBegin=20952|AlignEnd=21872
-34	en	en	ADP	_	_	23	repair	_	AlignBegin=21872|AlignEnd=22022
+31	,	,	PUNCT	_	_	27	punct	_	AlignBegin=20564|AlignEnd=20642
+32	de	de	ADP	_	_	24	udep	_	AlignBegin=20642|AlignEnd=20952|SpaceAfter=No
+33	,	,	PUNCT	_	_	23	punct	_	AlignBegin=20952|AlignEnd=21872
+34	en	en	ADP	_	_	22	udep	_	AlignBegin=21872|AlignEnd=22022
 35	train	train	NOUN	_	_	34	comp	_	AlignBegin=22022|AlignEnd=22172|Gender[lex]=Masc|Number[ctxt]=Sing
 36	de	de	ADP	_	_	35	udep	_	AlignBegin=22172|AlignEnd=22232
 37	décharger	décharger	VERB	_	VerbForm=Inf	36	comp	_	AlignBegin=22232|AlignEnd=22585
@@ -177,11 +177,11 @@
 8	flagrant	flagrant	ADJ	_	Gender=Masc	9	mod	_	AlignBegin=28523|AlignEnd=28843|HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing
 9	délit	délit	NOUN	_	_	7	comp	_	AlignBegin=28843|AlignEnd=29083|Gender[lex]=Masc|Number[ctxt]=Sing
 10	par	par	ADP	_	_	6	comp:obl	_	AlignBegin=29083|AlignEnd=29311
-11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	AlignBegin=29311|AlignEnd=29456|SpaceAfter=No
+11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	reparandum	_	AlignBegin=29311|AlignEnd=29456|SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	AlignBegin=29456|AlignEnd=29456
 13	euh	euh	INTJ	_	_	11	discourse:filler	_	AlignBegin=29456|AlignEnd=29756|SpaceAfter=No
-14	,	,	PUNCT	_	_	15	punct	_	AlignBegin=29756|AlignEnd=29756
-15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	repair	_	AlignBegin=29756|AlignEnd=29943|LiaisonAfter=Yes
+14	,	,	PUNCT	_	_	11	punct	_	AlignBegin=29756|AlignEnd=29756
+15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	AlignBegin=29756|AlignEnd=29943|LiaisonAfter=Yes
 16	autre	autre	ADJ	_	_	17	mod	_	AlignBegin=29943|AlignEnd=30211|Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing
 17	dame	dame	NOUN	_	_	10	comp	_	AlignBegin=30211|AlignEnd=30673|Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	AlignBegin=30673|AlignEnd=31134
@@ -246,10 +246,10 @@
 1	euh	euh	INTJ	_	_	4	discourse:filler	_	AlignBegin=38215|AlignEnd=39370|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	AlignBegin=39370|AlignEnd=39370
 3	et	et	CCONJ	_	_	4	cc	_	AlignBegin=39370|AlignEnd=39696
-4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	root	_	AlignBegin=39696|AlignEnd=40113|HasSpokenGender=OnlySingExceptWithLiaison|Scrap=Yes|SpaceAfter=No
-5	,	,	PUNCT	_	_	6	punct	_	AlignBegin=40113|AlignEnd=40113
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	repair	_	AlignBegin=40113|AlignEnd=40451|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
-7	…	…	PUNCT	_	_	4	punct	_	AlignBegin=40451|AlignEnd=40451
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	reparandum	_	AlignBegin=39696|AlignEnd=40113|HasSpokenGender=OnlySingExceptWithLiaison|Scrap=Yes|SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	AlignBegin=40113|AlignEnd=40113
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	0	root	_	AlignBegin=40113|AlignEnd=40451|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No
+7	…	…	PUNCT	_	_	6	punct	_	AlignBegin=40451|AlignEnd=40451
 
 # sent_id = Rhap_M0019-13
 # prosodic_annotation = yes
@@ -276,9 +276,9 @@
 4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=43453|AlignEnd=43453
 5	moi	moi	PRON	_	Emph=Yes|PronType=Prs	10	dislocated:subj	_	AlignBegin=43453|AlignEnd=43568|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	AlignBegin=43568|AlignEnd=43568
-7	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	subj	_	AlignBegin=43568|AlignEnd=43805|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
-8	,	,	PUNCT	_	_	9	punct	_	AlignBegin=43805|AlignEnd=43805
-9	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	repair	_	AlignBegin=43805|AlignEnd=43847|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+7	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	9	reparandum	_	AlignBegin=43568|AlignEnd=43805|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	AlignBegin=43805|AlignEnd=43805
+9	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	subj	_	AlignBegin=43805|AlignEnd=43847|Number[lex]=Sing|Person[lex]=1|SpaceAfter=No
 10	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	AlignBegin=43847|AlignEnd=43907
 11	pas	pas	ADV	_	Polarity=Neg	10	mod	_	AlignBegin=43907|AlignEnd=44048
 12	compris	comprendre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	10	comp:aux@tense	_	AlignBegin=44048|AlignEnd=44333|PastPartHasSpokenGender=Yes|Tense[denom]=Past
@@ -312,9 +312,9 @@
 # text = et on le, le v~…
 1	et	et	CCONJ	_	_	6	cc	_	AlignBegin=48197|AlignEnd=48243
 2	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	6	subj	_	AlignBegin=48243|AlignEnd=48435|Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3
-3	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	6	comp:obj	_	AlignBegin=48435|AlignEnd=48690|Person[lex]=3|SpaceAfter=No
-4	,	,	PUNCT	_	_	5	punct	_	AlignBegin=48690|AlignEnd=48690
-5	le	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|PronType=Prs	3	repair	_	AlignBegin=48690|AlignEnd=48857|Person[lex]=3
+3	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	5	reparandum	_	AlignBegin=48435|AlignEnd=48690|Person[lex]=3|SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	AlignBegin=48690|AlignEnd=48690
+5	le	lui	PRON	_	Emph=No|Gender=Masc|Number=Sing|PronType=Prs	6	comp:obj	_	AlignBegin=48690|AlignEnd=48857|Person[lex]=3
 6	v~	v~	X	_	ExtPos=VERB	0	root	_	AlignBegin=48857|AlignEnd=49050|Scrap=Yes|SpaceAfter=No
 7	…	…	PUNCT	_	_	6	punct	_	AlignBegin=49050|AlignEnd=49050
 
@@ -361,11 +361,11 @@
 14	qui	qui	PRON	_	PronType=Rel	16	subj	_	AlignBegin=54171|AlignEnd=54316
 15	s'	soi	PRON	_	PronType=Prs|Reflex=Yes	16	comp@expl	_	AlignBegin=54316|AlignEnd=54380|Person[lex]=3|SpaceAfter=No
 16	attroupe	attrouper	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	mod@relcl	_	AlignBegin=54380|AlignEnd=54792|Number[ctxt]=Sing|Person[ctxt]=3
-17	et	et	CCONJ	_	_	23	cc	_	AlignBegin=54792|AlignEnd=54883|SpaceAfter=No
+17	et	et	CCONJ	_	_	21	reparandum	_	AlignBegin=54792|AlignEnd=54883|SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	AlignBegin=54883|AlignEnd=54883
 19	euh	euh	INTJ	_	_	17	discourse:filler	_	AlignBegin=54883|AlignEnd=55124|SpaceAfter=No
-20	,	,	PUNCT	_	_	21	punct	_	AlignBegin=55124|AlignEnd=56020
-21	et	et	CCONJ	_	_	17	repair	_	AlignBegin=56020|AlignEnd=56071
+20	,	,	PUNCT	_	_	17	punct	_	AlignBegin=55124|AlignEnd=56020
+21	et	et	CCONJ	_	_	23	cc	_	AlignBegin=56020|AlignEnd=56071
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	AlignBegin=56071|AlignEnd=56148|HasSpokenGender=OnlySingExceptWithLiaison
 23	policier	policier	NOUN	_	_	13	conj:coord	_	AlignBegin=56148|AlignEnd=56603|Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No
 24	.	.	PUNCT	_	_	3	punct	_	AlignBegin=56603|AlignEnd=56603
