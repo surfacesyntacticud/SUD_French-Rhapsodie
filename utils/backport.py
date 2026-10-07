@@ -6,6 +6,8 @@ from grewpy import Corpus, CorpusDraft
 grewpy.set_config("sud")
 
 p_words_keys = [
+  "WordAlignmentBegin",
+  "WordAlignmentEnd",
   "AlignBegin",
   "AlignEnd",
   "Answer",
@@ -14,6 +16,7 @@ p_words_keys = [
   "Coconstruct",
   "ExtGender",
   "ExtNumber",
+  "ExtPos",
   "Filler",
   "Gender[ctxt]",
   "Gender[lex]",
@@ -55,11 +58,14 @@ def backport_sentence (sent_p_words, sent_pauses):
 			continue
 		if feat_pauses["form"] != sent_p_words[str(index_p_words)]["form"]:  # Chekck that we are well aligned
 			raise ValueError (f'different words: {feat_pauses["form"]} and {sent_p_words[str(index_p_words)]["form"]} in sent_id = {sent_p_words}')
+
+		# in [pauses] features, we remove all "p_words" features and then re-add the new values (if any) from p_words
 		for key in p_words_keys:
 			if key in sent_pauses[id_pauses]:
 				del sent_pauses[id_pauses][key]
 
 		sent_pauses[id_pauses].update(sent_p_words[str(index_p_words)])
+
 		index_p_words += 1
 		index_pauses += 1
 
