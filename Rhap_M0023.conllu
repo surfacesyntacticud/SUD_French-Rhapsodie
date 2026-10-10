@@ -29,7 +29,7 @@
 # speaker_id = §LM47
 # macrosyntax = en abord < j'ai commencé //
 # text = en abord, j'ai commencé.
-1	en	en	ADP	_	_	6	mod	_	WordAlignmentBegin=3464|WordAlignmentEnd=3583
+1	en	en	ADP	_	_	5	mod	_	WordAlignmentBegin=3464|WordAlignmentEnd=3583
 2	abord	abord	NOUN	_	_	1	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=3583|WordAlignmentEnd=3995
 3	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=3995|WordAlignmentEnd=3995
 4	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=3995|WordAlignmentEnd=4041
@@ -85,7 +85,7 @@
 # macrosyntax = ^et en fait < c'est pour un boulanger //
 # text = et en fait, c'est pour un boulanger.
 1	et	et	CCONJ	_	_	6	cc	_	WordAlignmentBegin=12769|WordAlignmentEnd=12854
-2	en	en	ADP	_	ExtPos=ADV	9	discourse	_	Idiom=Yes|WordAlignmentBegin=12854|WordAlignmentEnd=12914
+2	en	en	ADP	_	ExtPos=ADV	6	discourse	_	Idiom=Yes|WordAlignmentBegin=12854|WordAlignmentEnd=12914
 3	fait	fait	NOUN	_	_	2	comp	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=12914|WordAlignmentEnd=13136
 4	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=13136|WordAlignmentEnd=13136
 5	c'	ce	PRON	_	PronType=Dem	6	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=13136|WordAlignmentEnd=13224
@@ -184,11 +184,11 @@
 29	tissu	tissu	NOUN	_	_	28	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=27507|WordAlignmentEnd=27857
 30	comme	comme	ADP	_	_	17	mod	_	WordAlignmentBegin=27857|WordAlignmentEnd=28050
 31	habit	habit	NOUN	_	_	30	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=28050|WordAlignmentEnd=28397
-32	et	et	CCONJ	_	_	33	cc	_	WordAlignmentBegin=28948|WordAlignmentEnd=29038
-33	qui	qui	PRON	_	PronType=Rel	39	reparandum	_	SpaceAfter=No|WordAlignmentBegin=29088|WordAlignmentEnd=29403
+32	et	et	CCONJ	_	_	33	cc	_	Head=Position|WordAlignmentBegin=28948|WordAlignmentEnd=29038
+33	qui	qui	PRON	_	PronType=Rel	39	reparandum	_	Promotion=subj|Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=29088|WordAlignmentEnd=29403
 34	,	,	PUNCT	_	_	35	punct	_	WordAlignmentBegin=29403|WordAlignmentEnd=29403
-35	euh	euh	INTJ	_	_	33	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=29403|WordAlignmentEnd=30078
-36	,	,	PUNCT	_	_	33	punct	_	WordAlignmentBegin=30078|WordAlignmentEnd=30078
+35	euh	euh	INTJ	_	_	39	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=29403|WordAlignmentEnd=30078
+36	,	,	PUNCT	_	_	35	punct	_	WordAlignmentBegin=30078|WordAlignmentEnd=30078
 37	et	et	CCONJ	_	_	39	cc	_	WordAlignmentBegin=30078|WordAlignmentEnd=30138
 38	qui	qui	PRON	_	PronType=Rel	39	subj	_	WordAlignmentBegin=30138|WordAlignmentEnd=30371
 39	voit	voir	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	44	reparandum	_	Number[ctxt]=Sing|Person[ctxt]=3|SpaceAfter=No|WordAlignmentBegin=30371|WordAlignmentEnd=30698

@@ -53,7 +53,7 @@
 4	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=15482|WordAlignmentEnd=15662
 5	remarqué	remarquer	VERB	_	VerbForm=Part|Voice=Act	4	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=15662|WordAlignmentEnd=16132
 6	en	en	ADP	_	_	4	mod	_	WordAlignmentBegin=16132|WordAlignmentEnd=16212
-7	écoutant	écouter	VERB	_	VerbForm=Part	6	comp	_	PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Pres|WordAlignmentBegin=16212|WordAlignmentEnd=16652
+7	écoutant	écouter	VERB	_	VerbForm=Part	6	comp	_	Tense[denom]=Pres|WordAlignmentBegin=16212|WordAlignmentEnd=16652
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No|WordAlignmentBegin=16652|WordAlignmentEnd=16682
 9	évangile	évangile	NOUN	_	_	7	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=16682|WordAlignmentEnd=17402
 10	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=17402|WordAlignmentEnd=17402
@@ -149,7 +149,7 @@
 23	de	de	ADP	_	_	18	conj:coord	_	WordAlignmentBegin=39560|WordAlignmentEnd=39740
 24	bénir	bénir	VERB	_	VerbForm=Inf	23	comp	_	WordAlignmentBegin=39740|WordAlignmentEnd=40409
 25	en	en	ADP	_	_	24	mod	_	WordAlignmentBegin=40490|WordAlignmentEnd=40620
-26	imposant	imposer	VERB	_	VerbForm=Part	25	comp	_	PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Pres|WordAlignmentBegin=40620|WordAlignmentEnd=41630
+26	imposant	imposer	VERB	_	VerbForm=Part	25	comp	_	Tense[denom]=Pres|WordAlignmentBegin=40620|WordAlignmentEnd=41630
 27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	28	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=41630|WordAlignmentEnd=41810
 28	mains	main	NOUN	_	_	26	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=41810|WordAlignmentEnd=42136
 29	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=42136|WordAlignmentEnd=42136
@@ -728,12 +728,12 @@
 1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	2	subj	_	Person[lex]=3|WordAlignmentBegin=193212|WordAlignmentEnd=193355
 2	guérit	guérir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=3|WordAlignmentBegin=193355|WordAlignmentEnd=193965
 3	en	en	ADP	_	_	2	mod	_	WordAlignmentBegin=194377|WordAlignmentEnd=194572
-4	donnant	donner	VERB	_	VerbForm=Part	3	comp	_	PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Pres|WordAlignmentBegin=194572|WordAlignmentEnd=194932
+4	donnant	donner	VERB	_	VerbForm=Part	3	comp	_	Tense[denom]=Pres|WordAlignmentBegin=194572|WordAlignmentEnd=194932
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=194932|WordAlignmentEnd=195092
 6	vie	vie	NOUN	_	_	4	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=195092|WordAlignmentEnd=195462
 7	,	,	PUNCT	_	_	8	punct	_	WordAlignmentBegin=195462|WordAlignmentEnd=195887
 8	en	en	ADP	_	_	3	conj:coord	_	WordAlignmentBegin=195887|WordAlignmentEnd=196052
-9	donnant	donner	VERB	_	VerbForm=Part	8	comp	_	PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Pres|WordAlignmentBegin=196052|WordAlignmentEnd=196422
+9	donnant	donner	VERB	_	VerbForm=Part	8	comp	_	Tense[denom]=Pres|WordAlignmentBegin=196052|WordAlignmentEnd=196422
 10	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=196422|WordAlignmentEnd=196622
 11	propre	propre	ADJ	_	_	12	mod	_	Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=196622|WordAlignmentEnd=197066
 12	vie	vie	NOUN	_	_	9	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=197066|WordAlignmentEnd=197192
@@ -791,7 +791,7 @@
 23	l'on	on	PRON	_	PronType=Ind	24	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=209243|WordAlignmentEnd=209403
 24	fait	faire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	21	mod@relcl	_	Person[ctxt]=3|WordAlignmentBegin=209403|WordAlignmentEnd=209769
 25	en	en	ADP	_	_	24	mod	_	WordAlignmentBegin=210014|WordAlignmentEnd=210099
-26	faisant	faire	VERB	_	VerbForm=Part	25	comp	_	PastPartHasSpokenGender=Yes|Tense[denom]=Pres|WordAlignmentBegin=210099|WordAlignmentEnd=210489
+26	faisant	faire	VERB	_	VerbForm=Part	25	comp	_	Tense[denom]=Pres|WordAlignmentBegin=210099|WordAlignmentEnd=210489
 27	du	du	ADP	_	_	26	comp:obl	_	WordAlignmentBegin=210489|WordAlignmentEnd=210609
 28	mal	mal	NOUN	_	Number=Sing	27	comp	_	Gender[lex]=Masc|WordAlignmentBegin=210609|WordAlignmentEnd=211014
 29	aux	au	ADP	_	_	26	comp:obj	_	WordAlignmentBegin=211014|WordAlignmentEnd=211129
@@ -878,7 +878,7 @@
 # speaker_id = §LM50
 # macrosyntax = { comme l'esclave qui désire un peu d'ombre | comme le manœuvre qui attend sa paye depuis des mois } (+ dit Job ) < je n'y ai { rien |} gagné {| ^ sinon ^ que du néant } //
 # text = comme l'esclave qui désire un peu d'ombre, comme le manœuvre qui attend sa paye depuis des mois, dit Job, je n'y ai rien gagné, sinon que du néant.
-1	comme	comme	ADP	_	_	30	mod	_	WordAlignmentBegin=229201|WordAlignmentEnd=229383
+1	comme	comme	ADP	_	_	28	mod	_	WordAlignmentBegin=229201|WordAlignmentEnd=229383
 2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No|WordAlignmentBegin=229383|WordAlignmentEnd=229456
 3	esclave	esclave	NOUN	_	_	1	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=229456|WordAlignmentEnd=230176
 4	qui	qui	PRON	_	PronType=Rel	5	subj	_	WordAlignmentBegin=230588|WordAlignmentEnd=230713

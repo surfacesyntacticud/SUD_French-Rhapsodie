@@ -117,7 +117,7 @@
 6	,	,	PUNCT	_	_	20	punct	_	WordAlignmentBegin=11732|WordAlignmentEnd=12069
 7	bon	bon	INTJ	_	_	24	discourse	_	SpaceAfter=No|WordAlignmentBegin=12069|WordAlignmentEnd=12384
 8	,	,	PUNCT	_	_	20	punct	_	WordAlignmentBegin=12384|WordAlignmentEnd=12384
-9	habitant	habiter	VERB	_	VerbForm=Part	20	mod	_	PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Pres|WordAlignmentBegin=12384|WordAlignmentEnd=12944
+9	habitant	habiter	VERB	_	VerbForm=Part	20	mod	_	Tense[denom]=Pres|WordAlignmentBegin=12384|WordAlignmentEnd=12944
 10	dans	dans	ADP	_	_	9	comp:obl	_	WordAlignmentBegin=12944|WordAlignmentEnd=13064
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=13064|WordAlignmentEnd=13098
 12	centre	centre	NOUN	_	_	10	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=13098|WordAlignmentEnd=13354
@@ -719,7 +719,7 @@
 10	en	en	ADP	_	_	9	comp:obl	_	WordAlignmentBegin=113380|WordAlignmentEnd=113705
 11	CP	CP	PROPN	_	_	10	comp	_	Gender[lex]=Unknown|WordAlignmentBegin=113705|WordAlignmentEnd=114245
 12	ne	ne	ADV	_	Polarity=Neg	13	mod	_	WordAlignmentBegin=114245|WordAlignmentEnd=114375
-13	parlant	parler	VERB	_	VerbForm=Part	9	mod	_	PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Pres|WordAlignmentBegin=114375|WordAlignmentEnd=114715
+13	parlant	parler	VERB	_	VerbForm=Part	9	mod	_	Tense[denom]=Pres|WordAlignmentBegin=114375|WordAlignmentEnd=114715
 14	pas	pas	ADV	_	Polarity=Neg	13	mod	_	WordAlignmentBegin=114715|WordAlignmentEnd=114815
 15	français	français	ADJ	_	Gender=Masc	13	comp:obj	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=114815|WordAlignmentEnd=115217
 16	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=115217|WordAlignmentEnd=115217
@@ -736,7 +736,7 @@
 4	en	en	ADP	_	_	3	comp:obl	_	WordAlignmentBegin=115847|WordAlignmentEnd=115927
 5	CP	CP	PROPN	_	_	4	comp	_	Gender[lex]=Unknown|WordAlignmentBegin=115927|WordAlignmentEnd=116247
 6	ne	ne	ADV	_	Polarity=Neg	7	mod	_	WordAlignmentBegin=116247|WordAlignmentEnd=116367
-7	parlant	parler	VERB	_	VerbForm=Part	3	mod	_	PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Pres|WordAlignmentBegin=116367|WordAlignmentEnd=116597
+7	parlant	parler	VERB	_	VerbForm=Part	3	mod	_	Tense[denom]=Pres|WordAlignmentBegin=116367|WordAlignmentEnd=116597
 8	pas	pas	ADV	_	Polarity=Neg	7	mod	_	WordAlignmentBegin=116597|WordAlignmentEnd=116707
 9	français	français	ADJ	_	Gender=Masc	7	comp:obj	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=116707|WordAlignmentEnd=117097
 10	parce	parce	ADV	_	ExtPos=SCONJ	3	mod	_	Idiom=Yes|WordAlignmentBegin=117097|WordAlignmentEnd=117247
@@ -984,15 +984,15 @@
 7	qu'	que	SCONJ	_	_	6	comp:obj	_	SpaceAfter=No|WordAlignmentBegin=146422|WordAlignmentEnd=146566
 8	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs|Shared=No	10	subj	_	Person[lex]=3|WordAlignmentBegin=146566|WordAlignmentEnd=146616
 9	y	y	PRON	_	PronType=Prs	10	mod	_	Person[lex]=3|WordAlignmentBegin=146616|WordAlignmentEnd=146646
-10	ait	avoir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	reparandum	_	SpaceAfter=No|WordAlignmentBegin=146646|WordAlignmentEnd=147286
+10	ait	avoir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp	_	Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=146646|WordAlignmentEnd=147286
 11	,	,	PUNCT	_	_	10	punct	_	WordAlignmentBegin=147286|WordAlignmentEnd=147286
-12	qu'	que	SCONJ	_	_	18	reparandum	_	SpaceAfter=No|WordAlignmentBegin=147286|WordAlignmentEnd=147336
+12	qu'	que	SCONJ	_	_	7	conj:reform	_	SpaceAfter=No|WordAlignmentBegin=147286|WordAlignmentEnd=147336
 13	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	14	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=147336|WordAlignmentEnd=147656
-14	sépare	séparer	VERB	_	Mood=Sub|Number=Sing|Tense=Pres|VerbForm=Fin	12	comp	_	Person[ctxt]=3|SpaceAfter=No|WordAlignmentBegin=147656|WordAlignmentEnd=148535
+14	sépare	séparer	VERB	_	Mood=Sub|Number=Sing|Tense=Pres|VerbForm=Fin	12	comp	_	Person[ctxt]=3|Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=147656|WordAlignmentEnd=148535
 15	,	,	PUNCT	_	_	16	punct	_	WordAlignmentBegin=148535|WordAlignmentEnd=148535
-16	enfin	enfin	ADV	_	_	14	discourse	_	SpaceAfter=No|WordAlignmentBegin=148535|WordAlignmentEnd=148707
-17	,	,	PUNCT	_	_	12	punct	_	WordAlignmentBegin=148707|WordAlignmentEnd=148707
-18	qu'	que	SCONJ	_	_	7	comp	_	SpaceAfter=No|WordAlignmentBegin=148707|WordAlignmentEnd=148775
+16	enfin	enfin	ADV	_	_	18	discourse	_	SpaceAfter=No|WordAlignmentBegin=148535|WordAlignmentEnd=148707
+17	,	,	PUNCT	_	_	16	punct	_	WordAlignmentBegin=148707|WordAlignmentEnd=148707
+18	qu'	que	SCONJ	_	_	12	conj:reform	_	SpaceAfter=No|WordAlignmentBegin=148707|WordAlignmentEnd=148775
 19	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	21	subj	_	Person[lex]=3|WordAlignmentBegin=148775|WordAlignmentEnd=148880
 20	y	y	PRON	_	PronType=Prs	21	mod	_	Person[lex]=3|WordAlignmentBegin=148880|WordAlignmentEnd=148910
 21	ait	avoir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	comp	_	WordAlignmentBegin=148910|WordAlignmentEnd=148940
@@ -1186,7 +1186,7 @@
 # text = car, euh, les formations linguistiques qui sont données aux immigrés qui arrivent ne sont pas faites pour les gens qui ne parlent pas du tout, ni qui n'ont jamais été à l'école.
 1	car	car	CCONJ	_	_	16	cc	_	SpaceAfter=No|WordAlignmentBegin=172453|WordAlignmentEnd=172743
 2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=172743|WordAlignmentEnd=172743
-3	euh	euh	INTJ	_	_	18	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=172743|WordAlignmentEnd=173770
+3	euh	euh	INTJ	_	_	16	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=172743|WordAlignmentEnd=173770
 4	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=173770|WordAlignmentEnd=173770
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=173770|WordAlignmentEnd=173955
 6	formations	formation	NOUN	_	_	16	subj@pass	_	Gender[lex]=Fem|Number[ctxt]=Plur|WordAlignmentBegin=173955|WordAlignmentEnd=174702
@@ -2007,7 +2007,7 @@
 1	quand	quand	SCONJ	_	ExtPos=ADV	14	mod	_	Idiom=Yes|WordAlignmentBegin=269536|WordAlignmentEnd=269726
 2	même	même	ADV	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No|WordAlignmentBegin=269726|WordAlignmentEnd=269966
 3	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=269966|WordAlignmentEnd=269966
-4	pour	pour	ADP	_	_	16	mod	_	WordAlignmentBegin=269966|WordAlignmentEnd=270166
+4	pour	pour	ADP	_	_	14	mod	_	WordAlignmentBegin=269966|WordAlignmentEnd=270166
 5	eux	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|PronType=Prs	4	comp	_	Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=270166|WordAlignmentEnd=270468
 6	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=270468|WordAlignmentEnd=270468
 7	d'	de	ADP	_	_	14	mod	_	SpaceAfter=No|WordAlignmentBegin=270468|WordAlignmentEnd=270691

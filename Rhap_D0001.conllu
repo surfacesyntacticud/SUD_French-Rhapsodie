@@ -257,7 +257,7 @@
 # speaker_id = §LM1
 # macrosyntax = entre midi et deux <+ je peux faire des courses { dans le quartier | donc dans $- le septième } //
 # text = entre midi et deux, je peux faire des courses dans le quartier, donc dans le septième.
-1	entre	entre	ADP	_	_	8	mod	_	WordAlignmentBegin=34505|WordAlignmentEnd=34775
+1	entre	entre	ADP	_	_	7	mod	_	WordAlignmentBegin=34505|WordAlignmentEnd=34775
 2	midi	midi	NOUN	_	_	1	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=34775|WordAlignmentEnd=35095
 3	et	et	CCONJ	_	_	4	cc	_	WordAlignmentBegin=35095|WordAlignmentEnd=35185
 4	deux	deux	NUM	_	ExtPos=PROPN	2	conj:coord	_	Number[lex]=Sing|SpaceAfter=No|WordAlignmentBegin=35185|WordAlignmentEnd=35380
@@ -515,7 +515,7 @@
 # text = et puis après, rue du Faubourg Saint Antoine, c'est très vivant.
 1	et	et	CCONJ	_	ExtPos=CCONJ	12	cc	_	Idiom=Yes|WordAlignmentBegin=67964|WordAlignmentEnd=68109
 2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes|WordAlignmentBegin=68109|WordAlignmentEnd=68239
-3	après	après	ADP	_	_	14	mod	_	SpaceAfter=No|WordAlignmentBegin=68239|WordAlignmentEnd=68529
+3	après	après	ADP	_	_	12	mod	_	SpaceAfter=No|WordAlignmentBegin=68239|WordAlignmentEnd=68529
 4	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=68529|WordAlignmentEnd=68529
 5	rue	rue	NOUN	_	_	12	dislocated:subj	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=68529|WordAlignmentEnd=68644
 6	du	du	ADP	_	_	5	udep	_	WordAlignmentBegin=68644|WordAlignmentEnd=68799
@@ -1605,9 +1605,9 @@
 # text = et, euh, donc, ces, ces années d'école, ça a été des bonnes années ?
 1	et	et	CCONJ	_	_	15	cc	_	SpaceAfter=No|WordAlignmentBegin=213420|WordAlignmentEnd=213862
 2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=213862|WordAlignmentEnd=213862
-3	euh	euh	INTJ	_	_	16	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=213862|WordAlignmentEnd=214467
+3	euh	euh	INTJ	_	_	15	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=213862|WordAlignmentEnd=214467
 4	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=214467|WordAlignmentEnd=215523
-5	donc	donc	ADV	_	_	16	discourse	_	SpaceAfter=No|WordAlignmentBegin=215523|WordAlignmentEnd=215710
+5	donc	donc	ADV	_	_	15	discourse	_	SpaceAfter=No|WordAlignmentBegin=215523|WordAlignmentEnd=215710
 6	,	,	PUNCT	_	_	5	punct	_	WordAlignmentBegin=215710|WordAlignmentEnd=215710
 7	ces	ce	DET	_	Number=Plur|PronType=Dem	9	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No|WordAlignmentBegin=215710|WordAlignmentEnd=216093
 8	,	,	PUNCT	_	_	7	punct	_	WordAlignmentBegin=216093|WordAlignmentEnd=216093
@@ -1988,7 +1988,7 @@
 1	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	2	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=245285|WordAlignmentEnd=245465
 2	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=245465|WordAlignmentEnd=245755
 3	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art|Shared=No	4	det	_	WordAlignmentBegin=245755|WordAlignmentEnd=245875
-4	baraquements	baraquement	NOUN	_	_	15	reparandum	_	Gender[lex]=Masc|Number[ctxt]=Plur|WordAlignmentBegin=245875|WordAlignmentEnd=246595
+4	baraquements	baraquement	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|WordAlignmentBegin=245875|WordAlignmentEnd=246595
 5	là	là	ADV	_	_	2	mod	_	WordAlignmentBegin=246595|WordAlignmentEnd=246766
 6	quand	quand	SCONJ	_	_	2	mod	_	WordAlignmentBegin=246766|WordAlignmentEnd=246921
 7	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	8	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=246921|WordAlignmentEnd=247031
@@ -1997,9 +1997,9 @@
 10	sixième	sixième	NOUN	_	_	9	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=247801|WordAlignmentEnd=248381
 11	à	à	ADP	_	_	10	udep	_	WordAlignmentBegin=248381|WordAlignmentEnd=248471
 12	troisième	troisième	NOUN	_	_	11	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=248471|WordAlignmentEnd=249169
-13	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=249169|WordAlignmentEnd=249169
+13	,	,	PUNCT	_	_	15	punct	_	WordAlignmentBegin=249169|WordAlignmentEnd=249169
 14	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	15	det	_	WordAlignmentBegin=249169|WordAlignmentEnd=249324
-15	b~	b~	X	_	_	2	comp:obj	_	SpaceAfter=No|WordAlignmentBegin=249324|WordAlignmentEnd=249424
+15	b~	b~	X	_	_	4	reparandum	_	SpaceAfter=No|WordAlignmentBegin=249324|WordAlignmentEnd=249424
 16	,	,	PUNCT	_	_	18	punct	_	WordAlignmentBegin=249424|WordAlignmentEnd=249724
 17	pour	pour	ADP	_	_	18	reparandum	_	WordAlignmentBegin=249724|WordAlignmentEnd=249924
 18	au	au	ADP	_	_	2	mod	_	WordAlignmentBegin=249924|WordAlignmentEnd=250204
@@ -2376,7 +2376,7 @@
 # speaker_id = §LM1
 # macrosyntax = "euh" c~ ESPERLUETTE //
 # text = euh, c~…
-1	euh	euh	INTJ	_	_	3	reparandum	_	Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=287821|WordAlignmentEnd=287986
+1	euh	euh	INTJ	_	_	3	discourse:filler	_	Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=287821|WordAlignmentEnd=287986
 2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=287986|WordAlignmentEnd=287986
 3	c~	c~	X	_	_	0	root	_	SpaceAfter=No|WordAlignmentBegin=287986|WordAlignmentEnd=288236
 4	…	…	PUNCT	_	_	3	punct	_	WordAlignmentBegin=288236|WordAlignmentEnd=288236
@@ -2445,7 +2445,7 @@
 10	y	y	PRON	_	PronType=Prs	11	comp:obl	_	Person[lex]=3|WordAlignmentBegin=298669|WordAlignmentEnd=298777
 11	amenait	amener	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=298777|WordAlignmentEnd=299329
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	13	det	_	LiaisonAfter=Yes|WordAlignmentBegin=299329|WordAlignmentEnd=299719
-13	étudiant	étudiant	NOUN	_	_	18	reparandum	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=299719|WordAlignmentEnd=300219
+13	étudiant	étudiant	NOUN	_	_	11	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=299719|WordAlignmentEnd=300219
 14	,	,	PUNCT	_	_	15	punct	_	WordAlignmentBegin=300219|WordAlignmentEnd=300219
 15	enfin	enfin	ADV	_	_	13	discourse	_	SpaceAfter=No|WordAlignmentBegin=300219|WordAlignmentEnd=300779
 16	,	,	PUNCT	_	_	13	punct	_	WordAlignmentBegin=300779|WordAlignmentEnd=300779
@@ -2456,7 +2456,7 @@
 21	jeu~	jeu~	X	_	ExtPos=NOUN	24	reparandum	_	SpaceAfter=No|WordAlignmentBegin=302191|WordAlignmentEnd=302416
 22	,	,	PUNCT	_	_	21	punct	_	WordAlignmentBegin=302416|WordAlignmentEnd=302416
 23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	WordAlignmentBegin=302416|WordAlignmentEnd=302499
-24	lycéen	lycéen	NOUN	_	_	11	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=302499|WordAlignmentEnd=303036
+24	lycéen	lycéen	NOUN	_	_	13	conj:reform	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=302499|WordAlignmentEnd=303036
 25	américain	américain	ADJ	_	Gender=Masc	24	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=303036|WordAlignmentEnd=303636
 26	pour	pour	ADP	_	_	11	mod	_	WordAlignmentBegin=303896|WordAlignmentEnd=304061
 27	lui	lui	PRON	_	Case=Dat|Emph=No|Number=Sing|PronType=Prs	28	comp:obl	_	Person[lex]=3|WordAlignmentBegin=304061|WordAlignmentEnd=304191
