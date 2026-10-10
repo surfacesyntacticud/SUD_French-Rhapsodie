@@ -289,10 +289,10 @@
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=46242|WordAlignmentEnd=46329
 6	philosophe	philosophe	NOUN	_	_	3	conj:appos	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=46329|WordAlignmentEnd=46802
 7	allemand	allemand	ADJ	_	Gender=Masc	6	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=46802|WordAlignmentEnd=47217
-8	parle	parler	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	reparandum	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=47217|WordAlignmentEnd=47767
+8	parle	parler	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3|Scrap=Yes|WordAlignmentBegin=47217|WordAlignmentEnd=47767
 9	de	de	ADP	_	_	8	comp:obl	_	SpaceAfter=No|WordAlignmentBegin=47767|WordAlignmentEnd=48213
-10	,	,	PUNCT	_	_	8	punct	_	WordAlignmentBegin=48213|WordAlignmentEnd=48213
-11	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=48213|WordAlignmentEnd=48317
+10	,	,	PUNCT	_	_	11	punct	_	WordAlignmentBegin=48213|WordAlignmentEnd=48213
+11	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj:reform	_	WordAlignmentBegin=48213|WordAlignmentEnd=48317
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	WordAlignmentBegin=48317|WordAlignmentEnd=48450
 13	définition	définition	NOUN	_	_	11	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=48450|WordAlignmentEnd=49171
 14	de	de	ADP	_	_	20	reparandum	_	WordAlignmentBegin=49171|WordAlignmentEnd=49387
@@ -440,7 +440,7 @@
 156	contre	contre	ADP	_	_	155	comp:obl	_	SpaceAfter=No|WordAlignmentBegin=90841|WordAlignmentEnd=91239
 157	,	,	PUNCT	_	_	158	punct	_	WordAlignmentBegin=91239|WordAlignmentEnd=92063
 158	euh	euh	INTJ	_	_	156	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=92063|WordAlignmentEnd=93219
-159	.	.	PUNCT	_	_	11	punct	_	WordAlignmentBegin=93219|WordAlignmentEnd=93219
+159	.	.	PUNCT	_	_	8	punct	_	WordAlignmentBegin=93219|WordAlignmentEnd=93219
 
 # sent_id = Rhap_D1002-17
 # prosodic_annotation = yes
@@ -738,20 +738,20 @@
 # speaker_id = §LM10
 # macrosyntax = "euh" donc < en y repensant < { on peut comprendre | on peut comprendre } { Nietzsche | ^et { le | l' } affirmation de l'artiste joyeux { qui affirme | ^et qui n'est pas du côté de la maladie romantique } } //
 # text = euh, donc, en y repensant, on peut comprendre, on peut comprendre Nietzsche et le, l'affirmation de l'artiste joyeux qui affirme, et qui n'est pas du côté de la maladie romantique.
-1	euh	euh	INTJ	_	_	7	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=141889|WordAlignmentEnd=142350
+1	euh	euh	INTJ	_	_	14	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=141889|WordAlignmentEnd=142350
 2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=142350|WordAlignmentEnd=142350
-3	donc	donc	ADV	_	_	7	discourse	_	SpaceAfter=No|WordAlignmentBegin=142350|WordAlignmentEnd=142561
+3	donc	donc	ADV	_	_	14	discourse	_	SpaceAfter=No|WordAlignmentBegin=142350|WordAlignmentEnd=142561
 4	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=142561|WordAlignmentEnd=142561
-5	en	en	ADP	_	_	10	mod	_	WordAlignmentBegin=142561|WordAlignmentEnd=142688
+5	en	en	ADP	_	_	14	mod	_	WordAlignmentBegin=142561|WordAlignmentEnd=142688
 6	y	y	PRON	_	PronType=Prs	7	comp:obj	_	Person[lex]=3|WordAlignmentBegin=142688|WordAlignmentEnd=142752
 7	repensant	repenser	VERB	_	VerbForm=Part	5	comp	_	SpaceAfter=No|Tense[denom]=Pres|WordAlignmentBegin=142752|WordAlignmentEnd=143281
 8	,	,	PUNCT	_	_	5	punct	_	WordAlignmentBegin=143281|WordAlignmentEnd=143281
 9	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	10	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=143281|WordAlignmentEnd=143378
-10	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=3|WordAlignmentBegin=143378|WordAlignmentEnd=143533
+10	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	14	reparandum	_	Person[ctxt]=3|WordAlignmentBegin=143378|WordAlignmentEnd=143533
 11	comprendre	comprendre	VERB	_	VerbForm=Inf	14	reparandum	_	SpaceAfter=No|Subject=SubjRaising|WordAlignmentBegin=143533|WordAlignmentEnd=144187
 12	,	,	PUNCT	_	_	11	punct	_	WordAlignmentBegin=144335|WordAlignmentEnd=144335
 13	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	14	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=144335|WordAlignmentEnd=144476
-14	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	10	comp:obj	_	Person[ctxt]=3|WordAlignmentBegin=144476|WordAlignmentEnd=144561
+14	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=3|WordAlignmentBegin=144476|WordAlignmentEnd=144561
 15	comprendre	comprendre	VERB	_	VerbForm=Inf	14	comp:obj	_	Subject=SubjRaising|WordAlignmentBegin=144561|WordAlignmentEnd=144958
 16	Nietzsche	Nietzsche	PROPN	_	_	15	comp:obj	_	Gender[lex]=Unknown|WordAlignmentBegin=144958|WordAlignmentEnd=145234
 17	et	et	CCONJ	_	_	21	cc	_	WordAlignmentBegin=145234|WordAlignmentEnd=145383
@@ -777,5 +777,5 @@
 37	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=152591|WordAlignmentEnd=152749
 38	maladie	maladie	NOUN	_	_	36	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=152749|WordAlignmentEnd=153370
 39	romantique	romantique	ADJ	_	_	38	mod	_	Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=153531|WordAlignmentEnd=154216
-40	.	.	PUNCT	_	_	10	punct	_	WordAlignmentBegin=154216|WordAlignmentEnd=154216
+40	.	.	PUNCT	_	_	14	punct	_	WordAlignmentBegin=154216|WordAlignmentEnd=154216
 

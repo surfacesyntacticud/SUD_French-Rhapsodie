@@ -79,7 +79,7 @@
 5	ben	ben	INTJ	_	_	3	discourse	_	SpaceAfter=No|WordAlignmentBegin=12835|WordAlignmentEnd=12992
 6	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=12992|WordAlignmentEnd=13261
 7	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	8	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=13261|WordAlignmentEnd=13386
-8	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	reparandum	_	SpaceAfter=No|WordAlignmentBegin=13386|WordAlignmentEnd=13553
+8	vais	aller	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|WordAlignmentBegin=13386|WordAlignmentEnd=13553
 9	,	,	PUNCT	_	_	8	punct	_	WordAlignmentBegin=13553|WordAlignmentEnd=13553
 10	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	12	reparandum	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=13553|WordAlignmentEnd=13766
 11	,	,	PUNCT	_	_	10	punct	_	WordAlignmentBegin=13766|WordAlignmentEnd=13766
@@ -89,7 +89,7 @@
 15	mét~	mét~	X	_	ExtPos=NOUN	13	comp:obj	_	SpaceAfter=No|WordAlignmentBegin=14266|WordAlignmentEnd=14506
 16	,	,	PUNCT	_	_	13	punct	_	WordAlignmentBegin=14506|WordAlignmentEnd=14506
 17	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	18	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=14506|WordAlignmentEnd=14696
-18	prends	prendre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1|WordAlignmentBegin=14696|WordAlignmentEnd=14966
+18	prends	prendre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	8	conj:reform	_	Person[ctxt]=1|WordAlignmentBegin=14696|WordAlignmentEnd=14966
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=14966|WordAlignmentEnd=14996
 20	métro	métro	NOUN	_	_	18	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=14996|WordAlignmentEnd=15306
 21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=15306|WordAlignmentEnd=15336
@@ -101,7 +101,7 @@
 27	au	au	ADP	_	_	26	comp	_	WordAlignmentBegin=16693|WordAlignmentEnd=16860
 28	Palais	Palais	PROPN	_	_	27	comp	_	Gender[lex]=Unknown|Overlap=Rhap_D0001-7|WordAlignmentBegin=16860|WordAlignmentEnd=17985
 29	Royal	Royal	PROPN	_	_	28	flat@name	_	Gender[lex]=Unknown|Overlap=Rhap_D0001-7|SpaceAfter=No|WordAlignmentBegin=16860|WordAlignmentEnd=17985
-30	.	.	PUNCT	_	_	18	punct	_	Overlap=Rhap_D0001-4bis|WordAlignmentBegin=17985|WordAlignmentEnd=17985
+30	.	.	PUNCT	_	_	8	punct	_	Overlap=Rhap_D0001-4bis|WordAlignmentBegin=17985|WordAlignmentEnd=17985
 
 # sent_id = Rhap_D0001-7
 # prosodic_annotation = no
@@ -433,18 +433,18 @@
 23	formidable	formidable	ADJ	_	_	25	reparandum	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|Overlap=Rhap_D0001-27|SpaceAfter=No|WordAlignmentBegin=57613|WordAlignmentEnd=58935
 24	,	,	PUNCT	_	_	23	punct	_	WordAlignmentBegin=58935|WordAlignmentEnd=59523
 25	formidable	formidable	ADJ	_	_	22	mod	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=59523|WordAlignmentEnd=60367
-26	,	,	PUNCT	_	_	37	punct	_	WordAlignmentBegin=60367|WordAlignmentEnd=57613
+26	,	,	PUNCT	_	_	32	punct	_	WordAlignmentBegin=60367|WordAlignmentEnd=57613
 27	qui	qui	PRON	_	PronType=Rel	29	reparandum	_	SpaceAfter=No|WordAlignmentBegin=60367|WordAlignmentEnd=60527
 28	,	,	PUNCT	_	_	27	punct	_	WordAlignmentBegin=58935|WordAlignmentEnd=60367
 29	qui	qui	PRON	_	PronType=Rel	31	reparandum	_	SpaceAfter=No|WordAlignmentBegin=60527|WordAlignmentEnd=60617
 30	,	,	PUNCT	_	_	29	punct	_	WordAlignmentBegin=60527|WordAlignmentEnd=60527
 31	qui	qui	PRON	_	PronType=Rel	32	subj	_	WordAlignmentBegin=60617|WordAlignmentEnd=60707
-32	traverse	traverser	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	37	reparandum	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=60707|WordAlignmentEnd=61142
+32	traverse	traverser	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	mod@relcl	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=60707|WordAlignmentEnd=61142
 33	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=61142|WordAlignmentEnd=61337
 34	quar~	quar~	X	_	ExtPos=NOUN	32	comp:obj	_	SpaceAfter=No|WordAlignmentBegin=61337|WordAlignmentEnd=61697
 35	,	,	PUNCT	_	_	32	punct	_	WordAlignmentBegin=61697|WordAlignmentEnd=60617
 36	qui	qui	PRON	_	PronType=Rel	37	subj	_	Overlap=Rhap_D0001-28|WordAlignmentBegin=61697|WordAlignmentEnd=61853
-37	passe	passer	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	mod@relcl	_	Number[ctxt]=Sing|Overlap=Rhap_D0001-28|Person[ctxt]=3|WordAlignmentBegin=61853|WordAlignmentEnd=62418
+37	passe	passer	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	32	conj:reform	_	Number[ctxt]=Sing|Overlap=Rhap_D0001-28|Person[ctxt]=3|WordAlignmentBegin=61853|WordAlignmentEnd=62418
 38	boulevard	boulevard	NOUN	_	_	43	reparandum	_	Gender[lex]=Masc|Number[ctxt]=Sing|Overlap=Rhap_D0001-28|WordAlignmentBegin=62418|WordAlignmentEnd=62728
 39	Saint-Germain	Saint-Germain	PROPN	_	_	38	mod:appos	_	Gender[lex]=Unknown|Overlap=Rhap_D0001-28|SpaceAfter=No|WordAlignmentBegin=62728|WordAlignmentEnd=63676
 40	,	,	PUNCT	_	_	41	punct	_	WordAlignmentBegin=63676|WordAlignmentEnd=63916
@@ -626,16 +626,16 @@
 # speaker_id = §LF1
 # macrosyntax = { monsieur YYY |} $- $L2 ( { oui | oui } "je vois" //= bien sûr "je vois" // ) {| voisin } "euh" { prend ESPERLUETTE | -$ $L1 a } $- le même ( $L2 { oui | oui } // ) -$ discours $- "euh" ( absolument // ) ( $L2 absolument // ) -$ $- $L2 ( { oui | oui | oui } "je sais" // ) ému ( $L2 { oui | oui } // ) -$ quand on passe à l'arrière de Notre-Dame "hein" >+ en $- particulier //
 # text = monsieur YYY, voisin, euh, prend, a le même discours, euh, absolument ému quand on passe à l'arrière de Notre-Dame, hein, en particulier.
-1	monsieur	monsieur	NOUN	_	Shared=Yes	4	reparandum	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=83486|WordAlignmentEnd=83928
+1	monsieur	monsieur	NOUN	_	Shared=Yes	8	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=83486|WordAlignmentEnd=83928
 2	YYY	YYY	PROPN	_	_	1	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=84367|WordAlignmentEnd=84590
 3	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=84590|WordAlignmentEnd=84777
-4	voisin	voisin	NOUN	_	_	8	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing|Overlap=Rhap_D0001-37|SpaceAfter=No|WordAlignmentBegin=84777|WordAlignmentEnd=86514
+4	voisin	voisin	NOUN	_	_	1	conj:appos	_	Gender[lex]=Masc|Number[ctxt]=Sing|Overlap=Rhap_D0001-37|SpaceAfter=No|WordAlignmentBegin=84777|WordAlignmentEnd=86514
 5	,	,	PUNCT	_	_	6	punct	_	Overlap=Rhap_D0001-27bis|WordAlignmentBegin=86514|WordAlignmentEnd=84777
 6	euh	euh	INTJ	_	_	4	discourse:filler	_	Overlap=Rhap_D0001-37|SpaceAfter=No|WordAlignmentBegin=84777|WordAlignmentEnd=86514
 7	,	,	PUNCT	_	_	4	punct	_	Overlap=Rhap_D0001-27bis|WordAlignmentBegin=86514|WordAlignmentEnd=84777
-8	prend	prendre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	10	reparandum	_	Overlap=Rhap_D0001-37|Person[ctxt]=3|SpaceAfter=No|WordAlignmentBegin=84777|WordAlignmentEnd=86514
+8	prend	prendre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Overlap=Rhap_D0001-37|Person[ctxt]=3|SpaceAfter=No|WordAlignmentBegin=84777|WordAlignmentEnd=86514
 9	,	,	PUNCT	_	_	8	punct	_	Overlap=Rhap_D0001-27bis|WordAlignmentBegin=86514|WordAlignmentEnd=87123
-10	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=87123|WordAlignmentEnd=87291
+10	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj:reform	_	WordAlignmentBegin=87123|WordAlignmentEnd=87291
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison|Overlap=Rhap_D0001-39|WordAlignmentBegin=87291|WordAlignmentEnd=87396
 12	même	même	ADJ	_	_	13	mod	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|Overlap=Rhap_D0001-39|WordAlignmentBegin=87396|WordAlignmentEnd=87673
 13	discours	discours	NOUN	_	_	10	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=87673|WordAlignmentEnd=88614
@@ -657,7 +657,7 @@
 29	,	,	PUNCT	_	_	30	punct	_	WordAlignmentBegin=94245|WordAlignmentEnd=94245
 30	en	en	ADP	_	ExtPos=ADV	21	mod	_	Idiom=Yes|WordAlignmentBegin=94245|WordAlignmentEnd=94305
 31	particulier	particulier	ADJ	_	Gender=Masc	30	comp	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|InIdiom=Yes|Number[ctxt]=Sing|Overlap=Rhap_D0001-44|SpaceAfter=No|WordAlignmentBegin=94578|WordAlignmentEnd=96014
-32	.	.	PUNCT	_	_	10	punct	_	Overlap=Rhap_D0001-29|WordAlignmentBegin=96014|WordAlignmentEnd=96014
+32	.	.	PUNCT	_	_	8	punct	_	Overlap=Rhap_D0001-29|WordAlignmentBegin=96014|WordAlignmentEnd=96014
 
 # sent_id = Rhap_D0001-37
 # prosodic_annotation = yes
@@ -2411,11 +2411,11 @@
 4	être	être	AUX	_	VerbForm=Inf	3	comp	_	Scrap=Yes|SpaceAfter=No|Subject=SubjRaising|WordAlignmentBegin=290779|WordAlignmentEnd=290970
 5	,	,	PUNCT	_	_	2	punct	_	WordAlignmentBegin=290970|WordAlignmentEnd=290970
 6	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	7	subj	_	Person[lex]=3|WordAlignmentBegin=290970|WordAlignmentEnd=291039
-7	venait	venir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	11	reparandum	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=291039|WordAlignmentEnd=291331
+7	venait	venir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=291039|WordAlignmentEnd=291331
 8	d~	d~	X	_	_	7	comp:obj	_	SpaceAfter=No|WordAlignmentBegin=291331|WordAlignmentEnd=291524
 9	,	,	PUNCT	_	_	7	punct	_	WordAlignmentBegin=291524|WordAlignmentEnd=291746
 10	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	11	subj@pass	_	Person[lex]=3|WordAlignmentBegin=291746|WordAlignmentEnd=291871
-11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=291871|WordAlignmentEnd=291981
+11	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj:reform	_	WordAlignmentBegin=291871|WordAlignmentEnd=291981
 12	dû	devoir	VERB	_	VerbForm=Part|Voice=Act	11	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=291981|WordAlignmentEnd=292098
 13	être	être	AUX	_	VerbForm=Inf	12	comp:obj	_	Subject=SubjRaising|WordAlignmentBegin=292098|WordAlignmentEnd=292351
 14	construit	construire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Pass	13	comp:aux@pass	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past|WordAlignmentBegin=292351|WordAlignmentEnd=292961
@@ -2425,7 +2425,7 @@
 18	soixante-quatre	soixante-quatre	NUM	_	ExtPos=PROPN	17	mod	_	Number[lex]=Sing|SpaceAfter=No|WordAlignmentBegin=293723|WordAlignmentEnd=295383
 19	,	,	PUNCT	_	_	20	punct	_	WordAlignmentBegin=295383|WordAlignmentEnd=295383
 20	soixante-cinq	soixante-cinq	NUM	_	ExtPos=PROPN	18	conj:coord	_	Number[lex]=Sing|SpaceAfter=No|WordAlignmentBegin=295383|WordAlignmentEnd=296742
-21	.	.	PUNCT	_	_	11	punct	_	WordAlignmentBegin=296742|WordAlignmentEnd=296742
+21	.	.	PUNCT	_	_	7	punct	_	WordAlignmentBegin=296742|WordAlignmentEnd=296742
 
 # sent_id = Rhap_D0001-145
 # prosodic_annotation = yes
