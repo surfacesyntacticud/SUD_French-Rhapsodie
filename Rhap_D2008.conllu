@@ -838,12 +838,12 @@
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=136202|WordAlignmentEnd=136292
 5	possible	possible	ADJ	_	_	4	comp:pred	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=136292|WordAlignmentEnd=136582
 6	que	que	SCONJ	_	_	5	comp:obj@agent	_	WordAlignmentBegin=136582|WordAlignmentEnd=136662
-7	dans	dans	ADP	_	_	23	mod	_	WordAlignmentBegin=136662|WordAlignmentEnd=136782
+7	dans	dans	ADP	_	_	22	mod	_	WordAlignmentBegin=136662|WordAlignmentEnd=136782
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=136782|WordAlignmentEnd=136812
 9	vingt-et-unième	vingt-et-unième	ADJ	_	_	10	mod	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=136812|WordAlignmentEnd=137252
 10	siècle	siècle	NOUN	_	_	7	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=137252|WordAlignmentEnd=137553
 11	,	,	PUNCT	_	_	22	punct	_	WordAlignmentBegin=137553|WordAlignmentEnd=137663
-12	dans	dans	ADP	_	_	23	mod	_	WordAlignmentBegin=137663|WordAlignmentEnd=137778
+12	dans	dans	ADP	_	_	22	mod	_	WordAlignmentBegin=137663|WordAlignmentEnd=137778
 13	certains	certains	DET	_	Gender=Masc|PronType=Ind	14	det	_	Number[lex]=Plur|WordAlignmentBegin=137778|WordAlignmentEnd=138098
 14	pays	pays	NOUN	_	_	12	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur|WordAlignmentBegin=138098|WordAlignmentEnd=138516
 15	mieux	mieux	ADV	_	_	16	mod	_	WordAlignmentBegin=138705|WordAlignmentEnd=138890
@@ -908,7 +908,7 @@
 # speaker_id = §LM25
 # macrosyntax = $L1 alors < { je | je | je } ESPERLUETTE //
 # text = alors, je, je, je…
-1	alors	alors	ADV	_	_	3	discourse	_	SpaceAfter=No|WordAlignmentBegin=149668|WordAlignmentEnd=149833
+1	alors	alors	ADV	_	_	7	discourse	_	SpaceAfter=No|WordAlignmentBegin=149668|WordAlignmentEnd=149833
 2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=149833|WordAlignmentEnd=149833
 3	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	reparandum	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=149833|WordAlignmentEnd=149983
 4	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=149983|WordAlignmentEnd=149983
@@ -1694,7 +1694,7 @@
 # macrosyntax = ^mais en mille neuf cent dix-huit <+ à Rennes par exemple ( soixante-dix mille habitants en mille neuf cent dix-huit // ) <+ il y avait trente baignoires //
 # text = mais en mille neuf cent dix-huit, à Rennes par exemple, soixante-dix mille habitants en mille neuf cent dix-huit, il y avait trente baignoires.
 1	mais	mais	CCONJ	_	_	24	cc	_	WordAlignmentBegin=242030|WordAlignmentEnd=242090
-2	en	en	ADP	_	_	16	reparandum	_	WordAlignmentBegin=242090|WordAlignmentEnd=242150
+2	en	en	ADP	_	_	24	mod	_	WordAlignmentBegin=242090|WordAlignmentEnd=242150
 3	mille	mille	NUM	_	ExtPos=PROPN	2	comp	_	Number[lex]=Sing|WordAlignmentBegin=242150|WordAlignmentEnd=242240
 4	neuf	neuf	NUM	_	ExtPos=PROPN	3	flat	_	Number[lex]=Plur|WordAlignmentBegin=242240|WordAlignmentEnd=242360
 5	cent	cent	NUM	_	ExtPos=PROPN	4	flat	_	Number[lex]=Plur|WordAlignmentBegin=242360|WordAlignmentEnd=242510
@@ -1707,8 +1707,8 @@
 12	,	,	PUNCT	_	_	15	punct	_	WordAlignmentBegin=243983|WordAlignmentEnd=243983
 13	soixante-dix	soixante-dix	NUM	_	ExtPos=DET	14	det	_	Number[lex]=Plur|WordAlignmentBegin=243983|WordAlignmentEnd=244352
 14	mille	mille	NUM	_	ExtPos=DET	15	det	_	Number[lex]=Plur|WordAlignmentBegin=244352|WordAlignmentEnd=244482
-15	habitants	habitant	NOUN	_	_	9	mod	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|WordAlignmentBegin=244482|WordAlignmentEnd=244782
-16	en	en	ADP	_	_	24	mod	_	WordAlignmentBegin=244782|WordAlignmentEnd=244812
+15	habitants	habitant	NOUN	_	_	9	parataxis:parenth	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|WordAlignmentBegin=244482|WordAlignmentEnd=244782
+16	en	en	ADP	_	_	15	mod	_	WordAlignmentBegin=244782|WordAlignmentEnd=244812
 17	mille	mille	NUM	_	ExtPos=PROPN	16	comp	_	Number[lex]=Sing|WordAlignmentBegin=244812|WordAlignmentEnd=244872
 18	neuf	neuf	NUM	_	ExtPos=PROPN	17	flat	_	Number[lex]=Plur|WordAlignmentBegin=244872|WordAlignmentEnd=244972
 19	cent	cent	NUM	_	ExtPos=PROPN	18	flat	_	Number[lex]=Plur|WordAlignmentBegin=244972|WordAlignmentEnd=245092
@@ -1909,12 +1909,12 @@
 # speaker_id = §LM26
 # macrosyntax = ^donc "euh" les scénarios "euh" catastrophes qu'on a pu voir éclore { { de ci ( $L1 oui ) "euh" | de ci } | de là } { ne me paraissent pas ( ^mais encore une fois je suis pas { un | un | un } devin // ) | ne me paraissent pas } très probables //
 # text = donc, euh, les scénarios, euh, catastrophes qu'on a pu voir éclore de ci, euh, de ci de là, ne me paraissent pas, mais encore une fois je suis pas un, un, un devin, ne me paraissent pas très probables.
-1	donc	donc	ADV	_	_	29	mod	_	SpaceAfter=No|WordAlignmentBegin=270621|WordAlignmentEnd=270821
+1	donc	donc	ADV	_	_	48	mod	_	SpaceAfter=No|WordAlignmentBegin=270621|WordAlignmentEnd=270821
 2	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=270821|WordAlignmentEnd=270821
 3	euh	euh	INTJ	_	_	1	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=270821|WordAlignmentEnd=270915
 4	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=270915|WordAlignmentEnd=271182
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=271182|WordAlignmentEnd=271257
-6	scénarios	scénario	NOUN	_	Shared=Yes	29	subj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=271257|WordAlignmentEnd=271877
+6	scénarios	scénario	NOUN	_	Shared=Yes	48	subj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=271257|WordAlignmentEnd=271877
 7	,	,	PUNCT	_	_	8	punct	_	WordAlignmentBegin=271877|WordAlignmentEnd=271877
 8	euh	euh	INTJ	_	_	6	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=271877|WordAlignmentEnd=272007
 9	,	,	PUNCT	_	_	10	punct	_	WordAlignmentBegin=272007|WordAlignmentEnd=272007
@@ -1945,7 +1945,7 @@
 34	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	35	det	_	WordAlignmentBegin=276437|WordAlignmentEnd=276497
 35	fois	fois	NOUN	_	_	33	mod	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=276497|WordAlignmentEnd=276757
 36	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	37	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=276757|WordAlignmentEnd=276927
-37	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	29	parataxis:parenth	_	WordAlignmentBegin=276927|WordAlignmentEnd=277097
+37	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	48	parataxis:parenth	_	WordAlignmentBegin=276927|WordAlignmentEnd=277097
 38	pas	pas	ADV	_	Polarity=Neg	37	mod	_	WordAlignmentBegin=277097|WordAlignmentEnd=277440
 39	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	41	reparandum	_	SpaceAfter=No|WordAlignmentBegin=277676|WordAlignmentEnd=278101
 40	,	,	PUNCT	_	_	39	punct	_	WordAlignmentBegin=278101|WordAlignmentEnd=278101
@@ -1953,7 +1953,7 @@
 42	,	,	PUNCT	_	_	41	punct	_	WordAlignmentBegin=278171|WordAlignmentEnd=278171
 43	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	44	det	_	WordAlignmentBegin=278171|WordAlignmentEnd=278221
 44	devin	devin	NOUN	_	_	37	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=278221|WordAlignmentEnd=278681
-45	,	,	PUNCT	_	_	29	punct	_	WordAlignmentBegin=278681|WordAlignmentEnd=278681
+45	,	,	PUNCT	_	_	37	punct	_	WordAlignmentBegin=278681|WordAlignmentEnd=278681
 46	ne	ne	ADV	_	Polarity=Neg	48	mod	_	WordAlignmentBegin=278681|WordAlignmentEnd=278864
 47	me	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	48	comp:obl	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=278864|WordAlignmentEnd=278971
 48	paraissent	paraître	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=278971|WordAlignmentEnd=279271
@@ -3438,7 +3438,7 @@
 6	c'	ce	PRON	_	PronType=Dem	7	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=469084|WordAlignmentEnd=469144
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=469144|WordAlignmentEnd=469184
 8	qu'	que	SCONJ	_	_	7	comp:pred	_	SpaceAfter=No|WordAlignmentBegin=469184|WordAlignmentEnd=469214
-9	à	à	ADP	_	_	37	mod	_	WordAlignmentBegin=469214|WordAlignmentEnd=469264
+9	à	à	ADP	_	_	35	mod	_	WordAlignmentBegin=469214|WordAlignmentEnd=469264
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=469264|WordAlignmentEnd=469344
 11	fin	fin	NOUN	_	_	9	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=469344|WordAlignmentEnd=469509
 12	de	de	ADP	_	_	11	udep	_	WordAlignmentBegin=469509|WordAlignmentEnd=469584
@@ -3490,7 +3490,7 @@
 58	c'est-à-dire	c'est-à-dire	CCONJ	_	_	61	cc	_	WordAlignmentBegin=478476|WordAlignmentEnd=478746
 59	peut-être	peut-être	ADV	_	_	61	mod	_	WordAlignmentBegin=478746|WordAlignmentEnd=478956
 60	assez	assez	ADV	_	_	61	mod	_	WordAlignmentBegin=478956|WordAlignmentEnd=479146
-61	précocement	précocement	ADV	_	_	56	conj:appos	_	SpaceAfter=No|WordAlignmentBegin=479146|WordAlignmentEnd=479651
+61	précocement	précocement	ADV	_	_	54	conj:appos	_	SpaceAfter=No|WordAlignmentBegin=479146|WordAlignmentEnd=479651
 62	.	.	PUNCT	_	_	7	punct	_	WordAlignmentBegin=479651|WordAlignmentEnd=479651
 
 # sent_id = Rhap_D2008-158

@@ -350,13 +350,13 @@
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=45952|WordAlignmentEnd=46062
 11	dit	dire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	10	comp:aux@tense	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|SpaceAfter=No|Tense[denom]=Past|WordAlignmentBegin=46062|WordAlignmentEnd=46242
 12	,	,	PUNCT	_	_	19	punct	_	WordAlignmentBegin=46242|WordAlignmentEnd=46242
-13	bon	bon	INTJ	_	_	16	discourse	_	SpaceAfter=No|WordAlignmentBegin=46242|WordAlignmentEnd=46402
+13	bon	bon	INTJ	_	_	19	discourse	_	SpaceAfter=No|WordAlignmentBegin=46242|WordAlignmentEnd=46402
 14	,	,	PUNCT	_	_	13	punct	_	WordAlignmentBegin=46402|WordAlignmentEnd=46402
 15	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs|Shared=Yes	16	subj	_	Person[lex]=3|WordAlignmentBegin=46402|WordAlignmentEnd=46702
-16	f~	f~	X	_	ExtPos=VERB	19	reparandum	_	Reported=Yes|SpaceAfter=No|WordAlignmentBegin=46702|WordAlignmentEnd=46742
+16	f~	f~	X	_	ExtPos=VERB	19	reparandum	_	SpaceAfter=No|WordAlignmentBegin=46702|WordAlignmentEnd=46742
 17	,	,	PUNCT	_	_	16	punct	_	WordAlignmentBegin=46742|WordAlignmentEnd=46742
 18	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	19	subj@expl	_	Person[lex]=3|WordAlignmentBegin=46742|WordAlignmentEnd=46942
-19	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	11	comp:obj	_	Person[ctxt]=3|WordAlignmentBegin=46942|WordAlignmentEnd=47072
+19	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	11	comp:obj	_	Person[ctxt]=3|Reported=Yes|WordAlignmentBegin=46942|WordAlignmentEnd=47072
 20	partir	partir	VERB	_	VerbForm=Inf	19	comp:obj	_	SpaceAfter=No|Subject=NoRaising|WordAlignmentBegin=47072|WordAlignmentEnd=47542
 21	,	,	PUNCT	_	_	20	punct	_	WordAlignmentBegin=47542|WordAlignmentEnd=47542
 22	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	23	subj@expl	_	Person[lex]=3|WordAlignmentBegin=47542|WordAlignmentEnd=47632
@@ -548,7 +548,7 @@
 # speaker_id = §LF5
 # macrosyntax = "voyez" { c'était | c'était } effarant //
 # text = voyez, c'était, c'était effarant.
-1	voyez	voir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	discourse	_	SpaceAfter=No|WordAlignmentBegin=70622|WordAlignmentEnd=70948
+1	voyez	voir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	discourse	_	SpaceAfter=No|WordAlignmentBegin=70622|WordAlignmentEnd=70948
 2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=70948|WordAlignmentEnd=70948
 3	c'	ce	PRON	_	PronType=Dem	4	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=70948|WordAlignmentEnd=71010
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	reparandum	_	SpaceAfter=No|WordAlignmentBegin=71010|WordAlignmentEnd=71475

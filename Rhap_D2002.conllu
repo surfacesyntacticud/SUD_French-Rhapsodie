@@ -101,12 +101,12 @@
 # speaker_id = §LF16
 # macrosyntax = "enfin" "je veux dire" { c'est | c'est | c'est } { très | très } varié //
 # text = enfin, je veux dire, c'est, c'est, c'est très, très varié.
-1	enfin	enfin	ADV	_	_	8	discourse	_	SpaceAfter=No|WordAlignmentBegin=20920|WordAlignmentEnd=21205
-2	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=21205|WordAlignmentEnd=21205
+1	enfin	enfin	ADV	_	_	14	discourse	_	SpaceAfter=No|WordAlignmentBegin=20920|WordAlignmentEnd=21205
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=21205|WordAlignmentEnd=21205
 3	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=21205|WordAlignmentEnd=21315
-4	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	1	discourse	_	Person[ctxt]=1|WordAlignmentBegin=21315|WordAlignmentEnd=21435
+4	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	14	discourse	_	Person[ctxt]=1|WordAlignmentBegin=21315|WordAlignmentEnd=21435
 5	dire	dire	VERB	_	VerbForm=Inf	4	comp:obj	_	SpaceAfter=No|Subject=SubjRaising|WordAlignmentBegin=21435|WordAlignmentEnd=21605
-6	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=21605|WordAlignmentEnd=21605
+6	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=21605|WordAlignmentEnd=21605
 7	c'	ce	PRON	_	PronType=Dem	8	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=21605|WordAlignmentEnd=21745
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	reparandum	_	SpaceAfter=No|WordAlignmentBegin=21745|WordAlignmentEnd=21880
 9	,	,	PUNCT	_	_	8	punct	_	WordAlignmentBegin=21880|WordAlignmentEnd=22380
@@ -492,7 +492,7 @@
 21	sur	sur	ADP	_	_	24	comp:obl	_	WordAlignmentBegin=76920|WordAlignmentEnd=77020
 22	laquelle	lequel	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	21	comp	_	WordAlignmentBegin=77020|WordAlignmentEnd=77230
 23	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	24	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=77230|WordAlignmentEnd=77340
-24	travaille	travailler	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	19	conj:coord	_	Person[ctxt]=1|WordAlignmentBegin=77340|WordAlignmentEnd=77610
+24	travaille	travailler	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	19	conj:reform	_	Person[ctxt]=1|WordAlignmentBegin=77340|WordAlignmentEnd=77610
 25	en	en	ADP	_	_	24	mod	_	WordAlignmentBegin=77610|WordAlignmentEnd=77739
 26	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	27	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=77739|WordAlignmentEnd=77870
 27	moment	moment	NOUN	_	_	25	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=77870|WordAlignmentEnd=78107
@@ -505,8 +505,8 @@
 34	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	WordAlignmentBegin=80164|WordAlignmentEnd=80286
 35	extrêmement	extrêmement	ADV	_	_	36	mod	_	WordAlignmentBegin=80286|WordAlignmentEnd=80837
 36	précieux	précieux	ADJ	_	Gender=Masc	34	comp:pred	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=80837|WordAlignmentEnd=81361
-37	atmosphériquement	atmosphériquement	ADV	_	_	36	mod	_	WordAlignmentBegin=81475|WordAlignmentEnd=82240
-38	comme	comme	ADP	_	_	37	comp:obl	_	WordAlignmentBegin=82240|WordAlignmentEnd=82390
+37	atmosphériquement	atmosphériquement	ADV	_	_	34	mod	_	WordAlignmentBegin=81475|WordAlignmentEnd=82240
+38	comme	comme	ADP	_	_	34	mod	_	WordAlignmentBegin=82240|WordAlignmentEnd=82390
 39	ça	ça	PRON	_	PronType=Dem	38	comp	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=82390|WordAlignmentEnd=82535
 40	.	.	PUNCT	_	_	7	punct	_	WordAlignmentBegin=82535|WordAlignmentEnd=82535
 
@@ -1441,11 +1441,11 @@
 4	ça	ça	PRON	_	PronType=Dem	5	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=233950|WordAlignmentEnd=234186
 5	paraît	paraître	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=3|WordAlignmentBegin=234821|WordAlignmentEnd=235146
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	reparandum	_	SpaceAfter=No|WordAlignmentBegin=235146|WordAlignmentEnd=235618
-7	,	,	PUNCT	_	_	8	punct	_	WordAlignmentBegin=235618|WordAlignmentEnd=237046
-8	oui	oui	INTJ	_	_	6	discourse	_	SpaceAfter=No|WordAlignmentBegin=237046|WordAlignmentEnd=237481
-9	,	,	PUNCT	_	_	10	punct	_	WordAlignmentBegin=237481|WordAlignmentEnd=237481
-10	enfin	enfin	ADV	_	_	6	discourse	_	SpaceAfter=No|WordAlignmentBegin=237481|WordAlignmentEnd=237731
-11	,	,	PUNCT	_	_	6	punct	_	WordAlignmentBegin=237731|WordAlignmentEnd=237731
+7	,	,	PUNCT	_	_	6	punct	_	WordAlignmentBegin=235618|WordAlignmentEnd=237046
+8	oui	oui	INTJ	_	_	13	discourse	_	SpaceAfter=No|WordAlignmentBegin=237046|WordAlignmentEnd=237481
+9	,	,	PUNCT	_	_	8	punct	_	WordAlignmentBegin=237481|WordAlignmentEnd=237481
+10	enfin	enfin	ADV	_	_	13	discourse	_	SpaceAfter=No|WordAlignmentBegin=237481|WordAlignmentEnd=237731
+11	,	,	PUNCT	_	_	10	punct	_	WordAlignmentBegin=237731|WordAlignmentEnd=237731
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	LiaisonAfter=Yes|WordAlignmentBegin=237731|WordAlignmentEnd=237821
 13	exercice	exercice	NOUN	_	_	5	comp:pred	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=237821|WordAlignmentEnd=238281
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	InIdiom=Yes|WordAlignmentBegin=238281|WordAlignmentEnd=238341
