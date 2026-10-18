@@ -579,7 +579,7 @@
 # speaker_id = §LM49
 # macrosyntax = ^et "euh" { il faut | il faut } apprendre { à | à } { s~ | "je dirais" se | se } faire à ces variations //
 # text = et, euh, il faut, il faut apprendre à, à s~, je dirais, se, se faire à ces variations.
-1	et	et	CCONJ	_	_	6	cc	_	SpaceAfter=No|WordAlignmentBegin=101973|WordAlignmentEnd=102288
+1	et	et	CCONJ	_	_	9	cc	_	SpaceAfter=No|WordAlignmentBegin=101973|WordAlignmentEnd=102288
 2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=102288|WordAlignmentEnd=102288
 3	euh	euh	INTJ	_	_	6	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=102288|WordAlignmentEnd=102898
 4	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=102898|WordAlignmentEnd=102898
@@ -1063,10 +1063,10 @@
 # speaker_id = §LM49
 # macrosyntax = ^et { ça | ça } ESPERLUETTE //
 # text = et ça, ça…
-1	et	et	CCONJ	_	_	2	cc	_	WordAlignmentBegin=190951|WordAlignmentEnd=191321
+1	et	et	CCONJ	_	_	4	cc	_	Head=Position|WordAlignmentBegin=190951|WordAlignmentEnd=191321
 2	ça	ça	PRON	_	PronType=Dem	4	reparandum	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=191321|WordAlignmentEnd=191711
 3	,	,	PUNCT	_	_	2	punct	_	WordAlignmentBegin=191711|WordAlignmentEnd=191711
-4	ça	ça	PRON	_	PronType=Dem	0	root	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=191711|WordAlignmentEnd=192171
+4	ça	ça	PRON	_	PronType=Dem	0	root	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|Promotion=subj|SpaceAfter=No|WordAlignmentBegin=191711|WordAlignmentEnd=192171
 5	…	…	PUNCT	_	_	4	punct	_	WordAlignmentBegin=192171|WordAlignmentEnd=192171
 
 # sent_id = Rhap_M2002-37
@@ -1282,7 +1282,7 @@
 # speaker = L1
 # speaker_id = §LM49
 # macrosyntax = "euh" { jusqu'à la renaissance | ^et y compris { un peu l~ ESPERLUETTE | un ESPERLUETTE | jusqu'au dix-huitième siècle } } <+ { le point de vue { du | de } la fabrication | le point de vue de la production } de l'art est plus important que { le point de vue de l'expérience de la réception de l'art | "euh" le point de vue du spectateur } //
-# text = euh, jusqu'à la renaissance et y compris un peu l~, un, jusqu'au dix-huitième siècle, le point de vue du , de la fabrication, le point de vue de la production de l'art est plus important que le point de vue de l'expérience de la réception de l'art, euh, le point de vue du spectateur.
+# text = euh, jusqu'à la renaissance et y compris un peu l~, un, jusqu'au dix-huitième siècle, le point de vue du, de la fabrication, le point de vue de la production de l'art est plus important que le point de vue de l'expérience de la réception de l'art, euh, le point de vue du spectateur.
 1	euh	euh	INTJ	_	_	41	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=233968|WordAlignmentEnd=234555
 2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=234555|WordAlignmentEnd=234555
 3	jusqu'	jusque	ADP	_	_	41	mod	_	SpaceAfter=No|WordAlignmentBegin=234555|WordAlignmentEnd=234740
@@ -1823,11 +1823,11 @@
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	WordAlignmentBegin=338500|WordAlignmentEnd=338640
 6	fonctions	fonction	NOUN	_	_	4	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|WordAlignmentBegin=338640|WordAlignmentEnd=339020
 7	politiques	politique	ADJ	_	_	6	mod	_	Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|WordAlignmentBegin=339020|WordAlignmentEnd=339728
-8	et	et	CCONJ	_	_	9	cc	_	WordAlignmentBegin=340065|WordAlignmentEnd=340300
+8	et	et	CCONJ	_	_	11	cc	_	WordAlignmentBegin=340065|WordAlignmentEnd=340300
 9	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	11	reparandum	_	Person[ctxt]=3|SpaceAfter=No|WordAlignmentBegin=340300|WordAlignmentEnd=340710
 10	,	,	PUNCT	_	_	9	punct	_	WordAlignmentBegin=340710|WordAlignmentEnd=340851
 11	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	3	conj:coord	_	Person[ctxt]=3|WordAlignmentBegin=340851|WordAlignmentEnd=340926
-12	avoir	avoir	VERB	_	VerbForm=Inf	9	comp:obj	_	Subject=SubjRaising|WordAlignmentBegin=340926|WordAlignmentEnd=341086
+12	avoir	avoir	VERB	_	VerbForm=Inf	11	comp:obj	_	Subject=SubjRaising|WordAlignmentBegin=340926|WordAlignmentEnd=341086
 13	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	14	det	_	WordAlignmentBegin=341086|WordAlignmentEnd=341236
 14	fonctions	fonction	NOUN	_	_	12	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|WordAlignmentBegin=341236|WordAlignmentEnd=341626
 15	décoratives	décoratif	ADJ	_	Gender=Fem	14	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|WordAlignmentBegin=341626|WordAlignmentEnd=342326

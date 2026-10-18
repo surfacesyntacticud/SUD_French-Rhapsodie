@@ -4,12 +4,12 @@
 # speaker_id = §LF25
 # macrosyntax = alors < "euh" la cathédrale Notre-Dame < alors < "euh" en fait < elle ESPERLUETTE //
 # text = alors, euh, la cathédrale Notre-Dame, alors, euh, en fait, elle…
-1	alors	alors	ADV	_	_	6	mod	_	SpaceAfter=No|WordAlignmentBegin=1164|WordAlignmentEnd=1476
+1	alors	alors	ADV	_	_	16	mod	_	SpaceAfter=No|WordAlignmentBegin=1164|WordAlignmentEnd=1476
 2	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=1476|WordAlignmentEnd=1476
 3	euh	euh	INTJ	_	_	1	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=1476|WordAlignmentEnd=1573
 4	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=1573|WordAlignmentEnd=1573
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=1573|WordAlignmentEnd=1732
-6	cathédrale	cathédrale	NOUN	_	_	0	root	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=1732|WordAlignmentEnd=2294
+6	cathédrale	cathédrale	NOUN	_	_	16	dislocated:subj	_	Gender[lex]=Fem|Head=Position|Number[ctxt]=Sing|WordAlignmentBegin=1732|WordAlignmentEnd=2294
 7	Notre-Dame	Notre-Dame	PROPN	_	_	6	mod:appos	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=2294|WordAlignmentEnd=2961
 8	,	,	PUNCT	_	_	9	punct	_	WordAlignmentBegin=2961|WordAlignmentEnd=2961
 9	alors	alors	ADV	_	_	6	discourse	_	SpaceAfter=No|WordAlignmentBegin=2961|WordAlignmentEnd=3364
@@ -19,8 +19,8 @@
 13	en	en	ADP	_	ExtPos=ADV	6	discourse	_	Idiom=Yes|WordAlignmentBegin=4060|WordAlignmentEnd=4194
 14	fait	fait	NOUN	_	_	13	comp	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=4194|WordAlignmentEnd=4562
 15	,	,	PUNCT	_	_	16	punct	_	WordAlignmentBegin=4562|WordAlignmentEnd=4562
-16	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	6	parataxis	_	Person[lex]=3|Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=4562|WordAlignmentEnd=4782
-17	…	…	PUNCT	_	_	6	punct	_	WordAlignmentBegin=4782|WordAlignmentEnd=4782
+16	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	0	root	_	Person[lex]=3|Promotion=subj|Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=4562|WordAlignmentEnd=4782
+17	…	…	PUNCT	_	_	16	punct	_	WordAlignmentBegin=4782|WordAlignmentEnd=4782
 
 # sent_id = Rhap_M0003-2
 # prosodic_annotation = yes

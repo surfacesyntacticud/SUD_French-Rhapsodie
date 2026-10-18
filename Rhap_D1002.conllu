@@ -451,7 +451,7 @@
 1	Nietzsche	Nietzsche	PROPN	_	_	2	subj	_	Gender[lex]=Unknown|WordAlignmentBegin=93219|WordAlignmentEnd=93719
 2	dit	dire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=3|WordAlignmentBegin=93719|WordAlignmentEnd=93926
 3	tout	tout	ADJ	_	Gender=Masc	4	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=93926|WordAlignmentEnd=94074
-4	ça	ça	PRON	_	PronType=Dem	7	dislocated:subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=94074|WordAlignmentEnd=94335
+4	ça	ça	PRON	_	PronType=Dem	17	dislocated:subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=94074|WordAlignmentEnd=94335
 5	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=94335|WordAlignmentEnd=94335
 6	c'	ce	PRON	_	PronType=Dem	7	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=94335|WordAlignmentEnd=94407
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	reparandum	_	Reported=Yes|WordAlignmentBegin=94407|WordAlignmentEnd=94497
@@ -464,7 +464,7 @@
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	unk	_	HasSpokenGender=OnlySingExceptWithLiaison|Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=96225|WordAlignmentEnd=96568
 15	,	,	PUNCT	_	_	13	punct	_	WordAlignmentBegin=96568|WordAlignmentEnd=96568
 16	c'	ce	PRON	_	PronType=Dem	17	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=96788|WordAlignmentEnd=96903
-17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	WordAlignmentBegin=96568|WordAlignmentEnd=96927
+17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	Reported=Yes|WordAlignmentBegin=96568|WordAlignmentEnd=96927
 18	de	de	ADP	_	ExtPos=DET	20	det	_	Idiom=Yes|WordAlignmentBegin=96927|WordAlignmentEnd=96953
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	unk	_	HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes|WordAlignmentBegin=96953|WordAlignmentEnd=97085
 20	conception	conception	NOUN	_	_	17	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=97085|WordAlignmentEnd=97695
@@ -560,15 +560,15 @@
 16	,	,	PUNCT	_	_	17	punct	_	WordAlignmentBegin=112190|WordAlignmentEnd=112190
 17	là-dedans	là-dedans	ADV	_	_	13	mod	_	SpaceAfter=No|WordAlignmentBegin=112190|WordAlignmentEnd=112602
 18	,	,	PUNCT	_	_	29	punct	_	WordAlignmentBegin=112602|WordAlignmentEnd=112961
-19	et	et	CCONJ	_	_	29	cc	_	WordAlignmentBegin=112961|WordAlignmentEnd=113084
-20	donc	donc	ADV	_	_	29	mod	_	SpaceAfter=No|WordAlignmentBegin=113084|WordAlignmentEnd=113342
+19	et	et	CCONJ	_	_	29	cc	_	Head=Position|WordAlignmentBegin=112961|WordAlignmentEnd=113084
+20	donc	donc	ADV	_	_	29	mod	_	Head=Position|SpaceAfter=No|WordAlignmentBegin=113084|WordAlignmentEnd=113342
 21	,	,	PUNCT	_	_	20	punct	_	WordAlignmentBegin=113342|WordAlignmentEnd=113342
 22	y	y	PRON	_	PronType=Prs	23	comp:obl	_	InIdiom=Yes|Person[lex]=3|WordAlignmentBegin=113342|WordAlignmentEnd=113524
-23	compris	comprendre	VERB	_	ExtPos=CCONJ|Gender=Masc|VerbForm=Part	29	cc	_	Idiom=Yes|Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|SpaceAfter=No|Tense[denom]=Past|WordAlignmentBegin=113524|WordAlignmentEnd=114024
+23	compris	comprendre	VERB	_	ExtPos=CCONJ|Gender=Masc|VerbForm=Part	29	cc	_	Head=Position|Idiom=Yes|Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|SpaceAfter=No|Tense[denom]=Past|WordAlignmentBegin=113524|WordAlignmentEnd=114024
 24	,	,	PUNCT	_	_	25	punct	_	WordAlignmentBegin=114024|WordAlignmentEnd=114024
 25	euh	euh	INTJ	_	_	27	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=114024|WordAlignmentEnd=114372
 26	,	,	PUNCT	_	_	25	punct	_	WordAlignmentBegin=114372|WordAlignmentEnd=114792
-27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison|Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=114792|WordAlignmentEnd=115070
+27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison|Head=Position|Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=114792|WordAlignmentEnd=115070
 28	,	,	PUNCT	_	_	27	punct	_	WordAlignmentBegin=115070|WordAlignmentEnd=115070
 29	l~	l~	X	_	ExtPos=DET	13	conj:coord	_	Promotion=det|Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=115070|WordAlignmentEnd=115214
 30	…	…	PUNCT	_	_	8	punct	_	WordAlignmentBegin=115347|WordAlignmentEnd=115347
