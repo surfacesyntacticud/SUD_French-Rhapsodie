@@ -1,5 +1,5 @@
 # Universal variables
-GREW=grew
+GREW=grew_dev
 GRS_CONVERT=/Users/guillaum/github/surfacesyntacticud/tools/converter/grs
 UD_TOOLS=/Users/guillaum/github/UniversalDependencies/tools
 SUD_TOOLS=/Users/guillaum/github/surfacesyntacticud/tools/MISC
@@ -18,8 +18,8 @@ doc:
 	@echo "Production of regular SUD from prosody_pauses:"
 	@echo "make build"
 	@echo "-------------------------------------------------------"
-	@echo "make convert  ---> convert to UD"
 	@echo "make norm     ---> normalise with Grew"
+	@echo "make ud       ---> convert to UD"
 	@echo "make validate ---> UD validation of last conversion"
 	@echo "-------------------------------------------------------"
 
@@ -39,39 +39,15 @@ validate:
 	${GREW} validate ${UD_CORPUS}
 	cat ${UD_BUILD_DIR}/_build_grew/${UD_CORPUS}/valid_ud.txt
 
-# convert:
-# 	mkdir -p ${ORIGINAL_SPLIT}
-# 	for infile in *.conllu ; do \
-# 		outfile=`echo $$infile | sed "s+^+${ORIGINAL_SPLIT}/+"` ; \
-# 		echo "$$infile --> $$outfile" ; \
-# 		${GREW} transform -config sud -grs ${GRS_CONVERT}/fr_SUD_to_UD.grs -strat fr_main -i $$infile -o $$outfile ; \
-# 	done
-# 	cp -f merge.json ${ORIGINAL_SPLIT}
-# 	cp -f metadata.json ${ORIGINAL_SPLIT}
-# 	python3 ${UNIDIVE}/merge_and_unshare.py ${UD_FOLDER}
-
-# validate:
-# 	for file in ${ORIGINAL_SPLIT}/*.conllu ; do \
-# 		echo `basename $$file` ; \
-# 		${UD_TOOLS}/validate.py --lang=${LANG} --max-err=0 $$file || true ; \
-# 	done
-
 norm:
 	for file in *.conllu ; do \
 		${GREW} transform -i $$file -o tmp ; \
 		mv -f tmp $$file ; \
 	done
 
-# Running a GRS on *.conllu --> should not be used. Upstream maintenance in prosody_pauses
-run_do_not_use:
+run:
 	for file in *.conllu ; do \
-		${GREW} transform -config sud -grs ../extpos.grs -i $$file -o tmp ; \
-		mv -f tmp $$file ; \
-	done
-
-remove_old_id:
-	for file in *.conllu ; do \
-		cat $$file | grep -v "# old_id = " > tmp ; \
+		${GREW} transform -config sud -grs repair.grs -i $$file -o tmp ; \
 		mv -f tmp $$file ; \
 	done
 
@@ -101,7 +77,6 @@ size:
 build:
 	@make step1
 	@make step2
-	@make step3
 
 # ===========================================================================
 # making everything build for the prosody version produced in https://github.com/Paz2311/StageModyco
@@ -129,19 +104,6 @@ step2:
 	done
 	rm -f tmp
 
-# step3
-# build the corpus without the amalgams (applying grs/split_amalgam.grs)
-# output goes to s_words
-step3:
-	mkdir -p s_words
-	for infile in *.conllu ; do \
-		outfile=`echo s_words/$$infile` ; \
-		echo "$$infile --> $$outfile" ; \
-		${GREW} transform -config sud -grs grs/split_amalgam.grs -i $$infile -o tmp ; \
-		cat tmp | sed "s/##SAN##	_	_	_	_	_	_	_	_/	_	_	_	_	_	_	_	SpaceAfter=No/" > $$outfile ; \
-	done
-	rm -f tmp
-
 # =========================================================
 
 GMQ=/Users/guillaum/github/grew-nlp/grew_match_quick
@@ -158,3 +120,14 @@ FEATS:
 MISC:
 	cat *.conllu | grep -v "^#" | grep -v "^$$" | cut -f 10 | grep -v "^_$$" | tr "|" "\n" | cut -f 1 -d "=" | sort | uniq -c | sort -nr
 
+db:
+	python3 /Users/guillaum/github/UniDive/SpLAn-UD/co-construction/sb_to_db.py \
+	--config sud \
+	--strat db \
+	. \
+	SUD_French-Rhapsodie@db
+	python3 /Users/guillaum/github/UniDive/SpLAn-UD/co-construction/sb_to_db.py \
+	--config sud \
+	--strat dbi \
+	. \
+	SUD_French-Rhapsodie@dbi
